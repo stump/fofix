@@ -22,41 +22,61 @@
 
 import sys
 import os
+import subprocess
+import re
+
 MAJOR_VERSION = 4
 MINOR_VERSION = 0
-REVISION = 0
+MICRO_VERSION = 0
+PROGRAM_NAME = 'FoFiX'
+PROGRAM_UNIXSTYLE_NAME = 'fofix'
 URL = 'http://fofix.googlecode.com'
+RELEASE_ID = 'development'
 
-def appName():
-  return "fofix"
+def _getTagLine():
+  import VFS  # can't be done at top level due to circular import issues...
 
-def appNameSexy():
-  return "FoFiX"
+  # Look for a git repository.
+  if VFS.isdir('/gameroot/.git'):
+    # HEAD is in the form "ref: refs/heads/master\n"
+    headref = VFS.open('/gameroot/.git/HEAD').read()[5:].strip()
+    # The ref is in the form "sha1-hash\n"
+    headhash = VFS.open('/gameroot/.git/' + headref).read().strip()
+    shortref = re.sub('^refs/(heads/)?', '', headref)
+    return 'development (git %s %s)' % (shortref, headhash[:7])
+
+  # Look for the svn administrative directory.
+  elif VFS.isdir('/gameroot/src/.svn'):
+    revision = VFS.open('/gameroot/src/.svn/entries').readlines()[3].strip()
+    return 'development (svn r%s)' % revision
+
+  else:
+    return None
 
 def revision():
-  import svntag
-  try:
-    revision = "development (r%d)" % int(svntag.get_svn_info(os.path.dirname(__file__))['revnum'])
-  except:
-    revision = "development"
-  return revision
+  rev = _getTagLine()
+  if rev is None:
+    rev = RELEASE_ID
+  return rev
 
 def versionNum():
-  version = "%d.%d.%d" %(MAJOR_VERSION, MINOR_VERSION, REVISION)
-  return version
+  return "%d.%d.%d" % (MAJOR_VERSION, MINOR_VERSION, MICRO_VERSION)
+
+## Are we running from a py2exe'd Windows executable? (Because typing the
+# test out explicitly everywhere detracts from code readability.)
+# @return boolean for whether this is the Windows executable
+def isWindowsExe():
+  return hasattr(sys, 'frozen') and sys.frozen == 'windows_exe'
 
 # evilynux: Returns version number w.r.t. frozen state
 def version():
-  if hasattr(sys, 'frozen'):
+  if isWindowsExe():
     # stump: if we've been py2exe'd, read our version string from the exe.
-    if sys.frozen == 'windows_exe':
-      import win32api
-      us = os.path.abspath(unicode(sys.executable, sys.getfilesystemencoding()))
-      version = win32api.GetFileVersionInfo(us, r'\StringFileInfo\%04x%04x\ProductVersion' % win32api.GetFileVersionInfo(us, r'\VarFileInfo\Translation')[0])
-    else:
-      version = VERSION
+    import win32api
+    us = os.path.abspath(unicode(sys.executable, sys.getfilesystemencoding()))
+    version = win32api.GetFileVersionInfo(us, r'\StringFileInfo\%04x%04x\ProductVersion' % win32api.GetFileVersionInfo(us, r'\VarFileInfo\Translation')[0])
   else:
-    version = "%d.%d.%d %s" % ( MAJOR_VERSION, MINOR_VERSION, REVISION, revision() )
+    version = "%s %s" % (versionNum(), revision())
   return version
 
 #stump: VFS will take care of this
@@ -73,4 +93,3 @@ def dataPath():
     dataPath = os.path.join("..", "data")
   dataPath = os.path.abspath(dataPath)
   return dataPath
-  

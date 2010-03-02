@@ -24,7 +24,7 @@
 import unittest
 import time
 
-from Engine import Engine
+from GameEngine import GameEngine
 from Resource import Resource
 import Config
 import Version
@@ -79,12 +79,12 @@ class ResourceTest(unittest.TestCase):
     assert self.fuuba == self.quux
      
   def setUp(self):
-    Config.load(Version.appName() + ".ini", setAsDefault = True)
+    Config.load(Version.PROGRAM_UNIXSTYLE_NAME + ".ini", setAsDefault = True)
     # Resource expects game_priority to be an integer,
     # Config won't know unless we define it as such.
     Config.define("performance", "game_priority", int, 2)
-    self.e = Engine()
-    
+    self.e = GameEngine()
+
   def tearDown(self):
     self.e.quit()
 
