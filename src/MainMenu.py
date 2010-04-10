@@ -26,7 +26,7 @@
 from OpenGL.GL import *
 
 from View import BackgroundLayer
-from Menu import Menu
+from Menu import Menu, MenuItem, Choice
 from Lobby import Lobby, ControlConfigError
 from Language import _
 import Dialogs
@@ -56,6 +56,7 @@ class MainMenu(BackgroundLayer):
     self.nextLayer           = None
     self.visibility          = 0.0
     self.active              = False
+    self.menuDict            = {}
     
     self.showStartupMessages = False
 
@@ -114,9 +115,6 @@ class MainMenu(BackgroundLayer):
       self.main_menu_vspacing = 0.09
 
 
-    if not self.engine.loadImgDrawing(self, "background", os.path.join("themes",self.themename,"menu","mainbg.png")):
-      self.background = None
-    self.engine.loadImgDrawing(self, "BGText", os.path.join("themes",self.themename,"menu","maintext.png"))
     if not self.engine.loadImgDrawing(self, "optionsBG", os.path.join("themes",self.themename,"menu","optionsbg.png")):
       self.optionsBG = None
     self.engine.loadImgDrawing(self, "optionsPanel", os.path.join("themes",self.themename,"menu","optionspanel.png"))
@@ -164,52 +162,46 @@ class MainMenu(BackgroundLayer):
       self.opt_selected_color = (1,0.75,0)
 
 
-    trainingMenu = [
-      (_("Tutorials"), self.showTutorial),
-      (_("Practice"), lambda: self.newLocalGame(mode1p = 1)),
-    ]
+    trainingMenu = MenuItem("training", [
+      Choice(_("Tutorials"), self.showTutorial, tipText = _("Learn to play!")),
+      Choice(_("Practice"), lambda: self.newLocalGame(mode1p = 1), tipText = _("Practice any song to master them!")),
+    ], ["main"])
+    self.menuDict["training"] = trainingMenu
     
     self.opt_bkg_size = [float(i) for i in self.engine.theme.opt_bkg_size]
 
-    strCareer = ""
-    strQuickplay = ""
-    strSolo = ""
-    strMultiplayer = ""
-    strTraining = ""
-    strSettings = ""
-    strQuit = ""
-    
-    if self.theme == 1 and self.themeCoOp: #Worldrave - Put GH Co-op ahead of FoFix co-op for GH based theme's. Made more sense.
-      multPlayerMenu = [
-        (_("Face-Off"), lambda: self.newLocalGame(players = 2, maxplayers = 4)),
-        (_("Pro Face-Off"), lambda: self.newLocalGame(players = 2, mode2p = 1, maxplayers = 4)),
-        (_("GH Battle"), lambda: self.newLocalGame(players = 2, mode2p = 6, allowDrum = False)), #akedrou- so you can block drums
-        (_("Party Mode"), lambda: self.newLocalGame(mode2p = 2)),
-        (_("Co-Op"), lambda: self.newLocalGame(players = 2, mode2p = 5)),
-        (_("FoFiX Co-Op"), lambda: self.newLocalGame(players = 2, mode2p = 3, allowMic = allowMic)),   #Worldrave - Re-added this option for now.
-      ]
-    elif self.theme == 1 and not self.themeCoOp:
-      multPlayerMenu = [
-        (_("Face-Off"), lambda: self.newLocalGame(players = 2, maxplayers = 4)),
-        (_("Pro Face-Off"), lambda: self.newLocalGame(players = 2, mode2p = 1, maxplayers = 4)),
-        (_("Party Mode"), lambda: self.newLocalGame(mode2p = 2)),
-      ]
-    elif self.theme == 2:
-      multPlayerMenu = [
-        (_("FoFiX Co-Op"), lambda: self.newLocalGame(players = 2, mode2p = 3, maxplayers = 4, allowMic = allowMic)),
-        (_("RB Co-Op"), lambda: self.newLocalGame(players = 2, mode2p = 4, maxplayers = 4, allowMic = allowMic)),
-        (_("GH Co-Op"), lambda: self.newLocalGame(players = 2, mode2p = 5, maxplayers = 4)),
-        (_("Face-Off"), lambda: self.newLocalGame(players = 2, maxplayers = 4)),
-        (_("Pro Face-Off"), lambda: self.newLocalGame(players = 2, mode2p = 1, maxplayers = 4)),
-        (_("Party Mode"), lambda: self.newLocalGame(mode2p = 2)),
-      ]
-    else:
-      multPlayerMenu = [
-        (_("FoFiX Co-Op"), lambda: self.newLocalGame(players = 2, mode2p = 3, allowMic = allowMic)),
-        (_("Face-Off"), lambda: self.newLocalGame(players = 2, maxplayers = 4)),
-        (_("Pro Face-Off"), lambda: self.newLocalGame(players = 2, mode2p = 1, maxplayers = 4)),
-        (_("Party Mode"), lambda: self.newLocalGame(mode2p = 2)),
-      ]
+    # if self.theme == 1 and self.themeCoOp: #Worldrave - Put GH Co-op ahead of FoFix co-op for GH based theme's. Made more sense.
+      # multPlayerMenu = [
+        # (_("Face-Off"), lambda: self.newLocalGame(players = 2, maxplayers = 4)),
+        # (_("Pro Face-Off"), lambda: self.newLocalGame(players = 2, mode2p = 1, maxplayers = 4)),
+        # (_("GH Battle"), lambda: self.newLocalGame(players = 2, mode2p = 6, allowDrum = False)), #akedrou- so you can block drums
+        # (_("Party Mode"), lambda: self.newLocalGame(mode2p = 2)),
+        # (_("Co-Op"), lambda: self.newLocalGame(players = 2, mode2p = 5)),
+        # (_("FoFiX Co-Op"), lambda: self.newLocalGame(players = 2, mode2p = 3, allowMic = allowMic)),   #Worldrave - Re-added this option for now.
+      # ]
+    # elif self.theme == 1 and not self.themeCoOp:
+      # multPlayerMenu = [
+        # (_("Face-Off"), lambda: self.newLocalGame(players = 2, maxplayers = 4)),
+        # (_("Pro Face-Off"), lambda: self.newLocalGame(players = 2, mode2p = 1, maxplayers = 4)),
+        # (_("Party Mode"), lambda: self.newLocalGame(mode2p = 2)),
+      # ]
+    # elif self.theme == 2:
+    multPlayerMenu = MenuItem("multiplayer",[
+      Choice(_("FoFiX Co-Op"), lambda: self.newLocalGame(players = 2, mode2p = 3, maxplayers = 4, allowMic = allowMic), tipText = _("Play Classic FoFiX Co-Op Mode - Play as normal, but if either of you fail, you lose!")),
+      Choice(_("RB Co-Op"), lambda: self.newLocalGame(players = 2, mode2p = 4, maxplayers = 4, allowMic = allowMic), tipText = _("Play 'RB' style Co-Op Mode. If you lose, your friends can save you - unless your shared meter gets too low!")),
+      Choice(_("GH Co-Op"), lambda: self.newLocalGame(players = 2, mode2p = 5, maxplayers = 4), tipText = _("Play 'GH' style Co-Op Mode. Share your meter, and make sure to power up together!")),
+      Choice(_("Face-Off"), lambda: self.newLocalGame(players = 2, maxplayers = 4)),
+      Choice(_("Pro Face-Off"), lambda: self.newLocalGame(players = 2, mode2p = 1, maxplayers = 4)),
+      Choice(_("Party Mode"), lambda: self.newLocalGame(mode2p = 2)),
+    ],["main"])
+    self.menuDict["multiplayer"] = multPlayerMenu
+    # else:
+      # multPlayerMenu = [
+        # (_("FoFiX Co-Op"), lambda: self.newLocalGame(players = 2, mode2p = 3, allowMic = allowMic)),
+        # (_("Face-Off"), lambda: self.newLocalGame(players = 2, maxplayers = 4)),
+        # (_("Pro Face-Off"), lambda: self.newLocalGame(players = 2, mode2p = 1, maxplayers = 4)),
+        # (_("Party Mode"), lambda: self.newLocalGame(mode2p = 2)),
+      # ]
     
     if self.useSoloMenu is None:
       if self.theme == 0 or self.theme == 1:    #GH themes = 6 main menu selections
@@ -220,43 +212,46 @@ class MainMenu(BackgroundLayer):
     if not self.useSoloMenu:
 
       mainMenu = [
-        (strCareer, lambda:   self.newLocalGame(mode1p = 2, allowMic = allowMic)),
-        (strQuickplay, lambda:        self.newLocalGame(allowMic = allowMic)),
-        ((strMultiplayer,"multiplayer"), multPlayerMenu),
-        ((strTraining,"training"),    trainingMenu),
-        ((strSettings,"settings"),  self.settingsMenu),
-        (strQuit,        self.quit),
+        Choice(_("Career Mode"), lambda: self.newLocalGame(mode1p = 2, allowMic = allowMic), tipText = _("Play Career Mode to prove your worth as a rock star")),
+        Choice(_("Quickplay"), lambda: self.newLocalGame(allowMic = allowMic), tipText = _("Jump right into the action with Quickplay")),
+        Choice(_("Multiplayer"), multPlayerMenu, "multiplayer", tipText = _("Multiplayer modes like Co-Op and Face-Off")),
+        Choice(_("Training"), trainingMenu, "training", tipText = _("Go here to learn how to play!")),
+        Choice(_("Settings"), self.settingsMenu, "settings", tipText = _("Change game settings and rules")),
+        Choice(_("Quit"), self.quit, tipText = _("Quit FoFiX")),
       ]
       
     else:
 
-      soloMenu = [
-        (_("Solo Tour"), lambda: self.newLocalGame(mode1p = 2, allowMic = allowMic)),
-        (_("Quickplay"), lambda: self.newLocalGame(allowMic = allowMic)),
-      ]
+      soloMenu = MenuItem("solo", [
+        Choice(_("Solo Tour"), lambda: self.newLocalGame(mode1p = 2, allowMic = allowMic), tipText = _("Play Career Mode to prove your worth as a rock star")),
+        Choice(_("Quickplay"), lambda: self.newLocalGame(allowMic = allowMic), tipText = _("Jump right into the action with Quickplay")),
+      ], ["main"])
+      self.menuDict["solo"] = soloMenu
 
       mainMenu = [
-        ((strSolo,"solo"), soloMenu),
-        ((strMultiplayer,"multiplayer"), multPlayerMenu),
-        ((strTraining,"training"),    trainingMenu),
-        ((strSettings,"settings"),  self.settingsMenu),
-        (strQuit,        self.quit),
+        Choice(_("Solo"), soloMenu, "solo", tipText = _("Rock out all by yourself!")),
+        Choice(_("Multiplayer"), multPlayerMenu, "multiplayer", tipText = _("Multiplayer modes like Co-Op and Face-Off")),
+        Choice(_("Training"), trainingMenu, "training", tipText = _("Go here to learn how to play!")),
+        Choice(_("Settings"), self.settingsMenu, "settings", tipText = _("Change game settings and rules")),
+        Choice(_("Quit"), self.quit, tipText = _("Quit FoFiX")),
       ]
+      
 
+    menuItem = MenuItem("main", mainMenu, onClose = lambda: self.engine.view.popLayer(self))
+    self.menuDict["main"] = menuItem
+    engine.mainMenu = self    #Points engine.mainMenu to the one and only MainMenu object instance
+    self.menu = Menu(self.engine, menuItem)
 
     
-    self.menu = Menu(self.engine, mainMenu, onClose = lambda: self.engine.view.popLayer(self), pos = (12,12), textColor = self.opt_text_color, selectedColor = self.opt_selected_color)
-
-    engine.mainMenu = self    #Points engine.mainMenu to the one and only MainMenu object instance
-
     ## whether the main menu has come into view at least once
     self.shownOnce = False
 
   def settingsMenu(self):
-    if self.engine.advSettings:
-      self.settingsMenuObject = Settings.SettingsMenu(self.engine)
-    else:
-      self.settingsMenuObject = Settings.BasicSettingsMenu(self.engine)
+    # if self.engine.advSettings:
+      # self.settingsMenuObject = Settings.SettingsMenu(self.engine)
+    # else:
+      # self.settingsMenuObject = Settings.BasicSettingsMenu(self.engine)
+    self.settingsMenuObject = self.menuDict["settings"]
     return self.settingsMenuObject
 
   def shown(self):
@@ -421,93 +416,93 @@ class MainMenu(BackgroundLayer):
     w, h, = self.engine.view.geometry[2:4]
     r = .5
     
-    if not self.useSoloMenu:
+    # if not self.useSoloMenu:
 
-      if self.active:
-        if self.engine.view.topLayer() is not None:
-          if self.optionsBG != None:
-            self.engine.drawImage(self.optionsBG, (self.opt_bkg_size[2],-self.opt_bkg_size[3]), (w*self.opt_bkg_size[0],h*self.opt_bkg_size[1]), stretched = 3)
-          
-          self.engine.drawImage(self.optionsPanel, (0.5,-0.5), (w/1.7, h/2))
-        else:
-          self.engine.drawImage(self.engine.data.loadingImage, (1.0,-1.0), (w/2, h/2), stretched = 3)
-
-      if self.menu.active and self.engine.cmdPlay == 0:
-        if self.background != None:
-          #MFH - auto-scaling
-          self.engine.drawImage(self.background, (1.0,-1.0), (w/2, h/2), stretched = 3)
-
-        for i in range(0,6):
-          #Item selected
-          if self.menu.currentIndex == i:
-            xpos = (.5,1)
-          #Item unselected
-          else:
-            xpos = (0,.5)
-          #which item?
-          ypos = 1/6.0*i
-
-
-#============blazingamer============
-#if menux and/or menuy are not set it will use the default positions for the main text
-          if self.menux == None or self.menuy == None:
-            if self.theme == 0:
-              textcoord = (w*0.5,h*0.45-(h*self.main_menu_vspacing)*i)
-            elif self.theme == 1:
-              textcoord = (w*0.7,h*0.8-(h*self.main_menu_vspacing)*i)
-#if menux and menuy are set it will use those
-          else:
-            try:
-              textcoord = (w*self.menux,h*self.menuy-(h*self.main_menu_vspacing)*i)
-            except Exception, e:
-              Log.warn("Unable to translate BGText: %s" % e) 
-        
-#===================================     
-
-          self.engine.drawImage(self.BGText, (.5*self.main_menu_scale,-1/6.0*self.main_menu_scale), textcoord,
-                                rect = (xpos[0],xpos[1],ypos,ypos+1/6.0))
-
+      # if self.active:
+    if self.engine.view.topLayer() is not None:
+      if self.optionsBG != None:
+        self.engine.drawImage(self.optionsBG, (self.opt_bkg_size[2],-self.opt_bkg_size[3]), (w*self.opt_bkg_size[0],h*self.opt_bkg_size[1]), stretched = 3)
+      
+      self.engine.drawImage(self.optionsPanel, (0.5,-0.5), (w/1.7, h/2))
     else:
+      self.engine.drawImage(self.engine.data.loadingImage, (1.0,-1.0), (w/2, h/2), stretched = 3)
 
-      if self.active:
-        if self.engine.view.topLayer() is not None:
-          if self.optionsBG != None:
-            self.engine.drawImage(self.optionsBG, (self.opt_bkg_size[2],-self.opt_bkg_size[3]), (w*self.opt_bkg_size[0],h*self.opt_bkg_size[1]), stretched = 3)
-        
-          self.engine.drawImage(self.optionsPanel, (0.5,-0.5), (w*0.4, h/2))
-        else:
-          self.engine.drawImage(self.engine.data.loadingImage, scale = (1.0,-1.0), coord = (w/2,h/2), stretched = 3)
-        
-      if self.menu.active and self.engine.cmdPlay == 0:
-        if self.background != None:
-          self.engine.drawImage(self.background, (1.0,-1.0), (w/2, h/2), stretched = 3)
+      # if self.menu.active and self.engine.cmdPlay == 0:
+        # if self.background != None:
+          # #MFH - auto-scaling
+          # self.engine.drawImage(self.background, (1.0,-1.0), (w/2, h/2), stretched = 3)
 
-        for i in range(0,5):
-          #Item selected
-          if self.menu.currentIndex == i:
-            xpos = (.5,1)
-          #Item unselected
-          else:
-            xpos = (0,.5)
-          #which item?
-          ypos = 1/5.0*i
+        # for i in range(0,6):
+          # #Item selected
+          # if self.menu.currentIndex == i:
+            # xpos = (.5,1)
+          # #Item unselected
+          # else:
+            # xpos = (0,.5)
+          # #which item?
+          # ypos = 1/6.0*i
+
+
+# #============blazingamer============
+# #if menux and/or menuy are not set it will use the default positions for the main text
+          # if self.menux == None or self.menuy == None:
+            # if self.theme == 0:
+              # textcoord = (w*0.5,h*0.45-(h*self.main_menu_vspacing)*i)
+            # elif self.theme == 1:
+              # textcoord = (w*0.7,h*0.8-(h*self.main_menu_vspacing)*i)
+# #if menux and menuy are set it will use those
+          # else:
+            # try:
+              # textcoord = (w*self.menux,h*self.menuy-(h*self.main_menu_vspacing)*i)
+            # except Exception, e:
+              # Log.warn("Unable to translate BGText: %s" % e) 
+        
+# #===================================     
+
+          # self.engine.drawImage(self.BGText, (.5*self.main_menu_scale,-1/6.0*self.main_menu_scale), textcoord,
+                                # rect = (xpos[0],xpos[1],ypos,ypos+1/6.0))
+
+    # else:
+
+      # if self.active:
+        # if self.engine.view.topLayer() is not None:
+          # if self.optionsBG != None:
+            # self.engine.drawImage(self.optionsBG, (self.opt_bkg_size[2],-self.opt_bkg_size[3]), (w*self.opt_bkg_size[0],h*self.opt_bkg_size[1]), stretched = 3)
+        
+          # self.engine.drawImage(self.optionsPanel, (0.5,-0.5), (w*0.4, h/2))
+        # else:
+          # self.engine.drawImage(self.engine.data.loadingImage, scale = (1.0,-1.0), coord = (w/2,h/2), stretched = 3)
+        
+      # if self.menu.active and self.engine.cmdPlay == 0:
+        # if self.background != None:
+          # self.engine.drawImage(self.background, (1.0,-1.0), (w/2, h/2), stretched = 3)
+
+        # for i in range(0,5):
+          # #Item selected
+          # if self.menu.currentIndex == i:
+            # xpos = (.5,1)
+          # #Item unselected
+          # else:
+            # xpos = (0,.5)
+          # #which item?
+          # ypos = 1/5.0*i
           
 
-#============blazingamer============
-#if menux and/or menuy are not set it will use the default positions for the main text
-          if self.menux == None or self.menuy == None:
-            textcoord = (w*0.2,(h*0.8-(h*self.main_menu_vspacing)*i)*v)
-#if menux and menuy are set it will use those
-          else:
-            try:
-              textcoord = (w*self.menux,(h*self.menuy-(h*self.main_menu_vspacing)*i)*v)
-            except Exception, e:
-              Log.warn("Unable to translate BGText: %s" % e) 
+# #============blazingamer============
+# #if menux and/or menuy are not set it will use the default positions for the main text
+          # if self.menux == None or self.menuy == None:
+            # textcoord = (w*0.2,(h*0.8-(h*self.main_menu_vspacing)*i)*v)
+# #if menux and menuy are set it will use those
+          # else:
+            # try:
+              # textcoord = (w*self.menux,(h*self.menuy-(h*self.main_menu_vspacing)*i)*v)
+            # except Exception, e:
+              # Log.warn("Unable to translate BGText: %s" % e) 
         
-#===================================
+# #===================================
 
-          self.engine.drawImage(self.BGText, (.5*self.main_menu_scale,(-1/5.0*self.main_menu_scale)),
-                                textcoord, rect = (xpos[0],xpos[1],ypos,ypos+1/5.0))
+          # self.engine.drawImage(self.BGText, (.5*self.main_menu_scale,(-1/5.0*self.main_menu_scale)),
+                                # textcoord, rect = (xpos[0],xpos[1],ypos,ypos+1/5.0))
 
 #racer: added version tag to main menu:
     if self.version != None:

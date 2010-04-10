@@ -180,7 +180,6 @@ class Lobby(Layer, KeyListener):
     
     self.controlDict = Player.controlDict
     self.selected = [0,0,0,0]
-    self.panelMode = [0,0,0,0] #panel mode: 0 = select; 1 = create/edit
     self.screenOptions = self.engine.theme.lobbySelectLength
     self.pos = [(0, self.screenOptions), (0, self.screenOptions), (0, self.screenOptions), (0, self.screenOptions)]
     self.getPlayers()

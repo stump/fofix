@@ -537,8 +537,8 @@ defaultDict['loadingLSpacing'] = 1.0
 defaultDict['main_menu_scaleVar'] = None
 defaultDict['main_menu_vspacingVar'] = None
 defaultDict['use_solo_submenu'] = None
-defaultDict['sub_menu_xVar'] = None
-defaultDict['sub_menu_yVar'] = None
+defaultDict['sub_menu_xVar'] = .4
+defaultDict['sub_menu_yVar'] = .4
 defaultDict['versiontag'] = False
 defaultDict['shadowoffsetx'] = .0022
 defaultDict['shadowoffsety'] = .0005
@@ -2944,4 +2944,4 @@ class Setlist:
   def renderMiniLobby(self, scene):
     return
 
-__all__ = ["LEFT", "CENTER", "RIGHT", "_", "Theme", "shaders"]
+__all__ = ["LEFT", "CENTER", "RIGHT", "_", "Theme", "shaders", "ThemeLobby", "ThemeParts", "Setlist"]

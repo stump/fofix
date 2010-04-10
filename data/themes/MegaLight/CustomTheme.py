@@ -23,44 +23,47 @@
 # MA  02110-1301, USA.                                              #
 #####################################################################
 
-from Theme import _
 from Theme import *
+from OpenGL.GL import *
+from OpenGL.GLU import *
+import math
+import Song
 
 class CustomTheme(Theme):
-  def __init__(self, path, name, iniFile = False):
-    Theme.__init__(self, path, name, iniFile)
+  menuRB = True
+  menuX = .25
+  menuY = .70
     
-    self.menuRB = True
-    self.menuX = .25
-    self.menuY = .70
+  fail_text_yPos = .4
     
-    self.fail_text_yPos = .4
-    
-    self.displayAllGreyStars = False
-    self.sub_menu_xVar = .21
-    self.sub_menu_yVar = .15
-    self.menuTipTextDisplay = True
-    self.songSelectSubmenuX = 0.1
-    self.songSelectSubmenuY = 0.075
-    self.songSelectSubmenuOffsetLines = 4
-    self.songSelectSubmenuOffsetSpaces = 3
-    self.song_name_text_colorVar = (1,1,1)
-    self.songListDisplay = 0
-    self.starFillupCenterX = 139
-    self.starFillupCenterY = 151
-    self.starFillupInRadius = 121
-    self.starFillupOutRadius = 138
-    self.starFillupColor = (1,.95,.37)
-    self.loadingPhrase = ["If you see a series of glowing white notes, hit it perfectly to gain Energy.","The louder the better!",\
-                      "You can buy a real guitar for pretty cheap - maybe it's time to invest.",\
-                      "Play flawlessly to get a score multiplier going.  The longer you hold a streak, the higher your multiplier will get.",\
-                      "Overdrive can score you tons of points, slay the crowd, and even save your life.",\
-                      "If you're going to smash a guitar on stage, make sure you have a backup first.",\
-                      "Jack The Ripper is dead, but I'll bet your fingers think otherwise.",\
-                      "If your drummer thinks he has an idea, give him a Kit Kat and let him re-think that.",\
-                      "Dropping your pants on-stage doesn't deploy star power.","If you're out of songs and you still have time left in your set... wrecking your gear is as good a plan as any.",\
-                      "Everything you need to know to be a rocker you learned in kindergarten: -A, B, C, D, E, F, G, 1, 2, 3, 4 -- be creative.",\
-                      "Try not to suck this time.","Sleeping with a groupie just means you did a good job.","Mind your effects switch... The Wah-Wah doesn't belong in EVERY song!","Rock On!"]
+  displayAllGreyStars = False
+  sub_menu_xVar = .21
+  sub_menu_yVar = .15
+  menuTipTextDisplay = True
+  songSelectSubmenuX = 0.1
+  songSelectSubmenuY = 0.075
+  songSelectSubmenuOffsetLines = 4
+  songSelectSubmenuOffsetSpaces = 3
+  song_name_text_colorVar = (1,1,1)
+  songListDisplay = 0
+  starFillupCenterX = 139
+  starFillupCenterY = 151
+  starFillupInRadius = 121
+  starFillupOutRadius = 138
+  starFillupColor = (1,.95,.37)
+  loadingPhrase = ["If you see a series of glowing white notes, hit it perfectly to gain Energy.","The louder the better!",\
+                   "You can buy a real guitar for pretty cheap - maybe it's time to invest.",\
+                   "Play flawlessly to get a score multiplier going.  The longer you hold a streak, the higher your multiplier will get.",\
+                   "Overdrive can score you tons of points, slay the crowd, and even save your life.",\
+                   "If you're going to smash a guitar on stage, make sure you have a backup first.",\
+                   "Jack The Ripper is dead, but I'll bet your fingers think otherwise.",\
+                   "If your drummer thinks he has an idea, give him a Kit Kat and let him re-think that.",\
+                   "Dropping your pants on-stage doesn't deploy star power.","If you're out of songs and you still have time left in your set... wrecking your gear is as good a plan as any.",\
+                   "Everything you need to know to be a rocker you learned in kindergarten: -A, B, C, D, E, F, G, 1, 2, 3, 4 -- be creative.",\
+                   "Try not to suck this time.","Sleeping with a groupie just means you did a good job.","Mind your effects switch... The Wah-Wah doesn't belong in EVERY song!","Rock On!"]
+  
+  def __init__(self, path, name):
+    Theme.__init__(self, path, name)
     self.setlist = CustomSetlist(self)
 
 class CustomSetlist(Setlist):

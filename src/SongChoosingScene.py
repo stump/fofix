@@ -35,7 +35,7 @@ import pygame
 import random
 from OpenGL.GL import *
 import Version
-from Menu import Menu, Choice
+from Menu import MenuItem, Choice
 from Settings import ConfigChoice, ActiveConfigChoice
 from Language import _
 from Input import KeyListener
@@ -232,7 +232,7 @@ class SongChoosingScene(Scene):
     self.menu_text_color     = (1, 1, 1)
     self.menu_selected_color = (.66, .66, 0)
     self.menu_text_pos       = (.2, .31)
-    self.menu = Menu(self.engine, [ConfigChoice(self.engine, self.engine.config, "game", "queue_format", autoApply = True),
+    self.menu = MenuItem("setlist", [ConfigChoice(self.engine, self.engine.config, "game", "queue_format", autoApply = True),
                                    ConfigChoice(self.engine, self.engine.config, "game", "queue_order", autoApply = True),
                                    ConfigChoice(self.engine, self.engine.config, "game", "queue_parts", autoApply = True),
                                    ConfigChoice(self.engine, self.engine.config, "game", "queue_diff", autoApply = True),
@@ -240,8 +240,7 @@ class SongChoosingScene(Scene):
                                    ActiveConfigChoice(self.engine, self.engine.config, "game", "sort_direction", onChange = self.forceReload),
                                    ActiveConfigChoice(self.engine, self.engine.config, "game", "songlist_instrument", onChange = self.forceReload),
                                    ActiveConfigChoice(self.engine, self.engine.config, "game", "songlist_difficulty", onChange = self.forceReload),
-                                   ], name = "setlist", fadeScreen = False, onClose = self.resetQueueVars, font = self.engine.data.pauseFont, \
-                     pos = self.menu_text_pos, textColor = self.menu_text_color, selectedColor = self.menu_selected_color)
+                                   ], onClose = self.resetQueueVars)
     
     #now, load the first library
     self.loadLibrary()
