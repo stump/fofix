@@ -140,14 +140,36 @@ class KeyListener:
     pass
 
 class MouseListener:
+  def __init__(self):
+    self.buttons = {} # a dictionary of mouse-interacting elements on the screen.
+	
   def mouseButtonPressed(self, button, pos):
-    pass
+    if button == 1:
+      for box in self.buttons.values():
+        if box.hovered:
+          box.pressed = True
     
   def mouseButtonReleased(self, button, pos):
-    pass
+    if button == 1:
+      for box in self.buttons.values():
+        if box.pressed and box.hovered:
+          box.click()
+        box.pressed = False
     
   def mouseMoved(self, pos, rel):
-    pass
+    x, y = pos
+    hover = False #this variable prevents multiple buttons from being hovered over.
+    for button in self.buttons.values():
+      if not button.visible:
+        button.hovered = False
+        continue
+      xMin, xMax = button.xRange
+      yMin, yMax = button.yRange
+      if x > xMin and x < xMax and y > yMin and y < yMax and not hover:
+        button.hovered = True
+        hover = True
+      else:
+        button.hovered = False
     
 class SystemEventListener:
   def screenResized(self, size):
@@ -161,6 +183,73 @@ class SystemEventListener:
     
   def quit(self):
     pass
+
+class Button(object):
+  def __init__(self, name, area, screenSize, onClick = None, onHover = None, imgRange = None):
+    self.name = name
+    self.defaultXRange, self.defaultYRange = area
+    self.screenSize = screenSize
+    self._xRange = (0,0)
+    self._yRange = (0,0)
+    self.xRange = self.defaultXRange
+    self.yRange = self.defaultYRange
+    self.onClick = onClick
+    self.onHover = onHover
+    self.hovered = False
+    self.visible = True
+    self.pressed = 0
+    # if imgRange:
+      # self.imgXRange, self.imgYRange = imgRange
+    # else:
+      # self.imgXRange, self.imgYRange = area
+
+  def setXRange(self, value):
+    self._xRange = (value[0]*self.screenSize[0], value[1]*self.screenSize[0])
+  
+  def setYRange(self, value):
+    self._yRange = (value[0]*self.screenSize[1], value[1]*self.screenSize[1])
+  
+  def getXRange(self):
+    return self._xRange
+  
+  def getYRange(self):
+    return self._yRange
+  
+  xRange = property(getXRange, setXRange)
+  yRange = property(getYRange, setYRange)
+  
+  def click(self):
+    return self.onClick()
+  
+  def hover(self):
+    return self.onHover()
+  
+  def getImage(self, owner, group = "", prefix = "img_"):
+    if self.pressed:
+      if owner.__dict__.has_key("%s%s%sp" % (prefix, group, self.name)):
+        return owner.__dict__["%s%s%sp" % (prefix, group, self.name)]
+      elif owner.__dict__.has_key("%s%sp" % (prefix, self.name)):
+        return owner.__dict__["%s%sp" % (prefix, self.name)]
+    if self.hovered:
+      if owner.__dict__.has_key("%s%s%sh" % (prefix, group, self.name)):
+        return owner.__dict__["%s%s%sh" % (prefix, group, self.name)]
+      elif owner.__dict__.has_key("%s%sh" % (prefix, self.name)):
+        return owner.__dict__["%s%sh" % (prefix, self.name)]
+    if owner.__dict__.has_key("%s%s%sb" % (prefix, group, self.name)):
+      return owner.__dict__["%s%s%sb" % (prefix, group, self.name)]
+    elif owner.__dict__.has_key("%s%sb" % (prefix, self.name)):
+      return owner.__dict__["%s%sb" % (prefix, self.name)]
+    else:
+      return None
+  
+  def render(self, owner, group = "", prefix = "img_"):
+    img = self.getImage(owner, group, prefix)
+    if not img:
+      return None
+    imgwidth = img.width1()
+    wfactor = (self.xRange[1]-self.xRange[0])/imgwidth
+    wS, hS  = owner.engine.view.geometry[2:4]
+    owner.engine.drawImage(img, scale = (wfactor, -wfactor), coord = ((self.xRange[0] + self.xRange[1])*.5, hS-((self.yRange[0])+(self.yRange[1]))*.5))
 
 MusicFinished = pygame.USEREVENT
 
@@ -180,16 +269,17 @@ class Input(Task):
       Log.debug("Input class init (Input.py)...")
   
     Task.__init__(self)
-    self.mouse                = pygame.mouse
-    self.mouseListeners       = []
-    self.keyListeners         = []
-    self.systemListeners      = []
-    self.priorityKeyListeners = []
-    self.controls             = Controls()
-    self.activeGameControls   = []
-    self.p2Nav                = self.controls.p2Nav
-    self.type1                = self.controls.type[0]
-    self.keyCheckerMode       = Config.get("game","key_checker_mode")
+    self.mouse                  = pygame.mouse
+    self.mouseListeners         = []
+    self.keyListeners           = []
+    self.systemListeners        = []
+    self.priorityKeyListeners   = []
+    self.priorityMouseListeners = []
+    self.controls               = Controls()
+    self.activeGameControls     = []
+    self.p2Nav                  = self.controls.p2Nav
+    self.type1                  = self.controls.type[0]
+    self.keyCheckerMode         = Config.get("game","key_checker_mode")
     self.disableKeyRepeat()
     
     self.gameGuitars = 0
@@ -287,13 +377,19 @@ class Input(Task):
   def enableKeyRepeat(self):
     pygame.key.set_repeat(300, 30)
 
-  def addMouseListener(self, listener):
-    if not listener in self.mouseListeners:
-      self.mouseListeners.append(listener)
+  def addMouseListener(self, listener, priority = False):
+    if priority:
+      if not listener in self.priorityMouseListeners:
+        self.priorityMouseListeners.append(listener)
+    else:
+      if not listener in self.mouseListeners:
+        self.mouseListeners.append(listener)
 
   def removeMouseListener(self, listener):
     if listener in self.mouseListeners:
       self.mouseListeners.remove(listener)
+    if listener in self.priorityMouseListeners:
+      self.priorityMouseListeners.remove(listener)
 
   def addKeyListener(self, listener, priority = False):
     if priority:
@@ -413,11 +509,14 @@ class Input(Task):
         if not self.broadcastEvent(self.priorityKeyListeners, "keyReleased", event.key):
           self.broadcastEvent(self.keyListeners, "keyReleased", event.key)
       elif event.type == pygame.MOUSEMOTION:
-        self.broadcastEvent(self.mouseListeners, "mouseMoved", event.pos, event.rel)
+        if not self.broadcastEvent(self.priorityMouseListeners, "mouseMoved", event.pos, event.rel):
+          self.broadcastEvent(self.mouseListeners, "mouseMoved", event.pos, event.rel)
       elif event.type == pygame.MOUSEBUTTONDOWN:
-        self.broadcastEvent(self.mouseListeners, "mouseButtonPressed", event.button, event.pos)
+        if not self.broadcastEvent(self.priorityMouseListeners, "mouseButtonPressed", event.button, event.pos):
+          self.broadcastEvent(self.mouseListeners, "mouseButtonPressed", event.button, event.pos)
       elif event.type == pygame.MOUSEBUTTONUP:
-        self.broadcastEvent(self.mouseListeners, "mouseButtonReleased", event.button, event.pos)
+        if not self.broadcastEvent(self.priorityMouseListeners, "mouseButtonReleased", event.button, event.pos):
+          self.broadcastEvent(self.mouseListeners, "mouseButtonReleased", event.button, event.pos)
       elif event.type == pygame.VIDEORESIZE:
         self.broadcastEvent(self.systemListeners, "screenResized", event.size)
       elif event.type == pygame.QUIT:

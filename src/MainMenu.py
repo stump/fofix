@@ -54,6 +54,8 @@ class MainMenu(BackgroundLayer):
 
     self.time                = 0.0
     self.nextLayer           = None
+    self.loopOnce            = False
+    self.shownMenu           = False
     self.visibility          = 0.0
     self.active              = False
     self.menuDict            = {}
@@ -240,7 +242,7 @@ class MainMenu(BackgroundLayer):
     menuItem = MenuItem("main", mainMenu, onClose = lambda: self.engine.view.popLayer(self))
     self.menuDict["main"] = menuItem
     engine.mainMenu = self    #Points engine.mainMenu to the one and only MainMenu object instance
-    self.menu = Menu(self.engine, menuItem)
+    self.menu = None
 
     
     ## whether the main menu has come into view at least once
@@ -255,7 +257,6 @@ class MainMenu(BackgroundLayer):
     return self.settingsMenuObject
 
   def shown(self):
-    self.engine.view.pushLayer(self.menu)
     shaders.checkIfEnabled()
     if not self.shownOnce:
       self.shownOnce = True
@@ -380,20 +381,30 @@ class MainMenu(BackgroundLayer):
 
   def run(self, ticks):
     self.time += ticks / 50.0
+    if not self.loopOnce:
+      self.loopOnce = True
+    
     if self.showStartupMessages:
       self.showMessages()
     if len(self.engine.startupMessages) > 0:
       self.showStartupMessages = True
     
-    if self.engine.cmdPlay == 1:
-      self.engine.cmdPlay = 4
-    elif self.engine.cmdPlay == 4: #this frame runs the engine an extra loop to allow the font to load...
+    if self.engine.cmdPlay == 1 and self.loopOnce:
       #evilynux - improve cmdline support
       self.engine.cmdPlay = 2
       players, mode1p, mode2p = self.engine.cmdMode
       self.newLocalGame(players = players, mode1p = mode1p, mode2p = mode2p)
     elif self.engine.cmdPlay == 3:
       self.quit()
+    
+    if self.loopOnce and not self.menu and self.engine.cmdPlay == 0:
+      #So, this probably seems a bit weird.
+      #It seems like anything that is constructed in the first loop will render as garbage
+      #until... well I'm not clear on what fixes it, as my thought was a layer change.
+      #But then a printline broke it again. It works like this, for me...
+      #This is worth looking into, but not right now.
+      self.menu = Menu(self.engine, self.menuDict["main"])
+      self.engine.view.pushLayer(self.menu)
     
     if (not self.engine.world) or (not self.engine.world.scene):  #MFH 
       self.runMusic()
@@ -408,15 +419,15 @@ class MainMenu(BackgroundLayer):
       v = 1
     if v == 1:
       self.engine.view.transitionTime = 1 
-
-    if self.menu.active and not self.active:
-      self.active = True
     
     t = self.time / 100
     w, h, = self.engine.view.geometry[2:4]
     r = .5
     
-    # if not self.useSoloMenu:
+    if self.menu and self.menu.active and not self.active:
+      self.active = True
+      
+      # if not self.useSoloMenu:
 
       # if self.active:
     if self.engine.view.topLayer() is not None:

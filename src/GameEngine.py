@@ -551,7 +551,7 @@ class GameEngine(object):
     self.priority          = self.config.get("engine", "highpriority")
     self.show_fps          = self.config.get("video", "show_fps")
     self.advSettings       = self.config.get("game", "adv_settings")
-    self.restartRequired   = False
+    self.restartRequired   = []
     self.quicksetRestart   = False
     self.quicksetPerf      = self.config.get("quickset", "performance")
     self.scrollRate        = self.config.get("game", "scroll_rate")
@@ -759,6 +759,9 @@ class GameEngine(object):
     if not self.restartRequested:
       self.audio.close()
     Player.savePlayers()
+    for item in self.restartRequired:
+      self.config.set(*item)
+    self.restartRequired = []
     for t in list(self.tasks + self.frameTasks):
       self.removeTask(t)
     self.running = False

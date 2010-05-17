@@ -38,7 +38,7 @@ import string
 import time
 
 from View import Layer, BackgroundLayer
-from Input import KeyListener
+from Input import KeyListener, MouseListener
 from Camera import Camera
 from Mesh import Mesh
 from Menu import Menu
@@ -194,21 +194,25 @@ def fadeScreen(v):
   glVertex2f(1, 1)
   glEnd()
 
-class MainDialog(Layer, KeyListener):
+class MainDialog(Layer, KeyListener, MouseListener):
   def __init__(self, engine):
     self.engine           = engine
     self.fontDict         = self.engine.data.fontDict
+    self.buttons          = {}
     self.geometry         = self.engine.view.geometry[2:4]
     self.fontScreenBottom = self.engine.data.fontScreenBottom
     self.aspectRatio      = self.engine.view.aspectRatio
     self.drawImage        = self.engine.drawImage
     self.drawStarScore    = self.engine.drawStarScore
+    self.time             = 0.0
   
   def shown(self):
     self.engine.input.addKeyListener(self, priority = True)
+    self.engine.input.addMouseListener(self, priority = True)
   
   def hidden(self):
     self.engine.input.removeKeyListener(self)
+    self.engine.input.removeMouseListener(self)
 
 class GetText(Layer, KeyListener):
   """Text input layer."""
@@ -419,6 +423,143 @@ class GetKey(Layer, KeyListener):
         text = pygame.key.name(self.key).capitalize()
         pos = wrapText(font, (.1, (pos[1] + v) + .08 + v / 4), text)
       
+    finally:
+      self.engine.view.resetProjection()
+
+class GetChoice(MainDialog):
+  def __init__(self, engine, text, values, valueIndex):
+    MainDialog.__init__(self, engine)
+    self.selectedIndex = None
+    self.currentIndex  = valueIndex
+    self.text = text
+    self.values = values
+    
+    x, y = self.engine.mainMenu.menu.pos
+    font = self.engine.data.fontDict["font"]
+    self.textW, h = font.getStringSize("%s: " % self.text, scale = .002)
+    y += (h*((self.engine.mainMenu.menu.currentIndex-2)-self.engine.mainMenu.menu.viewOffset))
+    self.pos = (x, y)
+    
+    self.scrolling = 0
+    self.delay = 0
+    self.rate  = 0
+    self.scroller = [0, self.scrollUp, self.scrollDown]
+    self.scrollTimer = 0
+  
+  def shown(self):
+    self.engine.input.addKeyListener(self, priority = True)
+    self.engine.input.addMouseListener(self, priority = True)
+    self.engine.input.hideMouse()
+  
+  def hidden(self):
+    self.engine.input.removeKeyListener(self)
+    self.engine.input.removeMouseListener(self)
+    self.engine.input.showMouse()
+  
+  def keyPressed(self, key, unicode):
+    c = self.engine.input.controls.getMapping(key)
+    if c in Player.menuYes or key in [pygame.K_RETURN, pygame.K_LCTRL, pygame.K_RCTRL]:
+      self.selectedIndex = self.currentIndex
+      self.engine.view.popLayer(self)
+    elif c in Player.menuNo or key == pygame.K_ESCAPE:
+      self.engine.view.popLayer(self)
+    elif c in Player.menuUp or key == pygame.K_UP:
+      self.scrolling = 1
+      self.delay = self.engine.scrollDelay
+      self.scrollUp()
+    elif c in Player.menuDown or key == pygame.K_DOWN:
+      self.scrolling = 2
+      self.delay = self.engine.scrollDelay
+      self.scrollDown()
+    return True
+  
+  def mouseMoved(self, pos, rel):
+    #This code checks for up or down movement with the mouse and scrolls based on it (max 4x/second).
+    #To be honest, I'm not a huge fan of this interface, but it was one of my initial ideas,
+    #and thought it worth investigating in this instance.
+    xRel, yRel = rel
+    if yRel > 10 and self.scrollTimer == 0:
+      self.scrollDown()
+      self.scrollTimer = 250
+    elif yRel < -10 and self.scrollTimer == 0:
+      self.scrollUp()
+      self.scrollTimer = 250
+    return True
+  
+  def mouseButtonPressed(self, button, pos):
+    return True
+  
+  def mouseButtonReleased(self, button, pos):
+    #Again, here the right button is treated as a "back" button.
+    #I think it's worth playing around with UI ideas at this stage and seeing which
+    #are worth sticking with.
+    if button == 1:
+      self.selectedIndex = self.currentIndex
+      self.engine.view.popLayer(self)
+    elif button == 3:
+      self.engine.view.popLayer(self)
+    elif button == 4:
+      self.scrollUp()
+    elif button == 5:
+      self.scrollDown()
+    return True
+  
+  def scrollUp(self):
+    self.engine.data.selectSound.play()
+    self.currentIndex = (self.currentIndex - 1) % len(self.values)
+  
+  def scrollDown(self):
+    self.engine.data.selectSound.play()
+    self.currentIndex = (self.currentIndex + 1) % len(self.values)
+  
+  def keyReleased(self, key):
+    self.scrolling = 0
+  
+  def run(self, ticks):
+    self.time += ticks / 50.0
+    if self.scrolling > 0:
+      self.delay -= ticks
+      self.rate += ticks
+      if self.delay <= 0 and self.rate >= self.engine.scrollRate:
+        self.rate = 0
+        self.scroller[self.scrolling]()
+    if self.scrollTimer > 0:
+      self.scrollTimer -= ticks
+      if self.scrollTimer < 0:
+        self.scrollTimer = 0
+  
+  def render(self, visibility, topMost):
+    v = (1 - visibility) ** 2
+    font = self.engine.data.fontDict["font"]
+    wS, hS = self.engine.view.geometry[2:4]
+    n = len(self.values)
+    self.engine.view.setViewport(1,0)
+    self.engine.view.setOrthogonalProjection(normalize = True)
+    try:
+      fadeScreen(.85)
+      x, y = self.pos
+      scale = 0.002
+      w, h = font.getStringSize(" ", scale = scale)
+      for i in range(5):
+        glPushMatrix()
+        value = self.currentIndex + i - 2
+        if value < 0 or value >= len(self.values):
+          y += h
+          continue
+        else:
+          value = self.values[value]
+        if i == 2:
+          a = (math.sin(self.time) * .15 + .75) * (1 - v * 2)
+          self.engine.theme.setSelectedColor()
+          a *= -.005
+          glTranslatef(a, a, a)
+          font.render("%s: %s" % (self.text, str(value)), (x, y), scale = scale)
+        else:
+          self.engine.theme.setBaseColor(1 - v)
+          font.render(str(value), (x+self.textW, y), scale = scale)
+        glPopMatrix()
+        v *= 2
+        y += h
     finally:
       self.engine.view.resetProjection()
 
@@ -2460,6 +2601,14 @@ def getText(engine, prompt, text = ""):
   d = GetText(engine, prompt, text)
   _runDialog(engine, d)
   return d.text
+
+def getChoice(engine, text, values, valueIndex):
+  """
+  Ask the user to select a config value.
+  """
+  d = GetChoice(engine, text, values, valueIndex)
+  _runDialog(engine, d)
+  return d.selectedIndex
 
 def getKey(engine, prompt, key = None, specialKeyList = []):
   """

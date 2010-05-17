@@ -28,7 +28,7 @@ import math
 import os
 
 from View import Layer, BackgroundLayer
-from Input import KeyListener, MouseListener
+from Input import KeyListener, MouseListener, Button
 from Language import _
 import Data
 import Dialogs
@@ -111,21 +111,17 @@ class Choice:
     if engine and isinstance(self.callback, MenuItem):
       nextMenu = engine.mainMenu.menu.enterMenu(self.callback)
     elif self.values:
-      nextMenu = self.callback(self.values[self.valueIndex])
+      nextMenu = self.callback()
     else:
       nextMenu = self.callback()
     if isinstance(nextMenu, MenuItem):
      engine.mainMenu.menu.enterMenu(nextMenu)
       
   def selectNextValue(self):
-    if self.values:
-      self.valueIndex = (self.valueIndex + 1) % len(self.values)
-      self.trigger()
+    pass
 
   def selectPreviousValue(self):
-    if self.values:
-      self.valueIndex = (self.valueIndex - 1) % len(self.values)
-      self.trigger()
+    pass
       
   def getText(self, selected):
     if not self.values:
@@ -136,26 +132,6 @@ class Choice:
       return "%s: %s%s%s" % (self.text, Data.LEFT, self.values[self.valueIndex], Data.RIGHT)
     else:
       return "%s: %s" % (self.text, self.values[self.valueIndex])
-
-class Button(object):
-  def __init__(self, name, area, onClick = None, onHover = None, imgRange = None):
-    self.name = name
-    self.xRange, self.yRange = area
-    self.onClick = onClick
-    self.onHover = onHover
-    self.hovered = False
-    self.visible = True
-    self.pressed = 0
-    if imgRange:
-      self.imgXRange, self.imgYRange = imgRange
-    else:
-      self.imgXRange, self.imgYRange = area
-  
-  def click(self):
-    return self.onClick()
-  
-  def hover(self):
-    return self.onHover()
 
 class ConfigChoice(Choice):
   def __init__(self, engine, config, section, option, autoApply = False, isQuickset = 0):
@@ -191,7 +167,23 @@ class ConfigChoice(Choice):
     else:
       raise RuntimeError("No usable options for %s.%s." % (section, option))
     Choice.__init__(self, text = o.text, callback = self.change, values = values, valueIndex = valueIndex, tipText = tipText)
-    
+  
+  def selectNextValue(self):
+    if self.values:
+      self.valueIndex = (self.valueIndex + 1) % len(self.values)
+      self.change(self.values[self.valueIndex])
+  
+  def selectPreviousValue(self):
+    if self.values:
+      self.valueIndex = (self.valueIndex - 1) % len(self.values)
+      self.change(self.values[self.valueIndex])
+  
+  def trigger(self, engine = None):
+    opt = Dialogs.getChoice(self.engine, self.text, self.values, self.valueIndex)
+    if opt is not None:
+      self.valueIndex = opt
+      self.change(self.values[self.valueIndex])
+  
   def change(self, value):
     o = self.config.prototype[self.section][self.option]
     
@@ -218,12 +210,13 @@ class ConfigChoice(Choice):
           self.engine.quicksetRestart = True
     
     self.apply()  #stump: it wasn't correctly saving some "restart required" settings
-    if not self.autoApply:
-      self.engine.restartRequired = True
 
   def apply(self):
     if self.changed:
-      self.config.set(self.section, self.option, self.value)
+      if self.autoApply:
+        self.config.set(self.section, self.option, self.value)
+      else:
+        self.engine.restartRequired.append((self.section, self.option, self.value))
 
 class ActiveConfigChoice(ConfigChoice):
   """
@@ -449,10 +442,9 @@ class Menu(Layer, KeyListener, MouseListener):
     
     self.buttons      = {}
     
-    xS, yS = self.engine.view.geometry[2:4]
-    self.buttons["up"] = Button("up", ((xS*.18,xS*.22),(yS*.2,yS*.24)), self.mouseScrollUp)
-    self.buttons["down"] = Button("down", ((xS*.18,xS*.22),(yS*.7,yS*.74)), self.mouseScrollDown)
-    self.buttons["back"] = Button("back", ((xS*.8,xS*.84),(yS*.15,yS*.19)), self.cancel)
+    self.buttons["up"] = Button("up", (self.engine.theme.buttonUpX['default'],self.engine.theme.buttonUpY['default']), self.engine.view.geometry[2:4], self.mouseScrollUp)
+    self.buttons["down"] = Button("down", (self.engine.theme.buttonDownX['default'],self.engine.theme.buttonDownY['default']), self.engine.view.geometry[2:4], self.mouseScrollDown)
+    self.buttons["back"] = Button("back", (self.engine.theme.buttonBackX['default'],self.engine.theme.buttonBackY['default']), self.engine.view.geometry[2:4], self.cancel)
     
     self.onClose      = None
     self.onCancel     = None
@@ -465,7 +457,6 @@ class Menu(Layer, KeyListener, MouseListener):
     
     self.graphicMenu = False
     self.theme = 2
-    self.oneLoop = False
     
     self.textColor     = self.engine.theme.baseColor#textColor
     self.selectedColor = self.engine.theme.selectedColor
@@ -474,12 +465,21 @@ class Menu(Layer, KeyListener, MouseListener):
     self.engine.data.loadAllImages(self, os.path.join("themes",self.themename,"menu"))
     
     # if not pos:
-    self.sub_menu_x = self.engine.theme.sub_menu_xVar
-    self.sub_menu_y = self.engine.theme.sub_menu_yVar
+    self.default_menu_x       = self.engine.theme.menuX['default']
+    self.default_menu_y       = self.engine.theme.menuY['default']
+    self.default_menu_scale   = self.engine.theme.menuScale['default']
+    self.default_menu_vSpace  = self.engine.theme.menuVSpace['default']
+    self.default_menu_buttons = self.engine.theme.menuButtons['default']
+    self.default_menu_boxes   = self.engine.theme.menuBoxes['default']
+    
+    self.menux = self.default_menu_x
+    self.menuy = self.default_menu_y
+    self.menuScale = self.default_menu_scale
+    self.menuVSpace = self.default_menu_vSpace
+    self.useButtons = self.default_menu_buttons
+    self.useBoxes  = self.default_menu_boxes
 
-    pos = (self.sub_menu_x, self.sub_menu_y)
-
-    self.pos          = pos
+    self.pos          = (self.menux, self.menuy)
     self.viewSize     = 10
     self.fadeScreen   = False
     self.font         = self.engine.data.font
@@ -496,7 +496,6 @@ class Menu(Layer, KeyListener, MouseListener):
     self.mainMenu = self.engine.mainMenu
     self.breadcrumb = []
     self.loadedMenus = []
-    # self.menuDict = {}
     
     self.showTips = showTips
     if self.showTips:
@@ -512,7 +511,6 @@ class Menu(Layer, KeyListener, MouseListener):
     self.tipY = self.engine.theme.menuTipTextY
     self.tipScrollMode = self.engine.theme.menuTipTextScrollMode # - 0 for constant scroll; 1 for back and forth
     self.setupSettings()
-    #self.menuDict[firstMenu.name] = firstMenu
     self.enterMenu(firstMenu)
   
   def setupSettings(self):
@@ -878,41 +876,66 @@ class Menu(Layer, KeyListener, MouseListener):
         self.engine.data.loadAllImages(self, os.path.join("themes",self.themename,"menu",self.menuName), "img_%s" % self.menuName)
         self.loadedMenus.append(self.menuName)
       try:
+        self.menuBackground = self.__dict__["img_%sbackground" % self.menuName]
+      except KeyError:
+        self.menuBackground = None
+      try:
         self.gfxText = "%stext%d" % (self.menuName, len(nextMenu.choices))
         self.menuText = self.__dict__["img_%s" % self.gfxText]
-        try:
-          self.menuBackground = self.__dict__["img_%sbackground" % self.menuName]
-        except KeyError:
-          self.menuBackground = None
-        self.menux = self.engine.theme.submenuX[self.gfxText]
-        self.menuy = self.engine.theme.submenuY[self.gfxText]
-        self.menuScale = self.engine.theme.submenuScale[self.gfxText]
-        self.vSpace = self.engine.theme.submenuVSpace[self.gfxText]
-        if str(self.menux) != "None" and str(self.menuy) != "None":
-          self.menux = float(self.menux)
-          self.menuy = float(self.menuy)
-        else:
-          self.menux = .4
-          self.menuy = .4
-        if str(self.menuScale) != "None":
-          self.menuScale = float(self.menuScale)
-        else:
-          self.menuScale = .5
-        if str(self.vSpace) != "None":
-          self.vSpace = float(self.vSpace)
-        else:
-          self.vSpace = .08
         self.graphicMenu = True
       except KeyError:
         Log.warn("Your theme does not appear to properly support the %s graphical submenu. Check to be sure you have the latest version of your theme." % self.menuName)
-        self.menuBackground = None
         self.menuText = None
         self.graphicMenu = False
+      #Load menu settings, or fall back on default.
+      if self.engine.theme.menuX.has_key(self.menuName):
+        self.menux = self.engine.theme.menuX[self.menuName]
+      else:
+        self.menux = self.default_menu_x
+      if self.engine.theme.menuY.has_key(self.menuName):
+        self.menuy = self.engine.theme.menuY[self.menuName]
+      else:
+        self.menuy = self.default_menu_y
+      if self.engine.theme.menuScale.has_key(self.menuName):
+        self.menuScale = self.engine.theme.menuScale[self.menuName]
+      else:
+        self.menuScale = self.default_menu_scale
+      if self.engine.theme.menuVSpace.has_key(self.menuName):
+        self.vSpace = self.engine.theme.menuVSpace[self.menuName]
+      else:
+        self.vSpace = self.default_menu_vSpace
+      if self.engine.theme.menuButtons.has_key(self.menuName):
+        self.useButtons = self.engine.theme.menuButtons[self.menuName]
+      else:
+        self.useButtons = self.default_menu_buttons
+      if self.engine.theme.menuBoxes.has_key(self.menuName):
+        self.useBoxes = self.engine.theme.menuBoxes[self.menuName]
+      else:
+        self.useBoxes = self.default_menu_boxes
+      #Load menu-specific button settings, or use default
+      if self.engine.theme.buttonBackX.has_key(self.menuName) and self.engine.theme.buttonBackY.has_key(self.menuName):
+        self.buttons["back"].xRange = self.engine.theme.buttonBackX[self.menuName]
+        self.buttons["back"].yRange = self.engine.theme.buttonBackY[self.menuName]
+      else:
+        self.buttons["back"].xRange = self.buttons["back"].defaultXRange
+        self.buttons["back"].yRange = self.buttons["back"].defaultYRange
+      if self.engine.theme.buttonUpX.has_key(self.menuName) and self.engine.theme.buttonUpY.has_key(self.menuName):
+        self.buttons["up"].xRange = self.engine.theme.buttonUpX[self.menuName]
+        self.buttons["up"].yRange = self.engine.theme.buttonUpY[self.menuName]
+      else:
+        self.buttons["up"].xRange = self.buttons["up"].defaultXRange
+        self.buttons["up"].yRange = self.buttons["up"].defaultYRange
+      if self.engine.theme.buttonDownX.has_key(self.menuName) and self.engine.theme.buttonDownY.has_key(self.menuName):
+        self.buttons["down"].xRange = self.engine.theme.buttonDownX[self.menuName]
+        self.buttons["down"].yRange = self.engine.theme.buttonDownY[self.menuName]
+      else:
+        self.buttons["down"].xRange = self.buttons["down"].defaultXRange
+        self.buttons["down"].yRange = self.buttons["down"].defaultYRange
     else:
       self.menuBackground = None
       self.menuText = None
       self.graphicMenu = False
-    if self.menuName == "main": self.graphicMenu = False
+    self.pos          = (self.menux, self.menuy)
     if index:
       self.currentIndex = index
     else:
@@ -924,30 +947,31 @@ class Menu(Layer, KeyListener, MouseListener):
     self.itemBoxArea = []
     x, y = self.pos
     wS, hS = self.engine.view.geometry[2:4]
-    for i, c in enumerate(self.choices):
-      if self.graphicMenu:
-        Iw = self.menuText.width1()
-        Ih = self.menuText.height1()
-        xA = wS*(1.0-self.menux)-(Iw*.5*self.menuScale)
-        xB = wS*(1.0-self.menux)+(Iw*.5*self.menuScale)
-        yA = hS*(self.menuy+self.vSpace*i)-(Ih*self.menuScale*(1/float(len(self.choices))))
-        yB = hS*(self.menuy+self.vSpace*i)+(Ih*self.menuScale*(1/float(len(self.choices))))
-        self.itemBoxArea.append(((xA, xB), (yA, yB)))
-      else:
-        Tw, Th = self.font.getStringSize(c.text, .002)
-        lineSpacing = self.font.getLineSpacing(.002)
-        xA = x*wS
-        xB = xA + (Tw*wS)
-        yA = ((y*4.0/3.0)-Th*.5)*hS
-        yB = yA + (Th*1.0*hS)
-        y += Th
-        self.itemBoxArea.append(((xA, xB), (yA, yB)))
+    if self.useBoxes > 0:
+      for i, c in enumerate(self.choices):
+        if self.graphicMenu:
+          Iw = self.menuText.width1()
+          Ih = self.menuText.height1()
+          xA = wS*self.menux-(Iw*.5*self.menuScale)
+          xB = wS*self.menux+(Iw*.5*self.menuScale)
+          yA = hS*((1.0-self.menuy)+self.vSpace*i)-(Ih*self.menuScale*(1/float(len(self.choices))))
+          yB = hS*((1.0-self.menuy)+self.vSpace*i)+(Ih*self.menuScale*(1/float(len(self.choices))))
+          self.itemBoxArea.append(((xA, xB), (yA, yB)))
+        else:
+          Tw, Th = self.font.getStringSize(c.text, self.menuScale)
+          xA = x*wS
+          xB = xA + (Tw*wS)
+          yA = ((y*4.0/3.0)-Th*.5)*hS
+          yB = yA + (Th*1.0*hS)
+          y += Th
+          self.itemBoxArea.append(((xA, xB), (yA, yB)))
     if self.graphicMenu:
       self.lineH = self.vSpace*hS
     else:
-      self.lineH = (Th + lineSpacing)*hS
+      Tw, Th = self.font.getStringSize(" ", self.menuScale)
+      self.lineH = Th*hS
     
-    self.setTipScroll()
+    self.updateSelection()
   
   def selectItem(self, index):
     self.currentIndex = index
@@ -970,20 +994,25 @@ class Menu(Layer, KeyListener, MouseListener):
       self.viewOffset = self.currentIndex - self.viewSize + 1
     if self.currentIndex < self.viewOffset:
       self.viewOffset = self.currentIndex
-    if self.viewOffset > 0:
-      self.buttons["up"].visible = True
-    else:
+    if self.useButtons == 0:
       self.buttons["up"].visible = False
-    if self.viewOffset + self.viewSize < len(self.choices):
-      self.buttons["down"].visible = True
-    else:
       self.buttons["down"].visible = False
+      self.buttons["back"].visible = False
+    else:
+      if self.viewOffset > 0 or self.useButtons == 2:
+        self.buttons["up"].visible = True
+      else:
+        self.buttons["up"].visible = False
+      if self.viewOffset + self.viewSize < len(self.choices) or self.useButtons == 2:
+        self.buttons["down"].visible = True
+      else:
+        self.buttons["down"].visible = False
   
   def cancel(self):
     if self.onCancel:
       self.onCancel()
     if len(self.breadcrumb) > 0:
-      nextMenu = self.breadcrumb.pop()
+      nextMenu = self.breadcrumb[-1]
       self.enterMenu(nextMenu)
       self.engine.data.cancelSound.play()
     else:
@@ -1041,34 +1070,22 @@ class Menu(Layer, KeyListener, MouseListener):
     self.scrolling = 0
   
   def mouseMoved(self, pos, rel):
+    MouseListener.mouseMoved(self, pos, rel)
     x, y = pos
-    for button in self.buttons.values():
-      xA, xB = button.xRange
-      yA, yB = button.yRange
-      if x > xA and x < xB and y > yA and y < yB:
-        button.hovered = True
-      else:
-        button.hovered = False
-    for i, box in enumerate(self.itemBoxArea):
-      y += self.lineH*self.viewOffset
-      if i < self.viewOffset:
-        continue
-      elif i > self.viewOffset+self.viewSize:
-        break
-      xS, yS = box
-      xA, xB = xS
-      yA, yB = yS
-      if x > xA and x < xB and y > yA and y < yB:
-        self.currentIndex = i
-        self.updateSelection()
-        return
+    if self.useBoxes == 1:
+      for i, box in enumerate(self.itemBoxArea):
+        if i < self.viewOffset:
+          continue
+        elif i >= self.viewOffset+self.viewSize:
+          break
+        xRange, yRange = box
+        xMin, xMax = xRange
+        yMin, yMax = yRange
+        if x > xMin and x < xMax and y > yMin - (self.lineH*self.viewOffset*4.0/3.0) and y < yMax - (self.lineH*self.viewOffset*4.0/3.0):
+          self.currentIndex = i
+          self.updateSelection()
+          return
     return True
-  
-  def mouseButtonPressed(self, button, pos):
-    if button == 1:
-      for box in self.buttons.values():
-        if box.hovered:
-          box.pressed = True
   
   def mouseButtonReleased(self, button, pos):
     if button == 1:
@@ -1078,17 +1095,18 @@ class Menu(Layer, KeyListener, MouseListener):
         if box.pressed and box.hovered and not click:
           ret = box.click()
           click = True
+        box.pressed = False
       else:
-        for box in self.buttons.values():
-          box.pressed = False
         if click:
           return ret
+        if self.useBoxes == 0:
+          return
         box = self.itemBoxArea[self.currentIndex]
         x, y   = pos
-        xS, yS = box
-        xA, xB = xS
-        yA, yB = yS
-        if x > xA and x < xB and y > yA and y < yB:
+        xRange, yRange = box
+        xMin, xMax = xRange
+        yMin, yMax = yRange
+        if x > xMin and x < xMax and y > yMin - (self.lineH*self.viewOffset*4.0/3.0) and y < yMax - (self.lineH*self.viewOffset*4.0/3.0):
           self.scrolling = 0
           self.choices[self.currentIndex].trigger(self.engine)
           self.engine.data.acceptSound.play()
@@ -1099,6 +1117,8 @@ class Menu(Layer, KeyListener, MouseListener):
     return True
   
   def mouseScrollUp(self):
+    if self.useButtons == 2:
+      return self.scrollUp()
     self.viewOffset -= 3
     if self.viewOffset < 0:
       self.viewOffset = 0
@@ -1107,6 +1127,8 @@ class Menu(Layer, KeyListener, MouseListener):
     self.updateSelection()
   
   def mouseScrollDown(self):
+    if self.useButtons == 2:
+      return self.scrollDown()
     self.viewOffset += 3
     if self.viewOffset > len(self.choices) - self.viewSize:
       self.viewOffset = len(self.choices) - self.viewSize
@@ -1177,7 +1199,7 @@ class Menu(Layer, KeyListener, MouseListener):
   
   def applySettings(self):
     quickset(self.engine.config)
-    if self.engine.restartRequired or self.engine.quicksetRestart:
+    if len(self.engine.restartRequired) > 0 or self.engine.quicksetRestart:
       Dialogs.showMessage(self.engine, _("FoFiX needs to restart to apply setting changes."))
       for option in self.settingsToApply:
         if isinstance(option, ConfigChoice):
@@ -1246,7 +1268,7 @@ class Menu(Layer, KeyListener, MouseListener):
   def advancedSettings(self):
     Config.set("game", "adv_settings", False)
     self.engine.advSettings = False
-    if not self.engine.restartRequired:
+    if len(self.engine.restartRequired) == 0:
       self.engine.view.popLayer(self)
       self.engine.input.removeKeyListener(self)
     else:
@@ -1276,29 +1298,7 @@ class Menu(Layer, KeyListener, MouseListener):
       Config.set("setlist", "selected_library", os.path.basename(newPath))
       Config.set("setlist", "selected_song", "")
       self.engine.resource.refreshBaseLib()   #myfingershurt - to let user continue with new songpath without restart
-  
-  def getButtonImage(self, button):
-    if button.pressed:
-      try:
-        try:
-          return self.__dict__["img_%s%sp" % (self.menuName, button.name)]
-        except KeyError:
-          return self.__dict__["img_%sp" % button.name]
-      except KeyError:
-        pass
-    if button.hovered:
-      try:
-        try:
-          return self.__dict__["img_%s%sh" % (self.menuName, button.name)]
-        except KeyError:
-          return self.__dict__["img_%sh" % button.name]
-      except KeyError:
-        pass
-    try:
-      return self.__dict__["img_%s%sb" % (self.menuName, button.name)]
-    except KeyError:
-      return self.__dict__["img_%sb" % button.name]
-  
+
   def render(self, visibility, topMost):
     #MFH - display version in any menu:
 
@@ -1325,7 +1325,7 @@ class Menu(Layer, KeyListener, MouseListener):
         
       wS, hS = self.engine.view.geometry[2:4]
         
-      if self.graphicMenu and self.menuBackground:
+      if self.menuBackground:
         #volshebnyi - better menu scaling
         self.engine.drawImage(self.menuBackground, scale = (1.0,-1.0), coord = (wS/2,hS/2), stretched = 3)
       else:
@@ -1353,7 +1353,7 @@ class Menu(Layer, KeyListener, MouseListener):
           glPushMatrix()
           glRotate(v * 45, 0, 0, 1)
 
-          scale = 0.002
+          scale = self.menuScale
           # if self.mainMenu and self.theme < 2 and i % 2 == 1:#8bit
               # scale = 0.0016
 
@@ -1420,10 +1420,7 @@ class Menu(Layer, KeyListener, MouseListener):
     
       for button in self.buttons.values():
         if button.visible:
-          img = self.getButtonImage(button)
-          imgwidth = img.width1()
-          wfactor = (button.imgXRange[1]-button.imgXRange[0])/imgwidth
-          self.engine.drawImage(img, scale = (wfactor, -wfactor), coord = ((button.imgXRange[0] + button.imgXRange[1])*.5, hS-((button.imgYRange[0])+(button.imgYRange[1]))*.5))
+          button.render(self, self.menuName)
     finally:
       self.engine.view.resetProjection()
 

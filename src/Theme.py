@@ -525,8 +525,8 @@ defaultDict['fail_songname_xPos'] = .5
 defaultDict['fail_songname_yPos'] = .35
 
 #main menu system
-defaultDict['menuX'] = None
-defaultDict['menuY'] = None
+#defaultDict['menuX'] = None
+#defaultDict['menuY'] = None
 defaultDict['menuRB'] = False
 defaultDict['loadingX'] = .5
 defaultDict['loadingY'] = .6
@@ -647,13 +647,23 @@ defaultDict['result_menu_x']         = .5
 defaultDict['result_menu_y']         = .2
 defaultDict['result_star_type']      = 0
 
-#Submenus
-defaultDict['submenuScale'] = {}
-defaultDict['submenuX'] = {}
-defaultDict['submenuY'] = {}
-defaultDict['submenuVSpace'] = {}
-
 #New stuff
+#Menu Positioning
+defaultDict['menuScale'] = {'default': .002}
+defaultDict['menuX'] = {'default': .4}
+defaultDict['menuY'] = {'default': .4}
+defaultDict['menuVSpace'] = {'default': 0}
+defaultDict['menuButtons'] = {'default': 1} #magic numba 0 = none, 1 = up/down as needed, 2 = up/down select
+defaultDict['menuBoxes'] = {'default': 1} #0 = no clickable text, 1 = clickable text, 2 = only current item
+
+#Buttons
+defaultDict['buttonBackX'] = {'default': (.8,.84)}
+defaultDict['buttonBackY'] = {'default': (.15,.19)}
+defaultDict['buttonUpX'] = {'default': (.18,.22)}
+defaultDict['buttonUpY'] = {'default': (.2,.24)}
+defaultDict['buttopDownX'] = {'default': (.18,.22)}
+defaultDict['buttonDownY'] = {'default': (.7,.74)}
+
 #Lobby
 defaultDict['lobbyPanelAvatarDimension'] = (200.00, 110.00)
 defaultDict['lobbyTitleText']            = _("Lobby")
