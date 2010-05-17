@@ -55,6 +55,14 @@ STAR4 = STAR2
 #-RIGHT = unicode('\x13')
 #-STAR3 = unicode('\x14')  #Worldrave - Added new Star3
 #-STAR4 = unicode('\x15')  #Worldrave - Added new Star4
+class DefaultKeyDict(dict):
+  # a dict that returns a provided default on a missing key (or None)
+  def __init__(self, default = None):
+    dict.__init__(self)
+    self.default = default
+    
+  def __missing__(self, key):
+    return self.default
 
 class Data(object):
   """A collection of globally used data resources such as fonts and sound effects."""
@@ -194,110 +202,8 @@ class Data(object):
       font    = \
       bigFont = resource.fileName("international.ttf")
 
-    # load fonts
-    w, h = [int(s) for s in Config.get("video", "resolution").split("x")]
-    aspectRatio = float(w)/float(h)
-    if os.path.isdir(os.path.join(self.themepath, "fonts")):
-      self.fontDict = {}
-      for file in os.listdir(os.path.join(self.themepath, "fonts")):
-        splitext = os.path.splitext(file)
-        if splitext[1] == ".ttf":
-          self.fontDict[splitext[0]] = Font(os.path.join(self.themepath, "fonts", file), 64, scale = 1, reversed = False, systemFont = False, aspectRatio = aspectRatio)
-    else:
-      font1     = lambda: Font(font,    fontSize[0], scale = scale*.5, reversed = reversed, systemFont = not asciiOnly, aspectRatio = aspectRatio)
-      font2     = lambda: Font(bigFont, fontSize[1], scale = 1, reversed = reversed, systemFont = not asciiOnly)
-      if self.theme == 1: # evilynux - No outline for GH3
-        font3     = lambda: Font(pauseFont, fontSize[2], scale = scale2, reversed = reversed, systemFont = not asciiOnly, outline = False, aspectRatio = aspectRatio)
-      else:
-        font3     = lambda: Font(pauseFont, fontSize[2], scale = scale2, reversed = reversed, systemFont = not asciiOnly, aspectRatio = aspectRatio)
-      font4     = lambda: Font(scoreFont, fontSize[3], scale = scale2, reversed = reversed, systemFont = not asciiOnly, outline = False, aspectRatio = aspectRatio)
-      font5     = lambda: Font(streakFont, fontSize[3], scale = scale2, reversed = reversed, systemFont = not asciiOnly, outline = False, aspectRatio = aspectRatio)
-      if self.theme == 1:
-        font6     = lambda: Font(loadingFont, fontSize[3], scale = scale2*1.4, reversed = reversed, systemFont = not asciiOnly, outline = False, shadow = True, aspectRatio = aspectRatio) #Worldrave - Added shadow to Loading Phrases in GH-Based Theme's
-      else:
-        font6     = lambda: Font(loadingFont, fontSize[3], scale = scale2, reversed = reversed, systemFont = not asciiOnly, outline = False, aspectRatio = aspectRatio)
-      if self.theme == 2:
-        font7     = lambda: Font(songFont, fontSize[4], scale = scale2, reversed = reversed, systemFont = not asciiOnly, outline = False, aspectRatio = aspectRatio)#kk69: loads font specific for song name in Guitar Scene =)
-      else:
-        font7     = lambda: Font(songFont, fontSize[0], scale = scale2, reversed = reversed, systemFont = not asciiOnly, outline = False, aspectRatio = aspectRatio)#kk69: loads font specific for song name in Guitar Scene =)
-      font8     = lambda: Font(songListFont, fontSize[3], scale = scale2, reversed = reversed, systemFont = not asciiOnly, outline = False, aspectRatio = aspectRatio) #MFH
-      font9     = lambda: Font(shadowfont, fontSize[3], scale = scale2, reversed = reversed, systemFont = not asciiOnly, outline = False, shadow = True, aspectRatio = aspectRatio) #blazingamer
-      font10    = lambda: Font(streakFont2, fontSize[2], scale = scale2*1.08, reversed = reversed, systemFont = not asciiOnly, outline = False, shadow = True, aspectRatio = aspectRatio) #blazingamer - Worldrave modified size to accuracy.
-
-
-      resource.load(self, "font",         font1, synch = True)
-      resource.load(self, "bigFont",      font2, synch = True)
-
-
-      #MFH - seems like these should be up here...
-      menuFont = resource.fileName(os.path.join("themes",themename,"menu.ttf"))
-      pauseFont = resource.fileName(os.path.join("themes",themename,"pause.ttf"))
-      scoreFont = resource.fileName(os.path.join("themes",themename,"score.ttf"))
-
-      if self.fileExists(os.path.join("themes",themename,"Streak.ttf")):
-        streakFont = resource.fileName(os.path.join("themes",themename,"streak.ttf"))
-      else:
-        streakFont = resource.fileName(os.path.join("themes",themename,"score.ttf"))
-      if self.fileExists(os.path.join("themes",themename,"Song.ttf")):
-        songFont = resource.fileName(os.path.join("themes",themename,"song.ttf"))
-      else:
-        songFont = resource.fileName(os.path.join("themes",themename,"menu.ttf"))#kk69: use menu font when song font is not present
-
-      if self.fileExists(os.path.join("themes",themename,"loading.ttf")):
-        loadingFont = resource.fileName(os.path.join("themes",themename,"loading.ttf"))
-      else:
-        loadingFont = resource.fileName("default.ttf")
-
-      if self.fileExists(os.path.join("themes",themename,"songlist.ttf")):
-        songListFont = resource.fileName(os.path.join("themes",themename,"songlist.ttf"))
-      else:
-        songListFont = menuFont
-      if self.fileExists(os.path.join("themes",themename,"songlist.ttf")):
-        shadowfont = resource.fileName(os.path.join("themes",themename,"songlist.ttf"))
-      else:
-        shadowfont = menuFont
-
-      #blazingamer
-      if self.fileExists(os.path.join("themes",themename,"streakphrase.ttf")):
-        streakFont2 = resource.fileName(os.path.join("themes",themename,"streakphrase.ttf"))
-      else:
-        streakFont2 = menuFont
-
-      #blazingamer:Reorganized
-      if self.theme == 0:
-        font1     = lambda: Font(menuFont,  fontSize[2], scale = scale*.5, reversed = reversed, systemFont = not asciiOnly, aspectRatio = aspectRatio)
-        font2     = lambda: Font(menuFont,  fontSize[2], scale = scale*.5, reversed = reversed, systemFont = not asciiOnly, outline = False, aspectRatio = aspectRatio)
-        resource.load(self, "lfont",         font2, synch = True)
-        resource.load(self, "font",          font1, synch = True)
-      elif self.theme == 1:
-        font1     = lambda: Font(menuFont,  fontSize[3], scale = scale*.5, reversed = reversed, systemFont = not asciiOnly, outline = False, aspectRatio = aspectRatio) #Worldrave - Removed outline from options text on GH-Based theme's. No other drawbacks noticed.
-        font2     = lambda: Font(menuFont,  fontSize[3], scale = scale*.5, reversed = reversed, systemFont = not asciiOnly, outline = False, aspectRatio = aspectRatio)
-        resource.load(self, "lfont",         font2, synch = True)
-        resource.load(self, "font",          font1, synch = True)
-      elif self.theme == 2:
-        font1     = lambda: Font(menuFont,  fontSize[4], scale = scale*.5, reversed = reversed, systemFont = not asciiOnly, outline = False, aspectRatio = aspectRatio)
-        resource.load(self, "font",          font1, synch = True)
-
-
-      resource.load(self, "pauseFont",     font3, synch = True)
-      resource.load(self, "scoreFont",     font4, synch = True)
-      resource.load(self, "streakFont",    font5, synch = True)
-      resource.load(self, "songFont",      font7, synch = True)
-      resource.load(self, "streakFont2",    font10, synch = True)#blazingamer
-
-      resource.load(self, "songListFont",      font8, synch = True)
-      resource.load(self, "shadowfont",      font9, synch = True)
-      resource.load(self, "loadingFont",    font6, synch = True)
-      
-      self.fontDict = {"font": self.font, "bigFont": self.bigFont, "pauseFont": self.pauseFont, "scoreFont": self.scoreFont, \
-                       "streakFont": self.streakFont, "songFont": self.songFont, "streakFont2": self.streakFont2, \
-                       "songListFont": self.songListFont, "shadowfont": self.shadowfont, "loadingFont": self.loadingFont}
-      try:
-        self.fontDict['lfont'] = self.lfont
-      except AttributeError:
-        pass
-
-
+    self.loadUI()
+	
     if self.fileExists(os.path.join("themes",themename,"sounds","starding.ogg")):
       self.loadSoundEffect(self, "starDingSound", os.path.join("themes",themename,"sounds","starding.ogg"))
       self.starDingSoundFound = True
@@ -458,7 +364,42 @@ class Data(object):
     #elif self.theme == 2:
     #  #self.loadSoundEffect(self, "acceptSound",  os.path.join("themes",themename,"sounds","action.ogg"))
     #  self.loadSoundEffect(self, "cancelSounds",  os.path.join("themes",themename,"sounds","out.ogg"))
-
+  
+  def loadUI(self):
+    #seems silly to subdivide this much, but I'd like to move towards a more unified UI.
+    #for example, window and button styles. Perhaps this is needless overcomplication.
+    uiPath = os.path.join(Version.dataPath(),"themes",self.themeLabel,"ui")
+    self.loadFonts(uiPath)
+  
+  def loadFonts(self, uiPath):
+    # load fonts
+    self.fontDict = DefaultKeyDict()
+    w, h = [int(s) for s in Config.get("video", "resolution").split("x")]
+    aspectRatio = float(w)/float(h)
+    for file in os.listdir(os.path.join(uiPath, "fonts")):
+      splitext = os.path.splitext(file)
+      if splitext[1] == ".ttf":
+        self.fontDict[splitext[0]] = Font(os.path.join(uiPath, "fonts", file), 32, scale = .5, reversed = False, systemFont = False, aspectRatio = aspectRatio)
+    if "default" in self.fontDict:
+      self.fontDict.default = self.fontDict["default"]
+    elif "font" in self.fontDict:
+      self.fontDict.default = self.fontDict["font"]
+    elif "main" in self.fontDict:
+      self.fontDict.default = self.fontDict["main"]
+    elif "menu" in self.fontDict:
+      self.fontDict.default = self.fontDict["menu"]
+    else:
+      self.fontDict.default = self.fontDict.values()[0]
+    self.font = self.fontDict["font"]
+    self.bigFont = self.fontDict["big"]
+    self.menuFont = self.fontDict["menu"]
+    self.songFont = self.fontDict["song"]
+    self.loadingFont = self.fontDict["loading"]
+    self.pauseFont = self.fontDict["pause"]
+    self.scoreFont = self.fontDict["score"]
+    self.songListFont = self.fontDict["songlist"]
+    self.streakFont = self.fontDict["streak"]
+  
   def loadPartImages(self):
     self.partImages = []
     self.partImages.append(self.loadImgDrawing(None, "guitar", os.path.join("themes",self.themeLabel,"common","guitar.png")))
