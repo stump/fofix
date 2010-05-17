@@ -32,7 +32,7 @@
 
 from Scene import Scene, SuppressScene
 from Song import Note, Tempo, TextEvent, PictureEvent, loadSong, Bars, VocalNote, VocalPhrase
-from Menu import Menu
+#from Menu import Menu
 
 from Language import _
 import Player
@@ -1640,10 +1640,10 @@ class GuitarScene(Scene):
     self.fail_completed_color = self.engine.theme.hexToColor(self.engine.theme.fail_completed_colorVar)
     
 
-    settingsMenu = Settings.GameSettingsMenu(self.engine, self.pause_text_color, self.pause_selected_color, players = self.playerList)
-    careerSettingsMenu = Settings.GameCareerSettingsMenu(self.engine, self.pause_text_color, self.pause_selected_color, players = self.playerList)
-    settingsMenu.fadeScreen = False
-    careerSettingsMenu.fadeScreen = False
+    #settingsMenu = Settings.GameSettingsMenu(self.engine, self.pause_text_color, self.pause_selected_color, players = self.playerList)
+    #careerSettingsMenu = Settings.GameCareerSettingsMenu(self.engine, self.pause_text_color, self.pause_selected_color, players = self.playerList)
+    #settingsMenu.fadeScreen = False
+    #careerSettingsMenu.fadeScreen = False
 
     
     # evilynux - More themeable options
@@ -1684,110 +1684,110 @@ class GuitarScene(Scene):
     if self.fail_text_y == None:
       self.fail_text_y = .47
 
-    if self.theme == 1: #GH3-like theme
-      if self.careerMode:
-        self.menu = Menu(self.engine, [
-          (_("         RESUME"), self.resumeSong), #Worldrave adjusted proper spacing.
-          (_("        RESTART"), self.restartSong),
-          #(_("        GIVE UP"), self.changeSong), *Worldrave-commented out just to match GH3. Since this is a GH3 specific instruction.
-          (_("       PRACTICE"), self.practiceSong), #evilynux
-          (_("        OPTIONS"), careerSettingsMenu),
-          (_("           QUIT"), self.quit), #Worldrave - added graphic menu support "careerpause" for Career Pause menu in below line.
-        ], name = "careerpause", fadeScreen = False, onClose = self.resumeGame, font = self.engine.data.pauseFont, pos = (self.pause_text_x, self.pause_text_y), textColor = self.pause_text_color, selectedColor = self.pause_selected_color, append_submenu_char = False)
-      else:
-        self.menu = Menu(self.engine, [
-          (_("        RESUME"), self.resumeSong),
-          (_("       RESTART"), self.restartSong),
- #         (_("        GIVE UP"), self.changeSong),
-          (_("      END SONG"), self.endSong),
-          (_("       OPTIONS"), settingsMenu),
-          (_("           QUIT"), self.quit),  #Worldrave - added graphic menu support "pause" for Pause menu in below line.
-        ], name = "pause", fadeScreen = False, onClose = self.resumeGame, font = self.engine.data.pauseFont, pos = (self.pause_text_x, self.pause_text_y), textColor = self.pause_text_color, selectedColor = self.pause_selected_color, append_submenu_char = False)
-      size = self.engine.data.pauseFont.getStringSize("Quit to Main")
-      if self.careerMode:
-        self.failMenu = Menu(self.engine, [
-          (_("RETRY SONG"), self.restartAfterFail),
-          (_("  PRACTICE"), self.practiceSong), #evilynux
-          (_(" NEW SONG"), self.changeAfterFail),
-          (_("     QUIT"), self.quit),   #Worldrave - added graphic menu support "careerfail" for Career Failed menu in below line.
-        ], name = "careerfail", fadeScreen = False, onCancel = self.changeAfterFail, font = self.engine.data.pauseFont, pos = (self.fail_text_x, self.fail_text_y), textColor = self.fail_text_color, selectedColor = self.fail_selected_color)
-      else:
-        self.failMenu = Menu(self.engine, [
-          (_("RETRY SONG"), self.restartAfterFail),
-          (_(" NEW SONG"), self.changeAfterFail),
-          (_("     QUIT"), self.quit),  #Worldrave - added graphic menu support "fail" for Fail menu in below line.
-        ], name = "fail", fadeScreen = False, onCancel = self.changeAfterFail, font = self.engine.data.pauseFont, pos = (self.fail_text_x, self.fail_text_y), textColor = self.fail_text_color, selectedColor = self.fail_selected_color)
-      #FirstTime = True
-      #self.restartSong(FirstTime)
-    elif self.theme == 0:   #GH2-like theme
-      if self.careerMode:
-        self.menu = Menu(self.engine, [
-          (_("  Resume"),       self.resumeSong),
-          (_("  Start Over"),      self.restartSong),
-          (_("  Change Song"),       self.changeSong),
-          (_("  Practice"),       self.practiceSong), #evilynux
-          (_("  Settings"),          careerSettingsMenu),
-          (_("  Quit to Main Menu"), self.quit),  #Worldrave - added graphic menu support "careerpause" for Career Pause menu in below line.
-        ], name = "careerpause", fadeScreen = False, onClose = self.resumeGame, font = self.engine.data.pauseFont, pos = (self.pause_text_x, self.pause_text_y), textColor = self.pause_text_color, selectedColor = self.pause_selected_color)
-      else:
-        self.menu = Menu(self.engine, [
-          (_("  Resume"),       self.resumeSong),
-          (_("  Start Over"),      self.restartSong),
-          (_("  Change Song"),       self.changeSong),
-          (_("  End Song"),          self.endSong),
-          (_("  Settings"),          settingsMenu),
-          (_("  Quit to Main Menu"), self.quit),  #Worldrave - added graphic menu support "pause" for Pause menu in below line.
-        ], name = "pause", fadeScreen = False, onClose = self.resumeGame, font = self.engine.data.pauseFont, pos = (self.pause_text_x, self.pause_text_y), textColor = self.pause_text_color, selectedColor = self.pause_selected_color)
-      size = self.engine.data.pauseFont.getStringSize("Quit to Main")
-      if self.careerMode:
-        self.failMenu = Menu(self.engine, [
-          (_(" Try Again?"), self.restartAfterFail),
-          (_("  Give Up?"), self.changeAfterFail),
-          (_("  Practice?"), self.practiceSong), #evilynux
-          (_("Quit to Main"), self.quit),  #Worldrave - added graphic menu support "careerfail" for Career Fail menu in below line.
-        ], name = "careerfail", fadeScreen = False, onCancel = self.changeAfterFail, font = self.engine.data.pauseFont, pos = (self.fail_text_x, self.fail_text_y), textColor = self.fail_text_color, selectedColor = self.fail_selected_color)
-      else:
-        self.failMenu = Menu(self.engine, [
-          (_(" Try Again?"), self.restartAfterFail),
-          (_("  Give Up?"), self.changeAfterFail),
-          (_("Quit to Main"), self.quit),  #Worldrave - added graphic menu support "fail" for Fail menu in below line.
-        ], name = "fail", fadeScreen = False, onCancel = self.changeAfterFail, font = self.engine.data.pauseFont, pos = (self.fail_text_x, self.fail_text_y), textColor = self.fail_text_color, selectedColor = self.fail_selected_color)
-      #FirstTime = True
-      #self.restartSong(FirstTime)
-    elif self.theme == 2:   #RB-like theme
-      size = self.engine.data.pauseFont.getStringSize("Quit to Main Menu")
-      if self.careerMode:
-        self.menu = Menu(self.engine, [
-          (_("   RESUME"),       self.resumeSong),
-          (_("   RESTART"),      self.restartSong),
-          (_("   CHANGE SONG"),       self.changeSong),
-          (_("   PRACTICE"),       self.practiceSong), #evilynux
-          (_("   SETTINGS"),          careerSettingsMenu),
-          (_("   QUIT"), self.quit),  #Worldrave - added graphic menu support "careerpause" for Career Pause menu in below line.
-        ], name = "careerpause", fadeScreen = False, onClose = self.resumeGame, font = self.engine.data.pauseFont, pos = (self.pause_text_x, self.pause_text_y), textColor = self.pause_text_color, selectedColor = self.pause_selected_color)
-      else:      
-        self.menu = Menu(self.engine, [
-          (_("   RESUME"),       self.resumeSong),
-          (_("   RESTART"),      self.restartSong),
-          (_("   CHANGE SONG"),       self.changeSong),
-          (_("   END SONG"),          self.endSong),
-          (_("   SETTINGS"),          settingsMenu),
-          (_("   QUIT"), self.quit),   #Worldrave - added graphic menu support "pause" for Pause menu in below line.
-        ], name = "pause", fadeScreen = False, onClose = self.resumeGame, font = self.engine.data.pauseFont, pos = (self.pause_text_x, self.pause_text_y), textColor = self.pause_text_color, selectedColor = self.pause_selected_color)
-      size = self.engine.data.pauseFont.getStringSize("Quit to Main")
-      if self.careerMode:
-        self.failMenu = Menu(self.engine, [
-          (_(" RETRY"), self.restartAfterFail),
-          (_(" NEW SONG"), self.changeAfterFail),
-          (_(" PRACTICE"), self.practiceSong), #evilynux
-          (_(" QUIT"), self.quit),  #Worldrave - added graphic menu support "careerfail" for Career Fail menu in below line.
-        ], name = "careerfail", fadeScreen = False, onCancel = self.changeAfterFail, font = self.engine.data.pauseFont, pos = (self.fail_text_x, self.fail_text_y), textColor = self.fail_text_color, selectedColor = self.fail_selected_color)
-      else:
-        self.failMenu = Menu(self.engine, [
-          (_(" RETRY"), self.restartAfterFail),
-          (_(" NEW SONG"), self.changeAfterFail),
-          (_(" QUIT"), self.quit),  #Worldrave - added graphic menu support "fail" for Fail menu in below line.
-        ], name = "fail", fadeScreen = False, onCancel = self.changeAfterFail, font = self.engine.data.pauseFont, pos = (self.fail_text_x, self.fail_text_y), textColor = self.fail_text_color, selectedColor = self.fail_selected_color)
+    # if self.theme == 1: #GH3-like theme
+      # if self.careerMode:
+        # self.menu = Menu(self.engine, [
+          # (_("         RESUME"), self.resumeSong), #Worldrave adjusted proper spacing.
+          # (_("        RESTART"), self.restartSong),
+          # #(_("        GIVE UP"), self.changeSong), *Worldrave-commented out just to match GH3. Since this is a GH3 specific instruction.
+          # (_("       PRACTICE"), self.practiceSong), #evilynux
+          # (_("        OPTIONS"), careerSettingsMenu),
+          # (_("           QUIT"), self.quit), #Worldrave - added graphic menu support "careerpause" for Career Pause menu in below line.
+        # ], name = "careerpause", fadeScreen = False, onClose = self.resumeGame, font = self.engine.data.pauseFont, pos = (self.pause_text_x, self.pause_text_y), textColor = self.pause_text_color, selectedColor = self.pause_selected_color, append_submenu_char = False)
+      # else:
+        # self.menu = Menu(self.engine, [
+          # (_("        RESUME"), self.resumeSong),
+          # (_("       RESTART"), self.restartSong),
+ # #         (_("        GIVE UP"), self.changeSong),
+          # (_("      END SONG"), self.endSong),
+          # (_("       OPTIONS"), settingsMenu),
+          # (_("           QUIT"), self.quit),  #Worldrave - added graphic menu support "pause" for Pause menu in below line.
+        # ], name = "pause", fadeScreen = False, onClose = self.resumeGame, font = self.engine.data.pauseFont, pos = (self.pause_text_x, self.pause_text_y), textColor = self.pause_text_color, selectedColor = self.pause_selected_color, append_submenu_char = False)
+      # size = self.engine.data.pauseFont.getStringSize("Quit to Main")
+      # if self.careerMode:
+        # self.failMenu = Menu(self.engine, [
+          # (_("RETRY SONG"), self.restartAfterFail),
+          # (_("  PRACTICE"), self.practiceSong), #evilynux
+          # (_(" NEW SONG"), self.changeAfterFail),
+          # (_("     QUIT"), self.quit),   #Worldrave - added graphic menu support "careerfail" for Career Failed menu in below line.
+        # ], name = "careerfail", fadeScreen = False, onCancel = self.changeAfterFail, font = self.engine.data.pauseFont, pos = (self.fail_text_x, self.fail_text_y), textColor = self.fail_text_color, selectedColor = self.fail_selected_color)
+      # else:
+        # self.failMenu = Menu(self.engine, [
+          # (_("RETRY SONG"), self.restartAfterFail),
+          # (_(" NEW SONG"), self.changeAfterFail),
+          # (_("     QUIT"), self.quit),  #Worldrave - added graphic menu support "fail" for Fail menu in below line.
+        # ], name = "fail", fadeScreen = False, onCancel = self.changeAfterFail, font = self.engine.data.pauseFont, pos = (self.fail_text_x, self.fail_text_y), textColor = self.fail_text_color, selectedColor = self.fail_selected_color)
+      # #FirstTime = True
+      # #self.restartSong(FirstTime)
+    # elif self.theme == 0:   #GH2-like theme
+      # if self.careerMode:
+        # self.menu = Menu(self.engine, [
+          # (_("  Resume"),       self.resumeSong),
+          # (_("  Start Over"),      self.restartSong),
+          # (_("  Change Song"),       self.changeSong),
+          # (_("  Practice"),       self.practiceSong), #evilynux
+          # (_("  Settings"),          careerSettingsMenu),
+          # (_("  Quit to Main Menu"), self.quit),  #Worldrave - added graphic menu support "careerpause" for Career Pause menu in below line.
+        # ], name = "careerpause", fadeScreen = False, onClose = self.resumeGame, font = self.engine.data.pauseFont, pos = (self.pause_text_x, self.pause_text_y), textColor = self.pause_text_color, selectedColor = self.pause_selected_color)
+      # else:
+        # self.menu = Menu(self.engine, [
+          # (_("  Resume"),       self.resumeSong),
+          # (_("  Start Over"),      self.restartSong),
+          # (_("  Change Song"),       self.changeSong),
+          # (_("  End Song"),          self.endSong),
+          # (_("  Settings"),          settingsMenu),
+          # (_("  Quit to Main Menu"), self.quit),  #Worldrave - added graphic menu support "pause" for Pause menu in below line.
+        # ], name = "pause", fadeScreen = False, onClose = self.resumeGame, font = self.engine.data.pauseFont, pos = (self.pause_text_x, self.pause_text_y), textColor = self.pause_text_color, selectedColor = self.pause_selected_color)
+      # size = self.engine.data.pauseFont.getStringSize("Quit to Main")
+      # if self.careerMode:
+        # self.failMenu = Menu(self.engine, [
+          # (_(" Try Again?"), self.restartAfterFail),
+          # (_("  Give Up?"), self.changeAfterFail),
+          # (_("  Practice?"), self.practiceSong), #evilynux
+          # (_("Quit to Main"), self.quit),  #Worldrave - added graphic menu support "careerfail" for Career Fail menu in below line.
+        # ], name = "careerfail", fadeScreen = False, onCancel = self.changeAfterFail, font = self.engine.data.pauseFont, pos = (self.fail_text_x, self.fail_text_y), textColor = self.fail_text_color, selectedColor = self.fail_selected_color)
+      # else:
+        # self.failMenu = Menu(self.engine, [
+          # (_(" Try Again?"), self.restartAfterFail),
+          # (_("  Give Up?"), self.changeAfterFail),
+          # (_("Quit to Main"), self.quit),  #Worldrave - added graphic menu support "fail" for Fail menu in below line.
+        # ], name = "fail", fadeScreen = False, onCancel = self.changeAfterFail, font = self.engine.data.pauseFont, pos = (self.fail_text_x, self.fail_text_y), textColor = self.fail_text_color, selectedColor = self.fail_selected_color)
+      # #FirstTime = True
+      # #self.restartSong(FirstTime)
+    # elif self.theme == 2:   #RB-like theme
+      # size = self.engine.data.pauseFont.getStringSize("Quit to Main Menu")
+      # if self.careerMode:
+        # self.menu = Menu(self.engine, [
+          # (_("   RESUME"),       self.resumeSong),
+          # (_("   RESTART"),      self.restartSong),
+          # (_("   CHANGE SONG"),       self.changeSong),
+          # (_("   PRACTICE"),       self.practiceSong), #evilynux
+          # (_("   SETTINGS"),          careerSettingsMenu),
+          # (_("   QUIT"), self.quit),  #Worldrave - added graphic menu support "careerpause" for Career Pause menu in below line.
+        # ], name = "careerpause", fadeScreen = False, onClose = self.resumeGame, font = self.engine.data.pauseFont, pos = (self.pause_text_x, self.pause_text_y), textColor = self.pause_text_color, selectedColor = self.pause_selected_color)
+      # else:      
+        # self.menu = Menu(self.engine, [
+          # (_("   RESUME"),       self.resumeSong),
+          # (_("   RESTART"),      self.restartSong),
+          # (_("   CHANGE SONG"),       self.changeSong),
+          # (_("   END SONG"),          self.endSong),
+          # (_("   SETTINGS"),          settingsMenu),
+          # (_("   QUIT"), self.quit),   #Worldrave - added graphic menu support "pause" for Pause menu in below line.
+        # ], name = "pause", fadeScreen = False, onClose = self.resumeGame, font = self.engine.data.pauseFont, pos = (self.pause_text_x, self.pause_text_y), textColor = self.pause_text_color, selectedColor = self.pause_selected_color)
+      # size = self.engine.data.pauseFont.getStringSize("Quit to Main")
+      # if self.careerMode:
+        # self.failMenu = Menu(self.engine, [
+          # (_(" RETRY"), self.restartAfterFail),
+          # (_(" NEW SONG"), self.changeAfterFail),
+          # (_(" PRACTICE"), self.practiceSong), #evilynux
+          # (_(" QUIT"), self.quit),  #Worldrave - added graphic menu support "careerfail" for Career Fail menu in below line.
+        # ], name = "careerfail", fadeScreen = False, onCancel = self.changeAfterFail, font = self.engine.data.pauseFont, pos = (self.fail_text_x, self.fail_text_y), textColor = self.fail_text_color, selectedColor = self.fail_selected_color)
+      # else:
+        # self.failMenu = Menu(self.engine, [
+          # (_(" RETRY"), self.restartAfterFail),
+          # (_(" NEW SONG"), self.changeAfterFail),
+          # (_(" QUIT"), self.quit),  #Worldrave - added graphic menu support "fail" for Fail menu in below line.
+        # ], name = "fail", fadeScreen = False, onCancel = self.changeAfterFail, font = self.engine.data.pauseFont, pos = (self.fail_text_x, self.fail_text_y), textColor = self.fail_text_color, selectedColor = self.fail_selected_color)
 
     self.restartSong(firstTime = True)
 
@@ -1812,7 +1812,8 @@ class GuitarScene(Scene):
           instrument.neck.paused = True
 
   def failGame(self):
-    self.engine.view.pushLayer(self.failMenu)
+    return self.quit()
+    #self.engine.view.pushLayer(self.failMenu)
     if self.song and self.song.readyToGo and self.pause: #akedrou - don't let the pause menu overlap the fail menu.
       self.engine.view.popLayer(self.menu)
       self.pause = False
@@ -1850,7 +1851,7 @@ class GuitarScene(Scene):
   def lostFocus(self): #akedrou - catch to pause on lostFocus
     if self.song and self.song.readyToGo:
       if not self.failed and not self.pause and self.lostFocusPause == True:
-        self.engine.view.pushLayer(self.menu)
+        #self.engine.view.pushLayer(self.menu)
         self.pauseGame()
   
   def setCamera(self):
@@ -2190,7 +2191,7 @@ class GuitarScene(Scene):
     self.song.readyToGo = False
   
   def endSong(self):
-    self.engine.view.popLayer(self.menu)
+    #self.engine.view.popLayer(self.menu)
     validScoreFound = False
     for scoreCard in self.scoring:  #MFH - what if 2p (human) battles 1p (Jurgen / CPU)?  He needs a valid score too!
       if scoreCard.score > 0:
@@ -2214,8 +2215,8 @@ class GuitarScene(Scene):
     self.engine.setSpeedFactor(1.0)
 
     self.engine.view.setViewport(1,0)
-    self.engine.view.popLayer(self.menu)
-    self.engine.view.popLayer(self.failMenu)
+    #self.engine.view.popLayer(self.menu)
+    #self.engine.view.popLayer(self.failMenu)
     self.freeResources()
     self.engine.world.finishGame()
 
@@ -2226,8 +2227,8 @@ class GuitarScene(Scene):
       self.song  = None
     self.resetVariablesToDefaults()
     self.engine.view.setViewport(1,0)
-    self.engine.view.popLayer(self.menu)
-    self.engine.view.popLayer(self.failMenu)
+    #self.engine.view.popLayer(self.menu)
+    #self.engine.view.popLayer(self.failMenu)
     self.freeResources()
     self.engine.world.gameMode = 1
     self.engine.world.createScene("SongChoosingScene")
@@ -2240,8 +2241,8 @@ class GuitarScene(Scene):
     # evilynux - Reset speed
     self.engine.setSpeedFactor(1.0)
     self.engine.view.setViewport(1,0)
-    self.engine.view.popLayer(self.menu)
-    self.engine.view.popLayer(self.failMenu)
+    #self.engine.view.popLayer(self.menu)
+    #self.engine.view.popLayer(self.failMenu)
     self.freeResources()
     # self.session.world.deleteScene(self)
     self.engine.world.createScene("SongChoosingScene")
@@ -2255,7 +2256,7 @@ class GuitarScene(Scene):
     self.engine.setSpeedFactor(1.0)
 
     self.engine.view.setViewport(1,0)
-    self.engine.view.popLayer(self.failMenu)
+    #self.engine.view.popLayer(self.failMenu)
     self.freeResources()
     # self.session.world.deleteScene(self)
     self.engine.world.createScene("SongChoosingScene")
@@ -2490,7 +2491,7 @@ class GuitarScene(Scene):
   def restartSong(self, firstTime = False):  #QQstarS: Fix this function
     self.resetVariablesToDefaults()
     self.engine.data.startSound.play()
-    self.engine.view.popLayer(self.menu)
+    #self.engine.view.popLayer(self.menu)
 
     if not self.song:
       return
@@ -2516,7 +2517,7 @@ class GuitarScene(Scene):
   def restartAfterFail(self):  #QQstarS: Fix this function
     self.resetVariablesToDefaults()
     self.engine.data.startSound.play()
-    self.engine.view.popLayer(self.failMenu)
+    #self.engine.view.popLayer(self.failMenu)
 
     if not self.song:
       return
@@ -5240,7 +5241,7 @@ class GuitarScene(Scene):
       if self.ending == True:
         return True
       self.pauseGame()
-      self.engine.view.pushLayer(self.menu)
+      #self.engine.view.pushLayer(self.menu)
       return True
     elif key >= ord('a') and key <= ord('z'):
       # cheat codes
@@ -5319,7 +5320,7 @@ class GuitarScene(Scene):
       if self.ending == True:
         return True
       self.pauseGame()
-      self.engine.view.pushLayer(self.menu)
+      #self.engine.view.pushLayer(self.menu)
       return True
     elif key >= ord('a') and key <= ord('z'):
       # cheat codes
@@ -5430,7 +5431,7 @@ class GuitarScene(Scene):
       if self.ending == True:
         return True
       self.pauseGame()
-      self.engine.view.pushLayer(self.menu)
+      #self.engine.view.pushLayer(self.menu)
       return True
     elif key >= ord('a') and key <= ord('z'):
       # cheat codes

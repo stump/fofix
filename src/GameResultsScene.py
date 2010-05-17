@@ -33,7 +33,7 @@ import Scorekeeper
 import Dialogs
 import Song
 import Data
-from Menu import Menu
+#from Menu import Menu
 from Audio import Sound
 from Language import _
 
@@ -165,7 +165,7 @@ class GameResultsScene(Scene):
         (_("Quit"),           self.quit),
       ]
     
-    self.menu = Menu(self.engine, items, onCancel = self.quit, name = "gameresult", pos = (self.engine.theme.result_menu_x, self.engine.theme.result_menu_y))
+    #self.menu = Menu(self.engine, items, onCancel = self.quit, name = "gameresult", pos = (self.engine.theme.result_menu_x, self.engine.theme.result_menu_y))
     
     #Get theme information
     themename  = self.engine.data.themeLabel
@@ -430,32 +430,33 @@ class GameResultsScene(Scene):
       if self.detailedScores:
         self.detailedScores = False
       if self.resultStep == 3:
-        self.engine.view.pushLayer(self.menu)
+        #self.engine.view.pushLayer(self.menu)
+        self.changeSong()
         self.resultStep += 1
   
   def quit(self):
     self.background = None
     self.song = None
-    self.engine.view.popLayer(self.menu)
+    #self.engine.view.popLayer(self.menu)
     self.engine.world.finishGame()
   
   def replay(self):
     self.background = None
     self.song = None
-    self.engine.view.popLayer(self.menu)
+    #self.engine.view.popLayer(self.menu)
     self.engine.world.createScene("GuitarScene", libraryName = self.libraryName, songName = self.songName, Players = len(self.playerList))
   
   def replaySetlist(self):
     self.background = None
     self.song = None
-    self.engine.view.popLayer(self.menu)
+    #self.engine.view.popLayer(self.menu)
     self.engine.world.songQueue.replayFullQueue()
     self.engine.world.createScene("SongChoosingScene")
   
   def endSetlist(self):
     self.background = None
     self.song = None
-    self.engine.view.popLayer(self.menu)
+    #self.engine.view.popLayer(self.menu)
     self.engine.world.songQueue.reset()
     self.engine.world.playingQueue = False
     self.engine.world.createScene("SongChoosingScene")
@@ -463,7 +464,7 @@ class GameResultsScene(Scene):
   def changeSong(self):
     self.background = None
     self.song = None
-    self.engine.view.popLayer(self.menu)
+    #self.engine.view.popLayer(self.menu)
     if self.engine.world.playingQueue:
       if self.coOpScoring:
         self.engine.world.songQueue.addScores(self.coOpScoring)

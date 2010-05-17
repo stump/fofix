@@ -399,6 +399,7 @@ class Data(object):
     self.scoreFont = self.fontDict["score"]
     self.songListFont = self.fontDict["songlist"]
     self.streakFont = self.fontDict["streak"]
+    self.streakFont2 = self.fontDict["streak"]
   
   def loadPartImages(self):
     self.partImages = []
