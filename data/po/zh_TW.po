@@ -1,0 +1,5011 @@
+# -*- coding: utf-8 -*-
+#####################################################################
+#                                                                   #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
+#                                                                   #
+# This program is free software; you can redistribute it and/or     #
+# modify it under the terms of the GNU General Public License       #
+# as published by the Free Software Foundation; either version 2    #
+# of the License, or (at your option) any later version.            #
+#                                                                   #
+# This program is distributed in the hope that it will be useful,   #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of    #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the     #
+# GNU General Public License for more details.                      #
+#                                                                   #
+# You should have received a copy of the GNU General Public License #
+# along with this program; if not, write to the Free Software       #
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,        #
+# MA  02110-1301, USA.                                              #
+#####################################################################
+
+msgid ""
+msgstr ""
+"Project-Id-Version: FoFiX 4 Development\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-19 11:47-0600\n"
+"PO-Revision-Date: 2010-09-19 11:48-0600\n"
+"Last-Translator: Google Translator\n"
+"Language-Team: FoFiX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: Credits.py:125
+msgid "This mod was built on Alarian's mod,"
+msgstr "這個 mod是建立在Alarian的模，"
+
+#: Credits.py:126
+msgid "which was built on UltimateCoffee's Ultimate mod,"
+msgstr "這是建立在UltimateCoffee的終極模，"
+
+#: Credits.py:127
+msgid "which was built on RogueF's RF_mod 4.15,"
+msgstr "這是建立在RogueF的RF_mod 4.15，"
+
+#: Credits.py:128
+msgid "which was, of course, built on Frets on Fire 1.2.451,"
+msgstr "這是當然，建立在苦惱消防1.2.451，"
+
+#: Credits.py:129
+msgid "which was created by Unreal Voodoo"
+msgstr "這是由虛幻的Voodoo"
+
+#: Credits.py:130
+msgid "No Particular Order"
+msgstr "無特定順序"
+
+#: Credits.py:131
+msgid "Active Coders:"
+msgstr "積極編碼器："
+
+#: Credits.py:132
+msgid "Past Coders:"
+msgstr "過去的編碼器："
+
+#: Credits.py:133
+msgid "Main Graphic Contributors:"
+msgstr "主圖投稿："
+
+#: Credits.py:134
+msgid "Translators:"
+msgstr "翻譯："
+
+#: Credits.py:135
+msgid "Team Hero:"
+msgstr "英雄團隊："
+
+#: Credits.py:136
+msgid "Creators of Career Mode"
+msgstr "創作者的生涯模式"
+
+#: Credits.py:137
+msgid "Honorary Credits to:"
+msgstr "榮譽學分為："
+
+#: Credits.py:138
+msgid "Donations to MFH"
+msgstr "捐贈的惡性纖維組織瘤"
+
+#: Credits.py:139
+msgid "Donations to akedrou"
+msgstr "捐款給 akedrou"
+
+#: Credits.py:140
+msgid "Major Donations:"
+msgstr "主要捐贈："
+
+#: Credits.py:141
+msgid "Other Donations:"
+msgstr "其他捐款："
+
+#: Credits.py:142
+msgid "Other Credits:"
+msgstr "其他突出業務："
+
+#: Credits.py:143
+msgid "Jurgen FoF tutorial inspired by adam02"
+msgstr "於爾根基金中基金教程啟發 adam02"
+
+#: Credits.py:144
+msgid "Drum test song tutorial by Heka"
+msgstr "鼓測試歌曲教程由赫卡"
+
+#: Credits.py:145
+msgid "Bang Bang Mystery Man song tutorial is from the original FoF"
+msgstr "棒棒神秘男子歌曲教程是從原來的基金中基金"
+
+#: Credits.py:146
+msgid "Drum Rolls practice tutorial by venom426"
+msgstr "鼓羅爾斯實踐教程由venom426"
+
+#: Credits.py:147
+msgid "If you see your work included in this game and you aren't"
+msgstr "如果你看到你的工作包括在這個遊戲中，你是不是"
+
+#: Credits.py:148
+msgid "in the credits, please leave a polite post stating what you"
+msgstr "在信貸，請留下你的禮貌職位說明"
+
+#: Credits.py:149
+msgid "did and when, as specific as possible."
+msgstr "的確，當，盡可能具體。"
+
+#: Credits.py:150
+msgid "If you can, please provide a link to your original posting"
+msgstr "如果可以的話，請提供一個鏈接到您的原始張貼"
+
+#: Credits.py:151
+msgid "of the work in question."
+msgstr "工作中的問題。"
+
+#: Credits.py:152
+msgid "Then we can properly credit you."
+msgstr "然後，我們可以適當地相信你。"
+
+#: Credits.py:153
+msgid "Thank you for your contribution."
+msgstr "謝謝您的貢獻。"
+
+#: Credits.py:154
+msgid "Please keep in mind that it is not easy to trace down and"
+msgstr "請記住，這是不容易追查下來，"
+
+#: Credits.py:155
+msgid "credit every single person who contributed; if your name is"
+msgstr "每一個人的信用誰貢獻;如果你的名字"
+
+#: Credits.py:156
+msgid "not included, it was not meant to slight you."
+msgstr "不包括，這並不意味著你要輕微。"
+
+#: Credits.py:157
+msgid "It was an oversight."
+msgstr "這是一個疏忽。"
+
+#: Credits.py:159
+#, python-format
+msgid "%s theme credits:"
+msgstr "%s主題學分："
+
+#: Credits.py:160
+#, python-format
+msgid "%s theme specific thanks:"
+msgstr "%s主題具體感謝："
+
+#: Credits.py:162
+msgid "French"
+msgstr "法國的"
+
+#: Credits.py:163
+msgid "French (reform 1990)"
+msgstr "法國（改革1990年）"
+
+#: Credits.py:164
+msgid "German"
+msgstr "德語"
+
+#: Credits.py:165
+msgid "Italian"
+msgstr "意大利的"
+
+#: Credits.py:166
+msgid "Pig Latin"
+msgstr "豬拉丁語"
+
+#: Credits.py:167
+msgid "Portuguese (Brazilian)"
+msgstr "葡萄牙語（巴西）"
+
+#: Credits.py:168
+msgid "Russian"
+msgstr "俄"
+
+#: Credits.py:169
+msgid "Spanish"
+msgstr "西班牙語"
+
+#: Credits.py:170
+msgid "Swedish"
+msgstr "瑞典"
+
+#: Credits.py:223
+msgid "Made with:"
+msgstr "作出的："
+
+#: Credits.py:246
+msgid "Source Code available under the GNU General Public License"
+msgstr "源代碼可以在GNU通用公共許可證"
+
+#: Credits.py:250
+msgid "Copyright 2006, 2007 by Unreal Voodoo"
+msgstr "版權所有 2006年，2007年的虛幻巫術"
+
+#: Credits.py:251
+msgid "Copyright 2008-2010 by Team FoFiX"
+msgstr "版權 2008-2010由Team FoFiX"
+
+#: Dialogs.py:489
+msgid "<OK>"
+msgstr "<OK>"
+
+#: Dialogs.py:576
+msgid "[Parent Folder]"
+msgstr "[家長文件夾]"
+
+#: Dialogs.py:580
+msgid "[Accept Folder]"
+msgstr "[接受文件夾]"
+
+#: Dialogs.py:582
+#, python-format
+msgid "%s [Folder]"
+msgstr "%s [文件夾]"
+
+#: Dialogs.py:707
+msgid "Yellow (#3) / Blue (#4) to change, Green (#1) to confirm:"
+msgstr "黃色（＃3）/藍色（＃4）改變，綠色（＃1）確認："
+
+#: Dialogs.py:719
+msgid "Loading necks..."
+msgstr "載入中脖子..."
+
+#: Dialogs.py:784
+#: GameEngine.py:97
+msgid "Neck"
+msgstr "頸部"
+
+#: Dialogs.py:983
+msgid "Loading avatars..."
+msgstr "載入中化身..."
+
+#: Dialogs.py:1092
+msgid "Select Your Avatar:"
+msgstr "選擇你的頭像："
+
+#: Dialogs.py:1572
+msgid "Press Start to Begin!"
+msgstr "按開始開始了！"
+
+#: Dialogs.py:1573
+msgid "Use the keyboard to select or just play some notes!"
+msgstr "使用鍵盤來選擇或只玩一些筆記！"
+
+#: Dialogs.py:1584
+msgid "No Controller"
+msgstr "沒有控制器"
+
+#: Dialogs.py:1588
+msgid "Disabled Controller"
+msgstr "殘疾人控制器"
+
+#: Dialogs.py:1592
+msgid "Default Guitar"
+msgstr "默認吉他"
+
+#: Dialogs.py:1594
+msgid "Default Drums"
+msgstr "默認鼓"
+
+#: Dialogs.py:1596
+msgid "Default Microphone"
+msgstr "默認麥克風"
+
+#: Dialogs.py:1657
+msgid "controller"
+msgstr "控制器"
+
+#: Dialogs.py:1659
+msgid "controllers"
+msgstr "控制器"
+
+#: Dialogs.py:1660
+#, python-format
+msgid "You only have %d %s defined. You need at least %d for this mode."
+msgstr "你只需要%d %s定義。您需要至少%d的這種模式。"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+#: GameEngine.py:212
+msgid "Left"
+msgstr "左"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+#: GameEngine.py:212
+msgid "Right"
+msgstr "權"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Up"
+msgstr "截至"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Down"
+msgstr "向下"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Start"
+msgstr "開始"
+
+#: Dialogs.py:1917
+#: Dialogs.py:1925
+#: Dialogs.py:1930
+#: Dialogs.py:1938
+msgid "Select"
+msgstr "選擇"
+
+#: Dialogs.py:1917
+msgid "Fret #1"
+msgstr "弗雷＃1"
+
+#: Dialogs.py:1917
+msgid "Solo #1"
+msgstr "單獨＃1"
+
+#: Dialogs.py:1917
+msgid "Fret #2"
+msgstr "弗雷＃2"
+
+#: Dialogs.py:1917
+msgid "Solo #2"
+msgstr "單獨＃2"
+
+#: Dialogs.py:1918
+msgid "Fret #3"
+msgstr "弗雷＃3"
+
+#: Dialogs.py:1918
+msgid "Solo #3"
+msgstr "單獨＃3"
+
+#: Dialogs.py:1918
+msgid "Fret #4"
+msgstr "弗雷＃4"
+
+#: Dialogs.py:1918
+msgid "Solo #4"
+msgstr "單獨＃4"
+
+#: Dialogs.py:1918
+msgid "Fret #5"
+msgstr "弗雷＃5"
+
+#: Dialogs.py:1919
+msgid "Solo #5"
+msgstr "單獨＃5"
+
+#: Dialogs.py:1919
+msgid "Pick!"
+msgstr "選擇！"
+
+#: Dialogs.py:1919
+#: Dialogs.py:1927
+#: Dialogs.py:1932
+#: Dialogs.py:1940
+msgid "Starpower!"
+msgstr "的StarPower！"
+
+#: Dialogs.py:1919
+#: GameEngine.py:278
+msgid "Whammy"
+msgstr "晦氣"
+
+#: Dialogs.py:1925
+#: Dialogs.py:1938
+msgid "Drum #1"
+msgstr "鼓＃1"
+
+#: Dialogs.py:1925
+msgid "Drum #2"
+msgstr "鼓＃2"
+
+#: Dialogs.py:1926
+#: Dialogs.py:1939
+msgid "Drum #3"
+msgstr "鼓＃3"
+
+#: Dialogs.py:1926
+msgid "Drum #4"
+msgstr "鼓＃4"
+
+#: Dialogs.py:1927
+#: Dialogs.py:1940
+msgid "Bass Drum"
+msgstr "低音鼓"
+
+#: Dialogs.py:1927
+#: Dialogs.py:1940
+#: Dialogs.py:2268
+#: GameEngine.py:89
+#: GameEngine.py:155
+#: GameEngine.py:190
+#: GameEngine.py:691
+#: GameResultsScene.py:250
+msgid "None"
+msgstr "無"
+
+#: Dialogs.py:1938
+msgid "Cymbal #2"
+msgstr "鈸＃2"
+
+#: Dialogs.py:1939
+msgid "Cymbal #4"
+msgstr "鈸＃4"
+
+#: Dialogs.py:1939
+msgid "Drum #5"
+msgstr "鼓＃5"
+
+#: Dialogs.py:1942
+msgid "Fret"
+msgstr "煩惱"
+
+#: Dialogs.py:1943
+msgid "Solo"
+msgstr "獨奏"
+
+#: Dialogs.py:1944
+msgid "Drum"
+msgstr "鼓"
+
+#: Dialogs.py:1945
+msgid "Slide~"
+msgstr "幻燈片〜"
+
+#: Dialogs.py:2248
+msgid "Level:"
+msgstr "級別："
+
+#: Dialogs.py:2249
+msgid "Note:"
+msgstr "注意："
+
+#: Dialogs.py:2263
+msgid "Tap"
+msgstr "塔"
+
+#: Dialogs.py:2359
+msgid "Choose a File"
+msgstr "選擇一個文件"
+
+#: Dialogs.py:2435
+msgid "Play with the keys and press Escape when you're done."
+msgstr "遊戲在鍵，然後按下逃逸時即可大功告成。"
+
+#: Dialogs.py:2448
+#: Dialogs.py:2554
+#: Dialogs.py:2560
+msgid "Loading..."
+msgstr "載入中..."
+
+#: FoFiX.py:179
+#, python-format
+msgid "Song directory provided ('%s') is not a valid song directory. Starting up FoFiX in standard mode."
+msgstr "歌曲目錄中提供（'%s'）是不是一個有效的歌曲目錄。啟動 FoFiX在標準模式。"
+
+#: FoFiX.py:301
+msgid "Terminating due to unhandled exception:"
+msgstr "由於未處理的異常終止："
+
+#: FoFiX.py:303
+msgid "If you make a bug report about this error, please include the contents of the following log file:"
+msgstr "如果你犯了一個錯誤報告這個錯誤，請包括的內容，下面的日誌文件："
+
+#: FoFiX.py:305
+msgid "The log file already includes the traceback given above."
+msgstr "該日誌文件已經包含了上述追溯。"
+
+#: FoFiX.py:310
+msgid "Open the logfile now?"
+msgstr "打開日誌文件嗎？"
+
+#: GameEngine.py:86
+msgid "FPS Limiter"
+msgstr "新鮮糧食店限制器"
+
+#: GameEngine.py:86
+msgid "On (Set Below)"
+msgstr "關於第（下文）"
+
+#: GameEngine.py:86
+msgid "Off (Auto Max FPS)"
+msgstr "關閉（自動最大醫科）"
+
+#: GameEngine.py:86
+msgid "Use this to enable or disable the FPS Limiter. If off, the game will render as many frames as possible. (This is affected by the 'Performance' quickset)"
+msgstr "用它來啟用或禁用的FPS限制器。如果關閉，遊戲會提供盡可能多的幀進行。 （這是受'績效'樹籬）"
+
+#: GameEngine.py:88
+msgid "Fullscreen Mode"
+msgstr "全屏模式"
+
+#: GameEngine.py:88
+#: GameEngine.py:90
+#: GameEngine.py:93
+#: GameEngine.py:96
+#: GameEngine.py:105
+#: GameEngine.py:107
+#: GameEngine.py:112
+#: GameEngine.py:145
+#: GameEngine.py:146
+#: GameEngine.py:172
+#: GameEngine.py:175
+#: GameEngine.py:176
+#: GameEngine.py:177
+#: GameEngine.py:178
+#: GameEngine.py:181
+#: GameEngine.py:182
+#: GameEngine.py:196
+#: GameEngine.py:199
+#: GameEngine.py:201
+#: GameEngine.py:202
+#: GameEngine.py:216
+#: GameEngine.py:219
+#: GameEngine.py:225
+#: GameEngine.py:245
+#: GameEngine.py:246
+#: GameEngine.py:247
+#: GameEngine.py:259
+#: GameEngine.py:260
+#: GameEngine.py:261
+#: GameEngine.py:262
+#: GameEngine.py:263
+#: GameEngine.py:264
+#: GameEngine.py:265
+#: GameEngine.py:266
+#: GameEngine.py:267
+#: GameEngine.py:268
+#: GameEngine.py:269
+#: GameEngine.py:300
+#: GameEngine.py:301
+#: GameEngine.py:304
+#: GameEngine.py:312
+#: GameEngine.py:315
+#: GameEngine.py:318
+#: GameEngine.py:321
+#: GameEngine.py:371
+#: GameEngine.py:410
+msgid "No"
+msgstr "沒有"
+
+#: GameEngine.py:88
+#: GameEngine.py:90
+#: GameEngine.py:93
+#: GameEngine.py:96
+#: GameEngine.py:105
+#: GameEngine.py:107
+#: GameEngine.py:112
+#: GameEngine.py:145
+#: GameEngine.py:146
+#: GameEngine.py:172
+#: GameEngine.py:175
+#: GameEngine.py:176
+#: GameEngine.py:177
+#: GameEngine.py:178
+#: GameEngine.py:181
+#: GameEngine.py:182
+#: GameEngine.py:196
+#: GameEngine.py:199
+#: GameEngine.py:216
+#: GameEngine.py:219
+#: GameEngine.py:225
+#: GameEngine.py:245
+#: GameEngine.py:246
+#: GameEngine.py:247
+#: GameEngine.py:259
+#: GameEngine.py:260
+#: GameEngine.py:261
+#: GameEngine.py:262
+#: GameEngine.py:263
+#: GameEngine.py:264
+#: GameEngine.py:265
+#: GameEngine.py:266
+#: GameEngine.py:267
+#: GameEngine.py:268
+#: GameEngine.py:300
+#: GameEngine.py:301
+#: GameEngine.py:304
+#: GameEngine.py:312
+#: GameEngine.py:315
+#: GameEngine.py:318
+#: GameEngine.py:321
+#: GameEngine.py:371
+#: GameEngine.py:410
+msgid "Yes"
+msgstr "是的"
+
+#: GameEngine.py:88
+msgid "Play either in fullscreen ('Yes') or windowed ('No') mode."
+msgstr "無論是在全屏播放（'是'）或窗口（'不'）模式。"
+
+#: GameEngine.py:89
+msgid "Antialiasing Quality"
+msgstr "抗鋸齒質量"
+
+#: GameEngine.py:89
+msgid "Sets the antialiasing quality of openGL rendering. Higher values reduce jaggediness, but could affect performance. (This is affected by the 'Performance' quickset)"
+msgstr "設置抗鋸齒質量 OpenGL的渲染。較高的值降低jaggediness，但可能會影響性能。 （這是受'績效'樹籬）"
+
+#: GameEngine.py:90
+msgid "Show Fret Glow Effect"
+msgstr "顯示弗雷發光效果"
+
+#: GameEngine.py:90
+msgid "Turn on or off the glow that appears around a fret when you press it."
+msgstr "打開或關閉的周圍出現一個發光的煩惱當你按下它。"
+
+#: GameEngine.py:92
+msgid "Frames per Second"
+msgstr "幀每秒"
+
+#: GameEngine.py:92
+msgid "Set the number of frames to render per second. Higher values are better, but your computer may not be able to keep up. You probably can leave this alone. (This is affected by the 'Performance' quickset)"
+msgstr "設置幀的數目來呈現每秒。高等教育價值觀是好，但您的計算機可能無法跟上。你也許可以離開這個孤獨。 （這是受'績效'樹籬）"
+
+#: GameEngine.py:93
+msgid "Print Frames per Second"
+msgstr "打印幀每秒"
+
+#: GameEngine.py:93
+msgid "This will display your FPS on some screens, and if running from sources will print your FPS there every two seconds."
+msgstr "這將顯示你的FPS一些屏幕，如果運行的來源將打印你的FPS每隔兩秒鐘。"
+
+#: GameEngine.py:94
+msgid "Fret Glow Color"
+msgstr "弗雷發光顏色"
+
+#: GameEngine.py:94
+msgid "Same as Fret"
+msgstr "相同弗雷"
+
+#: GameEngine.py:94
+msgid "Actual Color"
+msgstr "實際顏色"
+
+#: GameEngine.py:94
+msgid "Sets whether or not the fret glow image will be color-masked with the theme-determined fret color."
+msgstr "設置是否煩惱輝光圖像將色彩掩蓋其主題確定的煩惱顏色。"
+
+#: GameEngine.py:96
+msgid "Use Shaders"
+msgstr "使用著色"
+
+#: GameEngine.py:96
+msgid "Enable or disable the use of shaders. Shaders are visual effects. This must be set to 'Yes' to use the settings below. 'By Theme' leaves it to the theme creator."
+msgstr "啟用或禁用使用著色器。著色的視覺效果。這必須設定為'是'使用以下設置。 '通過主題的葉子它的主題創造者。"
+
+#: GameEngine.py:97
+#: GameEngine.py:98
+#: GameEngine.py:99
+#: GameEngine.py:101
+#: GameEngine.py:102
+#: GameEngine.py:118
+#: GameEngine.py:322
+#: GameEngine.py:351
+msgid "Disabled"
+msgstr "殘疾人士"
+
+#: GameEngine.py:97
+msgid "Flashing"
+msgstr "閃光"
+
+#: GameEngine.py:97
+#: GameEngine.py:98
+#: GameEngine.py:99
+#: GameEngine.py:100
+#: GameEngine.py:101
+#: GameEngine.py:102
+#: GameEngine.py:190
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:213
+#: GameEngine.py:228
+#: GameEngine.py:232
+#: GameEngine.py:291
+#: GameEngine.py:298
+msgid "By Theme"
+msgstr "通過主題"
+
+#: GameEngine.py:97
+msgid "A bright flash along your fretboard reflecting the notes you've hit. 'By Theme' leaves it to the theme creator."
+msgstr "一個明亮的閃光帶著你的編曲反映注意到你擊中。 '通過主題的葉子它的主題創造者。"
+
+#: GameEngine.py:98
+msgid "Stage"
+msgstr "階段"
+
+#: GameEngine.py:98
+msgid "EQ Lightning"
+msgstr "情商閃電"
+
+#: GameEngine.py:98
+msgid "A visual waveform centered above you fretboard. 'By Theme' leaves it to the theme creator."
+msgstr "一個視覺中心的波形你上面編曲。 '通過主題的葉子它的主題創造者。"
+
+#: GameEngine.py:99
+msgid "Solo and SP"
+msgstr "單獨和SP"
+
+#: GameEngine.py:99
+#: GameEngine.py:100
+msgid "Lightnings"
+msgstr "閃電"
+
+#: GameEngine.py:99
+msgid "Enables lightning along the side of your fretboard when you are in solos or use SP. 'By Theme' leaves it to the theme creator."
+msgstr "使雷電沿著側面的編曲，當你在獨奏或使用SP。 '通過主題的葉子它的主題創造者。"
+
+#: GameEngine.py:100
+msgid "Tails"
+msgstr "塔爾斯"
+
+#: GameEngine.py:100
+msgid "Classic"
+msgstr "經典"
+
+#: GameEngine.py:100
+#: GameEngine.py:210
+#: GameEngine.py:298
+msgid "RB2"
+msgstr "RB2賽車"
+
+#: GameEngine.py:100
+msgid "Sets the tail effect. Choose from classic tails, lightning, or RB2 style. 'By Theme' leaves it to the theme creator."
+msgstr "設置尾部效應。選擇經典的尾巴，閃電，或RB2賽車的風格。 '通過主題的葉子它的主題創造者。"
+
+#: GameEngine.py:101
+msgid "Notes"
+msgstr "筆記"
+
+#: GameEngine.py:101
+msgid "Metal"
+msgstr "金屬"
+
+#: GameEngine.py:101
+msgid "Gives your notes a metallic sheen. 'By Theme' leaves it to the theme creator."
+msgstr "讓您的筆記一金屬光澤。 '通過主題的葉子它的主題創造者。"
+
+#: GameEngine.py:102
+#: GameEngine.py:298
+msgid "CDs"
+msgstr "光盤"
+
+#: GameEngine.py:102
+msgid "White"
+msgstr "白"
+
+#: GameEngine.py:102
+msgid "Adds a soft lighting effect to CD labels in CD setlist mode."
+msgstr "添加一個柔和的燈光效果，以CD標籤在CD setlist模式。"
+
+#: GameEngine.py:105
+msgid "Disable Screensaver"
+msgstr "禁用屏幕保護程序"
+
+#: GameEngine.py:105
+msgid "Set whether the game disables the screensaver while it is running.  Does not necessarily work on all platforms."
+msgstr "遊戲設置是否禁用屏幕保護程序，而它正在運行。不一定在所有平台上工作。"
+
+#: GameEngine.py:107
+msgid "Animated Star Notes"
+msgstr "動畫明星債券"
+
+#: GameEngine.py:107
+msgid "This will animate star notes as they come towards you, if that is included in your theme. This can have a hit on performance. (This is affected by the 'Performance' quickset)"
+msgstr "這將動畫明星注意到，因為他們來向你，如果是包含在您的主題。這可能有一個擊中的表現。 （這是受'績效'樹籬）"
+
+#: GameEngine.py:108
+msgid "Sample Frequency"
+msgstr "採樣頻率"
+
+#: GameEngine.py:108
+msgid "Set the sample frequency for the audio in the game. You almost certainly want to leave this at 44100 Hz unless you really know what you're doing."
+msgstr "設置採樣頻率的音頻在遊戲中。你幾乎肯定要離開這個在44100赫茲，除非你真的知道自己在做什麼。"
+
+#: GameEngine.py:109
+msgid "Sample Bits"
+msgstr "樣品位"
+
+#: GameEngine.py:109
+msgid "Set the sample bits for the audio in the game. You almost certainly want to leave this at 16-bit unless you really know what you're doing."
+msgstr "設置樣品位的音頻在遊戲中。你幾乎肯定要離開這個在16位，除非你真的知道自己在做什麼。"
+
+#: GameEngine.py:112
+msgid "Upload Highscores"
+msgstr "上傳高分"
+
+#: GameEngine.py:112
+msgid "If enabled, your high scores will be sent to the server to rank you against other players."
+msgstr "如果啟用，你的高分數將被發送到服務器排名你對其他球員。"
+
+#: GameEngine.py:118
+msgid "Song Queue System"
+msgstr "宋排隊系統"
+
+#: GameEngine.py:118
+#: GameEngine.py:188
+msgid "Automatic"
+msgstr "自動"
+
+#: GameEngine.py:118
+msgid "Enables or disables creating multi-song sets in the setlist."
+msgstr "啟用或禁用創建多首歌曲集的setlist。"
+
+#: GameEngine.py:119
+msgid "Song Queue Order"
+msgstr "宋排隊訂購"
+
+#: GameEngine.py:119
+#: GameEngine.py:167
+#: GameEngine.py:168
+msgid "In Order"
+msgstr "在訂購"
+
+#: GameEngine.py:119
+#: GameEngine.py:167
+#: GameEngine.py:168
+#: GameEngine.py:169
+#: GameEngine.py:676
+msgid "Random"
+msgstr "隨機"
+
+#: GameEngine.py:119
+msgid "Sets the order in which songs added to the queue will be played."
+msgstr "集的順序添加到隊列歌曲將被播放。"
+
+#: GameEngine.py:120
+msgid "Song Queue Parts"
+msgstr "宋隊列零件"
+
+#: GameEngine.py:120
+msgid "Closest Available"
+msgstr "最近可用"
+
+#: GameEngine.py:120
+#: GameEngine.py:121
+msgid "Always Ask"
+msgstr "總是問"
+
+#: GameEngine.py:120
+msgid "Choose the behavior when the chosen part is not available in all queued songs. 'Closest Available' will match lead parts to guitar and bass to rhythm, or guitar if no rhythm parts are available. 'Always Ask' brings up the part select screen."
+msgstr "選擇行為時所選擇的部分不是適用於所有排隊的歌曲。 '最近可用'將匹配導致部分吉他和貝司的節奏，或者如果沒有節奏吉他部分可用。 '總是問'帶來了部分選擇屏幕。"
+
+#: GameEngine.py:121
+msgid "Song Queue Difficulty"
+msgstr "宋排隊難"
+
+#: GameEngine.py:121
+msgid "Closest Down"
+msgstr "最近向下"
+
+#: GameEngine.py:121
+msgid "Closest Up"
+msgstr "最近最多"
+
+#: GameEngine.py:121
+msgid "Choose the behavior when the chosen difficulty is not available in all queued songs. 'Closest Up' will prefer a harder difficulty, while 'Closest Down' will prefer an easier one. 'Always Ask' brings up the difficulty select screen."
+msgstr "選擇行為時所選擇的困難是無法在所有排隊的歌曲。 '最近向上'會喜歡一個更難的困難，而'最近打倒'將選擇較容易的。 '總是問'帶來了難度選擇畫面。"
+
+#: GameEngine.py:134
+msgid "Buffer Size"
+msgstr "緩衝區大小"
+
+#: GameEngine.py:134
+msgid "Set your audio buffer size. Higher values will reduce audio popping, but increase game lag. Only change this if you are having audio quality issues, and use the lowest value that sounds right."
+msgstr "您的音頻設置緩衝區的大小。較高的值將減少音頻彈出，但增加的遊戲滯後。只有改變這種聲音，如果您有質量問題，並使用最低值，聲音的權利。"
+
+#: GameEngine.py:135
+msgid "A/V Delay"
+msgstr "的A / V延遲"
+
+#: GameEngine.py:135
+msgid "Set your A/V delay. Unfortunately for now you have to use trial and error."
+msgstr "設置您的A / V延遲。不幸的是，現在你必須使用試驗和錯誤。"
+
+#: GameEngine.py:136
+msgid "Screw-Up Sounds"
+msgstr "螺桿式聲音"
+
+#: GameEngine.py:136
+#: GameEngine.py:152
+#: GameEngine.py:156
+#: GameEngine.py:158
+#: GameEngine.py:159
+#: GameEngine.py:167
+#: GameEngine.py:168
+#: GameEngine.py:170
+#: GameEngine.py:171
+#: GameEngine.py:173
+#: GameEngine.py:179
+#: GameEngine.py:187
+#: GameEngine.py:189
+#: GameEngine.py:193
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:200
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:206
+#: GameEngine.py:207
+#: GameEngine.py:208
+#: GameEngine.py:213
+#: GameEngine.py:215
+#: GameEngine.py:218
+#: GameEngine.py:220
+#: GameEngine.py:222
+#: GameEngine.py:223
+#: GameEngine.py:227
+#: GameEngine.py:229
+#: GameEngine.py:231
+#: GameEngine.py:232
+#: GameEngine.py:239
+#: GameEngine.py:248
+#: GameEngine.py:249
+#: GameEngine.py:251
+#: GameEngine.py:274
+#: GameEngine.py:278
+#: GameEngine.py:279
+#: GameEngine.py:280
+#: GameEngine.py:281
+#: GameEngine.py:282
+#: GameEngine.py:283
+#: GameEngine.py:284
+#: GameEngine.py:285
+#: GameEngine.py:286
+#: GameEngine.py:289
+#: GameEngine.py:290
+#: GameEngine.py:291
+#: GameEngine.py:293
+#: GameEngine.py:294
+#: GameEngine.py:303
+#: GameEngine.py:326
+#: GameEngine.py:330
+#: GameEngine.py:334
+#: GameEngine.py:338
+#: GameEngine.py:405
+msgid "Off"
+msgstr "奧夫"
+
+#: GameEngine.py:136
+msgid "Quiet"
+msgstr "安靜"
+
+#: GameEngine.py:136
+msgid "Loud"
+msgstr "響"
+
+#: GameEngine.py:136
+msgid "Painful"
+msgstr "痛苦"
+
+#: GameEngine.py:136
+msgid "How loud should the sound of your screwing up be? Very."
+msgstr "響亮的聲音應如何你搞砸了呢？非常。"
+
+#: GameEngine.py:140
+msgid "Active Track Volume"
+msgstr "積極音軌的音量"
+
+#: GameEngine.py:140
+msgid "Volume of the parts you are playing."
+msgstr "量的部分您玩。"
+
+#: GameEngine.py:141
+msgid "Background Volume"
+msgstr "背景音量"
+
+#: GameEngine.py:141
+msgid "Volume of the parts you are not playing."
+msgstr "量的部分你是不是在玩。"
+
+#: GameEngine.py:144
+msgid "Process Priority"
+msgstr "進程優先級"
+
+#: GameEngine.py:144
+msgid "Idle"
+msgstr "空閒"
+
+#: GameEngine.py:144
+msgid "Low"
+msgstr "低"
+
+#: GameEngine.py:144
+#: GameEngine.py:157
+#: GameEngine.py:179
+#: GameEngine.py:299
+#: GameResultsScene.py:276
+msgid "Normal"
+msgstr "正常"
+
+#: GameEngine.py:144
+msgid "Above Normal"
+msgstr "高於正常"
+
+#: GameEngine.py:144
+msgid "High"
+msgstr "高"
+
+#: GameEngine.py:144
+msgid "Realtime"
+msgstr "實時"
+
+#: GameEngine.py:144
+msgid "Change this to increase the priority of the FoFiX process. Don't change this unless you know what you're doing. DO NOT set this to Realtime. Ever."
+msgstr "更改為增加優先的FoFiX進程。不要更改這個除非你知道自己在做什麼。不要設置為實時。自從。"
+
+#: GameEngine.py:145
+msgid "Restrict to First Core (Win32 Only)"
+msgstr "限制為第一核心（的Win32只）"
+
+#: GameEngine.py:145
+msgid "Choose whether to restrict the game to running on only the first processor core on the system. Only has an effect under Windows."
+msgstr "選擇是否要限制運行的遊戲，只在第一個處理器內核在系統上。只有在Windows下的效果。"
+
+#: GameEngine.py:146
+msgid "Use Psyco"
+msgstr "使用Psyco"
+
+#: GameEngine.py:146
+msgid "Enable or disable the Psyco specializing compiler. Tests have indicated the game runs faster with it off."
+msgstr "啟用或禁用Psyco專門的編譯器。試驗表明該遊戲運行更快，它關閉。"
+
+#: GameEngine.py:147
+msgid "Missed Notes"
+msgstr "未接備註"
+
+#: GameEngine.py:147
+msgid "Disappear"
+msgstr "消失"
+
+#: GameEngine.py:147
+msgid "Keep on going"
+msgstr "持續不斷"
+
+#: GameEngine.py:147
+msgid "When you miss a note, this sets whether they disappear from the fretboard or scroll off the bottom of the screen."
+msgstr "當你錯過一提的是，設置是否會消失的無品或滾動關閉屏幕的底部。"
+
+#: GameEngine.py:150
+msgid "Performance"
+msgstr "表現"
+
+#: GameEngine.py:150
+#: GameEngine.py:151
+msgid "Manual"
+msgstr "手冊"
+
+#: GameEngine.py:150
+msgid "Pure Speed"
+msgstr "純速度"
+
+#: GameEngine.py:150
+msgid "Fast"
+msgstr "快"
+
+#: GameEngine.py:150
+msgid "Quality (Recommended)"
+msgstr "質量（推薦）"
+
+#: GameEngine.py:150
+msgid "Max Quality (Slow)"
+msgstr "最大質量（慢速）"
+
+#: GameEngine.py:150
+msgid "Set the performance of your game. You can fine-tune in the advanced menus."
+msgstr "設置您的遊戲性能。你可以微調在先進菜單。"
+
+#: GameEngine.py:151
+msgid "Gameplay"
+msgstr "遊戲"
+
+#: GameEngine.py:151
+msgid "Theme-Based"
+msgstr "主題為基礎的"
+
+#: GameEngine.py:151
+msgid "MIDI Based"
+msgstr "基於的MIDI"
+
+#: GameEngine.py:151
+msgid "RB Style"
+msgstr "包風格"
+
+#: GameEngine.py:151
+msgid "GH Style"
+msgstr "生長激素風格"
+
+#: GameEngine.py:151
+msgid "WT Style"
+msgstr "小波變換風格"
+
+#: GameEngine.py:151
+msgid "Sets how the game 'feels' to play. Theme-Based lets the theme creator decide. MIDI Based lets the fretter decide."
+msgstr "如何設置遊戲'感覺'的角色。基於主題的主題，讓創作者決定。基於讓弗雷特的MIDI決定。"
+
+#: GameEngine.py:152
+msgid "Pause on Loss of Focus"
+msgstr "暫停丟失的焦點"
+
+#: GameEngine.py:152
+#: GameEngine.py:156
+#: GameEngine.py:158
+#: GameEngine.py:170
+#: GameEngine.py:173
+#: GameEngine.py:187
+#: GameEngine.py:189
+#: GameEngine.py:193
+#: GameEngine.py:200
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:206
+#: GameEngine.py:207
+#: GameEngine.py:213
+#: GameEngine.py:218
+#: GameEngine.py:220
+#: GameEngine.py:222
+#: GameEngine.py:223
+#: GameEngine.py:227
+#: GameEngine.py:232
+#: GameEngine.py:239
+#: GameEngine.py:248
+#: GameEngine.py:249
+#: GameEngine.py:251
+#: GameEngine.py:274
+#: GameEngine.py:278
+#: GameEngine.py:279
+#: GameEngine.py:280
+#: GameEngine.py:281
+#: GameEngine.py:282
+#: GameEngine.py:283
+#: GameEngine.py:284
+#: GameEngine.py:285
+#: GameEngine.py:286
+#: GameEngine.py:289
+#: GameEngine.py:290
+#: GameEngine.py:291
+#: GameEngine.py:293
+#: GameEngine.py:303
+#: GameEngine.py:326
+#: GameEngine.py:330
+#: GameEngine.py:334
+#: GameEngine.py:338
+#: GameEngine.py:405
+msgid "On"
+msgstr "關於"
+
+#: GameEngine.py:152
+msgid "Set whether the game automatically pauses when another application steals input focus."
+msgstr "遊戲的設定是否自動暫停當另一個應用搶斷輸入焦點。"
+
+#: GameEngine.py:155
+msgid "HO/PO System"
+msgstr "何/訂單系統"
+
+#: GameEngine.py:155
+#: GameResultsScene.py:252
+msgid "RF-Mod"
+msgstr "射頻調製"
+
+#: GameEngine.py:155
+#: GameResultsScene.py:254
+msgid "GH2 Strict"
+msgstr "GH2嚴格"
+
+#: GameEngine.py:155
+#: GameEngine.py:319
+#: GameResultsScene.py:256
+msgid "GH2"
+msgstr "GH2"
+
+#: GameEngine.py:155
+msgid "Set the system used for marking hammer-ons and pull-offs (HO/PO). You can either disable them altogether, use the RF-Mod method, or the GH2 system."
+msgstr "設置系統使用的標記錘組件和拉起飛（何/ PO）的。您可以禁用它們完全，使用射頻調製方法或GH2制度。"
+
+#: GameEngine.py:156
+msgid "GH2 Sloppy Mode"
+msgstr "GH2邋遢模式"
+
+#: GameEngine.py:156
+msgid "Sloppy mode allows you to hold higher frets while tapping lower frets during HO/PO sections. This will lower your score by 25%."
+msgstr "草率的模式允許你持有高品位較低的煩惱，而在攻何/婆節。這會降低你的分數 25％。"
+
+#: GameEngine.py:157
+msgid "HO/PO Frequency"
+msgstr "何/婆頻率"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:272
+msgid "Least"
+msgstr "最少"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:274
+msgid "Less"
+msgstr "少"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:278
+msgid "More"
+msgstr "更多"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:280
+msgid "Even More"
+msgstr "更"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:282
+msgid "Most"
+msgstr "最"
+
+#: GameEngine.py:157
+msgid "Sets the window used to determine HO/PO notes. Increasing the frequency will reduce your score, and lower settings will give you a tiny bonus."
+msgstr "設置窗口中使用，以確定何/訂單說明。增加的頻率會降低你的分數，和較低的設置會給你一個小的獎金。"
+
+#: GameEngine.py:158
+msgid "HO/PO After Chord"
+msgstr "何/採購訂單後弦"
+
+#: GameEngine.py:158
+msgid "This will determine whether or not HO/PO notes can follow a chord. This only applies to the GH2 systems."
+msgstr "這將決定是否何/婆筆記可以遵循的心弦。這僅適用於 GH2系統。"
+
+#: GameEngine.py:159
+msgid "Show Hit Accuracy"
+msgstr "顯示命中精度"
+
+#: GameEngine.py:159
+msgid "Numeric"
+msgstr "數字"
+
+#: GameEngine.py:159
+msgid "Friendly"
+msgstr "友好"
+
+#: GameEngine.py:159
+msgid "Both"
+msgstr "兩"
+
+#: GameEngine.py:159
+msgid "Shows how accurate your note hits are. Numeric will give a time in milliseconds, and Friendly will use English to inform you. Both will show, well, both. Useful for determining your A/V delay."
+msgstr "演示如何準確命中是你的注意。數字會以時間以毫秒為單位，將使用英語和友好地通知你。兩者都顯示，那麼，這兩個。可用於確定您的A / V延遲。"
+
+#: GameEngine.py:160
+msgid "Hit Accuracy Pos"
+msgstr "命中精度名次"
+
+#: GameEngine.py:160
+#: GameEngine.py:212
+msgid "Center"
+msgstr "中心"
+
+#: GameEngine.py:160
+msgid "Top-Right Corner"
+msgstr "右上角"
+
+#: GameEngine.py:160
+msgid "Bottom-Left Corner"
+msgstr "左下角"
+
+#: GameEngine.py:160
+msgid "Center-Bottom"
+msgstr "中心底"
+
+#: GameEngine.py:160
+msgid "Sets where the accuracy information will be displayed, if enabled."
+msgstr "設置在那裡的準確性信息將顯示，如果啟用。"
+
+#: GameEngine.py:162
+msgid "Max Players"
+msgstr "最大玩家"
+
+#: GameEngine.py:162
+msgid "Set the maximum number of players in Co-Op modes. Be aware that higher numbers are associated with a significant drop in performance."
+msgstr "設置最多的球員合作作品模式。請注意，較高的數字有顯著的性能下降。"
+
+#: GameEngine.py:165
+msgid "Slideshow Delay"
+msgstr "幻燈片延遲"
+
+#: GameEngine.py:165
+msgid "Sets how long, in milliseconds, to wait between each frame in a stage slideshow."
+msgstr "集多長時間，以毫秒為單位，每個幀之間等待在舞台幻燈片。"
+
+#: GameEngine.py:166
+msgid "Animation Delay"
+msgstr "動畫延遲"
+
+#: GameEngine.py:166
+msgid "Sets how long, in milliseconds, to wait between each frame in a stage animation."
+msgstr "集多長時間，以毫秒為單位，每幀之間的等待中一階段的動畫。"
+
+#: GameEngine.py:167
+msgid "Stage Slideshow"
+msgstr "舞台幻燈片"
+
+#: GameEngine.py:167
+#: GameEngine.py:168
+msgid "BackNForth"
+msgstr "BackNForth"
+
+#: GameEngine.py:167
+msgid "Sets the method used to rotate frames in a stage slideshow."
+msgstr "所採用的方法設置旋轉舞台幀幻燈片。"
+
+#: GameEngine.py:168
+msgid "Stage Animation"
+msgstr "舞台動畫"
+
+#: GameEngine.py:168
+msgid "Sets the method used to rotate frames in a stage animation."
+msgstr "所採用的方法設置旋轉舞台幀動畫。"
+
+#: GameEngine.py:169
+msgid "Stage Selection"
+msgstr "第一階段的選擇"
+
+#: GameEngine.py:169
+msgid "Default"
+msgstr "默認"
+
+#: GameEngine.py:169
+msgid "Blank"
+msgstr "空白"
+
+#: GameEngine.py:169
+msgid "Video"
+msgstr "視頻"
+
+#: GameEngine.py:169
+msgid "Set the background for your stage. Default will use the default background, and Blank puts you in a dark room. Probably a lot like the one you're in now."
+msgstr "背景設置為您的舞台。默認將使用默認的背景，空白使您在黑暗的房間。也許很多像一你在現在。"
+
+#: GameEngine.py:170
+msgid "Song Stage"
+msgstr "宋階段"
+
+#: GameEngine.py:170
+msgid "Fretters can include a stage to be used with their songs. If this is enabled, you can see it."
+msgstr "Fretters可以包括一個階段要使用他們的歌曲。如果啟用，你可以看到它。"
+
+#: GameEngine.py:171
+msgid "Script Lyric Display"
+msgstr "腳本歌詞顯示"
+
+#: GameEngine.py:171
+msgid "By Song"
+msgstr "由宋"
+
+#: GameEngine.py:171
+#: GameEngine.py:190
+#: GameEngine.py:201
+#: GameEngine.py:202
+#: GameEngine.py:214
+#: GameEngine.py:228
+#: GameEngine.py:269
+#: GameEngine.py:297
+msgid "Always"
+msgstr "總是"
+
+#: GameEngine.py:171
+msgid "Dual Lyric Prevention"
+msgstr "雙抒情預防"
+
+#: GameEngine.py:171
+msgid "Sets whether lyrics from a script.txt file are displayed. 'By Song' lets the fretter decide. 'Always' always displays script lyrics, if available, and 'Dual Lyric Prevention' will disable script lyrics if there are MIDI lyrics. (This is affected by the 'Performance' quickset)"
+msgstr "設置是否從 script.txt歌詞文件顯示。 '宋'讓弗雷特決定。 '總是'始終顯示腳本歌詞，如果有的話，和'雙抒情預防'將禁用腳本，如果有歌詞的MIDI歌詞。 （這是受'績效'樹籬）"
+
+#: GameEngine.py:172
+msgid "Frets Under Notes"
+msgstr "苦惱根據債券"
+
+#: GameEngine.py:172
+msgid "Sets whether the notes slide under the frets or over them."
+msgstr "設置幻燈片的說明是否根據他們的煩惱或以上。"
+
+#: GameEngine.py:173
+msgid "Drum Navigation"
+msgstr "鼓導航"
+
+#: GameEngine.py:173
+msgid "If enabled, drum keys will be allowed to navigate menus. If not, only guitar keys and keyboard master keys will."
+msgstr "如果啟用，將可鼓鍵來瀏覽菜單。如果沒有，只有吉他和鍵盤的主鍵鍵會。"
+
+#: GameEngine.py:175
+msgid "Ignore Open Strums"
+msgstr "忽視開放源亂彈"
+
+#: GameEngine.py:175
+msgid "If enabled, strumming without holding any frets down won't be counted."
+msgstr "如果啟用，彈沒有舉行任何煩惱，並不會被計算在內。"
+
+#: GameEngine.py:176
+msgid "Static Strings"
+msgstr "靜態字符串"
+
+#: GameEngine.py:176
+msgid "If enabled, the 'strings' on your fretboard will not scroll."
+msgstr "如果啟用，'字符串'在你的編曲不會滾動。"
+
+#: GameEngine.py:177
+msgid "Effects Save SP"
+msgstr "警司保存的影響"
+
+#: GameEngine.py:177
+msgid "If enabled, whammying while in SP will slow down its decrease. And your score will be handicapped by 5%."
+msgstr "如果啟用，whammying而在SP將放慢下降。和你的分數將殘疾人 5％。"
+
+#: GameEngine.py:178
+msgid "Show HO/PO Indicator"
+msgstr "查看何/訂單指標"
+
+#: GameEngine.py:178
+msgid "If enabled, 'HOPO' will appear in game. When there are HOPO notes active, it will turn white."
+msgstr "如果啟用，'湖浦'將出現在遊戲中。當有湖浦筆記活躍，它會變成白色。"
+
+#: GameEngine.py:179
+msgid "Use Tiers in Quickplay"
+msgstr "在QuickPlay的使用蒂爾斯"
+
+#: GameEngine.py:179
+msgid "Sorting"
+msgstr "排序"
+
+#: GameEngine.py:179
+msgid "Sets whether to mark tiers in quickplay mode. 'Normal' will use the career tiers and 'Sorting' will insert tiers based on the current sort order."
+msgstr "是否設置標誌層在QuickPlay模式。 '正常'將使用職業層次和'排序'將插入層根據當前的排序順序。"
+
+#: GameEngine.py:180
+msgid "Star Updates"
+msgstr "星更新"
+
+#: GameEngine.py:180
+msgid "On Hit"
+msgstr "命中"
+
+#: GameEngine.py:180
+msgid "Score Change"
+msgstr "分數的變化"
+
+#: GameEngine.py:180
+msgid "If set to 'On Hit', your star score will only be checked when you hit a note. If set to 'Score Change', your star score will constantly update. (This is affected by the 'Performance' quickset)"
+msgstr "如果設置為'命中'，你的明星評分將只檢查，當您按下一個音符。如果設置為'分數變化'，你的明星評分將不斷更新。 （這是受'績效'樹籬）"
+
+#: GameEngine.py:181
+msgid "Partial Star Continuous Fillup"
+msgstr "偏星連續 Fillup"
+
+#: GameEngine.py:181
+msgid "Sets whether your partial stars will fill up gradually ('Yes') or in chunks. (This is affected by the 'Performance' quickset)"
+msgstr "您是否設置部分明星將逐步填補（'是'）或塊。 （這是受'績效'樹籬）"
+
+#: GameEngine.py:182
+msgid "Countdown on Resume"
+msgstr "倒數的簡歷"
+
+#: GameEngine.py:182
+msgid "If enabled, there will be a three second countdown when you unpause."
+msgstr "如果啟用，將有3秒倒計時當您取消暫停。"
+
+#: GameEngine.py:184
+msgid "Script Lyric Position"
+msgstr "腳本抒情的位置"
+
+#: GameEngine.py:184
+msgid "Bottom"
+msgstr "底部"
+
+#: GameEngine.py:184
+msgid "Top"
+msgstr "頂部"
+
+#: GameEngine.py:184
+msgid "Display script lyrics at either the bottom or top of the screen."
+msgstr "腳本歌詞顯示無論是在底部或頂部的屏幕。"
+
+#: GameEngine.py:187
+msgid "Starpower Claps"
+msgstr "的StarPower克拉普斯"
+
+#: GameEngine.py:187
+msgid "Enables a clapping sound effect to be used on the beats in Starpower."
+msgstr "實現了鼓掌音效使用應的節拍中的StarPower。"
+
+#: GameEngine.py:188
+msgid "Song Previews"
+msgstr "宋預覽"
+
+#: GameEngine.py:188
+msgid "Yellow Fret (#3)"
+msgstr "黃河鋼絲（＃3）"
+
+#: GameEngine.py:188
+msgid "If set to 'Automatic', songs will automatically start previewing when you select them. Otherwise you must press the third fret."
+msgstr "如果設置為'自動'，歌曲會自動啟動預覽當您選擇它們。否則，你必須按第三個煩惱。"
+
+#: GameEngine.py:189
+msgid "RB SP Neck Glow"
+msgstr "包警司領輝光"
+
+#: GameEngine.py:189
+msgid "Sets a neck glow effect during SP in RB-type themes."
+msgstr "脖子上套一個發光效果在SP的包式的主題。"
+
+#: GameEngine.py:190
+msgid "SP Refill Mode"
+msgstr "警司筆芯模式"
+
+#: GameEngine.py:190
+msgid "By MIDI Type"
+msgstr "由MIDI類型"
+
+#: GameEngine.py:190
+msgid "Sets whether you can earn more starpower while using it. In 'By MIDI Type', only MIDIs that mark RB-style sections will use this. (This is set by the 'Gameplay' quickset)"
+msgstr "設置是否可以賺更多的StarPower而使用它。在'通過的MIDI輸入'，只有MIDIs對該商標的包式的路段將使用這個。 （這是一套由'遊戲性'樹籬）"
+
+#: GameEngine.py:193
+msgid "Effects Debug"
+msgstr "調試的影響"
+
+#: GameEngine.py:193
+msgid "If enabled, will show on-screen the raw data of your killswitch/whammy."
+msgstr "如果啟用，將顯示在屏幕上的原始數據的killswitch /打擊。"
+
+#: GameEngine.py:195
+msgid "Drum SP"
+msgstr "警司鼓"
+
+#: GameEngine.py:195
+msgid "Auto / Fills"
+msgstr "自動 /填充"
+
+#: GameEngine.py:195
+msgid "Manual / Fills"
+msgstr "手動 /填充"
+
+#: GameEngine.py:195
+msgid "Determines how drum starpower is activated when there are no drum fills. Auto will automatically activate when available, and Manual will wait for the 'Starpower' button to be pressed."
+msgstr "鼓的StarPower確定如何被激活時，有沒有鼓填充。汽車啟動時會自動提供和手動將等待'的StarPower'按鈕被按下。"
+
+#: GameEngine.py:196
+msgid "Large Drum Neck"
+msgstr "大型鼓領"
+
+#: GameEngine.py:196
+msgid "If enabled, will show a larger neck when playing drums."
+msgstr "如果啟用，將顯示一個較大的脖子時，演奏鼓樂。"
+
+#: GameEngine.py:197
+#: GameEngine.py:235
+msgid "Bass Groove Neck"
+msgstr "巴斯溝領"
+
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:307
+msgid "Replace"
+msgstr "取代"
+
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:307
+msgid "Overlay"
+msgstr "覆蓋"
+
+#: GameEngine.py:197
+msgid "Sets the style of the Bass Groove neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "設置風格的巴斯溝的脖子。 '替換'替換你的脖子有特別的脖子，而'覆蓋'奠定了脖子以上的頂部。"
+
+#: GameEngine.py:198
+msgid "Guitar Solo Neck"
+msgstr "吉他獨奏領"
+
+#: GameEngine.py:198
+msgid "Sets the style of the Guitar Solo neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "設置風格的吉他獨奏的脖子。 '替換'替換你的脖子有特別的脖子，而'覆蓋'奠定了脖子以上的頂部。"
+
+#: GameEngine.py:199
+msgid "Show Unused Events"
+msgstr "顯示未使用的活動"
+
+#: GameEngine.py:199
+msgid "If enabled, various MIDI events not used by the game will be shown on-screen."
+msgstr "如果啟用，不使用各種 MIDI事件的遊戲會顯示在屏幕上。"
+
+#: GameEngine.py:200
+msgid "Kick Bass Sound"
+msgstr "踢低音聲"
+
+#: GameEngine.py:200
+msgid "If enabled, you'll hear a kick bass sound when you use the kick pedal."
+msgstr "如果啟用，你會聽到一踢低音當您使用踢踏板。"
+
+#: GameEngine.py:201
+msgid "Show Lyrics in All Modes"
+msgstr "在所有模式下顯示歌詞"
+
+#: GameEngine.py:201
+#: GameEngine.py:202
+msgid "Single Player"
+msgstr "單人遊戲"
+
+#: GameEngine.py:201
+msgid "Sets whether or not MIDI lyrics will be displayed in modes without a vocalist. 'Single Player' will only show lyrics when in Solo modes."
+msgstr "設置與否的MIDI歌詞會顯示在模式沒有主唱。 '單人遊戲'將只顯示歌詞時，在單獨模式。"
+
+#: GameEngine.py:202
+msgid "Show MIDI Sections"
+msgstr "顯示的MIDI節"
+
+#: GameEngine.py:202
+msgid "Sets whether or not to scroll the names of sections as marked in the MIDI files."
+msgstr "設置是否滾動的名稱作為標記節在MIDI文件。"
+
+#: GameEngine.py:203
+msgid "Key Conflicts"
+msgstr "衝突的關鍵"
+
+#: GameEngine.py:203
+msgid "Don't check"
+msgstr "不檢查"
+
+#: GameEngine.py:203
+msgid "Notify"
+msgstr "通知"
+
+#: GameEngine.py:203
+msgid "Enforce"
+msgstr "執行"
+
+#: GameEngine.py:203
+msgid "Sets how the game handles key conflicts. 'Don't check' doesn't check, but conflicts will affect play. 'Notify' will inform you, but allow you to continue, and 'Enforce' will not allow you to exit the menu until all key conflicts have been resolved."
+msgstr "如何設置遊戲的處理衝突的關鍵。 '不檢查'不檢查，但衝突會影響發揮。 '通知'會告訴你，但允許你繼續下去，'強制'不會讓你退出菜單，直到所有的主要衝突已經得到解決。"
+
+#: GameEngine.py:204
+msgid "Show In-Game Stats"
+msgstr "顯示在遊戲中統計"
+
+#: GameEngine.py:204
+msgid "Sets whether or not to show detailed stats as you play. 'By Theme' leaves it to the theme creator."
+msgstr "設置是否顯示詳細的統計資料為您播放。 '通過主題的葉子它的主題創造者。"
+
+#: GameEngine.py:205
+msgid "Show Stars In-Game"
+msgstr "顯示明星在遊戲中"
+
+#: GameEngine.py:205
+msgid "Sets whether or not to show your star score as you play. 'By Theme' leaves it to the theme creator."
+msgstr "設置是否顯示您的明星評分為您播放。 '通過主題的葉子它的主題創造者。"
+
+#: GameEngine.py:206
+msgid "Show Partial Stars"
+msgstr "顯示部分明星"
+
+#: GameEngine.py:206
+msgid "Sets whether or not to show partial stars, if available"
+msgstr "設置是否顯示部分明星，如果有的話"
+
+#: GameEngine.py:207
+msgid "HO/PO Debug"
+msgstr "何/婆調試"
+
+#: GameEngine.py:207
+msgid "If enabled, various log messages will be recorded regarding the HO/PO system. Please leave this disabled if submitting logs for bug reports unless you are certain it is necessary."
+msgstr "如果啟用，將各種日誌信息記錄有關議員 /訂單系統。請離開這個禁用，如果提交錯誤報告日誌，除非您確信它是必要的。"
+
+#: GameEngine.py:208
+msgid "Show Solo Stats"
+msgstr "顯示單獨統計"
+
+#: GameEngine.py:208
+msgid "Percent"
+msgstr "百分之"
+
+#: GameEngine.py:208
+msgid "Detail"
+msgstr "細節"
+
+#: GameEngine.py:208
+msgid "Sets whether to show your solo results when you finish a solo. 'Percent' will only show the percentage, while 'Detail' includes additional information."
+msgstr "設置是否顯示您的個人結果當你完成的獨奏曲。 '百分比'將只顯示百分比，而'詳細'包括的其他信息。"
+
+#: GameEngine.py:209
+msgid "Stat Decimal Places"
+msgstr "統計小數位"
+
+#: GameEngine.py:209
+msgid "Determines how many decimal places will be noted in displaying stats."
+msgstr "確定有多少位小數會注意到在顯示統計信息。"
+
+#: GameEngine.py:210
+msgid "Star Scoring Style"
+msgstr "星評分風格"
+
+#: GameEngine.py:210
+msgid "Accuracy"
+msgstr "準確性"
+
+#: GameEngine.py:210
+msgid "GH"
+msgstr "生長激素"
+
+#: GameEngine.py:210
+msgid "RB"
+msgstr "包"
+
+#: GameEngine.py:210
+msgid "RB+GH"
+msgstr "包+生長激素"
+
+#: GameEngine.py:210
+msgid "Sets which system to use to calculate your star score."
+msgstr "設置該體系可用於計算您的星級評分。"
+
+#: GameEngine.py:211
+msgid "Career Mode Advance"
+msgstr "生涯模式研究進展"
+
+#: GameEngine.py:211
+msgid "0 (Song Finish)"
+msgstr "0（宋完成）"
+
+#: GameEngine.py:211
+msgid "1 Star"
+msgstr "一星"
+
+#: GameEngine.py:211
+msgid "2 Stars"
+msgstr "2星級"
+
+#: GameEngine.py:211
+msgid "3 Stars"
+msgstr "3星級"
+
+#: GameEngine.py:211
+msgid "4 Stars"
+msgstr "四星級"
+
+#: GameEngine.py:211
+msgid "5 Stars"
+msgstr "5星級"
+
+#: GameEngine.py:211
+msgid "6 (Gold Stars)"
+msgstr "6（金星）"
+
+#: GameEngine.py:211
+msgid "7 (Full Combo)"
+msgstr "7（全部組合）"
+
+#: GameEngine.py:211
+msgid "Determine how many stars are needed on a song before it is unlocked in career mode."
+msgstr "確定需要多少星星上一首歌曲，然後才鎖定在職業生涯模式。"
+
+#: GameEngine.py:212
+msgid "Solo Stat Positioning"
+msgstr "單獨統計的定位"
+
+#: GameEngine.py:212
+#: GameEngine.py:319
+msgid "Rock Band"
+msgstr "搖滾樂隊"
+
+#: GameEngine.py:212
+msgid "Sets where your solo result stats will be displayed."
+msgstr "設置在您的個人統計結果將被顯示。"
+
+#: GameEngine.py:213
+msgid "Bass Groove"
+msgstr "巴斯溝"
+
+#: GameEngine.py:213
+msgid "By MIDI"
+msgstr "由MIDI"
+
+#: GameEngine.py:213
+msgid "Enable or disable bass groove (additional score multiplier for bass)"
+msgstr "啟用或禁用低音槽（額外評分乘數為低音）"
+
+#: GameEngine.py:214
+msgid "Drum Miss Penalty"
+msgstr "鼓小姐罰款"
+
+#: GameEngine.py:214
+msgid "Song Start"
+msgstr "宋代開始"
+
+#: GameEngine.py:214
+msgid "First Note"
+msgstr "首先注意"
+
+#: GameEngine.py:214
+msgid "Determines when drum hits count as misses: When the song begins, after the first note, or always."
+msgstr "確定何時鼓點擊數為懷念：當歌曲開始後，第一個音符，或總是。"
+
+#: GameEngine.py:215
+msgid "Time Display Format"
+msgstr "時間顯示格式"
+
+#: GameEngine.py:215
+#: GameEngine.py:306
+msgid "Countdown"
+msgstr "倒計時"
+
+#: GameEngine.py:215
+msgid "Elapsed"
+msgstr "過去"
+
+#: GameEngine.py:215
+msgid "Sets whether the song time is displayed as time elapsed, time remaining, or not at all"
+msgstr "首歌的時間設置是否顯示隨著時間的推移，剩餘時間，或根本不"
+
+#: GameEngine.py:216
+msgid "Show Theme Version Tag"
+msgstr "展覽主題版本標籤"
+
+#: GameEngine.py:216
+msgid "Places the theme's version tag over menus and dialogs."
+msgstr "地方主題的版本標記了菜單和對話框。"
+
+#: GameEngine.py:217
+msgid "Menu Navigation"
+msgstr "菜單導航"
+
+#: GameEngine.py:217
+msgid "P1 Only"
+msgstr "只有小一"
+
+#: GameEngine.py:217
+msgid "All Players"
+msgstr "所有的運動員"
+
+#: GameEngine.py:217
+msgid "Sets whether all players can navigate the menu, or only the controller set as Player 1 and the master keys."
+msgstr "設置是否所有的球員可以瀏覽菜單，或只在控制器設置為播放器1，萬能鑰匙。"
+
+#: GameEngine.py:218
+msgid "In-Game Font Shadow"
+msgstr "遊戲中的字體陰影"
+
+#: GameEngine.py:218
+msgid "Sets whether or not a shadowed font will be used, if available."
+msgstr "設置與否陰影字體將被使用，如果可用。"
+
+#: GameEngine.py:219
+msgid "Mute Last Second"
+msgstr "靜音最後二"
+
+#: GameEngine.py:219
+msgid "Cuts the volume with one second remaining to prevent any pops when the song ends."
+msgstr "削減量與剩餘的1秒鐘，以防止任何持久性有機污染物的歌曲結束時。"
+
+#: GameEngine.py:220
+msgid "Results Cheer Loop"
+msgstr "結果奇爾環"
+
+#: GameEngine.py:220
+#: GameEngine.py:319
+#: GameEngine.py:399
+msgid "Theme"
+msgstr "主題"
+
+#: GameEngine.py:220
+msgid "Sets whether the cheering sound heard on the result screen will loop. 'Theme' leaves it to the theme creator."
+msgstr "設置是否歡呼聲聽取了關於結果屏幕將循環。 '主題'離開它的主題創造者。"
+
+#: GameEngine.py:221
+msgid "Cheer Loop Delay"
+msgstr "奇爾迴路延遲"
+
+#: GameEngine.py:221
+msgid "Sets the time, in milliseconds, to wait before playing the result cheer again (if looping is enabled)."
+msgstr "設置時間，以毫秒為單位，玩之前要等待的結果再次歡呼（如果啟用了循環）。"
+
+#: GameEngine.py:222
+msgid "Miss Pauses Anim"
+msgstr "吳暫停阿尼姆"
+
+#: GameEngine.py:222
+msgid "When enabled, missing a note will pause the stage animation."
+msgstr "當啟用時，失踪1說明將暫停階段動畫。"
+
+#: GameEngine.py:223
+msgid "Song HO/PO Freq"
+msgstr "宋浩/婆頻率"
+
+#: GameEngine.py:223
+msgid "Sets whether or not to use the HO/PO Frequency setting determined by the fretter, if available."
+msgstr "設置是否使用何/訂單頻率設置取決於弗雷特，如果可用。"
+
+#: GameEngine.py:225
+msgid "Mute Drum Track During Fills"
+msgstr "靜音鼓軌跡填充"
+
+#: GameEngine.py:225
+msgid "Sets whether or not the drum track will be muted during drum fills (so you can hear yourself have at it!)"
+msgstr "設置是否鼓軌道將在鼓靜音填充（這樣你就可以聽到自己具備了！）"
+
+#: GameEngine.py:226
+msgid "Sustain Muting"
+msgstr "保持靜音"
+
+#: GameEngine.py:226
+msgid "Never Mute"
+msgstr "從來沒有靜音"
+
+#: GameEngine.py:226
+msgid "Very Early"
+msgstr "很早"
+
+#: GameEngine.py:226
+msgid "Early"
+msgstr "早"
+
+#: GameEngine.py:226
+#: GameEngine.py:309
+#: GameResultsScene.py:293
+msgid "Standard"
+msgstr "標準"
+
+#: GameEngine.py:226
+msgid "Always Mute"
+msgstr "總是靜音"
+
+#: GameEngine.py:226
+msgid "Sets the window used to determine whether or not to mute a dropped sustain note. 'Early' means it will only mute when you drop the sustain relatively early."
+msgstr "設置窗口中使用，以確定是否靜音持續下降說明。 '早'是指它只能靜音當你放棄保持相對較早。"
+
+#: GameEngine.py:227
+msgid "Show Solo Frame"
+msgstr "顯示單獨框架"
+
+#: GameEngine.py:227
+msgid "Sets whether to show a frame around the solo stats, if available."
+msgstr "設置是否顯示一幀左右的獨奏統計數據，如果可用。"
+
+#: GameEngine.py:228
+msgid "Enable Guitar Solos"
+msgstr "啟用吉他獨奏"
+
+#: GameEngine.py:228
+#: GameEngine.py:297
+msgid "Never"
+msgstr "從來沒有"
+
+#: GameEngine.py:228
+msgid "MIDI Only"
+msgstr "的MIDI只有"
+
+#: GameEngine.py:228
+msgid "Sets the logic used to mark solos. 'Always' will mark solos in sections if available. 'By Theme' leaves it to the theme creator. 'MIDI Only' only enables solos marked with the MIDI marker note."
+msgstr "設置邏輯用來標記獨奏。 '永遠'將標誌著獨奏節如果可用。 '通過主題的葉子它的主題創造者。 '的MIDI只有'不僅能獨奏標有標記的MIDI注意。"
+
+#: GameEngine.py:229
+msgid "SP Mode"
+msgstr "SP模式"
+
+#: GameEngine.py:229
+#: GameEngine.py:319
+msgid "FoF"
+msgstr "基金中基金"
+
+#: GameEngine.py:229
+msgid "Auto MIDI"
+msgstr "汽車的MIDI"
+
+#: GameEngine.py:229
+msgid "Sets the logic used to determine starpower phrases. 'FoF' will generate paths based on the number of notes. 'Auto MIDI' will use MIDI markers to determine the paths, and fall back on the FoF mode if none are available."
+msgstr "設置邏輯用於確定的StarPower短語。 '基金中基金'將路徑的基礎上產生的票據數量。 '自動的MIDI'將使用的MIDI標記，以確定路徑，回落的基金中基金模式，如果都不可用。"
+
+#: GameEngine.py:231
+msgid "Inc. Neck Mode"
+msgstr "公司領模式"
+
+#: GameEngine.py:231
+msgid "Start Only"
+msgstr "才開始"
+
+#: GameEngine.py:231
+msgid "Start & End"
+msgstr "開始和結束"
+
+#: GameEngine.py:231
+msgid "Sets how and whether to render incoming solo necks. 'Start Only' will scroll it in but not out, while 'Start & End' does both."
+msgstr "設置是否和如何使傳入獨奏脖子。 '開始只有'將滾動它，但沒有了，而'開始和結束'卻兩者。"
+
+#: GameEngine.py:232
+msgid "Big Rock Endings"
+msgstr "大羅克結局"
+
+#: GameEngine.py:232
+msgid "Enable or disable big rock endings. 'By Theme' leaves it to the theme creator."
+msgstr "啟用或禁用大石頭的結局。 '通過主題的葉子它的主題創造者。"
+
+#: GameEngine.py:233
+msgid "Main Neck"
+msgstr "主要領"
+
+#: GameEngine.py:233
+#, python-format
+msgid "Set the transparency of the main neck. 100% is fully visible."
+msgstr "設置透明度的主要脖子。 100％是完全可見。"
+
+#: GameEngine.py:234
+msgid "Solo Neck"
+msgstr "單獨領"
+
+#: GameEngine.py:234
+#, python-format
+msgid "Set the transparency of the solo neck. 100% is fully visible."
+msgstr "設置透明度的獨奏脖子。 100％是完全可見。"
+
+#: GameEngine.py:235
+#, python-format
+msgid "Set the transparency of the bass groove neck. 100% is fully visible."
+msgstr "設置透明度的低音槽的脖子。 100％是完全可見。"
+
+#: GameEngine.py:236
+msgid "Fail Neck"
+msgstr "失敗領"
+
+#: GameEngine.py:236
+#, python-format
+msgid "Set the transparency of the failing neck. 100% is fully visible."
+msgstr "設置透明度失敗的脖子。 100％是完全可見。"
+
+#: GameEngine.py:237
+msgid "Overlay Neck"
+msgstr "覆蓋頸部"
+
+#: GameEngine.py:237
+#, python-format
+msgid "Set the transparency of neck overlays. 100% is fully visible."
+msgstr "設置透明度頸部覆蓋。 100％是完全可見。"
+
+#: GameEngine.py:238
+msgid "All Necks"
+msgstr "所有的脖子"
+
+#: GameEngine.py:238
+#, python-format
+msgid "Set the master transparency of all necks. 100% is fully visible."
+msgstr "設置主透明度所有脖子。 100％是完全可見。"
+
+#: GameEngine.py:239
+msgid "Show Any Available Score"
+msgstr "顯示所有可用的分數"
+
+#: GameEngine.py:239
+msgid "When set to 'On', this will look for any available score on the currently selected instrument for setlist score display, if one is not available at the chosen difficulty."
+msgstr "當設置為'論'，這將尋找任何可用的評分在當前選定的文書 setlist評分顯示，如果一個人沒有在困難的選擇。"
+
+#: GameEngine.py:241
+msgid "Scroll Delay"
+msgstr "滾動延遲"
+
+#: GameEngine.py:241
+msgid "Sets how long, in milliseconds, to wait before beginning to scroll."
+msgstr "集多長時間，以毫秒為單位，以等待開始滾動。"
+
+#: GameEngine.py:242
+msgid "Scroll Rate"
+msgstr "滾動速度"
+
+#: GameEngine.py:242
+msgid "Sets how quickly menus will scroll."
+msgstr "設置菜單將滾動的速度有多快。"
+
+#: GameEngine.py:245
+msgid "Use (notes-unedited.mid)"
+msgstr "使用（附註 - unedited.mid）"
+
+#: GameEngine.py:245
+msgid "Sets whether to look for (and use) a 'notes-unedited.mid' before 'notes.mid'. There's no reason to change this."
+msgstr "設置是否尋找（並使用）的筆記，unedited.mid'先於'notes.mid'。沒有什麼理由改變這一點。"
+
+#: GameEngine.py:246
+msgid "Show Fill Status"
+msgstr "顯示填充狀態"
+
+#: GameEngine.py:246
+msgid "When enabled, whether or not you are in a drum fill/freestyle ending will be displayed in text on the screen."
+msgstr "當啟用時，您是否是在鼓填寫 /自由泳結束文本將顯示在屏幕上。"
+
+#: GameEngine.py:247
+msgid "Show BPM"
+msgstr "顯示的BPM"
+
+#: GameEngine.py:247
+msgid "When enabled, the current song BPM will be shown on screen."
+msgstr "當啟用時，當前歌曲的BPM將顯示在屏幕上。"
+
+#: GameEngine.py:248
+msgid "New BPM Logic"
+msgstr "新的BPM邏輯"
+
+#: GameEngine.py:248
+msgid "If enabled, the game will attempt to use the new BPM logic. This is not a finished feature. Use at your own risk."
+msgstr "如果啟用，該遊戲將嘗試使用新的BPM的邏輯。這不是一個完整的功能。使用您自己的風險。"
+
+#: GameEngine.py:249
+msgid "New Song Database Code"
+msgstr "新歌數據庫代碼"
+
+#: GameEngine.py:249
+msgid "Activates the new, incomplete song database code."
+msgstr "激活新的，不完整的歌曲數據庫代碼。"
+
+#: GameEngine.py:251
+msgid "Show Raw Vocal Data"
+msgstr "數據顯示原始聲樂"
+
+#: GameEngine.py:251
+msgid "If enabled, various information about the microphone input will be show in text on screen. Probably only needed for vocal debugging."
+msgstr "如果啟用，對各種信息的麥克風輸入文字將顯示在屏幕上。也許只需要調試的聲音。"
+
+#: GameEngine.py:253
+msgid "Speed Factor"
+msgstr "速度的因素"
+
+#: GameEngine.py:253
+msgid "1.00x"
+msgstr "1.00x"
+
+#: GameEngine.py:253
+msgid "0.75x"
+msgstr "0.75x"
+
+#: GameEngine.py:253
+msgid "0.50x"
+msgstr "0.50x"
+
+#: GameEngine.py:253
+msgid "0.25x"
+msgstr "0.25x"
+
+#: GameEngine.py:253
+msgid "Sets the speed to play the audio at. Your score will be severely penalized if you slow the music down."
+msgstr "集的速度播放音頻時。你的分數將受到嚴厲懲罰，如果你慢下來的音樂。"
+
+#: GameEngine.py:255
+msgid "Effects Mode"
+msgstr "影響模式"
+
+#: GameEngine.py:255
+msgid "Killswitch"
+msgstr "Killswitch"
+
+#: GameEngine.py:255
+msgid "Pitchbend"
+msgstr "Pitchbend"
+
+#: GameEngine.py:255
+msgid "Sets whether to use a killswitch or pitchbend as the effect on your whammy."
+msgstr "設置是否使用killswitch或pitchbend作為對你的打擊。"
+
+#: GameEngine.py:259
+msgid "Log INI Reads"
+msgstr "日誌讀取的INI"
+
+#: GameEngine.py:259
+msgid "Logs any read to an INI file. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "日誌讀取到任何一個 INI文件。這是不必要的信息在錯誤報告，請給它禁止，除非您確信它是相關的。"
+
+#: GameEngine.py:260
+msgid "Log Class Inits"
+msgstr "日誌類 Inits"
+
+#: GameEngine.py:260
+msgid "Logs most class initializations in '__init__'. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "日誌類的初始化中最'的__init__'。這是不必要的信息在錯誤報告，請給它禁止，除非您確信它是相關的。"
+
+#: GameEngine.py:261
+msgid "Log Loadings"
+msgstr "登錄載荷"
+
+#: GameEngine.py:261
+msgid "Logs resource loads. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "日誌資源負載。這是不必要的信息在錯誤報告，請給它禁止，除非您確信它是相關的。"
+
+#: GameEngine.py:262
+msgid "Log MIDI Sections"
+msgstr "日誌的MIDI節"
+
+#: GameEngine.py:262
+msgid "Logs MIDI sections. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "日誌的MIDI部分。這是不必要的信息在錯誤報告，請給它禁止，除非您確信它是相關的。"
+
+#: GameEngine.py:263
+msgid "Log Undefined GETs"
+msgstr "登錄未定義的GETs"
+
+#: GameEngine.py:263
+msgid "Logs attempts to read an undefined config key. This is unnecessary information."
+msgstr "日誌嘗試讀取未定義配置的關鍵。這是不必要的信息。"
+
+#: GameEngine.py:264
+msgid "Log Marker Notes"
+msgstr "登錄標記註釋"
+
+#: GameEngine.py:264
+msgid "Logs MIDI marker notes (solo, SP, etc). This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "日誌的MIDI標記說明（獨唱，警司等）。這是不必要的信息在錯誤報告，請給它禁止，除非您確信它是相關的。"
+
+#: GameEngine.py:265
+msgid "Log SP Misses"
+msgstr "登錄警司小姐"
+
+#: GameEngine.py:265
+msgid "Logs SP phrase misses. This is unnecessary information."
+msgstr "日誌警司短語錯過。這是不必要的信息。"
+
+#: GameEngine.py:266
+msgid "Log Unedited MIDIs"
+msgstr "登錄未修改MIDIs"
+
+#: GameEngine.py:266
+msgid "Logs when notes-unedited.mid is used. This is unnecessary information."
+msgstr "日誌時注意到，unedited.mid使用。這是不必要的信息。"
+
+#: GameEngine.py:267
+msgid "Log Lyric Events"
+msgstr "抒情事件日誌"
+
+#: GameEngine.py:267
+msgid "Logs MIDI lyric events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "日誌抒情的MIDI事件。這是不必要的信息在錯誤報告，請給它禁止，除非您確信它是相關的。"
+
+#: GameEngine.py:268
+msgid "Log Tempo Events"
+msgstr "事件日誌坦波"
+
+#: GameEngine.py:268
+msgid "Logs MIDI tempo events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "事件日誌的MIDI節奏。這是不必要的信息在錯誤報告，請給它禁止，除非您確信它是相關的。"
+
+#: GameEngine.py:269
+msgid "Log Missing Images"
+msgstr "日誌丟失圖片"
+
+#: GameEngine.py:269
+msgid "Only on single images"
+msgstr "只有在單個圖像"
+
+#: GameEngine.py:269
+msgid "Logs when files loaded are not found. 'Only on single images' skips logging when directories are loaded."
+msgstr "日誌文件加載時找不到。 '只有在單個圖像'跳過記錄目錄時加載。"
+
+#: GameEngine.py:274
+msgid "Practice Beat Claps"
+msgstr "實踐垮掉克拉普斯"
+
+#: GameEngine.py:274
+msgid "Enables clap sound effects on every beat in practice mode."
+msgstr "使每一個拍手的聲音效果在實踐中擊敗模式。"
+
+#: GameEngine.py:275
+msgid "Change Score Display"
+msgstr "改變分數顯示"
+
+#: GameEngine.py:275
+#: GameEngine.py:311
+msgid "Auto"
+msgstr "汽車"
+
+#: GameEngine.py:275
+msgid "Blue Fret (#4)"
+msgstr "藍鋼絲（＃4）"
+
+#: GameEngine.py:275
+msgid "Sets whether to change the setlist high score difficulty automatically or with the fourth fret."
+msgstr "設置是否改變 setlist高分難度自動或第四煩惱。"
+
+#: GameEngine.py:278
+msgid "Makes opponent miss notes until the whammy bar is pushed a few times"
+msgstr "使對手的夾擊下錯過注意到，直到酒吧推幾次"
+
+#: GameEngine.py:279
+msgid "Difficulty Up"
+msgstr "難度最高"
+
+#: GameEngine.py:279
+msgid "Ups opponent's difficulty for a while (if not playing on Expert)"
+msgstr "UPS的對手的困難了一段時間（如果不是在玩專家）"
+
+#: GameEngine.py:280
+msgid "String Break"
+msgstr "字符串分隔符"
+
+#: GameEngine.py:280
+msgid "Breaks a string, causing your opponent to miss notes on that fret until they push the fret button several times."
+msgstr "休息一個字符串，導致您的對手錯過注意到該煩惱，直到他們的煩惱推按鈕幾次。"
+
+#: GameEngine.py:281
+msgid "Double Notes"
+msgstr "雙注"
+
+#: GameEngine.py:281
+msgid "Makes single notes into chords, and chords into even bigger ones."
+msgstr "使單一的票據到和弦，和弦到更大的。"
+
+#: GameEngine.py:282
+msgid "Death Drain"
+msgstr "死亡排水"
+
+#: GameEngine.py:282
+msgid "Sudden Death Only"
+msgstr "只有猝死"
+
+#: GameEngine.py:282
+msgid "Drains your opponents life until they die. 'Sudden Death Only' keeps this from appearing until you reach sudden death mode."
+msgstr "水渠你的對手，他們的生活，直到死去。 '突然死亡，只有'這從不斷出現，直到到達突然死亡方式。"
+
+#: GameEngine.py:283
+msgid "Amp Overload"
+msgstr "安培重載"
+
+#: GameEngine.py:283
+msgid "Makes opponent's amp flip out, making notes disappear and reappear randomly."
+msgstr "使對手的放大器翻轉出來，做筆記隨機消失，重新出現。"
+
+#: GameEngine.py:284
+msgid "Switch Controls"
+msgstr "開關控制"
+
+#: GameEngine.py:284
+msgid "Switches opponent to (or from) lefty mode for a bit!"
+msgstr "交換機的對手（或從）左撇子模式有點！"
+
+#: GameEngine.py:285
+msgid "Steal Object"
+msgstr "盜對象"
+
+#: GameEngine.py:285
+msgid "Steals an object your opponent has."
+msgstr "你的對手搶斷的對象有。"
+
+#: GameEngine.py:286
+msgid "Guitar Tune"
+msgstr "吉他曲"
+
+#: GameEngine.py:286
+msgid "Makes opponent miss all notes until they play a scale."
+msgstr "讓對手錯過所有筆記，直到他們發揮規模。"
+
+#: GameEngine.py:289
+msgid "Score SFX"
+msgstr "分數解壓"
+
+#: GameEngine.py:289
+msgid "Sets whether or not to have Jurgen taunt (or, I suppose, congratulate) you at the end of a song."
+msgstr "設置是否有於爾根嘲諷（或者，我想祝賀）你在最後的一首歌曲。"
+
+#: GameEngine.py:290
+msgid "GH SP Lights"
+msgstr "生長激素警司燈"
+
+#: GameEngine.py:290
+msgid "Sets whether to fade images over the starpower bulbs in GH themes when fully lit."
+msgstr "設置是否褪色的圖像比的StarPower燈泡時生長激素的主題完全點亮。"
+
+#: GameEngine.py:291
+msgid "RB Small 1x Multiplier"
+msgstr "包小1X的乘數"
+
+#: GameEngine.py:291
+msgid "When enabled, RB-type themes will have a smaller mult image when the multiplier is at 1x. 'By Theme' leaves it to the theme creator."
+msgstr "當啟用時，包式的主題將有一個較小的圖像時的MULT乘數是1倍。 '通過主題的葉子它的主題創造者。"
+
+#: GameEngine.py:292
+msgid "Board Speed Mode"
+msgstr "董事會速度模式"
+
+#: GameEngine.py:292
+#: GameEngine.py:344
+msgid "BPM"
+msgstr "國際收支手冊"
+
+#: GameEngine.py:292
+#: GameEngine.py:317
+#: GameEngine.py:344
+msgid "Difficulty"
+msgstr "困難"
+
+#: GameEngine.py:292
+#: GameEngine.py:344
+msgid "BPM & Diff"
+msgstr "國際收支手冊及漫射"
+
+#: GameEngine.py:292
+msgid "Percentage"
+msgstr "百分比"
+
+#: GameEngine.py:292
+msgid "Sets what determines the speed of the scrolling notes."
+msgstr "決定設置什麼速度滾動筆記。"
+
+#: GameEngine.py:293
+msgid "Loading Phrases"
+msgstr "載入中短語"
+
+#: GameEngine.py:293
+msgid "Sets whether or not to use loading phrases while loading a song"
+msgstr "設置是否使用短語而載入載入歌曲"
+
+#: GameEngine.py:294
+msgid "Effects Display Mode"
+msgstr "顯示模式的影響"
+
+#: GameEngine.py:294
+msgid "Static"
+msgstr "靜止"
+
+#: GameEngine.py:294
+msgid "Animated"
+msgstr "熱烈"
+
+#: GameEngine.py:294
+msgid "Sets whether or not the whammy effect is animated. (This is affected by the 'Performance' quickset)"
+msgstr "設置是否夾擊效應是動態的。 （這是受'績效'樹籬）"
+
+#: GameEngine.py:295
+msgid "Show Filepath"
+msgstr "顯示文件路徑"
+
+#: GameEngine.py:295
+msgid "Show"
+msgstr "顯示"
+
+#: GameEngine.py:295
+msgid "Hide"
+msgstr "隱藏"
+
+#: GameEngine.py:295
+msgid "Sets whether or not to show the filepath of the song."
+msgstr "設置是否顯示文件路徑的歌曲。"
+
+#: GameEngine.py:296
+msgid "3D Note Rotation"
+msgstr "三維旋轉的說明"
+
+#: GameEngine.py:296
+msgid "Old"
+msgstr "老"
+
+#: GameEngine.py:296
+msgid "New"
+msgstr "新"
+
+#: GameEngine.py:296
+msgid "Sets the manner of 3D Note Rotation."
+msgstr "設置方式注三維旋轉。"
+
+#: GameEngine.py:297
+msgid "Show In-Game Text"
+msgstr "顯示在遊戲中的文本"
+
+#: GameEngine.py:297
+msgid "Only Note Streaks"
+msgstr "只有注意條紋"
+
+#: GameEngine.py:297
+msgid "Sets whether or not to show text in-game. This includes note streaks and 'Starpower Ready'. (This is affected by the 'Performance' quickset)"
+msgstr "設置是否顯示文字遊戲。這包括注意條紋和'的StarPower準備'。 （這是受'績效'樹籬）"
+
+#: GameEngine.py:298
+msgid "Setlist Display Mode"
+msgstr "Setlist顯示模式"
+
+#: GameEngine.py:298
+msgid "List"
+msgstr "表"
+
+#: GameEngine.py:298
+msgid "List/CD"
+msgstr "列表/光盤"
+
+#: GameEngine.py:298
+msgid "Sets the setlist display mode. 'By Theme' lets the theme creator decide."
+msgstr "設置 setlist顯示模式。 '通過主題'讓主題創造者決定。"
+
+#: GameEngine.py:299
+msgid "Use Subfolders"
+msgstr "使用子文件夾"
+
+#: GameEngine.py:299
+msgid "List All"
+msgstr "列出全部"
+
+#: GameEngine.py:299
+msgid "'Normal' allows you to navigate folders. 'List All' places all songs into a single setlist."
+msgstr "'正常'，可在瀏覽文件夾。名單全部'地方所有歌曲到一個單一的setlist。"
+
+#: GameEngine.py:300
+msgid "Show Song Type Icons"
+msgstr "顯示歌曲類型圖標"
+
+#: GameEngine.py:300
+msgid "Sets whether or not to show icons indicating the song 'type'"
+msgstr "設置是否顯示圖標，顯示歌曲的類型'"
+
+#: GameEngine.py:301
+msgid "Preload Song Labels"
+msgstr "預緊宋標籤"
+
+#: GameEngine.py:301
+msgid "Sets whether to preload all song labels on load. With large setlists, this option is extremely slow."
+msgstr "設置是否將所有的歌曲標籤的預載荷。大setlists，這個選項是非常緩慢。"
+
+#: GameEngine.py:302
+msgid "Label Type"
+msgstr "標籤類型"
+
+#: GameEngine.py:302
+msgid "CD Labels"
+msgstr "CD標籤"
+
+#: GameEngine.py:302
+msgid "Album Covers"
+msgstr "專輯封面"
+
+#: GameEngine.py:302
+msgid "Sets whether to show CD labels or album covers as the art."
+msgstr "設置是否顯示 CD標籤或專輯封面的藝術。"
+
+#: GameEngine.py:303
+msgid "Rotating CDs"
+msgstr "旋轉光盤"
+
+#: GameEngine.py:303
+msgid "Sets whether or not CDs rotate."
+msgstr "無論是否設置光盤旋轉。"
+
+#: GameEngine.py:304
+msgid "Remember Play Count"
+msgstr "記住播放計數"
+
+#: GameEngine.py:304
+msgid "Keeps track of how many times you've played each song."
+msgstr "不斷跟踪多少次你玩過每首歌曲。"
+
+#: GameEngine.py:306
+msgid "Show at Song Start"
+msgstr "顯示在宋代開始"
+
+#: GameEngine.py:306
+msgid "Part"
+msgstr "部分"
+
+#: GameEngine.py:306
+msgid "Sets whether to show a countdown or your name and part at the song's start."
+msgstr "設置是否顯示一個倒計時或在您的姓名和部分歌曲的開始。"
+
+#: GameEngine.py:307
+msgid "Overdrive Neck"
+msgstr "超速領"
+
+#: GameEngine.py:307
+msgid "Sets the style of the Overdrive neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "設置風格的過驅動的脖子。 '替換'替換你的脖子有特別的脖子，而'覆蓋'奠定了脖子以上的頂部。"
+
+#: GameEngine.py:309
+msgid "Note Hit Window"
+msgstr "注意：點擊窗口"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:285
+msgid "Tightest"
+msgstr "嚴密"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:287
+msgid "Tight"
+msgstr "緊"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:289
+msgid "Wide"
+msgstr "寬"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:291
+msgid "Widest"
+msgstr "最廣泛"
+
+#: GameEngine.py:309
+msgid "Sets how accurate you need to be while playing."
+msgstr "如何準確設置你需要的同時播放。"
+
+#: GameEngine.py:311
+msgid "Early Hit Window"
+msgstr "早期的命中窗"
+
+#: GameEngine.py:311
+msgid "None (RB2)"
+msgstr "無（RB2賽車）"
+
+#: GameEngine.py:311
+msgid "Half (GH2)"
+msgstr "半數（GH2）"
+
+#: GameEngine.py:311
+msgid "Full (FoF)"
+msgstr "全部（基金中基金）"
+
+#: GameEngine.py:311
+msgid "Sets how much time before the note is part of the hit window. 'Auto' uses the MIDI to determine."
+msgstr "設置多少時間才說明是部分擊中窗口。 '自動'使用的MIDI決定。"
+
+#: GameEngine.py:312
+msgid "Show Detailed Handicap"
+msgstr "顯示詳細差點"
+
+#: GameEngine.py:312
+msgid "Shows the handicaps individually on the result screen."
+msgstr "顯示了障礙單獨的結果屏幕。"
+
+#: GameEngine.py:315
+msgid "Disable Variable BPM"
+msgstr "禁用變的BPM"
+
+#: GameEngine.py:315
+msgid "This will disable the use of the Variable BPM logic."
+msgstr "這將禁用使用可變 BPM的邏輯。"
+
+#: GameEngine.py:316
+msgid "Sort Direction"
+msgstr "排序方向"
+
+#: GameEngine.py:316
+msgid "Ascending"
+msgstr "升序"
+
+#: GameEngine.py:316
+msgid "Descending"
+msgstr "降序"
+
+#: GameEngine.py:316
+msgid "Choose whether to sort in ascending (A-Z) or descending (Z-A) order."
+msgstr "選擇是否要排序升序（AZ）或降序（雜）命令。"
+
+#: GameEngine.py:317
+msgid "Sort Setlist By"
+msgstr "通過排序Setlist"
+
+#: GameEngine.py:317
+msgid "Title"
+msgstr "標題"
+
+#: GameEngine.py:317
+msgid "Artist"
+msgstr "藝術家"
+
+#: GameEngine.py:317
+msgid "Times played"
+msgstr "時代起"
+
+#: GameEngine.py:317
+msgid "Album"
+msgstr "相冊"
+
+#: GameEngine.py:317
+msgid "Genre"
+msgstr "類型"
+
+#: GameEngine.py:317
+msgid "Year"
+msgstr "年"
+
+#: GameEngine.py:317
+msgid "Band Difficulty"
+msgstr "樂隊難度"
+
+#: GameEngine.py:317
+msgid "Song Collection"
+msgstr "宋集"
+
+#: GameEngine.py:317
+msgid "Choose how to sort the setlist by default."
+msgstr "選擇如何排序setlist默認。"
+
+#: GameEngine.py:318
+msgid "Whammy Changes Sort Order"
+msgstr "晦氣排序順序變化"
+
+#: GameEngine.py:318
+msgid "When enabled, pressing the whammy bar will change the sort order in the setlist."
+msgstr "當啟用時，按下夾擊欄將更改排序順序的setlist。"
+
+#: GameEngine.py:319
+msgid "Point Of View"
+msgstr "角度"
+
+#: GameEngine.py:319
+msgid "GH3"
+msgstr "植物GH3"
+
+#: GameEngine.py:319
+msgid "Rock Rev"
+msgstr "馮岩"
+
+#: GameEngine.py:319
+msgid "Sets the camera's point of view. Set it to any game, or set it to 'Theme' to leave it to the theme creator."
+msgstr "設置相機的觀點。將它設置為任何遊戲，或將其設置為'主題'離開它的主題創造者。"
+
+#: GameEngine.py:320
+msgid "Party Mode Timer"
+msgstr "黨模式定時器"
+
+#: GameEngine.py:320
+msgid "Sets the timer in Party Mode."
+msgstr "設置定時器在黨模式。"
+
+#: GameEngine.py:321
+msgid "Show Setlist Size"
+msgstr "顯示 Setlist尺寸"
+
+#: GameEngine.py:321
+msgid "Show the number of songs inside of each setlist."
+msgstr "展覽的數量內的歌曲每setlist。"
+
+#: GameEngine.py:322
+msgid "CD Mode Y-Rotation"
+msgstr "CD模式Y型旋轉"
+
+#: GameEngine.py:322
+#: GameEngine.py:351
+msgid "Enabled"
+msgstr "啟用"
+
+#: GameEngine.py:322
+msgid "Sets whether or not CDs in the setlist rotate about the Y axis."
+msgstr "集光盤是否在setlist對 Y軸旋轉。"
+
+#: GameEngine.py:326
+msgid "P1 AI"
+msgstr "小一時三十分"
+
+#: GameEngine.py:326
+msgid "Enable or disable the player 1 AI"
+msgstr "啟用或禁用的球員一時三十分"
+
+#: GameEngine.py:327
+msgid "P1 AI Personality"
+msgstr "小一人工智能人格"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "1. KiD"
+msgstr "1。小子"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "2. Stump"
+msgstr "2。樹墩"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "3. akedRobot"
+msgstr "3。 akedRobot"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "4. Q"
+msgstr "4。 Q"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "5. MFH"
+msgstr "5。惡性纖維組織瘤"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "6. Jurgen"
+msgstr "6。於爾根"
+
+#: GameEngine.py:327
+msgid "Set the personality of the player 1 AI. The numbers correspond with their skill."
+msgstr "設置個性的球員一時三十分。這些數字符合他們的技能。"
+
+#: GameEngine.py:328
+msgid "P1 AI Logic"
+msgstr "小一人工智能邏輯"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "Original"
+msgstr "原"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-Early"
+msgstr "惡性纖維組織瘤，早期"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-OnTime1"
+msgstr "惡性纖維組織瘤，OnTime1"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-OnTime2"
+msgstr "惡性纖維組織瘤，OnTime2"
+
+#: GameEngine.py:328
+msgid "Set the logic used for the player 1 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "設置邏輯用於球員一時三十分。 '原件'不能快速處理的部分。 '惡性纖維組織瘤，早期的企圖打注意到他們進入擊中窗口。 '惡性纖維組織瘤，龍泰'是實現企圖襲擊發生，他們注意到，像一個真正的球員。"
+
+#: GameEngine.py:330
+msgid "P2 AI"
+msgstr "P2的人工智能"
+
+#: GameEngine.py:330
+msgid "Enable or disable the player 2 AI"
+msgstr "啟用或禁用播放器2人工智能"
+
+#: GameEngine.py:331
+msgid "P2 AI Personality"
+msgstr "P2的人工智能人格"
+
+#: GameEngine.py:331
+msgid "Set the personality of the player 2 AI. The numbers correspond with their skill."
+msgstr "設置個性的球員 2人工智能。這些數字符合他們的技能。"
+
+#: GameEngine.py:332
+msgid "P2 AI Logic"
+msgstr "P2的人工智能邏輯"
+
+#: GameEngine.py:332
+msgid "Set the logic used for the player 2 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "設置邏輯用於播放器2人工智能。 '原件'不能快速處理的部分。 '惡性纖維組織瘤，早期的企圖打注意到他們進入擊中窗口。 '惡性纖維組織瘤，龍泰'是實現企圖襲擊發生，他們注意到，像一個真正的球員。"
+
+#: GameEngine.py:334
+msgid "P3 AI"
+msgstr "小三時三十分"
+
+#: GameEngine.py:334
+msgid "Enable or disable the player 3 AI"
+msgstr "啟用或禁用球員三時三十分"
+
+#: GameEngine.py:335
+msgid "P3 AI Personality"
+msgstr "小三艾人格"
+
+#: GameEngine.py:335
+msgid "Set the personality of the player 3 AI. The numbers correspond with their skill."
+msgstr "設置個性的球員三時三十分。這些數字符合他們的技能。"
+
+#: GameEngine.py:336
+msgid "P3 AI Logic"
+msgstr "小三人工智能邏輯"
+
+#: GameEngine.py:336
+msgid "Set the logic used for the player 3 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "設置邏輯用於球員三時三十分。 '原件'不能快速處理的部分。 '惡性纖維組織瘤，早期的企圖打注意到他們進入擊中窗口。 '惡性纖維組織瘤，龍泰'是實現企圖襲擊發生，他們注意到，像一個真正的球員。"
+
+#: GameEngine.py:338
+msgid "P4 AI"
+msgstr "小四時三十分"
+
+#: GameEngine.py:338
+msgid "Enable or disable the player 4 AI"
+msgstr "啟用或禁用球員四時三十分"
+
+#: GameEngine.py:339
+msgid "P4 AI Personality"
+msgstr "P4的人工智能人格"
+
+#: GameEngine.py:339
+msgid "Set the personality of the player 4 AI. The numbers correspond with their skill."
+msgstr "設置個性的球員四時三十分。這些數字符合他們的技能。"
+
+#: GameEngine.py:340
+msgid "P4 AI Logic"
+msgstr "P4的人工智能邏輯"
+
+#: GameEngine.py:340
+msgid "Set the logic used for the player 4 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "設置邏輯用於球員四時三十分。 '原件'不能快速處理的部分。 '惡性纖維組織瘤，早期的企圖打注意到他們進入擊中窗口。 '惡性纖維組織瘤，龍泰'是實現企圖襲擊發生，他們注意到，像一個真正的球員。"
+
+#: GameEngine.py:343
+msgid "Lyric Display Mode"
+msgstr "抒情顯示模式"
+
+#: GameEngine.py:343
+msgid "Scrolling"
+msgstr "滾動"
+
+#: GameEngine.py:343
+msgid "Simple Lines"
+msgstr "簡單的線條"
+
+#: GameEngine.py:343
+msgid "2-Line"
+msgstr "2線"
+
+#: GameEngine.py:343
+msgid "Sets the display mode for MIDI lyrics. Both 'Simple Lines' and '2-Line' will show as single phrases when playing the vocal part."
+msgstr "顯示模式設置為 MIDI歌詞。這兩個'簡單的線條'和'2線'將顯示為單一的短語時打聲部分。"
+
+#: GameEngine.py:344
+msgid "Lyric Speed Mode"
+msgstr "抒情速度模式"
+
+#: GameEngine.py:344
+msgid "Sets what determines the speed of the scrolling lyrics."
+msgstr "決定設置什麼速度滾動歌詞。"
+
+#: GameEngine.py:345
+msgid "Lyric Speed Percent"
+msgstr "抒情速度百分比"
+
+#: GameEngine.py:345
+msgid "Sets how quickly lyrics will scroll."
+msgstr "集歌詞將滾動的速度有多快。"
+
+#: GameEngine.py:351
+msgid "Graphical Submenus"
+msgstr "圖形子菜單"
+
+#: GameEngine.py:351
+msgid "Enable or disable the use of graphical submenus."
+msgstr "啟用或禁用使用的圖形子菜單。"
+
+#: GameEngine.py:354
+msgid "Crowd Cheers"
+msgstr "人群乾杯"
+
+#: GameEngine.py:354
+msgid "Off (Disabled)"
+msgstr "關閉（禁用）"
+
+#: GameEngine.py:354
+msgid "During SP Only"
+msgstr "只有在警司"
+
+#: GameEngine.py:354
+msgid "During SP & Green"
+msgstr "在警司及綠色"
+
+#: GameEngine.py:354
+msgid "Always On"
+msgstr "總是"
+
+#: GameEngine.py:354
+msgid "Sets when the crowd will cheer for you (if a crowd.ogg is present). 'During SP' will have them sing along in star power, and 'During SP & Green' will have them cheering both in SP and when your rock meter is above 2/3"
+msgstr "當警方將設置為你喝彩（如果crowd.ogg存在）。 '在警司將會有他們一起唱的明星魅力，和'期間警司及格林將他們都在歡呼時，你的SP和岩石米以上2 / 3"
+
+#: GameEngine.py:357
+msgid "Miss Volume"
+msgstr "吳量"
+
+#: GameEngine.py:357
+msgid "Set the volume of the active track when you miss a note."
+msgstr "設置音量的積極跟踪當你錯過一個音符。"
+
+#: GameEngine.py:358
+msgid "Single Track Miss"
+msgstr "單線小姐"
+
+#: GameEngine.py:358
+msgid "When playing a song with only a single track, this sets the volume of the track when you miss a note."
+msgstr "當播放一首歌曲只有一個軌道，這台體積的軌道時，你錯過一個音符。"
+
+#: GameEngine.py:359
+msgid "Menu Volume"
+msgstr "菜單音量"
+
+#: GameEngine.py:359
+msgid "Set the volume of the background menu music."
+msgstr "音量設置菜單的背景音樂。"
+
+#: GameEngine.py:361
+msgid "Crowd Volume"
+msgstr "人群量"
+
+#: GameEngine.py:361
+msgid "Set the volume of the crowd."
+msgstr "設置數量的人群。"
+
+#: GameEngine.py:363
+msgid "Kill Volume"
+msgstr "殺卷"
+
+#: GameEngine.py:363
+msgid "Sets the volume when using the killswitch."
+msgstr "設置音量時使用killswitch。"
+
+#: GameEngine.py:364
+msgid "SFX Volume"
+msgstr "自解壓卷"
+
+#: GameEngine.py:364
+msgid "Sets the volume of various sound effects."
+msgstr "音量設置各種聲音效果。"
+
+#: GameEngine.py:371
+msgid "Cache Song Metadata"
+msgstr "宋元數據高速緩存"
+
+#: GameEngine.py:371
+msgid "This will allow information about the songs to be stored for quick access later at the cost of a slow first time loading."
+msgstr "這將使信息存儲的歌曲，以快速訪問後在一個緩慢的成本首次加載。"
+
+#: GameEngine.py:399
+msgid "Sets the overall graphical feel of the game. You can find and download many more at fretsonfire.net"
+msgstr "設置整體圖形感覺的遊戲。你可以找到並下載更多的fretsonfire.net"
+
+#: GameEngine.py:404
+msgid "Board Speed Percent"
+msgstr "董事會速度百分比"
+
+#: GameEngine.py:404
+msgid "Sets how quickly note will scroll"
+msgstr "設置說明將如何快速滾動"
+
+#: GameEngine.py:405
+msgid "No Fail"
+msgstr "沒有失敗"
+
+#: GameEngine.py:405
+msgid "Sets whether or not you can fail out of a song."
+msgstr "設置您是否可以失敗出一首歌曲。"
+
+#: GameEngine.py:409
+msgid "Difficulty (Setlist Score)"
+msgstr "困難（Setlist分數）"
+
+#: GameEngine.py:409
+msgid "Sets the default difficulty displayed in the setlist score."
+msgstr "設置默認的困難顯示在setlist得分。"
+
+#: GameEngine.py:410
+msgid "Show Additional Stats"
+msgstr "顯示其他統計"
+
+#: GameEngine.py:410
+msgid "If enabled, additional score information (longest streak, percentage) is displayed on the setlist."
+msgstr "如果啟用，額外分數信息（最長的連勝紀錄，百分比）顯示在setlist。"
+
+#: GameEngine.py:412
+msgid "Instrument (Setlist Score)"
+msgstr "儀表（Setlist分數）"
+
+#: GameEngine.py:412
+msgid "Sets the default part displayed in the setlist score."
+msgstr "設置默認的一部分顯示在setlist得分。"
+
+#: GameEngine.py:674
+msgid "Slideshow"
+msgstr "幻燈片"
+
+#: GameEngine.py:677
+#: GameEngine.py:691
+msgid "Animated Stage"
+msgstr "動畫舞台"
+
+#: GameResultsScene.py:121
+#: GameResultsScene.py:122
+msgid "Co-Op Mode"
+msgstr "合作社模式"
+
+#: GameResultsScene.py:124
+msgid "settings"
+msgstr "設置"
+
+#: GameResultsScene.py:125
+msgid "HOPOs"
+msgstr "HOPOs"
+
+#: GameResultsScene.py:126
+msgid "Hit Window"
+msgstr "點擊窗口"
+
+#: GameResultsScene.py:127
+msgid "Adjusted Score Multiplier:"
+msgstr "調整後的分數乘數："
+
+#: GameResultsScene.py:128
+msgid "Original Score:"
+msgstr "原始分數："
+
+#: GameResultsScene.py:133
+#: GameResultsScene.py:140
+#: GameResultsScene.py:147
+msgid "Continue"
+msgstr "繼續"
+
+#: GameResultsScene.py:134
+msgid "Replay Setlist"
+msgstr "重播Setlist"
+
+#: GameResultsScene.py:136
+#: GameResultsScene.py:143
+#: GameResultsScene.py:150
+msgid "Quit"
+msgstr "退出"
+
+#: GameResultsScene.py:141
+msgid "Replay"
+msgstr "重播"
+
+#: GameResultsScene.py:148
+msgid "End Setlist"
+msgstr "完Setlist"
+
+#: GameResultsScene.py:165
+msgid "Relax, it was an excellent show."
+msgstr "放鬆，這是一個很好的證明。"
+
+#: GameResultsScene.py:167
+msgid "Truly Amazing!"
+msgstr "太不可思議了！"
+
+#: GameResultsScene.py:169
+msgid "Thanks for playing!"
+msgstr "感謝您的參與！"
+
+#: GameResultsScene.py:171
+msgid "One more song can't hurt!"
+msgstr "還有一首歌曲不能傷害！"
+
+#: GameResultsScene.py:173
+msgid "What an amazing performance!"
+msgstr "這是多麼驚人的業績！"
+
+#: GameResultsScene.py:175
+msgid "That's how it's done!"
+msgstr "這是如何做！"
+
+#: GameResultsScene.py:248
+msgid "GH2 Sloppy"
+msgstr "GH2邋遢"
+
+#: GameResultsScene.py:258
+msgid "New System"
+msgstr "新體系"
+
+#: GameResultsScene.py:573
+#, python-format
+msgid "%d points is a new high score! Enter your name:"
+msgstr "%d點是一個新的高分！輸入您的姓名："
+
+#: GameResultsScene.py:1297
+#, python-format
+msgid "%s High Scores for %s"
+msgstr "%s高分為 %s"
+
+#: GameResultsScene.py:1299
+#, python-format
+msgid "%s High Scores"
+msgstr "%s高分"
+
+#: GameResultsScene.py:1305
+#, python-format
+msgid "Difficulty: %s"
+msgstr "難度：%s"
+
+#: GameResultsScene.py:1367
+msgid "Uploading Scores..."
+msgstr "上傳成績 ..."
+
+#: GameResultsScene.py:1372
+msgid "Scores uploaded!"
+msgstr "成績上傳！"
+
+#: GameResultsScene.py:1376
+msgid "Your highscore ranks"
+msgstr "您的排行榜排名"
+
+#: GameResultsScene.py:1377
+msgid "on the world starpower chart!"
+msgstr "對世界的StarPower圖！"
+
+#: GameResultsScene.py:1380
+msgid "but your rank is unknown."
+msgstr "但您的排名是未知的。"
+
+#: GameResultsScene.py:1383
+msgid "but there was no new highscore."
+msgstr "但沒有新的排行榜。"
+
+#: GameResultsScene.py:1386
+msgid "Score upload failed!  World charts may be down."
+msgstr "分數上傳失敗！世界圖表可能下降。"
+
+#: GuitarScene.py:82
+#: GuitarScene.py:83
+msgid "Initializing..."
+msgstr "初始化..."
+
+#: GuitarScene.py:497
+msgid "KiD"
+msgstr "小子"
+
+#: GuitarScene.py:497
+msgid "Stump"
+msgstr "樹墩"
+
+#: GuitarScene.py:497
+msgid "AkedRobot"
+msgstr "AkedRobot"
+
+#: GuitarScene.py:497
+msgid "Q"
+msgstr "Q"
+
+#: GuitarScene.py:497
+msgid "MFH"
+msgstr "惡性纖維組織瘤"
+
+#: GuitarScene.py:497
+msgid "Jurgen"
+msgstr "於爾根"
+
+#: GuitarScene.py:504
+msgid "Broken String"
+msgstr "斷線"
+
+#: GuitarScene.py:506
+msgid "Powerup Steal"
+msgstr "上電盜"
+
+#: GuitarScene.py:510
+#, python-format
+msgid "%d Note Streak"
+msgstr "%d注雷克"
+
+#: GuitarScene.py:511
+#, python-format
+msgid "%d Phrase Streak"
+msgstr "%d短語雷克"
+
+#: GuitarScene.py:512
+#, python-format
+msgid "%s Ready"
+msgstr "%s就緒"
+
+#: GuitarScene.py:513
+#, python-format
+msgid "Activate %s!"
+msgstr "激活%s！"
+
+#: GuitarScene.py:514
+msgid "You Failed"
+msgstr "你失敗"
+
+#: GuitarScene.py:515
+#, python-format
+msgid "%s is here"
+msgstr "%s在這裡"
+
+#: GuitarScene.py:516
+#, python-format
+msgid "%s was here"
+msgstr "%s在這裡"
+
+#: GuitarScene.py:517
+msgid "% Complete"
+msgstr "％完成"
+
+#: GuitarScene.py:518
+#: GuitarScene.py:5839
+msgid "HOPO"
+msgstr "湖浦"
+
+#: GuitarScene.py:519
+#: GuitarScene.py:5809
+#: GuitarScene.py:5818
+msgid "COMPLETED"
+msgstr "已完成"
+
+#: GuitarScene.py:520
+#: GuitarScene.py:5811
+#: GuitarScene.py:5827
+msgid " % ON "
+msgstr "％的"
+
+#: GuitarScene.py:521
+msgid "BASS GROOVE"
+msgstr "低音槽"
+
+#: GuitarScene.py:522
+msgid "Bass Groove:"
+msgstr "巴斯溝："
+
+#: GuitarScene.py:523
+msgid "Handicap"
+msgstr "困難"
+
+#: GuitarScene.py:524
+msgid "Avg"
+msgstr "平均"
+
+#: GuitarScene.py:525
+msgid "Very Late"
+msgstr "很晚"
+
+#: GuitarScene.py:526
+msgid "Late"
+msgstr "晚"
+
+#: GuitarScene.py:527
+msgid "Slightly Late"
+msgstr "略晚"
+
+#: GuitarScene.py:528
+msgid "-Excellent!"
+msgstr "，好極了！"
+
+#: GuitarScene.py:529
+msgid "Perfect!!"
+msgstr "完美！"
+
+#: GuitarScene.py:530
+msgid "+Excellent!"
+msgstr "+好極了！"
+
+#: GuitarScene.py:531
+msgid "Slightly Early"
+msgstr "略早"
+
+#: GuitarScene.py:534
+msgid "ms"
+msgstr "毫秒"
+
+#: GuitarScene.py:535
+msgid "Solo!"
+msgstr "單獨！"
+
+#: GuitarScene.py:536
+msgid "Perfect Solo!"
+msgstr "完美單獨！"
+
+#: GuitarScene.py:537
+msgid "Awesome Solo!"
+msgstr "真棒單獨！"
+
+#: GuitarScene.py:538
+msgid "Great Solo!"
+msgstr "偉大的獨奏！"
+
+#: GuitarScene.py:539
+msgid "Good Solo!"
+msgstr "好單獨！"
+
+#: GuitarScene.py:540
+msgid "Solid Solo!"
+msgstr "固體單獨！"
+
+#: GuitarScene.py:541
+msgid "Okay Solo"
+msgstr "好吧單獨"
+
+#: GuitarScene.py:542
+msgid "Messy Solo"
+msgstr "凌亂單獨"
+
+#: GuitarScene.py:543
+msgid "pts"
+msgstr "積分"
+
+#: GuitarScene.py:544
+msgid "Get Ready to Rock"
+msgstr "準備好搖滾"
+
+#: GuitarScene.py:545
+msgid "as made famous by"
+msgstr "為把著名的"
+
+#: GuitarScene.py:546
+msgid "by "
+msgstr "由"
+
+#: GuitarScene.py:547
+msgid " fretted by "
+msgstr "由擔憂"
+
+#: GuitarScene.py:890
+msgid "Loading Song..."
+msgstr "載入中歌..."
+
+#: GuitarScene.py:900
+msgid "Preparing Note Phrases..."
+msgstr "準備注意短語 ..."
+
+#: GuitarScene.py:1401
+msgid "Loading Graphics..."
+msgstr "載入圖形 ..."
+
+#: GuitarScene.py:1615
+msgid "         RESUME"
+msgstr "簡歷"
+
+#: GuitarScene.py:1616
+msgid "        RESTART"
+msgstr "再啟動"
+
+#: GuitarScene.py:1618
+msgid "       PRACTICE"
+msgstr "實踐"
+
+#: GuitarScene.py:1619
+msgid "        OPTIONS"
+msgstr "選項"
+
+#: GuitarScene.py:1620
+#: GuitarScene.py:1629
+msgid "           QUIT"
+msgstr "退出"
+
+#: GuitarScene.py:1624
+msgid "        RESUME"
+msgstr "簡歷"
+
+#: GuitarScene.py:1625
+msgid "       RESTART"
+msgstr "再啟動"
+
+#: GuitarScene.py:1627
+msgid "      END SONG"
+msgstr "完宋"
+
+#: GuitarScene.py:1628
+msgid "       OPTIONS"
+msgstr "選項"
+
+#: GuitarScene.py:1634
+#: GuitarScene.py:1641
+msgid "RETRY SONG"
+msgstr "宋重試"
+
+#: GuitarScene.py:1635
+msgid "  PRACTICE"
+msgstr "實踐"
+
+#: GuitarScene.py:1636
+#: GuitarScene.py:1642
+#: GuitarScene.py:1706
+#: GuitarScene.py:1713
+msgid " NEW SONG"
+msgstr "新歌"
+
+#: GuitarScene.py:1637
+#: GuitarScene.py:1643
+msgid "     QUIT"
+msgstr "退出"
+
+#: GuitarScene.py:1650
+#: GuitarScene.py:1659
+msgid "  Resume"
+msgstr "簡歷"
+
+#: GuitarScene.py:1651
+#: GuitarScene.py:1660
+msgid "  Start Over"
+msgstr "重新開始"
+
+#: GuitarScene.py:1652
+#: GuitarScene.py:1661
+msgid "  Change Song"
+msgstr "宋變化"
+
+#: GuitarScene.py:1653
+msgid "  Practice"
+msgstr "實踐"
+
+#: GuitarScene.py:1654
+#: GuitarScene.py:1663
+msgid "  Settings"
+msgstr "設置"
+
+#: GuitarScene.py:1655
+#: GuitarScene.py:1664
+msgid "  Quit to Main Menu"
+msgstr "退出到主菜單"
+
+#: GuitarScene.py:1662
+msgid "  End Song"
+msgstr "宋完"
+
+#: GuitarScene.py:1669
+#: GuitarScene.py:1676
+msgid " Try Again?"
+msgstr "再試一次？"
+
+#: GuitarScene.py:1670
+#: GuitarScene.py:1677
+msgid "  Give Up?"
+msgstr "放棄？"
+
+#: GuitarScene.py:1671
+msgid "  Practice?"
+msgstr "實踐？"
+
+#: GuitarScene.py:1672
+#: GuitarScene.py:1678
+msgid "Quit to Main"
+msgstr "退出到主"
+
+#: GuitarScene.py:1686
+#: GuitarScene.py:1695
+msgid "   RESUME"
+msgstr "簡歷"
+
+#: GuitarScene.py:1687
+#: GuitarScene.py:1696
+msgid "   RESTART"
+msgstr "再啟動"
+
+#: GuitarScene.py:1688
+#: GuitarScene.py:1697
+msgid "   CHANGE SONG"
+msgstr "宋變化"
+
+#: GuitarScene.py:1689
+msgid "   PRACTICE"
+msgstr "實踐"
+
+#: GuitarScene.py:1690
+#: GuitarScene.py:1699
+msgid "   SETTINGS"
+msgstr "設置"
+
+#: GuitarScene.py:1691
+#: GuitarScene.py:1700
+msgid "   QUIT"
+msgstr "退出"
+
+#: GuitarScene.py:1698
+msgid "   END SONG"
+msgstr "完宋"
+
+#: GuitarScene.py:1705
+#: GuitarScene.py:1712
+msgid " RETRY"
+msgstr "重試"
+
+#: GuitarScene.py:1707
+msgid " PRACTICE"
+msgstr "實踐"
+
+#: GuitarScene.py:1708
+#: GuitarScene.py:1714
+msgid " QUIT"
+msgstr "退出"
+
+#: GuitarScene.py:6488
+#, python-format
+msgid "FPS: %.2f"
+msgstr "醫科：%.2f"
+
+#: Language.py:62
+msgid "Language"
+msgstr "語"
+
+#: Language.py:62
+msgid "Change the game language!"
+msgstr "更改遊戲的語言！"
+
+#: Lobby.py:39
+#: MainMenu.py:294
+msgid "Your controls are not properly set up for this mode. Please check your settings."
+msgstr "您的控件沒有正確建立這種模式。請檢查您的設置。"
+
+#: Lobby.py:43
+msgid "World error. Please try again."
+msgstr "世界錯誤。請再試一次。"
+
+#: Lobby.py:167
+msgid "Choose Your Character"
+msgstr "選擇你的性格"
+
+#: Lobby.py:168
+#: Lobby.py:750
+#, python-format
+msgid "Player %d"
+msgstr "播放器%d"
+
+#: Lobby.py:170
+msgid "Regular Drums"
+msgstr "經常鼓"
+
+#: Lobby.py:170
+msgid "Flipped Drums"
+msgstr "翻轉鼓"
+
+#: Lobby.py:171
+msgid "Pedal-Using"
+msgstr "腳踏使用"
+
+#: Lobby.py:171
+msgid "Footless"
+msgstr "無基礎"
+
+#: Lobby.py:172
+msgid "Assist Mode Off"
+msgstr "協助模式關閉"
+
+#: Lobby.py:172
+#: Lobby.py:503
+#: Player.py:211
+msgid "Easy Assist"
+msgstr "易協助"
+
+#: Lobby.py:172
+#: Lobby.py:503
+#: Player.py:211
+msgid "Medium Assist"
+msgstr "中等協助"
+
+#: Lobby.py:173
+msgid "Chordmaster"
+msgstr "Chordmaster"
+
+#: Lobby.py:173
+msgid "Two Notes Max"
+msgstr "最大的兩個註釋"
+
+#: Lobby.py:174
+msgid "Information:"
+msgstr "信息："
+
+#: Lobby.py:188
+msgid "Create New Player"
+msgstr "創建新的播放器"
+
+#: Lobby.py:188
+msgid "Saved Characters"
+msgstr "保存漢字"
+
+#: Lobby.py:502
+#: Player.py:207
+msgid "Default Neck"
+msgstr "默認領"
+
+#: Lobby.py:502
+#: Player.py:207
+msgid "Theme Neck"
+msgstr "主題領"
+
+#: Lobby.py:502
+msgid "Select a Neck"
+msgstr "選擇一個領"
+
+#: Lobby.py:504
+msgid "Name"
+msgstr "名稱"
+
+#: Lobby.py:504
+msgid "Name your character!"
+msgstr "你的角色名！"
+
+#: Lobby.py:505
+#: Player.py:208
+msgid "Lefty Mode"
+msgstr "左撇子模式"
+
+#: Lobby.py:505
+msgid "Flip the guitar frets for left-handed playing!"
+msgstr "翻轉吉他品位的左手打！"
+
+#: Lobby.py:506
+#: Player.py:209
+msgid "Drum Flip"
+msgstr "滾筒翻轉"
+
+#: Lobby.py:506
+msgid "Flip the drum sounds - snare becomes crash, and so on"
+msgstr "翻轉鼓的聲音 - 網羅成為崩潰，等等"
+
+#: Lobby.py:507
+msgid "Auto-Kick Bass"
+msgstr "自動踢低音"
+
+#: Lobby.py:507
+msgid "Feet uncooperative? Broke your pedal? Not to worry!"
+msgstr "腳不合作？打破你的踏板？不用擔心！"
+
+#: Lobby.py:508
+#: Player.py:211
+msgid "Assist Mode"
+msgstr "協助模式"
+
+#: Lobby.py:508
+msgid "Play hard and expert, even when you're not that good!"
+msgstr "播放硬盤和專家，即使你不是好！"
+
+#: Lobby.py:509
+#: Player.py:190
+#: Player.py:210
+msgid "Two-Chord Max"
+msgstr "雙和弦最大"
+
+#: Lobby.py:509
+msgid "For those still playing with uncooperative keyboards."
+msgstr "對於那些仍然在玩不合作鍵盤。"
+
+#: Lobby.py:510
+msgid "Give the endless procession of notes a bit of flair!"
+msgstr "給予無盡的遊行紙幣有點天分！"
+
+#: Lobby.py:511
+msgid "Upload Name"
+msgstr "上傳名稱"
+
+#: Lobby.py:511
+msgid "To the internet, you are GUITARGOD23047124!"
+msgstr "到互聯網，你GUITARGOD23047124！"
+
+#: Lobby.py:512
+msgid "Choose Avatar"
+msgstr "選擇頭像"
+
+#: Lobby.py:512
+msgid "A 256x256 window into your soul."
+msgstr "阿256x256窗戶進入你的靈魂。"
+
+#: Lobby.py:513
+msgid "Delete Character"
+msgstr "刪除字符"
+
+#: Lobby.py:513
+msgid "Quitter."
+msgstr "基特。"
+
+#: Lobby.py:514
+msgid "Done"
+msgstr "完成"
+
+#: Lobby.py:514
+msgid "All finished? Let's do this thing!"
+msgstr "全部完成了嗎？讓我們做這件事情！"
+
+#: Lobby.py:549
+msgid "Are you sure you want to delete this player?"
+msgstr "你確定要刪除此播放器？"
+
+#: Lobby.py:560
+msgid "That is a terrible name. Choose something not 'default'"
+msgstr "這是一個可怕的名字。選擇一些不是'默認'"
+
+#: Lobby.py:575
+msgid "That name already exists!"
+msgstr "該名稱已經存在！"
+
+#: Lobby.py:577
+msgid "Please enter a name!"
+msgstr "請輸入一個名字！"
+
+#: MainMenu.py:150
+msgid "Tutorials"
+msgstr "教程"
+
+#: MainMenu.py:151
+msgid "Practice"
+msgstr "實踐"
+
+#: MainMenu.py:165
+msgid "Face-Off"
+msgstr "攤牌"
+
+#: MainMenu.py:166
+msgid "Pro Face-Off"
+msgstr "臨攤牌"
+
+#: MainMenu.py:167
+msgid "Party Mode"
+msgstr "黨模式"
+
+#: MainMenu.py:168
+msgid "FoFiX Co-Op"
+msgstr "FoFiX合作作品"
+
+#: MainMenu.py:169
+msgid "RB Co-Op"
+msgstr "包合作作品"
+
+#: MainMenu.py:170
+msgid "GH Co-Op"
+msgstr "生長激素合作作品"
+
+#: MainMenu.py:171
+msgid "GH Battle"
+msgstr "生長激素戰役"
+
+#: MainMenu.py:188
+msgid "Solo Tour"
+msgstr "單獨旅行"
+
+#: MainMenu.py:189
+msgid "Quickplay"
+msgstr "QuickPlay的"
+
+#: MainMenu.py:236
+#, python-format
+msgid "This binary release is being run from a %(currentVcs)s working copy. This is not the correct way to run FoFiX from %(currentVcs)s. Please see one of the following web pages to set your %(currentVcs)s working copy up correctly:"
+msgstr "這是正在運行的二進制版本從 %(currentVcs)s工作副本。這是不正確的方式來運行 FoFiX從 %(currentVcs)s。請參閱下列其中一個網頁上設置您的%(currentVcs)s工作拷貝正確："
+
+#: MainMenu.py:240
+#, python-format
+msgid "This binary was built from a %(buildVcs)s working copy but is not running from one. The FoFiX Team will not provide any support whatsoever for this binary. Please see the following site for official binary releases:"
+msgstr "這個二進制建於一%(buildVcs)s工作副本，但不會逃跑的。該 FoFiX小組不會提供任何支持，這個二進制文件。請參閱以下站點官方二進制版本："
+
+#: MainMenu.py:312
+msgid "No tutorials found!"
+msgstr "教程沒有找到！"
+
+#: Microphone.py:50
+msgid "[Default Microphone]"
+msgstr "[默認麥克風]"
+
+#: Microphone.py:183
+msgid "[Microphones not supported]"
+msgstr "[話筒不支持]"
+
+#: Player.py:169
+msgid "Name your controller."
+msgstr "命名您的控制器。"
+
+#: Player.py:170
+msgid "Move left"
+msgstr "向左移動"
+
+#: Player.py:171
+msgid "Move right"
+msgstr "向右移動"
+
+#: Player.py:172
+msgid "Move up"
+msgstr "升級"
+
+#: Player.py:173
+msgid "Move down"
+msgstr "下移"
+
+#: Player.py:174
+msgid "Pick"
+msgstr "選擇"
+
+#: Player.py:175
+msgid "Secondary Pick"
+msgstr "二次選擇"
+
+#: Player.py:175
+msgid "Bass Drum 2"
+msgstr "低音鼓2"
+
+#: Player.py:181
+msgid "Solo Fret #1"
+msgstr "單獨弗雷＃1"
+
+#: Player.py:181
+msgid "Solo Key"
+msgstr "單獨的關鍵"
+
+#: Player.py:181
+#: Player.py:196
+msgid "Analog Slider"
+msgstr "模擬滑塊"
+
+#: Player.py:182
+msgid "Solo Fret #2"
+msgstr "單獨弗雷＃2"
+
+#: Player.py:183
+msgid "Solo Fret #3"
+msgstr "單獨弗雷＃3"
+
+#: Player.py:184
+msgid "Solo Fret #4"
+msgstr "單獨弗雷＃4"
+
+#: Player.py:185
+msgid "Solo Fret #5"
+msgstr "單獨弗雷＃5"
+
+#: Player.py:186
+msgid "Cancel"
+msgstr "取消"
+
+#: Player.py:187
+msgid "StarPower"
+msgstr "的StarPower"
+
+#: Player.py:190
+msgid "When enabled, the highest notes in large note chords are auto-played."
+msgstr "當啟用時，最高注意到大說明和弦是自動播放。"
+
+#: Player.py:191
+msgid "Controller Type"
+msgstr "控制器類型"
+
+#: Player.py:191
+msgid "Standard Guitar"
+msgstr "標準的吉他"
+
+#: Player.py:191
+msgid "Solo Shift Guitar"
+msgstr "移吉他獨奏"
+
+#: Player.py:191
+msgid "Drum Set (4-Drum)"
+msgstr "鼓組（4 -鼓）"
+
+#: Player.py:191
+msgid "Analog Slide Guitar"
+msgstr "模擬吉他幻燈片"
+
+#: Player.py:191
+msgid "Microphone"
+msgstr "麥克風"
+
+#: Player.py:191
+msgid "'Standard Guitar' is for keyboards and pre-WT GH-series guitars. 'Solo Shift Guitar' is for RB-series guitars and keyboards who want to use a shift key for solo frets. 'Analog Slide Guitar' is for guitars with an analog slider bar."
+msgstr "'標準吉他'是對鍵盤和預小波生長激素系列吉他。 '吉他獨奏移'是包系列吉他和鍵盤誰想要使用shift鍵的獨奏煩惱。 '模擬幻燈片吉他'是一個模擬的吉他與滑動條。"
+
+#: Player.py:192
+msgid "Analog SP"
+msgstr "模擬警司"
+
+#: Player.py:192
+msgid "Enables analog SP (as in the XBOX Xplorer controller.)"
+msgstr "啟用模擬警司（如在Xbox Xplorer控制器。）"
+
+#: Player.py:193
+msgid "Analog SP Threshold"
+msgstr "模擬警司閾值"
+
+#: Player.py:193
+msgid "Sets a threshold level for activating SP in analog mode."
+msgstr "設置一個閾值水平為激活SP的模擬模式。"
+
+#: Player.py:194
+msgid "Analog SP Sensitivity"
+msgstr "模擬警司靈敏度"
+
+#: Player.py:194
+msgid "Sets the sensitivity for activating SP in analog mode."
+msgstr "靈敏度設置為激活SP的模擬模式。"
+
+#: Player.py:195
+msgid "Analog Drums"
+msgstr "模擬鼓"
+
+#: Player.py:195
+#: Player.py:197
+msgid "PS2/PS3/Wii"
+msgstr "PS2/PS3/Wii"
+
+#: Player.py:195
+#: Player.py:197
+msgid "XBOX"
+msgstr "的XBOX"
+
+#: Player.py:195
+#: Player.py:197
+msgid "XBOX Inv."
+msgstr "的XBOX智富。"
+
+#: Player.py:195
+msgid "Enables analog drums as in RB2 and GH drumsets."
+msgstr "啟用模擬鼓在RB2賽車和生長激素 drumsets。"
+
+#: Player.py:196
+msgid "Inverted"
+msgstr "倒"
+
+#: Player.py:196
+msgid "Experimental testing for the analog slide mode."
+msgstr "模擬實驗測試幻燈片模式。"
+
+#: Player.py:197
+msgid "Analog Effects"
+msgstr "模擬效果"
+
+#: Player.py:197
+msgid "Enables analog whammy bar. Set to the system your controller was designed for."
+msgstr "啟用模擬晦氣吧。該系統設置為您的控制器設計。"
+
+#: Player.py:198
+msgid "Sound FX Switch"
+msgstr "聲音效果開關"
+
+#: Player.py:198
+msgid "Switch"
+msgstr "開關"
+
+#: Player.py:198
+msgid "Cycle"
+msgstr "循環"
+
+#: Player.py:199
+msgid "Microphone Device"
+msgstr "麥克風裝置"
+
+#: Player.py:200
+msgid "Tap Sensitivity"
+msgstr "塔靈敏度"
+
+#: Player.py:200
+msgid "Sets how sensitive the microphone is to being tapped."
+msgstr "如何設置麥克風是敏感的被挖掘。"
+
+#: Player.py:201
+msgid "Passthrough Volume"
+msgstr "直通體積"
+
+#: Player.py:201
+msgid "Sets how loud you hear yourself singing."
+msgstr "如何設置你聽到自己大聲唱歌。"
+
+#: Player.py:207
+msgid "Neck Type"
+msgstr "頸型"
+
+#: Player.py:207
+msgid "Specific Neck"
+msgstr "具體領"
+
+#: Player.py:212
+msgid "Auto Kick"
+msgstr "自動踢"
+
+#: Player.py:385
+msgid "Default Drum"
+msgstr "默認鼓"
+
+#: Player.py:390
+#, python-format
+msgid "Controller %d"
+msgstr "控制器%d"
+
+#: Player.py:391
+#, python-format
+msgid "Select the controller for slot %d"
+msgstr "選擇控制器槽%d"
+
+#: Player.py:754
+#, python-format
+msgid "%s conflicts with %s"
+msgstr "%s與 %s的衝突"
+
+#: Player.py:842
+#, python-format
+msgid "This key conflicts with the following keys: %s"
+msgstr "這關鍵的衝突與以下項：%s"
+
+#: Scorekeeper.py:30
+msgid "Auto Kick Bass"
+msgstr "自動踢低音"
+
+#: Scorekeeper.py:30
+msgid "Medium Assist Mode"
+msgstr "中等協助模式"
+
+#: Scorekeeper.py:30
+msgid "Easy Assist Mode"
+msgstr "易協助模式"
+
+#: Scorekeeper.py:30
+msgid "Jurgen Played!"
+msgstr "於爾根賽！"
+
+#: Scorekeeper.py:31
+msgid "Effects Saved SP"
+msgstr "警司保存的影響"
+
+#: Scorekeeper.py:31
+msgid "All Tapping"
+msgstr "所有攻絲"
+
+#: Scorekeeper.py:31
+msgid "HOPO Frequency: Most"
+msgstr "湖浦頻率：大多數"
+
+#: Scorekeeper.py:31
+msgid "HOPO Frequency: Even More"
+msgstr "湖浦頻率：更為"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: More"
+msgstr "湖浦頻率：更多"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: Less"
+msgstr "湖浦頻率：減"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: Least"
+msgstr "湖浦頻率：最不"
+
+#: Scorekeeper.py:32
+msgid "HOPO Disabled!"
+msgstr "湖浦殘疾人！"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Tightest!"
+msgstr "點擊窗口：嚴密！"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Tight!"
+msgstr "點擊窗口：緊！"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Wider"
+msgstr "點擊窗口：廣泛"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Widest"
+msgstr "點擊窗口：最廣泛的"
+
+#: Scorekeeper.py:34
+msgid "Two Note Chords"
+msgstr "兩注和弦"
+
+#: Scorekeeper.py:34
+msgid "No Fail Mode"
+msgstr "沒有失敗模式"
+
+#: Scorekeeper.py:34
+msgid "Sloppy Mode!"
+msgstr "草率的方式！"
+
+#: Scorekeeper.py:35
+msgid "Song Slowdown"
+msgstr "宋放緩"
+
+#: Scorekeeper.py:35
+msgid "Early Hit Window Adjustment"
+msgstr "早期的命中窗口調整"
+
+#: Settings.py:250
+#, python-format
+msgid "Press a key for '%s' or hold Escape to disable."
+msgstr "按一個鍵為 '%s'或持有逃逸禁用。"
+
+#: Settings.py:252
+#, python-format
+msgid "Press a key for '%s' or hold Escape to cancel."
+msgstr "按一個鍵為 '%s'或持有逃逸取消。"
+
+#: Settings.py:302
+msgid "No Controllers Found."
+msgstr "沒有找到控制器。"
+
+#: Settings.py:350
+msgid "Are you sure you want to delete this controller?"
+msgstr "你確定要刪除此控制器？"
+
+#: Settings.py:374
+msgid "Please name your controller"
+msgstr "請命名您的控制器"
+
+#: Settings.py:376
+#: Settings.py:626
+msgid "That name is already taken."
+msgstr "該名稱已被使用。"
+
+#: Settings.py:378
+#: Settings.py:628
+msgid "Canceled."
+msgstr "取消。"
+
+#: Settings.py:450
+#: Settings.py:487
+#: Settings.py:517
+#: Settings.py:546
+#: Settings.py:584
+#: Settings.py:612
+msgid "Rename Controller"
+msgstr "重命名控制器"
+
+#: Settings.py:473
+msgid "Press the solo shift key. Be sure to assign the frets first! Hold Escape to cancel."
+msgstr "按shift鍵獨奏。一定要分配煩惱第一！持有逃逸取消。"
+
+#: Settings.py:569
+msgid "Press the highest fret on the slider. Hold Escape to cancel."
+msgstr "按最高煩惱的滑塊。持有逃逸取消。"
+
+#: Settings.py:624
+msgid "Please rename your controller"
+msgstr "請重命名您的控制器"
+
+#: Settings.py:752
+msgid "Battle Objects"
+msgstr "作戰對象"
+
+#: Settings.py:752
+msgid "Set which objects can appear in Battle Mode"
+msgstr "設置哪些對象可以出現在對戰模式"
+
+#: Settings.py:767
+msgid "Advanced Gameplay Settings"
+msgstr "先進的遊戲性設置"
+
+#: Settings.py:767
+msgid "Set advanced gameplay settings that affect the game rules."
+msgstr "設置高級遊戲設置，影響遊戲規則。"
+
+#: Settings.py:768
+msgid "Vocal Mode Settings"
+msgstr "聲樂模式設置"
+
+#: Settings.py:768
+msgid "Change settings that affect lyrics and in-game vocals."
+msgstr "更改設置影響的歌詞和遊戲中的人聲。"
+
+#: Settings.py:769
+msgid "HO/PO Settings"
+msgstr "何/婆設置"
+
+#: Settings.py:769
+msgid "Change settings that affect hammer-ons and pull-offs (HO/PO)."
+msgstr "更改設置影響錘組件和拉起飛（何/ PO）的。"
+
+#: Settings.py:770
+msgid "Battle Settings"
+msgstr "戰役設定"
+
+#: Settings.py:770
+msgid "Change settings that affect battle mode."
+msgstr "更改設置影響戰鬥模式。"
+
+#: Settings.py:776
+#: Settings.py:1218
+msgid "Test Controller 1"
+msgstr "測試控制器1"
+
+#: Settings.py:776
+#: Settings.py:1218
+msgid "Test the controller configured for slot 1."
+msgstr "測試槽控制器配置為 1。"
+
+#: Settings.py:777
+#: Settings.py:1219
+msgid "Test Controller 2"
+msgstr "測試控制器2"
+
+#: Settings.py:777
+#: Settings.py:1219
+msgid "Test the controller configured for slot 2."
+msgstr "測試控制器配置為槽2。"
+
+#: Settings.py:778
+#: Settings.py:1220
+msgid "Test Controller 3"
+msgstr "測試控制器3"
+
+#: Settings.py:778
+#: Settings.py:1220
+msgid "Test the controller configured for slot 3."
+msgstr "測試控制器配置為插槽3。"
+
+#: Settings.py:779
+#: Settings.py:1221
+msgid "Test Controller 4"
+msgstr "測試控制器4"
+
+#: Settings.py:779
+#: Settings.py:1221
+msgid "Test the controller configured for slot 4."
+msgstr "測試槽控制器配置為 4。"
+
+#: Settings.py:818
+msgid "More Effects"
+msgstr "更多效果"
+
+#: Settings.py:818
+msgid "Change the settings of the shader system."
+msgstr "更改系統設置的著色。"
+
+#: Settings.py:834
+msgid "Change Neck Transparency"
+msgstr "更改頸部透明"
+
+#: Settings.py:834
+msgid "Change the transparency of the various in-game necks."
+msgstr "更改透明度的各種遊戲中的脖子。"
+
+#: Settings.py:847
+msgid "Theme Display Settings"
+msgstr "主題顯示設置"
+
+#: Settings.py:847
+msgid "Change settings that only affect certain theme types."
+msgstr "更改設置只影響某些類型的主題。"
+
+#: Settings.py:866
+#: Settings.py:1239
+msgid "Video Resolution"
+msgstr "視頻分辨率"
+
+#: Settings.py:866
+#: Settings.py:1239
+msgid "Set the resolution of the game. In windowed mode, higher values mean a larger screen."
+msgstr "設置分辨率的遊戲。在窗口模式，值越高意味著更大的屏幕。"
+
+#: Settings.py:873
+msgid "Stages Options"
+msgstr "階段選項"
+
+#: Settings.py:873
+msgid "Change settings related to the in-game background."
+msgstr "有關更改設置在遊戲中的背景。"
+
+#: Settings.py:874
+#: Settings.py:1246
+msgid "Choose Default Neck >"
+msgstr "選擇默認領>"
+
+#: Settings.py:874
+#: Settings.py:1246
+msgid "Choose your default neck. You still have to choose which neck you use for your character in the character select screen."
+msgstr "選擇默認的脖子。您還必須選擇你的脖子上使用你的角色在字符選擇屏幕。"
+
+#: Settings.py:875
+msgid "Fretboard Settings"
+msgstr "編曲設置"
+
+#: Settings.py:875
+msgid "Change settings related to the fretboard."
+msgstr "更改設置相關的編曲。"
+
+#: Settings.py:876
+#: Settings.py:1247
+msgid "In-Game Display Settings"
+msgstr "遊戲中的顯示設置"
+
+#: Settings.py:876
+#: Settings.py:1247
+msgid "Change what and where things appear in-game."
+msgstr "改變什麼，在哪裡的東西出現在遊戲中。"
+
+#: Settings.py:877
+msgid "Advanced Video Settings"
+msgstr "先進的視頻設置"
+
+#: Settings.py:877
+msgid "Change advanced video settings."
+msgstr "更改高級視頻設置。"
+
+#: Settings.py:905
+#: Settings.py:1266
+msgid "Volume Settings"
+msgstr "音量設置"
+
+#: Settings.py:905
+#: Settings.py:1266
+msgid "Change the volume of game sounds."
+msgstr "改變遊戲的聲音的音量。"
+
+#: Settings.py:914
+msgid "Advanced Audio Settings"
+msgstr "先進的音頻設置"
+
+#: Settings.py:914
+msgid "Change advanced audio settings."
+msgstr "更改高級音頻設置。"
+
+#: Settings.py:956
+#: Settings.py:1281
+msgid "Change Setlist Path >"
+msgstr "更改Setlist路徑>"
+
+#: Settings.py:956
+#: Settings.py:1281
+msgid "Set the path to a folder named 'songs' that contains your songs."
+msgstr "設置路徑到一個文件夾名為'歌曲'，它包含你的歌曲。"
+
+#: Settings.py:988
+msgid "Debug Settings"
+msgstr "調試設置"
+
+#: Settings.py:988
+msgid "Settings for coders to debug. Probably not worth changing."
+msgstr "設置編碼器進行調試。也許不值得改變。"
+
+#: Settings.py:989
+msgid "Log Settings"
+msgstr "日誌設置"
+
+#: Settings.py:989
+msgid "Adds junk information to the logfile. Probably not useful in bug reports."
+msgstr "添加垃圾信息到日誌文件。大概不會有用的錯誤報告。"
+
+#: Settings.py:994
+msgid "AI Settings"
+msgstr "人工智能設置"
+
+#: Settings.py:994
+msgid "Change the settings of the AI"
+msgstr "更改設置的人工智能"
+
+#: Settings.py:1003
+#: Settings.py:1356
+msgid "Mod settings"
+msgstr "國防部設置"
+
+#: Settings.py:1003
+#: Settings.py:1356
+msgid "Enable or disable any mods you have installed."
+msgstr "啟用或禁用任何MODS的你已安裝。"
+
+#: Settings.py:1008
+#: Settings.py:1298
+msgid "Gameplay Settings"
+msgstr "遊戲設置"
+
+#: Settings.py:1008
+#: Settings.py:1298
+msgid "Settings that affect the rules of the game."
+msgstr "設置影響的遊戲規則。"
+
+#: Settings.py:1009
+#: Settings.py:1299
+msgid "Control Settings"
+msgstr "控制設置"
+
+#: Settings.py:1009
+#: Settings.py:1299
+msgid "Create, delete, and edit your controls."
+msgstr "創建，刪除和編輯您的控件。"
+
+#: Settings.py:1010
+#: Settings.py:1300
+msgid "Display Settings"
+msgstr "顯示設置"
+
+#: Settings.py:1010
+#: Settings.py:1300
+msgid "Theme, neck, resolution, etc."
+msgstr "主題，頸部，分辨率等"
+
+#: Settings.py:1011
+#: Settings.py:1301
+msgid "Audio Settings"
+msgstr "音頻設置"
+
+#: Settings.py:1011
+#: Settings.py:1301
+msgid "Volume controls, etc."
+msgstr "音量控制等"
+
+#: Settings.py:1012
+#: Settings.py:1302
+msgid "Setlist Settings"
+msgstr "Setlist設置"
+
+#: Settings.py:1012
+#: Settings.py:1302
+msgid "Settings that affect the setlist."
+msgstr "設置影響 setlist。"
+
+#: Settings.py:1013
+msgid "Advanced Settings"
+msgstr "高級設置"
+
+#: Settings.py:1013
+msgid "Settings that probably don't need to be changed."
+msgstr "設置也許並不需要改變。"
+
+#: Settings.py:1014
+#: Settings.py:1303
+msgid "Mods, Cheats, AI"
+msgstr "牛津大學文學士學位，秘籍，人工智能"
+
+#: Settings.py:1014
+#: Settings.py:1303
+msgid "Set Jurgen to play for you, or other cheats."
+msgstr "設置於爾根打你的，或其他欺騙。"
+
+#: Settings.py:1015
+#: Settings.py:1304
+#, python-format
+msgid "%s Credits"
+msgstr "%s積分"
+
+#: Settings.py:1015
+#: Settings.py:1304
+msgid "See who made this game."
+msgstr "檢視誰做了這個遊戲。"
+
+#: Settings.py:1016
+#: Settings.py:1305
+msgid "Quickset"
+msgstr "奎克塞特"
+
+#: Settings.py:1016
+#: Settings.py:1305
+msgid "A quick way to set many advanced settings."
+msgstr "一個快速的方法來設置許多高級設置。"
+
+#: Settings.py:1017
+msgid "Hide Advanced Options"
+msgstr "隱藏高級選項"
+
+#: Settings.py:1047
+#: Settings.py:1320
+msgid "FoFiX needs to restart to apply setting changes."
+msgstr "FoFiX需要重新啟動應用設置更改。"
+
+#: Settings.py:1066
+#: Settings.py:1328
+msgid "Test Controls"
+msgstr "測試控件"
+
+#: Settings.py:1066
+#: Settings.py:1328
+msgid "Go here to test your controllers."
+msgstr "轉到這裡來測試您的控制器。"
+
+#: Settings.py:1071
+#: Settings.py:1333
+msgid "New Controller"
+msgstr "新型控制器"
+
+#: Settings.py:1071
+#: Settings.py:1333
+msgid "Create a new controller to use."
+msgstr "創建一個新的控制器使用。"
+
+#: Settings.py:1072
+#: Settings.py:1334
+msgid "Edit Controller"
+msgstr "編輯控制器"
+
+#: Settings.py:1072
+#: Settings.py:1334
+msgid "Edit a controller you have created."
+msgstr "編輯控制器，您已創建。"
+
+#: Settings.py:1073
+#: Settings.py:1335
+msgid "Delete Controller"
+msgstr "刪除控制器"
+
+#: Settings.py:1073
+#: Settings.py:1335
+msgid "Delete a controller you have created."
+msgstr "刪除已創建一個控制器。"
+
+#: Settings.py:1089
+#: Settings.py:1366
+msgid "You must specify a controller for slot 1!"
+msgstr "你必須指定一個控制器插槽1！"
+
+#: Settings.py:1095
+#: Settings.py:1372
+#, python-format
+msgid "Controllers in slots %d and %d conflict. Setting %d to None."
+msgstr "控制器在%d和%d插槽衝突。 %d設置為無。"
+
+#: Settings.py:1104
+#: Settings.py:1381
+#, python-format
+msgid "%d more conflicts."
+msgstr "%d更多的衝突。"
+
+#: Settings.py:1149
+#: Settings.py:1411
+msgid "Choose a new songs directory."
+msgstr "選擇一個新的歌曲目錄。"
+
+#: Settings.py:1306
+msgid "See Advanced Options"
+msgstr "查看高級選項"
+
+#: Settings.py:1600
+msgid "Cheats"
+msgstr "秘籍"
+
+#: Song.py:132
+msgid "Guitar"
+msgstr "吉他"
+
+#: Song.py:133
+msgid "Rhythm"
+msgstr "韻律"
+
+#: Song.py:134
+msgid "Bass"
+msgstr "低音"
+
+#: Song.py:135
+msgid "Lead"
+msgstr "鉛"
+
+#: Song.py:136
+msgid "Drums"
+msgstr "鼓"
+
+#: Song.py:137
+msgid "Vocals"
+msgstr "聲樂"
+
+#: Song.py:162
+msgid "Easy"
+msgstr "容易"
+
+#: Song.py:163
+msgid "Medium"
+msgstr "中"
+
+#: Song.py:164
+msgid "Hard"
+msgstr "硬"
+
+#: Song.py:165
+msgid "Expert"
+msgstr "專家"
+
+#: Song.py:227
+msgid "NoName"
+msgstr "無名"
+
+#: Song.py:960
+msgid "This song is locked."
+msgstr "這首歌被鎖定。"
+
+#: Song.py:1166
+msgid "Reset Career"
+msgstr "復位生涯"
+
+#: Song.py:1213
+msgid "   (Random Song)"
+msgstr "（隨機播放歌曲）"
+
+#: Song.py:4171
+msgid "End of Career"
+msgstr "結束職業生涯"
+
+#: Song.py:4434
+#: Song.py:4437
+msgid "Checking song database..."
+msgstr "檢查的歌曲數據庫 ..."
+
+#: Song.py:4444
+#, python-format
+msgid "Enumerating song folders... (%d so far)"
+msgstr "枚舉歌曲文件夾 ... （%d迄今）"
+
+#: Song.py:4448
+msgid "Caching song data..."
+msgstr "緩存歌曲數據 ..."
+
+#: Song.py:4448
+#, python-format
+msgid "(folder %d of %d; %d%% of this folder)"
+msgstr "（文件夾 %d的%d，%d％％這個文件夾）"
+
+#: Song.py:4449
+msgid "Pruning leftover entries..."
+msgstr "修剪剩餘項 ..."
+
+#: SongChoosingScene.py:104
+msgid "Initializing Setlist..."
+msgstr "初始化Setlist ..."
+
+#: SongChoosingScene.py:106
+msgid "Checking Command-Line Settings..."
+msgstr "檢查命令行設置 ..."
+
+#: SongChoosingScene.py:108
+msgid "Checking Setlist Settings..."
+msgstr "檢查 Setlist設置 ..."
+
+#: SongChoosingScene.py:265
+#: SongChoosingScene.py:267
+#: SongChoosingScene.py:277
+msgid "Browsing Collection..."
+msgstr "瀏覽收藏..."
+
+#: SongChoosingScene.py:327
+#: SongChoosingScene.py:337
+msgid "No songs in this setlist are available to play!"
+msgstr "沒有什麼可唱，可在此setlist玩！"
+
+#: SongChoosingScene.py:329
+#: SongChoosingScene.py:339
+msgid "Make sure you have a working career pack!"
+msgstr "請確保你有一個職業生涯包！"
+
+#: SongChoosingScene.py:389
+#: SongChoosingScene.py:496
+msgid "Loading Album Artwork..."
+msgstr "載入專輯作品..."
+
+#: SongChoosingScene.py:423
+#: SongChoosingScene.py:634
+msgid "There are no drum parts in this song. Change your controllers to play."
+msgstr "有沒有鼓部分在這首歌。改變你的控制器玩。"
+
+#: SongChoosingScene.py:431
+#: SongChoosingScene.py:637
+msgid "There are no guitar parts in this song. Change your controllers to play."
+msgstr "有沒有在這首歌曲的吉他部分。改變你的控制器玩。"
+
+#: SongChoosingScene.py:439
+#: SongChoosingScene.py:640
+msgid "There are no vocal parts in this song. Change your controllers to play."
+msgstr "聲樂部分有沒有在這首歌曲。改變你的控制器玩。"
+
+#: SongChoosingScene.py:457
+#, python-format
+msgid "%s Choose a difficulty:"
+msgstr "%s選擇的困難："
+
+#: Theme.py:1001
+#: Theme.py:1126
+#: Theme.py:1209
+#: Theme.py:1319
+#: Theme.py:1482
+#: Theme.py:1605
+#: Theme.py:2114
+msgid "-- Locked --"
+msgstr "- 鎖定 -"
+
+#: Theme.py:1047
+#: Theme.py:1070
+#: Theme.py:1086
+#: Theme.py:1103
+#: Theme.py:1236
+#: Theme.py:1260
+#: Theme.py:1276
+#: Theme.py:1280
+#: Theme.py:1365
+#: Theme.py:1388
+#: Theme.py:1404
+#: Theme.py:1417
+#: Theme.py:1631
+#: Theme.py:1655
+#: Theme.py:1671
+#: Theme.py:1674
+msgid "Nil"
+msgstr "零"
+
+#: Theme.py:1432
+#: Theme.py:2055
+#: Theme.py:2060
+#: Theme.py:2096
+msgid "Loading Preview..."
+msgstr "載入預覽 ..."
+
+#: Theme.py:1440
+#: Theme.py:1549
+msgid "Play To Advance"
+msgstr "發揮進展"
+
+#: Theme.py:1446
+#: Theme.py:1555
+msgid "Played Once"
+msgstr "播放一次"
+
+#: Theme.py:1448
+#: Theme.py:1557
+#, python-format
+msgid "Played %d times."
+msgstr "播放%d次。"
+
+#: Theme.py:1455
+#: Theme.py:1571
+msgid "There Is 1 Song In This Setlist."
+msgstr "有一歌在這 Setlist。"
+
+#: Theme.py:1457
+#: Theme.py:1573
+#, python-format
+msgid "There Are %d Songs In This Setlist."
+msgstr "有%d詩在這一 Setlist。"
+
+#: Theme.py:1461
+#: Theme.py:1577
+msgid "Tier"
+msgstr "層"
+
+#: Theme.py:1465
+#: Theme.py:1588
+msgid "Random Song"
+msgstr "隨機播放歌曲"
+
+#: Theme.py:2016
+msgid "DIFFICULTY"
+msgstr "難點"
+
+#: Theme.py:2018
+msgid "BAND"
+msgstr "帶"
+
+#: Theme.py:2020
+msgid "GUITAR"
+msgstr "吉他"
+
+#: Theme.py:2022
+msgid "DRUM"
+msgstr "鼓"
+
+#: Theme.py:2024
+msgid "BASS"
+msgstr "低音"
+
+#: Theme.py:2026
+msgid "VOCALS"
+msgstr "聲樂"
+
+#: Theme.py:2032
+msgid "SORTING:"
+msgstr "排序："
+
+#: Theme.py:2034
+msgid "ALPHABETICALLY BY TITLE"
+msgstr "按字母順序按標題"
+
+#: Theme.py:2036
+msgid "ALPHABETICALLY BY ARTIST"
+msgstr "按字母順序按藝術家"
+
+#: Theme.py:2038
+msgid "BY PLAY COUNT"
+msgstr "通過播放計數"
+
+#: Theme.py:2040
+msgid "ALPHABETICALLY BY ALBUM"
+msgstr "按字母順序按專輯"
+
+#: Theme.py:2042
+msgid "ALPHABETICALLY BY GENRE"
+msgstr "按類型按字母順序"
+
+#: Theme.py:2044
+msgid "BY YEAR"
+msgstr "按年"
+
+#: Theme.py:2046
+msgid "BY BAND DIFFICULTY"
+msgstr "通過帶難點"
+
+#: Theme.py:2048
+msgid "BY INSTRUMENT DIFFICULTY"
+msgstr "以工具難點"
+
+#: Theme.py:2050
+msgid "BY SONG COLLECTION"
+msgstr "通過歌曲集"
+
+#: Theme.py:2145
+#, python-format
+msgid "Played %d time"
+msgstr "播放時間 %d"
+
+#: Theme.py:2147
+#, python-format
+msgid "Played %d times"
+msgstr "播放%d次"
+
+#: Theme.py:2152
+#: Theme.py:2159
+msgid "Play To Advance."
+msgstr "發揮進展。"
+
+#: Theme.py:2155
+msgid "Never Played"
+msgstr "從來沒有打過"
+
+#: Theme.py:2219
+msgid "One Song In This Setlist"
+msgstr "一首歌曲在這 Setlist"
+
+#: Theme.py:2221
+#, python-format
+msgid "%d Songs In This Setlist"
+msgstr "%d歌在這一 Setlist"
+
+#: Theme.py:2230
+msgid "(Random Song)"
+msgstr "（隨機播放歌曲）"
+
+#: Theme.py:2428
+msgid "No Album"
+msgstr "沒有相冊"
+
+#: Theme.py:2433
+msgid "No Genre"
+msgstr "沒有流派"
+
+#: Video.py:151
+msgid "Video setup failed with your resolution settings, and so were reset to defaults."
+msgstr "安裝失敗，您的視頻分辨率設置，因此被重置為默認值。"
+
+#: Vocalist.py:120
+msgid "Amazing!"
+msgstr "太神奇了！"
+
+#: Vocalist.py:120
+msgid "Great!"
+msgstr "太好了！"
+
+#: Vocalist.py:120
+msgid "Decent"
+msgstr "像樣"
+
+#: Vocalist.py:120
+msgid "Average"
+msgstr "平均"
+
+#: Vocalist.py:120
+msgid "Meh"
+msgstr "的MEH"
+
+#: Vocalist.py:120
+msgid "Bad"
+msgstr "壞"
+
+#: Vocalist.py:120
+msgid "Terrible..."
+msgstr "可怕的..."
+
+#: Vocalist.py:449
+msgid "Tap!"
+msgstr "塔！"
+
+#: World.py:60
+msgid "FoFiX Co-Op Mode"
+msgstr "FoFiX Co - op模式"
+
+#: World.py:62
+msgid "RB Co-Op Mode"
+msgstr "包Co - op模式"
+
+#: World.py:64
+msgid "GH Co-Op Mode"
+msgstr "生長激素 Co - op模式"
+
+#: World.py:66
+msgid "Battle Mode"
+msgstr "對戰模式"
+
+#: World.py:73
+msgid "Career Mode"
+msgstr "生涯模式"
+

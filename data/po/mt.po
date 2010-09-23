@@ -1,0 +1,5012 @@
+# -*- coding: utf-8 -*-
+#####################################################################
+#                                                                   #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
+#                                                                   #
+# This program is free software; you can redistribute it and/or     #
+# modify it under the terms of the GNU General Public License       #
+# as published by the Free Software Foundation; either version 2    #
+# of the License, or (at your option) any later version.            #
+#                                                                   #
+# This program is distributed in the hope that it will be useful,   #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of    #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the     #
+# GNU General Public License for more details.                      #
+#                                                                   #
+# You should have received a copy of the GNU General Public License #
+# along with this program; if not, write to the Free Software       #
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,        #
+# MA  02110-1301, USA.                                              #
+#####################################################################
+
+msgid ""
+msgstr ""
+"Project-Id-Version: FoFiX 4 Development\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-19 11:47-0600\n"
+"PO-Revision-Date: 2010-09-19 11:48-0600\n"
+"Last-Translator: Google Translator\n"
+"Language-Team: FoFiX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: Credits.py:125
+msgid "This mod was built on Alarian's mod,"
+msgstr "Dan mod kienet mibnija fuq mod Alarian's,"
+
+#: Credits.py:126
+msgid "which was built on UltimateCoffee's Ultimate mod,"
+msgstr "li kienet mibnija fuq mod Ultimate UltimateCoffee's,"
+
+#: Credits.py:127
+msgid "which was built on RogueF's RF_mod 4.15,"
+msgstr "li kienet mibnija fuq RF_mod RogueF's 4.15,"
+
+#: Credits.py:128
+msgid "which was, of course, built on Frets on Fire 1.2.451,"
+msgstr "li kien, naturalment, mibnija fuq viti fuq Nar 1.2.451,"
+
+#: Credits.py:129
+msgid "which was created by Unreal Voodoo"
+msgstr "li ġie maħluq mill Unreal Voodoo"
+
+#: Credits.py:130
+msgid "No Particular Order"
+msgstr "Nru partikolari Ordni"
+
+#: Credits.py:131
+msgid "Active Coders:"
+msgstr "Kodifikaturi Attiva:"
+
+#: Credits.py:132
+msgid "Past Coders:"
+msgstr "Kodifikaturi passat:"
+
+#: Credits.py:133
+msgid "Main Graphic Contributors:"
+msgstr "Main Kontributuri grafiku:"
+
+#: Credits.py:134
+msgid "Translators:"
+msgstr "Tradutturi:"
+
+#: Credits.py:135
+msgid "Team Hero:"
+msgstr "Eroj Tim:"
+
+#: Credits.py:136
+msgid "Creators of Career Mode"
+msgstr "Ħallieqa ta Modalità Karriera"
+
+#: Credits.py:137
+msgid "Honorary Credits to:"
+msgstr "Onorarju Krediti lil:"
+
+#: Credits.py:138
+msgid "Donations to MFH"
+msgstr "Donazzjonijiet lill MFH"
+
+#: Credits.py:139
+msgid "Donations to akedrou"
+msgstr "Donazzjonijiet lill akedrou"
+
+#: Credits.py:140
+msgid "Major Donations:"
+msgstr "Donazzjonijiet Maġġuri:"
+
+#: Credits.py:141
+msgid "Other Donations:"
+msgstr "Donazzjonijiet oħra:"
+
+#: Credits.py:142
+msgid "Other Credits:"
+msgstr "Krediti oħra:"
+
+#: Credits.py:143
+msgid "Jurgen FoF tutorial inspired by adam02"
+msgstr "Jurgen FoF tutorja ispirati mill adam02"
+
+#: Credits.py:144
+msgid "Drum test song tutorial by Heka"
+msgstr "test drum kanzunetta tutorja mill Heka"
+
+#: Credits.py:145
+msgid "Bang Bang Mystery Man song tutorial is from the original FoF"
+msgstr "Bang Man Bang kanzunetta Mystery tutorja hija mill-FoF oriġinali"
+
+#: Credits.py:146
+msgid "Drum Rolls practice tutorial by venom426"
+msgstr "Drum prattika Rolls tutorja mill venom426"
+
+#: Credits.py:147
+msgid "If you see your work included in this game and you aren't"
+msgstr "Jekk tara xogħolok inklużi f'dan il-logħba u m'intix"
+
+#: Credits.py:148
+msgid "in the credits, please leave a polite post stating what you"
+msgstr "fil-krediti, jekk jogħġbok leave post edukat li tiddikjara dak li inti"
+
+#: Credits.py:149
+msgid "did and when, as specific as possible."
+msgstr "ma u meta, speċifika kemm jista 'jkun."
+
+#: Credits.py:150
+msgid "If you can, please provide a link to your original posting"
+msgstr "Jekk inti tista ', jekk jogħġbok ipprovdi link għall oriġinali tiegħek istazzjonar"
+
+#: Credits.py:151
+msgid "of the work in question."
+msgstr "tax-xogħol in kwistjoni."
+
+#: Credits.py:152
+msgid "Then we can properly credit you."
+msgstr "Imbagħad nistgħu sew kreditu inti."
+
+#: Credits.py:153
+msgid "Thank you for your contribution."
+msgstr "Grazzi għall-kontribuzzjoni tiegħek."
+
+#: Credits.py:154
+msgid "Please keep in mind that it is not easy to trace down and"
+msgstr "Jekk jogħġbok ftakar li mhuwiex faċli biex jiġi rintraċċat l isfel u"
+
+#: Credits.py:155
+msgid "credit every single person who contributed; if your name is"
+msgstr "kreditu kull persuna waħda li kkontribwew; jekk ismek huwa"
+
+#: Credits.py:156
+msgid "not included, it was not meant to slight you."
+msgstr "mhux inklużi, li ma kienx maħsub li ftit inti."
+
+#: Credits.py:157
+msgid "It was an oversight."
+msgstr "Din kienet sorveljanza."
+
+#: Credits.py:159
+#, python-format
+msgid "%s theme credits:"
+msgstr "tema krediti %s:"
+
+#: Credits.py:160
+#, python-format
+msgid "%s theme specific thanks:"
+msgstr "%s grazzi speċifiċi tema:"
+
+#: Credits.py:162
+msgid "French"
+msgstr "Franċiż"
+
+#: Credits.py:163
+msgid "French (reform 1990)"
+msgstr "Franċiż (riforma 1990)"
+
+#: Credits.py:164
+msgid "German"
+msgstr "Ġermaniż"
+
+#: Credits.py:165
+msgid "Italian"
+msgstr "Taljan"
+
+#: Credits.py:166
+msgid "Pig Latin"
+msgstr "Pig Latin"
+
+#: Credits.py:167
+msgid "Portuguese (Brazilian)"
+msgstr "Portugiż (Brażil)"
+
+#: Credits.py:168
+msgid "Russian"
+msgstr "Russu"
+
+#: Credits.py:169
+msgid "Spanish"
+msgstr "Spanjol"
+
+#: Credits.py:170
+msgid "Swedish"
+msgstr "Svediż"
+
+#: Credits.py:223
+msgid "Made with:"
+msgstr "Made ma ':"
+
+#: Credits.py:246
+msgid "Source Code available under the GNU General Public License"
+msgstr "Sors Kodiċi disponibbli taħt il-GNU Pubbliku Ġenerali License"
+
+#: Credits.py:250
+msgid "Copyright 2006, 2007 by Unreal Voodoo"
+msgstr "Copyright 2006, 2007 minn Voodoo Unreal"
+
+#: Credits.py:251
+msgid "Copyright 2008-2010 by Team FoFiX"
+msgstr "Copyright 2008-2010 billi Tim FoFiX"
+
+#: Dialogs.py:489
+msgid "<OK>"
+msgstr "<OK>"
+
+#: Dialogs.py:576
+msgid "[Parent Folder]"
+msgstr "[Parent Folder]"
+
+#: Dialogs.py:580
+msgid "[Accept Folder]"
+msgstr "[Aċċetta] Folder"
+
+#: Dialogs.py:582
+#, python-format
+msgid "%s [Folder]"
+msgstr "%s] [Folder"
+
+#: Dialogs.py:707
+msgid "Yellow (#3) / Blue (#4) to change, Green (#1) to confirm:"
+msgstr "Isfar (# 3) / Blue (# 4) għall-bidla, l-Ħadra (# 1) jikkonferma:"
+
+#: Dialogs.py:719
+msgid "Loading necks..."
+msgstr "għenuq Tagħbija ..."
+
+#: Dialogs.py:784
+#: GameEngine.py:97
+msgid "Neck"
+msgstr "Għonq"
+
+#: Dialogs.py:983
+msgid "Loading avatars..."
+msgstr "Avatars Loading ..."
+
+#: Dialogs.py:1092
+msgid "Select Your Avatar:"
+msgstr "Avatar Agħżel tiegħek:"
+
+#: Dialogs.py:1572
+msgid "Press Start to Begin!"
+msgstr "Bidu għall-istampa li tibda!"
+
+#: Dialogs.py:1573
+msgid "Use the keyboard to select or just play some notes!"
+msgstr "Uża l-keyboard biex jagħżlu jew biss play ċerti noti!"
+
+#: Dialogs.py:1584
+msgid "No Controller"
+msgstr "Nru Kontrollur"
+
+#: Dialogs.py:1588
+msgid "Disabled Controller"
+msgstr "Kontrollur b'diżabilità"
+
+#: Dialogs.py:1592
+msgid "Default Guitar"
+msgstr "Default kitarra"
+
+#: Dialogs.py:1594
+msgid "Default Drums"
+msgstr "Default Drums"
+
+#: Dialogs.py:1596
+msgid "Default Microphone"
+msgstr "Default mikrofonu"
+
+#: Dialogs.py:1657
+msgid "controller"
+msgstr "kontrollur"
+
+#: Dialogs.py:1659
+msgid "controllers"
+msgstr "kontrolluri"
+
+#: Dialogs.py:1660
+#, python-format
+msgid "You only have %d %s defined. You need at least %d for this mode."
+msgstr "Inti biss għandek %d %s definita. Ikollok bżonn mill-inqas %d għal din il-modalità."
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+#: GameEngine.py:212
+msgid "Left"
+msgstr "Xellug"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+#: GameEngine.py:212
+msgid "Right"
+msgstr "Dritt"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Up"
+msgstr "Up"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Down"
+msgstr "Down"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Start"
+msgstr "Bidu"
+
+#: Dialogs.py:1917
+#: Dialogs.py:1925
+#: Dialogs.py:1930
+#: Dialogs.py:1938
+msgid "Select"
+msgstr "Agħżel"
+
+#: Dialogs.py:1917
+msgid "Fret #1"
+msgstr "Fret # 1"
+
+#: Dialogs.py:1917
+msgid "Solo #1"
+msgstr "Solo # 1"
+
+#: Dialogs.py:1917
+msgid "Fret #2"
+msgstr "Fret # 2"
+
+#: Dialogs.py:1917
+msgid "Solo #2"
+msgstr "Solo # 2"
+
+#: Dialogs.py:1918
+msgid "Fret #3"
+msgstr "Fret # 3"
+
+#: Dialogs.py:1918
+msgid "Solo #3"
+msgstr "Solo # 3"
+
+#: Dialogs.py:1918
+msgid "Fret #4"
+msgstr "Fret # 4"
+
+#: Dialogs.py:1918
+msgid "Solo #4"
+msgstr "Solo # 4"
+
+#: Dialogs.py:1918
+msgid "Fret #5"
+msgstr "Fret # 5"
+
+#: Dialogs.py:1919
+msgid "Solo #5"
+msgstr "Solo # 5"
+
+#: Dialogs.py:1919
+msgid "Pick!"
+msgstr "Pick!"
+
+#: Dialogs.py:1919
+#: Dialogs.py:1927
+#: Dialogs.py:1932
+#: Dialogs.py:1940
+msgid "Starpower!"
+msgstr "Starpower!"
+
+#: Dialogs.py:1919
+#: GameEngine.py:278
+msgid "Whammy"
+msgstr "Saħta"
+
+#: Dialogs.py:1925
+#: Dialogs.py:1938
+msgid "Drum #1"
+msgstr "Drum # 1"
+
+#: Dialogs.py:1925
+msgid "Drum #2"
+msgstr "Drum # 2"
+
+#: Dialogs.py:1926
+#: Dialogs.py:1939
+msgid "Drum #3"
+msgstr "Drum # 3"
+
+#: Dialogs.py:1926
+msgid "Drum #4"
+msgstr "Drum # 4"
+
+#: Dialogs.py:1927
+#: Dialogs.py:1940
+msgid "Bass Drum"
+msgstr "Bass Drum"
+
+#: Dialogs.py:1927
+#: Dialogs.py:1940
+#: Dialogs.py:2268
+#: GameEngine.py:89
+#: GameEngine.py:155
+#: GameEngine.py:190
+#: GameEngine.py:691
+#: GameResultsScene.py:250
+msgid "None"
+msgstr "Xejn"
+
+#: Dialogs.py:1938
+msgid "Cymbal #2"
+msgstr "Cymbal # 2"
+
+#: Dialogs.py:1939
+msgid "Cymbal #4"
+msgstr "Cymbal # 4"
+
+#: Dialogs.py:1939
+msgid "Drum #5"
+msgstr "Drum # 5"
+
+#: Dialogs.py:1942
+msgid "Fret"
+msgstr "Fret"
+
+#: Dialogs.py:1943
+msgid "Solo"
+msgstr "Solo"
+
+#: Dialogs.py:1944
+msgid "Drum"
+msgstr "Drum"
+
+#: Dialogs.py:1945
+msgid "Slide~"
+msgstr "Slide ~"
+
+#: Dialogs.py:2248
+msgid "Level:"
+msgstr "Livell:"
+
+#: Dialogs.py:2249
+msgid "Note:"
+msgstr "Nota:"
+
+#: Dialogs.py:2263
+msgid "Tap"
+msgstr "Tektek"
+
+#: Dialogs.py:2359
+msgid "Choose a File"
+msgstr "Agħżel File"
+
+#: Dialogs.py:2435
+msgid "Play with the keys and press Escape when you're done."
+msgstr "Tilgħab ma 'l-ċwievet u agħfas salvataġġ meta qed isir."
+
+#: Dialogs.py:2448
+#: Dialogs.py:2554
+#: Dialogs.py:2560
+msgid "Loading..."
+msgstr "Tagħbija ..."
+
+#: FoFiX.py:179
+#, python-format
+msgid "Song directory provided ('%s') is not a valid song directory. Starting up FoFiX in standard mode."
+msgstr "Direttorju tal-Kanzunetta sakemm ('%s ') ma direttorju kanzunetta valida. Startjar tal FoFiX fil-modalità normali."
+
+#: FoFiX.py:301
+msgid "Terminating due to unhandled exception:"
+msgstr "Li jtemm minħabba eċċezzjoni unhandled:"
+
+#: FoFiX.py:303
+msgid "If you make a bug report about this error, please include the contents of the following log file:"
+msgstr "Jekk inti tagħmel rapport bug dwar dan l-iżball, jekk jogħġbok inkludi l-kontenut tal-ġurnal li ġejjin fajl:"
+
+#: FoFiX.py:305
+msgid "The log file already includes the traceback given above."
+msgstr "Il-fajl log diġà tinkludi l-traceback mogħtija hawn fuq."
+
+#: FoFiX.py:310
+msgid "Open the logfile now?"
+msgstr "Iftaħ il-logfile issa?"
+
+#: GameEngine.py:86
+msgid "FPS Limiter"
+msgstr "FPS limitatur"
+
+#: GameEngine.py:86
+msgid "On (Set Below)"
+msgstr "Fuq (Set Below)"
+
+#: GameEngine.py:86
+msgid "Off (Auto Max FPS)"
+msgstr "Off (FPS Max Auto)"
+
+#: GameEngine.py:86
+msgid "Use this to enable or disable the FPS Limiter. If off, the game will render as many frames as possible. (This is affected by the 'Performance' quickset)"
+msgstr "Uża din biex jippermettu jew li jiskonnettja l limitatur FPS. Jekk off, il-logħba se jagħmlu bħala frejms kemm jista 'jkun. (Din hija affettwata mill-\"quickset Rendiment\")"
+
+#: GameEngine.py:88
+msgid "Fullscreen Mode"
+msgstr "Fullscreen Modalità"
+
+#: GameEngine.py:88
+#: GameEngine.py:90
+#: GameEngine.py:93
+#: GameEngine.py:96
+#: GameEngine.py:105
+#: GameEngine.py:107
+#: GameEngine.py:112
+#: GameEngine.py:145
+#: GameEngine.py:146
+#: GameEngine.py:172
+#: GameEngine.py:175
+#: GameEngine.py:176
+#: GameEngine.py:177
+#: GameEngine.py:178
+#: GameEngine.py:181
+#: GameEngine.py:182
+#: GameEngine.py:196
+#: GameEngine.py:199
+#: GameEngine.py:201
+#: GameEngine.py:202
+#: GameEngine.py:216
+#: GameEngine.py:219
+#: GameEngine.py:225
+#: GameEngine.py:245
+#: GameEngine.py:246
+#: GameEngine.py:247
+#: GameEngine.py:259
+#: GameEngine.py:260
+#: GameEngine.py:261
+#: GameEngine.py:262
+#: GameEngine.py:263
+#: GameEngine.py:264
+#: GameEngine.py:265
+#: GameEngine.py:266
+#: GameEngine.py:267
+#: GameEngine.py:268
+#: GameEngine.py:269
+#: GameEngine.py:300
+#: GameEngine.py:301
+#: GameEngine.py:304
+#: GameEngine.py:312
+#: GameEngine.py:315
+#: GameEngine.py:318
+#: GameEngine.py:321
+#: GameEngine.py:371
+#: GameEngine.py:410
+msgid "No"
+msgstr "Nru"
+
+#: GameEngine.py:88
+#: GameEngine.py:90
+#: GameEngine.py:93
+#: GameEngine.py:96
+#: GameEngine.py:105
+#: GameEngine.py:107
+#: GameEngine.py:112
+#: GameEngine.py:145
+#: GameEngine.py:146
+#: GameEngine.py:172
+#: GameEngine.py:175
+#: GameEngine.py:176
+#: GameEngine.py:177
+#: GameEngine.py:178
+#: GameEngine.py:181
+#: GameEngine.py:182
+#: GameEngine.py:196
+#: GameEngine.py:199
+#: GameEngine.py:216
+#: GameEngine.py:219
+#: GameEngine.py:225
+#: GameEngine.py:245
+#: GameEngine.py:246
+#: GameEngine.py:247
+#: GameEngine.py:259
+#: GameEngine.py:260
+#: GameEngine.py:261
+#: GameEngine.py:262
+#: GameEngine.py:263
+#: GameEngine.py:264
+#: GameEngine.py:265
+#: GameEngine.py:266
+#: GameEngine.py:267
+#: GameEngine.py:268
+#: GameEngine.py:300
+#: GameEngine.py:301
+#: GameEngine.py:304
+#: GameEngine.py:312
+#: GameEngine.py:315
+#: GameEngine.py:318
+#: GameEngine.py:321
+#: GameEngine.py:371
+#: GameEngine.py:410
+msgid "Yes"
+msgstr "Iva"
+
+#: GameEngine.py:88
+msgid "Play either in fullscreen ('Yes') or windowed ('No') mode."
+msgstr "Jkollhom kemm fil fullscreen (\"Iva\") jew windowed (\"Le\") modalità."
+
+#: GameEngine.py:89
+msgid "Antialiasing Quality"
+msgstr "Antialiasing Kwalità"
+
+#: GameEngine.py:89
+msgid "Sets the antialiasing quality of openGL rendering. Higher values reduce jaggediness, but could affect performance. (This is affected by the 'Performance' quickset)"
+msgstr "Settijiet tal-kwalità antialiasing ta 'meta ngħata OpenGL. Valuri ogħla jnaqqsu jaggediness, iżda jista 'jaffettwa l-prestazzjoni. (Din hija affettwata mill-\"quickset Rendiment\")"
+
+#: GameEngine.py:90
+msgid "Show Fret Glow Effect"
+msgstr "Uri Fret Effett Glow"
+
+#: GameEngine.py:90
+msgid "Turn on or off the glow that appears around a fret when you press it."
+msgstr "Turn fuq jew barra l tiddix li jidher madwar fret meta tagħfas din."
+
+#: GameEngine.py:92
+msgid "Frames per Second"
+msgstr "Frejm kull tieni"
+
+#: GameEngine.py:92
+msgid "Set the number of frames to render per second. Higher values are better, but your computer may not be able to keep up. You probably can leave this alone. (This is affected by the 'Performance' quickset)"
+msgstr "Issettja l-għadd ta 'frejms li tirrendi kull sekonda. Valuri ogħla huma aħjar, imma kompjuter tiegħek jistgħu ma jkunux kapaċi tlaħħaq. You probabbilment tista 'tħalli dan waħdu. (Din hija affettwata mill-\"quickset Rendiment\")"
+
+#: GameEngine.py:93
+msgid "Print Frames per Second"
+msgstr "Stampa frejm kull sekonda"
+
+#: GameEngine.py:93
+msgid "This will display your FPS on some screens, and if running from sources will print your FPS there every two seconds."
+msgstr "Dan se juri FPS tiegħek dwar xi skrins, u jekk tmexxija minn sorsi se istampar FPS tiegħek hemm kull sekonda żewġ."
+
+#: GameEngine.py:94
+msgid "Fret Glow Color"
+msgstr "Kulur Glow Fret"
+
+#: GameEngine.py:94
+msgid "Same as Fret"
+msgstr "Istess Fret"
+
+#: GameEngine.py:94
+msgid "Actual Color"
+msgstr "Kulur attwali"
+
+#: GameEngine.py:94
+msgid "Sets whether or not the fret glow image will be color-masked with the theme-determined fret color."
+msgstr "Settijiet jew le fret immaġini tiddix se kulur mgħotti bit-tema determinat fret kulur."
+
+#: GameEngine.py:96
+msgid "Use Shaders"
+msgstr "Shaders Użu"
+
+#: GameEngine.py:96
+msgid "Enable or disable the use of shaders. Shaders are visual effects. This must be set to 'Yes' to use the settings below. 'By Theme' leaves it to the theme creator."
+msgstr "Jippermettu jew li jiskonnettja l-użu ta Shaders. Shaders huma effetti viżwali. Dan għandu jkun issettjat għal \"Iva\" li uża s-settings hawn taħt. \"Permezz ta Tema 'tħalli lill-kreatur tema."
+
+#: GameEngine.py:97
+#: GameEngine.py:98
+#: GameEngine.py:99
+#: GameEngine.py:101
+#: GameEngine.py:102
+#: GameEngine.py:118
+#: GameEngine.py:322
+#: GameEngine.py:351
+msgid "Disabled"
+msgstr "B'diżabilità"
+
+#: GameEngine.py:97
+msgid "Flashing"
+msgstr "Jteptep"
+
+#: GameEngine.py:97
+#: GameEngine.py:98
+#: GameEngine.py:99
+#: GameEngine.py:100
+#: GameEngine.py:101
+#: GameEngine.py:102
+#: GameEngine.py:190
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:213
+#: GameEngine.py:228
+#: GameEngine.py:232
+#: GameEngine.py:291
+#: GameEngine.py:298
+msgid "By Theme"
+msgstr "Permezz Tema"
+
+#: GameEngine.py:97
+msgid "A bright flash along your fretboard reflecting the notes you've hit. 'By Theme' leaves it to the theme creator."
+msgstr "A flash jgħajjat tul fretboard tiegħek jirrifletti n-noti inti stajt hit. \"Permezz ta Tema 'tħalli lill-kreatur tema."
+
+#: GameEngine.py:98
+msgid "Stage"
+msgstr "Stadju"
+
+#: GameEngine.py:98
+msgid "EQ Lightning"
+msgstr "EQ Lightning"
+
+#: GameEngine.py:98
+msgid "A visual waveform centered above you fretboard. 'By Theme' leaves it to the theme creator."
+msgstr "A mewġa viżwali iċċentrat fuq inti fretboard. \"Permezz ta Tema 'tħalli lill-kreatur tema."
+
+#: GameEngine.py:99
+msgid "Solo and SP"
+msgstr "Solo u DP"
+
+#: GameEngine.py:99
+#: GameEngine.py:100
+msgid "Lightnings"
+msgstr "Lightnings"
+
+#: GameEngine.py:99
+msgid "Enables lightning along the side of your fretboard when you are in solos or use SP. 'By Theme' leaves it to the theme creator."
+msgstr "sajjetti Tippermetti tul il-ġenb tal fretboard tiegħek meta inti qiegħed solos jew użu SP. \"Permezz ta Tema 'tħalli lill-kreatur tema."
+
+#: GameEngine.py:100
+msgid "Tails"
+msgstr "Dnub"
+
+#: GameEngine.py:100
+msgid "Classic"
+msgstr "Classic"
+
+#: GameEngine.py:100
+#: GameEngine.py:210
+#: GameEngine.py:298
+msgid "RB2"
+msgstr "RB2"
+
+#: GameEngine.py:100
+msgid "Sets the tail effect. Choose from classic tails, lightning, or RB2 style. 'By Theme' leaves it to the theme creator."
+msgstr "Jistabbilixxi l-effett tad-denb. Agħżel mill-dnub klassika, sajjetti, jew l-istil RB2. \"Permezz ta Tema 'tħalli lill-kreatur tema."
+
+#: GameEngine.py:101
+msgid "Notes"
+msgstr "Noti"
+
+#: GameEngine.py:101
+msgid "Metal"
+msgstr "Metall"
+
+#: GameEngine.py:101
+msgid "Gives your notes a metallic sheen. 'By Theme' leaves it to the theme creator."
+msgstr "Jagħti jinnota tiegħek ileqq metalliku. \"Permezz ta Tema 'tħalli lill-kreatur tema."
+
+#: GameEngine.py:102
+#: GameEngine.py:298
+msgid "CDs"
+msgstr "CDs"
+
+#: GameEngine.py:102
+msgid "White"
+msgstr "Abjad"
+
+#: GameEngine.py:102
+msgid "Adds a soft lighting effect to CD labels in CD setlist mode."
+msgstr "Iżżid l-effett tad-dawl artab biex tikketti CD fil-modalità setlist CD."
+
+#: GameEngine.py:105
+msgid "Disable Screensaver"
+msgstr "Itfi Screensaver"
+
+#: GameEngine.py:105
+msgid "Set whether the game disables the screensaver while it is running.  Does not necessarily work on all platforms."
+msgstr "Issettja jekk il-logħba tiddiżattiva l-Screensaver filwaqt li tkun qed taħdem. Ma neċessarjament xogħol fuq pjattaformi kollha."
+
+#: GameEngine.py:107
+msgid "Animated Star Notes"
+msgstr "Jinnota animata Star"
+
+#: GameEngine.py:107
+msgid "This will animate star notes as they come towards you, if that is included in your theme. This can have a hit on performance. (This is affected by the 'Performance' quickset)"
+msgstr "Dan se jorganizza noti stilel kif ikunu ġejjin lejk, jekk dik hija inkluża fil-tema tiegħek. Dan jista 'jkollu hit fuq ir-rendiment. (Din hija affettwata mill-\"quickset Rendiment\")"
+
+#: GameEngine.py:108
+msgid "Sample Frequency"
+msgstr "Kampjun Frekwenza"
+
+#: GameEngine.py:108
+msgid "Set the sample frequency for the audio in the game. You almost certainly want to leave this at 44100 Hz unless you really know what you're doing."
+msgstr "Issettja l-frekwenza tal-kampjun għall-awdjo fil-logħba. Inti kważi ċertament jixtiequ jħallu din fil 44100 Hz sakemm inti verament jafu dak li qed tagħmel."
+
+#: GameEngine.py:109
+msgid "Sample Bits"
+msgstr "Bits Kampjun"
+
+#: GameEngine.py:109
+msgid "Set the sample bits for the audio in the game. You almost certainly want to leave this at 16-bit unless you really know what you're doing."
+msgstr "Issettja l-bits kampjun għall-awdjo fil-logħba. Inti kważi ċertament jixtiequ jħallu din ta '16-bit sakemm inti verament jafu dak li qed tagħmel."
+
+#: GameEngine.py:112
+msgid "Upload Highscores"
+msgstr "Highscores Tella"
+
+#: GameEngine.py:112
+msgid "If enabled, your high scores will be sent to the server to rank you against other players."
+msgstr "Jekk ikun permess, punteġġi għoli tiegħek ser jintbagħat lill-server li jikklassifika inti kontra partijiet oħra."
+
+#: GameEngine.py:118
+msgid "Song Queue System"
+msgstr "Sistema kju Kanzunetta"
+
+#: GameEngine.py:118
+#: GameEngine.py:188
+msgid "Automatic"
+msgstr "Awtomatika"
+
+#: GameEngine.py:118
+msgid "Enables or disables creating multi-song sets in the setlist."
+msgstr "Jippermetti jew tiddiżattiva ħolqien settijiet multi-kanzunetta fil-setlist."
+
+#: GameEngine.py:119
+msgid "Song Queue Order"
+msgstr "Ordni kju Kanzunetta"
+
+#: GameEngine.py:119
+#: GameEngine.py:167
+#: GameEngine.py:168
+msgid "In Order"
+msgstr "Fl-Ordni"
+
+#: GameEngine.py:119
+#: GameEngine.py:167
+#: GameEngine.py:168
+#: GameEngine.py:169
+#: GameEngine.py:676
+msgid "Random"
+msgstr "Random"
+
+#: GameEngine.py:119
+msgid "Sets the order in which songs added to the queue will be played."
+msgstr "Tistabbilixxi l-ordni li fiha kanzunetti miżjuda mal-kju se jiġru."
+
+#: GameEngine.py:120
+msgid "Song Queue Parts"
+msgstr "Kju Partijiet Kanzunetta"
+
+#: GameEngine.py:120
+msgid "Closest Available"
+msgstr "Eqreb Disponibbli"
+
+#: GameEngine.py:120
+#: GameEngine.py:121
+msgid "Always Ask"
+msgstr "Dejjem Staqsi"
+
+#: GameEngine.py:120
+msgid "Choose the behavior when the chosen part is not available in all queued songs. 'Closest Available' will match lead parts to guitar and bass to rhythm, or guitar if no rhythm parts are available. 'Always Ask' brings up the part select screen."
+msgstr "Agħżel l-imġiba meta l-parti magħżula ma tkunx disponibbli fil-kanzunetti fil-kju. \"Eqreb Disponibbli\" se match twassal għal kitarra u bass li ritmu, jew kitarra jekk l-ebda partijiet ritmu huma disponibbli. \"Dejjem Staqsi\" ġġib il-parti iskrin tagħżel."
+
+#: GameEngine.py:121
+msgid "Song Queue Difficulty"
+msgstr "Kanzunetta Diffikultà kju"
+
+#: GameEngine.py:121
+msgid "Closest Down"
+msgstr "Eqreb Down"
+
+#: GameEngine.py:121
+msgid "Closest Up"
+msgstr "Eqreb Up"
+
+#: GameEngine.py:121
+msgid "Choose the behavior when the chosen difficulty is not available in all queued songs. 'Closest Up' will prefer a harder difficulty, while 'Closest Down' will prefer an easier one. 'Always Ask' brings up the difficulty select screen."
+msgstr "Agħżel l-imġiba meta l-diffikultà magħżula ma tkunx disponibbli fil-kanzunetti fil-kju. \"Eqreb Up\" se jippreferu diffikultà diffiċli, filwaqt li \"Eqreb Down\" jippreferu wieħed faċli. \"Dejjem Staqsi\" ġġib l-iskrin diffikultà jagħżlu."
+
+#: GameEngine.py:134
+msgid "Buffer Size"
+msgstr "Daqs ta 'Riserva"
+
+#: GameEngine.py:134
+msgid "Set your audio buffer size. Higher values will reduce audio popping, but increase game lag. Only change this if you are having audio quality issues, and use the lowest value that sounds right."
+msgstr "Issettja d-daqs tiegħek buffer awdjo. Valuri ogħla se tnaqqas popping awdjo, iżda għadhom logħba żieda. Jibdlu biss dan jekk qed ikollok kwistjonijiet ta 'kwalità awdjo, u l-użu l-aktar valur baxx li ddoqq id-dritt."
+
+#: GameEngine.py:135
+msgid "A/V Delay"
+msgstr "A Dewmien V /"
+
+#: GameEngine.py:135
+msgid "Set your A/V delay. Unfortunately for now you have to use trial and error."
+msgstr "Serje A / tiegħek dewmien V. Sfortunatament għal issa għandek tuża prova u żball."
+
+#: GameEngine.py:136
+msgid "Screw-Up Sounds"
+msgstr "Invita-Up Ħsejjes"
+
+#: GameEngine.py:136
+#: GameEngine.py:152
+#: GameEngine.py:156
+#: GameEngine.py:158
+#: GameEngine.py:159
+#: GameEngine.py:167
+#: GameEngine.py:168
+#: GameEngine.py:170
+#: GameEngine.py:171
+#: GameEngine.py:173
+#: GameEngine.py:179
+#: GameEngine.py:187
+#: GameEngine.py:189
+#: GameEngine.py:193
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:200
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:206
+#: GameEngine.py:207
+#: GameEngine.py:208
+#: GameEngine.py:213
+#: GameEngine.py:215
+#: GameEngine.py:218
+#: GameEngine.py:220
+#: GameEngine.py:222
+#: GameEngine.py:223
+#: GameEngine.py:227
+#: GameEngine.py:229
+#: GameEngine.py:231
+#: GameEngine.py:232
+#: GameEngine.py:239
+#: GameEngine.py:248
+#: GameEngine.py:249
+#: GameEngine.py:251
+#: GameEngine.py:274
+#: GameEngine.py:278
+#: GameEngine.py:279
+#: GameEngine.py:280
+#: GameEngine.py:281
+#: GameEngine.py:282
+#: GameEngine.py:283
+#: GameEngine.py:284
+#: GameEngine.py:285
+#: GameEngine.py:286
+#: GameEngine.py:289
+#: GameEngine.py:290
+#: GameEngine.py:291
+#: GameEngine.py:293
+#: GameEngine.py:294
+#: GameEngine.py:303
+#: GameEngine.py:326
+#: GameEngine.py:330
+#: GameEngine.py:334
+#: GameEngine.py:338
+#: GameEngine.py:405
+msgid "Off"
+msgstr "Mitfi"
+
+#: GameEngine.py:136
+msgid "Quiet"
+msgstr "Kwiet"
+
+#: GameEngine.py:136
+msgid "Loud"
+msgstr "Loud"
+
+#: GameEngine.py:136
+msgid "Painful"
+msgstr "Uġigħ"
+
+#: GameEngine.py:136
+msgid "How loud should the sound of your screwing up be? Very."
+msgstr "Kif qawwi għandu tal-ħoss tal tiegħek screwing up tkun? Ħafna."
+
+#: GameEngine.py:140
+msgid "Active Track Volume"
+msgstr "Volum Attiva Track"
+
+#: GameEngine.py:140
+msgid "Volume of the parts you are playing."
+msgstr "Volum tal-partijiet inti qed jilagħbu."
+
+#: GameEngine.py:141
+msgid "Background Volume"
+msgstr "Volum Sfond"
+
+#: GameEngine.py:141
+msgid "Volume of the parts you are not playing."
+msgstr "Volum tal-partijiet m'intix playing."
+
+#: GameEngine.py:144
+msgid "Process Priority"
+msgstr "Proċess ta 'Prijorità"
+
+#: GameEngine.py:144
+msgid "Idle"
+msgstr "Idle"
+
+#: GameEngine.py:144
+msgid "Low"
+msgstr "Baxx"
+
+#: GameEngine.py:144
+#: GameEngine.py:157
+#: GameEngine.py:179
+#: GameEngine.py:299
+#: GameResultsScene.py:276
+msgid "Normal"
+msgstr "Normali"
+
+#: GameEngine.py:144
+msgid "Above Normal"
+msgstr "Hawn fuq normali"
+
+#: GameEngine.py:144
+msgid "High"
+msgstr "Għoli"
+
+#: GameEngine.py:144
+msgid "Realtime"
+msgstr "Realtime"
+
+#: GameEngine.py:144
+msgid "Change this to increase the priority of the FoFiX process. Don't change this unless you know what you're doing. DO NOT set this to Realtime. Ever."
+msgstr "Bidla dan biex tiżdied il-prijorità tal-proċess ta FoFiX. Tbiddilx dan sakemm inti taf dak li qed tagħmel. DO NOT jistabbilixxu dan li Realtime. Ever."
+
+#: GameEngine.py:145
+msgid "Restrict to First Core (Win32 Only)"
+msgstr "Jirrestrinġu sa Core Ewwel (WIN32 biss)"
+
+#: GameEngine.py:145
+msgid "Choose whether to restrict the game to running on only the first processor core on the system. Only has an effect under Windows."
+msgstr "Jagħżlu jekk jirrestrinġi l-logħba li taħdem biss fuq il-qalba ewwel proċessur fuq is-sistema. Biss għandha effett taħt Windows."
+
+#: GameEngine.py:146
+msgid "Use Psyco"
+msgstr "Użu Psyco"
+
+#: GameEngine.py:146
+msgid "Enable or disable the Psyco specializing compiler. Tests have indicated the game runs faster with it off."
+msgstr "Jippermettu jew iwaqqaf il-Psyco jispeċjalizzaw kompilatur. Testijiet urew il-logħba tmur aktar malajr mal off."
+
+#: GameEngine.py:147
+msgid "Missed Notes"
+msgstr "Żbaljat Noti"
+
+#: GameEngine.py:147
+msgid "Disappear"
+msgstr "Jisparixxu"
+
+#: GameEngine.py:147
+msgid "Keep on going"
+msgstr "Żomm għaddejjin"
+
+#: GameEngine.py:147
+msgid "When you miss a note, this sets whether they disappear from the fretboard or scroll off the bottom of the screen."
+msgstr "Meta tinsa tieħu nota, dan jistabbilixxi jekk jisparixxu mill-fretboard jew iscroll barra mill-qiegħ ta 'l-iskrin."
+
+#: GameEngine.py:150
+msgid "Performance"
+msgstr "Prestazzjoni"
+
+#: GameEngine.py:150
+#: GameEngine.py:151
+msgid "Manual"
+msgstr "Manwal"
+
+#: GameEngine.py:150
+msgid "Pure Speed"
+msgstr "Veloċità Pura"
+
+#: GameEngine.py:150
+msgid "Fast"
+msgstr "Fast"
+
+#: GameEngine.py:150
+msgid "Quality (Recommended)"
+msgstr "Kwalità (Rakkomandata)"
+
+#: GameEngine.py:150
+msgid "Max Quality (Slow)"
+msgstr "Kwalità Max (Slow)"
+
+#: GameEngine.py:150
+msgid "Set the performance of your game. You can fine-tune in the advanced menus."
+msgstr "Issettja l-prestazzjoni ta 'logħba tiegħek. Tista tirfina fil-menus avvanzati."
+
+#: GameEngine.py:151
+msgid "Gameplay"
+msgstr "Gameplay"
+
+#: GameEngine.py:151
+msgid "Theme-Based"
+msgstr "Tema Bbażati Fuq"
+
+#: GameEngine.py:151
+msgid "MIDI Based"
+msgstr "MIDI Ibbażat"
+
+#: GameEngine.py:151
+msgid "RB Style"
+msgstr "RB Style"
+
+#: GameEngine.py:151
+msgid "GH Style"
+msgstr "GH Style"
+
+#: GameEngine.py:151
+msgid "WT Style"
+msgstr "WT Style"
+
+#: GameEngine.py:151
+msgid "Sets how the game 'feels' to play. Theme-Based lets the theme creator decide. MIDI Based lets the fretter decide."
+msgstr "Settijiet kif il-logħba \"iħoss\" jilagħbu. Tema Bbażati Fuq l-tikri l-kreatur tema jiddeċiedi. MIDI Ibbażat tikri l-fretter jiddeċiedi."
+
+#: GameEngine.py:152
+msgid "Pause on Loss of Focus"
+msgstr "Nieqaf fuq Telf ta 'Focus"
+
+#: GameEngine.py:152
+#: GameEngine.py:156
+#: GameEngine.py:158
+#: GameEngine.py:170
+#: GameEngine.py:173
+#: GameEngine.py:187
+#: GameEngine.py:189
+#: GameEngine.py:193
+#: GameEngine.py:200
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:206
+#: GameEngine.py:207
+#: GameEngine.py:213
+#: GameEngine.py:218
+#: GameEngine.py:220
+#: GameEngine.py:222
+#: GameEngine.py:223
+#: GameEngine.py:227
+#: GameEngine.py:232
+#: GameEngine.py:239
+#: GameEngine.py:248
+#: GameEngine.py:249
+#: GameEngine.py:251
+#: GameEngine.py:274
+#: GameEngine.py:278
+#: GameEngine.py:279
+#: GameEngine.py:280
+#: GameEngine.py:281
+#: GameEngine.py:282
+#: GameEngine.py:283
+#: GameEngine.py:284
+#: GameEngine.py:285
+#: GameEngine.py:286
+#: GameEngine.py:289
+#: GameEngine.py:290
+#: GameEngine.py:291
+#: GameEngine.py:293
+#: GameEngine.py:303
+#: GameEngine.py:326
+#: GameEngine.py:330
+#: GameEngine.py:334
+#: GameEngine.py:338
+#: GameEngine.py:405
+msgid "On"
+msgstr "Fuq"
+
+#: GameEngine.py:152
+msgid "Set whether the game automatically pauses when another application steals input focus."
+msgstr "Issettja jekk il-logħba awtomatikament pawżi meta applikazzjoni oħra steals tiffoka l-input."
+
+#: GameEngine.py:155
+msgid "HO/PO System"
+msgstr "HO / PO Sistema"
+
+#: GameEngine.py:155
+#: GameResultsScene.py:252
+msgid "RF-Mod"
+msgstr "RF-Mod"
+
+#: GameEngine.py:155
+#: GameResultsScene.py:254
+msgid "GH2 Strict"
+msgstr "GH2 stretta"
+
+#: GameEngine.py:155
+#: GameEngine.py:319
+#: GameResultsScene.py:256
+msgid "GH2"
+msgstr "GH2"
+
+#: GameEngine.py:155
+msgid "Set the system used for marking hammer-ons and pull-offs (HO/PO). You can either disable them altogether, use the RF-Mod method, or the GH2 system."
+msgstr "Issettja l-sistema użata għall-immarkar martell-ons u iġbed il-kompromessi (HO / PO). Inti tista 'jew jiskonnettja għal kollox, jużaw il-metodu RF-Mod, jew is-sistema GH2."
+
+#: GameEngine.py:156
+msgid "GH2 Sloppy Mode"
+msgstr "Modalità sloppy GH2"
+
+#: GameEngine.py:156
+msgid "Sloppy mode allows you to hold higher frets while tapping lower frets during HO/PO sections. This will lower your score by 25%."
+msgstr "Mod sloppy jippermettilek li għandhom diplomi viti filwaqt tħabbat aktar baxx viti matul HO / taqsimiet PO. Dan se jbaxxi punteġġ tiegħek billi 25%."
+
+#: GameEngine.py:157
+msgid "HO/PO Frequency"
+msgstr "HO / PO Frekwenza"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:272
+msgid "Least"
+msgstr "Inqas"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:274
+msgid "Less"
+msgstr "Inqas"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:278
+msgid "More"
+msgstr "Aktar"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:280
+msgid "Even More"
+msgstr "Anki Aktar"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:282
+msgid "Most"
+msgstr "Ħafna"
+
+#: GameEngine.py:157
+msgid "Sets the window used to determine HO/PO notes. Increasing the frequency will reduce your score, and lower settings will give you a tiny bonus."
+msgstr "Tistabbilixxi l-tieqa użati biex jiddeterminaw HO noti PO /. Żieda fil-frekwenza se tnaqqas punteġġ tiegħek, u settings inqas se jtik bonus ċkejkna."
+
+#: GameEngine.py:158
+msgid "HO/PO After Chord"
+msgstr "HO / PO Wara chord"
+
+#: GameEngine.py:158
+msgid "This will determine whether or not HO/PO notes can follow a chord. This only applies to the GH2 systems."
+msgstr "Dan se jiddetermina HO jew le / Noti PO jistgħu jsegwu korda. Dan japplika biss għas-sistemi GH2."
+
+#: GameEngine.py:159
+msgid "Show Hit Accuracy"
+msgstr "Uri Hits Preċiżjoni"
+
+#: GameEngine.py:159
+msgid "Numeric"
+msgstr "Numeriku"
+
+#: GameEngine.py:159
+msgid "Friendly"
+msgstr "Friendly"
+
+#: GameEngine.py:159
+msgid "Both"
+msgstr "Iż-żewġ"
+
+#: GameEngine.py:159
+msgid "Shows how accurate your note hits are. Numeric will give a time in milliseconds, and Friendly will use English to inform you. Both will show, well, both. Useful for determining your A/V delay."
+msgstr "Juri kif preċiża hits nota tiegħek huma. Numeriku se jagħti żmien millisekondi, u Friendly se jużaw Ingliż ninfurmak. Iż-żewġ se turi, ukoll, it-tnejn. Utli sabiex jiġi stabbilit A / tiegħek dewmien V."
+
+#: GameEngine.py:160
+msgid "Hit Accuracy Pos"
+msgstr "Pos Hits Preċiżjoni"
+
+#: GameEngine.py:160
+#: GameEngine.py:212
+msgid "Center"
+msgstr "Center"
+
+#: GameEngine.py:160
+msgid "Top-Right Corner"
+msgstr "Top-Dritt Corner"
+
+#: GameEngine.py:160
+msgid "Bottom-Left Corner"
+msgstr "Bottom-Xellug Corner"
+
+#: GameEngine.py:160
+msgid "Center-Bottom"
+msgstr "Ċentru-qiegħ"
+
+#: GameEngine.py:160
+msgid "Sets where the accuracy information will be displayed, if enabled."
+msgstr "Settijiet fejn l-informazzjoni preċiżjoni se jintwerew, jekk ikun permess."
+
+#: GameEngine.py:162
+msgid "Max Players"
+msgstr "Parteċipanti Max"
+
+#: GameEngine.py:162
+msgid "Set the maximum number of players in Co-Op modes. Be aware that higher numbers are associated with a significant drop in performance."
+msgstr "Issettja l-għadd massimu ta 'parteċipanti fil-modi Co-op. Ikunu konxji li n-numri ogħla huma assoċjati ma 'tnaqqis sinifikanti fil-prestazzjoni."
+
+#: GameEngine.py:165
+msgid "Slideshow Delay"
+msgstr "Wirja Dewmien"
+
+#: GameEngine.py:165
+msgid "Sets how long, in milliseconds, to wait between each frame in a stage slideshow."
+msgstr "Settijiet għal kemm żmien, fil millisekondi, jistennew, bejn wieħed kull gwarniċ Wirja stadju."
+
+#: GameEngine.py:166
+msgid "Animation Delay"
+msgstr "Animation Dewmien"
+
+#: GameEngine.py:166
+msgid "Sets how long, in milliseconds, to wait between each frame in a stage animation."
+msgstr "Settijiet għal kemm żmien, fil millisekondi, jistennew, bejn wieħed kull qafas fi animazzjoni stadju."
+
+#: GameEngine.py:167
+msgid "Stage Slideshow"
+msgstr "Stadju Wirja"
+
+#: GameEngine.py:167
+#: GameEngine.py:168
+msgid "BackNForth"
+msgstr "BackNForth"
+
+#: GameEngine.py:167
+msgid "Sets the method used to rotate frames in a stage slideshow."
+msgstr "Tistabbilixxi l-metodu użat biex idawwar oqsfa fil Wirja stadju."
+
+#: GameEngine.py:168
+msgid "Stage Animation"
+msgstr "Stadju Animation"
+
+#: GameEngine.py:168
+msgid "Sets the method used to rotate frames in a stage animation."
+msgstr "Tistabbilixxi l-metodu użat biex idawwar oqsfa fi animazzjoni stadju."
+
+#: GameEngine.py:169
+msgid "Stage Selection"
+msgstr "Stadju Għażla"
+
+#: GameEngine.py:169
+msgid "Default"
+msgstr "Default"
+
+#: GameEngine.py:169
+msgid "Blank"
+msgstr "Fl-imbjank"
+
+#: GameEngine.py:169
+msgid "Video"
+msgstr "Video"
+
+#: GameEngine.py:169
+msgid "Set the background for your stage. Default will use the default background, and Blank puts you in a dark room. Probably a lot like the one you're in now."
+msgstr "Issettja l-isfond għall-istadju tiegħek. Default se tuża l-isfond default, u fl-imbjank tpoġġik f'kamra mudlama. Probabbilment ħafna bħall-waħda int fil issa."
+
+#: GameEngine.py:170
+msgid "Song Stage"
+msgstr "Stadju tal-Kanzunetta"
+
+#: GameEngine.py:170
+msgid "Fretters can include a stage to be used with their songs. If this is enabled, you can see it."
+msgstr "Fretters jista 'jinkludi l-istadju li jintuża ma' kanzunetti tagħhom. Jekk dan huwa permess, tista 'tara."
+
+#: GameEngine.py:171
+msgid "Script Lyric Display"
+msgstr "Display Lyric Script"
+
+#: GameEngine.py:171
+msgid "By Song"
+msgstr "Permezz tal-Kanzunetta"
+
+#: GameEngine.py:171
+#: GameEngine.py:190
+#: GameEngine.py:201
+#: GameEngine.py:202
+#: GameEngine.py:214
+#: GameEngine.py:228
+#: GameEngine.py:269
+#: GameEngine.py:297
+msgid "Always"
+msgstr "Dejjem"
+
+#: GameEngine.py:171
+msgid "Dual Lyric Prevention"
+msgstr "Prevenzjoni Dual Lyric"
+
+#: GameEngine.py:171
+msgid "Sets whether lyrics from a script.txt file are displayed. 'By Song' lets the fretter decide. 'Always' always displays script lyrics, if available, and 'Dual Lyric Prevention' will disable script lyrics if there are MIDI lyrics. (This is affected by the 'Performance' quickset)"
+msgstr "Settijiet jekk lirika minn fajl script.txt huma murija. \"Permezz ta Kanzunetta\" tikri l-fretter jiddeċiedi. \"Dejjem\" dejjem displays lirika iskrittura, jekk disponibbli, u \"Doppju Lyric Prevenzjoni\" lirika se iskrittura iwaqqaf jekk ikun hemm lirika MIDI. (Din hija affettwata mill-\"quickset Rendiment\")"
+
+#: GameEngine.py:172
+msgid "Frets Under Notes"
+msgstr "Viti Taħt Noti"
+
+#: GameEngine.py:172
+msgid "Sets whether the notes slide under the frets or over them."
+msgstr "Settijiet jekk in-noti slide taħt il-viti jew fuqhom."
+
+#: GameEngine.py:173
+msgid "Drum Navigation"
+msgstr "Drum Navigazzjoni"
+
+#: GameEngine.py:173
+msgid "If enabled, drum keys will be allowed to navigate menus. If not, only guitar keys and keyboard master keys will."
+msgstr "Jekk ikun permess, ċilindru ċwievet ser jitħallew biex jinnaviga menus. Jekk le, biss ċwievet kitarra u ċwievet kaptan tastiera se."
+
+#: GameEngine.py:175
+msgid "Ignore Open Strums"
+msgstr "Injora Strums Miftuħ"
+
+#: GameEngine.py:175
+msgid "If enabled, strumming without holding any frets down won't be counted."
+msgstr "Jekk ikun permess, strumming mingħajr ma jkollhom xi viti stabbiliti mhux se jingħaddu."
+
+#: GameEngine.py:176
+msgid "Static Strings"
+msgstr "Statiċi Strings"
+
+#: GameEngine.py:176
+msgid "If enabled, the 'strings' on your fretboard will not scroll."
+msgstr "Jekk ikun permess, il-kordi \"fis fretboard tiegħek mhux se scroll."
+
+#: GameEngine.py:177
+msgid "Effects Save SP"
+msgstr "Effetti Save SP"
+
+#: GameEngine.py:177
+msgid "If enabled, whammying while in SP will slow down its decrease. And your score will be handicapped by 5%."
+msgstr "Jekk ikun permess, whammying filwaqt li SP se jrattab tnaqqis tagħha. U punteġġ tiegħek se jkun mxekkel bid 5%."
+
+#: GameEngine.py:178
+msgid "Show HO/PO Indicator"
+msgstr "Uri HO / PO Indikatur"
+
+#: GameEngine.py:178
+msgid "If enabled, 'HOPO' will appear in game. When there are HOPO notes active, it will turn white."
+msgstr "Jekk ikun permess, \"HOPO\" se jidhru fil-logħba. Meta jkun hemm jinnota HOPO attivi, ser idur abjad."
+
+#: GameEngine.py:179
+msgid "Use Tiers in Quickplay"
+msgstr "Użu Saffi fil Quickplay"
+
+#: GameEngine.py:179
+msgid "Sorting"
+msgstr "Issortjar"
+
+#: GameEngine.py:179
+msgid "Sets whether to mark tiers in quickplay mode. 'Normal' will use the career tiers and 'Sorting' will insert tiers based on the current sort order."
+msgstr "Settijiet jekk trade mark livelli fil-modalità quickplay. \"Normali\" se jużaw il-livelli tal-karriera u \"għażil\" se saffi daħħal ibbażat fuq l-ordni tip attwali."
+
+#: GameEngine.py:180
+msgid "Star Updates"
+msgstr "Star Aġġornamenti"
+
+#: GameEngine.py:180
+msgid "On Hit"
+msgstr "Fuq Hits"
+
+#: GameEngine.py:180
+msgid "Score Change"
+msgstr "Score Bidla"
+
+#: GameEngine.py:180
+msgid "If set to 'On Hit', your star score will only be checked when you hit a note. If set to 'Score Change', your star score will constantly update. (This is affected by the 'Performance' quickset)"
+msgstr "Jekk issettjat għal \"Dwar Hits\", punteġġ star tiegħek ser jiġi kkontrollat biss meta inti hit nota. Jekk issettjat għal \"Score Bidla\", punteġġ star tiegħek se jaġġornaw kostantement. (Din hija affettwata mill-\"quickset Rendiment\")"
+
+#: GameEngine.py:181
+msgid "Partial Star Continuous Fillup"
+msgstr "Parzjali Star Kontinwu Fillup"
+
+#: GameEngine.py:181
+msgid "Sets whether your partial stars will fill up gradually ('Yes') or in chunks. (This is affected by the 'Performance' quickset)"
+msgstr "Settijiet jekk stilla parzjali tiegħek se jimlew gradwalment (\"Iva\") jew biċċiet. (Din hija affettwata mill-\"quickset Rendiment\")"
+
+#: GameEngine.py:182
+msgid "Countdown on Resume"
+msgstr "Countdown dwar Resume"
+
+#: GameEngine.py:182
+msgid "If enabled, there will be a three second countdown when you unpause."
+msgstr "Jekk ikun permess, se jkun hemm countdown tliet tieni meta inti unpause."
+
+#: GameEngine.py:184
+msgid "Script Lyric Position"
+msgstr "Pożizzjoni Lyric Script"
+
+#: GameEngine.py:184
+msgid "Bottom"
+msgstr "Qiegħ"
+
+#: GameEngine.py:184
+msgid "Top"
+msgstr "Fuq"
+
+#: GameEngine.py:184
+msgid "Display script lyrics at either the bottom or top of the screen."
+msgstr "Uri lirika iskrittura jew fl-qiegħ jew fuq ta 'l-iskrin."
+
+#: GameEngine.py:187
+msgid "Starpower Claps"
+msgstr "Starpower Claps"
+
+#: GameEngine.py:187
+msgid "Enables a clapping sound effect to be used on the beats in Starpower."
+msgstr "Jippermetti effett ħoss clapping li għandu jintuża fuq il-taħbita fil Starpower."
+
+#: GameEngine.py:188
+msgid "Song Previews"
+msgstr "Kanzunetta previŜjonijiet"
+
+#: GameEngine.py:188
+msgid "Yellow Fret (#3)"
+msgstr "Isfar Fret (# 3)"
+
+#: GameEngine.py:188
+msgid "If set to 'Automatic', songs will automatically start previewing when you select them. Otherwise you must press the third fret."
+msgstr "Jekk issettjat għal \"awtomatiku\", kanzunetti awtomatikament se tibda previewing meta inti tagħżel minnhom. Inkella trid press-tielet fret."
+
+#: GameEngine.py:189
+msgid "RB SP Neck Glow"
+msgstr "RB għonq SP Glow"
+
+#: GameEngine.py:189
+msgid "Sets a neck glow effect during SP in RB-type themes."
+msgstr "Settijiet effett tiddix għonq waqt SP fl temi KR tat-tip."
+
+#: GameEngine.py:190
+msgid "SP Refill Mode"
+msgstr "Modalità Erġa 'imla SP"
+
+#: GameEngine.py:190
+msgid "By MIDI Type"
+msgstr "Permezz tat-Tip MIDI"
+
+#: GameEngine.py:190
+msgid "Sets whether you can earn more starpower while using it. In 'By MIDI Type', only MIDIs that mark RB-style sections will use this. (This is set by the 'Gameplay' quickset)"
+msgstr "Settijiet jekk inti jista 'jaqla' starpower aktar waqt li jużaw dan. \"Permezz ta 'MIDI Tip Fil', biss MIDIs-imsemmija trade mark sezzjonijiet KR-istil se tuża dan. (Dan huwa stabbilit mill-\"quickset Gameplay\")"
+
+#: GameEngine.py:193
+msgid "Effects Debug"
+msgstr "Effetti Debug"
+
+#: GameEngine.py:193
+msgid "If enabled, will show on-screen the raw data of your killswitch/whammy."
+msgstr "Jekk ikun permess, se juru fuq l-iskrin-data primarja ta 'killswitch tiegħek / saħta."
+
+#: GameEngine.py:195
+msgid "Drum SP"
+msgstr "Drum SP"
+
+#: GameEngine.py:195
+msgid "Auto / Fills"
+msgstr "Auto / timla"
+
+#: GameEngine.py:195
+msgid "Manual / Fills"
+msgstr "Manwal / timla"
+
+#: GameEngine.py:195
+msgid "Determines how drum starpower is activated when there are no drum fills. Auto will automatically activate when available, and Manual will wait for the 'Starpower' button to be pressed."
+msgstr "Tiddetermina kif drum starpower huwa attivat meta ma hemm ebda tanbur timla. Auto awtomatikament se jattiva meta disponibbli, u Manwal se tistenna għall-buttuna 'Starpower \"li tkun ippressata."
+
+#: GameEngine.py:196
+msgid "Large Drum Neck"
+msgstr "Kbar Drum għonq"
+
+#: GameEngine.py:196
+msgid "If enabled, will show a larger neck when playing drums."
+msgstr "Jekk ikun permess, se juri għonq akbar meta tnabar jilagħbu."
+
+#: GameEngine.py:197
+#: GameEngine.py:235
+msgid "Bass Groove Neck"
+msgstr "Bass għonq groove"
+
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:307
+msgid "Replace"
+msgstr "Ibdel"
+
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:307
+msgid "Overlay"
+msgstr "Overlay"
+
+#: GameEngine.py:197
+msgid "Sets the style of the Bass Groove neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "Tistabbilixxi l-istil ta 'l-għonq groove Bass. \"Issostitwixxi\" tissostitwixxi għonq tiegħek bl-għonq speċjali, filwaqt li \"Overlay\" jistabbilixxi l-għonq fuq quċċata."
+
+#: GameEngine.py:198
+msgid "Guitar Solo Neck"
+msgstr "Għonq Solo kitarra"
+
+#: GameEngine.py:198
+msgid "Sets the style of the Guitar Solo neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "Tistabbilixxi l-istil ta 'l-għonq Solo kitarra. \"Issostitwixxi\" tissostitwixxi għonq tiegħek bl-għonq speċjali, filwaqt li \"Overlay\" jistabbilixxi l-għonq fuq quċċata."
+
+#: GameEngine.py:199
+msgid "Show Unused Events"
+msgstr "Uri Avvenimenti mhux użati"
+
+#: GameEngine.py:199
+msgid "If enabled, various MIDI events not used by the game will be shown on-screen."
+msgstr "Jekk ikun permess, diversi avvenimenti MIDI ma jintużawx mill-logħba se jintwerew fuq l-iskrin."
+
+#: GameEngine.py:200
+msgid "Kick Bass Sound"
+msgstr "Sound Bass Kick"
+
+#: GameEngine.py:200
+msgid "If enabled, you'll hear a kick bass sound when you use the kick pedal."
+msgstr "Jekk ikun permess, inti ser tisma 'ħoss bass kick meta tuża l-kick pedala."
+
+#: GameEngine.py:201
+msgid "Show Lyrics in All Modes"
+msgstr "Uri Lirika fil-modi kollha"
+
+#: GameEngine.py:201
+#: GameEngine.py:202
+msgid "Single Player"
+msgstr "Player Uniku"
+
+#: GameEngine.py:201
+msgid "Sets whether or not MIDI lyrics will be displayed in modes without a vocalist. 'Single Player' will only show lyrics when in Solo modes."
+msgstr "Settijiet jew le lirika MIDI se jintwerew modi mingħajr vocalist. \"Player Uniku\" se juru biss lirika meta jkunu fil-modi Solo."
+
+#: GameEngine.py:202
+msgid "Show MIDI Sections"
+msgstr "Uri Taqsimiet MIDI"
+
+#: GameEngine.py:202
+msgid "Sets whether or not to scroll the names of sections as marked in the MIDI files."
+msgstr "Settijiet jew le iscroll l-ismijiet ta 'taqsimiet kif immarkat fil-fajls MIDI."
+
+#: GameEngine.py:203
+msgid "Key Conflicts"
+msgstr "Kunflitti ewlenin"
+
+#: GameEngine.py:203
+msgid "Don't check"
+msgstr "M'għandekx kontroll"
+
+#: GameEngine.py:203
+msgid "Notify"
+msgstr "Notifika"
+
+#: GameEngine.py:203
+msgid "Enforce"
+msgstr "Inforza"
+
+#: GameEngine.py:203
+msgid "Sets how the game handles key conflicts. 'Don't check' doesn't check, but conflicts will affect play. 'Notify' will inform you, but allow you to continue, and 'Enforce' will not allow you to exit the menu until all key conflicts have been resolved."
+msgstr "Settijiet kif il-logħba mankijiet kunflitti ewlenin. \"Ma kontroll\" ma tivverifika, iżda l-kunflitti se jaffettwa jilagħbu. \"Notifika\" se ninfurmak, iżda jippermetti li inti tkompli, u \"Inforza\" mhux se jippermettu li inti ħruġ fil-menu sakemm il-kunflitti ewlenin ġew solvuti."
+
+#: GameEngine.py:204
+msgid "Show In-Game Stats"
+msgstr "Uri Stats Fil-Game"
+
+#: GameEngine.py:204
+msgid "Sets whether or not to show detailed stats as you play. 'By Theme' leaves it to the theme creator."
+msgstr "Settijiet jew le li juru stats dettaljati inti play. \"Permezz ta Tema 'tħalli lill-kreatur tema."
+
+#: GameEngine.py:205
+msgid "Show Stars In-Game"
+msgstr "Uri Stars fil-logħba"
+
+#: GameEngine.py:205
+msgid "Sets whether or not to show your star score as you play. 'By Theme' leaves it to the theme creator."
+msgstr "Settijiet jew le li juru istilla punteġġ tiegħek kif play. \"Permezz ta Tema 'tħalli lill-kreatur tema."
+
+#: GameEngine.py:206
+msgid "Show Partial Stars"
+msgstr "Uri Stars parzjali"
+
+#: GameEngine.py:206
+msgid "Sets whether or not to show partial stars, if available"
+msgstr "Settijiet jew le li juru stilla parzjali, jekk disponibbli"
+
+#: GameEngine.py:207
+msgid "HO/PO Debug"
+msgstr "HO / PO Debug"
+
+#: GameEngine.py:207
+msgid "If enabled, various log messages will be recorded regarding the HO/PO system. Please leave this disabled if submitting logs for bug reports unless you are certain it is necessary."
+msgstr "Jekk ikun permess, messaġġi log varji se jkunu rreġistrati fir-rigward HO sistema PO /. Jekk jogħġbok jħallu din b'diżabilità jekk jippreżenta zkuk għal rapporti bug sakemm inti ċerti huwa meħtieġ."
+
+#: GameEngine.py:208
+msgid "Show Solo Stats"
+msgstr "Solo Stats Uri"
+
+#: GameEngine.py:208
+msgid "Percent"
+msgstr "Perċentwali"
+
+#: GameEngine.py:208
+msgid "Detail"
+msgstr "Dettall"
+
+#: GameEngine.py:208
+msgid "Sets whether to show your solo results when you finish a solo. 'Percent' will only show the percentage, while 'Detail' includes additional information."
+msgstr "Settijiet jekk turi riżultati individwali tiegħek meta inti finitura solo. \"Perċentwali\" se juru biss il-persentaġġ, filwaqt li \"Dettall\" jinkludi informazzjoni addizzjonali."
+
+#: GameEngine.py:209
+msgid "Stat Decimal Places"
+msgstr "Stat Postijiet Deċimali"
+
+#: GameEngine.py:209
+msgid "Determines how many decimal places will be noted in displaying stats."
+msgstr "Tiddetermina kemm postijiet deċimali se jkun innotat fil-wiri stats."
+
+#: GameEngine.py:210
+msgid "Star Scoring Style"
+msgstr "Star Style Punteġġ"
+
+#: GameEngine.py:210
+msgid "Accuracy"
+msgstr "Preċiżjoni"
+
+#: GameEngine.py:210
+msgid "GH"
+msgstr "GH"
+
+#: GameEngine.py:210
+msgid "RB"
+msgstr "RB"
+
+#: GameEngine.py:210
+msgid "RB+GH"
+msgstr "RB GH +"
+
+#: GameEngine.py:210
+msgid "Sets which system to use to calculate your star score."
+msgstr "Settijiet li sistema jużaw biex jikkalkolaw punteġġ istilla tiegħek."
+
+#: GameEngine.py:211
+msgid "Career Mode Advance"
+msgstr "Bil-quddiem Modalità Karriera"
+
+#: GameEngine.py:211
+msgid "0 (Song Finish)"
+msgstr "0 (Finish Kanzunetta)"
+
+#: GameEngine.py:211
+msgid "1 Star"
+msgstr "1 Star"
+
+#: GameEngine.py:211
+msgid "2 Stars"
+msgstr "2 Stars"
+
+#: GameEngine.py:211
+msgid "3 Stars"
+msgstr "3 Stars"
+
+#: GameEngine.py:211
+msgid "4 Stars"
+msgstr "4 Stars"
+
+#: GameEngine.py:211
+msgid "5 Stars"
+msgstr "5 Stars"
+
+#: GameEngine.py:211
+msgid "6 (Gold Stars)"
+msgstr "6 (Stars Gold)"
+
+#: GameEngine.py:211
+msgid "7 (Full Combo)"
+msgstr "7 (Combo sħiħ)"
+
+#: GameEngine.py:211
+msgid "Determine how many stars are needed on a song before it is unlocked in career mode."
+msgstr "Jiddeterminaw kif ħafna istilel kollha huma meħtieġa fuq kanzunetta qabel ma jinfetaħ fil-modalità tal-karriera."
+
+#: GameEngine.py:212
+msgid "Solo Stat Positioning"
+msgstr "Pożizzjonament stat Solo"
+
+#: GameEngine.py:212
+#: GameEngine.py:319
+msgid "Rock Band"
+msgstr "Rock Band"
+
+#: GameEngine.py:212
+msgid "Sets where your solo result stats will be displayed."
+msgstr "Settijiet fejn stats tiegħek riżultat solo se jintwerew."
+
+#: GameEngine.py:213
+msgid "Bass Groove"
+msgstr "Bass groove"
+
+#: GameEngine.py:213
+msgid "By MIDI"
+msgstr "Permezz MIDI"
+
+#: GameEngine.py:213
+msgid "Enable or disable bass groove (additional score multiplier for bass)"
+msgstr "Jippermettu jew li jiskonnettja bass kanal (punteġġ addizzjonali multiplikatur għall bass)"
+
+#: GameEngine.py:214
+msgid "Drum Miss Penalty"
+msgstr "Drum Miss Piena"
+
+#: GameEngine.py:214
+msgid "Song Start"
+msgstr "Bidu tal-Kanzunetta"
+
+#: GameEngine.py:214
+msgid "First Note"
+msgstr "L-ewwel Nota"
+
+#: GameEngine.py:214
+msgid "Determines when drum hits count as misses: When the song begins, after the first note, or always."
+msgstr "Jiddetermina meta drum hits jgħodd bħala jonqsilha: Meta l-kanzunetta jibda, wara l-ewwel nota, jew dejjem."
+
+#: GameEngine.py:215
+msgid "Time Display Format"
+msgstr "Format Display Ħin"
+
+#: GameEngine.py:215
+#: GameEngine.py:306
+msgid "Countdown"
+msgstr "Countdown"
+
+#: GameEngine.py:215
+msgid "Elapsed"
+msgstr "Skada"
+
+#: GameEngine.py:215
+msgid "Sets whether the song time is displayed as time elapsed, time remaining, or not at all"
+msgstr "Settijiet jekk il-ħin kanzunetta hija murija bħala ħin li għadda, il-ħin li jifdal, jew ma"
+
+#: GameEngine.py:216
+msgid "Show Theme Version Tag"
+msgstr "Uri Tema Verżjoni Tag"
+
+#: GameEngine.py:216
+msgid "Places the theme's version tag over menus and dialogs."
+msgstr "Postijiet tat-tema kkonċernata verżjoni tat-tikketta fuq menus u dialogs."
+
+#: GameEngine.py:217
+msgid "Menu Navigation"
+msgstr "Menu Navigazzjoni"
+
+#: GameEngine.py:217
+msgid "P1 Only"
+msgstr "P1 biss"
+
+#: GameEngine.py:217
+msgid "All Players"
+msgstr "Kollha Parteċipanti"
+
+#: GameEngine.py:217
+msgid "Sets whether all players can navigate the menu, or only the controller set as Player 1 and the master keys."
+msgstr "Settijiet jekk l-atturi kollha jistgħu jinnavigaw-menu, jew biss il-kontrollur stabbiliti bħala Player 1 u l-ċwievet kaptan."
+
+#: GameEngine.py:218
+msgid "In-Game Font Shadow"
+msgstr "Fil-Game Shadow Font"
+
+#: GameEngine.py:218
+msgid "Sets whether or not a shadowed font will be used, if available."
+msgstr "Settijiet jekk jew le tipa dellijiet se jintużaw, jekk disponibbli."
+
+#: GameEngine.py:219
+msgid "Mute Last Second"
+msgstr "Mute aħħar Tieni"
+
+#: GameEngine.py:219
+msgid "Cuts the volume with one second remaining to prevent any pops when the song ends."
+msgstr "Qatgħat-volum bl-tieni waħda baqa biex jipprevjenu kwalunkwe pops meta l-kanzunetta jintemm."
+
+#: GameEngine.py:220
+msgid "Results Cheer Loop"
+msgstr "Loop Cheer Riżultati"
+
+#: GameEngine.py:220
+#: GameEngine.py:319
+#: GameEngine.py:399
+msgid "Theme"
+msgstr "Tema"
+
+#: GameEngine.py:220
+msgid "Sets whether the cheering sound heard on the result screen will loop. 'Theme' leaves it to the theme creator."
+msgstr "Settijiet jekk il-ħoss cheering jinstemgħu fuq l-iskrin riżultat linja. \"Tema\" tħalli lill-kreatur tema."
+
+#: GameEngine.py:221
+msgid "Cheer Loop Delay"
+msgstr "Dewmien Loop Cheer"
+
+#: GameEngine.py:221
+msgid "Sets the time, in milliseconds, to wait before playing the result cheer again (if looping is enabled)."
+msgstr "Tistabbilixxi l-ħin, fil millisekondi, tistenna qabel jilagħbu l cheer riżultat mill-ġdid (jekk looping hija ppermettiet)."
+
+#: GameEngine.py:222
+msgid "Miss Pauses Anim"
+msgstr "Miss pawżi Anim"
+
+#: GameEngine.py:222
+msgid "When enabled, missing a note will pause the stage animation."
+msgstr "Meta ppermettiet, nieqsa nota se nieqaf-animazzjoni istadju."
+
+#: GameEngine.py:223
+msgid "Song HO/PO Freq"
+msgstr "HO Kanzunetta / FREQ PO"
+
+#: GameEngine.py:223
+msgid "Sets whether or not to use the HO/PO Frequency setting determined by the fretter, if available."
+msgstr "Settijiet jew le li juża l-HO / PO Frekwenza iffissar determinat mill-fretter, jekk disponibbli."
+
+#: GameEngine.py:225
+msgid "Mute Drum Track During Fills"
+msgstr "Mute Drum Track Matul timla"
+
+#: GameEngine.py:225
+msgid "Sets whether or not the drum track will be muted during drum fills (so you can hear yourself have at it!)"
+msgstr "Settijiet jew le it-tanbur binarji se tkun siekta waqt dramm timla (sabiex inti tista 'tisma' lilek innifsek jkollha fiha!)"
+
+#: GameEngine.py:226
+msgid "Sustain Muting"
+msgstr "Sostnuta Muting"
+
+#: GameEngine.py:226
+msgid "Never Mute"
+msgstr "Qatt Mute"
+
+#: GameEngine.py:226
+msgid "Very Early"
+msgstr "Bikri ħafna"
+
+#: GameEngine.py:226
+msgid "Early"
+msgstr "Bikri"
+
+#: GameEngine.py:226
+#: GameEngine.py:309
+#: GameResultsScene.py:293
+msgid "Standard"
+msgstr "Standard"
+
+#: GameEngine.py:226
+msgid "Always Mute"
+msgstr "Dejjem Mute"
+
+#: GameEngine.py:226
+msgid "Sets the window used to determine whether or not to mute a dropped sustain note. 'Early' means it will only mute when you drop the sustain relatively early."
+msgstr "Tistabbilixxi l-tieqa użati biex jiddeterminaw jekk jew le li mutu għal waqa isostnu nota. \"Kmieni\" tfisser li ser biss mutu meta inti qatra l isostnu relattivament bikri."
+
+#: GameEngine.py:227
+msgid "Show Solo Frame"
+msgstr "Frame Solo Uri"
+
+#: GameEngine.py:227
+msgid "Sets whether to show a frame around the solo stats, if available."
+msgstr "Settijiet jekk juru frejm tat stats solo, jekk disponibbli."
+
+#: GameEngine.py:228
+msgid "Enable Guitar Solos"
+msgstr "Solos Jippermettu kitarra"
+
+#: GameEngine.py:228
+#: GameEngine.py:297
+msgid "Never"
+msgstr "Qatt"
+
+#: GameEngine.py:228
+msgid "MIDI Only"
+msgstr "MIDI biss"
+
+#: GameEngine.py:228
+msgid "Sets the logic used to mark solos. 'Always' will mark solos in sections if available. 'By Theme' leaves it to the theme creator. 'MIDI Only' only enables solos marked with the MIDI marker note."
+msgstr "Tistabbilixxi l-loġika użati biex jimmarkaw solos. \"Dejjem\" se jimmarka solos fis-sezzjonijiet jekk disponibbli. \"Permezz ta Tema 'tħalli lill-kreatur tema. \"MIDI biss\" biss tippermetti solos mmarkati bil-nota markatur MIDI."
+
+#: GameEngine.py:229
+msgid "SP Mode"
+msgstr "SP Modalità"
+
+#: GameEngine.py:229
+#: GameEngine.py:319
+msgid "FoF"
+msgstr "FoF"
+
+#: GameEngine.py:229
+msgid "Auto MIDI"
+msgstr "Auto MIDI"
+
+#: GameEngine.py:229
+msgid "Sets the logic used to determine starpower phrases. 'FoF' will generate paths based on the number of notes. 'Auto MIDI' will use MIDI markers to determine the paths, and fall back on the FoF mode if none are available."
+msgstr "Tistabbilixxi l-loġika użata biex tiddetermina frażijiet starpower. \"FoF\" ser jiġġenera mogħdijiet bbażati fuq numru ta 'noti. \"Auto MIDI\" se jużaw markaturi MIDI li jiddeterminaw il-mogħdijiet, u jaqgħu lura fuq il-mod FoF jekk ħadd huma disponibbli."
+
+#: GameEngine.py:231
+msgid "Inc. Neck Mode"
+msgstr "Modalità għonq Inc"
+
+#: GameEngine.py:231
+msgid "Start Only"
+msgstr "Bidu biss"
+
+#: GameEngine.py:231
+msgid "Start & End"
+msgstr "Bidu & Tmiem"
+
+#: GameEngine.py:231
+msgid "Sets how and whether to render incoming solo necks. 'Start Only' will scroll it in but not out, while 'Start & End' does both."
+msgstr "Settijiet kif u jekk biex jagħmlu għenuq solo dieħla. \"Bidu biss\" se iscroll fil iżda mhux barra, filwaqt li \"Tmiem Bidu & 'ma tnejn."
+
+#: GameEngine.py:232
+msgid "Big Rock Endings"
+msgstr "Rock-truf Big"
+
+#: GameEngine.py:232
+msgid "Enable or disable big rock endings. 'By Theme' leaves it to the theme creator."
+msgstr "suffissi Jippermettu jew iwaqqaf kbar blat. \"Permezz ta Tema 'tħalli lill-kreatur tema."
+
+#: GameEngine.py:233
+msgid "Main Neck"
+msgstr "Prinċipali fl-għonq"
+
+#: GameEngine.py:233
+#, python-format
+msgid "Set the transparency of the main neck. 100% is fully visible."
+msgstr "Issettja l-trasparenza ta 'l-għonq prinċipali. 100% tkun għal kollox viżibbli."
+
+#: GameEngine.py:234
+msgid "Solo Neck"
+msgstr "Solo għonq"
+
+#: GameEngine.py:234
+#, python-format
+msgid "Set the transparency of the solo neck. 100% is fully visible."
+msgstr "Issettja l-trasparenza ta 'l-għonq solo. 100% tkun għal kollox viżibbli."
+
+#: GameEngine.py:235
+#, python-format
+msgid "Set the transparency of the bass groove neck. 100% is fully visible."
+msgstr "Issettja l-trasparenza tal-bass kanal għonq. 100% tkun għal kollox viżibbli."
+
+#: GameEngine.py:236
+msgid "Fail Neck"
+msgstr "Fail għonq"
+
+#: GameEngine.py:236
+#, python-format
+msgid "Set the transparency of the failing neck. 100% is fully visible."
+msgstr "Issettja l-trasparenza ta 'l-għonq li jfallu. 100% tkun għal kollox viżibbli."
+
+#: GameEngine.py:237
+msgid "Overlay Neck"
+msgstr "Overlay għonq"
+
+#: GameEngine.py:237
+#, python-format
+msgid "Set the transparency of neck overlays. 100% is fully visible."
+msgstr "Issettja l-trasparenza tal-għonq overlays. 100% tkun għal kollox viżibbli."
+
+#: GameEngine.py:238
+msgid "All Necks"
+msgstr "Kollha għenuq"
+
+#: GameEngine.py:238
+#, python-format
+msgid "Set the master transparency of all necks. 100% is fully visible."
+msgstr "Issettja l-trasparenza kaptan ta 'kull għenuq. 100% tkun għal kollox viżibbli."
+
+#: GameEngine.py:239
+msgid "Show Any Available Score"
+msgstr "Uri Kull Score Disponibbli"
+
+#: GameEngine.py:239
+msgid "When set to 'On', this will look for any available score on the currently selected instrument for setlist score display, if one is not available at the chosen difficulty."
+msgstr "Meta issettjat għal \"Fuq\", dan se tfittex xi skor disponibbli fuq l-istrument attwalment magħżula għall-wiri skor setlist, jekk wieħed ma jkunx disponibbli fil-diffikultà magħżula."
+
+#: GameEngine.py:241
+msgid "Scroll Delay"
+msgstr "Scroll Dewmien"
+
+#: GameEngine.py:241
+msgid "Sets how long, in milliseconds, to wait before beginning to scroll."
+msgstr "Settijiet għal kemm żmien, fil millisekondi, tistenna qabel ma jibdew tiskrollja."
+
+#: GameEngine.py:242
+msgid "Scroll Rate"
+msgstr "Scroll Rata"
+
+#: GameEngine.py:242
+msgid "Sets how quickly menus will scroll."
+msgstr "Settijiet kif malajr menus se scroll."
+
+#: GameEngine.py:245
+msgid "Use (notes-unedited.mid)"
+msgstr "Użu (noti-unedited.mid)"
+
+#: GameEngine.py:245
+msgid "Sets whether to look for (and use) a 'notes-unedited.mid' before 'notes.mid'. There's no reason to change this."
+msgstr "Settijiet jekk biex tfittex (u użu) ta '\"notes.mid noti-unedited.mid\" qabel \". M'hemm l-ebda raġuni għalfejn għandha tbiddel din."
+
+#: GameEngine.py:246
+msgid "Show Fill Status"
+msgstr "Uri Imla l-Istatus"
+
+#: GameEngine.py:246
+msgid "When enabled, whether or not you are in a drum fill/freestyle ending will be displayed in text on the screen."
+msgstr "Meta ppermettiet, jekk jew le inti huma ċilindru timla / freestyle jintemm se jintwerew fit-test fuq l-iskrin."
+
+#: GameEngine.py:247
+msgid "Show BPM"
+msgstr "Uri BPM"
+
+#: GameEngine.py:247
+msgid "When enabled, the current song BPM will be shown on screen."
+msgstr "Meta attivat, il-BPM kanzunetta attwali se jintwerew fuq l-iskrin."
+
+#: GameEngine.py:248
+msgid "New BPM Logic"
+msgstr "Logic BPM Ġdid"
+
+#: GameEngine.py:248
+msgid "If enabled, the game will attempt to use the new BPM logic. This is not a finished feature. Use at your own risk."
+msgstr "Jekk ikun permess, il-logħba se tipprova tuża l-loġika BPM ġodda. Din mhix karatteristika lest. Użu għar-riskju proprju tiegħek."
+
+#: GameEngine.py:249
+msgid "New Song Database Code"
+msgstr "Ġdid Kanzunetta Database Kodiċi"
+
+#: GameEngine.py:249
+msgid "Activates the new, incomplete song database code."
+msgstr "Jattiva l-ġdida, il-kodiċi kompluta database kanzunetta."
+
+#: GameEngine.py:251
+msgid "Show Raw Vocal Data"
+msgstr "Data turi Vokali prima"
+
+#: GameEngine.py:251
+msgid "If enabled, various information about the microphone input will be show in text on screen. Probably only needed for vocal debugging."
+msgstr "Jekk ikun permess, indikazzjonijiet oħra dwar il-kontribut mikrofonu se jkun juri fil-test fuq l-iskrin. Probabbilment meħtieġa biss għat debugging vokali."
+
+#: GameEngine.py:253
+msgid "Speed Factor"
+msgstr "Veloċità Fattur"
+
+#: GameEngine.py:253
+msgid "1.00x"
+msgstr "1.00x"
+
+#: GameEngine.py:253
+msgid "0.75x"
+msgstr "0.75x"
+
+#: GameEngine.py:253
+msgid "0.50x"
+msgstr "0.50x"
+
+#: GameEngine.py:253
+msgid "0.25x"
+msgstr "0.25x"
+
+#: GameEngine.py:253
+msgid "Sets the speed to play the audio at. Your score will be severely penalized if you slow the music down."
+msgstr "Tistabbilixxi l-veloċità li jilagħbu l-awdjo fuq. Punteġġ tiegħek se tkun severament penalizzat jekk inti bil-mod il-mużika isfel."
+
+#: GameEngine.py:255
+msgid "Effects Mode"
+msgstr "Effetti Modalità"
+
+#: GameEngine.py:255
+msgid "Killswitch"
+msgstr "Killswitch"
+
+#: GameEngine.py:255
+msgid "Pitchbend"
+msgstr "Pitchbend"
+
+#: GameEngine.py:255
+msgid "Sets whether to use a killswitch or pitchbend as the effect on your whammy."
+msgstr "Settijiet jekk jużaw killswitch jew pitchbend kif l-effett fuq saħta tiegħek."
+
+#: GameEngine.py:259
+msgid "Log INI Reads"
+msgstr "INI Log Jaqra"
+
+#: GameEngine.py:259
+msgid "Logs any read to an INI file. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Zkuk kwalunkwe tinqara lill fajl INI. Din hija informazzjoni neċessarja fir-rapporti bug; jekk jogħġbok ħalliha b'diżabilità sakemm inti ċerti huwa rilevanti."
+
+#: GameEngine.py:260
+msgid "Log Class Inits"
+msgstr "Log Inits Klassi"
+
+#: GameEngine.py:260
+msgid "Logs most class initializations in '__init__'. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Zkuk initializations aktar klassi \"__init__\". Din hija informazzjoni neċessarja fir-rapporti bug; jekk jogħġbok ħalliha b'diżabilità sakemm inti ċerti huwa rilevanti."
+
+#: GameEngine.py:261
+msgid "Log Loadings"
+msgstr "Log Tagħbijiet"
+
+#: GameEngine.py:261
+msgid "Logs resource loads. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "riżorsi tagħbijiet Zkuk. Din hija informazzjoni neċessarja fir-rapporti bug; jekk jogħġbok ħalliha b'diżabilità sakemm inti ċerti huwa rilevanti."
+
+#: GameEngine.py:262
+msgid "Log MIDI Sections"
+msgstr "Log Taqsimiet MIDI"
+
+#: GameEngine.py:262
+msgid "Logs MIDI sections. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Zkuk sezzjonijiet MIDI. Din hija informazzjoni neċessarja fir-rapporti bug; jekk jogħġbok ħalliha b'diżabilità sakemm inti ċerti huwa rilevanti."
+
+#: GameEngine.py:263
+msgid "Log Undefined GETs"
+msgstr "Log mhux definit gets"
+
+#: GameEngine.py:263
+msgid "Logs attempts to read an undefined config key. This is unnecessary information."
+msgstr "Zkuk tentattivi biex jaqra ewlenin konfigurazzjoni mhux definit. Din hija informazzjoni neċessarja."
+
+#: GameEngine.py:264
+msgid "Log Marker Notes"
+msgstr "Log Jinnota markatur"
+
+#: GameEngine.py:264
+msgid "Logs MIDI marker notes (solo, SP, etc). This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Zkuk MIDI jinnota li jimmarkaw (solo, SP, eċċ). Din hija informazzjoni neċessarja fir-rapporti bug; jekk jogħġbok ħalliha b'diżabilità sakemm inti ċerti huwa rilevanti."
+
+#: GameEngine.py:265
+msgid "Log SP Misses"
+msgstr "SP Log jonqsilha"
+
+#: GameEngine.py:265
+msgid "Logs SP phrase misses. This is unnecessary information."
+msgstr "Zkuk frażi SP titlef. Din hija informazzjoni neċessarja."
+
+#: GameEngine.py:266
+msgid "Log Unedited MIDIs"
+msgstr "Log MIDIs mhux editjat"
+
+#: GameEngine.py:266
+msgid "Logs when notes-unedited.mid is used. This is unnecessary information."
+msgstr "Zkuk meta jinnota-unedited.mid jintuża. Din hija informazzjoni neċessarja."
+
+#: GameEngine.py:267
+msgid "Log Lyric Events"
+msgstr "Log Avvenimenti Lyric"
+
+#: GameEngine.py:267
+msgid "Logs MIDI lyric events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Lyric avvenimenti Zkuk MIDI. Din hija informazzjoni neċessarja fir-rapporti bug; jekk jogħġbok ħalliha b'diżabilità sakemm inti ċerti huwa rilevanti."
+
+#: GameEngine.py:268
+msgid "Log Tempo Events"
+msgstr "Log Avvenimenti Tempo"
+
+#: GameEngine.py:268
+msgid "Logs MIDI tempo events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "tempo avvenimenti Zkuk MIDI. Din hija informazzjoni neċessarja fir-rapporti bug; jekk jogħġbok ħalliha b'diżabilità sakemm inti ċerti huwa rilevanti."
+
+#: GameEngine.py:269
+msgid "Log Missing Images"
+msgstr "Log Images Nieqsa"
+
+#: GameEngine.py:269
+msgid "Only on single images"
+msgstr "Biss fuq immaġini waħda"
+
+#: GameEngine.py:269
+msgid "Logs when files loaded are not found. 'Only on single images' skips logging when directories are loaded."
+msgstr "Zkuk meta fajls mgħobbija ma jinstabux. \"Huwa biss fl immaġini waħda\" skips qtugħ meta direttorji huma mgħobbija."
+
+#: GameEngine.py:274
+msgid "Practice Beat Claps"
+msgstr "Prattika Mušk Claps"
+
+#: GameEngine.py:274
+msgid "Enables clap sound effects on every beat in practice mode."
+msgstr "Tippermetti CLAP effetti tal-ħoss fuq kull taħbit fil-modalità prattika."
+
+#: GameEngine.py:275
+msgid "Change Score Display"
+msgstr "Display Score Bidla"
+
+#: GameEngine.py:275
+#: GameEngine.py:311
+msgid "Auto"
+msgstr "Auto"
+
+#: GameEngine.py:275
+msgid "Blue Fret (#4)"
+msgstr "Blu Fret (# 4)"
+
+#: GameEngine.py:275
+msgid "Sets whether to change the setlist high score difficulty automatically or with the fourth fret."
+msgstr "Settijiet jekk jibdlu l-diffikultà setlist punteġġ għoli awtomatikament jew bil-fret raba."
+
+#: GameEngine.py:278
+msgid "Makes opponent miss notes until the whammy bar is pushed a few times"
+msgstr "avversarju Jagħmel jitilfu jinnota sakemm il-bar saħta tiġi mbuttata ftit drabi"
+
+#: GameEngine.py:279
+msgid "Difficulty Up"
+msgstr "Diffikultà Up"
+
+#: GameEngine.py:279
+msgid "Ups opponent's difficulty for a while (if not playing on Expert)"
+msgstr "diffikultà avversarju Ups għal filwaqt li (jekk mhux jilagħbu Esperti)"
+
+#: GameEngine.py:280
+msgid "String Break"
+msgstr "String Break"
+
+#: GameEngine.py:280
+msgid "Breaks a string, causing your opponent to miss notes on that fret until they push the fret button several times."
+msgstr "Pawżi string, jikkawżaw avversarju tiegħek biex jitlef noti dwar li fret sakemm imbotta l-buttuna fret diversi drabi."
+
+#: GameEngine.py:281
+msgid "Double Notes"
+msgstr "Double Noti"
+
+#: GameEngine.py:281
+msgid "Makes single notes into chords, and chords into even bigger ones."
+msgstr "Jagħmel jinnota waħda fil kordi, u kordi fis dawk saħansitra akbar."
+
+#: GameEngine.py:282
+msgid "Death Drain"
+msgstr "Mewt Ixxotta"
+
+#: GameEngine.py:282
+msgid "Sudden Death Only"
+msgstr "Mewt f'daqqa biss"
+
+#: GameEngine.py:282
+msgid "Drains your opponents life until they die. 'Sudden Death Only' keeps this from appearing until you reach sudden death mode."
+msgstr "Drenaġġi avversarji ħajja tiegħek sakemm imutu. \"F'salt Mewt biss\" iżomm dan milli jidhru sakemm tilħaq modalità mewt f'daqqa."
+
+#: GameEngine.py:283
+msgid "Amp Overload"
+msgstr "Amp Tgħabija żejda"
+
+#: GameEngine.py:283
+msgid "Makes opponent's amp flip out, making notes disappear and reappear randomly."
+msgstr "amp avversarju Jagħmel's fl flip, jagħmlu noti jisparixxu u jerġgħu jidhru bl-addoċċ."
+
+#: GameEngine.py:284
+msgid "Switch Controls"
+msgstr "Aqleb Kontrolli"
+
+#: GameEngine.py:284
+msgid "Switches opponent to (or from) lefty mode for a bit!"
+msgstr "avversarju Swiċċijiet li (jew mingħand) modalità Lefty għal ftit!"
+
+#: GameEngine.py:285
+msgid "Steal Object"
+msgstr "Steal Għan"
+
+#: GameEngine.py:285
+msgid "Steals an object your opponent has."
+msgstr "Steals oġġett avversarju tiegħek."
+
+#: GameEngine.py:286
+msgid "Guitar Tune"
+msgstr "Kitarra Intunazzjoni"
+
+#: GameEngine.py:286
+msgid "Makes opponent miss all notes until they play a scale."
+msgstr "avversarju Jagħmel miss kollha noti sakemm dawn ikollhom skala."
+
+#: GameEngine.py:289
+msgid "Score SFX"
+msgstr "Score SFX"
+
+#: GameEngine.py:289
+msgid "Sets whether or not to have Jurgen taunt (or, I suppose, congratulate) you at the end of a song."
+msgstr "Settijiet jew le li taunt Jurgen (jew, I suppose, nifraħ) inti fl-aħħar ta 'kanzunetta."
+
+#: GameEngine.py:290
+msgid "GH SP Lights"
+msgstr "SP Lights GH"
+
+#: GameEngine.py:290
+msgid "Sets whether to fade images over the starpower bulbs in GH themes when fully lit."
+msgstr "Settijiet jekk fade immaġini fuq il-basal starpower temi GH meta kompletament lit."
+
+#: GameEngine.py:291
+msgid "RB Small 1x Multiplier"
+msgstr "1x RB Żgħar Multiplikatur"
+
+#: GameEngine.py:291
+msgid "When enabled, RB-type themes will have a smaller mult image when the multiplier is at 1x. 'By Theme' leaves it to the theme creator."
+msgstr "Meta ppermettiet, temi KR tat-tip se ikollhom immaġini qafas finanzjarju multi iżgħar meta l-multiplikatur hija fil 1x. \"Permezz ta Tema 'tħalli lill-kreatur tema."
+
+#: GameEngine.py:292
+msgid "Board Speed Mode"
+msgstr "Mod Veloċità Bord"
+
+#: GameEngine.py:292
+#: GameEngine.py:344
+msgid "BPM"
+msgstr "BPM"
+
+#: GameEngine.py:292
+#: GameEngine.py:317
+#: GameEngine.py:344
+msgid "Difficulty"
+msgstr "Diffikultà"
+
+#: GameEngine.py:292
+#: GameEngine.py:344
+msgid "BPM & Diff"
+msgstr "BPM & Diff"
+
+#: GameEngine.py:292
+msgid "Percentage"
+msgstr "Persentaġġ"
+
+#: GameEngine.py:292
+msgid "Sets what determines the speed of the scrolling notes."
+msgstr "Settijiet dak li jiddetermina l-veloċità tal-noti scrolling."
+
+#: GameEngine.py:293
+msgid "Loading Phrases"
+msgstr "Tagħbija Frażijiet"
+
+#: GameEngine.py:293
+msgid "Sets whether or not to use loading phrases while loading a song"
+msgstr "Settijiet jew le għall-użu ta 'tagħbija frażijiet filwaqt tagħbija kanzunetta"
+
+#: GameEngine.py:294
+msgid "Effects Display Mode"
+msgstr "Effetti Display Mode"
+
+#: GameEngine.py:294
+msgid "Static"
+msgstr "Statiku"
+
+#: GameEngine.py:294
+msgid "Animated"
+msgstr "Animati"
+
+#: GameEngine.py:294
+msgid "Sets whether or not the whammy effect is animated. (This is affected by the 'Performance' quickset)"
+msgstr "Settijiet jew le l-effett saħta huwa animat. (Din hija affettwata mill-\"quickset Rendiment\")"
+
+#: GameEngine.py:295
+msgid "Show Filepath"
+msgstr "Uri Filepath"
+
+#: GameEngine.py:295
+msgid "Show"
+msgstr "Uri"
+
+#: GameEngine.py:295
+msgid "Hide"
+msgstr "Hide"
+
+#: GameEngine.py:295
+msgid "Sets whether or not to show the filepath of the song."
+msgstr "Settijiet jew le biex juru l-filepath tal-kanzunetta."
+
+#: GameEngine.py:296
+msgid "3D Note Rotation"
+msgstr "3D Nota Rotazzjoni"
+
+#: GameEngine.py:296
+msgid "Old"
+msgstr "Qadim"
+
+#: GameEngine.py:296
+msgid "New"
+msgstr "Ġdid"
+
+#: GameEngine.py:296
+msgid "Sets the manner of 3D Note Rotation."
+msgstr "Jistabbilixxi l-mod ta '3D Nota Rotazzjoni."
+
+#: GameEngine.py:297
+msgid "Show In-Game Text"
+msgstr "Uri Fil-Game Test"
+
+#: GameEngine.py:297
+msgid "Only Note Streaks"
+msgstr "Biss Nota istrixxi"
+
+#: GameEngine.py:297
+msgid "Sets whether or not to show text in-game. This includes note streaks and 'Starpower Ready'. (This is affected by the 'Performance' quickset)"
+msgstr "Settijiet jew le li juru test fil-logħba. Dan jinkludi ħjut nota u \"Starpower ready\". (Din hija affettwata mill-\"quickset Rendiment\")"
+
+#: GameEngine.py:298
+msgid "Setlist Display Mode"
+msgstr "Modalità Display Setlist"
+
+#: GameEngine.py:298
+msgid "List"
+msgstr "Lista"
+
+#: GameEngine.py:298
+msgid "List/CD"
+msgstr "Lista / CD"
+
+#: GameEngine.py:298
+msgid "Sets the setlist display mode. 'By Theme' lets the theme creator decide."
+msgstr "Tistabbilixxi l-mod wiri setlist. \"Permezz ta Tema\" tikri l-kreatur tema jiddeċiedi."
+
+#: GameEngine.py:299
+msgid "Use Subfolders"
+msgstr "Użu subfolders"
+
+#: GameEngine.py:299
+msgid "List All"
+msgstr "Lista kollha"
+
+#: GameEngine.py:299
+msgid "'Normal' allows you to navigate folders. 'List All' places all songs into a single setlist."
+msgstr "\"Normali\" tippermetti li inti jinnaviga folders. \"Lista Kulħadd\" postijiet kollha kanzunetti fi setlist wieħed."
+
+#: GameEngine.py:300
+msgid "Show Song Type Icons"
+msgstr "Tip Ikoni Uri Kanzunetta"
+
+#: GameEngine.py:300
+msgid "Sets whether or not to show icons indicating the song 'type'"
+msgstr "Settijiet jew le li juru ikoni jindikaw il-kanzunetta \"tip\""
+
+#: GameEngine.py:301
+msgid "Preload Song Labels"
+msgstr "Kanzunetta preload Tikketti"
+
+#: GameEngine.py:301
+msgid "Sets whether to preload all song labels on load. With large setlists, this option is extremely slow."
+msgstr "Settijiet jekk preload tikketti kollha kanzunetta dwar tagħbija. Bil setlists kbar, din l-għażla hija estremament bil-mod."
+
+#: GameEngine.py:302
+msgid "Label Type"
+msgstr "Tikketta Tip"
+
+#: GameEngine.py:302
+msgid "CD Labels"
+msgstr "Tikketti CD"
+
+#: GameEngine.py:302
+msgid "Album Covers"
+msgstr "Album Ikopri"
+
+#: GameEngine.py:302
+msgid "Sets whether to show CD labels or album covers as the art."
+msgstr "Settijiet jekk juru tikketti CD jew album tkopri kemm l-arti."
+
+#: GameEngine.py:303
+msgid "Rotating CDs"
+msgstr "CDs rotatriċi"
+
+#: GameEngine.py:303
+msgid "Sets whether or not CDs rotate."
+msgstr "Settijiet jew le CDs jduru."
+
+#: GameEngine.py:304
+msgid "Remember Play Count"
+msgstr "Ftakar Play Count"
+
+#: GameEngine.py:304
+msgid "Keeps track of how many times you've played each song."
+msgstr "Iżomm rekord ta 'drabi li inti stajt lagħbu kull kanzunetta."
+
+#: GameEngine.py:306
+msgid "Show at Song Start"
+msgstr "Turi fil-Kanzunetta Bidu"
+
+#: GameEngine.py:306
+msgid "Part"
+msgstr "Parti"
+
+#: GameEngine.py:306
+msgid "Sets whether to show a countdown or your name and part at the song's start."
+msgstr "Settijiet jekk juru countdown jew isem tiegħek u parti fil-bidu il-kanzunetta tal-."
+
+#: GameEngine.py:307
+msgid "Overdrive Neck"
+msgstr "Overdrive għonq"
+
+#: GameEngine.py:307
+msgid "Sets the style of the Overdrive neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "Tistabbilixxi l-istil ta 'l-għonq overdrive. \"Issostitwixxi\" tissostitwixxi għonq tiegħek bl-għonq speċjali, filwaqt li \"Overlay\" jistabbilixxi l-għonq fuq quċċata."
+
+#: GameEngine.py:309
+msgid "Note Hit Window"
+msgstr "Nota Hits Tieqa"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:285
+msgid "Tightest"
+msgstr "Aktar issikkata"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:287
+msgid "Tight"
+msgstr "Stretta"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:289
+msgid "Wide"
+msgstr "Wide"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:291
+msgid "Widest"
+msgstr "Wiesa"
+
+#: GameEngine.py:309
+msgid "Sets how accurate you need to be while playing."
+msgstr "Settijiet kif preċiża inti jeħtieġ li tkun playing waqt."
+
+#: GameEngine.py:311
+msgid "Early Hit Window"
+msgstr "Kmieni Hits Tieqa"
+
+#: GameEngine.py:311
+msgid "None (RB2)"
+msgstr "Xejn (RB2)"
+
+#: GameEngine.py:311
+msgid "Half (GH2)"
+msgstr "Nofs (GH2)"
+
+#: GameEngine.py:311
+msgid "Full (FoF)"
+msgstr "Sħiħa (FoF)"
+
+#: GameEngine.py:311
+msgid "Sets how much time before the note is part of the hit window. 'Auto' uses the MIDI to determine."
+msgstr "Settijiet kif ħafna ħin qabel in-nota hija parti mit-tieqa hit. \"Auto\" tuża l-MIDI biex tiddetermina."
+
+#: GameEngine.py:312
+msgid "Show Detailed Handicap"
+msgstr "Uri Handicap dettaljati"
+
+#: GameEngine.py:312
+msgid "Shows the handicaps individually on the result screen."
+msgstr "Turi l-iżvantaġġi individwalment fuq l-iskrin riżultat."
+
+#: GameEngine.py:315
+msgid "Disable Variable BPM"
+msgstr "BPM Itfi Varjabbli"
+
+#: GameEngine.py:315
+msgid "This will disable the use of the Variable BPM logic."
+msgstr "Dan ser iwaqqaf l-użu tal-loġika BPM Varjabbli."
+
+#: GameEngine.py:316
+msgid "Sort Direction"
+msgstr "Sort Direzzjoni"
+
+#: GameEngine.py:316
+msgid "Ascending"
+msgstr "Axxendenti"
+
+#: GameEngine.py:316
+msgid "Descending"
+msgstr "Dixxendenti"
+
+#: GameEngine.py:316
+msgid "Choose whether to sort in ascending (A-Z) or descending (Z-A) order."
+msgstr "Agħżel jekk xorta axxendenti (AZ) jew axxendenti (ZA) ordni."
+
+#: GameEngine.py:317
+msgid "Sort Setlist By"
+msgstr "Setlist Sort Permezz"
+
+#: GameEngine.py:317
+msgid "Title"
+msgstr "Titolu"
+
+#: GameEngine.py:317
+msgid "Artist"
+msgstr "Artist"
+
+#: GameEngine.py:317
+msgid "Times played"
+msgstr "Times kellha"
+
+#: GameEngine.py:317
+msgid "Album"
+msgstr "Album"
+
+#: GameEngine.py:317
+msgid "Genre"
+msgstr "Ġeneru"
+
+#: GameEngine.py:317
+msgid "Year"
+msgstr "Sena"
+
+#: GameEngine.py:317
+msgid "Band Difficulty"
+msgstr "Banda Diffikultà"
+
+#: GameEngine.py:317
+msgid "Song Collection"
+msgstr "Ġbir tal-Kanzunetta"
+
+#: GameEngine.py:317
+msgid "Choose how to sort the setlist by default."
+msgstr "Agħżel kif biex isolvi l-setlist b'kontumaċja."
+
+#: GameEngine.py:318
+msgid "Whammy Changes Sort Order"
+msgstr "Saħta Bidliet Sort Ordni"
+
+#: GameEngine.py:318
+msgid "When enabled, pressing the whammy bar will change the sort order in the setlist."
+msgstr "Meta attivat, ippressar-bar saħta ser ibiddel l-ordni tip fil-setlist."
+
+#: GameEngine.py:319
+msgid "Point Of View"
+msgstr "Punt Tal View"
+
+#: GameEngine.py:319
+msgid "GH3"
+msgstr "GH3"
+
+#: GameEngine.py:319
+msgid "Rock Rev"
+msgstr "Rock Dun"
+
+#: GameEngine.py:319
+msgid "Sets the camera's point of view. Set it to any game, or set it to 'Theme' to leave it to the theme creator."
+msgstr "Settijiet punt l-kamera tal-fehma. Stabbilixxa li kull logħba, jew sett li \"Tema\" li jħalli f'idejn l-kreatur tema."
+
+#: GameEngine.py:320
+msgid "Party Mode Timer"
+msgstr "Timer Modalità Parti"
+
+#: GameEngine.py:320
+msgid "Sets the timer in Party Mode."
+msgstr "Jistabbilixxi l-tajmer fil-Parti Modalità."
+
+#: GameEngine.py:321
+msgid "Show Setlist Size"
+msgstr "Daqs Setlist Uri"
+
+#: GameEngine.py:321
+msgid "Show the number of songs inside of each setlist."
+msgstr "Juru n-numru ta 'kanzunetti ġewwa ta' kull setlist."
+
+#: GameEngine.py:322
+msgid "CD Mode Y-Rotation"
+msgstr "Modalità CD Y-Rotazzjoni"
+
+#: GameEngine.py:322
+#: GameEngine.py:351
+msgid "Enabled"
+msgstr "Iffaċilitati"
+
+#: GameEngine.py:322
+msgid "Sets whether or not CDs in the setlist rotate about the Y axis."
+msgstr "Settijiet jew le CDs fl-setlist jduru madwar l-assi Y."
+
+#: GameEngine.py:326
+msgid "P1 AI"
+msgstr "AI P1"
+
+#: GameEngine.py:326
+msgid "Enable or disable the player 1 AI"
+msgstr "Jippermettu jew li jiskonnettja l-attur 1 AI"
+
+#: GameEngine.py:327
+msgid "P1 AI Personality"
+msgstr "Personalità AI P1"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "1. KiD"
+msgstr "1. Kid"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "2. Stump"
+msgstr "2. Macaque"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "3. akedRobot"
+msgstr "3. akedRobot"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "4. Q"
+msgstr "4. Q"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "5. MFH"
+msgstr "5. MFH"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "6. Jurgen"
+msgstr "6. Jurgen"
+
+#: GameEngine.py:327
+msgid "Set the personality of the player 1 AI. The numbers correspond with their skill."
+msgstr "Issettja l-personalità ta 'l-attur 1 AI. In-numri jikkorrispondu mal-ħiliet tagħhom."
+
+#: GameEngine.py:328
+msgid "P1 AI Logic"
+msgstr "Logic AI P1"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "Original"
+msgstr "Oriġinali"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-Early"
+msgstr "MFH-Kmieni"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-OnTime1"
+msgstr "MFH-OnTime1"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-OnTime2"
+msgstr "MFH-OnTime2"
+
+#: GameEngine.py:328
+msgid "Set the logic used for the player 1 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "Issettja l-loġika użati għall-player 1 AI. \"Oriġinali\" ma jistgħux jimmaniġġaw sezzjonijiet malajr. tentattivi \"MFH-Kmieni\" hit noti kif jidħlu fil-tieqa hit. implimentazzjonijiet huma \"MFH-OnTime\" li jippruvaw li tolqot in-noti kif jiġri, bħal player reali."
+
+#: GameEngine.py:330
+msgid "P2 AI"
+msgstr "P2 AI"
+
+#: GameEngine.py:330
+msgid "Enable or disable the player 2 AI"
+msgstr "Jippermettu jew li jiskonnettja l-attur 2 AI"
+
+#: GameEngine.py:331
+msgid "P2 AI Personality"
+msgstr "Personalità AI P2"
+
+#: GameEngine.py:331
+msgid "Set the personality of the player 2 AI. The numbers correspond with their skill."
+msgstr "Issettja l-personalità ta 'l-attur 2 AI. In-numri jikkorrispondu mal-ħiliet tagħhom."
+
+#: GameEngine.py:332
+msgid "P2 AI Logic"
+msgstr "Logic AI P2"
+
+#: GameEngine.py:332
+msgid "Set the logic used for the player 2 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "Issettja l-loġika użati għall-player 2 AI. \"Oriġinali\" ma jistgħux jimmaniġġaw sezzjonijiet malajr. tentattivi \"MFH-Kmieni\" hit noti kif jidħlu fil-tieqa hit. implimentazzjonijiet huma \"MFH-OnTime\" li jippruvaw li tolqot in-noti kif jiġri, bħal player reali."
+
+#: GameEngine.py:334
+msgid "P3 AI"
+msgstr "AI P3"
+
+#: GameEngine.py:334
+msgid "Enable or disable the player 3 AI"
+msgstr "AI Jippermettu jew li jiskonnettja l-attur 3"
+
+#: GameEngine.py:335
+msgid "P3 AI Personality"
+msgstr "Personalità AI P3"
+
+#: GameEngine.py:335
+msgid "Set the personality of the player 3 AI. The numbers correspond with their skill."
+msgstr "Issettja l-personalità ta 'l-attur 3 AI. In-numri jikkorrispondu mal-ħiliet tagħhom."
+
+#: GameEngine.py:336
+msgid "P3 AI Logic"
+msgstr "Logic AI P3"
+
+#: GameEngine.py:336
+msgid "Set the logic used for the player 3 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "Issettja l-loġika użati għall-player 3 AI. \"Oriġinali\" ma jistgħux jimmaniġġaw sezzjonijiet malajr. tentattivi \"MFH-Kmieni\" hit noti kif jidħlu fil-tieqa hit. implimentazzjonijiet huma \"MFH-OnTime\" li jippruvaw li tolqot in-noti kif jiġri, bħal player reali."
+
+#: GameEngine.py:338
+msgid "P4 AI"
+msgstr "P4 AI"
+
+#: GameEngine.py:338
+msgid "Enable or disable the player 4 AI"
+msgstr "Jippermettu jew li jiskonnettja l-attur 4-AI"
+
+#: GameEngine.py:339
+msgid "P4 AI Personality"
+msgstr "P4 AI Personalità"
+
+#: GameEngine.py:339
+msgid "Set the personality of the player 4 AI. The numbers correspond with their skill."
+msgstr "Issettja l-personalità ta 'l-attur 4-AI. In-numri jikkorrispondu mal-ħiliet tagħhom."
+
+#: GameEngine.py:340
+msgid "P4 AI Logic"
+msgstr "P4 AI Logic"
+
+#: GameEngine.py:340
+msgid "Set the logic used for the player 4 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "Issettja l-loġika użati għall-player 4-AI. \"Oriġinali\" ma jistgħux jimmaniġġaw sezzjonijiet malajr. tentattivi \"MFH-Kmieni\" hit noti kif jidħlu fil-tieqa hit. implimentazzjonijiet huma \"MFH-OnTime\" li jippruvaw li tolqot in-noti kif jiġri, bħal player reali."
+
+#: GameEngine.py:343
+msgid "Lyric Display Mode"
+msgstr "Modalità Display Lyric"
+
+#: GameEngine.py:343
+msgid "Scrolling"
+msgstr "Scrolling"
+
+#: GameEngine.py:343
+msgid "Simple Lines"
+msgstr "Sempliċi Linji"
+
+#: GameEngine.py:343
+msgid "2-Line"
+msgstr "2-Linja"
+
+#: GameEngine.py:343
+msgid "Sets the display mode for MIDI lyrics. Both 'Simple Lines' and '2-Line' will show as single phrases when playing the vocal part."
+msgstr "Jistabbilixxi l-modalità wiri għall-lirika MIDI. Iż-żewġ \"sempliċi Linji 'u '2-Line\" se juri bħala frażijiet singoli meta jilagħbu l-parti vokali."
+
+#: GameEngine.py:344
+msgid "Lyric Speed Mode"
+msgstr "Mod Veloċità Lyric"
+
+#: GameEngine.py:344
+msgid "Sets what determines the speed of the scrolling lyrics."
+msgstr "Settijiet dak li jiddetermina l-veloċità tal-lirika scrolling."
+
+#: GameEngine.py:345
+msgid "Lyric Speed Percent"
+msgstr "Perċentwali Veloċità Lyric"
+
+#: GameEngine.py:345
+msgid "Sets how quickly lyrics will scroll."
+msgstr "Settijiet kif malajr lirika se scroll."
+
+#: GameEngine.py:351
+msgid "Graphical Submenus"
+msgstr "Grafika Submenus"
+
+#: GameEngine.py:351
+msgid "Enable or disable the use of graphical submenus."
+msgstr "Jippermettu jew li jiskonnettja l-użu ta submenus grafika."
+
+#: GameEngine.py:354
+msgid "Crowd Cheers"
+msgstr "Folla Evviva"
+
+#: GameEngine.py:354
+msgid "Off (Disabled)"
+msgstr "Off (Disabled)"
+
+#: GameEngine.py:354
+msgid "During SP Only"
+msgstr "Matul SP biss"
+
+#: GameEngine.py:354
+msgid "During SP & Green"
+msgstr "Matul SP & Paper"
+
+#: GameEngine.py:354
+msgid "Always On"
+msgstr "Dejjem Fuq"
+
+#: GameEngine.py:354
+msgid "Sets when the crowd will cheer for you (if a crowd.ogg is present). 'During SP' will have them sing along in star power, and 'During SP & Green' will have them cheering both in SP and when your rock meter is above 2/3"
+msgstr "Settijiet meta l-folla se cheer għalik (jekk crowd.ogg ikun preżenti). \"Matul SP 'se jkollhom dawn tkanta flimkien fil-poter stilel, u\" Matul DP & Paper \"se jkollhom dawn cheering kemm fil SP u meta meter blat tiegħek hawn fuq 2 / 3"
+
+#: GameEngine.py:357
+msgid "Miss Volume"
+msgstr "Volum Miss"
+
+#: GameEngine.py:357
+msgid "Set the volume of the active track when you miss a note."
+msgstr "Issettja l-volum tal-binarju attiva meta tinsa tieħu nota."
+
+#: GameEngine.py:358
+msgid "Single Track Miss"
+msgstr "Track Uniku Miss"
+
+#: GameEngine.py:358
+msgid "When playing a song with only a single track, this sets the volume of the track when you miss a note."
+msgstr "Meta jilagħbu kanzunetta biss ma track waħda, din tistabbilixxi l-volum tal-binarju meta tinsa tieħu nota."
+
+#: GameEngine.py:359
+msgid "Menu Volume"
+msgstr "Volum Menu"
+
+#: GameEngine.py:359
+msgid "Set the volume of the background menu music."
+msgstr "Issettja l-volum tal-mużika menu isfond."
+
+#: GameEngine.py:361
+msgid "Crowd Volume"
+msgstr "Volum folla"
+
+#: GameEngine.py:361
+msgid "Set the volume of the crowd."
+msgstr "Issettja l-volum tal-folla."
+
+#: GameEngine.py:363
+msgid "Kill Volume"
+msgstr "Volum oqtol"
+
+#: GameEngine.py:363
+msgid "Sets the volume when using the killswitch."
+msgstr "Jistabbilixxi l-volum meta jintuża l-killswitch."
+
+#: GameEngine.py:364
+msgid "SFX Volume"
+msgstr "Volum SFX"
+
+#: GameEngine.py:364
+msgid "Sets the volume of various sound effects."
+msgstr "Jistabbilixxi l-volum ta 'effetti tal-ħoss differenti."
+
+#: GameEngine.py:371
+msgid "Cache Song Metadata"
+msgstr "Metadata Kanzunetta Cache"
+
+#: GameEngine.py:371
+msgid "This will allow information about the songs to be stored for quick access later at the cost of a slow first time loading."
+msgstr "Dan se jippermetti l-informazzjoni dwar il-kanzunetti li jiġi maħżun għal aċċess ta 'malajr aktar tard fil-ispiża ta' tagħbija ta 'żmien bil-mod l-ewwel."
+
+#: GameEngine.py:399
+msgid "Sets the overall graphical feel of the game. You can find and download many more at fretsonfire.net"
+msgstr "Jistabbilixxi l-jħossu grafika ġenerali tal-logħba. Tista 'ssib u download ħafna aktar fuq fretsonfire.net"
+
+#: GameEngine.py:404
+msgid "Board Speed Percent"
+msgstr "Perċentwali Veloċità Bord"
+
+#: GameEngine.py:404
+msgid "Sets how quickly note will scroll"
+msgstr "Settijiet kif malajr in-nota se scroll"
+
+#: GameEngine.py:405
+msgid "No Fail"
+msgstr "Nru Fail"
+
+#: GameEngine.py:405
+msgid "Sets whether or not you can fail out of a song."
+msgstr "Settijiet jekk jew le inti tista 'tonqos minn kanzunetta."
+
+#: GameEngine.py:409
+msgid "Difficulty (Setlist Score)"
+msgstr "F'diffikultà (Score Setlist)"
+
+#: GameEngine.py:409
+msgid "Sets the default difficulty displayed in the setlist score."
+msgstr "Jistabbilixxi l-diffikultà default murija fil-punteġġ setlist."
+
+#: GameEngine.py:410
+msgid "Show Additional Stats"
+msgstr "Uri Stats addizzjonali"
+
+#: GameEngine.py:410
+msgid "If enabled, additional score information (longest streak, percentage) is displayed on the setlist."
+msgstr "Jekk ikun permess, addizzjonali punteġġ ta 'informazzjoni (Streak itwal, persentaġġ) hija murija fuq il-setlist."
+
+#: GameEngine.py:412
+msgid "Instrument (Setlist Score)"
+msgstr "Strument (Score Setlist)"
+
+#: GameEngine.py:412
+msgid "Sets the default part displayed in the setlist score."
+msgstr "Jistabbilixxi l-parti nuqqas murija fil-punteġġ setlist."
+
+#: GameEngine.py:674
+msgid "Slideshow"
+msgstr "Wirja"
+
+#: GameEngine.py:677
+#: GameEngine.py:691
+msgid "Animated Stage"
+msgstr "Animati Stadju"
+
+#: GameResultsScene.py:121
+#: GameResultsScene.py:122
+msgid "Co-Op Mode"
+msgstr "Ko-Op Modalità"
+
+#: GameResultsScene.py:124
+msgid "settings"
+msgstr "settings"
+
+#: GameResultsScene.py:125
+msgid "HOPOs"
+msgstr "HOPOs"
+
+#: GameResultsScene.py:126
+msgid "Hit Window"
+msgstr "Tieqa Hits"
+
+#: GameResultsScene.py:127
+msgid "Adjusted Score Multiplier:"
+msgstr "Score Aġġustat Multiplikatur:"
+
+#: GameResultsScene.py:128
+msgid "Original Score:"
+msgstr "Score oriġinali:"
+
+#: GameResultsScene.py:133
+#: GameResultsScene.py:140
+#: GameResultsScene.py:147
+msgid "Continue"
+msgstr "Kompli"
+
+#: GameResultsScene.py:134
+msgid "Replay Setlist"
+msgstr "Replay Setlist"
+
+#: GameResultsScene.py:136
+#: GameResultsScene.py:143
+#: GameResultsScene.py:150
+msgid "Quit"
+msgstr "Nieqaf"
+
+#: GameResultsScene.py:141
+msgid "Replay"
+msgstr "Replay"
+
+#: GameResultsScene.py:148
+msgid "End Setlist"
+msgstr "Tmiem Setlist"
+
+#: GameResultsScene.py:165
+msgid "Relax, it was an excellent show."
+msgstr "Jirrilassaw, din kienet turi eċċellenti."
+
+#: GameResultsScene.py:167
+msgid "Truly Amazing!"
+msgstr "Tassew Amazing!"
+
+#: GameResultsScene.py:169
+msgid "Thanks for playing!"
+msgstr "Grazzi għal-logħob!"
+
+#: GameResultsScene.py:171
+msgid "One more song can't hurt!"
+msgstr "Wieħed kanzunetta aktar ma jkunux jistgħu iweġġgħu!"
+
+#: GameResultsScene.py:173
+msgid "What an amazing performance!"
+msgstr "X'inhuma l-prestazzjoni aqwa!"
+
+#: GameResultsScene.py:175
+msgid "That's how it's done!"
+msgstr "That's kif dan isir!"
+
+#: GameResultsScene.py:248
+msgid "GH2 Sloppy"
+msgstr "GH2 sloppy"
+
+#: GameResultsScene.py:258
+msgid "New System"
+msgstr "Sistema Ġdida ta '"
+
+#: GameResultsScene.py:573
+#, python-format
+msgid "%d points is a new high score! Enter your name:"
+msgstr "%d punti huwa punteġġ għoli ġodda! Daħħal l-isem tiegħek:"
+
+#: GameResultsScene.py:1297
+#, python-format
+msgid "%s High Scores for %s"
+msgstr "%s Scores Għoli għall %s"
+
+#: GameResultsScene.py:1299
+#, python-format
+msgid "%s High Scores"
+msgstr "%s Scores Għoli"
+
+#: GameResultsScene.py:1305
+#, python-format
+msgid "Difficulty: %s"
+msgstr "Diffikultà: %s"
+
+#: GameResultsScene.py:1367
+msgid "Uploading Scores..."
+msgstr "Scores uploading ..."
+
+#: GameResultsScene.py:1372
+msgid "Scores uploaded!"
+msgstr "Scores uploaded!"
+
+#: GameResultsScene.py:1376
+msgid "Your highscore ranks"
+msgstr "highscore tiegħek ranks"
+
+#: GameResultsScene.py:1377
+msgid "on the world starpower chart!"
+msgstr "fuq iċ-ċart starpower dinja!"
+
+#: GameResultsScene.py:1380
+msgid "but your rank is unknown."
+msgstr "iżda rank tiegħek mhix magħrufa."
+
+#: GameResultsScene.py:1383
+msgid "but there was no new highscore."
+msgstr "iżda ma kien hemm l-ebda highscore ġodda."
+
+#: GameResultsScene.py:1386
+msgid "Score upload failed!  World charts may be down."
+msgstr "Score upload naqset! charts Dinja jistgħu jiġu stabbiliti."
+
+#: GuitarScene.py:82
+#: GuitarScene.py:83
+msgid "Initializing..."
+msgstr "Initializing ..."
+
+#: GuitarScene.py:497
+msgid "KiD"
+msgstr "Kid"
+
+#: GuitarScene.py:497
+msgid "Stump"
+msgstr "Macaque"
+
+#: GuitarScene.py:497
+msgid "AkedRobot"
+msgstr "AkedRobot"
+
+#: GuitarScene.py:497
+msgid "Q"
+msgstr "Q"
+
+#: GuitarScene.py:497
+msgid "MFH"
+msgstr "MFH"
+
+#: GuitarScene.py:497
+msgid "Jurgen"
+msgstr "Jurgen"
+
+#: GuitarScene.py:504
+msgid "Broken String"
+msgstr "String Broken"
+
+#: GuitarScene.py:506
+msgid "Powerup Steal"
+msgstr "Powerup Steal"
+
+#: GuitarScene.py:510
+#, python-format
+msgid "%d Note Streak"
+msgstr "%d Nota Mexxi"
+
+#: GuitarScene.py:511
+#, python-format
+msgid "%d Phrase Streak"
+msgstr "Streak Phrase %d"
+
+#: GuitarScene.py:512
+#, python-format
+msgid "%s Ready"
+msgstr "%s Ready"
+
+#: GuitarScene.py:513
+#, python-format
+msgid "Activate %s!"
+msgstr "Jattiva %s!"
+
+#: GuitarScene.py:514
+msgid "You Failed"
+msgstr "Inti Naqset"
+
+#: GuitarScene.py:515
+#, python-format
+msgid "%s is here"
+msgstr "%s huwa hawnhekk"
+
+#: GuitarScene.py:516
+#, python-format
+msgid "%s was here"
+msgstr "%s kien hawn"
+
+#: GuitarScene.py:517
+msgid "% Complete"
+msgstr "Tlesti%"
+
+#: GuitarScene.py:518
+#: GuitarScene.py:5839
+msgid "HOPO"
+msgstr "HOPO"
+
+#: GuitarScene.py:519
+#: GuitarScene.py:5809
+#: GuitarScene.py:5818
+msgid "COMPLETED"
+msgstr "KOMPLUT"
+
+#: GuitarScene.py:520
+#: GuitarScene.py:5811
+#: GuitarScene.py:5827
+msgid " % ON "
+msgstr "% FUQ"
+
+#: GuitarScene.py:521
+msgid "BASS GROOVE"
+msgstr "BASS groove"
+
+#: GuitarScene.py:522
+msgid "Bass Groove:"
+msgstr "Bass groove:"
+
+#: GuitarScene.py:523
+msgid "Handicap"
+msgstr "Handicap"
+
+#: GuitarScene.py:524
+msgid "Avg"
+msgstr "Avg"
+
+#: GuitarScene.py:525
+msgid "Very Late"
+msgstr "Mwaħħar ħafna"
+
+#: GuitarScene.py:526
+msgid "Late"
+msgstr "Tard"
+
+#: GuitarScene.py:527
+msgid "Slightly Late"
+msgstr "Ftit tard"
+
+#: GuitarScene.py:528
+msgid "-Excellent!"
+msgstr "Excellent!"
+
+#: GuitarScene.py:529
+msgid "Perfect!!"
+msgstr "Perfetta!"
+
+#: GuitarScene.py:530
+msgid "+Excellent!"
+msgstr "+ Eċċellenti!"
+
+#: GuitarScene.py:531
+msgid "Slightly Early"
+msgstr "Kemmxejn kmieni"
+
+#: GuitarScene.py:534
+msgid "ms"
+msgstr "ms"
+
+#: GuitarScene.py:535
+msgid "Solo!"
+msgstr "Solo!"
+
+#: GuitarScene.py:536
+msgid "Perfect Solo!"
+msgstr "Solo Perfect!"
+
+#: GuitarScene.py:537
+msgid "Awesome Solo!"
+msgstr "Tal-biża 'Solo!"
+
+#: GuitarScene.py:538
+msgid "Great Solo!"
+msgstr "Solo Kbir!"
+
+#: GuitarScene.py:539
+msgid "Good Solo!"
+msgstr "Tajba Solo!"
+
+#: GuitarScene.py:540
+msgid "Solid Solo!"
+msgstr "Solo solidi!"
+
+#: GuitarScene.py:541
+msgid "Okay Solo"
+msgstr "Okay Solo"
+
+#: GuitarScene.py:542
+msgid "Messy Solo"
+msgstr "Messy Solo"
+
+#: GuitarScene.py:543
+msgid "pts"
+msgstr "pazjenti"
+
+#: GuitarScene.py:544
+msgid "Get Ready to Rock"
+msgstr "Get Ready biex Rock"
+
+#: GuitarScene.py:545
+msgid "as made famous by"
+msgstr "kif din saret mill-famużi"
+
+#: GuitarScene.py:546
+msgid "by "
+msgstr "minn"
+
+#: GuitarScene.py:547
+msgid " fretted by "
+msgstr "fretted minn"
+
+#: GuitarScene.py:890
+msgid "Loading Song..."
+msgstr "Tagħbija tal-Kanzunetta ..."
+
+#: GuitarScene.py:900
+msgid "Preparing Note Phrases..."
+msgstr "Nota Frażijiet Tħejjija ..."
+
+#: GuitarScene.py:1401
+msgid "Loading Graphics..."
+msgstr "Grafika tat-tagħbija ..."
+
+#: GuitarScene.py:1615
+msgid "         RESUME"
+msgstr "Resumé"
+
+#: GuitarScene.py:1616
+msgid "        RESTART"
+msgstr "Nerġgħu"
+
+#: GuitarScene.py:1618
+msgid "       PRACTICE"
+msgstr "PRATTIKA"
+
+#: GuitarScene.py:1619
+msgid "        OPTIONS"
+msgstr "GĦAŻLIET"
+
+#: GuitarScene.py:1620
+#: GuitarScene.py:1629
+msgid "           QUIT"
+msgstr "Nieqaf"
+
+#: GuitarScene.py:1624
+msgid "        RESUME"
+msgstr "Resumé"
+
+#: GuitarScene.py:1625
+msgid "       RESTART"
+msgstr "Nerġgħu"
+
+#: GuitarScene.py:1627
+msgid "      END SONG"
+msgstr "END kanzunetta"
+
+#: GuitarScene.py:1628
+msgid "       OPTIONS"
+msgstr "GĦAŻLIET"
+
+#: GuitarScene.py:1634
+#: GuitarScene.py:1641
+msgid "RETRY SONG"
+msgstr "Retry kanzunetta"
+
+#: GuitarScene.py:1635
+msgid "  PRACTICE"
+msgstr "PRATTIKA"
+
+#: GuitarScene.py:1636
+#: GuitarScene.py:1642
+#: GuitarScene.py:1706
+#: GuitarScene.py:1713
+msgid " NEW SONG"
+msgstr "ĠDIDA kanzunetta"
+
+#: GuitarScene.py:1637
+#: GuitarScene.py:1643
+msgid "     QUIT"
+msgstr "Nieqaf"
+
+#: GuitarScene.py:1650
+#: GuitarScene.py:1659
+msgid "  Resume"
+msgstr "Resume"
+
+#: GuitarScene.py:1651
+#: GuitarScene.py:1660
+msgid "  Start Over"
+msgstr "Bidu Matul"
+
+#: GuitarScene.py:1652
+#: GuitarScene.py:1661
+msgid "  Change Song"
+msgstr "Kanzunetta Bidla"
+
+#: GuitarScene.py:1653
+msgid "  Practice"
+msgstr "Prattika"
+
+#: GuitarScene.py:1654
+#: GuitarScene.py:1663
+msgid "  Settings"
+msgstr "Settings"
+
+#: GuitarScene.py:1655
+#: GuitarScene.py:1664
+msgid "  Quit to Main Menu"
+msgstr "Nieqaf biex Main Menu"
+
+#: GuitarScene.py:1662
+msgid "  End Song"
+msgstr "Kanzunetta Tmiem"
+
+#: GuitarScene.py:1669
+#: GuitarScene.py:1676
+msgid " Try Again?"
+msgstr "Ipprova darb'oħra?"
+
+#: GuitarScene.py:1670
+#: GuitarScene.py:1677
+msgid "  Give Up?"
+msgstr "Agħti Up?"
+
+#: GuitarScene.py:1671
+msgid "  Practice?"
+msgstr "Prattika?"
+
+#: GuitarScene.py:1672
+#: GuitarScene.py:1678
+msgid "Quit to Main"
+msgstr "Nieqaf għal ewlenin"
+
+#: GuitarScene.py:1686
+#: GuitarScene.py:1695
+msgid "   RESUME"
+msgstr "Resumé"
+
+#: GuitarScene.py:1687
+#: GuitarScene.py:1696
+msgid "   RESTART"
+msgstr "Nerġgħu"
+
+#: GuitarScene.py:1688
+#: GuitarScene.py:1697
+msgid "   CHANGE SONG"
+msgstr "TIBDIL kanzunetta"
+
+#: GuitarScene.py:1689
+msgid "   PRACTICE"
+msgstr "PRATTIKA"
+
+#: GuitarScene.py:1690
+#: GuitarScene.py:1699
+msgid "   SETTINGS"
+msgstr "Settings"
+
+#: GuitarScene.py:1691
+#: GuitarScene.py:1700
+msgid "   QUIT"
+msgstr "Nieqaf"
+
+#: GuitarScene.py:1698
+msgid "   END SONG"
+msgstr "END kanzunetta"
+
+#: GuitarScene.py:1705
+#: GuitarScene.py:1712
+msgid " RETRY"
+msgstr "Retry"
+
+#: GuitarScene.py:1707
+msgid " PRACTICE"
+msgstr "PRATTIKA"
+
+#: GuitarScene.py:1708
+#: GuitarScene.py:1714
+msgid " QUIT"
+msgstr "Nieqaf"
+
+#: GuitarScene.py:6488
+#, python-format
+msgid "FPS: %.2f"
+msgstr "FPS: %.2f"
+
+#: Language.py:62
+msgid "Language"
+msgstr "Lingwa"
+
+#: Language.py:62
+msgid "Change the game language!"
+msgstr "Ibdel il-lingwa logħba!"
+
+#: Lobby.py:39
+#: MainMenu.py:294
+msgid "Your controls are not properly set up for this mode. Please check your settings."
+msgstr "kontrolli tiegħek mhumiex ikkunsidrati b'mod xieraq stabbilit għal dan il-mod. Jekk jogħġbok iċċekkja settings tiegħek."
+
+#: Lobby.py:43
+msgid "World error. Please try again."
+msgstr "żball Dinja. Jekk jogħġbok erġa 'pprova."
+
+#: Lobby.py:167
+msgid "Choose Your Character"
+msgstr "Agħżel karattru tiegħek"
+
+#: Lobby.py:168
+#: Lobby.py:750
+#, python-format
+msgid "Player %d"
+msgstr "Player %d"
+
+#: Lobby.py:170
+msgid "Regular Drums"
+msgstr "Drums regolari"
+
+#: Lobby.py:170
+msgid "Flipped Drums"
+msgstr "Flipped Drums"
+
+#: Lobby.py:171
+msgid "Pedal-Using"
+msgstr "Pedala-użu"
+
+#: Lobby.py:171
+msgid "Footless"
+msgstr "Footless"
+
+#: Lobby.py:172
+msgid "Assist Mode Off"
+msgstr "Modalità Mitfi Assistenza"
+
+#: Lobby.py:172
+#: Lobby.py:503
+#: Player.py:211
+msgid "Easy Assist"
+msgstr "Faċli Assistenza"
+
+#: Lobby.py:172
+#: Lobby.py:503
+#: Player.py:211
+msgid "Medium Assist"
+msgstr "Medju Assistenza"
+
+#: Lobby.py:173
+msgid "Chordmaster"
+msgstr "Chordmaster"
+
+#: Lobby.py:173
+msgid "Two Notes Max"
+msgstr "Żewġ Noti Max"
+
+#: Lobby.py:174
+msgid "Information:"
+msgstr "Informazzjoni:"
+
+#: Lobby.py:188
+msgid "Create New Player"
+msgstr "Oħloq Player Ġdid"
+
+#: Lobby.py:188
+msgid "Saved Characters"
+msgstr "Ssejvjata Karattri"
+
+#: Lobby.py:502
+#: Player.py:207
+msgid "Default Neck"
+msgstr "Default għonq"
+
+#: Lobby.py:502
+#: Player.py:207
+msgid "Theme Neck"
+msgstr "Tema għonq"
+
+#: Lobby.py:502
+msgid "Select a Neck"
+msgstr "Agħżel għonq"
+
+#: Lobby.py:504
+msgid "Name"
+msgstr "Isem"
+
+#: Lobby.py:504
+msgid "Name your character!"
+msgstr "Isem karattru tiegħek!"
+
+#: Lobby.py:505
+#: Player.py:208
+msgid "Lefty Mode"
+msgstr "Lefty Modalità"
+
+#: Lobby.py:505
+msgid "Flip the guitar frets for left-handed playing!"
+msgstr "Flip-kitarra viti għal-logħob xellugi!"
+
+#: Lobby.py:506
+#: Player.py:209
+msgid "Drum Flip"
+msgstr "Drum Flip"
+
+#: Lobby.py:506
+msgid "Flip the drum sounds - snare becomes crash, and so on"
+msgstr "Flip-ċilindru ħsejjes - snare isir tiġrifa, u dan fuq"
+
+#: Lobby.py:507
+msgid "Auto-Kick Bass"
+msgstr "Auto-Kick Bass"
+
+#: Lobby.py:507
+msgid "Feet uncooperative? Broke your pedal? Not to worry!"
+msgstr "uncooperative Piedi? Kissru tiegħek pedala? Ma tinkwieta!"
+
+#: Lobby.py:508
+#: Player.py:211
+msgid "Assist Mode"
+msgstr "Jassistu Modalità"
+
+#: Lobby.py:508
+msgid "Play hard and expert, even when you're not that good!"
+msgstr "Play iebes u esperti, anki meta int mhux li tajba!"
+
+#: Lobby.py:509
+#: Player.py:190
+#: Player.py:210
+msgid "Two-Chord Max"
+msgstr "Żewġ-korda Max"
+
+#: Lobby.py:509
+msgid "For those still playing with uncooperative keyboards."
+msgstr "Għal dawk li għadhom jilagħbu bil-tastieri uncooperative."
+
+#: Lobby.py:510
+msgid "Give the endless procession of notes a bit of flair!"
+msgstr "Agħti l-purċissjoni bla tmiem ta 'noti ta' daqsxejn ta 'Flair!"
+
+#: Lobby.py:511
+msgid "Upload Name"
+msgstr "Isem Tella"
+
+#: Lobby.py:511
+msgid "To the internet, you are GUITARGOD23047124!"
+msgstr "Għall-internet, inti GUITARGOD23047124!"
+
+#: Lobby.py:512
+msgid "Choose Avatar"
+msgstr "Agħżel Avatar"
+
+#: Lobby.py:512
+msgid "A 256x256 window into your soul."
+msgstr "A window 256x256 fis ruħ tiegħek."
+
+#: Lobby.py:513
+msgid "Delete Character"
+msgstr "Ħassar Karattru"
+
+#: Lobby.py:513
+msgid "Quitter."
+msgstr "Quitter."
+
+#: Lobby.py:514
+msgid "Done"
+msgstr "Magħmula"
+
+#: Lobby.py:514
+msgid "All finished? Let's do this thing!"
+msgstr "Lesti kollha? Ejja nagħmlu dan ħaġa!"
+
+#: Lobby.py:549
+msgid "Are you sure you want to delete this player?"
+msgstr "Inti żgur li int tixtieq li jitħassar dan player?"
+
+#: Lobby.py:560
+msgid "That is a terrible name. Choose something not 'default'"
+msgstr "Li huwa isem terribbli. Agħżel xi ħaġa ma 'default \""
+
+#: Lobby.py:575
+msgid "That name already exists!"
+msgstr "Dak l-isem diġà teżisti!"
+
+#: Lobby.py:577
+msgid "Please enter a name!"
+msgstr "Jekk jogħġbok daħħal isem!"
+
+#: MainMenu.py:150
+msgid "Tutorials"
+msgstr "Tutorials"
+
+#: MainMenu.py:151
+msgid "Practice"
+msgstr "Prattika"
+
+#: MainMenu.py:165
+msgid "Face-Off"
+msgstr "Face-Off"
+
+#: MainMenu.py:166
+msgid "Pro Face-Off"
+msgstr "Pro Face-Off"
+
+#: MainMenu.py:167
+msgid "Party Mode"
+msgstr "Parti Modalità"
+
+#: MainMenu.py:168
+msgid "FoFiX Co-Op"
+msgstr "FoFiX Co-op"
+
+#: MainMenu.py:169
+msgid "RB Co-Op"
+msgstr "RB Co-op"
+
+#: MainMenu.py:170
+msgid "GH Co-Op"
+msgstr "GH Co-op"
+
+#: MainMenu.py:171
+msgid "GH Battle"
+msgstr "GH Battalja"
+
+#: MainMenu.py:188
+msgid "Solo Tour"
+msgstr "Solo Tour"
+
+#: MainMenu.py:189
+msgid "Quickplay"
+msgstr "Quickplay"
+
+#: MainMenu.py:236
+#, python-format
+msgid "This binary release is being run from a %(currentVcs)s working copy. This is not the correct way to run FoFiX from %(currentVcs)s. Please see one of the following web pages to set your %(currentVcs)s working copy up correctly:"
+msgstr "Dan ir-rilaxx ta 'żewġ fibri qed titmexxa minn kopja ta' xogħol %(currentVcs)s. Dan mhuwiex il-mod korrett li jiddekorri FoFiX minn %(currentVcs)s. Jekk jogħġbok ara waħda mill-paġni tal-web li ġejja biex jistabbilixxu %(currentVcs)s tax-xogħol tiegħek kopja b'mod korrett:"
+
+#: MainMenu.py:240
+#, python-format
+msgid "This binary was built from a %(buildVcs)s working copy but is not running from one. The FoFiX Team will not provide any support whatsoever for this binary. Please see the following site for official binary releases:"
+msgstr "Dan binarju nbniet minn kopja ta 'xogħol %(buildVcs)s imma ma tkunx qed taħdem minn. It-Tim FoFiX mhux se tipprovdi kull appoġġ tkun xi tkun għal dan binarja. Jekk jogħġbok ara s-sit li ġejjin għal rilaxxi binarja uffiċjali:"
+
+#: MainMenu.py:312
+msgid "No tutorials found!"
+msgstr "Nru tutorials nstab!"
+
+#: Microphone.py:50
+msgid "[Default Microphone]"
+msgstr "[Default mikrofonu]"
+
+#: Microphone.py:183
+msgid "[Microphones not supported]"
+msgstr "[Mikrofoni mhux appoġġjati]"
+
+#: Player.py:169
+msgid "Name your controller."
+msgstr "Isem kontrollur tiegħek."
+
+#: Player.py:170
+msgid "Move left"
+msgstr "Nimxu xellug"
+
+#: Player.py:171
+msgid "Move right"
+msgstr "Nimxu dritt"
+
+#: Player.py:172
+msgid "Move up"
+msgstr "Ningranaw"
+
+#: Player.py:173
+msgid "Move down"
+msgstr "Jinżel 'l isfel"
+
+#: Player.py:174
+msgid "Pick"
+msgstr "Pick"
+
+#: Player.py:175
+msgid "Secondary Pick"
+msgstr "Pick Sekondarja"
+
+#: Player.py:175
+msgid "Bass Drum 2"
+msgstr "Bass Drum 2"
+
+#: Player.py:181
+msgid "Solo Fret #1"
+msgstr "Solo Fret # 1"
+
+#: Player.py:181
+msgid "Solo Key"
+msgstr "Solo ewlenin"
+
+#: Player.py:181
+#: Player.py:196
+msgid "Analog Slider"
+msgstr "L-Interface Analogu slider"
+
+#: Player.py:182
+msgid "Solo Fret #2"
+msgstr "Solo Fret # 2"
+
+#: Player.py:183
+msgid "Solo Fret #3"
+msgstr "Solo Fret # 3"
+
+#: Player.py:184
+msgid "Solo Fret #4"
+msgstr "Solo Fret # 4"
+
+#: Player.py:185
+msgid "Solo Fret #5"
+msgstr "Solo Fret # 5"
+
+#: Player.py:186
+msgid "Cancel"
+msgstr "Ikkanċella"
+
+#: Player.py:187
+msgid "StarPower"
+msgstr "StarPower"
+
+#: Player.py:190
+msgid "When enabled, the highest notes in large note chords are auto-played."
+msgstr "Meta attivat, in-noti ogħla kordi nota kbar awto-rwol."
+
+#: Player.py:191
+msgid "Controller Type"
+msgstr "Kontrollur Tip"
+
+#: Player.py:191
+msgid "Standard Guitar"
+msgstr "Standard kitarra"
+
+#: Player.py:191
+msgid "Solo Shift Guitar"
+msgstr "Kitarra Shift Solo"
+
+#: Player.py:191
+msgid "Drum Set (4-Drum)"
+msgstr "Set Drum (4-Drum)"
+
+#: Player.py:191
+msgid "Analog Slide Guitar"
+msgstr "Kitarra Slide Interface Analogu"
+
+#: Player.py:191
+msgid "Microphone"
+msgstr "Mikrofonu"
+
+#: Player.py:191
+msgid "'Standard Guitar' is for keyboards and pre-WT GH-series guitars. 'Solo Shift Guitar' is for RB-series guitars and keyboards who want to use a shift key for solo frets. 'Analog Slide Guitar' is for guitars with an analog slider bar."
+msgstr "\"Standard kitarra\" hija għal tastieri u kitarri 'qabel l-WT-GH serje. huwa \"Solo Shift Guitar\" għal kitarri KR-serje u keyboards li jixtiequ jużaw ewlieni bidla għall solo viti. \"L-Interface Analogu Slide Guitar\" hija għal kitarri ma 'bar slider Analog."
+
+#: Player.py:192
+msgid "Analog SP"
+msgstr "L-Interface Analogu SP"
+
+#: Player.py:192
+msgid "Enables analog SP (as in the XBOX Xplorer controller.)"
+msgstr "Tippermetti Analog SP (kif fil-kontrollur Xplorer Xbox.)"
+
+#: Player.py:193
+msgid "Analog SP Threshold"
+msgstr "Limitu SP Interface Analogu"
+
+#: Player.py:193
+msgid "Sets a threshold level for activating SP in analog mode."
+msgstr "Tistabbilixxi livell limitu għall-attivazzjoni SP fil-modalità Analog."
+
+#: Player.py:194
+msgid "Analog SP Sensitivity"
+msgstr "Sensittività SP Interface Analogu"
+
+#: Player.py:194
+msgid "Sets the sensitivity for activating SP in analog mode."
+msgstr "Jistabbilixxi l-sensittività għall-attivazzjoni SP fil-modalità Analog."
+
+#: Player.py:195
+msgid "Analog Drums"
+msgstr "L-Interface Analogu Drums"
+
+#: Player.py:195
+#: Player.py:197
+msgid "PS2/PS3/Wii"
+msgstr "PS2/PS3/Wii"
+
+#: Player.py:195
+#: Player.py:197
+msgid "XBOX"
+msgstr "XBOX"
+
+#: Player.py:195
+#: Player.py:197
+msgid "XBOX Inv."
+msgstr "Inv Xbox."
+
+#: Player.py:195
+msgid "Enables analog drums as in RB2 and GH drumsets."
+msgstr "Tippermetti drums Analog bħal fil RB2 u drumsets GH."
+
+#: Player.py:196
+msgid "Inverted"
+msgstr "Maqlub"
+
+#: Player.py:196
+msgid "Experimental testing for the analog slide mode."
+msgstr "ittestjar Esperimentali għall-mod slide Analog."
+
+#: Player.py:197
+msgid "Analog Effects"
+msgstr "Effetti Interface Analogu"
+
+#: Player.py:197
+msgid "Enables analog whammy bar. Set to the system your controller was designed for."
+msgstr "Tippermetti Analog saħta bar. Issettja għas-sistema kontrollur tiegħek kienet maħsuba għall."
+
+#: Player.py:198
+msgid "Sound FX Switch"
+msgstr "Swiċċ tal-ħoss FX"
+
+#: Player.py:198
+msgid "Switch"
+msgstr "Aqleb"
+
+#: Player.py:198
+msgid "Cycle"
+msgstr "Ċiklu"
+
+#: Player.py:199
+msgid "Microphone Device"
+msgstr "Apparat mikrofonu"
+
+#: Player.py:200
+msgid "Tap Sensitivity"
+msgstr "Tektek Sensittività"
+
+#: Player.py:200
+msgid "Sets how sensitive the microphone is to being tapped."
+msgstr "Settijiet kif sensittiv li l-mikrofonu għandu jiġi sfruttat."
+
+#: Player.py:201
+msgid "Passthrough Volume"
+msgstr "Volum Passthrough"
+
+#: Player.py:201
+msgid "Sets how loud you hear yourself singing."
+msgstr "Settijiet kif loud inti tisma lilek innifsek kant."
+
+#: Player.py:207
+msgid "Neck Type"
+msgstr "Għonq Tip"
+
+#: Player.py:207
+msgid "Specific Neck"
+msgstr "Għonq speċifiċi"
+
+#: Player.py:212
+msgid "Auto Kick"
+msgstr "Auto Kick"
+
+#: Player.py:385
+msgid "Default Drum"
+msgstr "Default Drum"
+
+#: Player.py:390
+#, python-format
+msgid "Controller %d"
+msgstr "Kontrollur %d"
+
+#: Player.py:391
+#, python-format
+msgid "Select the controller for slot %d"
+msgstr "Agħżel il-kontrollur għal slots %d"
+
+#: Player.py:754
+#, python-format
+msgid "%s conflicts with %s"
+msgstr "%s kunflitti mal %s"
+
+#: Player.py:842
+#, python-format
+msgid "This key conflicts with the following keys: %s"
+msgstr "Dan kunflitti ewlenin bil-buttuni li ġejjin: %s"
+
+#: Scorekeeper.py:30
+msgid "Auto Kick Bass"
+msgstr "Bass Kick Auto"
+
+#: Scorekeeper.py:30
+msgid "Medium Assist Mode"
+msgstr "Medju Assistenza Modalità"
+
+#: Scorekeeper.py:30
+msgid "Easy Assist Mode"
+msgstr "Faċli Assistenza Modalità"
+
+#: Scorekeeper.py:30
+msgid "Jurgen Played!"
+msgstr "Jurgen Lagħbu!"
+
+#: Scorekeeper.py:31
+msgid "Effects Saved SP"
+msgstr "Effetti Ssejvjata SP"
+
+#: Scorekeeper.py:31
+msgid "All Tapping"
+msgstr "Kollha utilizzar"
+
+#: Scorekeeper.py:31
+msgid "HOPO Frequency: Most"
+msgstr "Frekwenza HOPO: Ħafna"
+
+#: Scorekeeper.py:31
+msgid "HOPO Frequency: Even More"
+msgstr "Frekwenza HOPO: Anke Aktar"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: More"
+msgstr "Frekwenza HOPO: Aktar"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: Less"
+msgstr "Frekwenza HOPO: Inqas"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: Least"
+msgstr "Frekwenza HOPO: Inqas"
+
+#: Scorekeeper.py:32
+msgid "HOPO Disabled!"
+msgstr "HOPO b'diżabilità!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Tightest!"
+msgstr "Tieqa Hits: aktar issikkata!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Tight!"
+msgstr "Tieqa Hits: Issikkat!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Wider"
+msgstr "Tieqa Hits: Usa"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Widest"
+msgstr "Tieqa Hits: Aktar Wesgħin"
+
+#: Scorekeeper.py:34
+msgid "Two Note Chords"
+msgstr "Kordi Żewġ Nota"
+
+#: Scorekeeper.py:34
+msgid "No Fail Mode"
+msgstr "Nru Fail Modalità"
+
+#: Scorekeeper.py:34
+msgid "Sloppy Mode!"
+msgstr "Modalità sloppy!"
+
+#: Scorekeeper.py:35
+msgid "Song Slowdown"
+msgstr "Kanzunetta tnaqqis"
+
+#: Scorekeeper.py:35
+msgid "Early Hit Window Adjustment"
+msgstr "Kmieni Hits Aġġustament Tieqa"
+
+#: Settings.py:250
+#, python-format
+msgid "Press a key for '%s' or hold Escape to disable."
+msgstr "Istampa ewlieni għall '%s 'jew li jkollhom ħrib li jiskonnettja."
+
+#: Settings.py:252
+#, python-format
+msgid "Press a key for '%s' or hold Escape to cancel."
+msgstr "Istampa ewlieni għall '%s 'jew li jkollhom ħrib biex tikkanċella."
+
+#: Settings.py:302
+msgid "No Controllers Found."
+msgstr "Nru Kontrolluri tinsab."
+
+#: Settings.py:350
+msgid "Are you sure you want to delete this controller?"
+msgstr "Inti żgur li int tixtieq li tiġi mħassra din kontrollur?"
+
+#: Settings.py:374
+msgid "Please name your controller"
+msgstr "Jekk jogħġbok isem kontrollur tiegħek"
+
+#: Settings.py:376
+#: Settings.py:626
+msgid "That name is already taken."
+msgstr "Dan l-isem li diġà ttieħdu."
+
+#: Settings.py:378
+#: Settings.py:628
+msgid "Canceled."
+msgstr "Kanċellati."
+
+#: Settings.py:450
+#: Settings.py:487
+#: Settings.py:517
+#: Settings.py:546
+#: Settings.py:584
+#: Settings.py:612
+msgid "Rename Controller"
+msgstr "Semmi Kontrollur"
+
+#: Settings.py:473
+msgid "Press the solo shift key. Be sure to assign the frets first! Hold Escape to cancel."
+msgstr "Agħfas il-bidla ewlenija solo. Kun żgur li jassenja l-viti ewwel! Żomm 'ħrib għaż tikkanċella."
+
+#: Settings.py:569
+msgid "Press the highest fret on the slider. Hold Escape to cancel."
+msgstr "Agħfas il-ogħla fret fuq il-slider. Żomm 'ħrib għaż tikkanċella."
+
+#: Settings.py:624
+msgid "Please rename your controller"
+msgstr "Jekk jogħġbok semmi mill-ġdid kontrollur tiegħek"
+
+#: Settings.py:752
+msgid "Battle Objects"
+msgstr "Objects Battalja"
+
+#: Settings.py:752
+msgid "Set which objects can appear in Battle Mode"
+msgstr "Issettja liema oġġetti jistgħu jidhru fit Battalja Modalità"
+
+#: Settings.py:767
+msgid "Advanced Gameplay Settings"
+msgstr "Gameplay Settings Avvanzata"
+
+#: Settings.py:767
+msgid "Set advanced gameplay settings that affect the game rules."
+msgstr "Issettja avvanzata settings gameplay li jaffettwaw ir-regoli tal-kaċċa."
+
+#: Settings.py:768
+msgid "Vocal Mode Settings"
+msgstr "Settings Vokali Modalità"
+
+#: Settings.py:768
+msgid "Change settings that affect lyrics and in-game vocals."
+msgstr "Bidla settings li jaffettwaw lirika u vocals fil-logħba."
+
+#: Settings.py:769
+msgid "HO/PO Settings"
+msgstr "PO Settings HO /"
+
+#: Settings.py:769
+msgid "Change settings that affect hammer-ons and pull-offs (HO/PO)."
+msgstr "Bidla settings li jaffettwaw martell-ons u iġbed il-kompromessi (HO / PO)."
+
+#: Settings.py:770
+msgid "Battle Settings"
+msgstr "Battalja Settings"
+
+#: Settings.py:770
+msgid "Change settings that affect battle mode."
+msgstr "Bidla settings li jaffettwaw modalità battalja."
+
+#: Settings.py:776
+#: Settings.py:1218
+msgid "Test Controller 1"
+msgstr "Kontrollur tat-Test 1"
+
+#: Settings.py:776
+#: Settings.py:1218
+msgid "Test the controller configured for slot 1."
+msgstr "Test il-kontrollur konfigurati għal slots 1."
+
+#: Settings.py:777
+#: Settings.py:1219
+msgid "Test Controller 2"
+msgstr "Kontrollur tat-test 2"
+
+#: Settings.py:777
+#: Settings.py:1219
+msgid "Test the controller configured for slot 2."
+msgstr "Test il-kontrollur konfigurati għal slots 2."
+
+#: Settings.py:778
+#: Settings.py:1220
+msgid "Test Controller 3"
+msgstr "Kontrollur tat-test 3"
+
+#: Settings.py:778
+#: Settings.py:1220
+msgid "Test the controller configured for slot 3."
+msgstr "Test il-kontrollur konfigurati għal slots 3."
+
+#: Settings.py:779
+#: Settings.py:1221
+msgid "Test Controller 4"
+msgstr "Kontrollur tat-test 4"
+
+#: Settings.py:779
+#: Settings.py:1221
+msgid "Test the controller configured for slot 4."
+msgstr "Test il-kontrollur konfigurati għal slots 4."
+
+#: Settings.py:818
+msgid "More Effects"
+msgstr "Effetti Aktar"
+
+#: Settings.py:818
+msgid "Change the settings of the shader system."
+msgstr "Ibdel il-settings tas-sistema Shader."
+
+#: Settings.py:834
+msgid "Change Neck Transparency"
+msgstr "Trasparenza fl-għonq Bidla"
+
+#: Settings.py:834
+msgid "Change the transparency of the various in-game necks."
+msgstr "Ibdel il-trasparenza tal-għenuq fil-logħba varji."
+
+#: Settings.py:847
+msgid "Theme Display Settings"
+msgstr "Display Settings Tema"
+
+#: Settings.py:847
+msgid "Change settings that only affect certain theme types."
+msgstr "Bidla postijiet li jaffettwaw biss tipi tema ċerti."
+
+#: Settings.py:866
+#: Settings.py:1239
+msgid "Video Resolution"
+msgstr "Video Riżoluzzjoni"
+
+#: Settings.py:866
+#: Settings.py:1239
+msgid "Set the resolution of the game. In windowed mode, higher values mean a larger screen."
+msgstr "Issettja l-riżoluzzjoni tal-logħba. Fil-modalità windowed, valuri ogħla tfisser screen akbar."
+
+#: Settings.py:873
+msgid "Stages Options"
+msgstr "Għażliet Stadji"
+
+#: Settings.py:873
+msgid "Change settings related to the in-game background."
+msgstr "Bidla settings relatati ma 'l-isfond fil-logħba."
+
+#: Settings.py:874
+#: Settings.py:1246
+msgid "Choose Default Neck >"
+msgstr "Agħżel Default għonq>"
+
+#: Settings.py:874
+#: Settings.py:1246
+msgid "Choose your default neck. You still have to choose which neck you use for your character in the character select screen."
+msgstr "Agħżel għonq tiegħek default. Inti għad għandek li jagħżel liema għonq tuża għall-karattru tiegħek fil-karattru iskrin tagħżel."
+
+#: Settings.py:875
+msgid "Fretboard Settings"
+msgstr "Fretboard Settings"
+
+#: Settings.py:875
+msgid "Change settings related to the fretboard."
+msgstr "Bidla settings relatati mal-fretboard."
+
+#: Settings.py:876
+#: Settings.py:1247
+msgid "In-Game Display Settings"
+msgstr "Fil-Game Display Settings"
+
+#: Settings.py:876
+#: Settings.py:1247
+msgid "Change what and where things appear in-game."
+msgstr "Bidla xiex u fejn l-affarijiet jidhru fil-logħba."
+
+#: Settings.py:877
+msgid "Advanced Video Settings"
+msgstr "Video Settings Avvanzata"
+
+#: Settings.py:877
+msgid "Change advanced video settings."
+msgstr "Bidla avvanzati settings video."
+
+#: Settings.py:905
+#: Settings.py:1266
+msgid "Volume Settings"
+msgstr "Volum Settings"
+
+#: Settings.py:905
+#: Settings.py:1266
+msgid "Change the volume of game sounds."
+msgstr "Ibdel il-volum ta 'ħsejjes logħba."
+
+#: Settings.py:914
+msgid "Advanced Audio Settings"
+msgstr "Advanced Settings Awdjo"
+
+#: Settings.py:914
+msgid "Change advanced audio settings."
+msgstr "Bidla avvanzati settings awdjo."
+
+#: Settings.py:956
+#: Settings.py:1281
+msgid "Change Setlist Path >"
+msgstr "Bidla> Path Setlist"
+
+#: Settings.py:956
+#: Settings.py:1281
+msgid "Set the path to a folder named 'songs' that contains your songs."
+msgstr "Issettja l-passaġġ għal folder li jismu 'kanzunetti \"li fih kanzunetti tiegħek."
+
+#: Settings.py:988
+msgid "Debug Settings"
+msgstr "Debug Settings"
+
+#: Settings.py:988
+msgid "Settings for coders to debug. Probably not worth changing."
+msgstr "Settings għall kodifikaturi biex debug. Probabbilment ma jiswew jinbidlu."
+
+#: Settings.py:989
+msgid "Log Settings"
+msgstr "Log Settings"
+
+#: Settings.py:989
+msgid "Adds junk information to the logfile. Probably not useful in bug reports."
+msgstr "Żżid l-informazzjoni junk lill-logfile. Probabbilment ma utli fir-rapporti bug."
+
+#: Settings.py:994
+msgid "AI Settings"
+msgstr "AI Settings"
+
+#: Settings.py:994
+msgid "Change the settings of the AI"
+msgstr "Ibdel il-settings tal-AI"
+
+#: Settings.py:1003
+#: Settings.py:1356
+msgid "Mod settings"
+msgstr "Mod settings"
+
+#: Settings.py:1003
+#: Settings.py:1356
+msgid "Enable or disable any mods you have installed."
+msgstr "Jippermettu jew tiddiżattiva kwalunkwe mods ikollok installat."
+
+#: Settings.py:1008
+#: Settings.py:1298
+msgid "Gameplay Settings"
+msgstr "Gameplay Settings"
+
+#: Settings.py:1008
+#: Settings.py:1298
+msgid "Settings that affect the rules of the game."
+msgstr "Settings li jaffettwaw ir-regoli tal-logħba."
+
+#: Settings.py:1009
+#: Settings.py:1299
+msgid "Control Settings"
+msgstr "Kontroll Settings"
+
+#: Settings.py:1009
+#: Settings.py:1299
+msgid "Create, delete, and edit your controls."
+msgstr "Oħloq, tħassar, u jeditjaw kontrolli tiegħek."
+
+#: Settings.py:1010
+#: Settings.py:1300
+msgid "Display Settings"
+msgstr "Display Settings"
+
+#: Settings.py:1010
+#: Settings.py:1300
+msgid "Theme, neck, resolution, etc."
+msgstr "Tema, għonq, ir-riżoluzzjoni, eċċ"
+
+#: Settings.py:1011
+#: Settings.py:1301
+msgid "Audio Settings"
+msgstr "Awdjo Settings"
+
+#: Settings.py:1011
+#: Settings.py:1301
+msgid "Volume controls, etc."
+msgstr "Volum kontrolli, eċċ"
+
+#: Settings.py:1012
+#: Settings.py:1302
+msgid "Setlist Settings"
+msgstr "Setlist Settings"
+
+#: Settings.py:1012
+#: Settings.py:1302
+msgid "Settings that affect the setlist."
+msgstr "Settings li jaffettwaw il-setlist."
+
+#: Settings.py:1013
+msgid "Advanced Settings"
+msgstr "Advanced Settings"
+
+#: Settings.py:1013
+msgid "Settings that probably don't need to be changed."
+msgstr "Postijiet li probabbilment huma m'għandhomx bżonn li jinbidlu."
+
+#: Settings.py:1014
+#: Settings.py:1303
+msgid "Mods, Cheats, AI"
+msgstr "Mods, Cheats, AI"
+
+#: Settings.py:1014
+#: Settings.py:1303
+msgid "Set Jurgen to play for you, or other cheats."
+msgstr "Set Jurgen jilagħbu għalik, jew cheats oħra."
+
+#: Settings.py:1015
+#: Settings.py:1304
+#, python-format
+msgid "%s Credits"
+msgstr "%s Krediti"
+
+#: Settings.py:1015
+#: Settings.py:1304
+msgid "See who made this game."
+msgstr "Ara li tkun għamlet din il-logħba."
+
+#: Settings.py:1016
+#: Settings.py:1305
+msgid "Quickset"
+msgstr "Quickset"
+
+#: Settings.py:1016
+#: Settings.py:1305
+msgid "A quick way to set many advanced settings."
+msgstr "A quick mod li sett settings avvanzati ħafna."
+
+#: Settings.py:1017
+msgid "Hide Advanced Options"
+msgstr "Hide Avvanzata"
+
+#: Settings.py:1047
+#: Settings.py:1320
+msgid "FoFiX needs to restart to apply setting changes."
+msgstr "FoFiX jeħtieġ li jerġgħa jibda jgħodd bidliet istabbiliment."
+
+#: Settings.py:1066
+#: Settings.py:1328
+msgid "Test Controls"
+msgstr "Test Kontrolli"
+
+#: Settings.py:1066
+#: Settings.py:1328
+msgid "Go here to test your controllers."
+msgstr "Mur hawn biex tittestja kontrolluri tiegħek."
+
+#: Settings.py:1071
+#: Settings.py:1333
+msgid "New Controller"
+msgstr "Ġodda Kontrollur"
+
+#: Settings.py:1071
+#: Settings.py:1333
+msgid "Create a new controller to use."
+msgstr "Oħloq kontrollur il-ġdid għall-użu."
+
+#: Settings.py:1072
+#: Settings.py:1334
+msgid "Edit Controller"
+msgstr "Edit Kontrollur"
+
+#: Settings.py:1072
+#: Settings.py:1334
+msgid "Edit a controller you have created."
+msgstr "Edit kontrollur ikollok maħluqa."
+
+#: Settings.py:1073
+#: Settings.py:1335
+msgid "Delete Controller"
+msgstr "Ħassar Kontrollur"
+
+#: Settings.py:1073
+#: Settings.py:1335
+msgid "Delete a controller you have created."
+msgstr "Ħassar kontrollur ikollok maħluqa."
+
+#: Settings.py:1089
+#: Settings.py:1366
+msgid "You must specify a controller for slot 1!"
+msgstr "Għandek tispeċifika kontrollur għal slots 1!"
+
+#: Settings.py:1095
+#: Settings.py:1372
+#, python-format
+msgid "Controllers in slots %d and %d conflict. Setting %d to None."
+msgstr "Kontrolluri slots %d u %d kunflitt. Twaqqif %d li Xejn."
+
+#: Settings.py:1104
+#: Settings.py:1381
+#, python-format
+msgid "%d more conflicts."
+msgstr "%d kunflitti aktar."
+
+#: Settings.py:1149
+#: Settings.py:1411
+msgid "Choose a new songs directory."
+msgstr "Agħżel direttorju kanzunetti ġodda."
+
+#: Settings.py:1306
+msgid "See Advanced Options"
+msgstr "Ara Avvanzata"
+
+#: Settings.py:1600
+msgid "Cheats"
+msgstr "Cheats"
+
+#: Song.py:132
+msgid "Guitar"
+msgstr "Kitarra"
+
+#: Song.py:133
+msgid "Rhythm"
+msgstr "Ritmu"
+
+#: Song.py:134
+msgid "Bass"
+msgstr "Bass"
+
+#: Song.py:135
+msgid "Lead"
+msgstr "Ċomb"
+
+#: Song.py:136
+msgid "Drums"
+msgstr "Drums"
+
+#: Song.py:137
+msgid "Vocals"
+msgstr "Vocals"
+
+#: Song.py:162
+msgid "Easy"
+msgstr "Faċli"
+
+#: Song.py:163
+msgid "Medium"
+msgstr "Medju"
+
+#: Song.py:164
+msgid "Hard"
+msgstr "Hard"
+
+#: Song.py:165
+msgid "Expert"
+msgstr "Esperti"
+
+#: Song.py:227
+msgid "NoName"
+msgstr "NoName"
+
+#: Song.py:960
+msgid "This song is locked."
+msgstr "Din hija kanzunetta maqfula."
+
+#: Song.py:1166
+msgid "Reset Career"
+msgstr "Irrisettja Karriera"
+
+#: Song.py:1213
+msgid "   (Random Song)"
+msgstr "(Kanzunetta Każwali)"
+
+#: Song.py:4171
+msgid "End of Career"
+msgstr "Tmiem tal-Karriera"
+
+#: Song.py:4434
+#: Song.py:4437
+msgid "Checking song database..."
+msgstr "Iċċekkjar database kanzunetta ..."
+
+#: Song.py:4444
+#, python-format
+msgid "Enumerating song folders... (%d so far)"
+msgstr "kanzunetta folders telenka ... (%d s'issa)"
+
+#: Song.py:4448
+msgid "Caching song data..."
+msgstr "dejta Caching kanzunetta ..."
+
+#: Song.py:4448
+#, python-format
+msgid "(folder %d of %d; %d%% of this folder)"
+msgstr "(Folder %d ta '%d; %d%% ta' dan folder)"
+
+#: Song.py:4449
+msgid "Pruning leftover entries..."
+msgstr "entrati żbir jibqalek ..."
+
+#: SongChoosingScene.py:104
+msgid "Initializing Setlist..."
+msgstr "Initializing Setlist ..."
+
+#: SongChoosingScene.py:106
+msgid "Checking Command-Line Settings..."
+msgstr "Settings Iċċekkjar-Linja ta 'Kmand ..."
+
+#: SongChoosingScene.py:108
+msgid "Checking Setlist Settings..."
+msgstr "Iċċekkjar Settings Setlist ..."
+
+#: SongChoosingScene.py:265
+#: SongChoosingScene.py:267
+#: SongChoosingScene.py:277
+msgid "Browsing Collection..."
+msgstr "Browsing Ġbir ..."
+
+#: SongChoosingScene.py:327
+#: SongChoosingScene.py:337
+msgid "No songs in this setlist are available to play!"
+msgstr "Nru kanzunetti f'dan setlist huma disponibbli to play!"
+
+#: SongChoosingScene.py:329
+#: SongChoosingScene.py:339
+msgid "Make sure you have a working career pack!"
+msgstr "Kun ċert li jkollok pakkett karriera tax-xogħol!"
+
+#: SongChoosingScene.py:389
+#: SongChoosingScene.py:496
+msgid "Loading Album Artwork..."
+msgstr "Tagħbija Artwork Album ..."
+
+#: SongChoosingScene.py:423
+#: SongChoosingScene.py:634
+msgid "There are no drum parts in this song. Change your controllers to play."
+msgstr "M'hemm l-ebda drum partijiet f'dan il-kanzunetta. kontrolluri Bidla tiegħek biex tilgħab."
+
+#: SongChoosingScene.py:431
+#: SongChoosingScene.py:637
+msgid "There are no guitar parts in this song. Change your controllers to play."
+msgstr "M'hemm l-ebda partijiet kitarri fil dan il-kanzunetta. kontrolluri Bidla tiegħek biex tilgħab."
+
+#: SongChoosingScene.py:439
+#: SongChoosingScene.py:640
+msgid "There are no vocal parts in this song. Change your controllers to play."
+msgstr "M'hemm l-ebda partijiet vokali fil dan il-kanzunetta. kontrolluri Bidla tiegħek biex tilgħab."
+
+#: SongChoosingScene.py:457
+#, python-format
+msgid "%s Choose a difficulty:"
+msgstr "%s Agħżel diffikultà:"
+
+#: Theme.py:1001
+#: Theme.py:1126
+#: Theme.py:1209
+#: Theme.py:1319
+#: Theme.py:1482
+#: Theme.py:1605
+#: Theme.py:2114
+msgid "-- Locked --"
+msgstr "- Illokjati -"
+
+#: Theme.py:1047
+#: Theme.py:1070
+#: Theme.py:1086
+#: Theme.py:1103
+#: Theme.py:1236
+#: Theme.py:1260
+#: Theme.py:1276
+#: Theme.py:1280
+#: Theme.py:1365
+#: Theme.py:1388
+#: Theme.py:1404
+#: Theme.py:1417
+#: Theme.py:1631
+#: Theme.py:1655
+#: Theme.py:1671
+#: Theme.py:1674
+msgid "Nil"
+msgstr "Xejn"
+
+#: Theme.py:1432
+#: Theme.py:2055
+#: Theme.py:2060
+#: Theme.py:2096
+msgid "Loading Preview..."
+msgstr "Tagħbija Preview ..."
+
+#: Theme.py:1440
+#: Theme.py:1549
+msgid "Play To Advance"
+msgstr "Play Biex bil-Quddiem"
+
+#: Theme.py:1446
+#: Theme.py:1555
+msgid "Played Once"
+msgstr "Lagħbu Ladarba"
+
+#: Theme.py:1448
+#: Theme.py:1557
+#, python-format
+msgid "Played %d times."
+msgstr "Lagħbu %d darbiet."
+
+#: Theme.py:1455
+#: Theme.py:1571
+msgid "There Is 1 Song In This Setlist."
+msgstr "Hemm 1 Kanzunetta Fil Dan Setlist."
+
+#: Theme.py:1457
+#: Theme.py:1573
+#, python-format
+msgid "There Are %d Songs In This Setlist."
+msgstr "Hemm %d Kanzunetti Fil Dan Setlist."
+
+#: Theme.py:1461
+#: Theme.py:1577
+msgid "Tier"
+msgstr "Livell"
+
+#: Theme.py:1465
+#: Theme.py:1588
+msgid "Random Song"
+msgstr "Kanzunetta Random"
+
+#: Theme.py:2016
+msgid "DIFFICULTY"
+msgstr "F'DIFFIKULTÀ"
+
+#: Theme.py:2018
+msgid "BAND"
+msgstr "Banda"
+
+#: Theme.py:2020
+msgid "GUITAR"
+msgstr "Guitar"
+
+#: Theme.py:2022
+msgid "DRUM"
+msgstr "Drum"
+
+#: Theme.py:2024
+msgid "BASS"
+msgstr "BASS"
+
+#: Theme.py:2026
+msgid "VOCALS"
+msgstr "Vocals"
+
+#: Theme.py:2032
+msgid "SORTING:"
+msgstr "Issortjar:"
+
+#: Theme.py:2034
+msgid "ALPHABETICALLY BY TITLE"
+msgstr "Alfabetikament MILL TITOLU"
+
+#: Theme.py:2036
+msgid "ALPHABETICALLY BY ARTIST"
+msgstr "Alfabetikament MILL ARTIST"
+
+#: Theme.py:2038
+msgid "BY PLAY COUNT"
+msgstr "MILL PLAY Count"
+
+#: Theme.py:2040
+msgid "ALPHABETICALLY BY ALBUM"
+msgstr "Alfabetikament MILL ALBUM"
+
+#: Theme.py:2042
+msgid "ALPHABETICALLY BY GENRE"
+msgstr "Alfabetikament MILL ġeneru"
+
+#: Theme.py:2044
+msgid "BY YEAR"
+msgstr "MILL SENA"
+
+#: Theme.py:2046
+msgid "BY BAND DIFFICULTY"
+msgstr "Mill-Banda F'DIFFIKULTÀ"
+
+#: Theme.py:2048
+msgid "BY INSTRUMENT DIFFICULTY"
+msgstr "SKOND L-ISTRUMENT F'DIFFIKULTÀ"
+
+#: Theme.py:2050
+msgid "BY SONG COLLECTION"
+msgstr "MILL kanzunetta ĠBIR"
+
+#: Theme.py:2145
+#, python-format
+msgid "Played %d time"
+msgstr "Lagħbu %d żmien"
+
+#: Theme.py:2147
+#, python-format
+msgid "Played %d times"
+msgstr "Lagħbu %d darbiet"
+
+#: Theme.py:2152
+#: Theme.py:2159
+msgid "Play To Advance."
+msgstr "Play Biex bil-Quddiem."
+
+#: Theme.py:2155
+msgid "Never Played"
+msgstr "Qatt Lagħbu"
+
+#: Theme.py:2219
+msgid "One Song In This Setlist"
+msgstr "Wieħed Kanzunetta Fil Dan Setlist"
+
+#: Theme.py:2221
+#, python-format
+msgid "%d Songs In This Setlist"
+msgstr "%d Kanzunetti Fil Dan Setlist"
+
+#: Theme.py:2230
+msgid "(Random Song)"
+msgstr "(Kanzunetta Każwali)"
+
+#: Theme.py:2428
+msgid "No Album"
+msgstr "Nru Album"
+
+#: Theme.py:2433
+msgid "No Genre"
+msgstr "Nru Ġeneru"
+
+#: Video.py:151
+msgid "Video setup failed with your resolution settings, and so were reset to defaults."
+msgstr "setup Video ma rnexxilux settings riżoluzzjoni tiegħek, u għalhekk kienu reset għal nuqqasijiet."
+
+#: Vocalist.py:120
+msgid "Amazing!"
+msgstr "Amazing!"
+
+#: Vocalist.py:120
+msgid "Great!"
+msgstr "Great!"
+
+#: Vocalist.py:120
+msgid "Decent"
+msgstr "Diċenti"
+
+#: Vocalist.py:120
+msgid "Average"
+msgstr "Medja"
+
+#: Vocalist.py:120
+msgid "Meh"
+msgstr "Meh"
+
+#: Vocalist.py:120
+msgid "Bad"
+msgstr "Bad"
+
+#: Vocalist.py:120
+msgid "Terrible..."
+msgstr "Terrible ..."
+
+#: Vocalist.py:449
+msgid "Tap!"
+msgstr "Tektek!"
+
+#: World.py:60
+msgid "FoFiX Co-Op Mode"
+msgstr "FoFiX Modalità Co-op"
+
+#: World.py:62
+msgid "RB Co-Op Mode"
+msgstr "RB Modalità Co-op"
+
+#: World.py:64
+msgid "GH Co-Op Mode"
+msgstr "GH Modalità Co-op"
+
+#: World.py:66
+msgid "Battle Mode"
+msgstr "Battalja Modalità"
+
+#: World.py:73
+msgid "Career Mode"
+msgstr "Karriera Modalità"
+
+

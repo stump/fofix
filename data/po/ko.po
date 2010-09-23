@@ -1,0 +1,5012 @@
+# -*- coding: utf-8 -*-
+#####################################################################
+#                                                                   #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
+#                                                                   #
+# This program is free software; you can redistribute it and/or     #
+# modify it under the terms of the GNU General Public License       #
+# as published by the Free Software Foundation; either version 2    #
+# of the License, or (at your option) any later version.            #
+#                                                                   #
+# This program is distributed in the hope that it will be useful,   #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of    #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the     #
+# GNU General Public License for more details.                      #
+#                                                                   #
+# You should have received a copy of the GNU General Public License #
+# along with this program; if not, write to the Free Software       #
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,        #
+# MA  02110-1301, USA.                                              #
+#####################################################################
+
+msgid ""
+msgstr ""
+"Project-Id-Version: FoFiX 4 Development\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-19 11:47-0600\n"
+"PO-Revision-Date: 2010-09-19 11:48-0600\n"
+"Last-Translator: Google Translator\n"
+"Language-Team: FoFiX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: Credits.py:125
+msgid "This mod was built on Alarian's mod,"
+msgstr "이 모듈은 Alarian의 모드에서 만들어진"
+
+#: Credits.py:126
+msgid "which was built on UltimateCoffee's Ultimate mod,"
+msgstr "어느 UltimateCoffee의 궁극의 모드에서 만들어진"
+
+#: Credits.py:127
+msgid "which was built on RogueF's RF_mod 4.15,"
+msgstr "어느 RogueF의 RF_mod 4.15에 만들어진"
+
+#: Credits.py:128
+msgid "which was, of course, built on Frets on Fire 1.2.451,"
+msgstr "이는 물론, 화재 1.2.451에 안달이 난거 로군요에 지어였다"
+
+#: Credits.py:129
+msgid "which was created by Unreal Voodoo"
+msgstr "어느 언리얼 부두에서 만들어졌습니다"
+
+#: Credits.py:130
+msgid "No Particular Order"
+msgstr "특별한 순서없이"
+
+#: Credits.py:131
+msgid "Active Coders:"
+msgstr "활성 코더 :"
+
+#: Credits.py:132
+msgid "Past Coders:"
+msgstr "과거 코더 :"
+
+#: Credits.py:133
+msgid "Main Graphic Contributors:"
+msgstr "주요 그래픽 참여자 :"
+
+#: Credits.py:134
+msgid "Translators:"
+msgstr "번역자 :"
+
+#: Credits.py:135
+msgid "Team Hero:"
+msgstr "팀 영웅 :"
+
+#: Credits.py:136
+msgid "Creators of Career Mode"
+msgstr "커리어 모드의 크리에이터즈"
+
+#: Credits.py:137
+msgid "Honorary Credits to:"
+msgstr "명예 크레딧 항목 :"
+
+#: Credits.py:138
+msgid "Donations to MFH"
+msgstr "기부는 MFH에"
+
+#: Credits.py:139
+msgid "Donations to akedrou"
+msgstr "기부에 akedrou"
+
+#: Credits.py:140
+msgid "Major Donations:"
+msgstr "주요 기부 :"
+
+#: Credits.py:141
+msgid "Other Donations:"
+msgstr "기타 기부 :"
+
+#: Credits.py:142
+msgid "Other Credits:"
+msgstr "기타 크레딧 :"
+
+#: Credits.py:143
+msgid "Jurgen FoF tutorial inspired by adam02"
+msgstr "위르겐 FoF는 adam02에서 영감을 튜토리얼"
+
+#: Credits.py:144
+msgid "Drum test song tutorial by Heka"
+msgstr "Heka로 드럼 테스트 노래 튜토리얼"
+
+#: Credits.py:145
+msgid "Bang Bang Mystery Man song tutorial is from the original FoF"
+msgstr "뱅 뱅 정체 불명의 남자의 노래는 튜토리얼 원래 FoF에서"
+
+#: Credits.py:146
+msgid "Drum Rolls practice tutorial by venom426"
+msgstr "venom426로 드럼 롤스 연습 튜토리얼"
+
+#: Credits.py:147
+msgid "If you see your work included in this game and you aren't"
+msgstr "당신의 작품을 보면이 경기에 포함된 당신이되지 않습니다"
+
+#: Credits.py:148
+msgid "in the credits, please leave a polite post stating what you"
+msgstr "정중 게시물을한다는 남겨주세요 크레딧에 무슨"
+
+#: Credits.py:149
+msgid "did and when, as specific as possible."
+msgstr "한 때, 가능한 한 구체적."
+
+#: Credits.py:150
+msgid "If you can, please provide a link to your original posting"
+msgstr "당신은 당신의 게시 원본에 대한 링크를 제공해주십시오 수있다면"
+
+#: Credits.py:151
+msgid "of the work in question."
+msgstr "문제의 작품."
+
+#: Credits.py:152
+msgid "Then we can properly credit you."
+msgstr "그럼 우리가 제대로 크레딧을하실 수 있습니다."
+
+#: Credits.py:153
+msgid "Thank you for your contribution."
+msgstr "당신의 기여에 감사드립니다."
+
+#: Credits.py:154
+msgid "Please keep in mind that it is not easy to trace down and"
+msgstr "제발 마음에 그것이 아래로 추적하는 것은 쉽지 않다 유지"
+
+#: Credits.py:155
+msgid "credit every single person who contributed; if your name is"
+msgstr "신용 기여 매일 사람을, 당신의 이름이있는 경우"
+
+#: Credits.py:156
+msgid "not included, it was not meant to slight you."
+msgstr "포함되지 않은, 그것은 의도는 아니었을 약간."
+
+#: Credits.py:157
+msgid "It was an oversight."
+msgstr "그것은 감독했다."
+
+#: Credits.py:159
+#, python-format
+msgid "%s theme credits:"
+msgstr "%s 테마 크레딧 :"
+
+#: Credits.py:160
+#, python-format
+msgid "%s theme specific thanks:"
+msgstr "%s 테마 구체적인 감사 :"
+
+#: Credits.py:162
+msgid "French"
+msgstr "프랑스의"
+
+#: Credits.py:163
+msgid "French (reform 1990)"
+msgstr "프랑스어 (개혁 1990)"
+
+#: Credits.py:164
+msgid "German"
+msgstr "독일의"
+
+#: Credits.py:165
+msgid "Italian"
+msgstr "이탈리아의"
+
+#: Credits.py:166
+msgid "Pig Latin"
+msgstr "피그 라틴"
+
+#: Credits.py:167
+msgid "Portuguese (Brazilian)"
+msgstr "포르투갈어 (브라질)"
+
+#: Credits.py:168
+msgid "Russian"
+msgstr "러시아의"
+
+#: Credits.py:169
+msgid "Spanish"
+msgstr "스페인의"
+
+#: Credits.py:170
+msgid "Swedish"
+msgstr "스웨덴어"
+
+#: Credits.py:223
+msgid "Made with:"
+msgstr "함께 제작 :"
+
+#: Credits.py:246
+msgid "Source Code available under the GNU General Public License"
+msgstr "소스 코드는 GNU 일반 공중 사용 허가서하에 사용이 가능"
+
+#: Credits.py:250
+msgid "Copyright 2006, 2007 by Unreal Voodoo"
+msgstr "저작권 2006, 2007 언리얼 부두로"
+
+#: Credits.py:251
+msgid "Copyright 2008-2010 by Team FoFiX"
+msgstr "저작권 2,008에서 2,010 사이 팀에 의해 FoFiX"
+
+#: Dialogs.py:489
+msgid "<OK>"
+msgstr "<OK>"
+
+#: Dialogs.py:576
+msgid "[Parent Folder]"
+msgstr "[국가 상위 폴더]"
+
+#: Dialogs.py:580
+msgid "[Accept Folder]"
+msgstr "[이 폴더]를 수락"
+
+#: Dialogs.py:582
+#, python-format
+msgid "%s [Folder]"
+msgstr "%s [폴더]"
+
+#: Dialogs.py:707
+msgid "Yellow (#3) / Blue (#4) to change, Green (#1) to confirm:"
+msgstr "황색 (# 3) / 블루 (# 4), 그린 (# 1) 확인을 위해 변경 :"
+
+#: Dialogs.py:719
+msgid "Loading necks..."
+msgstr "로드 중입니다 올라오는 ..."
+
+#: Dialogs.py:784
+#: GameEngine.py:97
+msgid "Neck"
+msgstr "목"
+
+#: Dialogs.py:983
+msgid "Loading avatars..."
+msgstr "아바타로드 중입니다 ..."
+
+#: Dialogs.py:1092
+msgid "Select Your Avatar:"
+msgstr "선택 아바타 :"
+
+#: Dialogs.py:1572
+msgid "Press Start to Begin!"
+msgstr "보도 시작 시작합니다!"
+
+#: Dialogs.py:1573
+msgid "Use the keyboard to select or just play some notes!"
+msgstr "또는을 선택합니다 그냥 메모를 재생 키보드를 사용!"
+
+#: Dialogs.py:1584
+msgid "No Controller"
+msgstr "아니 컨트롤러"
+
+#: Dialogs.py:1588
+msgid "Disabled Controller"
+msgstr "장애 인용 컨트롤러"
+
+#: Dialogs.py:1592
+msgid "Default Guitar"
+msgstr "기본 기타"
+
+#: Dialogs.py:1594
+msgid "Default Drums"
+msgstr "기본 드럼"
+
+#: Dialogs.py:1596
+msgid "Default Microphone"
+msgstr "기본 마이크"
+
+#: Dialogs.py:1657
+msgid "controller"
+msgstr "컨트롤러"
+
+#: Dialogs.py:1659
+msgid "controllers"
+msgstr "컨트롤러"
+
+#: Dialogs.py:1660
+#, python-format
+msgid "You only have %d %s defined. You need at least %d for this mode."
+msgstr "당신은 %d %s 정의했습니다. 당신은이 모드에 대한 최소한 %d 필요합니다."
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+#: GameEngine.py:212
+msgid "Left"
+msgstr "왼쪽"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+#: GameEngine.py:212
+msgid "Right"
+msgstr "권리"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Up"
+msgstr "최대"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Down"
+msgstr "아래로"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Start"
+msgstr "시작"
+
+#: Dialogs.py:1917
+#: Dialogs.py:1925
+#: Dialogs.py:1930
+#: Dialogs.py:1938
+msgid "Select"
+msgstr "선택"
+
+#: Dialogs.py:1917
+msgid "Fret #1"
+msgstr "안달 # 1"
+
+#: Dialogs.py:1917
+msgid "Solo #1"
+msgstr "솔로 # 1"
+
+#: Dialogs.py:1917
+msgid "Fret #2"
+msgstr "초조 # 2"
+
+#: Dialogs.py:1917
+msgid "Solo #2"
+msgstr "솔로 # 2"
+
+#: Dialogs.py:1918
+msgid "Fret #3"
+msgstr "초조 # 3"
+
+#: Dialogs.py:1918
+msgid "Solo #3"
+msgstr "솔로 # 3"
+
+#: Dialogs.py:1918
+msgid "Fret #4"
+msgstr "초조 # 4"
+
+#: Dialogs.py:1918
+msgid "Solo #4"
+msgstr "솔로 # 4"
+
+#: Dialogs.py:1918
+msgid "Fret #5"
+msgstr "초조 # 5"
+
+#: Dialogs.py:1919
+msgid "Solo #5"
+msgstr "솔로 # 5"
+
+#: Dialogs.py:1919
+msgid "Pick!"
+msgstr "선택!"
+
+#: Dialogs.py:1919
+#: Dialogs.py:1927
+#: Dialogs.py:1932
+#: Dialogs.py:1940
+msgid "Starpower!"
+msgstr "Starpower!"
+
+#: Dialogs.py:1919
+#: GameEngine.py:278
+msgid "Whammy"
+msgstr "Whammy"
+
+#: Dialogs.py:1925
+#: Dialogs.py:1938
+msgid "Drum #1"
+msgstr "드럼 # 1"
+
+#: Dialogs.py:1925
+msgid "Drum #2"
+msgstr "드럼 # 2"
+
+#: Dialogs.py:1926
+#: Dialogs.py:1939
+msgid "Drum #3"
+msgstr "드럼 # 3"
+
+#: Dialogs.py:1926
+msgid "Drum #4"
+msgstr "드럼 # 4"
+
+#: Dialogs.py:1927
+#: Dialogs.py:1940
+msgid "Bass Drum"
+msgstr "베이스 드럼"
+
+#: Dialogs.py:1927
+#: Dialogs.py:1940
+#: Dialogs.py:2268
+#: GameEngine.py:89
+#: GameEngine.py:155
+#: GameEngine.py:190
+#: GameEngine.py:691
+#: GameResultsScene.py:250
+msgid "None"
+msgstr "없음"
+
+#: Dialogs.py:1938
+msgid "Cymbal #2"
+msgstr "심벌즈 # 2"
+
+#: Dialogs.py:1939
+msgid "Cymbal #4"
+msgstr "심벌즈 # 4"
+
+#: Dialogs.py:1939
+msgid "Drum #5"
+msgstr "드럼 # 5"
+
+#: Dialogs.py:1942
+msgid "Fret"
+msgstr "초조"
+
+#: Dialogs.py:1943
+msgid "Solo"
+msgstr "독주"
+
+#: Dialogs.py:1944
+msgid "Drum"
+msgstr "북"
+
+#: Dialogs.py:1945
+msgid "Slide~"
+msgstr "슬라이드 ~"
+
+#: Dialogs.py:2248
+msgid "Level:"
+msgstr "수준 :"
+
+#: Dialogs.py:2249
+msgid "Note:"
+msgstr "참고 :"
+
+#: Dialogs.py:2263
+msgid "Tap"
+msgstr "수도꼭지"
+
+#: Dialogs.py:2359
+msgid "Choose a File"
+msgstr "선택 파일"
+
+#: Dialogs.py:2435
+msgid "Play with the keys and press Escape when you're done."
+msgstr "키를 누르십시오 탈출 끝나면로 재생합니다."
+
+#: Dialogs.py:2448
+#: Dialogs.py:2554
+#: Dialogs.py:2560
+msgid "Loading..."
+msgstr "로드 중입니다 ..."
+
+#: FoFiX.py:179
+#, python-format
+msgid "Song directory provided ('%s') is not a valid song directory. Starting up FoFiX in standard mode."
+msgstr "노래 디렉토리 ('%s ')을 유효한 노래 디렉토리 제공되지 않습니다. 표준 모드에서 FoFiX을 시작."
+
+#: FoFiX.py:301
+msgid "Terminating due to unhandled exception:"
+msgstr "처리되지 않은 예외로 인해 종료 :"
+
+#: FoFiX.py:303
+msgid "If you make a bug report about this error, please include the contents of the following log file:"
+msgstr "당신이 로그 파일에 다음의 내용을 포함하시기 바랍니다 오류에 대한 버그보고를 만들 경우 :"
+
+#: FoFiX.py:305
+msgid "The log file already includes the traceback given above."
+msgstr "로그 파일이 이미 역추적 위에서 주어진 포함되어 있습니다."
+
+#: FoFiX.py:310
+msgid "Open the logfile now?"
+msgstr "현재 로그 파일을 여시겠습니까?"
+
+#: GameEngine.py:86
+msgid "FPS Limiter"
+msgstr "FPS Limiter"
+
+#: GameEngine.py:86
+msgid "On (Set Below)"
+msgstr "(아래 설정)에서"
+
+#: GameEngine.py:86
+msgid "Off (Auto Max FPS)"
+msgstr "꺼짐 (자동 최대 FPS)"
+
+#: GameEngine.py:86
+msgid "Use this to enable or disable the FPS Limiter. If off, the game will render as many frames as possible. (This is affected by the 'Performance' quickset)"
+msgstr "이것을 활성화하거나 FPS Limiter을 해제합니다. 해제하면, 게임이 렌더링됩니다 최대한 많은 프레임으로. (이것은 '실적'을 산울 타리에 의해) 영향을받습니다"
+
+#: GameEngine.py:88
+msgid "Fullscreen Mode"
+msgstr "전체 화면 모드"
+
+#: GameEngine.py:88
+#: GameEngine.py:90
+#: GameEngine.py:93
+#: GameEngine.py:96
+#: GameEngine.py:105
+#: GameEngine.py:107
+#: GameEngine.py:112
+#: GameEngine.py:145
+#: GameEngine.py:146
+#: GameEngine.py:172
+#: GameEngine.py:175
+#: GameEngine.py:176
+#: GameEngine.py:177
+#: GameEngine.py:178
+#: GameEngine.py:181
+#: GameEngine.py:182
+#: GameEngine.py:196
+#: GameEngine.py:199
+#: GameEngine.py:201
+#: GameEngine.py:202
+#: GameEngine.py:216
+#: GameEngine.py:219
+#: GameEngine.py:225
+#: GameEngine.py:245
+#: GameEngine.py:246
+#: GameEngine.py:247
+#: GameEngine.py:259
+#: GameEngine.py:260
+#: GameEngine.py:261
+#: GameEngine.py:262
+#: GameEngine.py:263
+#: GameEngine.py:264
+#: GameEngine.py:265
+#: GameEngine.py:266
+#: GameEngine.py:267
+#: GameEngine.py:268
+#: GameEngine.py:269
+#: GameEngine.py:300
+#: GameEngine.py:301
+#: GameEngine.py:304
+#: GameEngine.py:312
+#: GameEngine.py:315
+#: GameEngine.py:318
+#: GameEngine.py:321
+#: GameEngine.py:371
+#: GameEngine.py:410
+msgid "No"
+msgstr "아니"
+
+#: GameEngine.py:88
+#: GameEngine.py:90
+#: GameEngine.py:93
+#: GameEngine.py:96
+#: GameEngine.py:105
+#: GameEngine.py:107
+#: GameEngine.py:112
+#: GameEngine.py:145
+#: GameEngine.py:146
+#: GameEngine.py:172
+#: GameEngine.py:175
+#: GameEngine.py:176
+#: GameEngine.py:177
+#: GameEngine.py:178
+#: GameEngine.py:181
+#: GameEngine.py:182
+#: GameEngine.py:196
+#: GameEngine.py:199
+#: GameEngine.py:216
+#: GameEngine.py:219
+#: GameEngine.py:225
+#: GameEngine.py:245
+#: GameEngine.py:246
+#: GameEngine.py:247
+#: GameEngine.py:259
+#: GameEngine.py:260
+#: GameEngine.py:261
+#: GameEngine.py:262
+#: GameEngine.py:263
+#: GameEngine.py:264
+#: GameEngine.py:265
+#: GameEngine.py:266
+#: GameEngine.py:267
+#: GameEngine.py:268
+#: GameEngine.py:300
+#: GameEngine.py:301
+#: GameEngine.py:304
+#: GameEngine.py:312
+#: GameEngine.py:315
+#: GameEngine.py:318
+#: GameEngine.py:321
+#: GameEngine.py:371
+#: GameEngine.py:410
+msgid "Yes"
+msgstr "예"
+
+#: GameEngine.py:88
+msgid "Play either in fullscreen ('Yes') or windowed ('No') mode."
+msgstr "전체 화면 중 하나에 ( '예') 재생 또는 ( '아니요') 모드 창."
+
+#: GameEngine.py:89
+msgid "Antialiasing Quality"
+msgstr "안티 앨리어싱의 품질"
+
+#: GameEngine.py:89
+msgid "Sets the antialiasing quality of openGL rendering. Higher values reduce jaggediness, but could affect performance. (This is affected by the 'Performance' quickset)"
+msgstr "세트 OpenGL은 렌더링의 안티 앨리어싱 품질. 높은 가치가 있지만 jaggediness을 줄이고 성능에 영향을 미칠 수 있습니다. (이것은 '실적'을 산울 타리에 의해) 영향을받습니다"
+
+#: GameEngine.py:90
+msgid "Show Fret Glow Effect"
+msgstr "보기 발광 효과 무서워"
+
+#: GameEngine.py:90
+msgid "Turn on or off the glow that appears around a fret when you press it."
+msgstr "를 켜십시오 또는 당신이 그것을 누르면 무서워 주위에 나타나는 발광 끕니다."
+
+#: GameEngine.py:92
+msgid "Frames per Second"
+msgstr "초당 프레임"
+
+#: GameEngine.py:92
+msgid "Set the number of frames to render per second. Higher values are better, but your computer may not be able to keep up. You probably can leave this alone. (This is affected by the 'Performance' quickset)"
+msgstr "프레임의 설정 번호가 초당 렌더링합니다. 높은 가치가 더 있지만, 컴퓨터를 유지하지 못할 수 있습니다. 당신은 아마 이걸 내버려 둘 수 있습니다. (이것은 '실적'을 산울 타리에 의해) 영향을받습니다"
+
+#: GameEngine.py:93
+msgid "Print Frames per Second"
+msgstr "초당 프레임 인쇄"
+
+#: GameEngine.py:93
+msgid "This will display your FPS on some screens, and if running from sources will print your FPS there every two seconds."
+msgstr "이것은, 일부 화면에 프레임 표시하고 원본에서 실행중인 경우에는 매 2 초 당신의 프레임 인쇄됩니다."
+
+#: GameEngine.py:94
+msgid "Fret Glow Color"
+msgstr "초조의 발광 색상"
+
+#: GameEngine.py:94
+msgid "Same as Fret"
+msgstr "같은 초조로"
+
+#: GameEngine.py:94
+msgid "Actual Color"
+msgstr "실제 색상"
+
+#: GameEngine.py:94
+msgid "Sets whether or not the fret glow image will be color-masked with the theme-determined fret color."
+msgstr "세트 여부 색상 - 테마 - 결정과 색깔 무서워 가면을 쓴 것입니다 발광 이미지를 무서워."
+
+#: GameEngine.py:96
+msgid "Use Shaders"
+msgstr "를 사용하여 쉐이더"
+
+#: GameEngine.py:96
+msgid "Enable or disable the use of shaders. Shaders are visual effects. This must be set to 'Yes' to use the settings below. 'By Theme' leaves it to the theme creator."
+msgstr "설정 또는 해제 쉐이더의 사용. 쉐이더는 시각 효과입니다. 이것을 '예'아래의 설정을 사용하도록 설정되어 있어야합니다. '으로 테마'가 떠나기 그것 테마 창조자합니다."
+
+#: GameEngine.py:97
+#: GameEngine.py:98
+#: GameEngine.py:99
+#: GameEngine.py:101
+#: GameEngine.py:102
+#: GameEngine.py:118
+#: GameEngine.py:322
+#: GameEngine.py:351
+msgid "Disabled"
+msgstr "사용 불가"
+
+#: GameEngine.py:97
+msgid "Flashing"
+msgstr "깜박임"
+
+#: GameEngine.py:97
+#: GameEngine.py:98
+#: GameEngine.py:99
+#: GameEngine.py:100
+#: GameEngine.py:101
+#: GameEngine.py:102
+#: GameEngine.py:190
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:213
+#: GameEngine.py:228
+#: GameEngine.py:232
+#: GameEngine.py:291
+#: GameEngine.py:298
+msgid "By Theme"
+msgstr "주제별로"
+
+#: GameEngine.py:97
+msgid "A bright flash along your fretboard reflecting the notes you've hit. 'By Theme' leaves it to the theme creator."
+msgstr "당신의 fretboard 따라 밝은 플래시 당신이 쳤어야 노트를 반영. '으로 테마'가 떠나기 그것 테마 창조자합니다."
+
+#: GameEngine.py:98
+msgid "Stage"
+msgstr "무대"
+
+#: GameEngine.py:98
+msgid "EQ Lightning"
+msgstr "이퀄라이저 번개"
+
+#: GameEngine.py:98
+msgid "A visual waveform centered above you fretboard. 'By Theme' leaves it to the theme creator."
+msgstr "시각적 파형 위에서 fretboard를 중심으로. '으로 테마'가 떠나기 그것 테마 창조자합니다."
+
+#: GameEngine.py:99
+msgid "Solo and SP"
+msgstr "솔로와 SP에"
+
+#: GameEngine.py:99
+#: GameEngine.py:100
+msgid "Lightnings"
+msgstr "Lightnings"
+
+#: GameEngine.py:99
+msgid "Enables lightning along the side of your fretboard when you are in solos or use SP. 'By Theme' leaves it to the theme creator."
+msgstr "당신의 fretboard의 측면 당신은 솔로에 또는 SP를 사용하여 함께 활성화 번개. '으로 테마'가 떠나기 그것 테마 창조자합니다."
+
+#: GameEngine.py:100
+msgid "Tails"
+msgstr "뒷면이 나온"
+
+#: GameEngine.py:100
+msgid "Classic"
+msgstr "고전적인"
+
+#: GameEngine.py:100
+#: GameEngine.py:210
+#: GameEngine.py:298
+msgid "RB2"
+msgstr "Rb2"
+
+#: GameEngine.py:100
+msgid "Sets the tail effect. Choose from classic tails, lightning, or RB2 style. 'By Theme' leaves it to the theme creator."
+msgstr "설정 꼬리 효과. 선택 고전 꼬리, 번개, 또는 Rb2 스타일에서. '으로 테마'가 떠나기 그것 테마 창조자합니다."
+
+#: GameEngine.py:101
+msgid "Notes"
+msgstr "노트"
+
+#: GameEngine.py:101
+msgid "Metal"
+msgstr "금속"
+
+#: GameEngine.py:101
+msgid "Gives your notes a metallic sheen. 'By Theme' leaves it to the theme creator."
+msgstr "노트에게 금속 광택을 부여합니다. '으로 테마'가 떠나기 그것 테마 창조자합니다."
+
+#: GameEngine.py:102
+#: GameEngine.py:298
+msgid "CDs"
+msgstr "CD를"
+
+#: GameEngine.py:102
+msgid "White"
+msgstr "화이트"
+
+#: GameEngine.py:102
+msgid "Adds a soft lighting effect to CD labels in CD setlist mode."
+msgstr "의 CD setlist 모드로 CD를 레이블에 부드러운 조명 효과를 추가합니다."
+
+#: GameEngine.py:105
+msgid "Disable Screensaver"
+msgstr "스크린 세이버 해제"
+
+#: GameEngine.py:105
+msgid "Set whether the game disables the screensaver while it is running.  Does not necessarily work on all platforms."
+msgstr "설정이 실행되는 동안 여부를 게임 스크린 세이버를 사용할 수 없습니다. 반드시 모든 플랫폼에서 작동하지 않습니다."
+
+#: GameEngine.py:107
+msgid "Animated Star Notes"
+msgstr "애니메이션 스타 노트"
+
+#: GameEngine.py:107
+msgid "This will animate star notes as they come towards you, if that is included in your theme. This can have a hit on performance. (This is affected by the 'Performance' quickset)"
+msgstr "그들이 당신쪽으로 와서 있듯이, 그 경우 테마에 포함되어있는 스타 노트 애니메이션 것입니다. 이것은 성능에 타격을 가질 수 있습니다. (이것은 '실적'을 산울 타리에 의해) 영향을받습니다"
+
+#: GameEngine.py:108
+msgid "Sample Frequency"
+msgstr "샘플 주파수"
+
+#: GameEngine.py:108
+msgid "Set the sample frequency for the audio in the game. You almost certainly want to leave this at 44100 Hz unless you really know what you're doing."
+msgstr "게임 설정에서 오디오에 대한 샘플 주파수. 당신은 거의 확실하게 당신이 정말로 어떤 일을하는지 알지 못한다면 44,100 Hz에서 이것을 떠나고 싶어."
+
+#: GameEngine.py:109
+msgid "Sample Bits"
+msgstr "샘플 비트"
+
+#: GameEngine.py:109
+msgid "Set the sample bits for the audio in the game. You almost certainly want to leave this at 16-bit unless you really know what you're doing."
+msgstr "게임에서 오디오 설정 예제 비트. 당신은 거의 확실하게 당신이 정말로 어떤 일을하는지 알지 못한다면 16 비트에서 이걸두고 싶어요."
+
+#: GameEngine.py:112
+msgid "Upload Highscores"
+msgstr "업로드 최고 기록"
+
+#: GameEngine.py:112
+msgid "If enabled, your high scores will be sent to the server to rank you against other players."
+msgstr "활성화된 경우, 높은 점수가 서버에 다른 플레이어에 대한 당신의 순위로 발송됩니다."
+
+#: GameEngine.py:118
+msgid "Song Queue System"
+msgstr "송 대기열 시스템"
+
+#: GameEngine.py:118
+#: GameEngine.py:188
+msgid "Automatic"
+msgstr "자동"
+
+#: GameEngine.py:118
+msgid "Enables or disables creating multi-song sets in the setlist."
+msgstr "활성화 또는 비활성화 setlist에서 다중 노래 세트를 생성합니다."
+
+#: GameEngine.py:119
+msgid "Song Queue Order"
+msgstr "송 대기열 주문"
+
+#: GameEngine.py:119
+#: GameEngine.py:167
+#: GameEngine.py:168
+msgid "In Order"
+msgstr "위해서는"
+
+#: GameEngine.py:119
+#: GameEngine.py:167
+#: GameEngine.py:168
+#: GameEngine.py:169
+#: GameEngine.py:676
+msgid "Random"
+msgstr "랜덤"
+
+#: GameEngine.py:119
+msgid "Sets the order in which songs added to the queue will be played."
+msgstr "세트 어떤 노래 대기열로 재생됩니다 추가된 순서."
+
+#: GameEngine.py:120
+msgid "Song Queue Parts"
+msgstr "송 대기열 부품"
+
+#: GameEngine.py:120
+msgid "Closest Available"
+msgstr "가장 가까운 곳 가능"
+
+#: GameEngine.py:120
+#: GameEngine.py:121
+msgid "Always Ask"
+msgstr "항상 물어보세요"
+
+#: GameEngine.py:120
+msgid "Choose the behavior when the chosen part is not available in all queued songs. 'Closest Available' will match lead parts to guitar and bass to rhythm, or guitar if no rhythm parts are available. 'Always Ask' brings up the part select screen."
+msgstr "선택 행동 선택한 부분은 모든 대기열에 노래에 있지 않습니다. 심장 박동이 없어 부품을 사용할 수있다면 '가장 가까운 가능한'는 기타와 리듬, 또는 기타에베이스로 이어질 부분 일치합니다. '항상 물어보세요'을 선택 화면의 일부를 나타납니다."
+
+#: GameEngine.py:121
+msgid "Song Queue Difficulty"
+msgstr "노래 큐 어려움을"
+
+#: GameEngine.py:121
+msgid "Closest Down"
+msgstr "가장 가까운 곳 아래로"
+
+#: GameEngine.py:121
+msgid "Closest Up"
+msgstr "가까운 최대"
+
+#: GameEngine.py:121
+msgid "Choose the behavior when the chosen difficulty is not available in all queued songs. 'Closest Up' will prefer a harder difficulty, while 'Closest Down' will prefer an easier one. 'Always Ask' brings up the difficulty select screen."
+msgstr "선택 행동 선택한 어려움은 모든 대기열에 노래에 있지 않습니다. 가까운 아래는 '쉽게 하나를 더 선호하게된다'면서 '가장 가까운 최대'더 어려움을 선호하는 것입니다. '항상 물어보세요'어려움을 선택 화면이 나타납니다."
+
+#: GameEngine.py:134
+msgid "Buffer Size"
+msgstr "버퍼 크기"
+
+#: GameEngine.py:134
+msgid "Set your audio buffer size. Higher values will reduce audio popping, but increase game lag. Only change this if you are having audio quality issues, and use the lowest value that sounds right."
+msgstr "설정 오디오 버퍼 크기. 높은 값은 오디오 보여주고 있지만 증가 게임 피로도 줄일 수 있습니다. 당신은 오디오 품질 문제가 발생하는 경우에만, 이것을 변경하고 마우스 오른쪽 소리가 가장 낮은 값을 사용합니다."
+
+#: GameEngine.py:135
+msgid "A/V Delay"
+msgstr "/ 브이의 지연"
+
+#: GameEngine.py:135
+msgid "Set your A/V delay. Unfortunately for now you have to use trial and error."
+msgstr "설정 / 브이 지연. 불행히도 지금 당신은 시행 착오를 사용해야합니다."
+
+#: GameEngine.py:136
+msgid "Screw-Up Sounds"
+msgstr "치면 소리"
+
+#: GameEngine.py:136
+#: GameEngine.py:152
+#: GameEngine.py:156
+#: GameEngine.py:158
+#: GameEngine.py:159
+#: GameEngine.py:167
+#: GameEngine.py:168
+#: GameEngine.py:170
+#: GameEngine.py:171
+#: GameEngine.py:173
+#: GameEngine.py:179
+#: GameEngine.py:187
+#: GameEngine.py:189
+#: GameEngine.py:193
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:200
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:206
+#: GameEngine.py:207
+#: GameEngine.py:208
+#: GameEngine.py:213
+#: GameEngine.py:215
+#: GameEngine.py:218
+#: GameEngine.py:220
+#: GameEngine.py:222
+#: GameEngine.py:223
+#: GameEngine.py:227
+#: GameEngine.py:229
+#: GameEngine.py:231
+#: GameEngine.py:232
+#: GameEngine.py:239
+#: GameEngine.py:248
+#: GameEngine.py:249
+#: GameEngine.py:251
+#: GameEngine.py:274
+#: GameEngine.py:278
+#: GameEngine.py:279
+#: GameEngine.py:280
+#: GameEngine.py:281
+#: GameEngine.py:282
+#: GameEngine.py:283
+#: GameEngine.py:284
+#: GameEngine.py:285
+#: GameEngine.py:286
+#: GameEngine.py:289
+#: GameEngine.py:290
+#: GameEngine.py:291
+#: GameEngine.py:293
+#: GameEngine.py:294
+#: GameEngine.py:303
+#: GameEngine.py:326
+#: GameEngine.py:330
+#: GameEngine.py:334
+#: GameEngine.py:338
+#: GameEngine.py:405
+msgid "Off"
+msgstr "끄기"
+
+#: GameEngine.py:136
+msgid "Quiet"
+msgstr "조용한"
+
+#: GameEngine.py:136
+msgid "Loud"
+msgstr "크게"
+
+#: GameEngine.py:136
+msgid "Painful"
+msgstr "아픈"
+
+#: GameEngine.py:136
+msgid "How loud should the sound of your screwing up be? Very."
+msgstr "당신은 사고 치는 거의 소리는 어떻게해야하는 소리? 아주 많이요."
+
+#: GameEngine.py:140
+msgid "Active Track Volume"
+msgstr "액티브 트랙 볼륨"
+
+#: GameEngine.py:140
+msgid "Volume of the parts you are playing."
+msgstr "당신이 연주하는 부분의 볼륨."
+
+#: GameEngine.py:141
+msgid "Background Volume"
+msgstr "배경 볼륨"
+
+#: GameEngine.py:141
+msgid "Volume of the parts you are not playing."
+msgstr "당신이 연주하지 않는 부분의 볼륨."
+
+#: GameEngine.py:144
+msgid "Process Priority"
+msgstr "프로세스 우선순위"
+
+#: GameEngine.py:144
+msgid "Idle"
+msgstr "유휴"
+
+#: GameEngine.py:144
+msgid "Low"
+msgstr "낮은"
+
+#: GameEngine.py:144
+#: GameEngine.py:157
+#: GameEngine.py:179
+#: GameEngine.py:299
+#: GameResultsScene.py:276
+msgid "Normal"
+msgstr "일반"
+
+#: GameEngine.py:144
+msgid "Above Normal"
+msgstr "위의 일반"
+
+#: GameEngine.py:144
+msgid "High"
+msgstr "높은"
+
+#: GameEngine.py:144
+msgid "Realtime"
+msgstr "실시간"
+
+#: GameEngine.py:144
+msgid "Change this to increase the priority of the FoFiX process. Don't change this unless you know what you're doing. DO NOT set this to Realtime. Ever."
+msgstr "변경이 FoFiX 프로세스의 우선 순위를 높입니다. 네가 무슨 일을하는지 알지 못한다면 이것을 변경하지 마십시오. 하지 마십시오 실시간 이것을 설정할 수 있습니다. 적."
+
+#: GameEngine.py:145
+msgid "Restrict to First Core (Win32 Only)"
+msgstr "우선 코어 (는 Win32 전용)로 제한"
+
+#: GameEngine.py:145
+msgid "Choose whether to restrict the game to running on only the first processor core on the system. Only has an effect under Windows."
+msgstr "선택 여부를 시스템에 최초의 프로세서 코어에만 실행하는 게임을 제한할 수 있습니다. 는 Windows 아래에 효과가있다."
+
+#: GameEngine.py:146
+msgid "Use Psyco"
+msgstr "사용 Psyco"
+
+#: GameEngine.py:146
+msgid "Enable or disable the Psyco specializing compiler. Tests have indicated the game runs faster with it off."
+msgstr "활성화 또는 비활성화 Psyco 전문 컴파일러. 테스트 게임은 빠른 속도로 떨어져 실행 표시했습니다."
+
+#: GameEngine.py:147
+msgid "Missed Notes"
+msgstr "빗나갔네 노트"
+
+#: GameEngine.py:147
+msgid "Disappear"
+msgstr "투명"
+
+#: GameEngine.py:147
+msgid "Keep on going"
+msgstr "가보 거라"
+
+#: GameEngine.py:147
+msgid "When you miss a note, this sets whether they disappear from the fretboard or scroll off the bottom of the screen."
+msgstr "그들은 fretboard에서 사라 지 여부를 화면의 맨 아래를 스크롤하면,이 세트 메모를보고 싶어요."
+
+#: GameEngine.py:150
+msgid "Performance"
+msgstr "공연"
+
+#: GameEngine.py:150
+#: GameEngine.py:151
+msgid "Manual"
+msgstr "수동"
+
+#: GameEngine.py:150
+msgid "Pure Speed"
+msgstr "순수 속도"
+
+#: GameEngine.py:150
+msgid "Fast"
+msgstr "빨리"
+
+#: GameEngine.py:150
+msgid "Quality (Recommended)"
+msgstr "품질 (권장)"
+
+#: GameEngine.py:150
+msgid "Max Quality (Slow)"
+msgstr "최대 품질 (느리게)"
+
+#: GameEngine.py:150
+msgid "Set the performance of your game. You can fine-tune in the advanced menus."
+msgstr "설정 게임의 성능. 고급 메뉴에서 당신은 세부적으로 조정할 수."
+
+#: GameEngine.py:151
+msgid "Gameplay"
+msgstr "게임 플레이"
+
+#: GameEngine.py:151
+msgid "Theme-Based"
+msgstr "테마 기반"
+
+#: GameEngine.py:151
+msgid "MIDI Based"
+msgstr "미디 기반"
+
+#: GameEngine.py:151
+msgid "RB Style"
+msgstr "RB 스타일"
+
+#: GameEngine.py:151
+msgid "GH Style"
+msgstr "GH 스타일"
+
+#: GameEngine.py:151
+msgid "WT Style"
+msgstr "WT 스타일"
+
+#: GameEngine.py:151
+msgid "Sets how the game 'feels' to play. Theme-Based lets the theme creator decide. MIDI Based lets the fretter decide."
+msgstr "세트 게임이 어떻게 '가'플레이 느낀다. 테마 기반의 테마 크리에이터가 결정하실 수 있습니다. 미디 기반 fretter 결정하실 수 있습니다."
+
+#: GameEngine.py:152
+msgid "Pause on Loss of Focus"
+msgstr "초점의 손실에 일시 중지"
+
+#: GameEngine.py:152
+#: GameEngine.py:156
+#: GameEngine.py:158
+#: GameEngine.py:170
+#: GameEngine.py:173
+#: GameEngine.py:187
+#: GameEngine.py:189
+#: GameEngine.py:193
+#: GameEngine.py:200
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:206
+#: GameEngine.py:207
+#: GameEngine.py:213
+#: GameEngine.py:218
+#: GameEngine.py:220
+#: GameEngine.py:222
+#: GameEngine.py:223
+#: GameEngine.py:227
+#: GameEngine.py:232
+#: GameEngine.py:239
+#: GameEngine.py:248
+#: GameEngine.py:249
+#: GameEngine.py:251
+#: GameEngine.py:274
+#: GameEngine.py:278
+#: GameEngine.py:279
+#: GameEngine.py:280
+#: GameEngine.py:281
+#: GameEngine.py:282
+#: GameEngine.py:283
+#: GameEngine.py:284
+#: GameEngine.py:285
+#: GameEngine.py:286
+#: GameEngine.py:289
+#: GameEngine.py:290
+#: GameEngine.py:291
+#: GameEngine.py:293
+#: GameEngine.py:303
+#: GameEngine.py:326
+#: GameEngine.py:330
+#: GameEngine.py:334
+#: GameEngine.py:338
+#: GameEngine.py:405
+msgid "On"
+msgstr "에"
+
+#: GameEngine.py:152
+msgid "Set whether the game automatically pauses when another application steals input focus."
+msgstr "여부를 설정 게임이 때 자동으로 다른 응용 프로그램이 입력 포커스를 훔치는 일시 중지합니다."
+
+#: GameEngine.py:155
+msgid "HO/PO System"
+msgstr "호 / 포 시스템"
+
+#: GameEngine.py:155
+#: GameResultsScene.py:252
+msgid "RF-Mod"
+msgstr "RF - Mod"
+
+#: GameEngine.py:155
+#: GameResultsScene.py:254
+msgid "GH2 Strict"
+msgstr "GH2 엄격한"
+
+#: GameEngine.py:155
+#: GameEngine.py:319
+#: GameResultsScene.py:256
+msgid "GH2"
+msgstr "GH2"
+
+#: GameEngine.py:155
+msgid "Set the system used for marking hammer-ons and pull-offs (HO/PO). You can either disable them altogether, use the RF-Mod method, or the GH2 system."
+msgstr "설정 시스템과 당기 오프 (망치 기능을 마킹에 사용되는 호 / 포). 당신도 합치는 RF - Mod 방법, 또는 GH2 시스템을 사용하는 그들을 해제할 수 있습니다."
+
+#: GameEngine.py:156
+msgid "GH2 Sloppy Mode"
+msgstr "GH2 조잡해 모드"
+
+#: GameEngine.py:156
+msgid "Sloppy mode allows you to hold higher frets while tapping lower frets during HO/PO sections. This will lower your score by 25%."
+msgstr "조잡 모드는 높은 안고 안달이 난거 로군요 낮은 호 중 / 포 섹션 안달이 난거 로군요 도청 동안 수 있습니다. 이것은 25 %에 의해 당신의 점수를 낮출 것이다."
+
+#: GameEngine.py:157
+msgid "HO/PO Frequency"
+msgstr "호 / 포 주파수"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:272
+msgid "Least"
+msgstr "적어도"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:274
+msgid "Less"
+msgstr "적게"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:278
+msgid "More"
+msgstr "더"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:280
+msgid "Even More"
+msgstr "더"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:282
+msgid "Most"
+msgstr "가장"
+
+#: GameEngine.py:157
+msgid "Sets the window used to determine HO/PO notes. Increasing the frequency will reduce your score, and lower settings will give you a tiny bonus."
+msgstr "설정 창이 / 사서함 정보 호를 결정하는 데 사용. 당신의 점수를 줄일 것이며, 낮은 설정 주파수를 높이면 당신에게 작은 보너스를 제공합니다."
+
+#: GameEngine.py:158
+msgid "HO/PO After Chord"
+msgstr "화음 후 호 / 포"
+
+#: GameEngine.py:158
+msgid "This will determine whether or not HO/PO notes can follow a chord. This only applies to the GH2 systems."
+msgstr "이 여부 호 / 포 노트는 화음을 따라 결정됩니다. 이것은 GH2 시스템에 적용됩니다."
+
+#: GameEngine.py:159
+msgid "Show Hit Accuracy"
+msgstr "보기 정확도 때려"
+
+#: GameEngine.py:159
+msgid "Numeric"
+msgstr "숫자"
+
+#: GameEngine.py:159
+msgid "Friendly"
+msgstr "우호"
+
+#: GameEngine.py:159
+msgid "Both"
+msgstr "둘 다"
+
+#: GameEngine.py:159
+msgid "Shows how accurate your note hits are. Numeric will give a time in milliseconds, and Friendly will use English to inform you. Both will show, well, both. Useful for determining your A/V delay."
+msgstr "얼마나 정확하게 당신의 노트 조회수가 표시됩니다. 숫자는 밀리초 단위 시간을주는 것이며, 우호 당신에게 알려 영어를 사용합니다. 둘, 음, 둘 다 표시됩니다. 유용 / 브이 지연을 결정합니다."
+
+#: GameEngine.py:160
+msgid "Hit Accuracy Pos"
+msgstr "히트 정확도 순위"
+
+#: GameEngine.py:160
+#: GameEngine.py:212
+msgid "Center"
+msgstr "센터"
+
+#: GameEngine.py:160
+msgid "Top-Right Corner"
+msgstr "오른쪽 상단"
+
+#: GameEngine.py:160
+msgid "Bottom-Left Corner"
+msgstr "왼쪽 하단"
+
+#: GameEngine.py:160
+msgid "Center-Bottom"
+msgstr "센터 - 히프"
+
+#: GameEngine.py:160
+msgid "Sets where the accuracy information will be displayed, if enabled."
+msgstr "정확한 정보가 표시됩니다 집합, 활성화된 경우."
+
+#: GameEngine.py:162
+msgid "Max Players"
+msgstr "최대 플레이어"
+
+#: GameEngine.py:162
+msgid "Set the maximum number of players in Co-Op modes. Be aware that higher numbers are associated with a significant drop in performance."
+msgstr "설정 협동 모드에서는 플레이어의 최대 수를 입력합니다. 그 이상의 번호는 성능에 상당한 드롭과 관련된 알고 있어야합니다."
+
+#: GameEngine.py:165
+msgid "Slideshow Delay"
+msgstr "슬라이드쇼 지연"
+
+#: GameEngine.py:165
+msgid "Sets how long, in milliseconds, to wait between each frame in a stage slideshow."
+msgstr "세트 얼마나 오래, 밀리초 단위로, 각 프레임 사이의 무대 슬라이드쇼 기다."
+
+#: GameEngine.py:166
+msgid "Animation Delay"
+msgstr "애니메이션 지연"
+
+#: GameEngine.py:166
+msgid "Sets how long, in milliseconds, to wait between each frame in a stage animation."
+msgstr "세트 얼마나 오래, 밀리초 단위로, 각 프레임 사이의 무대 애니메이션 기다."
+
+#: GameEngine.py:167
+msgid "Stage Slideshow"
+msgstr "무대 슬라이드쇼"
+
+#: GameEngine.py:167
+#: GameEngine.py:168
+msgid "BackNForth"
+msgstr "BackNForth"
+
+#: GameEngine.py:167
+msgid "Sets the method used to rotate frames in a stage slideshow."
+msgstr "설정 방법은 무대 슬라이드쇼에서 프레임을 회전시키기 위해 사용됩니다."
+
+#: GameEngine.py:168
+msgid "Stage Animation"
+msgstr "무대 애니메이션"
+
+#: GameEngine.py:168
+msgid "Sets the method used to rotate frames in a stage animation."
+msgstr "설정 방법은 무대 애니메이션 프레임을 회전시키기 위해 사용됩니다."
+
+#: GameEngine.py:169
+msgid "Stage Selection"
+msgstr "단계 선택"
+
+#: GameEngine.py:169
+msgid "Default"
+msgstr "기본"
+
+#: GameEngine.py:169
+msgid "Blank"
+msgstr "공백"
+
+#: GameEngine.py:169
+msgid "Video"
+msgstr "비디오"
+
+#: GameEngine.py:169
+msgid "Set the background for your stage. Default will use the default background, and Blank puts you in a dark room. Probably a lot like the one you're in now."
+msgstr "설정 단계의 배경. 기본값은 기본 배경을 사용합니다, 그리고 빈은 어두운 방에서 당신을 넣습니다. 아마 당신이 지금하고있는 한 많이 닮았."
+
+#: GameEngine.py:170
+msgid "Song Stage"
+msgstr "송 스테이지"
+
+#: GameEngine.py:170
+msgid "Fretters can include a stage to be used with their songs. If this is enabled, you can see it."
+msgstr "Fretters 그들의 노래와 함께 사용할 수 무대를 포함할 수 있습니다. 이것을 사용하면, 당신은 그것을 볼 수 있습니다."
+
+#: GameEngine.py:171
+msgid "Script Lyric Display"
+msgstr "스크립트 리릭 디스플레이"
+
+#: GameEngine.py:171
+msgid "By Song"
+msgstr "송으로"
+
+#: GameEngine.py:171
+#: GameEngine.py:190
+#: GameEngine.py:201
+#: GameEngine.py:202
+#: GameEngine.py:214
+#: GameEngine.py:228
+#: GameEngine.py:269
+#: GameEngine.py:297
+msgid "Always"
+msgstr "항상"
+
+#: GameEngine.py:171
+msgid "Dual Lyric Prevention"
+msgstr "듀얼 리릭 방지"
+
+#: GameEngine.py:171
+msgid "Sets whether lyrics from a script.txt file are displayed. 'By Song' lets the fretter decide. 'Always' always displays script lyrics, if available, and 'Dual Lyric Prevention' will disable script lyrics if there are MIDI lyrics. (This is affected by the 'Performance' quickset)"
+msgstr "여부를 설정합니다 script.txt 파일에서 가사가 표시됩니다. '송'으로 fretter 결정할 수 있습니다. '항상'는 항상 사용할 경우 스크립트 가사를 표시하고 '듀얼 리릭 방지'를 사용할 수 없도록 스크립트 가사에는 미디 가사가있다면. (이것은 '실적'을 산울 타리에 의해) 영향을받습니다"
+
+#: GameEngine.py:172
+msgid "Frets Under Notes"
+msgstr "노트에서 안달이 난거 로군요"
+
+#: GameEngine.py:172
+msgid "Sets whether the notes slide under the frets or over them."
+msgstr "안달이 난거 로군요 또는 그들을 통해 아래의 설정 여부를 메모 슬라이드."
+
+#: GameEngine.py:173
+msgid "Drum Navigation"
+msgstr "드럼 네비게이션"
+
+#: GameEngine.py:173
+msgid "If enabled, drum keys will be allowed to navigate menus. If not, only guitar keys and keyboard master keys will."
+msgstr "활성화되면, 메뉴를 탐색할 수 허용할 것이다 열쇠를 드럼. 그렇지 않다면, 단지 기타와 키보드 키 마스터 키 것입니다."
+
+#: GameEngine.py:175
+msgid "Ignore Open Strums"
+msgstr "열기 Strums 무시"
+
+#: GameEngine.py:175
+msgid "If enabled, strumming without holding any frets down won't be counted."
+msgstr "활성화되면, 어떠한 계산되지 않습니다 내려 안달이 난거 로군요 유지하지 않고 strumming."
+
+#: GameEngine.py:176
+msgid "Static Strings"
+msgstr "정적 문자열"
+
+#: GameEngine.py:176
+msgid "If enabled, the 'strings' on your fretboard will not scroll."
+msgstr "활성화된 경우, fretboard의 '문자열'스크롤되지 않습니다."
+
+#: GameEngine.py:177
+msgid "Effects Save SP"
+msgstr "효과는 SP에 저장"
+
+#: GameEngine.py:177
+msgid "If enabled, whammying while in SP will slow down its decrease. And your score will be handicapped by 5%."
+msgstr "활성화되면, SP에의 감소 속도를 느리게됩니다 동안 whammying. 그리고 점수는 5 %로 장애인 것입니다."
+
+#: GameEngine.py:178
+msgid "Show HO/PO Indicator"
+msgstr "쇼 호 / 포 표시기"
+
+#: GameEngine.py:178
+msgid "If enabled, 'HOPO' will appear in game. When there are HOPO notes active, it will turn white."
+msgstr "활성화되면, 'HOPO'은 게임에 나타납니다. 때 HOPO 노트이 활성화되고 그것은 백인을 해제합니다."
+
+#: GameEngine.py:179
+msgid "Use Tiers in Quickplay"
+msgstr "Quickplay를 사용 계층"
+
+#: GameEngine.py:179
+msgid "Sorting"
+msgstr "정렬"
+
+#: GameEngine.py:179
+msgid "Sets whether to mark tiers in quickplay mode. 'Normal' will use the career tiers and 'Sorting' will insert tiers based on the current sort order."
+msgstr "여부를 설정합니다 quickplay 모드로 계층을 표시합니다. '정상'와 현재의 정렬 순서를 기반으로 '정렬'삽입 계층 직업 계층을 사용합니다."
+
+#: GameEngine.py:180
+msgid "Star Updates"
+msgstr "스타 업데이트"
+
+#: GameEngine.py:180
+msgid "On Hit"
+msgstr "추근댔지"
+
+#: GameEngine.py:180
+msgid "Score Change"
+msgstr "점수 변경"
+
+#: GameEngine.py:180
+msgid "If set to 'On Hit', your star score will only be checked when you hit a note. If set to 'Score Change', your star score will constantly update. (This is affected by the 'Performance' quickset)"
+msgstr "에 '히트에 설정된 경우, 성급 점수에만 때 메모를 히트 선택됩니다. '로 평가 점수가 변경'당신의 별 점수는 지속적으로 업데이 트를 설정하면됩니다. (이것은 '실적'을 산울 타리에 의해) 영향을받습니다"
+
+#: GameEngine.py:181
+msgid "Partial Star Continuous Fillup"
+msgstr "부분 별 연속 Fillup"
+
+#: GameEngine.py:181
+msgid "Sets whether your partial stars will fill up gradually ('Yes') or in chunks. (This is affected by the 'Performance' quickset)"
+msgstr "세트 여부를 부분 별 점차 ( '예') 또는 청크에 작성합니다. (이것은 '실적'을 산울 타리에 의해) 영향을받습니다"
+
+#: GameEngine.py:182
+msgid "Countdown on Resume"
+msgstr "카운트 다운 재개에"
+
+#: GameEngine.py:182
+msgid "If enabled, there will be a three second countdown when you unpause."
+msgstr "활성화된 경우에는 삼초 카운트 다운이 일시 중지 해제합니다."
+
+#: GameEngine.py:184
+msgid "Script Lyric Position"
+msgstr "스크립트 리릭 위치"
+
+#: GameEngine.py:184
+msgid "Bottom"
+msgstr "바닥"
+
+#: GameEngine.py:184
+msgid "Top"
+msgstr "상단"
+
+#: GameEngine.py:184
+msgid "Display script lyrics at either the bottom or top of the screen."
+msgstr "중 아래쪽 또는 화면의 상단에 표시 스크립트 가사."
+
+#: GameEngine.py:187
+msgid "Starpower Claps"
+msgstr "Starpower Claps"
+
+#: GameEngine.py:187
+msgid "Enables a clapping sound effect to be used on the beats in Starpower."
+msgstr "활성화는 박수 친다 사운드 효과 Starpower에서 뛰고에 사용할 수 있습니다."
+
+#: GameEngine.py:188
+msgid "Song Previews"
+msgstr "송 미리보기"
+
+#: GameEngine.py:188
+msgid "Yellow Fret (#3)"
+msgstr "노란색 (# 3) 안달"
+
+#: GameEngine.py:188
+msgid "If set to 'Automatic', songs will automatically start previewing when you select them. Otherwise you must press the third fret."
+msgstr "'자동으로'노래를하면 자동으로 당신이 그들을 선택하고 미리 설정하면 시작됩니다. 그렇지 않으면 당신은 3 분의 1을 눌러야합니다 마세요."
+
+#: GameEngine.py:189
+msgid "RB SP Neck Glow"
+msgstr "RB SP에 목 발광"
+
+#: GameEngine.py:189
+msgid "Sets a neck glow effect during SP in RB-type themes."
+msgstr "RB 유형 테마에서 SP에 설정하는 동안 목이 발광 효과를."
+
+#: GameEngine.py:190
+msgid "SP Refill Mode"
+msgstr "SP에의 리필 모드"
+
+#: GameEngine.py:190
+msgid "By MIDI Type"
+msgstr "미디 타입으로"
+
+#: GameEngine.py:190
+msgid "Sets whether you can earn more starpower while using it. In 'By MIDI Type', only MIDIs that mark RB-style sections will use this. (This is set by the 'Gameplay' quickset)"
+msgstr "세트 여부를 좀 더 starpower을 적립하실 수 그것을 사용하는 동안. '에 의해 미디 유형', 이것을 사용합니다 RB 스타일 섹션을 표시에만 MIDIs. (이것은 'Gameplay'산울 타리로) 설정"
+
+#: GameEngine.py:193
+msgid "Effects Debug"
+msgstr "효과 디버그"
+
+#: GameEngine.py:193
+msgid "If enabled, will show on-screen the raw data of your killswitch/whammy."
+msgstr "활성화되면, / whammy 화면을 Killswitch의 원시 데이터 표시됩니다."
+
+#: GameEngine.py:195
+msgid "Drum SP"
+msgstr "드럼 SP에"
+
+#: GameEngine.py:195
+msgid "Auto / Fills"
+msgstr "자동 / 채우고"
+
+#: GameEngine.py:195
+msgid "Manual / Fills"
+msgstr "수동 / 채우고"
+
+#: GameEngine.py:195
+msgid "Determines how drum starpower is activated when there are no drum fills. Auto will automatically activate when available, and Manual will wait for the 'Starpower' button to be pressed."
+msgstr "starpower 드럼 방법을 결정했을 때 아무 채우고 드럼 없습니다 활성화됩니다. 자동 때 자동으로 정품 인증을 사용할 것이며, 매뉴얼 '을 누를 수 Starpower'버튼을 기다립니다."
+
+#: GameEngine.py:196
+msgid "Large Drum Neck"
+msgstr "대형 목 드럼"
+
+#: GameEngine.py:196
+msgid "If enabled, will show a larger neck when playing drums."
+msgstr "이 활성화되면 더 큰 목을 표시됩니다 재생할 때 드럼."
+
+#: GameEngine.py:197
+#: GameEngine.py:235
+msgid "Bass Groove Neck"
+msgstr "베이스 그루브 목"
+
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:307
+msgid "Replace"
+msgstr "교체"
+
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:307
+msgid "Overlay"
+msgstr "중첩"
+
+#: GameEngine.py:197
+msgid "Sets the style of the Bass Groove neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "세트베이스 그루브 목의 스타일. '중첩'위에 목을을 낳는 동안 '교체'는 특별한 목과 목을 대체합니다."
+
+#: GameEngine.py:198
+msgid "Guitar Solo Neck"
+msgstr "기타 솔로 목"
+
+#: GameEngine.py:198
+msgid "Sets the style of the Guitar Solo neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "설정 기타 솔로 목의 스타일. '중첩'위에 목을을 낳는 동안 '교체'는 특별한 목과 목을 대체합니다."
+
+#: GameEngine.py:199
+msgid "Show Unused Events"
+msgstr "표시하지 않는 이벤트"
+
+#: GameEngine.py:199
+msgid "If enabled, various MIDI events not used by the game will be shown on-screen."
+msgstr "활성화되면, 각종 미디 이벤트가 게임으로 화면에 표시됩니다 사용되지 않습니다."
+
+#: GameEngine.py:200
+msgid "Kick Bass Sound"
+msgstr "킥베이스 사운드"
+
+#: GameEngine.py:200
+msgid "If enabled, you'll hear a kick bass sound when you use the kick pedal."
+msgstr "활성화되면, 당신은 킥베이스 사운드를 페달 킥을 사용하여 다시 연락 드리죠."
+
+#: GameEngine.py:201
+msgid "Show Lyrics in All Modes"
+msgstr "모든 모드에서 표시 가사"
+
+#: GameEngine.py:201
+#: GameEngine.py:202
+msgid "Single Player"
+msgstr "싱글 플레이어"
+
+#: GameEngine.py:201
+msgid "Sets whether or not MIDI lyrics will be displayed in modes without a vocalist. 'Single Player' will only show lyrics when in Solo modes."
+msgstr "세트 여부 미디 가사 모드에서 가수없이 표시됩니다. '단일 플레이어'은 가사가 표시됩니다 때 솔로 모드입니다."
+
+#: GameEngine.py:202
+msgid "Show MIDI Sections"
+msgstr "보기 미디 섹션"
+
+#: GameEngine.py:202
+msgid "Sets whether or not to scroll the names of sections as marked in the MIDI files."
+msgstr "설정 MIDI 파일에 표시대로 여부 섹션의 이름을 스크롤합니다."
+
+#: GameEngine.py:203
+msgid "Key Conflicts"
+msgstr "키 충돌"
+
+#: GameEngine.py:203
+msgid "Don't check"
+msgstr "체크하지 마십시오"
+
+#: GameEngine.py:203
+msgid "Notify"
+msgstr "알림"
+
+#: GameEngine.py:203
+msgid "Enforce"
+msgstr "시행"
+
+#: GameEngine.py:203
+msgid "Sets how the game handles key conflicts. 'Don't check' doesn't check, but conflicts will affect play. 'Notify' will inform you, but allow you to continue, and 'Enforce' will not allow you to exit the menu until all key conflicts have been resolved."
+msgstr "세트 게임이 어떻게 키 충돌을 처리합니다. '확인하지 않는 체크하지 마십시오,하지만 충돌이 경기에 영향을 미칠 것입니다. '알림'을, 당신에게 알려 거에요하지만 당신은 계속 허용 및 '시행'당신은 모든 주요 충돌이 해결될 때까지 메뉴를 종료하도록 허용하지 않습니다."
+
+#: GameEngine.py:204
+msgid "Show In-Game Stats"
+msgstr "공연 - 게임 통계"
+
+#: GameEngine.py:204
+msgid "Sets whether or not to show detailed stats as you play. 'By Theme' leaves it to the theme creator."
+msgstr "여부에 상관없이 재생으로 상세한 통계를 표시 설정합니다. '으로 테마'가 떠나기 그것 테마 창조자합니다."
+
+#: GameEngine.py:205
+msgid "Show Stars In-Game"
+msgstr "보기에 - 게임 별"
+
+#: GameEngine.py:205
+msgid "Sets whether or not to show your star score as you play. 'By Theme' leaves it to the theme creator."
+msgstr "세트 여부 연주로 스타 점수를 표시합니다. '으로 테마'가 떠나기 그것 테마 창조자합니다."
+
+#: GameEngine.py:206
+msgid "Show Partial Stars"
+msgstr "부분 별보기"
+
+#: GameEngine.py:206
+msgid "Sets whether or not to show partial stars, if available"
+msgstr "을 설정할지 여부를 해당되는 경우 일부 스타를 보여 드리고"
+
+#: GameEngine.py:207
+msgid "HO/PO Debug"
+msgstr "호 / 포 디버그"
+
+#: GameEngine.py:207
+msgid "If enabled, various log messages will be recorded regarding the HO/PO system. Please leave this disabled if submitting logs for bug reports unless you are certain it is necessary."
+msgstr "이 활성화되면 다양한 로그 메시지가 호에 관한 / 포 시스템 기록됩니다. 제발이 확실이 필요하지 않는 경우에는 제출이 버그 리포트에 대한 로그 장애를 떠나."
+
+#: GameEngine.py:208
+msgid "Show Solo Stats"
+msgstr "표시 솔로 통계"
+
+#: GameEngine.py:208
+msgid "Percent"
+msgstr "퍼센트"
+
+#: GameEngine.py:208
+msgid "Detail"
+msgstr "상세 정보"
+
+#: GameEngine.py:208
+msgid "Sets whether to show your solo results when you finish a solo. 'Percent' will only show the percentage, while 'Detail' includes additional information."
+msgstr "세트 여부 솔로 결과를 당신이 솔로를 마무리 표시합니다. '세부'는 추가 정보를 포함하면서 '비율'을 전용 비율이 표시됩니다."
+
+#: GameEngine.py:209
+msgid "Stat Decimal Places"
+msgstr "합계 소수 자릿수"
+
+#: GameEngine.py:209
+msgid "Determines how many decimal places will be noted in displaying stats."
+msgstr "결정 얼마나 많은 소수 자릿수를 표시하는 통계에 기록됩니다."
+
+#: GameEngine.py:210
+msgid "Star Scoring Style"
+msgstr "스타 채점 스타일"
+
+#: GameEngine.py:210
+msgid "Accuracy"
+msgstr "정확성"
+
+#: GameEngine.py:210
+msgid "GH"
+msgstr "GH"
+
+#: GameEngine.py:210
+msgid "RB"
+msgstr "RB"
+
+#: GameEngine.py:210
+msgid "RB+GH"
+msgstr "RB +의 GH"
+
+#: GameEngine.py:210
+msgid "Sets which system to use to calculate your star score."
+msgstr "시스템 초면에 점수를 계산하는 데 사용할 설정합니다."
+
+#: GameEngine.py:211
+msgid "Career Mode Advance"
+msgstr "커리어 모드 사전"
+
+#: GameEngine.py:211
+msgid "0 (Song Finish)"
+msgstr "0 (송 마침)"
+
+#: GameEngine.py:211
+msgid "1 Star"
+msgstr "1 별"
+
+#: GameEngine.py:211
+msgid "2 Stars"
+msgstr "2 별"
+
+#: GameEngine.py:211
+msgid "3 Stars"
+msgstr "3 별"
+
+#: GameEngine.py:211
+msgid "4 Stars"
+msgstr "4 별"
+
+#: GameEngine.py:211
+msgid "5 Stars"
+msgstr "5 별"
+
+#: GameEngine.py:211
+msgid "6 (Gold Stars)"
+msgstr "6 (골드 등급)"
+
+#: GameEngine.py:211
+msgid "7 (Full Combo)"
+msgstr "7 (전체 콤보)"
+
+#: GameEngine.py:211
+msgid "Determine how many stars are needed on a song before it is unlocked in career mode."
+msgstr "그것은 전에 확인 얼마나 많은 스타들이 노래에 필요한 경력 모드에서 잠겨 있지 않아요."
+
+#: GameEngine.py:212
+msgid "Solo Stat Positioning"
+msgstr "솔로 합계 위치"
+
+#: GameEngine.py:212
+#: GameEngine.py:319
+msgid "Rock Band"
+msgstr "록 밴드"
+
+#: GameEngine.py:212
+msgid "Sets where your solo result stats will be displayed."
+msgstr "세트 당신의 솔로 결과 통계가 표시됩니다."
+
+#: GameEngine.py:213
+msgid "Bass Groove"
+msgstr "베이스 그루브"
+
+#: GameEngine.py:213
+msgid "By MIDI"
+msgstr "미디으로"
+
+#: GameEngine.py:213
+msgid "Enable or disable bass groove (additional score multiplier for bass)"
+msgstr "설정 또는 해제베이스 홈 (추가 점수를베이스에 대한 승수)"
+
+#: GameEngine.py:214
+msgid "Drum Miss Penalty"
+msgstr "드럼은 페널티 미스"
+
+#: GameEngine.py:214
+msgid "Song Start"
+msgstr "노래 시작"
+
+#: GameEngine.py:214
+msgid "First Note"
+msgstr "첫째 주"
+
+#: GameEngine.py:214
+msgid "Determines when drum hits count as misses: When the song begins, after the first note, or always."
+msgstr "결정 드럼으로 계산 그리워 조회수 : 언제 노래가, 최초의 메모, 또는 항상 후에 시작됩니다."
+
+#: GameEngine.py:215
+msgid "Time Display Format"
+msgstr "시간 표시 형식"
+
+#: GameEngine.py:215
+#: GameEngine.py:306
+msgid "Countdown"
+msgstr "카운트 다운"
+
+#: GameEngine.py:215
+msgid "Elapsed"
+msgstr "경과"
+
+#: GameEngine.py:215
+msgid "Sets whether the song time is displayed as time elapsed, time remaining, or not at all"
+msgstr "여부를 설정합니다 노래 시간이 시간이 경과 시간이 표시됩니다, 나머지 또는 전혀"
+
+#: GameEngine.py:216
+msgid "Show Theme Version Tag"
+msgstr "표시 테마 버젼 태그"
+
+#: GameEngine.py:216
+msgid "Places the theme's version tag over menus and dialogs."
+msgstr "장소 메뉴와 대화 상자 위에 테마의 버전 태그입니다."
+
+#: GameEngine.py:217
+msgid "Menu Navigation"
+msgstr "메뉴 탐색"
+
+#: GameEngine.py:217
+msgid "P1 Only"
+msgstr "전용 P1"
+
+#: GameEngine.py:217
+msgid "All Players"
+msgstr "모든 플레이어"
+
+#: GameEngine.py:217
+msgid "Sets whether all players can navigate the menu, or only the controller set as Player 1 and the master keys."
+msgstr "세트 여부를 모든 플레이어 메뉴, 또는 유일한 컨트롤러를 플레이어 1과 마스터 열쇠로 설정 탐색할 수 있습니다."
+
+#: GameEngine.py:218
+msgid "In-Game Font Shadow"
+msgstr "- 게임 글꼴 그림자 있음"
+
+#: GameEngine.py:218
+msgid "Sets whether or not a shadowed font will be used, if available."
+msgstr "세트 가능한 경우 여부 그림자 글꼴이 사용됩니다."
+
+#: GameEngine.py:219
+msgid "Mute Last Second"
+msgstr "음소거 마지막 순간"
+
+#: GameEngine.py:219
+msgid "Cuts the volume with one second remaining to prevent any pops when the song ends."
+msgstr "인하와 볼륨을 1 초 어느 때 노래가 끝나면 아빠 막기 위해 남은."
+
+#: GameEngine.py:220
+msgid "Results Cheer Loop"
+msgstr "결과 치어 리더 루프"
+
+#: GameEngine.py:220
+#: GameEngine.py:319
+#: GameEngine.py:399
+msgid "Theme"
+msgstr "테마"
+
+#: GameEngine.py:220
+msgid "Sets whether the cheering sound heard on the result screen will loop. 'Theme' leaves it to the theme creator."
+msgstr "을 설정할지 여부를 응원 소리가 결과 화면을 반복 들었어요. '테마'를 주제 작성자에게 나뭇잎."
+
+#: GameEngine.py:221
+msgid "Cheer Loop Delay"
+msgstr "치어 리더 루프 딜레이"
+
+#: GameEngine.py:221
+msgid "Sets the time, in milliseconds, to wait before playing the result cheer again (if looping is enabled)."
+msgstr "밀리초 단위로 설정합니다 시간, 다시 결과 응원을 재생하기 전에 (만약 루프가 활성화된 경우) 기다려야합니다."
+
+#: GameEngine.py:222
+msgid "Miss Pauses Anim"
+msgstr "미스 Anim 일시 중지"
+
+#: GameEngine.py:222
+msgid "When enabled, missing a note will pause the stage animation."
+msgstr "활성화되면, 메모를 누락 무대 애니메이션을 일시 중지합니다."
+
+#: GameEngine.py:223
+msgid "Song HO/PO Freq"
+msgstr "송 호 / 포 주파수"
+
+#: GameEngine.py:223
+msgid "Sets whether or not to use the HO/PO Frequency setting determined by the fretter, if available."
+msgstr "할지 여부를 사용하도록 설정합니다 호 / 포 주파수 사용 가능한 경우 fretter에 의해 결정, 설정합니다."
+
+#: GameEngine.py:225
+msgid "Mute Drum Track During Fills"
+msgstr "음소거하는 동안 트랙 드럼 채우고"
+
+#: GameEngine.py:225
+msgid "Sets whether or not the drum track will be muted during drum fills (so you can hear yourself have at it!)"
+msgstr "세트 여부 드럼 트랙 음소거 드럼 중에 것입니다 (자네가 그것을 가지고들을 수 있도록 채우고!)"
+
+#: GameEngine.py:226
+msgid "Sustain Muting"
+msgstr "유지 음소거"
+
+#: GameEngine.py:226
+msgid "Never Mute"
+msgstr "절대 음소거"
+
+#: GameEngine.py:226
+msgid "Very Early"
+msgstr "너무 일찍"
+
+#: GameEngine.py:226
+msgid "Early"
+msgstr "일찍"
+
+#: GameEngine.py:226
+#: GameEngine.py:309
+#: GameResultsScene.py:293
+msgid "Standard"
+msgstr "표준"
+
+#: GameEngine.py:226
+msgid "Always Mute"
+msgstr "항상 음소거"
+
+#: GameEngine.py:226
+msgid "Sets the window used to determine whether or not to mute a dropped sustain note. 'Early' means it will only mute when you drop the sustain relatively early."
+msgstr "설정 창 여부가 쪽지를 유지 떨어뜨 벙어리 결정하는 데 사용. '조기'는이 때만은 비교적 일찍 유지 드롭 벙어리 것을 의미합니다."
+
+#: GameEngine.py:227
+msgid "Show Solo Frame"
+msgstr "표시 솔로 프레임"
+
+#: GameEngine.py:227
+msgid "Sets whether to show a frame around the solo stats, if available."
+msgstr "세트 여부를 가능한 경우 솔로 통계 주위에 프레임을 표시합니다."
+
+#: GameEngine.py:228
+msgid "Enable Guitar Solos"
+msgstr "사용 기타 솔로"
+
+#: GameEngine.py:228
+#: GameEngine.py:297
+msgid "Never"
+msgstr "못"
+
+#: GameEngine.py:228
+msgid "MIDI Only"
+msgstr "미디 전용"
+
+#: GameEngine.py:228
+msgid "Sets the logic used to mark solos. 'Always' will mark solos in sections if available. 'By Theme' leaves it to the theme creator. 'MIDI Only' only enables solos marked with the MIDI marker note."
+msgstr "설정 논리는 독창 부분을 표시하는 데 사용되는. '항상'사용할 수있는 경우 섹션에 솔로를 표시합니다. '으로 테마'가 떠나기 그것 테마 창조자합니다. '미디만이'유일한 독창 부분이 미디 마커 노트로 표시된 수 있습니다."
+
+#: GameEngine.py:229
+msgid "SP Mode"
+msgstr "SP에 모드"
+
+#: GameEngine.py:229
+#: GameEngine.py:319
+msgid "FoF"
+msgstr "FoF"
+
+#: GameEngine.py:229
+msgid "Auto MIDI"
+msgstr "자동 미디"
+
+#: GameEngine.py:229
+msgid "Sets the logic used to determine starpower phrases. 'FoF' will generate paths based on the number of notes. 'Auto MIDI' will use MIDI markers to determine the paths, and fall back on the FoF mode if none are available."
+msgstr "설정 논리 starpower 문구를 결정하는 데 사용. 'FoF'는 경로를 메모의 수를 기반으로 생성합니다. '자동 미디'는 경로를 결정하기 위해, 미디 마커를 사용하고 아무도 사용할 수있다면 다시 FoF 모드 가을."
+
+#: GameEngine.py:231
+msgid "Inc. Neck Mode"
+msgstr "주식 목 모드"
+
+#: GameEngine.py:231
+msgid "Start Only"
+msgstr "오직 시작"
+
+#: GameEngine.py:231
+msgid "Start & End"
+msgstr "시작 & 끝"
+
+#: GameEngine.py:231
+msgid "Sets how and whether to render incoming solo necks. 'Start Only' will scroll it in but not out, while 'Start & End' does both."
+msgstr "을 설정하는 방법과 수신 여부 솔로 올라오는을 렌더링합니다. '오직'속에 있지 않고 밖으로, 그것을 스크롤합니다 시작합니다 시작 & 끝 '가 모두'하면서."
+
+#: GameEngine.py:232
+msgid "Big Rock Endings"
+msgstr "빅 락 엔딩"
+
+#: GameEngine.py:232
+msgid "Enable or disable big rock endings. 'By Theme' leaves it to the theme creator."
+msgstr "설정 또는 해제 큰 바위 결말. '으로 테마'가 떠나기 그것 테마 창조자합니다."
+
+#: GameEngine.py:233
+msgid "Main Neck"
+msgstr "주요 목"
+
+#: GameEngine.py:233
+#, python-format
+msgid "Set the transparency of the main neck. 100% is fully visible."
+msgstr "설정 주 목의 투명성. 100 % 완벽하게 볼 수 있습니다."
+
+#: GameEngine.py:234
+msgid "Solo Neck"
+msgstr "솔로 목"
+
+#: GameEngine.py:234
+#, python-format
+msgid "Set the transparency of the solo neck. 100% is fully visible."
+msgstr "설정 솔로 목의 투명성. 100 % 완벽하게 볼 수 있습니다."
+
+#: GameEngine.py:235
+#, python-format
+msgid "Set the transparency of the bass groove neck. 100% is fully visible."
+msgstr "설정 저음의 투명성 홈 목. 100 % 완벽하게 볼 수 있습니다."
+
+#: GameEngine.py:236
+msgid "Fail Neck"
+msgstr "실패 목"
+
+#: GameEngine.py:236
+#, python-format
+msgid "Set the transparency of the failing neck. 100% is fully visible."
+msgstr "설정 실패 목의 투명성. 100 % 완벽하게 볼 수 있습니다."
+
+#: GameEngine.py:237
+msgid "Overlay Neck"
+msgstr "중첩 목"
+
+#: GameEngine.py:237
+#, python-format
+msgid "Set the transparency of neck overlays. 100% is fully visible."
+msgstr "설정 목 오버레이의 투명도. 100 % 완벽하게 볼 수 있습니다."
+
+#: GameEngine.py:238
+msgid "All Necks"
+msgstr "전체 올라오는"
+
+#: GameEngine.py:238
+#, python-format
+msgid "Set the master transparency of all necks. 100% is fully visible."
+msgstr "모든 설정 올라오는의 마스터 투명도. 100 % 완벽하게 볼 수 있습니다."
+
+#: GameEngine.py:239
+msgid "Show Any Available Score"
+msgstr "표시 가능한 점수"
+
+#: GameEngine.py:239
+msgid "When set to 'On', this will look for any available score on the currently selected instrument for setlist score display, if one is not available at the chosen difficulty."
+msgstr "하나는 선택된 어려움에 사용할 수없는 경우에 언제 '에 설정이 setlist 점수 표시 현재 선택한 악기에 사용 가능한 점수를 찾는 것입니다."
+
+#: GameEngine.py:241
+msgid "Scroll Delay"
+msgstr "스크롤 지연"
+
+#: GameEngine.py:241
+msgid "Sets how long, in milliseconds, to wait before beginning to scroll."
+msgstr "세트 얼마나 오래 밀리초 단위로 스크롤하기 전에 시작 기다."
+
+#: GameEngine.py:242
+msgid "Scroll Rate"
+msgstr "스크롤 속도"
+
+#: GameEngine.py:242
+msgid "Sets how quickly menus will scroll."
+msgstr "얼마나 빨리 세트 메뉴를 스크롤합니다."
+
+#: GameEngine.py:245
+msgid "Use (notes-unedited.mid)"
+msgstr "사용 (노트 - unedited.mid)"
+
+#: GameEngine.py:245
+msgid "Sets whether to look for (and use) a 'notes-unedited.mid' before 'notes.mid'. There's no reason to change this."
+msgstr "세트 여부에 대해 (보고 및 사용) '메모'unedited.mid '앞에 notes.mid'. 아무 이유가 이것을 변경할 수 있습니다."
+
+#: GameEngine.py:246
+msgid "Show Fill Status"
+msgstr "보기 상태 채우기"
+
+#: GameEngine.py:246
+msgid "When enabled, whether or not you are in a drum fill/freestyle ending will be displayed in text on the screen."
+msgstr "때 여부를 당신이 채워 드럼에 / 자유형 끝나는 텍스트로 화면에 표시됩니다있다 사용할 수 있습니다."
+
+#: GameEngine.py:247
+msgid "Show BPM"
+msgstr "BPM은보기"
+
+#: GameEngine.py:247
+msgid "When enabled, the current song BPM will be shown on screen."
+msgstr "활성화되면, 현재 노래 BPM은이 화면에 표시됩니다."
+
+#: GameEngine.py:248
+msgid "New BPM Logic"
+msgstr "새로운 BPM의 논리"
+
+#: GameEngine.py:248
+msgid "If enabled, the game will attempt to use the new BPM logic. This is not a finished feature. Use at your own risk."
+msgstr "활성화되면, 게임은 새로운 BPM의 논리를 사용하려고 시도합니다. 이것은 완성 기능이 아닙니다. 사용에 따른 모든 책임."
+
+#: GameEngine.py:249
+msgid "New Song Database Code"
+msgstr "새로운 노래 데이터베이스 코드"
+
+#: GameEngine.py:249
+msgid "Activates the new, incomplete song database code."
+msgstr "활성화 새로운 노래 불완전한 데이터베이스 코드."
+
+#: GameEngine.py:251
+msgid "Show Raw Vocal Data"
+msgstr "보기 원시 데이터 보컬"
+
+#: GameEngine.py:251
+msgid "If enabled, various information about the microphone input will be show in text on screen. Probably only needed for vocal debugging."
+msgstr "마이크 입력에 대해 활성화된 경우, 여러 가지 정보를 화면에 텍스트로 표시됩니다. 아마 유일한 보컬 디버깅에 필요한."
+
+#: GameEngine.py:253
+msgid "Speed Factor"
+msgstr "계수 속도"
+
+#: GameEngine.py:253
+msgid "1.00x"
+msgstr "1.00x"
+
+#: GameEngine.py:253
+msgid "0.75x"
+msgstr "0.75x"
+
+#: GameEngine.py:253
+msgid "0.50x"
+msgstr "0.50x"
+
+#: GameEngine.py:253
+msgid "0.25x"
+msgstr "0.25x"
+
+#: GameEngine.py:253
+msgid "Sets the speed to play the audio at. Your score will be severely penalized if you slow the music down."
+msgstr "세트 속도에서 오디오를 재생합니다. 당신이 아래로 음악을 느리게하는 경우 귀하의 점수가 심각하게 벌점을받지 않습니다."
+
+#: GameEngine.py:255
+msgid "Effects Mode"
+msgstr "효과 모드"
+
+#: GameEngine.py:255
+msgid "Killswitch"
+msgstr "Killswitch"
+
+#: GameEngine.py:255
+msgid "Pitchbend"
+msgstr "Pitchbend"
+
+#: GameEngine.py:255
+msgid "Sets whether to use a killswitch or pitchbend as the effect on your whammy."
+msgstr "여부를 설정합니다 Killswitch을 사용하거나 whammy의 효과로 pitchbend."
+
+#: GameEngine.py:259
+msgid "Log INI Reads"
+msgstr "로그의 INI이 읽습니다"
+
+#: GameEngine.py:259
+msgid "Logs any read to an INI file. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "로그가 아무런 INI 파일을 읽어 보시기 바랍니다. 이것은 버그 리포트에 불필요한 정보는, 당신은 어떤 그것은 관련이 있지 않는 한 장애인을 남겨주세요."
+
+#: GameEngine.py:260
+msgid "Log Class Inits"
+msgstr "클래스 Inits 로그"
+
+#: GameEngine.py:260
+msgid "Logs most class initializations in '__init__'. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "로그에서 가장 클래스 초기화 '__init__'. 이것은 버그 리포트에 불필요한 정보는, 당신은 어떤 그것은 관련이 있지 않는 한 장애인을 남겨주세요."
+
+#: GameEngine.py:261
+msgid "Log Loadings"
+msgstr "로그인 부가금"
+
+#: GameEngine.py:261
+msgid "Logs resource loads. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "로그 리소스를로드합니다. 이것은 버그 리포트에 불필요한 정보는, 당신은 어떤 그것은 관련이 있지 않는 한 장애인을 남겨주세요."
+
+#: GameEngine.py:262
+msgid "Log MIDI Sections"
+msgstr "로그인 미디 섹션"
+
+#: GameEngine.py:262
+msgid "Logs MIDI sections. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "로그 미디 섹션. 이것은 버그 리포트에 불필요한 정보는, 당신은 어떤 그것은 관련이 있지 않는 한 장애인을 남겨주세요."
+
+#: GameEngine.py:263
+msgid "Log Undefined GETs"
+msgstr "정의되지 않은 로그 받자"
+
+#: GameEngine.py:263
+msgid "Logs attempts to read an undefined config key. This is unnecessary information."
+msgstr "로그는 정의되지 않은 설정 키를 읽으려고 시도합니다. 이것은 불필요한 정보입니다."
+
+#: GameEngine.py:264
+msgid "Log Marker Notes"
+msgstr "마커 노트 로그"
+
+#: GameEngine.py:264
+msgid "Logs MIDI marker notes (solo, SP, etc). This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "로그 미디 표식 노트 (독주, SP에 등). 이것은 버그 리포트에 불필요한 정보는, 당신은 어떤 그것은 관련이 있지 않는 한 장애인을 남겨주세요."
+
+#: GameEngine.py:265
+msgid "Log SP Misses"
+msgstr "SP에 로그가 그리워"
+
+#: GameEngine.py:265
+msgid "Logs SP phrase misses. This is unnecessary information."
+msgstr "SP에 로그 구문이 그리워. 이것은 불필요한 정보입니다."
+
+#: GameEngine.py:266
+msgid "Log Unedited MIDIs"
+msgstr "편집되지 않은 MIDIs 로그"
+
+#: GameEngine.py:266
+msgid "Logs when notes-unedited.mid is used. This is unnecessary information."
+msgstr "로그 노트 - unedited.mid이 사용됩니다. 이것은 불필요한 정보입니다."
+
+#: GameEngine.py:267
+msgid "Log Lyric Events"
+msgstr "서정 이벤트 로그"
+
+#: GameEngine.py:267
+msgid "Logs MIDI lyric events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "로그 미디 서정 이벤트. 이것은 버그 리포트에 불필요한 정보는, 당신은 어떤 그것은 관련이 있지 않는 한 장애인을 남겨주세요."
+
+#: GameEngine.py:268
+msgid "Log Tempo Events"
+msgstr "템포 이벤트 로그"
+
+#: GameEngine.py:268
+msgid "Logs MIDI tempo events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "로그 미디 템포 이벤트. 이것은 버그 리포트에 불필요한 정보는, 당신은 어떤 그것은 관련이 있지 않는 한 장애인을 남겨주세요."
+
+#: GameEngine.py:269
+msgid "Log Missing Images"
+msgstr "누락 이미지 로그"
+
+#: GameEngine.py:269
+msgid "Only on single images"
+msgstr "단일 이미지만이에"
+
+#: GameEngine.py:269
+msgid "Logs when files loaded are not found. 'Only on single images' skips logging when directories are loaded."
+msgstr "로그 파일이로드 찾을 수 없습니다. '오직 하나의 이미지에'건너뛰고 때 디렉토리가로드됩니다 로깅."
+
+#: GameEngine.py:274
+msgid "Practice Beat Claps"
+msgstr "연습 Claps 가봐"
+
+#: GameEngine.py:274
+msgid "Enables clap sound effects on every beat in practice mode."
+msgstr "활성화 연습 모드에있는 모든 비트에서 음향 효과를 쳐라."
+
+#: GameEngine.py:275
+msgid "Change Score Display"
+msgstr "변경 점수 표시"
+
+#: GameEngine.py:275
+#: GameEngine.py:311
+msgid "Auto"
+msgstr "자동"
+
+#: GameEngine.py:275
+msgid "Blue Fret (#4)"
+msgstr "블루 (# 4) 초조해"
+
+#: GameEngine.py:275
+msgid "Sets whether to change the setlist high score difficulty automatically or with the fourth fret."
+msgstr "여부를 자동으로 설정합니다 setlist 높은 점수 어려움을 변경하거나 번째 무서워합니다."
+
+#: GameEngine.py:278
+msgid "Makes opponent miss notes until the whammy bar is pushed a few times"
+msgstr "그래야 상대 whammy 바 몇 번 밀었 때까지 메모를보고"
+
+#: GameEngine.py:279
+msgid "Difficulty Up"
+msgstr "난이도 최대"
+
+#: GameEngine.py:279
+msgid "Ups opponent's difficulty for a while (if not playing on Expert)"
+msgstr "잠시 동안의 때도 상대의 어려움 (해당되는 경우 전문가에 재생되지 않음)"
+
+#: GameEngine.py:280
+msgid "String Break"
+msgstr "문자열 브레이크"
+
+#: GameEngine.py:280
+msgid "Breaks a string, causing your opponent to miss notes on that fret until they push the fret button several times."
+msgstr "휴식 문자열, 상대를 일으키는 그들은 버튼을 여러 번 무서워 밀어 때까지 초조에 메모를 놓칠 수 있습니다."
+
+#: GameEngine.py:281
+msgid "Double Notes"
+msgstr "더블 노트"
+
+#: GameEngine.py:281
+msgid "Makes single notes into chords, and chords into even bigger ones."
+msgstr "화음으로 편안하게 하나의 음표와 화음도 더 큰 것을 넣습니다."
+
+#: GameEngine.py:282
+msgid "Death Drain"
+msgstr "죽음 드레인"
+
+#: GameEngine.py:282
+msgid "Sudden Death Only"
+msgstr "갑작스런 죽음만이"
+
+#: GameEngine.py:282
+msgid "Drains your opponents life until they die. 'Sudden Death Only' keeps this from appearing until you reach sudden death mode."
+msgstr "그들이 죽을 때까지 빼낸 상대편의 인생을. '갑작스런 죽음은 단지'당신이 갑작스런 죽음 모드를 도달할 때까지 나타나지으로부터 이것을 유지합니다."
+
+#: GameEngine.py:283
+msgid "Amp Overload"
+msgstr "과부하 앰프"
+
+#: GameEngine.py:283
+msgid "Makes opponent's amp flip out, making notes disappear and reappear randomly."
+msgstr "그런것 상대의 앰프는 플립 아웃, 노트 만들기 사라지게하고 무작위로 다시 나타납니다."
+
+#: GameEngine.py:284
+msgid "Switch Controls"
+msgstr "스위치 제어"
+
+#: GameEngine.py:284
+msgid "Switches opponent to (or from) lefty mode for a bit!"
+msgstr "비트 (또는)에서 왼손잡이 모드로 스위치 상대!"
+
+#: GameEngine.py:285
+msgid "Steal Object"
+msgstr "도둑질 개체"
+
+#: GameEngine.py:285
+msgid "Steals an object your opponent has."
+msgstr "훔친다는 당신의 상대를 개체하고 있습니다."
+
+#: GameEngine.py:286
+msgid "Guitar Tune"
+msgstr "기타 조정"
+
+#: GameEngine.py:286
+msgid "Makes opponent miss all notes until they play a scale."
+msgstr "그들은 규모를 재생할 때까지 그런것 상대는 모든 메모를보고 싶어요."
+
+#: GameEngine.py:289
+msgid "Score SFX"
+msgstr "점수 SFX"
+
+#: GameEngine.py:289
+msgid "Sets whether or not to have Jurgen taunt (or, I suppose, congratulate) you at the end of a song."
+msgstr "세트 여부 위르겐의 조롱 (또는 가지고, 제 생각엔) 노래의 끝에 당신을 축하드립니다."
+
+#: GameEngine.py:290
+msgid "GH SP Lights"
+msgstr "GH의 SP에 라이트"
+
+#: GameEngine.py:290
+msgid "Sets whether to fade images over the starpower bulbs in GH themes when fully lit."
+msgstr "여부를 설정합니다 GH 테마에서 starpower 전구 흘리고있을 때 완전히 불을 이미지를 퇴색합니다."
+
+#: GameEngine.py:291
+msgid "RB Small 1x Multiplier"
+msgstr "RB 작은 1X 배속 배율기"
+
+#: GameEngine.py:291
+msgid "When enabled, RB-type themes will have a smaller mult image when the multiplier is at 1x. 'By Theme' leaves it to the theme creator."
+msgstr "때, 1X 배속 때 배율 RB 타입 테마는 작은 복수 이미지를 활성화해야합니다. '으로 테마'가 떠나기 그것 테마 창조자합니다."
+
+#: GameEngine.py:292
+msgid "Board Speed Mode"
+msgstr "보드 속도 모드"
+
+#: GameEngine.py:292
+#: GameEngine.py:344
+msgid "BPM"
+msgstr "BPM은"
+
+#: GameEngine.py:292
+#: GameEngine.py:317
+#: GameEngine.py:344
+msgid "Difficulty"
+msgstr "어려움"
+
+#: GameEngine.py:292
+#: GameEngine.py:344
+msgid "BPM & Diff"
+msgstr "BPM은 & Diff"
+
+#: GameEngine.py:292
+msgid "Percentage"
+msgstr "백분율"
+
+#: GameEngine.py:292
+msgid "Sets what determines the speed of the scrolling notes."
+msgstr "무엇 스크롤 노트의 속도를 결정하는 설정합니다."
+
+#: GameEngine.py:293
+msgid "Loading Phrases"
+msgstr "로드 중입니다 문구"
+
+#: GameEngine.py:293
+msgid "Sets whether or not to use loading phrases while loading a song"
+msgstr "여부를로드하는 구문을 사용하도록 설정합니다 노래를로드하는 동안"
+
+#: GameEngine.py:294
+msgid "Effects Display Mode"
+msgstr "효과 모드를 표시"
+
+#: GameEngine.py:294
+msgid "Static"
+msgstr "정적인"
+
+#: GameEngine.py:294
+msgid "Animated"
+msgstr "애니메이션"
+
+#: GameEngine.py:294
+msgid "Sets whether or not the whammy effect is animated. (This is affected by the 'Performance' quickset)"
+msgstr "세트 여부 whammy 효과가 애니메이션이다. (이것은 '실적'을 산울 타리에 의해) 영향을받습니다"
+
+#: GameEngine.py:295
+msgid "Show Filepath"
+msgstr "FilePath보기"
+
+#: GameEngine.py:295
+msgid "Show"
+msgstr "표시"
+
+#: GameEngine.py:295
+msgid "Hide"
+msgstr "숨기기"
+
+#: GameEngine.py:295
+msgid "Sets whether or not to show the filepath of the song."
+msgstr "을 설정할지 여부를 노래의 FilePath를 표시합니다."
+
+#: GameEngine.py:296
+msgid "3D Note Rotation"
+msgstr "참고 3 차원 회전"
+
+#: GameEngine.py:296
+msgid "Old"
+msgstr "늙은"
+
+#: GameEngine.py:296
+msgid "New"
+msgstr "새로운"
+
+#: GameEngine.py:296
+msgid "Sets the manner of 3D Note Rotation."
+msgstr "세트 차원의 방식을 회전을합니다."
+
+#: GameEngine.py:297
+msgid "Show In-Game Text"
+msgstr "공연 - 게임 텍스트"
+
+#: GameEngine.py:297
+msgid "Only Note Streaks"
+msgstr "오직 줄무늬 참고"
+
+#: GameEngine.py:297
+msgid "Sets whether or not to show text in-game. This includes note streaks and 'Starpower Ready'. (This is affected by the 'Performance' quickset)"
+msgstr "여부를 텍스트를 게임에 게재하도록 설정합니다. 이것은 노트 줄무늬와 '포함 Starpower 준비'. (이것은 '실적'을 산울 타리에 의해) 영향을받습니다"
+
+#: GameEngine.py:298
+msgid "Setlist Display Mode"
+msgstr "Setlist 디스플레이 모드"
+
+#: GameEngine.py:298
+msgid "List"
+msgstr "목록"
+
+#: GameEngine.py:298
+msgid "List/CD"
+msgstr "목록 / CD를"
+
+#: GameEngine.py:298
+msgid "Sets the setlist display mode. 'By Theme' lets the theme creator decide."
+msgstr "setlist 설정 디스플레이 모드. '테마'를 테마 크리에이터가 결정할 수 있습니다."
+
+#: GameEngine.py:299
+msgid "Use Subfolders"
+msgstr "를 사용하여 하위 폴더"
+
+#: GameEngine.py:299
+msgid "List All"
+msgstr "리스트"
+
+#: GameEngine.py:299
+msgid "'Normal' allows you to navigate folders. 'List All' places all songs into a single setlist."
+msgstr "'정상'을 폴더를 탐색할 수 있습니다. '리스트 모두'하나의 setlist으로 모든 노래를 넣습니다."
+
+#: GameEngine.py:300
+msgid "Show Song Type Icons"
+msgstr "표시 송 종류 아이콘"
+
+#: GameEngine.py:300
+msgid "Sets whether or not to show icons indicating the song 'type'"
+msgstr "세트 여부 '아이콘을 노래'를 입력 나타내는 표시"
+
+#: GameEngine.py:301
+msgid "Preload Song Labels"
+msgstr "미리 송 레이블"
+
+#: GameEngine.py:301
+msgid "Sets whether to preload all song labels on load. With large setlists, this option is extremely slow."
+msgstr "세트 여부로드에있는 모든 노래 레이블을 미리로드합니다. 큰 setlists으로,이 옵션은 매우 느립니다."
+
+#: GameEngine.py:302
+msgid "Label Type"
+msgstr "레이블 유형"
+
+#: GameEngine.py:302
+msgid "CD Labels"
+msgstr "CD를 레이블"
+
+#: GameEngine.py:302
+msgid "Album Covers"
+msgstr "앨범 커버"
+
+#: GameEngine.py:302
+msgid "Sets whether to show CD labels or album covers as the art."
+msgstr "세트 여부를 CD의 라벨 또는 앨범을 보여주 예술로 다룹니다."
+
+#: GameEngine.py:303
+msgid "Rotating CDs"
+msgstr "CD의 회전"
+
+#: GameEngine.py:303
+msgid "Sets whether or not CDs rotate."
+msgstr "세트 여부 CD가 회전."
+
+#: GameEngine.py:304
+msgid "Remember Play Count"
+msgstr "백작 재생 기억"
+
+#: GameEngine.py:304
+msgid "Keeps track of how many times you've played each song."
+msgstr "유지는 각각의 노래를 해본 적이 몇번을 추적."
+
+#: GameEngine.py:306
+msgid "Show at Song Start"
+msgstr "쇼 송에서 시작"
+
+#: GameEngine.py:306
+msgid "Part"
+msgstr "부분"
+
+#: GameEngine.py:306
+msgid "Sets whether to show a countdown or your name and part at the song's start."
+msgstr "을 설정할지 여부를 노래의 시작 부분에 카운트 다운이나 귀하의 이름과 부분을 표시합니다."
+
+#: GameEngine.py:307
+msgid "Overdrive Neck"
+msgstr "혹사 목"
+
+#: GameEngine.py:307
+msgid "Sets the style of the Overdrive neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "설정 Overdrive 목의 스타일. '중첩'위에 목을을 낳는 동안 '교체'는 특별한 목과 목을 대체합니다."
+
+#: GameEngine.py:309
+msgid "Note Hit Window"
+msgstr "참고 히트 창"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:285
+msgid "Tightest"
+msgstr "소감"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:287
+msgid "Tight"
+msgstr "단단히"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:289
+msgid "Wide"
+msgstr "넓은"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:291
+msgid "Widest"
+msgstr "폭넓은"
+
+#: GameEngine.py:309
+msgid "Sets how accurate you need to be while playing."
+msgstr "집합 얼마나 정확하게 당신이 게임을해야합니다."
+
+#: GameEngine.py:311
+msgid "Early Hit Window"
+msgstr "조기 조회수 창"
+
+#: GameEngine.py:311
+msgid "None (RB2)"
+msgstr "없음 (Rb2)"
+
+#: GameEngine.py:311
+msgid "Half (GH2)"
+msgstr "하프 (GH2)"
+
+#: GameEngine.py:311
+msgid "Full (FoF)"
+msgstr "전체 (FoF)"
+
+#: GameEngine.py:311
+msgid "Sets how much time before the note is part of the hit window. 'Auto' uses the MIDI to determine."
+msgstr "세트 얼마 만큼의 시간이 메모가 충돌 창문의 일부가되기 전에. '자동'은 MIDI를 확인하는 데 사용하는."
+
+#: GameEngine.py:312
+msgid "Show Detailed Handicap"
+msgstr "상세보기 핸디캡"
+
+#: GameEngine.py:312
+msgid "Shows the handicaps individually on the result screen."
+msgstr "개별적으로 결과 화면에 장애를 표시합니다."
+
+#: GameEngine.py:315
+msgid "Disable Variable BPM"
+msgstr "해제 변수 BPM은"
+
+#: GameEngine.py:315
+msgid "This will disable the use of the Variable BPM logic."
+msgstr "이것은 변수의 BPM 로직의 사용을 해제합니다."
+
+#: GameEngine.py:316
+msgid "Sort Direction"
+msgstr "정렬 방향"
+
+#: GameEngine.py:316
+msgid "Ascending"
+msgstr "오름차순"
+
+#: GameEngine.py:316
+msgid "Descending"
+msgstr "내림차순"
+
+#: GameEngine.py:316
+msgid "Choose whether to sort in ascending (A-Z) or descending (Z-A) order."
+msgstr "선택 여부를 오름차순으로 정렬하려면 (az) 또는 (ZA) 주문 내림차순."
+
+#: GameEngine.py:317
+msgid "Sort Setlist By"
+msgstr "정렬 Setlist으로"
+
+#: GameEngine.py:317
+msgid "Title"
+msgstr "제목"
+
+#: GameEngine.py:317
+msgid "Artist"
+msgstr "예술가"
+
+#: GameEngine.py:317
+msgid "Times played"
+msgstr "타임즈 연주"
+
+#: GameEngine.py:317
+msgid "Album"
+msgstr "앨범"
+
+#: GameEngine.py:317
+msgid "Genre"
+msgstr "장르"
+
+#: GameEngine.py:317
+msgid "Year"
+msgstr "년"
+
+#: GameEngine.py:317
+msgid "Band Difficulty"
+msgstr "밴드 난이도"
+
+#: GameEngine.py:317
+msgid "Song Collection"
+msgstr "송 컬렉션"
+
+#: GameEngine.py:317
+msgid "Choose how to sort the setlist by default."
+msgstr "선택하는 방법은 기본적으로 setlist를 정렬합니다."
+
+#: GameEngine.py:318
+msgid "Whammy Changes Sort Order"
+msgstr "Whammy 변경 정렬 순서"
+
+#: GameEngine.py:318
+msgid "When enabled, pressing the whammy bar will change the sort order in the setlist."
+msgstr "때, whammy 표시줄 setlist의 정렬 순서가 변경됩니다 눌러 사용할 수 있습니다."
+
+#: GameEngine.py:319
+msgid "Point Of View"
+msgstr "포인트보기"
+
+#: GameEngine.py:319
+msgid "GH3"
+msgstr "GH3"
+
+#: GameEngine.py:319
+msgid "Rock Rev"
+msgstr "레브 록"
+
+#: GameEngine.py:319
+msgid "Sets the camera's point of view. Set it to any game, or set it to 'Theme' to leave it to the theme creator."
+msgstr "보기의 설정 카메라 가리 킵니다. 어떤 게임에, 그것을 설정하거나 '테마'를 주제 작성기에두고 그것을 설정합니다."
+
+#: GameEngine.py:320
+msgid "Party Mode Timer"
+msgstr "파티 모드 타이머"
+
+#: GameEngine.py:320
+msgid "Sets the timer in Party Mode."
+msgstr "세트 파티 모드에서 타이머를."
+
+#: GameEngine.py:321
+msgid "Show Setlist Size"
+msgstr "보기 Setlist 크기"
+
+#: GameEngine.py:321
+msgid "Show the number of songs inside of each setlist."
+msgstr "표시 노래의 수를 각 setlist의 내부."
+
+#: GameEngine.py:322
+msgid "CD Mode Y-Rotation"
+msgstr "CD의 모드 Y 자 회전"
+
+#: GameEngine.py:322
+#: GameEngine.py:351
+msgid "Enabled"
+msgstr "활성 화됨"
+
+#: GameEngine.py:322
+msgid "Sets whether or not CDs in the setlist rotate about the Y axis."
+msgstr "setlist 여부에 CD를 세트가 Y 축에 대한 회전."
+
+#: GameEngine.py:326
+msgid "P1 AI"
+msgstr "P1 인공 지능"
+
+#: GameEngine.py:326
+msgid "Enable or disable the player 1 AI"
+msgstr "활성화 또는 비활성화 선수 1 인공 지능"
+
+#: GameEngine.py:327
+msgid "P1 AI Personality"
+msgstr "P1 인공 지능 인격"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "1. KiD"
+msgstr "1. 키즈"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "2. Stump"
+msgstr "2. 그루터기"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "3. akedRobot"
+msgstr "3. akedRobot"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "4. Q"
+msgstr "4. 질문"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "5. MFH"
+msgstr "5. MFH"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "6. Jurgen"
+msgstr "6. 위르겐"
+
+#: GameEngine.py:327
+msgid "Set the personality of the player 1 AI. The numbers correspond with their skill."
+msgstr "설정 플레이어의 인공 지능 성격 1. 숫자는 그들의 기술 대응하고 있습니다."
+
+#: GameEngine.py:328
+msgid "P1 AI Logic"
+msgstr "P1 인공 지능 논리"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "Original"
+msgstr "기존"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-Early"
+msgstr "MFH - 상순"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-OnTime1"
+msgstr "MFH - OnTime1"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-OnTime2"
+msgstr "MFH - OnTime2"
+
+#: GameEngine.py:328
+msgid "Set the logic used for the player 1 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "설정 논리 선수 1 인공 지능 사용됩니다. '기존'는 빠른 부분을 처리할 수 없습니다. 'MFH - 상순'시도 노트를 치고 그들은 충돌 창문을 입력합니다. 메모 아무일도 같이 치고, 리얼 플레이어 같은 시도 'MFH - OnTime'구현됩니다."
+
+#: GameEngine.py:330
+msgid "P2 AI"
+msgstr "P2 인공 지능"
+
+#: GameEngine.py:330
+msgid "Enable or disable the player 2 AI"
+msgstr "활성화 또는 비활성화 플레이어 2 인공 지능"
+
+#: GameEngine.py:331
+msgid "P2 AI Personality"
+msgstr "P2 인공 지능 인격"
+
+#: GameEngine.py:331
+msgid "Set the personality of the player 2 AI. The numbers correspond with their skill."
+msgstr "설정 플레이어의 개성이 인공 지능. 숫자는 그들의 기술 대응하고 있습니다."
+
+#: GameEngine.py:332
+msgid "P2 AI Logic"
+msgstr "P2 인공 지능 논리"
+
+#: GameEngine.py:332
+msgid "Set the logic used for the player 2 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "설정 논리 플레이어 2 인공 지능 사용됩니다. '기존'는 빠른 부분을 처리할 수 없습니다. 'MFH - 상순'시도 노트를 치고 그들은 충돌 창문을 입력합니다. 메모 아무일도 같이 치고, 리얼 플레이어 같은 시도 'MFH - OnTime'구현됩니다."
+
+#: GameEngine.py:334
+msgid "P3 AI"
+msgstr "P3 인공 지능"
+
+#: GameEngine.py:334
+msgid "Enable or disable the player 3 AI"
+msgstr "활성화 또는 비활성화 선수 3 인공 지능"
+
+#: GameEngine.py:335
+msgid "P3 AI Personality"
+msgstr "P3 인공 지능 인격"
+
+#: GameEngine.py:335
+msgid "Set the personality of the player 3 AI. The numbers correspond with their skill."
+msgstr "설정 플레이어의 인공 지능 성격 3. 숫자는 그들의 기술 대응하고 있습니다."
+
+#: GameEngine.py:336
+msgid "P3 AI Logic"
+msgstr "P3 인공 지능 논리"
+
+#: GameEngine.py:336
+msgid "Set the logic used for the player 3 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "설정 논리 선수 3 인공 지능 사용됩니다. '기존'는 빠른 부분을 처리할 수 없습니다. 'MFH - 상순'시도 노트를 치고 그들은 충돌 창문을 입력합니다. 메모 아무일도 같이 치고, 리얼 플레이어 같은 시도 'MFH - OnTime'구현됩니다."
+
+#: GameEngine.py:338
+msgid "P4 AI"
+msgstr "P4 인공 지능"
+
+#: GameEngine.py:338
+msgid "Enable or disable the player 4 AI"
+msgstr "활성화 또는 비활성화 선수 4 인공 지능"
+
+#: GameEngine.py:339
+msgid "P4 AI Personality"
+msgstr "P4 인공 지능 인격"
+
+#: GameEngine.py:339
+msgid "Set the personality of the player 4 AI. The numbers correspond with their skill."
+msgstr "설정 플레이어의 인공 지능 성격 4. 숫자는 그들의 기술 대응하고 있습니다."
+
+#: GameEngine.py:340
+msgid "P4 AI Logic"
+msgstr "P4 인공 지능 논리"
+
+#: GameEngine.py:340
+msgid "Set the logic used for the player 4 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "설정 논리 플레이어 4 인공 지능 사용됩니다. '기존'는 빠른 부분을 처리할 수 없습니다. 'MFH - 상순'시도 노트를 치고 그들은 충돌 창문을 입력합니다. 메모 아무일도 같이 치고, 리얼 플레이어 같은 시도 'MFH - OnTime'구현됩니다."
+
+#: GameEngine.py:343
+msgid "Lyric Display Mode"
+msgstr "서정 디스플레이 모드"
+
+#: GameEngine.py:343
+msgid "Scrolling"
+msgstr "스크롤"
+
+#: GameEngine.py:343
+msgid "Simple Lines"
+msgstr "단순한 라인"
+
+#: GameEngine.py:343
+msgid "2-Line"
+msgstr "2 - 선"
+
+#: GameEngine.py:343
+msgid "Sets the display mode for MIDI lyrics. Both 'Simple Lines' and '2-Line' will show as single phrases when playing the vocal part."
+msgstr "미디 가사를 설정 디스플레이 모드. 둘 다 '심플 라인'과 '2 - 라인 '은 하나의 문구 보컬 부분을 재생으로 표시됩니다."
+
+#: GameEngine.py:344
+msgid "Lyric Speed Mode"
+msgstr "서정 속도 모드"
+
+#: GameEngine.py:344
+msgid "Sets what determines the speed of the scrolling lyrics."
+msgstr "무엇 스크롤 가사의 속도를 결정하는 설정합니다."
+
+#: GameEngine.py:345
+msgid "Lyric Speed Percent"
+msgstr "서정 속도 비율"
+
+#: GameEngine.py:345
+msgid "Sets how quickly lyrics will scroll."
+msgstr "집합 얼마나 빨리 가사를 스크롤합니다."
+
+#: GameEngine.py:351
+msgid "Graphical Submenus"
+msgstr "그래픽 하위 메뉴"
+
+#: GameEngine.py:351
+msgid "Enable or disable the use of graphical submenus."
+msgstr "설정 또는 해제 그래픽 서브 메뉴의 사용."
+
+#: GameEngine.py:354
+msgid "Crowd Cheers"
+msgstr "군중 건배"
+
+#: GameEngine.py:354
+msgid "Off (Disabled)"
+msgstr "꺼짐 (사용 불가)"
+
+#: GameEngine.py:354
+msgid "During SP Only"
+msgstr "SP에 동안에만"
+
+#: GameEngine.py:354
+msgid "During SP & Green"
+msgstr "SP에 & 그린 동안"
+
+#: GameEngine.py:354
+msgid "Always On"
+msgstr "항상 켜져"
+
+#: GameEngine.py:354
+msgid "Sets when the crowd will cheer for you (if a crowd.ogg is present). 'During SP' will have them sing along in star power, and 'During SP & Green' will have them cheering both in SP and when your rock meter is above 2/3"
+msgstr "설정 무리가 (만약 crowd.ogg이 존재)을 응원합니다. 'SP에'그들이 같이 스타 파워에서 노래하고 '동안 SP에 & 그린'그들이 SP에 모두 환호하고 때 바위 미터는 2 / 3 이상합니다 것입니다하는 동안"
+
+#: GameEngine.py:357
+msgid "Miss Volume"
+msgstr "미스 볼륨"
+
+#: GameEngine.py:357
+msgid "Set the volume of the active track when you miss a note."
+msgstr "설정 활성 트랙의 음량이 메모를보고 싶어요."
+
+#: GameEngine.py:358
+msgid "Single Track Miss"
+msgstr "싱글 트랙 미스"
+
+#: GameEngine.py:358
+msgid "When playing a song with only a single track, this sets the volume of the track when you miss a note."
+msgstr "때 오직 하나의 트랙으로 노래를 재생, 이것이 트랙의 볼륨을 당신이 메모를보고 설정합니다."
+
+#: GameEngine.py:359
+msgid "Menu Volume"
+msgstr "메뉴 볼륨"
+
+#: GameEngine.py:359
+msgid "Set the volume of the background menu music."
+msgstr "설정 메뉴의 배경 음악의 볼륨."
+
+#: GameEngine.py:361
+msgid "Crowd Volume"
+msgstr "군중 볼륨"
+
+#: GameEngine.py:361
+msgid "Set the volume of the crowd."
+msgstr "설정 군중의 볼륨."
+
+#: GameEngine.py:363
+msgid "Kill Volume"
+msgstr "죽여 볼륨"
+
+#: GameEngine.py:363
+msgid "Sets the volume when using the killswitch."
+msgstr "설정 볼륨을 Killswitch을 사용합니다."
+
+#: GameEngine.py:364
+msgid "SFX Volume"
+msgstr "SFX 볼륨"
+
+#: GameEngine.py:364
+msgid "Sets the volume of various sound effects."
+msgstr "세트 다양한 음향 효과의 볼륨을."
+
+#: GameEngine.py:371
+msgid "Cache Song Metadata"
+msgstr "캐시 송 메타"
+
+#: GameEngine.py:371
+msgid "This will allow information about the songs to be stored for quick access later at the cost of a slow first time loading."
+msgstr "이것은 노래에 대한 정보가 빠른 액세스 속도가 느린 처음 로딩의 비용 나중에 저장할 수 있습니다."
+
+#: GameEngine.py:399
+msgid "Sets the overall graphical feel of the game. You can find and download many more at fretsonfire.net"
+msgstr "세트 게임의 전반적인 그래픽 느낀다. 당신은 찾을 수 많은 fretsonfire.net에서 더 많은 다운로드"
+
+#: GameEngine.py:404
+msgid "Board Speed Percent"
+msgstr "보드 속도 비율"
+
+#: GameEngine.py:404
+msgid "Sets how quickly note will scroll"
+msgstr "집합주의가 얼마나 빨리 스크롤됩니다"
+
+#: GameEngine.py:405
+msgid "No Fail"
+msgstr "아니 실패"
+
+#: GameEngine.py:405
+msgid "Sets whether or not you can fail out of a song."
+msgstr "세트 여부가 노래 실패할 수 없습니다."
+
+#: GameEngine.py:409
+msgid "Difficulty (Setlist Score)"
+msgstr "어려움 (Setlist 평가 점수)"
+
+#: GameEngine.py:409
+msgid "Sets the default difficulty displayed in the setlist score."
+msgstr "설정 기본 어려움을 setlist 점수에 표시됩니다."
+
+#: GameEngine.py:410
+msgid "Show Additional Stats"
+msgstr "보기 추가 통계"
+
+#: GameEngine.py:410
+msgid "If enabled, additional score information (longest streak, percentage) is displayed on the setlist."
+msgstr "활성화된 경우, 추가 점수 정보 (최장 연속, 백분율) setlist에 표시됩니다."
+
+#: GameEngine.py:412
+msgid "Instrument (Setlist Score)"
+msgstr "악기 (Setlist 평가 점수)"
+
+#: GameEngine.py:412
+msgid "Sets the default part displayed in the setlist score."
+msgstr "세트의 기본 부분을 setlist 점수에 표시됩니다."
+
+#: GameEngine.py:674
+msgid "Slideshow"
+msgstr "슬라이드쇼"
+
+#: GameEngine.py:677
+#: GameEngine.py:691
+msgid "Animated Stage"
+msgstr "애니메이션 단계"
+
+#: GameResultsScene.py:121
+#: GameResultsScene.py:122
+msgid "Co-Op Mode"
+msgstr "협동 조합 모드"
+
+#: GameResultsScene.py:124
+msgid "settings"
+msgstr "설정"
+
+#: GameResultsScene.py:125
+msgid "HOPOs"
+msgstr "HOPOs"
+
+#: GameResultsScene.py:126
+msgid "Hit Window"
+msgstr "조회수 창"
+
+#: GameResultsScene.py:127
+msgid "Adjusted Score Multiplier:"
+msgstr "조정 점수 배율기 :"
+
+#: GameResultsScene.py:128
+msgid "Original Score:"
+msgstr "기존 점수 :"
+
+#: GameResultsScene.py:133
+#: GameResultsScene.py:140
+#: GameResultsScene.py:147
+msgid "Continue"
+msgstr "계속"
+
+#: GameResultsScene.py:134
+msgid "Replay Setlist"
+msgstr "재생 Setlist"
+
+#: GameResultsScene.py:136
+#: GameResultsScene.py:143
+#: GameResultsScene.py:150
+msgid "Quit"
+msgstr "종료"
+
+#: GameResultsScene.py:141
+msgid "Replay"
+msgstr "재생"
+
+#: GameResultsScene.py:148
+msgid "End Setlist"
+msgstr "최종 Setlist"
+
+#: GameResultsScene.py:165
+msgid "Relax, it was an excellent show."
+msgstr "진정해, 그것은 훌륭한 표시했다."
+
+#: GameResultsScene.py:167
+msgid "Truly Amazing!"
+msgstr "참으로 놀라운 일이었다!"
+
+#: GameResultsScene.py:169
+msgid "Thanks for playing!"
+msgstr "재생 주셔서 감사합니다!"
+
+#: GameResultsScene.py:171
+msgid "One more song can't hurt!"
+msgstr "하나 더 노래는 이길 수 없다!"
+
+#: GameResultsScene.py:173
+msgid "What an amazing performance!"
+msgstr "정말 놀라운 성능!"
+
+#: GameResultsScene.py:175
+msgid "That's how it's done!"
+msgstr "그거 어떻게하는지이야!"
+
+#: GameResultsScene.py:248
+msgid "GH2 Sloppy"
+msgstr "GH2 조잡해"
+
+#: GameResultsScene.py:258
+msgid "New System"
+msgstr "새로운 시스템"
+
+#: GameResultsScene.py:573
+#, python-format
+msgid "%d points is a new high score! Enter your name:"
+msgstr "%d 점은 새로운 높은 점수입니다! 당신의 이름을 입력 :"
+
+#: GameResultsScene.py:1297
+#, python-format
+msgid "%s High Scores for %s"
+msgstr "%s %s에 대한 최고 점수"
+
+#: GameResultsScene.py:1299
+#, python-format
+msgid "%s High Scores"
+msgstr "%s 최고 점수"
+
+#: GameResultsScene.py:1305
+#, python-format
+msgid "Difficulty: %s"
+msgstr "난이도 : %s"
+
+#: GameResultsScene.py:1367
+msgid "Uploading Scores..."
+msgstr "업로드 점수 ..."
+
+#: GameResultsScene.py:1372
+msgid "Scores uploaded!"
+msgstr "점수는 업로드!"
+
+#: GameResultsScene.py:1376
+msgid "Your highscore ranks"
+msgstr "당신의 최고 기록은 순위"
+
+#: GameResultsScene.py:1377
+msgid "on the world starpower chart!"
+msgstr "세계 starpower 차트에!"
+
+#: GameResultsScene.py:1380
+msgid "but your rank is unknown."
+msgstr "하지만 당신의 순위를 알 수있다."
+
+#: GameResultsScene.py:1383
+msgid "but there was no new highscore."
+msgstr "하지만 아무리 새로운 최고 기록했다."
+
+#: GameResultsScene.py:1386
+msgid "Score upload failed!  World charts may be down."
+msgstr "점수 업로드 실패! 세계 차트는 아래있을 수 있습니다."
+
+#: GuitarScene.py:82
+#: GuitarScene.py:83
+msgid "Initializing..."
+msgstr "초기화 중 ..."
+
+#: GuitarScene.py:497
+msgid "KiD"
+msgstr "키즈"
+
+#: GuitarScene.py:497
+msgid "Stump"
+msgstr "그루터기"
+
+#: GuitarScene.py:497
+msgid "AkedRobot"
+msgstr "AkedRobot"
+
+#: GuitarScene.py:497
+msgid "Q"
+msgstr "질문"
+
+#: GuitarScene.py:497
+msgid "MFH"
+msgstr "MFH"
+
+#: GuitarScene.py:497
+msgid "Jurgen"
+msgstr "위르겐"
+
+#: GuitarScene.py:504
+msgid "Broken String"
+msgstr "깨진 문자열"
+
+#: GuitarScene.py:506
+msgid "Powerup Steal"
+msgstr "Powerup 훔치는"
+
+#: GuitarScene.py:510
+#, python-format
+msgid "%d Note Streak"
+msgstr "%d 참고 승리"
+
+#: GuitarScene.py:511
+#, python-format
+msgid "%d Phrase Streak"
+msgstr "%d 구문 승리"
+
+#: GuitarScene.py:512
+#, python-format
+msgid "%s Ready"
+msgstr "%s 준비"
+
+#: GuitarScene.py:513
+#, python-format
+msgid "Activate %s!"
+msgstr "%s 활성화!"
+
+#: GuitarScene.py:514
+msgid "You Failed"
+msgstr "당신은 실패"
+
+#: GuitarScene.py:515
+#, python-format
+msgid "%s is here"
+msgstr "%s은 여기"
+
+#: GuitarScene.py:516
+#, python-format
+msgid "%s was here"
+msgstr "%s 여기"
+
+#: GuitarScene.py:517
+msgid "% Complete"
+msgstr "% 완료"
+
+#: GuitarScene.py:518
+#: GuitarScene.py:5839
+msgid "HOPO"
+msgstr "HOPO"
+
+#: GuitarScene.py:519
+#: GuitarScene.py:5809
+#: GuitarScene.py:5818
+msgid "COMPLETED"
+msgstr "완료"
+
+#: GuitarScene.py:520
+#: GuitarScene.py:5811
+#: GuitarScene.py:5827
+msgid " % ON "
+msgstr "%에"
+
+#: GuitarScene.py:521
+msgid "BASS GROOVE"
+msgstr "BASS 홈"
+
+#: GuitarScene.py:522
+msgid "Bass Groove:"
+msgstr "그루브베이스가 :"
+
+#: GuitarScene.py:523
+msgid "Handicap"
+msgstr "핸디캡"
+
+#: GuitarScene.py:524
+msgid "Avg"
+msgstr "평균"
+
+#: GuitarScene.py:525
+msgid "Very Late"
+msgstr "너무 늦었"
+
+#: GuitarScene.py:526
+msgid "Late"
+msgstr "늦게"
+
+#: GuitarScene.py:527
+msgid "Slightly Late"
+msgstr "약간 늦은"
+
+#: GuitarScene.py:528
+msgid "-Excellent!"
+msgstr "- 잘 됐네요!"
+
+#: GuitarScene.py:529
+msgid "Perfect!!"
+msgstr "완벽해!"
+
+#: GuitarScene.py:530
+msgid "+Excellent!"
+msgstr "+ 훌륭합니다!"
+
+#: GuitarScene.py:531
+msgid "Slightly Early"
+msgstr "약간 이른"
+
+#: GuitarScene.py:534
+msgid "ms"
+msgstr "석사"
+
+#: GuitarScene.py:535
+msgid "Solo!"
+msgstr "솔로!"
+
+#: GuitarScene.py:536
+msgid "Perfect Solo!"
+msgstr "완벽한 솔로!"
+
+#: GuitarScene.py:537
+msgid "Awesome Solo!"
+msgstr "신난다 솔로!"
+
+#: GuitarScene.py:538
+msgid "Great Solo!"
+msgstr "멋진 솔로!"
+
+#: GuitarScene.py:539
+msgid "Good Solo!"
+msgstr "솔로 좋아!"
+
+#: GuitarScene.py:540
+msgid "Solid Solo!"
+msgstr "솔리드 솔로!"
+
+#: GuitarScene.py:541
+msgid "Okay Solo"
+msgstr "좋아, 솔로"
+
+#: GuitarScene.py:542
+msgid "Messy Solo"
+msgstr "지저분한 솔로"
+
+#: GuitarScene.py:543
+msgid "pts"
+msgstr "포인트"
+
+#: GuitarScene.py:544
+msgid "Get Ready to Rock"
+msgstr "록 준비를"
+
+#: GuitarScene.py:545
+msgid "as made famous by"
+msgstr "로 유명한이 만든"
+
+#: GuitarScene.py:546
+msgid "by "
+msgstr "로"
+
+#: GuitarScene.py:547
+msgid " fretted by "
+msgstr "로 fretted"
+
+#: GuitarScene.py:890
+msgid "Loading Song..."
+msgstr "노래를로드 중입니다 ..."
+
+#: GuitarScene.py:900
+msgid "Preparing Note Phrases..."
+msgstr "준비 참고 사항 구문 ..."
+
+#: GuitarScene.py:1401
+msgid "Loading Graphics..."
+msgstr "로드 중입니다 그래픽 ..."
+
+#: GuitarScene.py:1615
+msgid "         RESUME"
+msgstr "재개"
+
+#: GuitarScene.py:1616
+msgid "        RESTART"
+msgstr "다시 시작"
+
+#: GuitarScene.py:1618
+msgid "       PRACTICE"
+msgstr "연습이"
+
+#: GuitarScene.py:1619
+msgid "        OPTIONS"
+msgstr "옵션"
+
+#: GuitarScene.py:1620
+#: GuitarScene.py:1629
+msgid "           QUIT"
+msgstr "뒀어요"
+
+#: GuitarScene.py:1624
+msgid "        RESUME"
+msgstr "재개"
+
+#: GuitarScene.py:1625
+msgid "       RESTART"
+msgstr "다시 시작"
+
+#: GuitarScene.py:1627
+msgid "      END SONG"
+msgstr "끝 노래"
+
+#: GuitarScene.py:1628
+msgid "       OPTIONS"
+msgstr "옵션"
+
+#: GuitarScene.py:1634
+#: GuitarScene.py:1641
+msgid "RETRY SONG"
+msgstr "다시 시도 노래"
+
+#: GuitarScene.py:1635
+msgid "  PRACTICE"
+msgstr "연습이"
+
+#: GuitarScene.py:1636
+#: GuitarScene.py:1642
+#: GuitarScene.py:1706
+#: GuitarScene.py:1713
+msgid " NEW SONG"
+msgstr "새 노래"
+
+#: GuitarScene.py:1637
+#: GuitarScene.py:1643
+msgid "     QUIT"
+msgstr "뒀어요"
+
+#: GuitarScene.py:1650
+#: GuitarScene.py:1659
+msgid "  Resume"
+msgstr "이력서"
+
+#: GuitarScene.py:1651
+#: GuitarScene.py:1660
+msgid "  Start Over"
+msgstr "시작 오버"
+
+#: GuitarScene.py:1652
+#: GuitarScene.py:1661
+msgid "  Change Song"
+msgstr "변화 송"
+
+#: GuitarScene.py:1653
+msgid "  Practice"
+msgstr "연습"
+
+#: GuitarScene.py:1654
+#: GuitarScene.py:1663
+msgid "  Settings"
+msgstr "설정"
+
+#: GuitarScene.py:1655
+#: GuitarScene.py:1664
+msgid "  Quit to Main Menu"
+msgstr "종료 메인 메뉴"
+
+#: GuitarScene.py:1662
+msgid "  End Song"
+msgstr "최종 송"
+
+#: GuitarScene.py:1669
+#: GuitarScene.py:1676
+msgid " Try Again?"
+msgstr "다시 시도?"
+
+#: GuitarScene.py:1670
+#: GuitarScene.py:1677
+msgid "  Give Up?"
+msgstr "포기해?"
+
+#: GuitarScene.py:1671
+msgid "  Practice?"
+msgstr "연습?"
+
+#: GuitarScene.py:1672
+#: GuitarScene.py:1678
+msgid "Quit to Main"
+msgstr "종료 Main으로"
+
+#: GuitarScene.py:1686
+#: GuitarScene.py:1695
+msgid "   RESUME"
+msgstr "재개"
+
+#: GuitarScene.py:1687
+#: GuitarScene.py:1696
+msgid "   RESTART"
+msgstr "다시 시작"
+
+#: GuitarScene.py:1688
+#: GuitarScene.py:1697
+msgid "   CHANGE SONG"
+msgstr "변경 노래"
+
+#: GuitarScene.py:1689
+msgid "   PRACTICE"
+msgstr "연습이"
+
+#: GuitarScene.py:1690
+#: GuitarScene.py:1699
+msgid "   SETTINGS"
+msgstr "설정"
+
+#: GuitarScene.py:1691
+#: GuitarScene.py:1700
+msgid "   QUIT"
+msgstr "뒀어요"
+
+#: GuitarScene.py:1698
+msgid "   END SONG"
+msgstr "끝 노래"
+
+#: GuitarScene.py:1705
+#: GuitarScene.py:1712
+msgid " RETRY"
+msgstr "다시 시도"
+
+#: GuitarScene.py:1707
+msgid " PRACTICE"
+msgstr "연습이"
+
+#: GuitarScene.py:1708
+#: GuitarScene.py:1714
+msgid " QUIT"
+msgstr "뒀어요"
+
+#: GuitarScene.py:6488
+#, python-format
+msgid "FPS: %.2f"
+msgstr "FPS : %.2f"
+
+#: Language.py:62
+msgid "Language"
+msgstr "언어"
+
+#: Language.py:62
+msgid "Change the game language!"
+msgstr "변경 게임 언어!"
+
+#: Lobby.py:39
+#: MainMenu.py:294
+msgid "Your controls are not properly set up for this mode. Please check your settings."
+msgstr "귀하의 컨트롤이 제대로이 모드에 대해 설정되지 않습니다. 귀하의 설정을 확인하십시오."
+
+#: Lobby.py:43
+msgid "World error. Please try again."
+msgstr "세계 오류입니다. 다시 시도해주십시오."
+
+#: Lobby.py:167
+msgid "Choose Your Character"
+msgstr "당신의 선택 문자"
+
+#: Lobby.py:168
+#: Lobby.py:750
+#, python-format
+msgid "Player %d"
+msgstr "플레이어 %d"
+
+#: Lobby.py:170
+msgid "Regular Drums"
+msgstr "정기 드럼"
+
+#: Lobby.py:170
+msgid "Flipped Drums"
+msgstr "이성을 상실 드럼"
+
+#: Lobby.py:171
+msgid "Pedal-Using"
+msgstr "페달은 사용하기 -"
+
+#: Lobby.py:171
+msgid "Footless"
+msgstr "미답의"
+
+#: Lobby.py:172
+msgid "Assist Mode Off"
+msgstr "도움이 모드 끄기"
+
+#: Lobby.py:172
+#: Lobby.py:503
+#: Player.py:211
+msgid "Easy Assist"
+msgstr "쉽게 협조"
+
+#: Lobby.py:172
+#: Lobby.py:503
+#: Player.py:211
+msgid "Medium Assist"
+msgstr "중간 협조"
+
+#: Lobby.py:173
+msgid "Chordmaster"
+msgstr "Chordmaster"
+
+#: Lobby.py:173
+msgid "Two Notes Max"
+msgstr "2 노트 맥스"
+
+#: Lobby.py:174
+msgid "Information:"
+msgstr "정보 :"
+
+#: Lobby.py:188
+msgid "Create New Player"
+msgstr "새 플레이어"
+
+#: Lobby.py:188
+msgid "Saved Characters"
+msgstr "저장된 문자"
+
+#: Lobby.py:502
+#: Player.py:207
+msgid "Default Neck"
+msgstr "기본 목"
+
+#: Lobby.py:502
+#: Player.py:207
+msgid "Theme Neck"
+msgstr "테마 목"
+
+#: Lobby.py:502
+msgid "Select a Neck"
+msgstr "선택 목"
+
+#: Lobby.py:504
+msgid "Name"
+msgstr "이름"
+
+#: Lobby.py:504
+msgid "Name your character!"
+msgstr "이름 캐릭터!"
+
+#: Lobby.py:505
+#: Player.py:208
+msgid "Lefty Mode"
+msgstr "좌손 모드"
+
+#: Lobby.py:505
+msgid "Flip the guitar frets for left-handed playing!"
+msgstr "플립의 기타는 왼손 재생하기 위해 안달이 난거 로군요!"
+
+#: Lobby.py:506
+#: Player.py:209
+msgid "Drum Flip"
+msgstr "드럼 뒤집기"
+
+#: Lobby.py:506
+msgid "Flip the drum sounds - snare becomes crash, and so on"
+msgstr "뒤집기는 소리를 드럼 - 올무가 추락되고 등등"
+
+#: Lobby.py:507
+msgid "Auto-Kick Bass"
+msgstr "자동 킥베이스"
+
+#: Lobby.py:507
+msgid "Feet uncooperative? Broke your pedal? Not to worry!"
+msgstr "피트 비협조적인? 파산 페달 네? 걱정마!"
+
+#: Lobby.py:508
+#: Player.py:211
+msgid "Assist Mode"
+msgstr "도움 모드"
+
+#: Lobby.py:508
+msgid "Play hard and expert, even when you're not that good!"
+msgstr "재생 하드와 전문가, 심지어 당신이 그렇게 대단 한건 아냐!"
+
+#: Lobby.py:509
+#: Player.py:190
+#: Player.py:210
+msgid "Two-Chord Max"
+msgstr "2 Chord 최대"
+
+#: Lobby.py:509
+msgid "For those still playing with uncooperative keyboards."
+msgstr "그 여전히 비협조적인 키보드를 가지고 노는하십시오."
+
+#: Lobby.py:510
+msgid "Give the endless procession of notes a bit of flair!"
+msgstr "메모의 끝없는 행렬를 줘 감각의 비트!"
+
+#: Lobby.py:511
+msgid "Upload Name"
+msgstr "업로드 이름"
+
+#: Lobby.py:511
+msgid "To the internet, you are GUITARGOD23047124!"
+msgstr "인터넷에, 당신은 GUITARGOD23047124 있습니다!"
+
+#: Lobby.py:512
+msgid "Choose Avatar"
+msgstr "선택 아바타"
+
+#: Lobby.py:512
+msgid "A 256x256 window into your soul."
+msgstr "당신의 영혼에 256x256 창을 엽니다."
+
+#: Lobby.py:513
+msgid "Delete Character"
+msgstr "문자 삭제"
+
+#: Lobby.py:513
+msgid "Quitter."
+msgstr "겁쟁이 군."
+
+#: Lobby.py:514
+msgid "Done"
+msgstr "완료"
+
+#: Lobby.py:514
+msgid "All finished? Let's do this thing!"
+msgstr "모두 다 했어? 자, 이거 해봐!"
+
+#: Lobby.py:549
+msgid "Are you sure you want to delete this player?"
+msgstr "당신은 당신이이 선수를 삭제하시겠습니까?"
+
+#: Lobby.py:560
+msgid "That is a terrible name. Choose something not 'default'"
+msgstr "그 끔찍한 이름입니다. 선택 것만 아니라면 '기본'"
+
+#: Lobby.py:575
+msgid "That name already exists!"
+msgstr "그 이름이 이미 존재합니다!"
+
+#: Lobby.py:577
+msgid "Please enter a name!"
+msgstr "제발 이름을 입력하십시오!"
+
+#: MainMenu.py:150
+msgid "Tutorials"
+msgstr "자습서"
+
+#: MainMenu.py:151
+msgid "Practice"
+msgstr "연습"
+
+#: MainMenu.py:165
+msgid "Face-Off"
+msgstr "- 페이스 오프"
+
+#: MainMenu.py:166
+msgid "Pro Face-Off"
+msgstr "프로 페이스 오프"
+
+#: MainMenu.py:167
+msgid "Party Mode"
+msgstr "파티 모드"
+
+#: MainMenu.py:168
+msgid "FoFiX Co-Op"
+msgstr "FoFiX Co - op에"
+
+#: MainMenu.py:169
+msgid "RB Co-Op"
+msgstr "RB Co - op에"
+
+#: MainMenu.py:170
+msgid "GH Co-Op"
+msgstr "GH Co - op에"
+
+#: MainMenu.py:171
+msgid "GH Battle"
+msgstr "GH 배틀"
+
+#: MainMenu.py:188
+msgid "Solo Tour"
+msgstr "솔로 투어"
+
+#: MainMenu.py:189
+msgid "Quickplay"
+msgstr "Quickplay"
+
+#: MainMenu.py:236
+#, python-format
+msgid "This binary release is being run from a %(currentVcs)s working copy. This is not the correct way to run FoFiX from %(currentVcs)s. Please see one of the following web pages to set your %(currentVcs)s working copy up correctly:"
+msgstr "이것은 이진 릴리스 %(currentVcs)s 작업 복사본에서 실행되고 있습니다. 이것은 올바른 방법은 %(currentVcs)s에서 FoFiX를 실행되지 않습니다. 제발 좀 제대로 %(currentVcs)s 작업 복사본을 설정하는 다음 중 하나를 웹 페이지보기 :"
+
+#: MainMenu.py:240
+#, python-format
+msgid "This binary was built from a %(buildVcs)s working copy but is not running from one. The FoFiX Team will not provide any support whatsoever for this binary. Please see the following site for official binary releases:"
+msgstr "이 이진수는 %(buildVcs)s 작업 복사본에서 세워졌지만 하나에서 실행되지 않습니다. FoFiX 팀은이 바이너리에 대한 지원을 전혀 제공하지 않습니다. 제발 공식 바이너리 릴리즈에 대해 다음 사이트를 참조 :"
+
+#: MainMenu.py:312
+msgid "No tutorials found!"
+msgstr "아니 자습서 찾았어!"
+
+#: Microphone.py:50
+msgid "[Default Microphone]"
+msgstr "[기본 마이크]"
+
+#: Microphone.py:183
+msgid "[Microphones not supported]"
+msgstr "[마이크]을 지원하지 않습니다"
+
+#: Player.py:169
+msgid "Name your controller."
+msgstr "이름 컨트롤러."
+
+#: Player.py:170
+msgid "Move left"
+msgstr "왼쪽으로 이동"
+
+#: Player.py:171
+msgid "Move right"
+msgstr "오른쪽으로 이동"
+
+#: Player.py:172
+msgid "Move up"
+msgstr "위로 이동"
+
+#: Player.py:173
+msgid "Move down"
+msgstr "아래로 이동"
+
+#: Player.py:174
+msgid "Pick"
+msgstr "선택"
+
+#: Player.py:175
+msgid "Secondary Pick"
+msgstr "2 차 선택"
+
+#: Player.py:175
+msgid "Bass Drum 2"
+msgstr "베이스 2 드럼"
+
+#: Player.py:181
+msgid "Solo Fret #1"
+msgstr "솔로 # 1 무서워"
+
+#: Player.py:181
+msgid "Solo Key"
+msgstr "솔로 키"
+
+#: Player.py:181
+#: Player.py:196
+msgid "Analog Slider"
+msgstr "아날로그 슬라이더"
+
+#: Player.py:182
+msgid "Solo Fret #2"
+msgstr "솔로 # 2 무서워"
+
+#: Player.py:183
+msgid "Solo Fret #3"
+msgstr "솔로 # 3 무서워"
+
+#: Player.py:184
+msgid "Solo Fret #4"
+msgstr "솔로 # 4 무서워"
+
+#: Player.py:185
+msgid "Solo Fret #5"
+msgstr "솔로 # 5 무서워"
+
+#: Player.py:186
+msgid "Cancel"
+msgstr "취소"
+
+#: Player.py:187
+msgid "StarPower"
+msgstr "StarPower"
+
+#: Player.py:190
+msgid "When enabled, the highest notes in large note chords are auto-played."
+msgstr "때, 큰 노트 화음에서 가장 높은 음표를 활성화 자동으로 재생됩니다."
+
+#: Player.py:191
+msgid "Controller Type"
+msgstr "컨트롤러 타입"
+
+#: Player.py:191
+msgid "Standard Guitar"
+msgstr "일반 기타"
+
+#: Player.py:191
+msgid "Solo Shift Guitar"
+msgstr "솔로 쉬프트 기타"
+
+#: Player.py:191
+msgid "Drum Set (4-Drum)"
+msgstr "드럼 세트 (4 - 드럼)"
+
+#: Player.py:191
+msgid "Analog Slide Guitar"
+msgstr "아날로그 슬라이드 기타"
+
+#: Player.py:191
+msgid "Microphone"
+msgstr "마이크로폰"
+
+#: Player.py:191
+msgid "'Standard Guitar' is for keyboards and pre-WT GH-series guitars. 'Solo Shift Guitar' is for RB-series guitars and keyboards who want to use a shift key for solo frets. 'Analog Slide Guitar' is for guitars with an analog slider bar."
+msgstr "'일반 기타'는 키보드와 사전 WT GH - 시리즈 기타입니다. '기타 솔로 시프트'RB - 시리즈 및 기타 솔로가 안달이 난거 로군요에 대한 Shift 키를 사용하려면 키보드입니다. '아날로그 슬라이드 기타'는 기타를위한 아날로그 슬라이더 막대입니다."
+
+#: Player.py:192
+msgid "Analog SP"
+msgstr "아날로그 SP에"
+
+#: Player.py:192
+msgid "Enables analog SP (as in the XBOX Xplorer controller.)"
+msgstr "활성화 아날로그 SP에 (X 박스 Xplorer 컨트롤러에 있습니다.)"
+
+#: Player.py:193
+msgid "Analog SP Threshold"
+msgstr "아날로그 SP에의 임계값"
+
+#: Player.py:193
+msgid "Sets a threshold level for activating SP in analog mode."
+msgstr "아날로그 모드에서 SP에 활성화하기위한 설정 임계값 수준을."
+
+#: Player.py:194
+msgid "Analog SP Sensitivity"
+msgstr "아날로그 SP에 민감도"
+
+#: Player.py:194
+msgid "Sets the sensitivity for activating SP in analog mode."
+msgstr "아날로그 모드에서 SP에 활성화에 대한 감도를 설정합니다."
+
+#: Player.py:195
+msgid "Analog Drums"
+msgstr "아날로그 드럼"
+
+#: Player.py:195
+#: Player.py:197
+msgid "PS2/PS3/Wii"
+msgstr "PS2/PS3/Wii"
+
+#: Player.py:195
+#: Player.py:197
+msgid "XBOX"
+msgstr "XBOX"
+
+#: Player.py:195
+#: Player.py:197
+msgid "XBOX Inv."
+msgstr "X 박스 Inv."
+
+#: Player.py:195
+msgid "Enables analog drums as in RB2 and GH drumsets."
+msgstr "Rb2와 GH의 drumsets로서 활성화 아날로그 드럼."
+
+#: Player.py:196
+msgid "Inverted"
+msgstr "성욕 도착의"
+
+#: Player.py:196
+msgid "Experimental testing for the analog slide mode."
+msgstr "아날로그 슬라이드 모드 실험 테스트."
+
+#: Player.py:197
+msgid "Analog Effects"
+msgstr "아날로그 효과"
+
+#: Player.py:197
+msgid "Enables analog whammy bar. Set to the system your controller was designed for."
+msgstr "활성화 아날로그 whammy 바. 설정 컨트롤러에 대한 설계 시스템."
+
+#: Player.py:198
+msgid "Sound FX Switch"
+msgstr "사운드 FX는 스위치"
+
+#: Player.py:198
+msgid "Switch"
+msgstr "스위치"
+
+#: Player.py:198
+msgid "Cycle"
+msgstr "주기"
+
+#: Player.py:199
+msgid "Microphone Device"
+msgstr "마이크 장치"
+
+#: Player.py:200
+msgid "Tap Sensitivity"
+msgstr "감성을 두드려"
+
+#: Player.py:200
+msgid "Sets how sensitive the microphone is to being tapped."
+msgstr "세트는 도청되고하는 방법에 민감한 마이크가이다."
+
+#: Player.py:201
+msgid "Passthrough Volume"
+msgstr "통과 볼륨"
+
+#: Player.py:201
+msgid "Sets how loud you hear yourself singing."
+msgstr "듣고 얼마나 큰소리로 설정 자신이 노래."
+
+#: Player.py:207
+msgid "Neck Type"
+msgstr "목 타입"
+
+#: Player.py:207
+msgid "Specific Neck"
+msgstr "특정 목"
+
+#: Player.py:212
+msgid "Auto Kick"
+msgstr "자동 차"
+
+#: Player.py:385
+msgid "Default Drum"
+msgstr "기본 드럼"
+
+#: Player.py:390
+#, python-format
+msgid "Controller %d"
+msgstr "%d 컨트롤러"
+
+#: Player.py:391
+#, python-format
+msgid "Select the controller for slot %d"
+msgstr "선택 %d 슬롯에 컨트롤러"
+
+#: Player.py:754
+#, python-format
+msgid "%s conflicts with %s"
+msgstr "%s과 %s 충돌"
+
+#: Player.py:842
+#, python-format
+msgid "This key conflicts with the following keys: %s"
+msgstr "다음 키와 충돌이 키는 : %s"
+
+#: Scorekeeper.py:30
+msgid "Auto Kick Bass"
+msgstr "자동 킥베이스"
+
+#: Scorekeeper.py:30
+msgid "Medium Assist Mode"
+msgstr "매체 모드를 지원"
+
+#: Scorekeeper.py:30
+msgid "Easy Assist Mode"
+msgstr "쉬운 모드를 지원"
+
+#: Scorekeeper.py:30
+msgid "Jurgen Played!"
+msgstr "위르겐은 재생!"
+
+#: Scorekeeper.py:31
+msgid "Effects Saved SP"
+msgstr "효과는 SP에 저장된"
+
+#: Scorekeeper.py:31
+msgid "All Tapping"
+msgstr "모든 부수"
+
+#: Scorekeeper.py:31
+msgid "HOPO Frequency: Most"
+msgstr "HOPO 주파수 : 대부분의"
+
+#: Scorekeeper.py:31
+msgid "HOPO Frequency: Even More"
+msgstr "HOPO 주파수 : 심지어 더"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: More"
+msgstr "HOPO 주파수 : 기타"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: Less"
+msgstr "HOPO 주파수 : 이하"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: Least"
+msgstr "HOPO 주파수 : 겠네"
+
+#: Scorekeeper.py:32
+msgid "HOPO Disabled!"
+msgstr "HOPO은 사용 불가!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Tightest!"
+msgstr "조회수 창 : 소감!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Tight!"
+msgstr "조회수 창 : 딱 좋아!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Wider"
+msgstr "조회수 창 : 넓게"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Widest"
+msgstr "조회수 창 : 가장 광범"
+
+#: Scorekeeper.py:34
+msgid "Two Note Chords"
+msgstr "2 참고 사항 화음"
+
+#: Scorekeeper.py:34
+msgid "No Fail Mode"
+msgstr "아니 모드를 실패"
+
+#: Scorekeeper.py:34
+msgid "Sloppy Mode!"
+msgstr "조잡 모드!"
+
+#: Scorekeeper.py:35
+msgid "Song Slowdown"
+msgstr "송 천천히"
+
+#: Scorekeeper.py:35
+msgid "Early Hit Window Adjustment"
+msgstr "조기 창 조정 때려"
+
+#: Settings.py:250
+#, python-format
+msgid "Press a key for '%s' or hold Escape to disable."
+msgstr "보도에 대한 '%s 키 '또는 보류 ESC를 해제합니다."
+
+#: Settings.py:252
+#, python-format
+msgid "Press a key for '%s' or hold Escape to cancel."
+msgstr "보도에 대한 '%s 키 '또는 보류 탈출이 취소됩니다."
+
+#: Settings.py:302
+msgid "No Controllers Found."
+msgstr "컨트롤러를 찾을 수 없음."
+
+#: Settings.py:350
+msgid "Are you sure you want to delete this controller?"
+msgstr "당신은 당신이 컨트롤러를 삭제하시겠습니까?"
+
+#: Settings.py:374
+msgid "Please name your controller"
+msgstr "귀하의 컨트롤러의 이름을"
+
+#: Settings.py:376
+#: Settings.py:626
+msgid "That name is already taken."
+msgstr "그 이름이 이미 사용 중입니다."
+
+#: Settings.py:378
+#: Settings.py:628
+msgid "Canceled."
+msgstr "취소되었습니다."
+
+#: Settings.py:450
+#: Settings.py:487
+#: Settings.py:517
+#: Settings.py:546
+#: Settings.py:584
+#: Settings.py:612
+msgid "Rename Controller"
+msgstr "컨트롤러 이름 바꾸기"
+
+#: Settings.py:473
+msgid "Press the solo shift key. Be sure to assign the frets first! Hold Escape to cancel."
+msgstr "보도 솔로 Shift 키를. 안달이 난거 로군요을 할당 먼저해야합니다! 잠깐 탈출 취소됩니다."
+
+#: Settings.py:569
+msgid "Press the highest fret on the slider. Hold Escape to cancel."
+msgstr "언론이 최고의 슬라이더에 마세요. 잠깐 탈출 취소됩니다."
+
+#: Settings.py:624
+msgid "Please rename your controller"
+msgstr "귀하의 컨트롤러 이름을 변경"
+
+#: Settings.py:752
+msgid "Battle Objects"
+msgstr "배틀 객체"
+
+#: Settings.py:752
+msgid "Set which objects can appear in Battle Mode"
+msgstr "설정 개체는 배틀 모드에서 나타날 수"
+
+#: Settings.py:767
+msgid "Advanced Gameplay Settings"
+msgstr "고급 Gameplay 설정"
+
+#: Settings.py:767
+msgid "Set advanced gameplay settings that affect the game rules."
+msgstr "설정이 게임의 규칙에 영향을 플레이 설정을 고급."
+
+#: Settings.py:768
+msgid "Vocal Mode Settings"
+msgstr "보컬 모드 설정"
+
+#: Settings.py:768
+msgid "Change settings that affect lyrics and in-game vocals."
+msgstr "와 - 게임 보컬 가사에 영향을 설정 변경."
+
+#: Settings.py:769
+msgid "HO/PO Settings"
+msgstr "호 / 포 설정"
+
+#: Settings.py:769
+msgid "Change settings that affect hammer-ons and pull-offs (HO/PO)."
+msgstr "과 당기 오프 (망치 기능에 영향을 설정 변경 호 / 포)."
+
+#: Settings.py:770
+msgid "Battle Settings"
+msgstr "전투 설정"
+
+#: Settings.py:770
+msgid "Change settings that affect battle mode."
+msgstr "전투 모드에 영향을 설정 변경."
+
+#: Settings.py:776
+#: Settings.py:1218
+msgid "Test Controller 1"
+msgstr "테스트 컨트롤러 1"
+
+#: Settings.py:776
+#: Settings.py:1218
+msgid "Test the controller configured for slot 1."
+msgstr "테스트 컨트롤러 슬롯 1로 설정됩니다."
+
+#: Settings.py:777
+#: Settings.py:1219
+msgid "Test Controller 2"
+msgstr "테스트 컨트롤러 2"
+
+#: Settings.py:777
+#: Settings.py:1219
+msgid "Test the controller configured for slot 2."
+msgstr "테스트 컨트롤러 슬롯 2로 설정됩니다."
+
+#: Settings.py:778
+#: Settings.py:1220
+msgid "Test Controller 3"
+msgstr "테스트 컨트롤러 3"
+
+#: Settings.py:778
+#: Settings.py:1220
+msgid "Test the controller configured for slot 3."
+msgstr "테스트 컨트롤러 슬롯 3에 대한 구성됩니다."
+
+#: Settings.py:779
+#: Settings.py:1221
+msgid "Test Controller 4"
+msgstr "테스트 컨트롤러 4"
+
+#: Settings.py:779
+#: Settings.py:1221
+msgid "Test the controller configured for slot 4."
+msgstr "테스트 컨트롤러 슬롯 4로 설정됩니다."
+
+#: Settings.py:818
+msgid "More Effects"
+msgstr "기타 효과"
+
+#: Settings.py:818
+msgid "Change the settings of the shader system."
+msgstr "셰이더 시스템의 설정을 변경합니다."
+
+#: Settings.py:834
+msgid "Change Neck Transparency"
+msgstr "변경 목에 투명성"
+
+#: Settings.py:834
+msgid "Change the transparency of the various in-game necks."
+msgstr "변경 - 다양한에서 게임 올라오는의 투명성."
+
+#: Settings.py:847
+msgid "Theme Display Settings"
+msgstr "테마 디스플레이 설정"
+
+#: Settings.py:847
+msgid "Change settings that only affect certain theme types."
+msgstr "특정 주제 유형에 영향을 설정 변경."
+
+#: Settings.py:866
+#: Settings.py:1239
+msgid "Video Resolution"
+msgstr "비디오 해상도"
+
+#: Settings.py:866
+#: Settings.py:1239
+msgid "Set the resolution of the game. In windowed mode, higher values mean a larger screen."
+msgstr "설정이 게임의 해상도. 창 모드에서는 높은 값이 더 큰 화면을 의미."
+
+#: Settings.py:873
+msgid "Stages Options"
+msgstr "단계 옵션"
+
+#: Settings.py:873
+msgid "Change settings related to the in-game background."
+msgstr "설정 변경에 게임의 배경과 관련."
+
+#: Settings.py:874
+#: Settings.py:1246
+msgid "Choose Default Neck >"
+msgstr "선택 기본 목에>"
+
+#: Settings.py:874
+#: Settings.py:1246
+msgid "Choose your default neck. You still have to choose which neck you use for your character in the character select screen."
+msgstr "선택 기본 목. 당신은 여전히 어떤 목이 당신이 문자에 캐릭터 선택 화면에 사용할 선택할 수 있습니다."
+
+#: Settings.py:875
+msgid "Fretboard Settings"
+msgstr "Fretboard 설정"
+
+#: Settings.py:875
+msgid "Change settings related to the fretboard."
+msgstr "설정 변경 fretboard 관련."
+
+#: Settings.py:876
+#: Settings.py:1247
+msgid "In-Game Display Settings"
+msgstr "- 게임에서 디스플레이 설정"
+
+#: Settings.py:876
+#: Settings.py:1247
+msgid "Change what and where things appear in-game."
+msgstr "무슨 옷 어디로 가지는 게임이 나타납니다."
+
+#: Settings.py:877
+msgid "Advanced Video Settings"
+msgstr "고급 비디오 설정"
+
+#: Settings.py:877
+msgid "Change advanced video settings."
+msgstr "변화는 비디오 고급 설정."
+
+#: Settings.py:905
+#: Settings.py:1266
+msgid "Volume Settings"
+msgstr "볼륨 설정"
+
+#: Settings.py:905
+#: Settings.py:1266
+msgid "Change the volume of game sounds."
+msgstr "변경 게임 소리의 볼륨."
+
+#: Settings.py:914
+msgid "Advanced Audio Settings"
+msgstr "고급 오디오 설정"
+
+#: Settings.py:914
+msgid "Change advanced audio settings."
+msgstr "변경 오디오 고급 설정."
+
+#: Settings.py:956
+#: Settings.py:1281
+msgid "Change Setlist Path >"
+msgstr "변경 Setlist 경로>"
+
+#: Settings.py:956
+#: Settings.py:1281
+msgid "Set the path to a folder named 'songs' that contains your songs."
+msgstr "당신의 노래를 들어라는 폴더로 설정 경로는 '노래'."
+
+#: Settings.py:988
+msgid "Debug Settings"
+msgstr "디버그 설정"
+
+#: Settings.py:988
+msgid "Settings for coders to debug. Probably not worth changing."
+msgstr "디버깅하는 코더에 대한 설정을 누릅니다. 아마 변화하는 가치도 없어."
+
+#: Settings.py:989
+msgid "Log Settings"
+msgstr "로그 설정"
+
+#: Settings.py:989
+msgid "Adds junk information to the logfile. Probably not useful in bug reports."
+msgstr "로그 파일에 정크 정보를 추가합니다. 아마도 버그 리포트에 유용하지 않습니다."
+
+#: Settings.py:994
+msgid "AI Settings"
+msgstr "인공 지능 설정을"
+
+#: Settings.py:994
+msgid "Change the settings of the AI"
+msgstr "인공 지능의 변경 설정"
+
+#: Settings.py:1003
+#: Settings.py:1356
+msgid "Mod settings"
+msgstr "모드 설정"
+
+#: Settings.py:1003
+#: Settings.py:1356
+msgid "Enable or disable any mods you have installed."
+msgstr "활성화 또는 비활성화 개조 귀하가 설치되어 있습니다."
+
+#: Settings.py:1008
+#: Settings.py:1298
+msgid "Gameplay Settings"
+msgstr "게임 플레이 설정"
+
+#: Settings.py:1008
+#: Settings.py:1298
+msgid "Settings that affect the rules of the game."
+msgstr "게임의 규칙에 영향을 설정."
+
+#: Settings.py:1009
+#: Settings.py:1299
+msgid "Control Settings"
+msgstr "컨트롤 설정"
+
+#: Settings.py:1009
+#: Settings.py:1299
+msgid "Create, delete, and edit your controls."
+msgstr "만들기, 삭제 및 수정 관리합니다."
+
+#: Settings.py:1010
+#: Settings.py:1300
+msgid "Display Settings"
+msgstr "디스플레이 설정"
+
+#: Settings.py:1010
+#: Settings.py:1300
+msgid "Theme, neck, resolution, etc."
+msgstr "테마, 목, 해상도, 등"
+
+#: Settings.py:1011
+#: Settings.py:1301
+msgid "Audio Settings"
+msgstr "오디오 설정"
+
+#: Settings.py:1011
+#: Settings.py:1301
+msgid "Volume controls, etc."
+msgstr "볼륨 컨트롤 등"
+
+#: Settings.py:1012
+#: Settings.py:1302
+msgid "Setlist Settings"
+msgstr "Setlist 설정"
+
+#: Settings.py:1012
+#: Settings.py:1302
+msgid "Settings that affect the setlist."
+msgstr "setlist 영향을 미치는 설정을 누릅니다."
+
+#: Settings.py:1013
+msgid "Advanced Settings"
+msgstr "고급 설정"
+
+#: Settings.py:1013
+msgid "Settings that probably don't need to be changed."
+msgstr "아마 변경할 필요가 없습니다 설정을 누릅니다."
+
+#: Settings.py:1014
+#: Settings.py:1303
+msgid "Mods, Cheats, AI"
+msgstr "개조는, 인공 지능 요령"
+
+#: Settings.py:1014
+#: Settings.py:1303
+msgid "Set Jurgen to play for you, or other cheats."
+msgstr "설정 위르겐 당신을 위해, 또는 기타 속이고 재생됩니다."
+
+#: Settings.py:1015
+#: Settings.py:1304
+#, python-format
+msgid "%s Credits"
+msgstr "%s 크레딧"
+
+#: Settings.py:1015
+#: Settings.py:1304
+msgid "See who made this game."
+msgstr "보기이 게임을했다."
+
+#: Settings.py:1016
+#: Settings.py:1305
+msgid "Quickset"
+msgstr "산울 타리"
+
+#: Settings.py:1016
+#: Settings.py:1305
+msgid "A quick way to set many advanced settings."
+msgstr "빠른 방법은 많은 고급 설정을 설정할 수 있습니다."
+
+#: Settings.py:1017
+msgid "Hide Advanced Options"
+msgstr "숨기기 고급 옵션"
+
+#: Settings.py:1047
+#: Settings.py:1320
+msgid "FoFiX needs to restart to apply setting changes."
+msgstr "FoFiX 설정 변경 사항을 적용하려면 재시작해야합니다."
+
+#: Settings.py:1066
+#: Settings.py:1328
+msgid "Test Controls"
+msgstr "컨트롤 테스트"
+
+#: Settings.py:1066
+#: Settings.py:1328
+msgid "Go here to test your controllers."
+msgstr "여기에 귀하의 컨트롤러를 테스트로 이동합니다."
+
+#: Settings.py:1071
+#: Settings.py:1333
+msgid "New Controller"
+msgstr "새로운 컨트롤러"
+
+#: Settings.py:1071
+#: Settings.py:1333
+msgid "Create a new controller to use."
+msgstr "새 컨트롤러를 사용합니다."
+
+#: Settings.py:1072
+#: Settings.py:1334
+msgid "Edit Controller"
+msgstr "편집 컨트롤러"
+
+#: Settings.py:1072
+#: Settings.py:1334
+msgid "Edit a controller you have created."
+msgstr "편집 만든 컨트롤러."
+
+#: Settings.py:1073
+#: Settings.py:1335
+msgid "Delete Controller"
+msgstr "삭제 컨트롤러"
+
+#: Settings.py:1073
+#: Settings.py:1335
+msgid "Delete a controller you have created."
+msgstr "삭제 만든 컨트롤러."
+
+#: Settings.py:1089
+#: Settings.py:1366
+msgid "You must specify a controller for slot 1!"
+msgstr "당신은 슬롯 1에 대한 컨트롤러를 지정해야합니다!"
+
+#: Settings.py:1095
+#: Settings.py:1372
+#, python-format
+msgid "Controllers in slots %d and %d conflict. Setting %d to None."
+msgstr "슬롯 %d 및 %d에 저촉 콘트롤러. 없음으로 %d을 설정합니다."
+
+#: Settings.py:1104
+#: Settings.py:1381
+#, python-format
+msgid "%d more conflicts."
+msgstr "%d 이상 충돌합니다."
+
+#: Settings.py:1149
+#: Settings.py:1411
+msgid "Choose a new songs directory."
+msgstr "선택 새 노래 디렉토리."
+
+#: Settings.py:1306
+msgid "See Advanced Options"
+msgstr "보기 고급 옵션"
+
+#: Settings.py:1600
+msgid "Cheats"
+msgstr "사기꾼"
+
+#: Song.py:132
+msgid "Guitar"
+msgstr "기타"
+
+#: Song.py:133
+msgid "Rhythm"
+msgstr "리듬"
+
+#: Song.py:134
+msgid "Bass"
+msgstr "베이스"
+
+#: Song.py:135
+msgid "Lead"
+msgstr "납"
+
+#: Song.py:136
+msgid "Drums"
+msgstr "드럼"
+
+#: Song.py:137
+msgid "Vocals"
+msgstr "보컬"
+
+#: Song.py:162
+msgid "Easy"
+msgstr "쉽게"
+
+#: Song.py:163
+msgid "Medium"
+msgstr "중"
+
+#: Song.py:164
+msgid "Hard"
+msgstr "하드"
+
+#: Song.py:165
+msgid "Expert"
+msgstr "전문가"
+
+#: Song.py:227
+msgid "NoName"
+msgstr "noname"
+
+#: Song.py:960
+msgid "This song is locked."
+msgstr "이 노래는 잠겨 있습니다."
+
+#: Song.py:1166
+msgid "Reset Career"
+msgstr "재설정 경력"
+
+#: Song.py:1213
+msgid "   (Random Song)"
+msgstr "(임의 노래)"
+
+#: Song.py:4171
+msgid "End of Career"
+msgstr "경력의 끝"
+
+#: Song.py:4434
+#: Song.py:4437
+msgid "Checking song database..."
+msgstr "노래 데이터베이스를 확인 ..."
+
+#: Song.py:4444
+#, python-format
+msgid "Enumerating song folders... (%d so far)"
+msgstr "열거 노래 폴더 ... (%d까지)"
+
+#: Song.py:4448
+msgid "Caching song data..."
+msgstr "데이터 캐싱 노래 ..."
+
+#: Song.py:4448
+#, python-format
+msgid "(folder %d of %d; %d%% of this folder)"
+msgstr "(%d의 폴더를 %d;이 폴더의 %d%의 %)"
+
+#: Song.py:4449
+msgid "Pruning leftover entries..."
+msgstr "가지치기 남은 항목 ..."
+
+#: SongChoosingScene.py:104
+msgid "Initializing Setlist..."
+msgstr "Setlist를 초기화 중 ..."
+
+#: SongChoosingScene.py:106
+msgid "Checking Command-Line Settings..."
+msgstr "확인 명령줄 설정 ..."
+
+#: SongChoosingScene.py:108
+msgid "Checking Setlist Settings..."
+msgstr "Setlist 설정을 확인 ..."
+
+#: SongChoosingScene.py:265
+#: SongChoosingScene.py:267
+#: SongChoosingScene.py:277
+msgid "Browsing Collection..."
+msgstr "컬렉션 브라우징 ..."
+
+#: SongChoosingScene.py:327
+#: SongChoosingScene.py:337
+msgid "No songs in this setlist are available to play!"
+msgstr "이 setlist 에선 노래가 재생 가능합니다!"
+
+#: SongChoosingScene.py:329
+#: SongChoosingScene.py:339
+msgid "Make sure you have a working career pack!"
+msgstr "있는지 확인하십시오 당신이 일하는 직업 팩을있어!"
+
+#: SongChoosingScene.py:389
+#: SongChoosingScene.py:496
+msgid "Loading Album Artwork..."
+msgstr "앨범 아트워크를로드 중입니다 ..."
+
+#: SongChoosingScene.py:423
+#: SongChoosingScene.py:634
+msgid "There are no drum parts in this song. Change your controllers to play."
+msgstr "아무이 노래에서 드럼 부분입니다. 변경 컨트롤러 재생합니다."
+
+#: SongChoosingScene.py:431
+#: SongChoosingScene.py:637
+msgid "There are no guitar parts in this song. Change your controllers to play."
+msgstr "이 노래에 기타 부분도있다. 변경 컨트롤러 재생합니다."
+
+#: SongChoosingScene.py:439
+#: SongChoosingScene.py:640
+msgid "There are no vocal parts in this song. Change your controllers to play."
+msgstr "이 노래에 보컬 부분도있다. 변경 컨트롤러 재생합니다."
+
+#: SongChoosingScene.py:457
+#, python-format
+msgid "%s Choose a difficulty:"
+msgstr "%s 어려움 선택 :"
+
+#: Theme.py:1001
+#: Theme.py:1126
+#: Theme.py:1209
+#: Theme.py:1319
+#: Theme.py:1482
+#: Theme.py:1605
+#: Theme.py:2114
+msgid "-- Locked --"
+msgstr "- 옥내 -"
+
+#: Theme.py:1047
+#: Theme.py:1070
+#: Theme.py:1086
+#: Theme.py:1103
+#: Theme.py:1236
+#: Theme.py:1260
+#: Theme.py:1276
+#: Theme.py:1280
+#: Theme.py:1365
+#: Theme.py:1388
+#: Theme.py:1404
+#: Theme.py:1417
+#: Theme.py:1631
+#: Theme.py:1655
+#: Theme.py:1671
+#: Theme.py:1674
+msgid "Nil"
+msgstr "무"
+
+#: Theme.py:1432
+#: Theme.py:2055
+#: Theme.py:2060
+#: Theme.py:2096
+msgid "Loading Preview..."
+msgstr "미리보기를로드 중입니다 ..."
+
+#: Theme.py:1440
+#: Theme.py:1549
+msgid "Play To Advance"
+msgstr "재생 전진"
+
+#: Theme.py:1446
+#: Theme.py:1555
+msgid "Played Once"
+msgstr "재생되면"
+
+#: Theme.py:1448
+#: Theme.py:1557
+#, python-format
+msgid "Played %d times."
+msgstr "재생 %d 번 누릅니다."
+
+#: Theme.py:1455
+#: Theme.py:1571
+msgid "There Is 1 Song In This Setlist."
+msgstr "저기 1 송이 Setlist에 있습니다."
+
+#: Theme.py:1457
+#: Theme.py:1573
+#, python-format
+msgid "There Are %d Songs In This Setlist."
+msgstr "이 Setlist 년 %d 노래가 있습니다."
+
+#: Theme.py:1461
+#: Theme.py:1577
+msgid "Tier"
+msgstr "층"
+
+#: Theme.py:1465
+#: Theme.py:1588
+msgid "Random Song"
+msgstr "랜덤 송"
+
+#: Theme.py:2016
+msgid "DIFFICULTY"
+msgstr "어려움"
+
+#: Theme.py:2018
+msgid "BAND"
+msgstr "밴드"
+
+#: Theme.py:2020
+msgid "GUITAR"
+msgstr "기타"
+
+#: Theme.py:2022
+msgid "DRUM"
+msgstr "북"
+
+#: Theme.py:2024
+msgid "BASS"
+msgstr "BASS"
+
+#: Theme.py:2026
+msgid "VOCALS"
+msgstr "보컬"
+
+#: Theme.py:2032
+msgid "SORTING:"
+msgstr "정렬 :"
+
+#: Theme.py:2034
+msgid "ALPHABETICALLY BY TITLE"
+msgstr "가나다순 제목별로"
+
+#: Theme.py:2036
+msgid "ALPHABETICALLY BY ARTIST"
+msgstr "알파벳순으로 아티스트"
+
+#: Theme.py:2038
+msgid "BY PLAY COUNT"
+msgstr "연극 COUNT 개의"
+
+#: Theme.py:2040
+msgid "ALPHABETICALLY BY ALBUM"
+msgstr "알파벳순으로 인한 앨범"
+
+#: Theme.py:2042
+msgid "ALPHABETICALLY BY GENRE"
+msgstr "가나다순 장르별로"
+
+#: Theme.py:2044
+msgid "BY YEAR"
+msgstr "인한 1 년"
+
+#: Theme.py:2046
+msgid "BY BAND DIFFICULTY"
+msgstr "밴드 인한 어려움"
+
+#: Theme.py:2048
+msgid "BY INSTRUMENT DIFFICULTY"
+msgstr "INSTRUMENT 인한 어려움"
+
+#: Theme.py:2050
+msgid "BY SONG COLLECTION"
+msgstr "노래 인한 컬렉션"
+
+#: Theme.py:2145
+#, python-format
+msgid "Played %d time"
+msgstr "재생 %d 시간"
+
+#: Theme.py:2147
+#, python-format
+msgid "Played %d times"
+msgstr "재생 %d 회"
+
+#: Theme.py:2152
+#: Theme.py:2159
+msgid "Play To Advance."
+msgstr "재생 사전하십시오."
+
+#: Theme.py:2155
+msgid "Never Played"
+msgstr "절대 재생"
+
+#: Theme.py:2219
+msgid "One Song In This Setlist"
+msgstr "이 Setlist 한 노래"
+
+#: Theme.py:2221
+#, python-format
+msgid "%d Songs In This Setlist"
+msgstr "이 Setlist 년 %d 노래"
+
+#: Theme.py:2230
+msgid "(Random Song)"
+msgstr "(임의 노래)"
+
+#: Theme.py:2428
+msgid "No Album"
+msgstr "아니 앨범"
+
+#: Theme.py:2433
+msgid "No Genre"
+msgstr "장르 없음"
+
+#: Video.py:151
+msgid "Video setup failed with your resolution settings, and so were reset to defaults."
+msgstr "비디오 설정은 해상도 설정, 그리고 실패 때문에 기본값으로 재설정했다."
+
+#: Vocalist.py:120
+msgid "Amazing!"
+msgstr "놀라워!"
+
+#: Vocalist.py:120
+msgid "Great!"
+msgstr "좋아요!"
+
+#: Vocalist.py:120
+msgid "Decent"
+msgstr "점잖은"
+
+#: Vocalist.py:120
+msgid "Average"
+msgstr "평균"
+
+#: Vocalist.py:120
+msgid "Meh"
+msgstr "Meh"
+
+#: Vocalist.py:120
+msgid "Bad"
+msgstr "나쁜"
+
+#: Vocalist.py:120
+msgid "Terrible..."
+msgstr "끔찍한 ..."
+
+#: Vocalist.py:449
+msgid "Tap!"
+msgstr "두드려"
+
+#: World.py:60
+msgid "FoFiX Co-Op Mode"
+msgstr "FoFiX 협동 모드"
+
+#: World.py:62
+msgid "RB Co-Op Mode"
+msgstr "RB 협동 모드"
+
+#: World.py:64
+msgid "GH Co-Op Mode"
+msgstr "GH 협동 모드"
+
+#: World.py:66
+msgid "Battle Mode"
+msgstr "전투 모드"
+
+#: World.py:73
+msgid "Career Mode"
+msgstr "커리어 모드"
+
+

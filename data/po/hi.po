@@ -1,0 +1,5004 @@
+#####################################################################
+#                                                                   #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
+#                                                                   #
+# This program is free software; you can redistribute it and/or     #
+# modify it under the terms of the GNU General Public License       #
+# as published by the Free Software Foundation; either version 2    #
+# of the License, or (at your option) any later version.            #
+#                                                                   #
+# This program is distributed in the hope that it will be useful,   #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of    #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the     #
+# GNU General Public License for more details.                      #
+#                                                                   #
+# You should have received a copy of the GNU General Public License #
+# along with this program; if not, write to the Free Software       #
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,        #
+# MA  02110-1301, USA.                                              #
+#####################################################################
+
+msgid ""
+msgstr ""
+"Project-Id-Version: FoFiX 4 Development\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-19 11:47-0600\n"
+"PO-Revision-Date: 2010-09-19 11:48-0600\n"
+"Last-Translator: Google Translator\n"
+"Language-Team: FoFiX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: Credits.py:125
+msgid "This mod was built on Alarian's mod,"
+msgstr "इस mod है Alarian mod पर बनाया गया था,"
+
+#: Credits.py:126
+msgid "which was built on UltimateCoffee's Ultimate mod,"
+msgstr "जो UltimateCoffee अंतिम mod पर बनाया गया था,"
+
+#: Credits.py:127
+msgid "which was built on RogueF's RF_mod 4.15,"
+msgstr "जो RogueF 4.15 RF_mod पर बनाया गया था,"
+
+#: Credits.py:128
+msgid "which was, of course, built on Frets on Fire 1.2.451,"
+msgstr "जो निश्चित रूप से था, 1.2.451 आग पर frets पर बना है,"
+
+#: Credits.py:129
+msgid "which was created by Unreal Voodoo"
+msgstr "जो असत्य जादू द्वारा बनाया गया था"
+
+#: Credits.py:130
+msgid "No Particular Order"
+msgstr "कोई विशेष क्रम"
+
+#: Credits.py:131
+msgid "Active Coders:"
+msgstr "सक्रिय Coders:"
+
+#: Credits.py:132
+msgid "Past Coders:"
+msgstr "पिछले Coders:"
+
+#: Credits.py:133
+msgid "Main Graphic Contributors:"
+msgstr "मुख्य ग्राफिक सहयोगकर्ता:"
+
+#: Credits.py:134
+msgid "Translators:"
+msgstr "अनुवादकों:"
+
+#: Credits.py:135
+msgid "Team Hero:"
+msgstr "टीम के हीरो:"
+
+#: Credits.py:136
+msgid "Creators of Career Mode"
+msgstr "कैरियर मोड के रचनाकारों"
+
+#: Credits.py:137
+msgid "Honorary Credits to:"
+msgstr "मानद लिए Credits:"
+
+#: Credits.py:138
+msgid "Donations to MFH"
+msgstr "दान करने के लिए MFH"
+
+#: Credits.py:139
+msgid "Donations to akedrou"
+msgstr "दान करने के लिए akedrou"
+
+#: Credits.py:140
+msgid "Major Donations:"
+msgstr "प्रमुख Donations:"
+
+#: Credits.py:141
+msgid "Other Donations:"
+msgstr "अन्य दान:"
+
+#: Credits.py:142
+msgid "Other Credits:"
+msgstr "अन्य Credits:"
+
+#: Credits.py:143
+msgid "Jurgen FoF tutorial inspired by adam02"
+msgstr "Jurgen FOF adam02 से प्रेरित ट्यूटोरियल"
+
+#: Credits.py:144
+msgid "Drum test song tutorial by Heka"
+msgstr "ड्रम Heka द्वारा परीक्षण ट्यूटोरियल गीत"
+
+#: Credits.py:145
+msgid "Bang Bang Mystery Man song tutorial is from the original FoF"
+msgstr "बैंग बैंग रहस्य आदमी गीत ट्यूटोरियल मूल FOF से है"
+
+#: Credits.py:146
+msgid "Drum Rolls practice tutorial by venom426"
+msgstr "ड्रम venom426 द्वारा रोल्स ट्यूटोरियल अभ्यास"
+
+#: Credits.py:147
+msgid "If you see your work included in this game and you aren't"
+msgstr "अगर आप अपने काम को देखने के इस खेल में शामिल कर रहे हैं और तुम नहीं"
+
+#: Credits.py:148
+msgid "in the credits, please leave a polite post stating what you"
+msgstr "क्रेडिट में, एक विनम्र निवेदन पद छोड़ कृपया आप क्या"
+
+#: Credits.py:149
+msgid "did and when, as specific as possible."
+msgstr "किया था और जब, के रूप में संभव के रूप में विशिष्ट है."
+
+#: Credits.py:150
+msgid "If you can, please provide a link to your original posting"
+msgstr "यदि आप, आपके पोस्टिंग के मूल करने के लिए एक लिंक प्रदान कृपया कर सकते हैं"
+
+#: Credits.py:151
+msgid "of the work in question."
+msgstr "सवाल में काम करो."
+
+#: Credits.py:152
+msgid "Then we can properly credit you."
+msgstr "तो हम ठीक से आप क्रेडिट कर सकते हैं."
+
+#: Credits.py:153
+msgid "Thank you for your contribution."
+msgstr "आप अपने योगदान के लिए धन्यवाद."
+
+#: Credits.py:154
+msgid "Please keep in mind that it is not easy to trace down and"
+msgstr "कृपया ध्यान रखें कि यह आसान करने के लिए नीचे और ट्रेस नहीं है"
+
+#: Credits.py:155
+msgid "credit every single person who contributed; if your name is"
+msgstr "हर एक व्यक्ति जो योगदान क्रेडिट, अगर तुम्हारा नाम क्या है"
+
+#: Credits.py:156
+msgid "not included, it was not meant to slight you."
+msgstr "शामिल नहीं, यह मतलब नहीं था कि तुम मामूली."
+
+#: Credits.py:157
+msgid "It was an oversight."
+msgstr "यह एक निरीक्षण किया गया."
+
+#: Credits.py:159
+#, python-format
+msgid "%s theme credits:"
+msgstr "%s थीम क्रेडिट:"
+
+#: Credits.py:160
+#, python-format
+msgid "%s theme specific thanks:"
+msgstr "%s विषय विशेष धन्यवाद:"
+
+#: Credits.py:162
+msgid "French"
+msgstr "फ्रांसीसी"
+
+#: Credits.py:163
+msgid "French (reform 1990)"
+msgstr "फ्रांस (1990 सुधार)"
+
+#: Credits.py:164
+msgid "German"
+msgstr "जर्मन"
+
+#: Credits.py:165
+msgid "Italian"
+msgstr "इतालवी"
+
+#: Credits.py:166
+msgid "Pig Latin"
+msgstr "सुअर लैटिन"
+
+#: Credits.py:167
+msgid "Portuguese (Brazilian)"
+msgstr "पुर्तगाली (ब्राजील)"
+
+#: Credits.py:168
+msgid "Russian"
+msgstr "रूसी"
+
+#: Credits.py:169
+msgid "Spanish"
+msgstr "स्पेनिश"
+
+#: Credits.py:170
+msgid "Swedish"
+msgstr "स्वीडिश"
+
+#: Credits.py:223
+msgid "Made with:"
+msgstr "के साथ बनाया:"
+
+#: Credits.py:246
+msgid "Source Code available under the GNU General Public License"
+msgstr "GNU जनरल पब्लिक लाइसेंस के तहत उपलब्ध स्रोत कोड"
+
+#: Credits.py:250
+msgid "Copyright 2006, 2007 by Unreal Voodoo"
+msgstr "कॉपीराइट 2006, अवास्तविक द्वारा 2007 जादू"
+
+#: Credits.py:251
+msgid "Copyright 2008-2010 by Team FoFiX"
+msgstr "टीम ने 2008-2010 कॉपीराइट FoFiX"
+
+#: Dialogs.py:489
+msgid "<OK>"
+msgstr "<OK>"
+
+#: Dialogs.py:576
+msgid "[Parent Folder]"
+msgstr "[मूल फ़ोल्डर]"
+
+#: Dialogs.py:580
+msgid "[Accept Folder]"
+msgstr "[फ़ोल्डर] स्वीकारें"
+
+#: Dialogs.py:582
+#, python-format
+msgid "%s [Folder]"
+msgstr "%s [फ़ोल्डर]"
+
+#: Dialogs.py:707
+msgid "Yellow (#3) / Blue (#4) to change, Green (#1) to confirm:"
+msgstr "पीले रंग (# 3) / (ब्लू # 4) बदलने के लिए, ग्रीन (# 1) पुष्टि करने के लिए:"
+
+#: Dialogs.py:719
+msgid "Loading necks..."
+msgstr "लोड हो रहा है गर्दन ..."
+
+#: Dialogs.py:784
+#: GameEngine.py:97
+msgid "Neck"
+msgstr "गला"
+
+#: Dialogs.py:983
+msgid "Loading avatars..."
+msgstr "लोड हो रहा है ... avatars"
+
+#: Dialogs.py:1092
+msgid "Select Your Avatar:"
+msgstr "चयन आपका अवतार:"
+
+#: Dialogs.py:1572
+msgid "Press Start to Begin!"
+msgstr "प्रेस शुरू शुरू करने के लिए!"
+
+#: Dialogs.py:1573
+msgid "Use the keyboard to select or just play some notes!"
+msgstr "कुंजीपटल का उपयोग करने के लिए चयन करें या सिर्फ कुछ नोटों खेलते हैं!"
+
+#: Dialogs.py:1584
+msgid "No Controller"
+msgstr "कोई नियंत्रक"
+
+#: Dialogs.py:1588
+msgid "Disabled Controller"
+msgstr "निष्क्रिय नियंत्रक"
+
+#: Dialogs.py:1592
+msgid "Default Guitar"
+msgstr "डिफ़ॉल्ट गिटार"
+
+#: Dialogs.py:1594
+msgid "Default Drums"
+msgstr "डिफ़ॉल्ट ड्रम"
+
+#: Dialogs.py:1596
+msgid "Default Microphone"
+msgstr "डिफ़ॉल्ट माइक्रोफोन"
+
+#: Dialogs.py:1657
+msgid "controller"
+msgstr "नियंत्रक"
+
+#: Dialogs.py:1659
+msgid "controllers"
+msgstr "नियंत्रकों"
+
+#: Dialogs.py:1660
+#, python-format
+msgid "You only have %d %s defined. You need at least %d for this mode."
+msgstr "आप केवल %d %s परिभाषित किया है. आप इस विधा के लिए कम से कम %d की जरूरत है."
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+#: GameEngine.py:212
+msgid "Left"
+msgstr "बाएं"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+#: GameEngine.py:212
+msgid "Right"
+msgstr "सही"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Up"
+msgstr "ऊपर"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Down"
+msgstr "नीचे"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Start"
+msgstr "आरंभ"
+
+#: Dialogs.py:1917
+#: Dialogs.py:1925
+#: Dialogs.py:1930
+#: Dialogs.py:1938
+msgid "Select"
+msgstr "चुनें"
+
+#: Dialogs.py:1917
+msgid "Fret #1"
+msgstr "# 1 झल्लाहट"
+
+#: Dialogs.py:1917
+msgid "Solo #1"
+msgstr "# 1 सोलो"
+
+#: Dialogs.py:1917
+msgid "Fret #2"
+msgstr "# 2 झल्लाहट"
+
+#: Dialogs.py:1917
+msgid "Solo #2"
+msgstr "# 2 सोलो"
+
+#: Dialogs.py:1918
+msgid "Fret #3"
+msgstr "# 3 झल्लाहट"
+
+#: Dialogs.py:1918
+msgid "Solo #3"
+msgstr "# 3 सोलो"
+
+#: Dialogs.py:1918
+msgid "Fret #4"
+msgstr "# 4 झल्लाहट"
+
+#: Dialogs.py:1918
+msgid "Solo #4"
+msgstr "# 4 सोलो"
+
+#: Dialogs.py:1918
+msgid "Fret #5"
+msgstr "# 5 झल्लाहट"
+
+#: Dialogs.py:1919
+msgid "Solo #5"
+msgstr "# 5 सोलो"
+
+#: Dialogs.py:1919
+msgid "Pick!"
+msgstr "उठाओ!"
+
+#: Dialogs.py:1919
+#: Dialogs.py:1927
+#: Dialogs.py:1932
+#: Dialogs.py:1940
+msgid "Starpower!"
+msgstr "Starpower!"
+
+#: Dialogs.py:1919
+#: GameEngine.py:278
+msgid "Whammy"
+msgstr "Whammy"
+
+#: Dialogs.py:1925
+#: Dialogs.py:1938
+msgid "Drum #1"
+msgstr "# 1 ड्रम"
+
+#: Dialogs.py:1925
+msgid "Drum #2"
+msgstr "# 2 ड्रम"
+
+#: Dialogs.py:1926
+#: Dialogs.py:1939
+msgid "Drum #3"
+msgstr "# 3 ड्रम"
+
+#: Dialogs.py:1926
+msgid "Drum #4"
+msgstr "# 4 ड्रम"
+
+#: Dialogs.py:1927
+#: Dialogs.py:1940
+msgid "Bass Drum"
+msgstr "बास ड्रम"
+
+#: Dialogs.py:1927
+#: Dialogs.py:1940
+#: Dialogs.py:2268
+#: GameEngine.py:89
+#: GameEngine.py:155
+#: GameEngine.py:190
+#: GameEngine.py:691
+#: GameResultsScene.py:250
+msgid "None"
+msgstr "कोई नहीं"
+
+#: Dialogs.py:1938
+msgid "Cymbal #2"
+msgstr "# 2 के cymbal"
+
+#: Dialogs.py:1939
+msgid "Cymbal #4"
+msgstr "# 4 झांझ"
+
+#: Dialogs.py:1939
+msgid "Drum #5"
+msgstr "# 5 ड्रम"
+
+#: Dialogs.py:1942
+msgid "Fret"
+msgstr "झल्लाहट"
+
+#: Dialogs.py:1943
+msgid "Solo"
+msgstr "एकल"
+
+#: Dialogs.py:1944
+msgid "Drum"
+msgstr "ढोल"
+
+#: Dialogs.py:1945
+msgid "Slide~"
+msgstr "स्लाइड ~"
+
+#: Dialogs.py:2248
+msgid "Level:"
+msgstr "स्तर:"
+
+#: Dialogs.py:2249
+msgid "Note:"
+msgstr "नोट:"
+
+#: Dialogs.py:2263
+msgid "Tap"
+msgstr "नल"
+
+#: Dialogs.py:2359
+msgid "Choose a File"
+msgstr "एक फ़ाइल चुनें"
+
+#: Dialogs.py:2435
+msgid "Play with the keys and press Escape when you're done."
+msgstr "कुंजी और प्रेस एस्केप जब आप कर रहे हैं के साथ खेलो."
+
+#: Dialogs.py:2448
+#: Dialogs.py:2554
+#: Dialogs.py:2560
+msgid "Loading..."
+msgstr "लोड हो रहा है ..."
+
+#: FoFiX.py:179
+#, python-format
+msgid "Song directory provided ('%s') is not a valid song directory. Starting up FoFiX in standard mode."
+msgstr "गीत निर्देशिका (प्रदान की &#39;%s &#39;) एक वैध गीत निर्देशिका नहीं है. ऊपर मानक मोड में FoFiX शुरू."
+
+#: FoFiX.py:301
+msgid "Terminating due to unhandled exception:"
+msgstr "अनियंत्रित अपवाद के कारण समाप्त:"
+
+#: FoFiX.py:303
+msgid "If you make a bug report about this error, please include the contents of the following log file:"
+msgstr "अगर आप इस त्रुटि के बारे में एक बग रिपोर्ट बनाने के लिए, निम्नलिखित लॉग की सामग्री में शामिल हैं फाइल करें:"
+
+#: FoFiX.py:305
+msgid "The log file already includes the traceback given above."
+msgstr "लॉग फ़ाइल पहले से ही ऊपर दिए गए ट्रैसबैक भी शामिल है."
+
+#: FoFiX.py:310
+msgid "Open the logfile now?"
+msgstr "logfile अब खोलें?"
+
+#: GameEngine.py:86
+msgid "FPS Limiter"
+msgstr "एफपीएस सीमक"
+
+#: GameEngine.py:86
+msgid "On (Set Below)"
+msgstr "पर (नीचे सेट)"
+
+#: GameEngine.py:86
+msgid "Off (Auto Max FPS)"
+msgstr "बंद (ऑटो मैक्स एफपीएस)"
+
+#: GameEngine.py:86
+msgid "Use this to enable or disable the FPS Limiter. If off, the game will render as many frames as possible. (This is affected by the 'Performance' quickset)"
+msgstr "को सक्षम या अक्षम इस FPS सीमक का प्रयोग करें. बंद अगर, खेल प्रस्तुत करना होगा संभव के रूप में कई फ्रेम के रूप में. (यह &#39;प्रदर्शन quickset&#39; से प्रभावित है)"
+
+#: GameEngine.py:88
+msgid "Fullscreen Mode"
+msgstr "Fullscreen मोड"
+
+#: GameEngine.py:88
+#: GameEngine.py:90
+#: GameEngine.py:93
+#: GameEngine.py:96
+#: GameEngine.py:105
+#: GameEngine.py:107
+#: GameEngine.py:112
+#: GameEngine.py:145
+#: GameEngine.py:146
+#: GameEngine.py:172
+#: GameEngine.py:175
+#: GameEngine.py:176
+#: GameEngine.py:177
+#: GameEngine.py:178
+#: GameEngine.py:181
+#: GameEngine.py:182
+#: GameEngine.py:196
+#: GameEngine.py:199
+#: GameEngine.py:201
+#: GameEngine.py:202
+#: GameEngine.py:216
+#: GameEngine.py:219
+#: GameEngine.py:225
+#: GameEngine.py:245
+#: GameEngine.py:246
+#: GameEngine.py:247
+#: GameEngine.py:259
+#: GameEngine.py:260
+#: GameEngine.py:261
+#: GameEngine.py:262
+#: GameEngine.py:263
+#: GameEngine.py:264
+#: GameEngine.py:265
+#: GameEngine.py:266
+#: GameEngine.py:267
+#: GameEngine.py:268
+#: GameEngine.py:269
+#: GameEngine.py:300
+#: GameEngine.py:301
+#: GameEngine.py:304
+#: GameEngine.py:312
+#: GameEngine.py:315
+#: GameEngine.py:318
+#: GameEngine.py:321
+#: GameEngine.py:371
+#: GameEngine.py:410
+msgid "No"
+msgstr "नहीं"
+
+#: GameEngine.py:88
+#: GameEngine.py:90
+#: GameEngine.py:93
+#: GameEngine.py:96
+#: GameEngine.py:105
+#: GameEngine.py:107
+#: GameEngine.py:112
+#: GameEngine.py:145
+#: GameEngine.py:146
+#: GameEngine.py:172
+#: GameEngine.py:175
+#: GameEngine.py:176
+#: GameEngine.py:177
+#: GameEngine.py:178
+#: GameEngine.py:181
+#: GameEngine.py:182
+#: GameEngine.py:196
+#: GameEngine.py:199
+#: GameEngine.py:216
+#: GameEngine.py:219
+#: GameEngine.py:225
+#: GameEngine.py:245
+#: GameEngine.py:246
+#: GameEngine.py:247
+#: GameEngine.py:259
+#: GameEngine.py:260
+#: GameEngine.py:261
+#: GameEngine.py:262
+#: GameEngine.py:263
+#: GameEngine.py:264
+#: GameEngine.py:265
+#: GameEngine.py:266
+#: GameEngine.py:267
+#: GameEngine.py:268
+#: GameEngine.py:300
+#: GameEngine.py:301
+#: GameEngine.py:304
+#: GameEngine.py:312
+#: GameEngine.py:315
+#: GameEngine.py:318
+#: GameEngine.py:321
+#: GameEngine.py:371
+#: GameEngine.py:410
+msgid "Yes"
+msgstr "हां"
+
+#: GameEngine.py:88
+msgid "Play either in fullscreen ('Yes') or windowed ('No') mode."
+msgstr "या तो fullscreen में खेलें &#39;(हाँ)&#39; या विंडोड (&#39;नहीं&#39;) मोड."
+
+#: GameEngine.py:89
+msgid "Antialiasing Quality"
+msgstr "एंटीएलियासिंग गुणवत्ता"
+
+#: GameEngine.py:89
+msgid "Sets the antialiasing quality of openGL rendering. Higher values reduce jaggediness, but could affect performance. (This is affected by the 'Performance' quickset)"
+msgstr "OpenGL प्रतिपादन की गुणवत्ता एंटीएलियासिंग समूह. उच्च मूल्यों jaggediness कम है, लेकिन प्रदर्शन को प्रभावित कर सकते हैं. (यह &#39;प्रदर्शन quickset&#39; से प्रभावित है)"
+
+#: GameEngine.py:90
+msgid "Show Fret Glow Effect"
+msgstr "दिखाएँ चमक प्रभाव झल्लाहट"
+
+#: GameEngine.py:90
+msgid "Turn on or off the glow that appears around a fret when you press it."
+msgstr "चालू चमक है कि एक झल्लाहट जब आप इसे प्रेस चारों ओर दिखाई देता है या बंद."
+
+#: GameEngine.py:92
+msgid "Frames per Second"
+msgstr "फ्रेम प्रति सेकंड"
+
+#: GameEngine.py:92
+msgid "Set the number of frames to render per second. Higher values are better, but your computer may not be able to keep up. You probably can leave this alone. (This is affected by the 'Performance' quickset)"
+msgstr "सेट फ्रेम की संख्या प्रति सेकंड रेंडर करने के लिए. उच्च मूल्यों को बेहतर कर रहे हैं, लेकिन आपके कंप्यूटर को बनाए रखने में सक्षम नहीं हो सकता है. आप शायद इस अकेले छोड़ सकते हैं. (यह &#39;प्रदर्शन quickset&#39; से प्रभावित है)"
+
+#: GameEngine.py:93
+msgid "Print Frames per Second"
+msgstr "दूसरी प्रति प्रिंट फ्रेम्स"
+
+#: GameEngine.py:93
+msgid "This will display your FPS on some screens, and if running from sources will print your FPS there every two seconds."
+msgstr "यह कुछ स्क्रीन पर अपने प्रदर्शन FPS, और स्रोतों से चल रहा है अगर आपके FPS वहाँ हर दो सेकंड प्रिंट जाएगा."
+
+#: GameEngine.py:94
+msgid "Fret Glow Color"
+msgstr "झल्लाहट चमक रंग"
+
+#: GameEngine.py:94
+msgid "Same as Fret"
+msgstr "उसी के रूप में झल्लाहट"
+
+#: GameEngine.py:94
+msgid "Actual Color"
+msgstr "वास्तविक रंग"
+
+#: GameEngine.py:94
+msgid "Sets whether or not the fret glow image will be color-masked with the theme-determined fret color."
+msgstr "सेट या नहीं चमक छवि झल्लाहट जा रंग विषय निर्धारित नकाबपोश झल्लाहट के साथ रंग जाएगा."
+
+#: GameEngine.py:96
+msgid "Use Shaders"
+msgstr "उपयोग Shaders"
+
+#: GameEngine.py:96
+msgid "Enable or disable the use of shaders. Shaders are visual effects. This must be set to 'Yes' to use the settings below. 'By Theme' leaves it to the theme creator."
+msgstr "सक्षम या अक्षम shaders का उपयोग करें. Shaders दृश्य प्रभाव है. यह करने के लिए सेट किया जाना चाहिए &#39;हाँ&#39; करने के लिए नीचे सेटिंग्स का उपयोग करें. &#39;थीम&#39; के पत्तों यह विषय निर्माता के लिए."
+
+#: GameEngine.py:97
+#: GameEngine.py:98
+#: GameEngine.py:99
+#: GameEngine.py:101
+#: GameEngine.py:102
+#: GameEngine.py:118
+#: GameEngine.py:322
+#: GameEngine.py:351
+msgid "Disabled"
+msgstr "विकलांग"
+
+#: GameEngine.py:97
+msgid "Flashing"
+msgstr "चमकता"
+
+#: GameEngine.py:97
+#: GameEngine.py:98
+#: GameEngine.py:99
+#: GameEngine.py:100
+#: GameEngine.py:101
+#: GameEngine.py:102
+#: GameEngine.py:190
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:213
+#: GameEngine.py:228
+#: GameEngine.py:232
+#: GameEngine.py:291
+#: GameEngine.py:298
+msgid "By Theme"
+msgstr "थीम द्वारा"
+
+#: GameEngine.py:97
+msgid "A bright flash along your fretboard reflecting the notes you've hit. 'By Theme' leaves it to the theme creator."
+msgstr "अपने fretboard साथ एक उज्ज्वल फ़्लैश नोटों तुम्हें मारा है दर्शाती है. &#39;थीम&#39; के पत्तों यह विषय निर्माता के लिए."
+
+#: GameEngine.py:98
+msgid "Stage"
+msgstr "मंच"
+
+#: GameEngine.py:98
+msgid "EQ Lightning"
+msgstr "EQ लाइटनिंग"
+
+#: GameEngine.py:98
+msgid "A visual waveform centered above you fretboard. 'By Theme' leaves it to the theme creator."
+msgstr "एक दृश्य आप ऊपर fretboard केन्द्रित तरंग. &#39;थीम&#39; के पत्तों यह विषय निर्माता के लिए."
+
+#: GameEngine.py:99
+msgid "Solo and SP"
+msgstr "सोलो और सपा"
+
+#: GameEngine.py:99
+#: GameEngine.py:100
+msgid "Lightnings"
+msgstr "Lightnings"
+
+#: GameEngine.py:99
+msgid "Enables lightning along the side of your fretboard when you are in solos or use SP. 'By Theme' leaves it to the theme creator."
+msgstr "अपने fretboard की ओर जब आप solos में हैं या सपा के साथ सक्षम बनाता है बिजली का उपयोग. &#39;थीम&#39; के पत्तों यह विषय निर्माता के लिए."
+
+#: GameEngine.py:100
+msgid "Tails"
+msgstr "पट"
+
+#: GameEngine.py:100
+msgid "Classic"
+msgstr "क्लासिक"
+
+#: GameEngine.py:100
+#: GameEngine.py:210
+#: GameEngine.py:298
+msgid "RB2"
+msgstr "RB2"
+
+#: GameEngine.py:100
+msgid "Sets the tail effect. Choose from classic tails, lightning, or RB2 style. 'By Theme' leaves it to the theme creator."
+msgstr "पूंछ प्रभाव समूह. क्लासिक पूंछ, बिजली, या RB2 शैली से चुनें. &#39;थीम&#39; के पत्तों यह विषय निर्माता के लिए."
+
+#: GameEngine.py:101
+msgid "Notes"
+msgstr "नोट्स"
+
+#: GameEngine.py:101
+msgid "Metal"
+msgstr "धातु"
+
+#: GameEngine.py:101
+msgid "Gives your notes a metallic sheen. 'By Theme' leaves it to the theme creator."
+msgstr "अपने नोट्स एक धातु चमक देता है. &#39;थीम&#39; के पत्तों यह विषय निर्माता के लिए."
+
+#: GameEngine.py:102
+#: GameEngine.py:298
+msgid "CDs"
+msgstr "सीडी"
+
+#: GameEngine.py:102
+msgid "White"
+msgstr "सफ़ेद"
+
+#: GameEngine.py:102
+msgid "Adds a soft lighting effect to CD labels in CD setlist mode."
+msgstr "सीडी setlist मोड में सीडी लेबल करने के लिए एक नरम प्रकाश प्रभाव जोड़ता है."
+
+#: GameEngine.py:105
+msgid "Disable Screensaver"
+msgstr "निष्क्रिय स्क्रीनसेवर"
+
+#: GameEngine.py:105
+msgid "Set whether the game disables the screensaver while it is running.  Does not necessarily work on all platforms."
+msgstr "सेट कि क्या खेल स्क्रीनसेवर निष्क्रिय जबकि यह चल रहा है. जरूरी सभी प्लेटफार्मों पर काम नहीं करता."
+
+#: GameEngine.py:107
+msgid "Animated Star Notes"
+msgstr "एनिमेटेड सितारा नोट्स"
+
+#: GameEngine.py:107
+msgid "This will animate star notes as they come towards you, if that is included in your theme. This can have a hit on performance. (This is affected by the 'Performance' quickset)"
+msgstr "यह स्टार चेतन नोटों के रूप में वे आप की ओर आ जाएगा कि अगर अपने विषय में शामिल है. इस प्रदर्शन पर एक हिट हो सकता है. (यह &#39;प्रदर्शन quickset&#39; से प्रभावित है)"
+
+#: GameEngine.py:108
+msgid "Sample Frequency"
+msgstr "नमूना आवृत्ति"
+
+#: GameEngine.py:108
+msgid "Set the sample frequency for the audio in the game. You almost certainly want to leave this at 44100 Hz unless you really know what you're doing."
+msgstr "खेल में ऑडियो के लिए नमूना आवृत्ति सेट करें. तुम लगभग निश्चित रूप से 44100 हर्ट्ज पर इस छुट्टी जब तक तुम सच पता है कि तुम क्या कर रहे हैं चाहते हैं."
+
+#: GameEngine.py:109
+msgid "Sample Bits"
+msgstr "नमूना बिट्स"
+
+#: GameEngine.py:109
+msgid "Set the sample bits for the audio in the game. You almost certainly want to leave this at 16-bit unless you really know what you're doing."
+msgstr "सेट खेल में ऑडियो के लिए नमूने बिट. तुम लगभग निश्चित रूप से 16-bit में इस छुट्टी जब तक तुम सच पता है कि तुम क्या कर रहे हैं चाहते हैं."
+
+#: GameEngine.py:112
+msgid "Upload Highscores"
+msgstr "अपलोड अधिकतमअंक"
+
+#: GameEngine.py:112
+msgid "If enabled, your high scores will be sent to the server to rank you against other players."
+msgstr "यदि सक्रिय है, अपने उच्च स्कोर सर्वर के लिए भेजा जाएगा करने के लिए आप अन्य खिलाड़ियों के खिलाफ रैंक."
+
+#: GameEngine.py:118
+msgid "Song Queue System"
+msgstr "गीत पंक्ति सिस्टम"
+
+#: GameEngine.py:118
+#: GameEngine.py:188
+msgid "Automatic"
+msgstr "स्वचालित"
+
+#: GameEngine.py:118
+msgid "Enables or disables creating multi-song sets in the setlist."
+msgstr "सक्षम बनाता है या setlist में बहु - गाना सेट बनाने निष्क्रिय करता है."
+
+#: GameEngine.py:119
+msgid "Song Queue Order"
+msgstr "गीत पंक्ति आदेश"
+
+#: GameEngine.py:119
+#: GameEngine.py:167
+#: GameEngine.py:168
+msgid "In Order"
+msgstr "आदेश में"
+
+#: GameEngine.py:119
+#: GameEngine.py:167
+#: GameEngine.py:168
+#: GameEngine.py:169
+#: GameEngine.py:676
+msgid "Random"
+msgstr "क्रमरहित"
+
+#: GameEngine.py:119
+msgid "Sets the order in which songs added to the queue will be played."
+msgstr "क्रम जिसमें गाने कतार में जोड़ा खेला जाएगा समूह."
+
+#: GameEngine.py:120
+msgid "Song Queue Parts"
+msgstr "गीत पंक्ति हिस्सों"
+
+#: GameEngine.py:120
+msgid "Closest Available"
+msgstr "निकटतम उपलब्ध"
+
+#: GameEngine.py:120
+#: GameEngine.py:121
+msgid "Always Ask"
+msgstr "हमेशा पूछें"
+
+#: GameEngine.py:120
+msgid "Choose the behavior when the chosen part is not available in all queued songs. 'Closest Available' will match lead parts to guitar and bass to rhythm, or guitar if no rhythm parts are available. 'Always Ask' brings up the part select screen."
+msgstr "व्यवहार चुनें जब चुना हिस्सा सभी पंक्तिबद्ध गाने में उपलब्ध नहीं है. &#39;निकटतम उपलब्ध&#39; का नेतृत्व भागों और ताल गिटार, या बास गिटार के लिए मैच के लिए अगर कोई लय भागों में उपलब्ध हो जाएगा. &#39;ऊपर के भाग हमेशा से पूछो&#39; लाता चयन स्क्रीन."
+
+#: GameEngine.py:121
+msgid "Song Queue Difficulty"
+msgstr "कतार कठिनाई गीत"
+
+#: GameEngine.py:121
+msgid "Closest Down"
+msgstr "निकटतम नीचे"
+
+#: GameEngine.py:121
+msgid "Closest Up"
+msgstr "निकटतम ऊपर"
+
+#: GameEngine.py:121
+msgid "Choose the behavior when the chosen difficulty is not available in all queued songs. 'Closest Up' will prefer a harder difficulty, while 'Closest Down' will prefer an easier one. 'Always Ask' brings up the difficulty select screen."
+msgstr "व्यवहार चुनें जब चुना कठिनाई सभी पंक्तिबद्ध गाने में उपलब्ध नहीं है. &#39;करीब&#39; ऊपर एक कठिन कठिनाई पसंद करते हैं, जबकि &#39;करीब&#39; नीचे एक आसान एक पसंद करेंगे. &#39;ऊपर कठिनाई का चयन स्क्रीन हमेशा से पूछो&#39; लाता है."
+
+#: GameEngine.py:134
+msgid "Buffer Size"
+msgstr "बफर आकार"
+
+#: GameEngine.py:134
+msgid "Set your audio buffer size. Higher values will reduce audio popping, but increase game lag. Only change this if you are having audio quality issues, and use the lowest value that sounds right."
+msgstr "आपके ऑडियो बफर आकार निर्धारित करें. उच्च मूल्यों ऑडियो popping कम होगा, लेकिन खेल को बढ़ाने के अंतराल. यह परिवर्तन केवल यदि आप ऑडियो गुणवत्ता के मुद्दों कर रहे हैं, और न्यूनतम मूल्य है कि सही लगता है का उपयोग करें."
+
+#: GameEngine.py:135
+msgid "A/V Delay"
+msgstr "एक / वी विलंब"
+
+#: GameEngine.py:135
+msgid "Set your A/V delay. Unfortunately for now you have to use trial and error."
+msgstr "अपने एक / वी देरी निर्धारित करें. अब के लिए दुर्भाग्य से आप परीक्षण और त्रुटि का उपयोग किया है."
+
+#: GameEngine.py:136
+msgid "Screw-Up Sounds"
+msgstr "पेंच हुआ लगता है"
+
+#: GameEngine.py:136
+#: GameEngine.py:152
+#: GameEngine.py:156
+#: GameEngine.py:158
+#: GameEngine.py:159
+#: GameEngine.py:167
+#: GameEngine.py:168
+#: GameEngine.py:170
+#: GameEngine.py:171
+#: GameEngine.py:173
+#: GameEngine.py:179
+#: GameEngine.py:187
+#: GameEngine.py:189
+#: GameEngine.py:193
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:200
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:206
+#: GameEngine.py:207
+#: GameEngine.py:208
+#: GameEngine.py:213
+#: GameEngine.py:215
+#: GameEngine.py:218
+#: GameEngine.py:220
+#: GameEngine.py:222
+#: GameEngine.py:223
+#: GameEngine.py:227
+#: GameEngine.py:229
+#: GameEngine.py:231
+#: GameEngine.py:232
+#: GameEngine.py:239
+#: GameEngine.py:248
+#: GameEngine.py:249
+#: GameEngine.py:251
+#: GameEngine.py:274
+#: GameEngine.py:278
+#: GameEngine.py:279
+#: GameEngine.py:280
+#: GameEngine.py:281
+#: GameEngine.py:282
+#: GameEngine.py:283
+#: GameEngine.py:284
+#: GameEngine.py:285
+#: GameEngine.py:286
+#: GameEngine.py:289
+#: GameEngine.py:290
+#: GameEngine.py:291
+#: GameEngine.py:293
+#: GameEngine.py:294
+#: GameEngine.py:303
+#: GameEngine.py:326
+#: GameEngine.py:330
+#: GameEngine.py:334
+#: GameEngine.py:338
+#: GameEngine.py:405
+msgid "Off"
+msgstr "से दूर"
+
+#: GameEngine.py:136
+msgid "Quiet"
+msgstr "शांत"
+
+#: GameEngine.py:136
+msgid "Loud"
+msgstr "जोर"
+
+#: GameEngine.py:136
+msgid "Painful"
+msgstr "दर्दनाक"
+
+#: GameEngine.py:136
+msgid "How loud should the sound of your screwing up be? Very."
+msgstr "जोर से कैसे अपने ऊपर screwing हो की ध्वनि करना चाहिए? बहुत."
+
+#: GameEngine.py:140
+msgid "Active Track Volume"
+msgstr "सक्रिय ट्रैक माप"
+
+#: GameEngine.py:140
+msgid "Volume of the parts you are playing."
+msgstr "भागों आप खेल रहे हैं की माप."
+
+#: GameEngine.py:141
+msgid "Background Volume"
+msgstr "पृष्ठभूमि माप"
+
+#: GameEngine.py:141
+msgid "Volume of the parts you are not playing."
+msgstr "भागों तुम नहीं खेल रहे हैं की माप."
+
+#: GameEngine.py:144
+msgid "Process Priority"
+msgstr "प्रक्रिया प्राथमिकता"
+
+#: GameEngine.py:144
+msgid "Idle"
+msgstr "बेकार"
+
+#: GameEngine.py:144
+msgid "Low"
+msgstr "कम"
+
+#: GameEngine.py:144
+#: GameEngine.py:157
+#: GameEngine.py:179
+#: GameEngine.py:299
+#: GameResultsScene.py:276
+msgid "Normal"
+msgstr "साधारण"
+
+#: GameEngine.py:144
+msgid "Above Normal"
+msgstr "सामान्य से ऊपर"
+
+#: GameEngine.py:144
+msgid "High"
+msgstr "उच्च"
+
+#: GameEngine.py:144
+msgid "Realtime"
+msgstr "Realtime"
+
+#: GameEngine.py:144
+msgid "Change this to increase the priority of the FoFiX process. Don't change this unless you know what you're doing. DO NOT set this to Realtime. Ever."
+msgstr "इस बदलें FoFiX प्रक्रिया की प्राथमिकता बढ़ाने के लिए. यह परिवर्तन जब तक तुम तुम क्या कर रहे हैं मत करो. ऐसा नहीं Realtime यह निर्धारित किया है. कभी."
+
+#: GameEngine.py:145
+msgid "Restrict to First Core (Win32 Only)"
+msgstr "पहला कोर (Win32 केवल करने के लिए प्रतिबंधित)"
+
+#: GameEngine.py:145
+msgid "Choose whether to restrict the game to running on only the first processor core on the system. Only has an effect under Windows."
+msgstr "चुनें कि क्या केवल सिस्टम पर पहले कोर प्रोसेसर पर चल रहे इस खेल को प्रतिबंधित करने के लिए. केवल Windows के तहत एक प्रभाव है."
+
+#: GameEngine.py:146
+msgid "Use Psyco"
+msgstr "उपयोग Psyco"
+
+#: GameEngine.py:146
+msgid "Enable or disable the Psyco specializing compiler. Tests have indicated the game runs faster with it off."
+msgstr "सक्षम या अक्षम Psyco विशेषज्ञता संकलक. टेस्ट संकेत दिया है इस खेल के साथ तेजी से चलाता है."
+
+#: GameEngine.py:147
+msgid "Missed Notes"
+msgstr "याद नोट्स"
+
+#: GameEngine.py:147
+msgid "Disappear"
+msgstr "गायब"
+
+#: GameEngine.py:147
+msgid "Keep on going"
+msgstr "जा रहा पर रखें"
+
+#: GameEngine.py:147
+msgid "When you miss a note, this sets whether they disappear from the fretboard or scroll off the bottom of the screen."
+msgstr "जब आप एक नोट याद आती है, इस सेट है कि क्या वे fretboard से गायब हो या बंद करने के लिए स्क्रीन के नीचे स्क्रॉल करें."
+
+#: GameEngine.py:150
+msgid "Performance"
+msgstr "प्रदर्शन"
+
+#: GameEngine.py:150
+#: GameEngine.py:151
+msgid "Manual"
+msgstr "नियमावली"
+
+#: GameEngine.py:150
+msgid "Pure Speed"
+msgstr "शुद्ध स्पीड"
+
+#: GameEngine.py:150
+msgid "Fast"
+msgstr "उपवास"
+
+#: GameEngine.py:150
+msgid "Quality (Recommended)"
+msgstr "(गुणवत्ता अनुशंसित)"
+
+#: GameEngine.py:150
+msgid "Max Quality (Slow)"
+msgstr "अधिकतम गुणवत्ता (धीरे)"
+
+#: GameEngine.py:150
+msgid "Set the performance of your game. You can fine-tune in the advanced menus."
+msgstr "अपने खेल के प्रदर्शन को निर्धारित करें. आप उन्नत मेनू में ठीक धुन कर सकते हैं."
+
+#: GameEngine.py:151
+msgid "Gameplay"
+msgstr "Gameplay"
+
+#: GameEngine.py:151
+msgid "Theme-Based"
+msgstr "थीम आधारित"
+
+#: GameEngine.py:151
+msgid "MIDI Based"
+msgstr "MIDI आधार"
+
+#: GameEngine.py:151
+msgid "RB Style"
+msgstr "आरबी शैली"
+
+#: GameEngine.py:151
+msgid "GH Style"
+msgstr "GH शैली"
+
+#: GameEngine.py:151
+msgid "WT Style"
+msgstr "WT शैली"
+
+#: GameEngine.py:151
+msgid "Sets how the game 'feels' to play. Theme-Based lets the theme creator decide. MIDI Based lets the fretter decide."
+msgstr "सेट कैसे खेल &#39;खेलने के लिए लगता है. थीम के आधार देता है विषय निर्माता का फैसला. MIDI के आधार देता fretter फैसला."
+
+#: GameEngine.py:152
+msgid "Pause on Loss of Focus"
+msgstr "ध्यान की कमी को विराम दें"
+
+#: GameEngine.py:152
+#: GameEngine.py:156
+#: GameEngine.py:158
+#: GameEngine.py:170
+#: GameEngine.py:173
+#: GameEngine.py:187
+#: GameEngine.py:189
+#: GameEngine.py:193
+#: GameEngine.py:200
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:206
+#: GameEngine.py:207
+#: GameEngine.py:213
+#: GameEngine.py:218
+#: GameEngine.py:220
+#: GameEngine.py:222
+#: GameEngine.py:223
+#: GameEngine.py:227
+#: GameEngine.py:232
+#: GameEngine.py:239
+#: GameEngine.py:248
+#: GameEngine.py:249
+#: GameEngine.py:251
+#: GameEngine.py:274
+#: GameEngine.py:278
+#: GameEngine.py:279
+#: GameEngine.py:280
+#: GameEngine.py:281
+#: GameEngine.py:282
+#: GameEngine.py:283
+#: GameEngine.py:284
+#: GameEngine.py:285
+#: GameEngine.py:286
+#: GameEngine.py:289
+#: GameEngine.py:290
+#: GameEngine.py:291
+#: GameEngine.py:293
+#: GameEngine.py:303
+#: GameEngine.py:326
+#: GameEngine.py:330
+#: GameEngine.py:334
+#: GameEngine.py:338
+#: GameEngine.py:405
+msgid "On"
+msgstr "पर"
+
+#: GameEngine.py:152
+msgid "Set whether the game automatically pauses when another application steals input focus."
+msgstr "सेट कि क्या खेल स्वतः pauses जब एक और आवेदन इनपुट फोकस चुरा रहा है."
+
+#: GameEngine.py:155
+msgid "HO/PO System"
+msgstr "ओ / पीओ सिस्टम"
+
+#: GameEngine.py:155
+#: GameResultsScene.py:252
+msgid "RF-Mod"
+msgstr "आरएफ मॉड"
+
+#: GameEngine.py:155
+#: GameResultsScene.py:254
+msgid "GH2 Strict"
+msgstr "GH2 कड़ी"
+
+#: GameEngine.py:155
+#: GameEngine.py:319
+#: GameResultsScene.py:256
+msgid "GH2"
+msgstr "GH2"
+
+#: GameEngine.py:155
+msgid "Set the system used for marking hammer-ons and pull-offs (HO/PO). You can either disable them altogether, use the RF-Mod method, or the GH2 system."
+msgstr "सेट प्रणाली हथौड़ा-ons अंकन और पुल-(offs के लिए इस्तेमाल किया ओ / पीओ). आप या तो उन्हें पूरी तरह निष्क्रिय कर सकते हैं, आरएफ मॉड विधि, या GH2 प्रणाली का उपयोग करें."
+
+#: GameEngine.py:156
+msgid "GH2 Sloppy Mode"
+msgstr "GH2 मैला मोड"
+
+#: GameEngine.py:156
+msgid "Sloppy mode allows you to hold higher frets while tapping lower frets during HO/PO sections. This will lower your score by 25%."
+msgstr "मैला मोड आप उच्च पकड़ करने के लिए frets जबकि कम दोहन / पीओ वर्गों ओ दौरान frets अनुमति देता है. यह 25% द्वारा अपने स्कोर कम होगा."
+
+#: GameEngine.py:157
+msgid "HO/PO Frequency"
+msgstr "ओ / पीओ फ़्रिक्वेंसी"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:272
+msgid "Least"
+msgstr "कम से कम"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:274
+msgid "Less"
+msgstr "कम"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:278
+msgid "More"
+msgstr "और"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:280
+msgid "Even More"
+msgstr "और भी"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:282
+msgid "Most"
+msgstr "सबसे"
+
+#: GameEngine.py:157
+msgid "Sets the window used to determine HO/PO notes. Increasing the frequency will reduce your score, and lower settings will give you a tiny bonus."
+msgstr "सेट खिड़की करने के लिए / ओ PO नोटों का निर्धारण किया जाता है. आवृत्ति बढ़ाने से अपने स्कोर कम हो जाएगा, और कम सेटिंग आप एक छोटे बोनस दे देंगे."
+
+#: GameEngine.py:158
+msgid "HO/PO After Chord"
+msgstr "तार के बाद ओ PO /"
+
+#: GameEngine.py:158
+msgid "This will determine whether or not HO/PO notes can follow a chord. This only applies to the GH2 systems."
+msgstr "यह क्या है या नहीं / पीओ नोट एक डोरी ओ पालन कर सकते हैं का निर्धारण करेगा. यह केवल GH2 सिस्टम में लागू होता है."
+
+#: GameEngine.py:159
+msgid "Show Hit Accuracy"
+msgstr "दिखाएँ सटीकता मारो"
+
+#: GameEngine.py:159
+msgid "Numeric"
+msgstr "सांख्यिक"
+
+#: GameEngine.py:159
+msgid "Friendly"
+msgstr "दोस्ताना"
+
+#: GameEngine.py:159
+msgid "Both"
+msgstr "दोनों"
+
+#: GameEngine.py:159
+msgid "Shows how accurate your note hits are. Numeric will give a time in milliseconds, and Friendly will use English to inform you. Both will show, well, both. Useful for determining your A/V delay."
+msgstr "दिखाता है कि कैसे अपने सटीक नोट हिट कर रहे हैं. संख्यात्मक मिलीसेकेंड में समय देना होगा, और अनुकूल अंग्रेजी का प्रयोग करने के लिए आपको सूचित करेंगे. दोनों दिखाने के लिए, अच्छी तरह से दोनों जाएगा. अपने एक / वी देरी निर्धारित करने के लिए उपयोगी."
+
+#: GameEngine.py:160
+msgid "Hit Accuracy Pos"
+msgstr "स्थिति सटीकता मारा"
+
+#: GameEngine.py:160
+#: GameEngine.py:212
+msgid "Center"
+msgstr "केंद्र"
+
+#: GameEngine.py:160
+msgid "Top-Right Corner"
+msgstr "शीर्ष दांये कोने"
+
+#: GameEngine.py:160
+msgid "Bottom-Left Corner"
+msgstr "नीचे बाएँ कोने"
+
+#: GameEngine.py:160
+msgid "Center-Bottom"
+msgstr "केन्द्र नीचे"
+
+#: GameEngine.py:160
+msgid "Sets where the accuracy information will be displayed, if enabled."
+msgstr "सेट्स जहाँ सटीकता जानकारी प्रदर्शित किया जाएगा, यदि सक्षम होना चाहिए."
+
+#: GameEngine.py:162
+msgid "Max Players"
+msgstr "अधिकतम खिलाड़ी"
+
+#: GameEngine.py:162
+msgid "Set the maximum number of players in Co-Op modes. Be aware that higher numbers are associated with a significant drop in performance."
+msgstr "सह सेशन मोड में खिलाड़ियों की अधिकतम संख्या निर्धारित करें. पता है कि अधिक संख्या के प्रदर्शन में उल्लेखनीय गिरावट के साथ जुड़े रहे हैं रहो."
+
+#: GameEngine.py:165
+msgid "Slideshow Delay"
+msgstr "स्लाइड शो विलंब"
+
+#: GameEngine.py:165
+msgid "Sets how long, in milliseconds, to wait between each frame in a stage slideshow."
+msgstr "सेट कब तक, milliseconds में, प्रत्येक फ्रेम के बीच एक चरण में स्लाइड शो में इंतजार करने के लिए."
+
+#: GameEngine.py:166
+msgid "Animation Delay"
+msgstr "एनीमेशन विलंब"
+
+#: GameEngine.py:166
+msgid "Sets how long, in milliseconds, to wait between each frame in a stage animation."
+msgstr "सेट कब तक, milliseconds में, प्रत्येक फ्रेम के बीच एक चरण में एनीमेशन में इंतजार करने के लिए."
+
+#: GameEngine.py:167
+msgid "Stage Slideshow"
+msgstr "स्टेज स्लाइड शो"
+
+#: GameEngine.py:167
+#: GameEngine.py:168
+msgid "BackNForth"
+msgstr "BackNForth"
+
+#: GameEngine.py:167
+msgid "Sets the method used to rotate frames in a stage slideshow."
+msgstr "सेट विधि करने के लिए एक मंच स्लाइड शो में तख्ते बारी बारी थी."
+
+#: GameEngine.py:168
+msgid "Stage Animation"
+msgstr "स्टेज एनिमेशन"
+
+#: GameEngine.py:168
+msgid "Sets the method used to rotate frames in a stage animation."
+msgstr "सेट विधि करने के लिए एक मंच एनीमेशन में फ्रेम बारी बारी थी."
+
+#: GameEngine.py:169
+msgid "Stage Selection"
+msgstr "स्टेज चयन"
+
+#: GameEngine.py:169
+msgid "Default"
+msgstr "डिफ़ॉल्ट"
+
+#: GameEngine.py:169
+msgid "Blank"
+msgstr "रिक्त"
+
+#: GameEngine.py:169
+msgid "Video"
+msgstr "वीडियो"
+
+#: GameEngine.py:169
+msgid "Set the background for your stage. Default will use the default background, and Blank puts you in a dark room. Probably a lot like the one you're in now."
+msgstr "अपने स्तर के लिए पृष्ठभूमि सेट करें. डिफ़ॉल्ट डिफ़ॉल्ट पृष्ठभूमि का उपयोग करें, और खाली आप एक अंधेरे कमरे में डालता है. शायद एक तुम अब में रहे हैं जैसे एक बहुत."
+
+#: GameEngine.py:170
+msgid "Song Stage"
+msgstr "गीत स्टेज"
+
+#: GameEngine.py:170
+msgid "Fretters can include a stage to be used with their songs. If this is enabled, you can see it."
+msgstr "Fretters एक चरण में शामिल करने के लिए उनके गाने के साथ प्रयोग किया जा सकता है. यदि यह सक्षम है, आप इसे देख सकते हैं."
+
+#: GameEngine.py:171
+msgid "Script Lyric Display"
+msgstr "स्क्रिप्ट गीत प्रदर्शन"
+
+#: GameEngine.py:171
+msgid "By Song"
+msgstr "गीत से"
+
+#: GameEngine.py:171
+#: GameEngine.py:190
+#: GameEngine.py:201
+#: GameEngine.py:202
+#: GameEngine.py:214
+#: GameEngine.py:228
+#: GameEngine.py:269
+#: GameEngine.py:297
+msgid "Always"
+msgstr "सदा"
+
+#: GameEngine.py:171
+msgid "Dual Lyric Prevention"
+msgstr "दोहरी गीत निवारण"
+
+#: GameEngine.py:171
+msgid "Sets whether lyrics from a script.txt file are displayed. 'By Song' lets the fretter decide. 'Always' always displays script lyrics, if available, and 'Dual Lyric Prevention' will disable script lyrics if there are MIDI lyrics. (This is affected by the 'Performance' quickset)"
+msgstr "सेट कि क्या एक script.txt फ़ाइल से गीत प्रदर्शित होते हैं. &#39;गीत द्वारा तय fretter देता है. हमेशा हमेशा उपलब्ध अगर स्क्रिप्ट गीत, प्रदर्शित करता है, और &#39;दोहरी गीत&#39; निवारण अक्षम स्क्रिप्ट होगा गीत अगर वहाँ MIDI गीत हैं. (यह &#39;प्रदर्शन quickset&#39; से प्रभावित है)"
+
+#: GameEngine.py:172
+msgid "Frets Under Notes"
+msgstr "नोट्स के तहत frets"
+
+#: GameEngine.py:172
+msgid "Sets whether the notes slide under the frets or over them."
+msgstr "सेट करें कि क्या frets या उन पर नोट्स के तहत स्लाइड."
+
+#: GameEngine.py:173
+msgid "Drum Navigation"
+msgstr "ड्रम नेवीगेशन"
+
+#: GameEngine.py:173
+msgid "If enabled, drum keys will be allowed to navigate menus. If not, only guitar keys and keyboard master keys will."
+msgstr "यदि सक्रिय है, चाबी ड्रम करने के लिए मेनू नेविगेट करने की अनुमति होगी. यदि नहीं, केवल गिटार और कुंजीपटल चाबियाँ मास्टर चाबी होगी."
+
+#: GameEngine.py:175
+msgid "Ignore Open Strums"
+msgstr "खुला Strums पर ध्यान न दें"
+
+#: GameEngine.py:175
+msgid "If enabled, strumming without holding any frets down won't be counted."
+msgstr "यदि सक्रिय है, किसी भी नीचे पकड़े frets नहीं गिना जाएगा बिना झनकार."
+
+#: GameEngine.py:176
+msgid "Static Strings"
+msgstr "स्थैतिक तार"
+
+#: GameEngine.py:176
+msgid "If enabled, the 'strings' on your fretboard will not scroll."
+msgstr "अगर सक्रिय किया, अपने fretboard पर &#39;तार नहीं स्क्रॉल करेगा."
+
+#: GameEngine.py:177
+msgid "Effects Save SP"
+msgstr "प्रभाव सपा सहेजें"
+
+#: GameEngine.py:177
+msgid "If enabled, whammying while in SP will slow down its decrease. And your score will be handicapped by 5%."
+msgstr "यदि सक्रिय है, whammying देर में सपा नीचे इसकी कमी धीमी हो जाएगी. और अपने स्कोर में 5% से विकलांग हो जाएगा."
+
+#: GameEngine.py:178
+msgid "Show HO/PO Indicator"
+msgstr "दिखाएँ ओ / पीओ संकेतक"
+
+#: GameEngine.py:178
+msgid "If enabled, 'HOPO' will appear in game. When there are HOPO notes active, it will turn white."
+msgstr "अगर सक्रिय HOPO &#39;,&#39; खेल में दिखाई देंगे. जब वहाँ HOPO सक्रिय नोट कर रहे हैं, यह सफेद हो जाएगा."
+
+#: GameEngine.py:179
+msgid "Use Tiers in Quickplay"
+msgstr "Quickplay में इस्तेमाल स्तरों"
+
+#: GameEngine.py:179
+msgid "Sorting"
+msgstr "छँटाई"
+
+#: GameEngine.py:179
+msgid "Sets whether to mark tiers in quickplay mode. 'Normal' will use the career tiers and 'Sorting' will insert tiers based on the current sort order."
+msgstr "सेट करें कि क्या quickplay मोड में स्तरों चिह्नित करने के लिए. &#39;सामान्य&#39; कैरियर के स्तरों का उपयोग करें और &#39;सॉर्ट&#39; वर्तमान सॉर्ट क्रम के आधार पर डालने जाएगा स्तरों जाएगा."
+
+#: GameEngine.py:180
+msgid "Star Updates"
+msgstr "स्टार अपडेट"
+
+#: GameEngine.py:180
+msgid "On Hit"
+msgstr "पर मारो"
+
+#: GameEngine.py:180
+msgid "Score Change"
+msgstr "स्कोर बदलें"
+
+#: GameEngine.py:180
+msgid "If set to 'On Hit', your star score will only be checked when you hit a note. If set to 'Score Change', your star score will constantly update. (This is affected by the 'Performance' quickset)"
+msgstr "यदि करने के लिए सेट &#39;हिट&#39; पर, अपने स्टार स्कोर केवल जाँच की है जब आप एक नोट मारा जाएगा. अगर &#39;के लिए&#39; परिवर्तन, अपने स्टार स्कोर लगातार अद्यतन करेगा स्कोर निर्धारित किया है. (यह &#39;प्रदर्शन quickset&#39; से प्रभावित है)"
+
+#: GameEngine.py:181
+msgid "Partial Star Continuous Fillup"
+msgstr "आंशिक स्टार सतत Fillup"
+
+#: GameEngine.py:181
+msgid "Sets whether your partial stars will fill up gradually ('Yes') or in chunks. (This is affected by the 'Performance' quickset)"
+msgstr "सेट कि क्या आपके आंशिक सितारों को धीरे - धीरे भरने जाएगा (हाँ) &#39;या विखंडू में. (यह &#39;प्रदर्शन quickset&#39; से प्रभावित है)"
+
+#: GameEngine.py:182
+msgid "Countdown on Resume"
+msgstr "पर उलटी गिनती चालू"
+
+#: GameEngine.py:182
+msgid "If enabled, there will be a three second countdown when you unpause."
+msgstr "अगर सक्रिय है, वहाँ एक तीन दूसरा उलटी गिनती जब आप अनपॉज़ किया जाएगा."
+
+#: GameEngine.py:184
+msgid "Script Lyric Position"
+msgstr "स्क्रिप्ट गीत स्थिति"
+
+#: GameEngine.py:184
+msgid "Bottom"
+msgstr "तल"
+
+#: GameEngine.py:184
+msgid "Top"
+msgstr "टॉप"
+
+#: GameEngine.py:184
+msgid "Display script lyrics at either the bottom or top of the screen."
+msgstr "प्रदर्शन या तो नीचे या स्क्रीन के शीर्ष पर स्क्रिप्ट गीत."
+
+#: GameEngine.py:187
+msgid "Starpower Claps"
+msgstr "Starpower claps"
+
+#: GameEngine.py:187
+msgid "Enables a clapping sound effect to be used on the beats in Starpower."
+msgstr "एक ताली बजाने ध्वनि प्रभाव सक्षम Starpower में धड़कता है पर इस्तेमाल किया जाएगा."
+
+#: GameEngine.py:188
+msgid "Song Previews"
+msgstr "गीत पूर्वावलोकन"
+
+#: GameEngine.py:188
+msgid "Yellow Fret (#3)"
+msgstr "पीले झल्लाहट (# 3)"
+
+#: GameEngine.py:188
+msgid "If set to 'Automatic', songs will automatically start previewing when you select them. Otherwise you must press the third fret."
+msgstr "यदि &#39;करने के लिए सेट स्वचालित, गीत स्वतः पूर्वावलोकन जब आप उनका चयन शुरू कर देंगे. अन्यथा आप तीसरे प्रेस चाहिए झल्लाहट."
+
+#: GameEngine.py:189
+msgid "RB SP Neck Glow"
+msgstr "आरबी सपा गर्दन चमक"
+
+#: GameEngine.py:189
+msgid "Sets a neck glow effect during SP in RB-type themes."
+msgstr "आरबी प्रकार विषयों में सपा के दौरान एक गर्दन चमक प्रभाव समूह."
+
+#: GameEngine.py:190
+msgid "SP Refill Mode"
+msgstr "सपा से भरना मोड"
+
+#: GameEngine.py:190
+msgid "By MIDI Type"
+msgstr "MIDI प्रकार से"
+
+#: GameEngine.py:190
+msgid "Sets whether you can earn more starpower while using it. In 'By MIDI Type', only MIDIs that mark RB-style sections will use this. (This is set by the 'Gameplay' quickset)"
+msgstr "सेट करें कि क्या आप और अधिक starpower कमा सकते हैं, जबकि यह प्रयोग से. &#39;में से MIDI प्रकार&#39;, केवल MIDIs कि आरबी शैली वर्गों के निशान इस का प्रयोग करेंगे. (यह &#39;Gameplay quickset&#39; द्वारा निर्धारित है)"
+
+#: GameEngine.py:193
+msgid "Effects Debug"
+msgstr "प्रभाव डीबग"
+
+#: GameEngine.py:193
+msgid "If enabled, will show on-screen the raw data of your killswitch/whammy."
+msgstr "यदि सक्रिय है, whammy / परदे पर अपने killswitch के कच्चे डेटा दिखाई देगा."
+
+#: GameEngine.py:195
+msgid "Drum SP"
+msgstr "ड्रम सपा"
+
+#: GameEngine.py:195
+msgid "Auto / Fills"
+msgstr "ऑटो भरता है /"
+
+#: GameEngine.py:195
+msgid "Manual / Fills"
+msgstr "मैनुअल भरता है /"
+
+#: GameEngine.py:195
+msgid "Determines how drum starpower is activated when there are no drum fills. Auto will automatically activate when available, and Manual will wait for the 'Starpower' button to be pressed."
+msgstr "निर्धारित करता है कि कैसे starpower ड्रम सक्रिय होता है जब कोई ढोल भरता रहे हैं. ऑटो स्वतः जब उपलब्ध सक्रिय करते हैं, करेंगे और मैनुअल के लिए &#39;&#39; बटन Starpower प्रतीक्षा करने के लिए दबाया होगा."
+
+#: GameEngine.py:196
+msgid "Large Drum Neck"
+msgstr "गर्दन के बड़े ड्रम"
+
+#: GameEngine.py:196
+msgid "If enabled, will show a larger neck when playing drums."
+msgstr "यदि सक्रिय है, एक बड़ा गर्दन दिखाई देगा जब खेल ड्रम."
+
+#: GameEngine.py:197
+#: GameEngine.py:235
+msgid "Bass Groove Neck"
+msgstr "बास नाली गर्दन"
+
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:307
+msgid "Replace"
+msgstr "बदलें"
+
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:307
+msgid "Overlay"
+msgstr "उपरिशायी"
+
+#: GameEngine.py:197
+msgid "Sets the style of the Bass Groove neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "बास नाली गर्दन शैली समूह. &#39;विशेष गर्दन के साथ बदलें&#39; अपनी गर्दन की जगह है, जबकि &#39;ओवरले&#39; शीर्ष पर गर्दन देता है."
+
+#: GameEngine.py:198
+msgid "Guitar Solo Neck"
+msgstr "गिटार सोलो गर्दन"
+
+#: GameEngine.py:198
+msgid "Sets the style of the Guitar Solo neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "गिटार सोलो गर्दन शैली समूह. &#39;विशेष गर्दन के साथ बदलें&#39; अपनी गर्दन की जगह है, जबकि &#39;ओवरले&#39; शीर्ष पर गर्दन देता है."
+
+#: GameEngine.py:199
+msgid "Show Unused Events"
+msgstr "दिखाएँ उपयोगमेंनहीं घटनाक्रम"
+
+#: GameEngine.py:199
+msgid "If enabled, various MIDI events not used by the game will be shown on-screen."
+msgstr "यदि सक्रिय है, विभिन्न MIDI घटनाओं इस्तेमाल किया परदे पर दिखाया जाएगा नहीं खेल के द्वारा."
+
+#: GameEngine.py:200
+msgid "Kick Bass Sound"
+msgstr "लात बास ध्वनि"
+
+#: GameEngine.py:200
+msgid "If enabled, you'll hear a kick bass sound when you use the kick pedal."
+msgstr "अगर सक्रिय है, तुम एक किक बास ध्वनि जब आप का उपयोग लात पेडल सुनेंगे."
+
+#: GameEngine.py:201
+msgid "Show Lyrics in All Modes"
+msgstr "सभी मोड दिखाना गीत"
+
+#: GameEngine.py:201
+#: GameEngine.py:202
+msgid "Single Player"
+msgstr "एकल खिलाड़ी"
+
+#: GameEngine.py:201
+msgid "Sets whether or not MIDI lyrics will be displayed in modes without a vocalist. 'Single Player' will only show lyrics when in Solo modes."
+msgstr "सेट या नहीं MIDI गीत एक गायक के बिना मोड में प्रदर्शित किया जाएगा. &#39;एकल खिलाड़ी केवल&#39; गीत दिखाएगा जब सोलो मोड में."
+
+#: GameEngine.py:202
+msgid "Show MIDI Sections"
+msgstr "दिखाएँ MIDI धारा"
+
+#: GameEngine.py:202
+msgid "Sets whether or not to scroll the names of sections as marked in the MIDI files."
+msgstr "सेट या नहीं वर्गों के नाम के रूप में स्क्रॉल करने के लिए MIDI फ़ाइलों में चिह्नित."
+
+#: GameEngine.py:203
+msgid "Key Conflicts"
+msgstr "कुंजी संघर्ष"
+
+#: GameEngine.py:203
+msgid "Don't check"
+msgstr "मत जांचें"
+
+#: GameEngine.py:203
+msgid "Notify"
+msgstr "सूचित करना"
+
+#: GameEngine.py:203
+msgid "Enforce"
+msgstr "लागू"
+
+#: GameEngine.py:203
+msgid "Sets how the game handles key conflicts. 'Don't check' doesn't check, but conflicts will affect play. 'Notify' will inform you, but allow you to continue, and 'Enforce' will not allow you to exit the menu until all key conflicts have been resolved."
+msgstr "सेट कैसे खेल कुंजी संघर्ष संभालती है. &#39;जाँच की जाँच नहीं करता नहीं है, लेकिन खेलने के लिए संघर्ष को प्रभावित करेगा. &#39;सूचित&#39; आपको सूचित करेंगे, लेकिन आप जारी रखने के लिए अनुमति देते हैं, और &#39;लागू की अनुमति देते हैं आप सभी प्रमुख संघर्ष का समाधान किया गया है जब तक मेनू बाहर निकलने के लिए नहीं किया जाएगा."
+
+#: GameEngine.py:204
+msgid "Show In-Game Stats"
+msgstr "शो में खेल आँकड़े"
+
+#: GameEngine.py:204
+msgid "Sets whether or not to show detailed stats as you play. 'By Theme' leaves it to the theme creator."
+msgstr "सेट या नहीं, तुम खेलने के रूप में विस्तृत आँकड़े दिखाने के लिए. &#39;थीम&#39; के पत्तों यह विषय निर्माता के लिए."
+
+#: GameEngine.py:205
+msgid "Show Stars In-Game"
+msgstr "शो में खेल सितारे"
+
+#: GameEngine.py:205
+msgid "Sets whether or not to show your star score as you play. 'By Theme' leaves it to the theme creator."
+msgstr "सेट चाहे या नहीं अपने आप खेल के रूप में स्टार अंक दिखाने के लिए. &#39;थीम&#39; के पत्तों यह विषय निर्माता के लिए."
+
+#: GameEngine.py:206
+msgid "Show Partial Stars"
+msgstr "दिखाएँ आंशिक सितारे"
+
+#: GameEngine.py:206
+msgid "Sets whether or not to show partial stars, if available"
+msgstr "सेट या नहीं, यदि उपलब्ध आंशिक सितारों को दिखाने के लिए"
+
+#: GameEngine.py:207
+msgid "HO/PO Debug"
+msgstr "ओ / डीबग PO"
+
+#: GameEngine.py:207
+msgid "If enabled, various log messages will be recorded regarding the HO/PO system. Please leave this disabled if submitting logs for bug reports unless you are certain it is necessary."
+msgstr "अगर सक्रिय, विभिन्न लॉग इन संदेशों / पीओ प्रणाली ओ के बारे में दर्ज हो जाएगा. कृपया इस अक्षम अगर बग रिपोर्ट भेजने के लिए लॉग जब तक आप कुछ कर रहे हैं यह आवश्यक है छोड़ो."
+
+#: GameEngine.py:208
+msgid "Show Solo Stats"
+msgstr "सोलो शो आँकड़े"
+
+#: GameEngine.py:208
+msgid "Percent"
+msgstr "प्रतिशत"
+
+#: GameEngine.py:208
+msgid "Detail"
+msgstr "विस्तार"
+
+#: GameEngine.py:208
+msgid "Sets whether to show your solo results when you finish a solo. 'Percent' will only show the percentage, while 'Detail' includes additional information."
+msgstr "सेट कि क्या आपके एकल परिणाम जब आप एक एकल समाप्त दिखाने के लिए. केवल प्रतिशत &#39;शो प्रतिशत होगा, जबकि&#39; विस्तार &#39;अतिरिक्त जानकारी भी शामिल है."
+
+#: GameEngine.py:209
+msgid "Stat Decimal Places"
+msgstr "Stat दशमलव स्थानों"
+
+#: GameEngine.py:209
+msgid "Determines how many decimal places will be noted in displaying stats."
+msgstr "निर्धारित करता है कि कितने दशमलव स्थानों आँकड़े प्रदर्शित करने में नोट किया जाएगा."
+
+#: GameEngine.py:210
+msgid "Star Scoring Style"
+msgstr "स्टार स्कोरिंग शैली"
+
+#: GameEngine.py:210
+msgid "Accuracy"
+msgstr "शुद्धता"
+
+#: GameEngine.py:210
+msgid "GH"
+msgstr "GH"
+
+#: GameEngine.py:210
+msgid "RB"
+msgstr "आरबी"
+
+#: GameEngine.py:210
+msgid "RB+GH"
+msgstr "आरबी + GH"
+
+#: GameEngine.py:210
+msgid "Sets which system to use to calculate your star score."
+msgstr "जो सेट करने के लिए अपने स्टार स्कोर की गणना का उपयोग प्रणाली."
+
+#: GameEngine.py:211
+msgid "Career Mode Advance"
+msgstr "कैरियर मोड अग्रिम"
+
+#: GameEngine.py:211
+msgid "0 (Song Finish)"
+msgstr "0 (गीत समाप्त)"
+
+#: GameEngine.py:211
+msgid "1 Star"
+msgstr "1 सितारा"
+
+#: GameEngine.py:211
+msgid "2 Stars"
+msgstr "2 सितारे"
+
+#: GameEngine.py:211
+msgid "3 Stars"
+msgstr "3 सितारे"
+
+#: GameEngine.py:211
+msgid "4 Stars"
+msgstr "4 सितारे"
+
+#: GameEngine.py:211
+msgid "5 Stars"
+msgstr "5 सितारे"
+
+#: GameEngine.py:211
+msgid "6 (Gold Stars)"
+msgstr "6 (गोल्ड सितारे)"
+
+#: GameEngine.py:211
+msgid "7 (Full Combo)"
+msgstr "7 (पूर्ण Combo)"
+
+#: GameEngine.py:211
+msgid "Determine how many stars are needed on a song before it is unlocked in career mode."
+msgstr "निर्धारित कितने सितारे एक गीत पर की जरूरत है पहले यह है कैरियर मोड में खुला है."
+
+#: GameEngine.py:212
+msgid "Solo Stat Positioning"
+msgstr "एकल Stat पोजिशनिंग"
+
+#: GameEngine.py:212
+#: GameEngine.py:319
+msgid "Rock Band"
+msgstr "रॉक बैंड"
+
+#: GameEngine.py:212
+msgid "Sets where your solo result stats will be displayed."
+msgstr "सेट जहां अपने एकल परिणाम आँकड़े प्रदर्शित किया जाएगा."
+
+#: GameEngine.py:213
+msgid "Bass Groove"
+msgstr "बास नाली"
+
+#: GameEngine.py:213
+msgid "By MIDI"
+msgstr "MIDI तक"
+
+#: GameEngine.py:213
+msgid "Enable or disable bass groove (additional score multiplier for bass)"
+msgstr "सक्षम या अक्षम बास नाली (अतिरिक्त बास के लिए गुणक अंक)"
+
+#: GameEngine.py:214
+msgid "Drum Miss Penalty"
+msgstr "ढोल मिस जुर्माना"
+
+#: GameEngine.py:214
+msgid "Song Start"
+msgstr "शुरू सांग"
+
+#: GameEngine.py:214
+msgid "First Note"
+msgstr "पहले ध्यान दें"
+
+#: GameEngine.py:214
+msgid "Determines when drum hits count as misses: When the song begins, after the first note, or always."
+msgstr "निर्धारित करता है जब ड्रम हिट के रूप में गिनती: याद आती है जब गीत पहले ध्यान दें, या हमेशा के बाद शुरू होता है."
+
+#: GameEngine.py:215
+msgid "Time Display Format"
+msgstr "समय प्रदर्शन स्वरूप"
+
+#: GameEngine.py:215
+#: GameEngine.py:306
+msgid "Countdown"
+msgstr "उलटी गिनती"
+
+#: GameEngine.py:215
+msgid "Elapsed"
+msgstr "Elapsed"
+
+#: GameEngine.py:215
+msgid "Sets whether the song time is displayed as time elapsed, time remaining, or not at all"
+msgstr "सेट करें कि क्या गीत समय के रूप में elapsed समय, समय प्रदर्शित किया जाता है शेष, या बिल्कुल भी नहीं"
+
+#: GameEngine.py:216
+msgid "Show Theme Version Tag"
+msgstr "दिखाएँ थीम संस्करणः टैग"
+
+#: GameEngine.py:216
+msgid "Places the theme's version tag over menus and dialogs."
+msgstr "जगह विषय का मेनू और संवाद से अधिक संस्करण टैग."
+
+#: GameEngine.py:217
+msgid "Menu Navigation"
+msgstr "मेनू नेविगेशन"
+
+#: GameEngine.py:217
+msgid "P1 Only"
+msgstr "केवल P1"
+
+#: GameEngine.py:217
+msgid "All Players"
+msgstr "सभी खिलाड़ियों"
+
+#: GameEngine.py:217
+msgid "Sets whether all players can navigate the menu, or only the controller set as Player 1 and the master keys."
+msgstr "सेट करें कि क्या सभी खिलाड़ियों मेनू, या केवल खिलाड़ी 1 और मास्टर कुंजी के रूप में सेट नियंत्रक नेविगेट कर सकते हैं."
+
+#: GameEngine.py:218
+msgid "In-Game Font Shadow"
+msgstr "खेल फ़ॉन्ट छाया में"
+
+#: GameEngine.py:218
+msgid "Sets whether or not a shadowed font will be used, if available."
+msgstr "सेट या नहीं एक shadowed फ़ॉन्ट, उपयोग किया जाएगा यदि उपलब्ध है."
+
+#: GameEngine.py:219
+msgid "Mute Last Second"
+msgstr "मूक अंतिम दूसरा"
+
+#: GameEngine.py:219
+msgid "Cuts the volume with one second remaining to prevent any pops when the song ends."
+msgstr "साथ मात्रा में कटौती एक दूसरे को रोकने के लिए किसी भी चबूतरे जब गीत समाप्त होता है शेष."
+
+#: GameEngine.py:220
+msgid "Results Cheer Loop"
+msgstr "परिणाम खुश लूप"
+
+#: GameEngine.py:220
+#: GameEngine.py:319
+#: GameEngine.py:399
+msgid "Theme"
+msgstr "विषय"
+
+#: GameEngine.py:220
+msgid "Sets whether the cheering sound heard on the result screen will loop. 'Theme' leaves it to the theme creator."
+msgstr "सेट करें कि क्या जयकार ध्वनि परिणाम स्क्रीन पर होगी पाश सुना. &#39;यह थीम&#39; विषय निर्माता को छोड़ देता है."
+
+#: GameEngine.py:221
+msgid "Cheer Loop Delay"
+msgstr "जयकार लूप विलंब"
+
+#: GameEngine.py:221
+msgid "Sets the time, in milliseconds, to wait before playing the result cheer again (if looping is enabled)."
+msgstr "समय milliseconds में, समूह, परिणाम जयकार फिर से खेलने से पहले प्रतीक्षा करने के लिए (यदि looping सक्षम है)."
+
+#: GameEngine.py:222
+msgid "Miss Pauses Anim"
+msgstr "मिस anim pauses"
+
+#: GameEngine.py:222
+msgid "When enabled, missing a note will pause the stage animation."
+msgstr "जब सक्षम, एक नोट गायब मंच एनिमेशन रुकेगा."
+
+#: GameEngine.py:223
+msgid "Song HO/PO Freq"
+msgstr "गीत ओ / पीओ freq"
+
+#: GameEngine.py:223
+msgid "Sets whether or not to use the HO/PO Frequency setting determined by the fretter, if available."
+msgstr "सेट या नहीं का उपयोग करने के ओ / पीओ फ़्रिक्वेंसी fretter द्वारा निर्धारित स्थापना, यदि उपलब्ध है."
+
+#: GameEngine.py:225
+msgid "Mute Drum Track During Fills"
+msgstr "भरता मौन के दौरान ट्रैक ड्रम"
+
+#: GameEngine.py:225
+msgid "Sets whether or not the drum track will be muted during drum fills (so you can hear yourself have at it!)"
+msgstr "चाहे या नहीं ड्रम सेट ड्रम ट्रैक को मौन के दौरान किया जाएगा (ताकि आप सुन सकते हैं यह अपने आप में है भरता है!)"
+
+#: GameEngine.py:226
+msgid "Sustain Muting"
+msgstr "को बनाए रखने के Muting"
+
+#: GameEngine.py:226
+msgid "Never Mute"
+msgstr "कभी मौन"
+
+#: GameEngine.py:226
+msgid "Very Early"
+msgstr "एकदम प्रारंभिक"
+
+#: GameEngine.py:226
+msgid "Early"
+msgstr "शीघ्र"
+
+#: GameEngine.py:226
+#: GameEngine.py:309
+#: GameResultsScene.py:293
+msgid "Standard"
+msgstr "मानक"
+
+#: GameEngine.py:226
+msgid "Always Mute"
+msgstr "हमेशा मौन"
+
+#: GameEngine.py:226
+msgid "Sets the window used to determine whether or not to mute a dropped sustain note. 'Early' means it will only mute when you drop the sustain relatively early."
+msgstr "सेट खिड़की करने के लिए निर्धारित किया जाए या नहीं एक नोट को बनाए रखने के मूक गिरा दिया करते थे. &#39;का अर्थ है प्रारंभिक&#39; यह केवल जब तुम अपेक्षाकृत जल्दी को बनाए रखने के ड्रॉप गूंगा जाएगा."
+
+#: GameEngine.py:227
+msgid "Show Solo Frame"
+msgstr "दिखाएँ सोलो फ़्रेम"
+
+#: GameEngine.py:227
+msgid "Sets whether to show a frame around the solo stats, if available."
+msgstr "सेट करें कि क्या एकल आँकड़ों के चारों ओर एक यदि उपलब्ध हो, फ्रेम दिखाने के लिए."
+
+#: GameEngine.py:228
+msgid "Enable Guitar Solos"
+msgstr "सक्षम गिटार Solos"
+
+#: GameEngine.py:228
+#: GameEngine.py:297
+msgid "Never"
+msgstr "कभी नहीं"
+
+#: GameEngine.py:228
+msgid "MIDI Only"
+msgstr "MIDI केवल"
+
+#: GameEngine.py:228
+msgid "Sets the logic used to mark solos. 'Always' will mark solos in sections if available. 'By Theme' leaves it to the theme creator. 'MIDI Only' only enables solos marked with the MIDI marker note."
+msgstr "सेट तर्क solos निशान थे. &#39;हमेशा&#39; यदि उपलब्ध वर्गों में solos का प्रतीक होगा. &#39;थीम&#39; के पत्तों यह विषय निर्माता के लिए. &#39;केवल MIDI&#39; केवल सक्षम बनाता है solos MIDI मार्कर नोट के साथ चिह्नित."
+
+#: GameEngine.py:229
+msgid "SP Mode"
+msgstr "सपा मोड"
+
+#: GameEngine.py:229
+#: GameEngine.py:319
+msgid "FoF"
+msgstr "FOF"
+
+#: GameEngine.py:229
+msgid "Auto MIDI"
+msgstr "ऑटो MIDI"
+
+#: GameEngine.py:229
+msgid "Sets the logic used to determine starpower phrases. 'FoF' will generate paths based on the number of notes. 'Auto MIDI' will use MIDI markers to determine the paths, and fall back on the FoF mode if none are available."
+msgstr "सेट तर्क starpower वाक्यांशों का निर्धारण किया जाता है. &#39;FOF&#39; नोटों की संख्या के आधार पर रास्तों उत्पन्न करेगा. &#39;ऑटो&#39; MIDI MIDI मार्कर का उपयोग करने के रास्तों का निर्धारण करने, और FOF मोड पर वापस गिर अगर कोई भी उपलब्ध हैं."
+
+#: GameEngine.py:231
+msgid "Inc. Neck Mode"
+msgstr "इंक गर्दन मोड"
+
+#: GameEngine.py:231
+msgid "Start Only"
+msgstr "केवल शुरू"
+
+#: GameEngine.py:231
+msgid "Start & End"
+msgstr "आरंभ और समाप्ति"
+
+#: GameEngine.py:231
+msgid "Sets how and whether to render incoming solo necks. 'Start Only' will scroll it in but not out, while 'Start & End' does both."
+msgstr "सेट और कैसे है कि क्या आने वाले एकल गर्दन रेंडर करने के लिए. &#39;केवल इसमें स्क्रॉल करेगा लेकिन नहीं, बाहर शुरू&#39; जबकि &#39;शुरू और अन्त दोनों करता है."
+
+#: GameEngine.py:232
+msgid "Big Rock Endings"
+msgstr "बिग रॉक अंत"
+
+#: GameEngine.py:232
+msgid "Enable or disable big rock endings. 'By Theme' leaves it to the theme creator."
+msgstr "सक्षम या अक्षम बड़ी चट्टान के अंत. &#39;थीम&#39; के पत्तों यह विषय निर्माता के लिए."
+
+#: GameEngine.py:233
+msgid "Main Neck"
+msgstr "मुख्य गर्दन"
+
+#: GameEngine.py:233
+msgid "Set the transparency of the main neck. 100% is fully visible."
+msgstr "मुख्य गर्दन की पारदर्शिता सेट करें. 100% पूरी तरह से दिख रहा है."
+
+#: GameEngine.py:234
+msgid "Solo Neck"
+msgstr "एकल गर्दन"
+
+#: GameEngine.py:234
+msgid "Set the transparency of the solo neck. 100% is fully visible."
+msgstr "एकल गर्दन की पारदर्शिता सेट करें. 100% पूरी तरह से दिख रहा है."
+
+#: GameEngine.py:235
+msgid "Set the transparency of the bass groove neck. 100% is fully visible."
+msgstr "सेट बास की पारदर्शिता नाली गर्दन. 100% पूरी तरह से दिख रहा है."
+
+#: GameEngine.py:236
+msgid "Fail Neck"
+msgstr "असफल गर्दन"
+
+#: GameEngine.py:236
+msgid "Set the transparency of the failing neck. 100% is fully visible."
+msgstr "असफल गर्दन पारदर्शिता सेट करें. 100% पूरी तरह से दिख रहा है."
+
+#: GameEngine.py:237
+msgid "Overlay Neck"
+msgstr "उपरिशायी गर्दन"
+
+#: GameEngine.py:237
+msgid "Set the transparency of neck overlays. 100% is fully visible."
+msgstr "गर्दन की पारदर्शिता सेट overlays. 100% पूरी तरह से दिख रहा है."
+
+#: GameEngine.py:238
+msgid "All Necks"
+msgstr "सब गर्दन"
+
+#: GameEngine.py:238
+msgid "Set the master transparency of all necks. 100% is fully visible."
+msgstr "सब गर्दन के मालिक पारदर्शिता सेट करें. 100% पूरी तरह से दिख रहा है."
+
+#: GameEngine.py:239
+msgid "Show Any Available Score"
+msgstr "किसी भी उपलब्ध स्कोर दिखाएँ"
+
+#: GameEngine.py:239
+msgid "When set to 'On', this will look for any available score on the currently selected instrument for setlist score display, if one is not available at the chosen difficulty."
+msgstr "जब &#39;पर&#39; सेट, यह setlist स्कोर प्रदर्शन के लिए वर्तमान में चयनित लिखत पर किसी भी उपलब्ध स्कोर देखने के लिए, यदि एक चुना कठिनाई पर उपलब्ध नहीं है."
+
+#: GameEngine.py:241
+msgid "Scroll Delay"
+msgstr "पुस्तक विलंब"
+
+#: GameEngine.py:241
+msgid "Sets how long, in milliseconds, to wait before beginning to scroll."
+msgstr "सेट कब तक, milliseconds में, स्क्रॉल की शुरुआत करने के लिए पहले इंतजार करने के लिए."
+
+#: GameEngine.py:242
+msgid "Scroll Rate"
+msgstr "पुस्तक दर"
+
+#: GameEngine.py:242
+msgid "Sets how quickly menus will scroll."
+msgstr "सेट कैसे जल्दी से मेनू स्क्रॉल करेगा."
+
+#: GameEngine.py:245
+msgid "Use (notes-unedited.mid)"
+msgstr "का प्रयोग करें (नोट्स-unedited.mid)"
+
+#: GameEngine.py:245
+msgid "Sets whether to look for (and use) a 'notes-unedited.mid' before 'notes.mid'. There's no reason to change this."
+msgstr "सेट करें कि क्या के लिए देखो करने के लिए (और) का उपयोग एक &#39;नोट&#39; unedited.mid &#39;से पहले notes.mid&#39;. कोई जरूरत नहीं इस परिवर्तन का कारण है."
+
+#: GameEngine.py:246
+msgid "Show Fill Status"
+msgstr "दिखाएँ स्तर भरें"
+
+#: GameEngine.py:246
+msgid "When enabled, whether or not you are in a drum fill/freestyle ending will be displayed in text on the screen."
+msgstr "जब सक्षम, चाहे या नहीं आप एक को भरने के ड्रम में / समाप्त फ्री पाठ स्क्रीन पर प्रदर्शित किया जाएगा रहे हैं."
+
+#: GameEngine.py:247
+msgid "Show BPM"
+msgstr "दिखाएँ BPM"
+
+#: GameEngine.py:247
+msgid "When enabled, the current song BPM will be shown on screen."
+msgstr "जब सक्षम, वर्तमान गीत BPM स्क्रीन पर दिखाया जाएगा."
+
+#: GameEngine.py:248
+msgid "New BPM Logic"
+msgstr "नई BPM तर्क"
+
+#: GameEngine.py:248
+msgid "If enabled, the game will attempt to use the new BPM logic. This is not a finished feature. Use at your own risk."
+msgstr "यदि सक्रिय है, खेल के लिए नया BPM तर्क का उपयोग करने का प्रयास करेंगे. यह एक खत्म सुविधा नहीं है. अपने स्वयं के जोखिम पर इस्तेमाल करें."
+
+#: GameEngine.py:249
+msgid "New Song Database Code"
+msgstr "नई सांग डेटाबेस कोड"
+
+#: GameEngine.py:249
+msgid "Activates the new, incomplete song database code."
+msgstr "नया, अधूरा गीत डेटाबेस कोड सक्रिय."
+
+#: GameEngine.py:251
+msgid "Show Raw Vocal Data"
+msgstr "दिखाएँ डेटा कच्चे गायन"
+
+#: GameEngine.py:251
+msgid "If enabled, various information about the microphone input will be show in text on screen. Probably only needed for vocal debugging."
+msgstr "यदि सक्रिय है, माइक्रोफोन इनपुट के बारे में विभिन्न जानकारी स्क्रीन पर पाठ में प्रदर्शित किया जाएगा. शायद ही मुखर debugging के लिए की जरूरत है."
+
+#: GameEngine.py:253
+msgid "Speed Factor"
+msgstr "फैक्टर स्पीड"
+
+#: GameEngine.py:253
+msgid "1.00x"
+msgstr "1.00x"
+
+#: GameEngine.py:253
+msgid "0.75x"
+msgstr "0.75x"
+
+#: GameEngine.py:253
+msgid "0.50x"
+msgstr "0.50x"
+
+#: GameEngine.py:253
+msgid "0.25x"
+msgstr "0.25x"
+
+#: GameEngine.py:253
+msgid "Sets the speed to play the audio at. Your score will be severely penalized if you slow the music down."
+msgstr "गति सेट पर ऑडियो खेलने के लिए. अपने स्कोर में गंभीर हो सकता है अगर आप संगीत धीमा सज़ा होगी."
+
+#: GameEngine.py:255
+msgid "Effects Mode"
+msgstr "प्रभाव मोड"
+
+#: GameEngine.py:255
+msgid "Killswitch"
+msgstr "Killswitch"
+
+#: GameEngine.py:255
+msgid "Pitchbend"
+msgstr "Pitchbend"
+
+#: GameEngine.py:255
+msgid "Sets whether to use a killswitch or pitchbend as the effect on your whammy."
+msgstr "सेट कि क्या एक killswitch उपयोग करने के लिए या अपने whammy पर प्रभाव के रूप में pitchbend."
+
+#: GameEngine.py:259
+msgid "Log INI Reads"
+msgstr "लॉग INI पुस्तकें"
+
+#: GameEngine.py:259
+msgid "Logs any read to an INI file. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "लॉग किसी भी एक ini फ़ाइल को पढ़ने के लिए. यह बग रिपोर्ट में अनावश्यक जानकारी है, इसे छोड़ अक्षम जबतक आप कुछ कर रहे हैं यह प्रासंगिक है कृपया."
+
+#: GameEngine.py:260
+msgid "Log Class Inits"
+msgstr "वर्ग Inits प्रवेश करें"
+
+#: GameEngine.py:260
+msgid "Logs most class initializations in '__init__'. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "लॉग वर्ग में सबसे __init__ &#39;initializations&#39;. यह बग रिपोर्ट में अनावश्यक जानकारी है, इसे छोड़ अक्षम जबतक आप कुछ कर रहे हैं यह प्रासंगिक है कृपया."
+
+#: GameEngine.py:261
+msgid "Log Loadings"
+msgstr "लॉग Loadings"
+
+#: GameEngine.py:261
+msgid "Logs resource loads. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "लॉग संसाधन लोड. यह बग रिपोर्ट में अनावश्यक जानकारी है, इसे छोड़ अक्षम जबतक आप कुछ कर रहे हैं यह प्रासंगिक है कृपया."
+
+#: GameEngine.py:262
+msgid "Log MIDI Sections"
+msgstr "लॉग इन MIDI धारा"
+
+#: GameEngine.py:262
+msgid "Logs MIDI sections. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "लॉग MIDI वर्गों. यह बग रिपोर्ट में अनावश्यक जानकारी है, इसे छोड़ अक्षम जबतक आप कुछ कर रहे हैं यह प्रासंगिक है कृपया."
+
+#: GameEngine.py:263
+msgid "Log Undefined GETs"
+msgstr "अपरिभाषित प्रवेश गैट्स"
+
+#: GameEngine.py:263
+msgid "Logs attempts to read an undefined config key. This is unnecessary information."
+msgstr "लॉग करने के लिए एक अपरिभाषित config कुंजी पढ़ने के प्रयास करता है. इस अनावश्यक जानकारी है."
+
+#: GameEngine.py:264
+msgid "Log Marker Notes"
+msgstr "मार्कर नोट्स प्रवेश करें"
+
+#: GameEngine.py:264
+msgid "Logs MIDI marker notes (solo, SP, etc). This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "लॉग MIDI मार्कर नोट्स (एकल, सपा, आदि). यह बग रिपोर्ट में अनावश्यक जानकारी है, इसे छोड़ अक्षम जबतक आप कुछ कर रहे हैं यह प्रासंगिक है कृपया."
+
+#: GameEngine.py:265
+msgid "Log SP Misses"
+msgstr "लॉग सपा याद करती है"
+
+#: GameEngine.py:265
+msgid "Logs SP phrase misses. This is unnecessary information."
+msgstr "लॉग सपा वाक्यांश याद करते हैं. इस अनावश्यक जानकारी है."
+
+#: GameEngine.py:266
+msgid "Log Unedited MIDIs"
+msgstr "अप्रकाशित MIDIs प्रवेश करें"
+
+#: GameEngine.py:266
+msgid "Logs when notes-unedited.mid is used. This is unnecessary information."
+msgstr "लॉग जब नोटों-unedited.mid किया जाता है. इस अनावश्यक जानकारी है."
+
+#: GameEngine.py:267
+msgid "Log Lyric Events"
+msgstr "गीत घटनाक्रम प्रवेश करें"
+
+#: GameEngine.py:267
+msgid "Logs MIDI lyric events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "लॉग MIDI गीत घटनाओं. यह बग रिपोर्ट में अनावश्यक जानकारी है, इसे छोड़ अक्षम जबतक आप कुछ कर रहे हैं यह प्रासंगिक है कृपया."
+
+#: GameEngine.py:268
+msgid "Log Tempo Events"
+msgstr "गति घटनाक्रम प्रवेश करें"
+
+#: GameEngine.py:268
+msgid "Logs MIDI tempo events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "लॉग MIDI गति घटनाओं. यह बग रिपोर्ट में अनावश्यक जानकारी है, इसे छोड़ अक्षम जबतक आप कुछ कर रहे हैं यह प्रासंगिक है कृपया."
+
+#: GameEngine.py:269
+msgid "Log Missing Images"
+msgstr "गुम छवियाँ प्रवेश करें"
+
+#: GameEngine.py:269
+msgid "Only on single images"
+msgstr "केवल एकल छवियों पर"
+
+#: GameEngine.py:269
+msgid "Logs when files loaded are not found. 'Only on single images' skips logging when directories are loaded."
+msgstr "लॉग जब लोड फ़ाइलें नहीं पाए जाते हैं. पर &#39;केवल एकल skips प्रवेश जब निर्देशिकाओं लोड कर रहे हैं&#39; छवियाँ."
+
+#: GameEngine.py:274
+msgid "Practice Beat Claps"
+msgstr "अभ्यास claps मारो"
+
+#: GameEngine.py:274
+msgid "Enables clap sound effects on every beat in practice mode."
+msgstr "सक्षम बनाता है अभ्यास मोड में हर तरफ हरा ध्वनि प्रभाव ताली."
+
+#: GameEngine.py:275
+msgid "Change Score Display"
+msgstr "बदलें स्कोर प्रदर्शन"
+
+#: GameEngine.py:275
+#: GameEngine.py:311
+msgid "Auto"
+msgstr "ऑटो"
+
+#: GameEngine.py:275
+msgid "Blue Fret (#4)"
+msgstr "ब्लू झल्लाहट (# 4)"
+
+#: GameEngine.py:275
+msgid "Sets whether to change the setlist high score difficulty automatically or with the fourth fret."
+msgstr "सेट करें कि क्या setlist उच्च स्कोर कठिनाई को बदलने के लिए स्वचालित रूप से या चौथे झल्लाहट के साथ."
+
+#: GameEngine.py:278
+msgid "Makes opponent miss notes until the whammy bar is pushed a few times"
+msgstr "बनाता प्रतिद्वंद्वी मार झेल पट्टी कई बार धक्का दिया है जब तक नोट याद आती है"
+
+#: GameEngine.py:279
+msgid "Difficulty Up"
+msgstr "कठिनाई ऊपर"
+
+#: GameEngine.py:279
+msgid "Ups opponent's difficulty for a while (if not playing on Expert)"
+msgstr "थोड़ी देर के लिए उतार प्रतिद्वंद्वी कठिनाई (विशेषज्ञ पर अगर नहीं खेल)"
+
+#: GameEngine.py:280
+msgid "String Break"
+msgstr "स्ट्रिंग तोड़"
+
+#: GameEngine.py:280
+msgid "Breaks a string, causing your opponent to miss notes on that fret until they push the fret button several times."
+msgstr "एक स्ट्रिंग तोड़ता, अपने प्रतिद्वंद्वी कारण है कि जब तक वे झल्लाहट बटन कई बार धक्का झल्लाहट पर नोट्स याद करने के लिए."
+
+#: GameEngine.py:281
+msgid "Double Notes"
+msgstr "डबल नोट्स"
+
+#: GameEngine.py:281
+msgid "Makes single notes into chords, and chords into even bigger ones."
+msgstr "chords में बनाती है एक नोट, और यहाँ तक कि बड़े लोगों में chords."
+
+#: GameEngine.py:282
+msgid "Death Drain"
+msgstr "नाली मौत"
+
+#: GameEngine.py:282
+msgid "Sudden Death Only"
+msgstr "अचानक मौत केवल"
+
+#: GameEngine.py:282
+msgid "Drains your opponents life until they die. 'Sudden Death Only' keeps this from appearing until you reach sudden death mode."
+msgstr "जब तक वे मर जाते हैं अपने विरोधियों को जीवन नालियों. &#39;अचानक ही मौत&#39; प्रदर्शित होने तक आप अचानक मौत मोड पहुँच से यह रहती है."
+
+#: GameEngine.py:283
+msgid "Amp Overload"
+msgstr "Amp अधिभार"
+
+#: GameEngine.py:283
+msgid "Makes opponent's amp flip out, making notes disappear and reappear randomly."
+msgstr "बनाता प्रतिद्वंद्वी amp फ्लिप बाहर, नोट्स बनाने और बेतरतीब ढंग से गायब हो जाते हैं फिर से प्रकट होना."
+
+#: GameEngine.py:284
+msgid "Switch Controls"
+msgstr "स्विच नियंत्रण"
+
+#: GameEngine.py:284
+msgid "Switches opponent to (or from) lefty mode for a bit!"
+msgstr "स्विच (या) से एक बिट के लिए lefty मोड में प्रतिद्वंद्वी!"
+
+#: GameEngine.py:285
+msgid "Steal Object"
+msgstr "चोरी वस्तु"
+
+#: GameEngine.py:285
+msgid "Steals an object your opponent has."
+msgstr "चुरा लेते है अपने प्रतिद्वंद्वी को एक वस्तु."
+
+#: GameEngine.py:286
+msgid "Guitar Tune"
+msgstr "गिटार ट्यून"
+
+#: GameEngine.py:286
+msgid "Makes opponent miss all notes until they play a scale."
+msgstr "प्रतिद्वंद्वी बनाता है सभी नोट याद आती है जब तक वे एक पैमाने पर खेलते हैं."
+
+#: GameEngine.py:289
+msgid "Score SFX"
+msgstr "स्कोर SFX"
+
+#: GameEngine.py:289
+msgid "Sets whether or not to have Jurgen taunt (or, I suppose, congratulate) you at the end of a song."
+msgstr "सेट या नहीं Jurgen ताना (या मुझे लगता है,,) बधाई आप एक गीत के अंत में."
+
+#: GameEngine.py:290
+msgid "GH SP Lights"
+msgstr "GH सपा लाइट्स"
+
+#: GameEngine.py:290
+msgid "Sets whether to fade images over the starpower bulbs in GH themes when fully lit."
+msgstr "सेट करें कि क्या GH विषयों में starpower बल्बों पर छवियों को फीका करने के लिए पूरी तरह से जब जलाया."
+
+#: GameEngine.py:291
+msgid "RB Small 1x Multiplier"
+msgstr "आरबी लघु 1x गुणक"
+
+#: GameEngine.py:291
+msgid "When enabled, RB-type themes will have a smaller mult image when the multiplier is at 1x. 'By Theme' leaves it to the theme creator."
+msgstr "जब सक्षम, आरबी प्रकार एक छोटे विषयों mult छवि है गुणक जब 1x पर है. &#39;थीम&#39; के पत्तों यह विषय निर्माता के लिए."
+
+#: GameEngine.py:292
+msgid "Board Speed Mode"
+msgstr "बोर्ड स्पीड मोड"
+
+#: GameEngine.py:292
+#: GameEngine.py:344
+msgid "BPM"
+msgstr "BPM"
+
+#: GameEngine.py:292
+#: GameEngine.py:317
+#: GameEngine.py:344
+msgid "Difficulty"
+msgstr "कठिनाई"
+
+#: GameEngine.py:292
+#: GameEngine.py:344
+msgid "BPM & Diff"
+msgstr "BPM और Diff"
+
+#: GameEngine.py:292
+msgid "Percentage"
+msgstr "प्रतिशत"
+
+#: GameEngine.py:292
+msgid "Sets what determines the speed of the scrolling notes."
+msgstr "सेट क्या स्क्रॉल नोटों की गति निर्धारित करता है."
+
+#: GameEngine.py:293
+msgid "Loading Phrases"
+msgstr "लोड हो रहा है वाक्यांश"
+
+#: GameEngine.py:293
+msgid "Sets whether or not to use loading phrases while loading a song"
+msgstr "सेट या नहीं वाक्यांशों लोड का उपयोग करते हुए एक गीत लोड हो रहा है"
+
+#: GameEngine.py:294
+msgid "Effects Display Mode"
+msgstr "प्रभाव मोड प्रदर्शन"
+
+#: GameEngine.py:294
+msgid "Static"
+msgstr "स्थिर"
+
+#: GameEngine.py:294
+msgid "Animated"
+msgstr "एनिमेटेड"
+
+#: GameEngine.py:294
+msgid "Sets whether or not the whammy effect is animated. (This is affected by the 'Performance' quickset)"
+msgstr "सेट या नहीं मार झेल एनिमेटेड प्रभाव है. (यह &#39;प्रदर्शन quickset&#39; से प्रभावित है)"
+
+#: GameEngine.py:295
+msgid "Show Filepath"
+msgstr "दिखाएँ Filepath"
+
+#: GameEngine.py:295
+msgid "Show"
+msgstr "प्रदर्शन"
+
+#: GameEngine.py:295
+msgid "Hide"
+msgstr "छिपाना"
+
+#: GameEngine.py:295
+msgid "Sets whether or not to show the filepath of the song."
+msgstr "सेट या नहीं गीत के filepath दिखाने के लिए."
+
+#: GameEngine.py:296
+msgid "3D Note Rotation"
+msgstr "3 डी नोट रोटेशन"
+
+#: GameEngine.py:296
+msgid "Old"
+msgstr "पुराना"
+
+#: GameEngine.py:296
+msgid "New"
+msgstr "नया"
+
+#: GameEngine.py:296
+msgid "Sets the manner of 3D Note Rotation."
+msgstr "3 डी की तरह सेट रोटेशन ध्यान दें."
+
+#: GameEngine.py:297
+msgid "Show In-Game Text"
+msgstr "दिखाएँ पाठ में खेल"
+
+#: GameEngine.py:297
+msgid "Only Note Streaks"
+msgstr "केवल Streaks नोट"
+
+#: GameEngine.py:297
+msgid "Sets whether or not to show text in-game. This includes note streaks and 'Starpower Ready'. (This is affected by the 'Performance' quickset)"
+msgstr "सेट या नहीं में खेल पाठ दिखाने के लिए. इस नोट &#39;और streaks शामिल&#39; Starpower तैयार. (यह &#39;प्रदर्शन quickset&#39; से प्रभावित है)"
+
+#: GameEngine.py:298
+msgid "Setlist Display Mode"
+msgstr "Setlist प्रदर्शन मोड"
+
+#: GameEngine.py:298
+msgid "List"
+msgstr "सूची"
+
+#: GameEngine.py:298
+msgid "List/CD"
+msgstr "सूची सीडी /"
+
+#: GameEngine.py:298
+msgid "Sets the setlist display mode. 'By Theme' lets the theme creator decide."
+msgstr "setlist प्रदर्शन मोड सेट करें. &#39;थीम&#39; की सुविधा देता है विषय निर्माता का फैसला."
+
+#: GameEngine.py:299
+msgid "Use Subfolders"
+msgstr "उपयोग subfolders"
+
+#: GameEngine.py:299
+msgid "List All"
+msgstr "सभी सूची"
+
+#: GameEngine.py:299
+msgid "'Normal' allows you to navigate folders. 'List All' places all songs into a single setlist."
+msgstr "&#39;आप फ़ोल्डर्स नेविगेट करने के लिए सामान्य&#39; अनुमति देता है. &#39;एक ही setlist सूची में सभी&#39; सभी गीतों स्थानों."
+
+#: GameEngine.py:300
+msgid "Show Song Type Icons"
+msgstr "दिखाएँ सांग प्रकार प्रतीक"
+
+#: GameEngine.py:300
+msgid "Sets whether or not to show icons indicating the song 'type'"
+msgstr "सेट या नहीं गीत &#39;प्रकार का संकेत चिह्न दिखाने के लिए&#39;"
+
+#: GameEngine.py:301
+msgid "Preload Song Labels"
+msgstr "प्रीलोड गीत लेबल"
+
+#: GameEngine.py:301
+msgid "Sets whether to preload all song labels on load. With large setlists, this option is extremely slow."
+msgstr "सेट करें कि क्या लोड पर सभी गीत लेबल प्रीलोड के लिए. बड़े setlists के साथ, इस विकल्प को अत्यंत धीमी है."
+
+#: GameEngine.py:302
+msgid "Label Type"
+msgstr "लेबल प्रकार"
+
+#: GameEngine.py:302
+msgid "CD Labels"
+msgstr "सीडी लेबल"
+
+#: GameEngine.py:302
+msgid "Album Covers"
+msgstr "एल्बम कवर"
+
+#: GameEngine.py:302
+msgid "Sets whether to show CD labels or album covers as the art."
+msgstr "सेट कि सीडी लेबल या दिखाने के लिए एल्बम कला के रूप में शामिल किया गया."
+
+#: GameEngine.py:303
+msgid "Rotating CDs"
+msgstr "Rotating सीडी"
+
+#: GameEngine.py:303
+msgid "Sets whether or not CDs rotate."
+msgstr "सेट या नहीं, सीडी घुमाएगी."
+
+#: GameEngine.py:304
+msgid "Remember Play Count"
+msgstr "चलायें गिनती याद रखें"
+
+#: GameEngine.py:304
+msgid "Keeps track of how many times you've played each song."
+msgstr "रहता है कितनी बार आप एक गीत खेला है का ट्रैक."
+
+#: GameEngine.py:306
+msgid "Show at Song Start"
+msgstr "गीत में दिखाने के लिए शुरू"
+
+#: GameEngine.py:306
+msgid "Part"
+msgstr "हिस्सा"
+
+#: GameEngine.py:306
+msgid "Sets whether to show a countdown or your name and part at the song's start."
+msgstr "सेट कि गीत की शुरुआत में एक उलटी गिनती या अपने नाम और हिस्सा दिखाने के लिए."
+
+#: GameEngine.py:307
+msgid "Overdrive Neck"
+msgstr "हद से ज़्यादा थकाना गर्दन"
+
+#: GameEngine.py:307
+msgid "Sets the style of the Overdrive neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "हद से ज़्यादा थकाना गर्दन शैली समूह. &#39;विशेष गर्दन के साथ बदलें&#39; अपनी गर्दन की जगह है, जबकि &#39;ओवरले&#39; शीर्ष पर गर्दन देता है."
+
+#: GameEngine.py:309
+msgid "Note Hit Window"
+msgstr "नोट मारो विंडो"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:285
+msgid "Tightest"
+msgstr "Tightest"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:287
+msgid "Tight"
+msgstr "तंग"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:289
+msgid "Wide"
+msgstr "चौड़ा"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:291
+msgid "Widest"
+msgstr "विस्तृत"
+
+#: GameEngine.py:309
+msgid "Sets how accurate you need to be while playing."
+msgstr "सेट कैसे सही आप के लिए खेलते समय की आवश्यकता है."
+
+#: GameEngine.py:311
+msgid "Early Hit Window"
+msgstr "जल्दी मारो विंडो"
+
+#: GameEngine.py:311
+msgid "None (RB2)"
+msgstr "कोई नहीं (RB2)"
+
+#: GameEngine.py:311
+msgid "Half (GH2)"
+msgstr "आधा (GH2)"
+
+#: GameEngine.py:311
+msgid "Full (FoF)"
+msgstr "पूर्ण (FOF)"
+
+#: GameEngine.py:311
+msgid "Sets how much time before the note is part of the hit window. 'Auto' uses the MIDI to determine."
+msgstr "सेट काफी पहले ध्यान दें मारा विंडो का हिस्सा है कि कैसे समय. &#39;MIDI ऑटो&#39; का उपयोग करता है निर्धारित करने के लिए."
+
+#: GameEngine.py:312
+msgid "Show Detailed Handicap"
+msgstr "दिखाने के विस्तृत बाधा"
+
+#: GameEngine.py:312
+msgid "Shows the handicaps individually on the result screen."
+msgstr "बाधाओं व्यक्तिगत दिखाता है परिणाम स्क्रीन पर."
+
+#: GameEngine.py:315
+msgid "Disable Variable BPM"
+msgstr "निष्क्रिय वैरिएबल BPM"
+
+#: GameEngine.py:315
+msgid "This will disable the use of the Variable BPM logic."
+msgstr "इस वैरिएबल BPM तर्क के उपयोग को निष्क्रिय करेगा."
+
+#: GameEngine.py:316
+msgid "Sort Direction"
+msgstr "सॉर्ट दिशा"
+
+#: GameEngine.py:316
+msgid "Ascending"
+msgstr "आरोही"
+
+#: GameEngine.py:316
+msgid "Descending"
+msgstr "अवरोही"
+
+#: GameEngine.py:316
+msgid "Choose whether to sort in ascending (A-Z) or descending (Z-A) order."
+msgstr "चुनें कि क्या आरोही में सॉर्ट करने के लिए (AZ) या अवरोही (जुल्फिकार अली) आदेश."
+
+#: GameEngine.py:317
+msgid "Sort Setlist By"
+msgstr "क्रमबद्ध करें द्वारा Setlist"
+
+#: GameEngine.py:317
+msgid "Title"
+msgstr "शीर्षक"
+
+#: GameEngine.py:317
+msgid "Artist"
+msgstr "कलाकार"
+
+#: GameEngine.py:317
+msgid "Times played"
+msgstr "बार खेला"
+
+#: GameEngine.py:317
+msgid "Album"
+msgstr "एल्बम"
+
+#: GameEngine.py:317
+msgid "Genre"
+msgstr "शैली"
+
+#: GameEngine.py:317
+msgid "Year"
+msgstr "वर्ष"
+
+#: GameEngine.py:317
+msgid "Band Difficulty"
+msgstr "बैंड कठिनाई"
+
+#: GameEngine.py:317
+msgid "Song Collection"
+msgstr "गीत संग्रह"
+
+#: GameEngine.py:317
+msgid "Choose how to sort the setlist by default."
+msgstr "चयन करने के लिए डिफ़ॉल्ट रूप से setlist सॉर्ट करने के लिए."
+
+#: GameEngine.py:318
+msgid "Whammy Changes Sort Order"
+msgstr "Whammy परिवर्तन सॉर्ट क्रम"
+
+#: GameEngine.py:318
+msgid "When enabled, pressing the whammy bar will change the sort order in the setlist."
+msgstr "जब सक्षम, दबाकर मार झेल पट्टी setlist में सॉर्ट क्रम बदल जाएगा."
+
+#: GameEngine.py:319
+msgid "Point Of View"
+msgstr "दृष्टिकोण"
+
+#: GameEngine.py:319
+msgid "GH3"
+msgstr "GH3"
+
+#: GameEngine.py:319
+msgid "Rock Rev"
+msgstr "रॉक Rev"
+
+#: GameEngine.py:319
+msgid "Sets the camera's point of view. Set it to any game, or set it to 'Theme' to leave it to the theme creator."
+msgstr "सेट को देखने के कैमरे बिंदु. यह किसी भी खेल के लिए सेट है, या यह करने के लिए सेट &#39;थीम&#39; &#39;के लिए यह विषय निर्माता के लिए छोड़ दें."
+
+#: GameEngine.py:320
+msgid "Party Mode Timer"
+msgstr "पार्टी मोड टाइमर"
+
+#: GameEngine.py:320
+msgid "Sets the timer in Party Mode."
+msgstr "पार्टी मोड में घड़ी सेट करें."
+
+#: GameEngine.py:321
+msgid "Show Setlist Size"
+msgstr "दिखाएँ Setlist आकार"
+
+#: GameEngine.py:321
+msgid "Show the number of songs inside of each setlist."
+msgstr "प्रत्येक setlist के अंदर गीतों की संख्या दिखाएँ."
+
+#: GameEngine.py:322
+msgid "CD Mode Y-Rotation"
+msgstr "सीडी मोड Y-रोटेशन"
+
+#: GameEngine.py:322
+#: GameEngine.py:351
+msgid "Enabled"
+msgstr "सक्षम"
+
+#: GameEngine.py:322
+msgid "Sets whether or not CDs in the setlist rotate about the Y axis."
+msgstr "setlist में चाहे या नहीं सीडी सेट के बारे में वाई अक्ष घुमाएगी."
+
+#: GameEngine.py:326
+msgid "P1 AI"
+msgstr "P1 AI"
+
+#: GameEngine.py:326
+msgid "Enable or disable the player 1 AI"
+msgstr "सक्षम या अक्षम 1 ऐ खिलाड़ी"
+
+#: GameEngine.py:327
+msgid "P1 AI Personality"
+msgstr "P1 ऐ व्यक्तित्व"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "1. KiD"
+msgstr "1. बच्चा"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "2. Stump"
+msgstr "2. स्टंप"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "3. akedRobot"
+msgstr "3. akedRobot"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "4. Q"
+msgstr "4. क्यू"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "5. MFH"
+msgstr "5. MFH"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "6. Jurgen"
+msgstr "6. Jurgen"
+
+#: GameEngine.py:327
+msgid "Set the personality of the player 1 AI. The numbers correspond with their skill."
+msgstr "खिलाड़ी के व्यक्तित्व 1 ऐ सेट करें. संख्या उनके कौशल के साथ अनुरूप हैं."
+
+#: GameEngine.py:328
+msgid "P1 AI Logic"
+msgstr "P1 ऐ तर्क"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "Original"
+msgstr "मूल"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-Early"
+msgstr "MFH-अर्ली"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-OnTime1"
+msgstr "MFH-OnTime1"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-OnTime2"
+msgstr "MFH-OnTime2"
+
+#: GameEngine.py:328
+msgid "Set the logic used for the player 1 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "खिलाड़ी के लिए इस्तेमाल किया 1 ऐ तर्क निर्धारित करें. &#39;तेजी से वर्गों मूल&#39; नहीं संभाल सकता. &#39;MFH&#39; जल्दी नोटों मारा प्रयास के रूप में वे खिड़की हिट दर्ज करें. &#39;MFH&#39; OnTime implementations हैं कि नोटों के रूप में वे होने हिट एक असली खिलाड़ी की तरह करने का प्रयास."
+
+#: GameEngine.py:330
+msgid "P2 AI"
+msgstr "P2 AI"
+
+#: GameEngine.py:330
+msgid "Enable or disable the player 2 AI"
+msgstr "सक्षम या अक्षम खिलाड़ी 2 ऐ"
+
+#: GameEngine.py:331
+msgid "P2 AI Personality"
+msgstr "P2 ऐ व्यक्तित्व"
+
+#: GameEngine.py:331
+msgid "Set the personality of the player 2 AI. The numbers correspond with their skill."
+msgstr "खिलाड़ी के व्यक्तित्व 2 ऐ सेट करें. संख्या उनके कौशल के साथ अनुरूप हैं."
+
+#: GameEngine.py:332
+msgid "P2 AI Logic"
+msgstr "P2 ऐ तर्क"
+
+#: GameEngine.py:332
+msgid "Set the logic used for the player 2 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "खिलाड़ी के लिए प्रयोग किया जाता 2 ऐ तर्क निर्धारित करें. &#39;तेजी से वर्गों मूल&#39; नहीं संभाल सकता. &#39;MFH&#39; जल्दी नोटों मारा प्रयास के रूप में वे खिड़की हिट दर्ज करें. &#39;MFH&#39; OnTime implementations हैं कि नोटों के रूप में वे होने हिट एक असली खिलाड़ी की तरह करने का प्रयास."
+
+#: GameEngine.py:334
+msgid "P3 AI"
+msgstr "P3 AI"
+
+#: GameEngine.py:334
+msgid "Enable or disable the player 3 AI"
+msgstr "सक्षम या अक्षम खिलाड़ी 3 AI"
+
+#: GameEngine.py:335
+msgid "P3 AI Personality"
+msgstr "P3 ऐ व्यक्तित्व"
+
+#: GameEngine.py:335
+msgid "Set the personality of the player 3 AI. The numbers correspond with their skill."
+msgstr "खिलाड़ी के व्यक्तित्व 3 ऐ सेट करें. संख्या उनके कौशल के साथ अनुरूप हैं."
+
+#: GameEngine.py:336
+msgid "P3 AI Logic"
+msgstr "P3 ऐ तर्क"
+
+#: GameEngine.py:336
+msgid "Set the logic used for the player 3 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "खिलाड़ी के लिए प्रयोग किया जाता 3 ऐ तर्क निर्धारित करें. &#39;तेजी से वर्गों मूल&#39; नहीं संभाल सकता. &#39;MFH&#39; जल्दी नोटों मारा प्रयास के रूप में वे खिड़की हिट दर्ज करें. &#39;MFH&#39; OnTime implementations हैं कि नोटों के रूप में वे होने हिट एक असली खिलाड़ी की तरह करने का प्रयास."
+
+#: GameEngine.py:338
+msgid "P4 AI"
+msgstr "P4 AI"
+
+#: GameEngine.py:338
+msgid "Enable or disable the player 4 AI"
+msgstr "सक्षम या अक्षम खिलाड़ी 4 AI"
+
+#: GameEngine.py:339
+msgid "P4 AI Personality"
+msgstr "ऐ P4 व्यक्तित्व"
+
+#: GameEngine.py:339
+msgid "Set the personality of the player 4 AI. The numbers correspond with their skill."
+msgstr "खिलाड़ी के व्यक्तित्व 4 ऐ सेट करें. संख्या उनके कौशल के साथ अनुरूप हैं."
+
+#: GameEngine.py:340
+msgid "P4 AI Logic"
+msgstr "ऐ P4 तर्क"
+
+#: GameEngine.py:340
+msgid "Set the logic used for the player 4 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "खिलाड़ी के लिए प्रयोग किया जाता 4 ऐ तर्क निर्धारित करें. &#39;तेजी से वर्गों मूल&#39; नहीं संभाल सकता. &#39;MFH&#39; जल्दी नोटों मारा प्रयास के रूप में वे खिड़की हिट दर्ज करें. &#39;MFH&#39; OnTime implementations हैं कि नोटों के रूप में वे होने हिट एक असली खिलाड़ी की तरह करने का प्रयास."
+
+#: GameEngine.py:343
+msgid "Lyric Display Mode"
+msgstr "गीत प्रदर्शन मोड"
+
+#: GameEngine.py:343
+msgid "Scrolling"
+msgstr "स्क्रॉलिंग"
+
+#: GameEngine.py:343
+msgid "Simple Lines"
+msgstr "सरल रेखाएँ"
+
+#: GameEngine.py:343
+msgid "2-Line"
+msgstr "2-लाइन"
+
+#: GameEngine.py:343
+msgid "Sets the display mode for MIDI lyrics. Both 'Simple Lines' and '2-Line' will show as single phrases when playing the vocal part."
+msgstr "सेट MIDI गीत के लिए प्रदर्शन मोड में है. दोनों &#39;सरल लाइन्स&#39; और &#39;2 लाइन &#39;एकल वाक्यांशों जब मुखर हिस्सा खेल के रूप में दिखाई देगा."
+
+#: GameEngine.py:344
+msgid "Lyric Speed Mode"
+msgstr "गीत स्पीड मोड"
+
+#: GameEngine.py:344
+msgid "Sets what determines the speed of the scrolling lyrics."
+msgstr "सेट क्या स्क्रॉल गीत की गति निर्धारित करता है."
+
+#: GameEngine.py:345
+msgid "Lyric Speed Percent"
+msgstr "गीत गति प्रतिशत"
+
+#: GameEngine.py:345
+msgid "Sets how quickly lyrics will scroll."
+msgstr "सेट कैसे जल्दी गीत स्क्रॉल करेगा."
+
+#: GameEngine.py:351
+msgid "Graphical Submenus"
+msgstr "चित्रमय Submenus"
+
+#: GameEngine.py:351
+msgid "Enable or disable the use of graphical submenus."
+msgstr "सक्षम या अक्षम चित्रमय submenus का उपयोग करें."
+
+#: GameEngine.py:354
+msgid "Crowd Cheers"
+msgstr "भीड़ चियर्स"
+
+#: GameEngine.py:354
+msgid "Off (Disabled)"
+msgstr "बंद (अक्षम)"
+
+#: GameEngine.py:354
+msgid "During SP Only"
+msgstr "सपा के दौरान ही"
+
+#: GameEngine.py:354
+msgid "During SP & Green"
+msgstr "सपा और ग्रीन के दौरान"
+
+#: GameEngine.py:354
+msgid "Always On"
+msgstr "हमेशा पर"
+
+#: GameEngine.py:354
+msgid "Sets when the crowd will cheer for you (if a crowd.ogg is present). 'During SP' will have them sing along in star power, and 'During SP & Green' will have them cheering both in SP and when your rock meter is above 2/3"
+msgstr "सेट जब भीड़ तुम (अगर एक crowd.ogg मौजूद है) के लिए खुश होगी. &#39;के दौरान सपा के&#39; स्टार उन्हें सत्ता में साथ गाना है, और के दौरान सपा और ग्रीन &#39;उन्हें सपा में दोनों जयकार और अपने रॉक मीटर 2 / 3 से ऊपर है जब जाएगा होगा"
+
+#: GameEngine.py:357
+msgid "Miss Volume"
+msgstr "मिस माप"
+
+#: GameEngine.py:357
+msgid "Set the volume of the active track when you miss a note."
+msgstr "सक्रिय ट्रैक की मात्रा सेट करें जब आप एक नोट याद आती है."
+
+#: GameEngine.py:358
+msgid "Single Track Miss"
+msgstr "सिंगल ट्रैक मिस"
+
+#: GameEngine.py:358
+msgid "When playing a song with only a single track, this sets the volume of the track when you miss a note."
+msgstr "जब केवल एक ही ट्रैक के साथ एक गाना खेल है, इस ट्रैक के खंड जब आप एक नोट को याद करता है."
+
+#: GameEngine.py:359
+msgid "Menu Volume"
+msgstr "मेनू माप"
+
+#: GameEngine.py:359
+msgid "Set the volume of the background menu music."
+msgstr "मेनू पृष्ठभूमि संगीत की मात्रा सेट करें."
+
+#: GameEngine.py:361
+msgid "Crowd Volume"
+msgstr "भीड़ माप"
+
+#: GameEngine.py:361
+msgid "Set the volume of the crowd."
+msgstr "भीड़ की मात्रा सेट करें."
+
+#: GameEngine.py:363
+msgid "Kill Volume"
+msgstr "वॉल्यूम को मार डालो"
+
+#: GameEngine.py:363
+msgid "Sets the volume when using the killswitch."
+msgstr "मात्रा जब killswitch का उपयोग समूह."
+
+#: GameEngine.py:364
+msgid "SFX Volume"
+msgstr "SFX माप"
+
+#: GameEngine.py:364
+msgid "Sets the volume of various sound effects."
+msgstr "विभिन्न ध्वनि प्रभाव की मात्रा सेट करें."
+
+#: GameEngine.py:371
+msgid "Cache Song Metadata"
+msgstr "कैश गीत Metadata"
+
+#: GameEngine.py:371
+msgid "This will allow information about the songs to be stored for quick access later at the cost of a slow first time loading."
+msgstr "इस गाने के बारे में जानकारी पहली बार एक धीमी लोड की कीमत पर बाद में करने के लिए त्वरित पहुँच के लिए जमा की अनुमति देगा."
+
+#: GameEngine.py:399
+msgid "Sets the overall graphical feel of the game. You can find and download many more at fretsonfire.net"
+msgstr "खेल के समग्र महसूस चित्रमय समूह. आप पाते हैं और fretsonfire.net पर कई और अधिक डाउनलोड कर सकते हैं"
+
+#: GameEngine.py:404
+msgid "Board Speed Percent"
+msgstr "बोर्ड स्पीड प्रतिशत"
+
+#: GameEngine.py:404
+msgid "Sets how quickly note will scroll"
+msgstr "सेट कैसे जल्दी ध्यान दें स्क्रॉल करेगा"
+
+#: GameEngine.py:405
+msgid "No Fail"
+msgstr "कोई Fail"
+
+#: GameEngine.py:405
+msgid "Sets whether or not you can fail out of a song."
+msgstr "सेट या एक गीत के बाहर तुम असफल नहीं हो सकता."
+
+#: GameEngine.py:409
+msgid "Difficulty (Setlist Score)"
+msgstr "कठिनाई (Setlist स्कोर)"
+
+#: GameEngine.py:409
+msgid "Sets the default difficulty displayed in the setlist score."
+msgstr "डिफ़ॉल्ट setlist स्कोर में प्रदर्शित कठिनाई समूह."
+
+#: GameEngine.py:410
+msgid "Show Additional Stats"
+msgstr "दिखाएँ अतिरिक्त आँकड़े"
+
+#: GameEngine.py:410
+msgid "If enabled, additional score information (longest streak, percentage) is displayed on the setlist."
+msgstr "अगर सक्रिय, अतिरिक्त स्कोर (लंबी लकीर जानकारी प्रतिशत) setlist पर प्रदर्शित होता है."
+
+#: GameEngine.py:412
+msgid "Instrument (Setlist Score)"
+msgstr "यंत्र (Setlist स्कोर)"
+
+#: GameEngine.py:412
+msgid "Sets the default part displayed in the setlist score."
+msgstr "डिफ़ॉल्ट setlist स्कोर में प्रदर्शित हिस्सा समूह."
+
+#: GameEngine.py:674
+msgid "Slideshow"
+msgstr "स्लाइड शो"
+
+#: GameEngine.py:677
+#: GameEngine.py:691
+msgid "Animated Stage"
+msgstr "एनिमेटेड स्टेज"
+
+#: GameResultsScene.py:121
+#: GameResultsScene.py:122
+msgid "Co-Op Mode"
+msgstr "सह सेशन मोड"
+
+#: GameResultsScene.py:124
+msgid "settings"
+msgstr "सेटिंग्स"
+
+#: GameResultsScene.py:125
+msgid "HOPOs"
+msgstr "HOPOs"
+
+#: GameResultsScene.py:126
+msgid "Hit Window"
+msgstr "मारो विंडो"
+
+#: GameResultsScene.py:127
+msgid "Adjusted Score Multiplier:"
+msgstr "समायोजित स्कोर गुणक:"
+
+#: GameResultsScene.py:128
+msgid "Original Score:"
+msgstr "मूल स्कोर:"
+
+#: GameResultsScene.py:133
+#: GameResultsScene.py:140
+#: GameResultsScene.py:147
+msgid "Continue"
+msgstr "जारी रखें"
+
+#: GameResultsScene.py:134
+msgid "Replay Setlist"
+msgstr "खेलना Setlist"
+
+#: GameResultsScene.py:136
+#: GameResultsScene.py:143
+#: GameResultsScene.py:150
+msgid "Quit"
+msgstr "छोड़ना"
+
+#: GameResultsScene.py:141
+msgid "Replay"
+msgstr "फिर से खेलना"
+
+#: GameResultsScene.py:148
+msgid "End Setlist"
+msgstr "अंत Setlist"
+
+#: GameResultsScene.py:165
+msgid "Relax, it was an excellent show."
+msgstr "आराम से, यह एक उत्कृष्ट दिखा रहा था."
+
+#: GameResultsScene.py:167
+msgid "Truly Amazing!"
+msgstr "सचमुच कमाल है!"
+
+#: GameResultsScene.py:169
+msgid "Thanks for playing!"
+msgstr "खेलने के लिए धन्यवाद!"
+
+#: GameResultsScene.py:171
+msgid "One more song can't hurt!"
+msgstr "एक और गीत चोट नहीं कर सकते हैं!"
+
+#: GameResultsScene.py:173
+msgid "What an amazing performance!"
+msgstr "एक अद्भुत प्रदर्शन है!"
+
+#: GameResultsScene.py:175
+msgid "That's how it's done!"
+msgstr "है कि कैसे यह किया है!"
+
+#: GameResultsScene.py:248
+msgid "GH2 Sloppy"
+msgstr "GH2 मैला"
+
+#: GameResultsScene.py:258
+msgid "New System"
+msgstr "नई प्रणाली"
+
+#: GameResultsScene.py:573
+#, python-format
+msgid "%d points is a new high score! Enter your name:"
+msgstr "%d अंक एक नए उच्च स्कोर है! अपना नाम दर्ज करें:"
+
+#: GameResultsScene.py:1297
+#, python-format
+msgid "%s High Scores for %s"
+msgstr "%s %s के लिए उच्च स्कोर"
+
+#: GameResultsScene.py:1299
+#, python-format
+msgid "%s High Scores"
+msgstr "%s उच्च स्कोर"
+
+#: GameResultsScene.py:1305
+#, python-format
+msgid "Difficulty: %s"
+msgstr "कठिनाई: %s"
+
+#: GameResultsScene.py:1367
+msgid "Uploading Scores..."
+msgstr "अपलोड स्कोर ..."
+
+#: GameResultsScene.py:1372
+msgid "Scores uploaded!"
+msgstr "स्कोर अपलोड की गई!"
+
+#: GameResultsScene.py:1376
+msgid "Your highscore ranks"
+msgstr "आपके सर्वोच्चअंक रैंकों"
+
+#: GameResultsScene.py:1377
+msgid "on the world starpower chart!"
+msgstr "दुनिया starpower चार्ट पर!"
+
+#: GameResultsScene.py:1380
+msgid "but your rank is unknown."
+msgstr "लेकिन अपने पद अज्ञात है."
+
+#: GameResultsScene.py:1383
+msgid "but there was no new highscore."
+msgstr "लेकिन कोई नया सर्वोच्चअंक था."
+
+#: GameResultsScene.py:1386
+msgid "Score upload failed!  World charts may be down."
+msgstr "स्कोर विफल अपलोड! दुनिया चार्ट नीचे जा सकता है."
+
+#: GuitarScene.py:82
+#: GuitarScene.py:83
+msgid "Initializing..."
+msgstr "आरंभ ..."
+
+#: GuitarScene.py:497
+msgid "KiD"
+msgstr "बच्चा"
+
+#: GuitarScene.py:497
+msgid "Stump"
+msgstr "स्टंप"
+
+#: GuitarScene.py:497
+msgid "AkedRobot"
+msgstr "AkedRobot"
+
+#: GuitarScene.py:497
+msgid "Q"
+msgstr "क्यू"
+
+#: GuitarScene.py:497
+msgid "MFH"
+msgstr "MFH"
+
+#: GuitarScene.py:497
+msgid "Jurgen"
+msgstr "Jurgen"
+
+#: GuitarScene.py:504
+msgid "Broken String"
+msgstr "टूटी स्ट्रिन्ग"
+
+#: GuitarScene.py:506
+msgid "Powerup Steal"
+msgstr "Powerup चोरी"
+
+#: GuitarScene.py:510
+#, python-format
+msgid "%d Note Streak"
+msgstr "%d नोट स्ट्रीक"
+
+#: GuitarScene.py:511
+#, python-format
+msgid "%d Phrase Streak"
+msgstr "%d वाक्यांश स्ट्रीक"
+
+#: GuitarScene.py:512
+#, python-format
+msgid "%s Ready"
+msgstr "%s के लिए तैयार"
+
+#: GuitarScene.py:513
+#, python-format
+msgid "Activate %s!"
+msgstr "%s सक्रिय!"
+
+#: GuitarScene.py:514
+msgid "You Failed"
+msgstr "आप असफल"
+
+#: GuitarScene.py:515
+#, python-format
+msgid "%s is here"
+msgstr "%s यहाँ है"
+
+#: GuitarScene.py:516
+#, python-format
+msgid "%s was here"
+msgstr "%s यहाँ था"
+
+#: GuitarScene.py:517
+msgid "% Complete"
+msgstr "% पूर्ण"
+
+#: GuitarScene.py:518
+#: GuitarScene.py:5839
+msgid "HOPO"
+msgstr "HOPO"
+
+#: GuitarScene.py:519
+#: GuitarScene.py:5809
+#: GuitarScene.py:5818
+msgid "COMPLETED"
+msgstr "पूरा"
+
+#: GuitarScene.py:520
+#: GuitarScene.py:5811
+#: GuitarScene.py:5827
+msgid " % ON "
+msgstr "पर%"
+
+#: GuitarScene.py:521
+msgid "BASS GROOVE"
+msgstr "बास नाली"
+
+#: GuitarScene.py:522
+msgid "Bass Groove:"
+msgstr "बास नाली:"
+
+#: GuitarScene.py:523
+msgid "Handicap"
+msgstr "बाधा"
+
+#: GuitarScene.py:524
+msgid "Avg"
+msgstr "औसत"
+
+#: GuitarScene.py:525
+msgid "Very Late"
+msgstr "बहुत देर हो गई"
+
+#: GuitarScene.py:526
+msgid "Late"
+msgstr "देर से"
+
+#: GuitarScene.py:527
+msgid "Slightly Late"
+msgstr "थोड़ा देर से"
+
+#: GuitarScene.py:528
+msgid "-Excellent!"
+msgstr "-बहुत बढ़िया!"
+
+#: GuitarScene.py:529
+msgid "Perfect!!"
+msgstr "एकदम सही!"
+
+#: GuitarScene.py:530
+msgid "+Excellent!"
+msgstr "+ बहुत बढ़िया!"
+
+#: GuitarScene.py:531
+msgid "Slightly Early"
+msgstr "थोड़ा जल्दी"
+
+#: GuitarScene.py:534
+msgid "ms"
+msgstr "ms"
+
+#: GuitarScene.py:535
+msgid "Solo!"
+msgstr "सोलो!"
+
+#: GuitarScene.py:536
+msgid "Perfect Solo!"
+msgstr "सही सोलो!"
+
+#: GuitarScene.py:537
+msgid "Awesome Solo!"
+msgstr "बहुत बढ़िया सोलो!"
+
+#: GuitarScene.py:538
+msgid "Great Solo!"
+msgstr "महान सोलो!"
+
+#: GuitarScene.py:539
+msgid "Good Solo!"
+msgstr "सोलो अच्छा है!"
+
+#: GuitarScene.py:540
+msgid "Solid Solo!"
+msgstr "ठोस सोलो!"
+
+#: GuitarScene.py:541
+msgid "Okay Solo"
+msgstr "ठीक है सोलो"
+
+#: GuitarScene.py:542
+msgid "Messy Solo"
+msgstr "गन्दा सोलो"
+
+#: GuitarScene.py:543
+msgid "pts"
+msgstr "अंक"
+
+#: GuitarScene.py:544
+msgid "Get Ready to Rock"
+msgstr "रॉक करने के लिए तैयार हो जाओ"
+
+#: GuitarScene.py:545
+msgid "as made famous by"
+msgstr "के रूप में प्रसिद्ध बनाया द्वारा"
+
+#: GuitarScene.py:546
+msgid "by "
+msgstr "द्वारा"
+
+#: GuitarScene.py:547
+msgid " fretted by "
+msgstr "द्वारा fretted"
+
+#: GuitarScene.py:890
+msgid "Loading Song..."
+msgstr "गीत लोड हो रहा है ..."
+
+#: GuitarScene.py:900
+msgid "Preparing Note Phrases..."
+msgstr "तैयारी नोट शब्द ..."
+
+#: GuitarScene.py:1401
+msgid "Loading Graphics..."
+msgstr "लोड हो रहा है ... ग्राफिक्स"
+
+#: GuitarScene.py:1615
+msgid "         RESUME"
+msgstr "Resume"
+
+#: GuitarScene.py:1616
+msgid "        RESTART"
+msgstr "पुनः आरंभ"
+
+#: GuitarScene.py:1618
+msgid "       PRACTICE"
+msgstr "अभ्यास"
+
+#: GuitarScene.py:1619
+msgid "        OPTIONS"
+msgstr "विकल्प"
+
+#: GuitarScene.py:1620
+#: GuitarScene.py:1629
+msgid "           QUIT"
+msgstr "छोड़ो"
+
+#: GuitarScene.py:1624
+msgid "        RESUME"
+msgstr "Resume"
+
+#: GuitarScene.py:1625
+msgid "       RESTART"
+msgstr "पुनः आरंभ"
+
+#: GuitarScene.py:1627
+msgid "      END SONG"
+msgstr "END गीत"
+
+#: GuitarScene.py:1628
+msgid "       OPTIONS"
+msgstr "विकल्प"
+
+#: GuitarScene.py:1634
+#: GuitarScene.py:1641
+msgid "RETRY SONG"
+msgstr "पुनःप्रयास गीत"
+
+#: GuitarScene.py:1635
+msgid "  PRACTICE"
+msgstr "अभ्यास"
+
+#: GuitarScene.py:1636
+#: GuitarScene.py:1642
+#: GuitarScene.py:1706
+#: GuitarScene.py:1713
+msgid " NEW SONG"
+msgstr "नया गीत"
+
+#: GuitarScene.py:1637
+#: GuitarScene.py:1643
+msgid "     QUIT"
+msgstr "छोड़ो"
+
+#: GuitarScene.py:1650
+#: GuitarScene.py:1659
+msgid "  Resume"
+msgstr "फिर से शुरू"
+
+#: GuitarScene.py:1651
+#: GuitarScene.py:1660
+msgid "  Start Over"
+msgstr "शुरू से अधिक"
+
+#: GuitarScene.py:1652
+#: GuitarScene.py:1661
+msgid "  Change Song"
+msgstr "बदलें गीत"
+
+#: GuitarScene.py:1653
+msgid "  Practice"
+msgstr "अभ्यास"
+
+#: GuitarScene.py:1654
+#: GuitarScene.py:1663
+msgid "  Settings"
+msgstr "सेटिंग्स"
+
+#: GuitarScene.py:1655
+#: GuitarScene.py:1664
+msgid "  Quit to Main Menu"
+msgstr "मुख्य मेनू करने के लिए छोड़ो"
+
+#: GuitarScene.py:1662
+msgid "  End Song"
+msgstr "अंत सांग"
+
+#: GuitarScene.py:1669
+#: GuitarScene.py:1676
+msgid " Try Again?"
+msgstr "फिर से प्रयास करें?"
+
+#: GuitarScene.py:1670
+#: GuitarScene.py:1677
+msgid "  Give Up?"
+msgstr "ऊपर दो?"
+
+#: GuitarScene.py:1671
+msgid "  Practice?"
+msgstr "अभ्यास करते हैं?"
+
+#: GuitarScene.py:1672
+#: GuitarScene.py:1678
+msgid "Quit to Main"
+msgstr "मुख्य करने के लिए छोड़ो"
+
+#: GuitarScene.py:1686
+#: GuitarScene.py:1695
+msgid "   RESUME"
+msgstr "Resume"
+
+#: GuitarScene.py:1687
+#: GuitarScene.py:1696
+msgid "   RESTART"
+msgstr "पुनः आरंभ"
+
+#: GuitarScene.py:1688
+#: GuitarScene.py:1697
+msgid "   CHANGE SONG"
+msgstr "बदलें गीत"
+
+#: GuitarScene.py:1689
+msgid "   PRACTICE"
+msgstr "अभ्यास"
+
+#: GuitarScene.py:1690
+#: GuitarScene.py:1699
+msgid "   SETTINGS"
+msgstr "सैटिंग्स"
+
+#: GuitarScene.py:1691
+#: GuitarScene.py:1700
+msgid "   QUIT"
+msgstr "छोड़ो"
+
+#: GuitarScene.py:1698
+msgid "   END SONG"
+msgstr "END गीत"
+
+#: GuitarScene.py:1705
+#: GuitarScene.py:1712
+msgid " RETRY"
+msgstr "पुनःप्रयास"
+
+#: GuitarScene.py:1707
+msgid " PRACTICE"
+msgstr "अभ्यास"
+
+#: GuitarScene.py:1708
+#: GuitarScene.py:1714
+msgid " QUIT"
+msgstr "छोड़ो"
+
+#: GuitarScene.py:6488
+#, python-format
+msgid "FPS: %.2f"
+msgstr ": %.2f FPS"
+
+#: Language.py:62
+msgid "Language"
+msgstr "भाषा"
+
+#: Language.py:62
+msgid "Change the game language!"
+msgstr "खेल भाषा बदलो!"
+
+#: Lobby.py:39
+#: MainMenu.py:294
+msgid "Your controls are not properly set up for this mode. Please check your settings."
+msgstr "अपने नियंत्रण ठीक से इस मोड के लिए सेट नहीं कर रहे हैं. कृपया अपनी सेटिंग्स की जाँच करें."
+
+#: Lobby.py:43
+msgid "World error. Please try again."
+msgstr "दुनिया त्रुटि. कृपया फिर से कोशिश करें."
+
+#: Lobby.py:167
+msgid "Choose Your Character"
+msgstr "अपने चरित्र को चुनें"
+
+#: Lobby.py:168
+#: Lobby.py:750
+#, python-format
+msgid "Player %d"
+msgstr "%d प्लेयर"
+
+#: Lobby.py:170
+msgid "Regular Drums"
+msgstr "नियमित ड्रम"
+
+#: Lobby.py:170
+msgid "Flipped Drums"
+msgstr "रूप से फ़्लिप ड्रम"
+
+#: Lobby.py:171
+msgid "Pedal-Using"
+msgstr "पेडल-का प्रयोग"
+
+#: Lobby.py:171
+msgid "Footless"
+msgstr "बेढब"
+
+#: Lobby.py:172
+msgid "Assist Mode Off"
+msgstr "सहायता के मोड बंद"
+
+#: Lobby.py:172
+#: Lobby.py:503
+#: Player.py:211
+msgid "Easy Assist"
+msgstr "आसान असिस्ट"
+
+#: Lobby.py:172
+#: Lobby.py:503
+#: Player.py:211
+msgid "Medium Assist"
+msgstr "मध्यम असिस्ट"
+
+#: Lobby.py:173
+msgid "Chordmaster"
+msgstr "Chordmaster"
+
+#: Lobby.py:173
+msgid "Two Notes Max"
+msgstr "दो नोट्स मैक्स"
+
+#: Lobby.py:174
+msgid "Information:"
+msgstr "जानकारी:"
+
+#: Lobby.py:188
+msgid "Create New Player"
+msgstr "नया बनाएँ प्लेयर"
+
+#: Lobby.py:188
+msgid "Saved Characters"
+msgstr "लोगो को बचाया"
+
+#: Lobby.py:502
+#: Player.py:207
+msgid "Default Neck"
+msgstr "डिफ़ॉल्ट गर्दन"
+
+#: Lobby.py:502
+#: Player.py:207
+msgid "Theme Neck"
+msgstr "विषय गर्दन"
+
+#: Lobby.py:502
+msgid "Select a Neck"
+msgstr "एक गर्दन चुनें"
+
+#: Lobby.py:504
+msgid "Name"
+msgstr "नाम"
+
+#: Lobby.py:504
+msgid "Name your character!"
+msgstr "अपने चरित्र के नाम!"
+
+#: Lobby.py:505
+#: Player.py:208
+msgid "Lefty Mode"
+msgstr "Lefty मोड"
+
+#: Lobby.py:505
+msgid "Flip the guitar frets for left-handed playing!"
+msgstr "फ्लिप गिटार बाएं हाथ खेलने के लिए frets!"
+
+#: Lobby.py:506
+#: Player.py:209
+msgid "Drum Flip"
+msgstr "ड्रम फ्लिप"
+
+#: Lobby.py:506
+msgid "Flip the drum sounds - snare becomes crash, and so on"
+msgstr "फ्लिप लगता है ड्रम - जाल क्रैश हो जाता है, और इतने पर"
+
+#: Lobby.py:507
+msgid "Auto-Kick Bass"
+msgstr "ऑटो तेज बास"
+
+#: Lobby.py:507
+msgid "Feet uncooperative? Broke your pedal? Not to worry!"
+msgstr "पैर uncooperative? तोड़ दिया पेडल अपने? नहीं, चिंता करने के लिए!"
+
+#: Lobby.py:508
+#: Player.py:211
+msgid "Assist Mode"
+msgstr "सहायता के मोड"
+
+#: Lobby.py:508
+msgid "Play hard and expert, even when you're not that good!"
+msgstr "खेलने के लिए कठिन है और विशेषज्ञ, तब भी जब आपको लगता है कि अच्छा नहीं कर रहे हैं!"
+
+#: Lobby.py:509
+#: Player.py:190
+#: Player.py:210
+msgid "Two-Chord Max"
+msgstr "दो तार मैक्स"
+
+#: Lobby.py:509
+msgid "For those still playing with uncooperative keyboards."
+msgstr "अभी uncooperative कीबोर्ड के साथ खेल उन लोगों के लिए."
+
+#: Lobby.py:510
+msgid "Give the endless procession of notes a bit of flair!"
+msgstr "नोटों की अंतहीन बारात दो स्वभाव का एक सा!"
+
+#: Lobby.py:511
+msgid "Upload Name"
+msgstr "अपलोड नाम"
+
+#: Lobby.py:511
+msgid "To the internet, you are GUITARGOD23047124!"
+msgstr "इंटरनेट के लिए, आपको GUITARGOD23047124 रहे हैं!"
+
+#: Lobby.py:512
+msgid "Choose Avatar"
+msgstr "चुनें अवतार"
+
+#: Lobby.py:512
+msgid "A 256x256 window into your soul."
+msgstr "तुम्हारी आत्मा में एक 256x256 खिड़की."
+
+#: Lobby.py:513
+msgid "Delete Character"
+msgstr "वर्ण हटाएँ"
+
+#: Lobby.py:513
+msgid "Quitter."
+msgstr "आलसी."
+
+#: Lobby.py:514
+msgid "Done"
+msgstr "किया"
+
+#: Lobby.py:514
+msgid "All finished? Let's do this thing!"
+msgstr "सभी समाप्त हो? चलो इस बात करते हैं!"
+
+#: Lobby.py:549
+msgid "Are you sure you want to delete this player?"
+msgstr "आप सुनिश्चित हैं कि आप इस खिलाड़ी को हटाना चाहते हैं?"
+
+#: Lobby.py:560
+msgid "That is a terrible name. Choose something not 'default'"
+msgstr "यह एक भयानक नाम है. चुनें कुछ नहीं &#39;डिफ़ॉल्ट&#39;"
+
+#: Lobby.py:575
+msgid "That name already exists!"
+msgstr "उस नाम पहले से ही मौजूद है!"
+
+#: Lobby.py:577
+msgid "Please enter a name!"
+msgstr "कृपया एक नाम दर्ज करें!"
+
+#: MainMenu.py:150
+msgid "Tutorials"
+msgstr "Tutorials"
+
+#: MainMenu.py:151
+msgid "Practice"
+msgstr "अभ्यास"
+
+#: MainMenu.py:165
+msgid "Face-Off"
+msgstr "Off-चेहरा"
+
+#: MainMenu.py:166
+msgid "Pro Face-Off"
+msgstr "प्रो Face-Off"
+
+#: MainMenu.py:167
+msgid "Party Mode"
+msgstr "पार्टी के विधि"
+
+#: MainMenu.py:168
+msgid "FoFiX Co-Op"
+msgstr "FoFiX Co-Op"
+
+#: MainMenu.py:169
+msgid "RB Co-Op"
+msgstr "आरबी Co-Op"
+
+#: MainMenu.py:170
+msgid "GH Co-Op"
+msgstr "GH Co-Op"
+
+#: MainMenu.py:171
+msgid "GH Battle"
+msgstr "GH युद्ध"
+
+#: MainMenu.py:188
+msgid "Solo Tour"
+msgstr "सोलो यात्रा"
+
+#: MainMenu.py:189
+msgid "Quickplay"
+msgstr "Quickplay"
+
+#: MainMenu.py:236
+#, python-format
+msgid "This binary release is being run from a %(currentVcs)s working copy. This is not the correct way to run FoFiX from %(currentVcs)s. Please see one of the following web pages to set your %(currentVcs)s working copy up correctly:"
+msgstr "इस द्विआधारी रिलीज एक काम की नकल %(currentVcs)s से चलाई जा रही है. यह सही करने के लिए %(currentVcs)s से FoFiX चलाने तरीका नहीं है. कृपया निम्न में से एक वेब पेज के देखने के लिए अपने काम की नकल %(currentVcs)s तक सही ढंग से सेट:"
+
+#: MainMenu.py:240
+#, python-format
+msgid "This binary was built from a %(buildVcs)s working copy but is not running from one. The FoFiX Team will not provide any support whatsoever for this binary. Please see the following site for official binary releases:"
+msgstr "इस द्विआधारी एक काम की नकल %(buildVcs)s से बनाया गया था, लेकिन एक से चल रहा है नहीं है. FoFiX टीम इस द्विआधारी के लिए किसी भी समर्थन नहीं प्रदान करेगा. कृपया आधिकारिक द्विआधारी रिलीज के लिए निम्नलिखित साइट देखें:"
+
+#: MainMenu.py:312
+msgid "No tutorials found!"
+msgstr "कोई tutorials मिल गया!"
+
+#: Microphone.py:50
+msgid "[Default Microphone]"
+msgstr "[डिफ़ॉल्ट माइक्रोफोन]"
+
+#: Microphone.py:183
+msgid "[Microphones not supported]"
+msgstr "[माइक्रोफोन समर्थित नहीं]"
+
+#: Player.py:169
+msgid "Name your controller."
+msgstr "अपने नियंत्रक नाम."
+
+#: Player.py:170
+msgid "Move left"
+msgstr "हिलना छोड़ दिया"
+
+#: Player.py:171
+msgid "Move right"
+msgstr "सही कदम"
+
+#: Player.py:172
+msgid "Move up"
+msgstr "ऊपर ले जाएँ"
+
+#: Player.py:173
+msgid "Move down"
+msgstr "नीचे ले जाएँ"
+
+#: Player.py:174
+msgid "Pick"
+msgstr "चुनना"
+
+#: Player.py:175
+msgid "Secondary Pick"
+msgstr "माध्यमिक उठाओ"
+
+#: Player.py:175
+msgid "Bass Drum 2"
+msgstr "बास 2 ड्रम"
+
+#: Player.py:181
+msgid "Solo Fret #1"
+msgstr "# 1 एकल झल्लाहट"
+
+#: Player.py:181
+msgid "Solo Key"
+msgstr "एकल कुंजी"
+
+#: Player.py:181
+#: Player.py:196
+msgid "Analog Slider"
+msgstr "एनालॉग स्लाइडर"
+
+#: Player.py:182
+msgid "Solo Fret #2"
+msgstr "एकल # 2 झल्लाहट"
+
+#: Player.py:183
+msgid "Solo Fret #3"
+msgstr "एकल # 3 झल्लाहट"
+
+#: Player.py:184
+msgid "Solo Fret #4"
+msgstr "एकल # 4 झल्लाहट"
+
+#: Player.py:185
+msgid "Solo Fret #5"
+msgstr "एकल # 5 झल्लाहट"
+
+#: Player.py:186
+msgid "Cancel"
+msgstr "रद्द करना"
+
+#: Player.py:187
+msgid "StarPower"
+msgstr "StarPower"
+
+#: Player.py:190
+msgid "When enabled, the highest notes in large note chords are auto-played."
+msgstr "जब सक्षम, बड़े नोट chords में सबसे ज्यादा नोटों ऑटो खेला जाता है."
+
+#: Player.py:191
+msgid "Controller Type"
+msgstr "नियंत्रक प्रकार"
+
+#: Player.py:191
+msgid "Standard Guitar"
+msgstr "मानक गिटार"
+
+#: Player.py:191
+msgid "Solo Shift Guitar"
+msgstr "एकल शिफ्ट गिटार"
+
+#: Player.py:191
+msgid "Drum Set (4-Drum)"
+msgstr "ड्रम सेट (4 ड्रम)"
+
+#: Player.py:191
+msgid "Analog Slide Guitar"
+msgstr "एनालॉग स्लाइड गिटार"
+
+#: Player.py:191
+msgid "Microphone"
+msgstr "माइक्रोफ़ोन"
+
+#: Player.py:191
+msgid "'Standard Guitar' is for keyboards and pre-WT GH-series guitars. 'Solo Shift Guitar' is for RB-series guitars and keyboards who want to use a shift key for solo frets. 'Analog Slide Guitar' is for guitars with an analog slider bar."
+msgstr "&#39;मानक&#39; गिटार कीबोर्ड और पूर्व WT GH-श्रृंखला गिटार के लिए है. &#39;सोलो शिफ्ट&#39; गिटार आरबी श्रृंखला गिटार और कीबोर्ड, जो एकल frets के लिए एक बदलाव कुंजी का उपयोग करना चाहते हैं के लिए है. &#39;एनालॉग स्लाइड&#39; गिटार एक एनालॉग स्लाइडर पट्टी के साथ गिटार के लिए है."
+
+#: Player.py:192
+msgid "Analog SP"
+msgstr "एनालॉग सपा"
+
+#: Player.py:192
+msgid "Enables analog SP (as in the XBOX Xplorer controller.)"
+msgstr "XBOX Xplorer नियंत्रक के रूप में सक्षम अनुरूप सपा (.)"
+
+#: Player.py:193
+msgid "Analog SP Threshold"
+msgstr "एनालॉग सपा थ्रेसहोल्ड"
+
+#: Player.py:193
+msgid "Sets a threshold level for activating SP in analog mode."
+msgstr "अनुरूप मोड में सपा को सक्रिय करने के लिए एक दहलीज स्तर सेट करें."
+
+#: Player.py:194
+msgid "Analog SP Sensitivity"
+msgstr "एनालॉग सपा संवेदनशीलता"
+
+#: Player.py:194
+msgid "Sets the sensitivity for activating SP in analog mode."
+msgstr "अनुरूप मोड में सपा सक्रिय करने के लिए संवेदनशीलता सेट करें."
+
+#: Player.py:195
+msgid "Analog Drums"
+msgstr "एनालॉग ड्रम"
+
+#: Player.py:195
+#: Player.py:197
+msgid "PS2/PS3/Wii"
+msgstr "PS2/PS3/Wii"
+
+#: Player.py:195
+#: Player.py:197
+msgid "XBOX"
+msgstr "XBOX"
+
+#: Player.py:195
+#: Player.py:197
+msgid "XBOX Inv."
+msgstr "XBOX Inv."
+
+#: Player.py:195
+msgid "Enables analog drums as in RB2 and GH drumsets."
+msgstr "RB2 और GH drumsets के रूप में सक्षम अनुरूप ड्रम."
+
+#: Player.py:196
+msgid "Inverted"
+msgstr "औंधा"
+
+#: Player.py:196
+msgid "Experimental testing for the analog slide mode."
+msgstr "एनालॉग स्लाइड मोड के लिए प्रायोगिक परीक्षण."
+
+#: Player.py:197
+msgid "Analog Effects"
+msgstr "एनालॉग प्रभाव"
+
+#: Player.py:197
+msgid "Enables analog whammy bar. Set to the system your controller was designed for."
+msgstr "सक्षम बनाता अनुरूप मार झेल पट्टी. प्रणाली आपके नियंत्रक के लिए डिजाइन किया गया था करने के लिए सेट करें."
+
+#: Player.py:198
+msgid "Sound FX Switch"
+msgstr "ध्वनि FX स्विच"
+
+#: Player.py:198
+msgid "Switch"
+msgstr "स्विच"
+
+#: Player.py:198
+msgid "Cycle"
+msgstr "चक्र"
+
+#: Player.py:199
+msgid "Microphone Device"
+msgstr "माइक्रोफोन उपकरण"
+
+#: Player.py:200
+msgid "Tap Sensitivity"
+msgstr "संवेदनशीलता टक"
+
+#: Player.py:200
+msgid "Sets how sensitive the microphone is to being tapped."
+msgstr "सेट किया जा रहा टेप कैसे संवेदनशील माइक्रोफोन है."
+
+#: Player.py:201
+msgid "Passthrough Volume"
+msgstr "Passthrough माप"
+
+#: Player.py:201
+msgid "Sets how loud you hear yourself singing."
+msgstr "सेट ज़ोर से आप कैसे अपने आप को सुनने के लिए गा."
+
+#: Player.py:207
+msgid "Neck Type"
+msgstr "गर्दन प्रकार"
+
+#: Player.py:207
+msgid "Specific Neck"
+msgstr "विशिष्ट गर्दन"
+
+#: Player.py:212
+msgid "Auto Kick"
+msgstr "ऑटो लात"
+
+#: Player.py:385
+msgid "Default Drum"
+msgstr "डिफ़ॉल्ट ड्रम"
+
+#: Player.py:390
+#, python-format
+msgid "Controller %d"
+msgstr "%d नियंत्रक"
+
+#: Player.py:391
+#, python-format
+msgid "Select the controller for slot %d"
+msgstr "%d स्लॉट के लिए नियंत्रक का चयन करें"
+
+#: Player.py:754
+#, python-format
+msgid "%s conflicts with %s"
+msgstr "%s से %s संघर्ष"
+
+#: Player.py:842
+#, python-format
+msgid "This key conflicts with the following keys: %s"
+msgstr "निम्न कुंजी के साथ यह कुंजी संघर्ष: %s"
+
+#: Scorekeeper.py:30
+msgid "Auto Kick Bass"
+msgstr "ऑटो तेज बास"
+
+#: Scorekeeper.py:30
+msgid "Medium Assist Mode"
+msgstr "मध्यम मोड असिस्ट"
+
+#: Scorekeeper.py:30
+msgid "Easy Assist Mode"
+msgstr "आराम से मोड असिस्ट"
+
+#: Scorekeeper.py:30
+msgid "Jurgen Played!"
+msgstr "Jurgen खेला!"
+
+#: Scorekeeper.py:31
+msgid "Effects Saved SP"
+msgstr "प्रभाव सपा रक्षित"
+
+#: Scorekeeper.py:31
+msgid "All Tapping"
+msgstr "सभी दोहन"
+
+#: Scorekeeper.py:31
+msgid "HOPO Frequency: Most"
+msgstr "HOPO: फ़्रिक्वेंसी अधिकांश"
+
+#: Scorekeeper.py:31
+msgid "HOPO Frequency: Even More"
+msgstr "HOPO: फ़्रिक्वेंसी और भी"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: More"
+msgstr "HOPO: फ़्रिक्वेंसी अधिक"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: Less"
+msgstr "HOPO: फ़्रिक्वेंसी कम"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: Least"
+msgstr "HOPO कम से कम आवृत्ति:"
+
+#: Scorekeeper.py:32
+msgid "HOPO Disabled!"
+msgstr "HOPO निष्क्रिय!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Tightest!"
+msgstr "मारो विंडो: tightest!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Tight!"
+msgstr "हिट: विंडो चुस्त!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Wider"
+msgstr "हिट: विंडो व्यापक"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Widest"
+msgstr "मारो विंडो: सबसेचौड़ेमें"
+
+#: Scorekeeper.py:34
+msgid "Two Note Chords"
+msgstr "दो नोट Chords"
+
+#: Scorekeeper.py:34
+msgid "No Fail Mode"
+msgstr "कोई मोड विफल"
+
+#: Scorekeeper.py:34
+msgid "Sloppy Mode!"
+msgstr "मैला मोड!"
+
+#: Scorekeeper.py:35
+msgid "Song Slowdown"
+msgstr "गीत मंदी"
+
+#: Scorekeeper.py:35
+msgid "Early Hit Window Adjustment"
+msgstr "जल्दी विंडो समायोजन मारो"
+
+#: Settings.py:250
+#, python-format
+msgid "Press a key for '%s' or hold Escape to disable."
+msgstr "&#39;%s के लिए एक कुंजी प्रेस &#39;या पकड़ निष्क्रिय करने के लिए भाग जाते हैं."
+
+#: Settings.py:252
+#, python-format
+msgid "Press a key for '%s' or hold Escape to cancel."
+msgstr "&#39;%s के लिए एक कुंजी प्रेस &#39;या पकड़ भागने को रद्द करने के लिए."
+
+#: Settings.py:302
+msgid "No Controllers Found."
+msgstr "नियंत्रकों नहीं मिला."
+
+#: Settings.py:350
+msgid "Are you sure you want to delete this controller?"
+msgstr "आप सुनिश्चित हैं कि आप इस नियंत्रक हटाना चाहते हैं?"
+
+#: Settings.py:374
+msgid "Please name your controller"
+msgstr "कृपया अपने नियंत्रक नाम"
+
+#: Settings.py:376
+#: Settings.py:626
+msgid "That name is already taken."
+msgstr "उस नाम पहले ही ले लिया है."
+
+#: Settings.py:378
+#: Settings.py:628
+msgid "Canceled."
+msgstr "रद्द कर दिया."
+
+#: Settings.py:450
+#: Settings.py:487
+#: Settings.py:517
+#: Settings.py:546
+#: Settings.py:584
+#: Settings.py:612
+msgid "Rename Controller"
+msgstr "नाम बदलने नियंत्रक"
+
+#: Settings.py:473
+msgid "Press the solo shift key. Be sure to assign the frets first! Hold Escape to cancel."
+msgstr "एकल Shift कुंजी प्रेस. असाइन करने के लिए frets यकीन पहली रहो! पकड़ भागने को रद्द करने के लिए."
+
+#: Settings.py:569
+msgid "Press the highest fret on the slider. Hold Escape to cancel."
+msgstr "प्रेस उच्चतम स्लाइडर पर झल्लाहट. पकड़ भागने को रद्द करने के लिए."
+
+#: Settings.py:624
+msgid "Please rename your controller"
+msgstr "कृपया अपना नाम बदलने नियंत्रक"
+
+#: Settings.py:752
+msgid "Battle Objects"
+msgstr "लड़ाई ऑब्जेक्ट्स"
+
+#: Settings.py:752
+msgid "Set which objects can appear in Battle Mode"
+msgstr "सेट जो वस्तुओं लड़ाई के रूप में प्रकट हो सकते हैं"
+
+#: Settings.py:767
+msgid "Advanced Gameplay Settings"
+msgstr "Gameplay उन्नत सेटिंग्स"
+
+#: Settings.py:767
+msgid "Set advanced gameplay settings that affect the game rules."
+msgstr "सेट gameplay सेटिंग्स है कि खेल के नियमों को प्रभावित उन्नत."
+
+#: Settings.py:768
+msgid "Vocal Mode Settings"
+msgstr "मुखर मोड सेटिंग्स"
+
+#: Settings.py:768
+msgid "Change settings that affect lyrics and in-game vocals."
+msgstr "बदलें सेटिंग्स है कि गीत को प्रभावित और vocals में खेल."
+
+#: Settings.py:769
+msgid "HO/PO Settings"
+msgstr "ओ / पीओ सेटिंग्स"
+
+#: Settings.py:769
+msgid "Change settings that affect hammer-ons and pull-offs (HO/PO)."
+msgstr "बदलें सेटिंग्स है कि हथौड़ा-ons प्रभावित और पुल-(offs ओ / पीओ)."
+
+#: Settings.py:770
+msgid "Battle Settings"
+msgstr "लड़ाई सेटिंग्स"
+
+#: Settings.py:770
+msgid "Change settings that affect battle mode."
+msgstr "बदलें सेटिंग्स है कि लड़ाई मोड प्रभावित करती है."
+
+#: Settings.py:776
+#: Settings.py:1218
+msgid "Test Controller 1"
+msgstr "टेस्ट 1 नियंत्रक"
+
+#: Settings.py:776
+#: Settings.py:1218
+msgid "Test the controller configured for slot 1."
+msgstr "1 स्लॉट के लिए कॉन्फ़िगर नियंत्रक टेस्ट."
+
+#: Settings.py:777
+#: Settings.py:1219
+msgid "Test Controller 2"
+msgstr "परीक्षण 2 नियंत्रक"
+
+#: Settings.py:777
+#: Settings.py:1219
+msgid "Test the controller configured for slot 2."
+msgstr "2 स्लॉट के लिए कॉन्फ़िगर नियंत्रक टेस्ट."
+
+#: Settings.py:778
+#: Settings.py:1220
+msgid "Test Controller 3"
+msgstr "टेस्ट 3 नियंत्रक"
+
+#: Settings.py:778
+#: Settings.py:1220
+msgid "Test the controller configured for slot 3."
+msgstr "3 स्लॉट के लिए कॉन्फ़िगर नियंत्रक टेस्ट."
+
+#: Settings.py:779
+#: Settings.py:1221
+msgid "Test Controller 4"
+msgstr "टेस्ट 4 नियंत्रक"
+
+#: Settings.py:779
+#: Settings.py:1221
+msgid "Test the controller configured for slot 4."
+msgstr "4 स्लॉट के लिए कॉन्फ़िगर नियंत्रक टेस्ट."
+
+#: Settings.py:818
+msgid "More Effects"
+msgstr "अधिक प्रभाव"
+
+#: Settings.py:818
+msgid "Change the settings of the shader system."
+msgstr "बदलें shader प्रणाली सेटिंग्स."
+
+#: Settings.py:834
+msgid "Change Neck Transparency"
+msgstr "गर्दन पारदर्शिता बदलें"
+
+#: Settings.py:834
+msgid "Change the transparency of the various in-game necks."
+msgstr "विभिन्न खेल में गर्दन की पारदर्शिता बदलें."
+
+#: Settings.py:847
+msgid "Theme Display Settings"
+msgstr "विषय डिस्प्ले सेटिंग"
+
+#: Settings.py:847
+msgid "Change settings that only affect certain theme types."
+msgstr "बदलें सेटिंग्स है कि केवल कुछ विषय प्रकार प्रभावित करती है."
+
+#: Settings.py:866
+#: Settings.py:1239
+msgid "Video Resolution"
+msgstr "वीडियो संकल्प"
+
+#: Settings.py:866
+#: Settings.py:1239
+msgid "Set the resolution of the game. In windowed mode, higher values mean a larger screen."
+msgstr "खेल का संकल्प सेट करें. विंडोड मोड में, उच्च मूल्यों को एक बड़ी स्क्रीन मतलब है."
+
+#: Settings.py:873
+msgid "Stages Options"
+msgstr "चरणों के विकल्प"
+
+#: Settings.py:873
+msgid "Change settings related to the in-game background."
+msgstr "परिवर्तन में खेल पृष्ठभूमि से संबंधित सेटिंग्स."
+
+#: Settings.py:874
+#: Settings.py:1246
+msgid "Choose Default Neck >"
+msgstr "चुनें डिफ़ॉल्ट गर्दन>"
+
+#: Settings.py:874
+#: Settings.py:1246
+msgid "Choose your default neck. You still have to choose which neck you use for your character in the character select screen."
+msgstr "अपने डिफ़ॉल्ट गर्दन चुनें. तुम अब भी चयन करने के लिए जो गर्दन तुम चरित्र में अपने चरित्र चयन स्क्रीन के लिए उपयोग किया है."
+
+#: Settings.py:875
+msgid "Fretboard Settings"
+msgstr "Fretboard सेटिंग्स"
+
+#: Settings.py:875
+msgid "Change settings related to the fretboard."
+msgstr "बदलें fretboard से संबंधित सेटिंग्स."
+
+#: Settings.py:876
+#: Settings.py:1247
+msgid "In-Game Display Settings"
+msgstr "खेल में प्रदर्शन सेटिंग्स"
+
+#: Settings.py:876
+#: Settings.py:1247
+msgid "Change what and where things appear in-game."
+msgstr "क्या बदल और चीजों में खेल प्रकट कहाँ."
+
+#: Settings.py:877
+msgid "Advanced Video Settings"
+msgstr "उन्नत वीडियो सेटिंग्स"
+
+#: Settings.py:877
+msgid "Change advanced video settings."
+msgstr "बदलें वीडियो सेटिंग्स उन्नत."
+
+#: Settings.py:905
+#: Settings.py:1266
+msgid "Volume Settings"
+msgstr "मात्रा सेटिंग्स"
+
+#: Settings.py:905
+#: Settings.py:1266
+msgid "Change the volume of game sounds."
+msgstr "बदलें खेल लगता है की मात्रा."
+
+#: Settings.py:914
+msgid "Advanced Audio Settings"
+msgstr "उन्नत ऑडियो सेटिंग्स"
+
+#: Settings.py:914
+msgid "Change advanced audio settings."
+msgstr "बदलें ऑडियो सेटिंग्स उन्नत."
+
+#: Settings.py:956
+#: Settings.py:1281
+msgid "Change Setlist Path >"
+msgstr "बदलें Setlist पथ>"
+
+#: Settings.py:956
+#: Settings.py:1281
+msgid "Set the path to a folder named 'songs' that contains your songs."
+msgstr "सेट एक नाम फ़ोल्डर के लिए पथ के गीत &#39;कि अपने गीतों में शामिल है."
+
+#: Settings.py:988
+msgid "Debug Settings"
+msgstr "डिबग सेटिंग्स"
+
+#: Settings.py:988
+msgid "Settings for coders to debug. Probably not worth changing."
+msgstr "डिबग करने के लिए coders के लिए सेटिंग्स. शायद लायक नहीं बदलते."
+
+#: Settings.py:989
+msgid "Log Settings"
+msgstr "लॉग इन सेटिंग्स"
+
+#: Settings.py:989
+msgid "Adds junk information to the logfile. Probably not useful in bug reports."
+msgstr "logfile को जंक जानकारी जोड़ता है. बग रिपोर्ट में शायद नहीं उपयोगी है."
+
+#: Settings.py:994
+msgid "AI Settings"
+msgstr "ऐ सेटिंग्स"
+
+#: Settings.py:994
+msgid "Change the settings of the AI"
+msgstr "बदलें ऐ की सेटिंग"
+
+#: Settings.py:1003
+#: Settings.py:1356
+msgid "Mod settings"
+msgstr "रक्षा मंत्रालय सेटिंग्स"
+
+#: Settings.py:1003
+#: Settings.py:1356
+msgid "Enable or disable any mods you have installed."
+msgstr "सक्षम या अक्षम mods आप किसी भी स्थापित किया है."
+
+#: Settings.py:1008
+#: Settings.py:1298
+msgid "Gameplay Settings"
+msgstr "Gameplay सेटिंग्स"
+
+#: Settings.py:1008
+#: Settings.py:1298
+msgid "Settings that affect the rules of the game."
+msgstr "सेटिंग्स है कि खेल के नियमों को प्रभावित करती है."
+
+#: Settings.py:1009
+#: Settings.py:1299
+msgid "Control Settings"
+msgstr "नियंत्रण सेटिंग्स"
+
+#: Settings.py:1009
+#: Settings.py:1299
+msgid "Create, delete, and edit your controls."
+msgstr "बनाएँ, हटाएँ, और अपने नियंत्रण संपादित करें."
+
+#: Settings.py:1010
+#: Settings.py:1300
+msgid "Display Settings"
+msgstr "डिस्प्ले सेटिंग"
+
+#: Settings.py:1010
+#: Settings.py:1300
+msgid "Theme, neck, resolution, etc."
+msgstr "थीम, गर्दन, संकल्प, आदि"
+
+#: Settings.py:1011
+#: Settings.py:1301
+msgid "Audio Settings"
+msgstr "ऑडियो सेटिंग्स"
+
+#: Settings.py:1011
+#: Settings.py:1301
+msgid "Volume controls, etc."
+msgstr "माप नियंत्रण, आदि"
+
+#: Settings.py:1012
+#: Settings.py:1302
+msgid "Setlist Settings"
+msgstr "Setlist सेटिंग्स"
+
+#: Settings.py:1012
+#: Settings.py:1302
+msgid "Settings that affect the setlist."
+msgstr "सेटिंग्स है कि setlist प्रभावित करती है."
+
+#: Settings.py:1013
+msgid "Advanced Settings"
+msgstr "उन्नत सेटिंग्स"
+
+#: Settings.py:1013
+msgid "Settings that probably don't need to be changed."
+msgstr "सेटिंग्स है कि शायद करने के लिए बदल होने की जरूरत नहीं."
+
+#: Settings.py:1014
+#: Settings.py:1303
+msgid "Mods, Cheats, AI"
+msgstr "Mods, धोखा देती है, ऐ"
+
+#: Settings.py:1014
+#: Settings.py:1303
+msgid "Set Jurgen to play for you, or other cheats."
+msgstr "सेट Jurgen आप के लिए खेलने के लिए, या अन्य धोखा देती है."
+
+#: Settings.py:1015
+#: Settings.py:1304
+#, python-format
+msgid "%s Credits"
+msgstr "%s Credits"
+
+#: Settings.py:1015
+#: Settings.py:1304
+msgid "See who made this game."
+msgstr "देखते हैं जो इस खेल बना दिया."
+
+#: Settings.py:1016
+#: Settings.py:1305
+msgid "Quickset"
+msgstr "Quickset"
+
+#: Settings.py:1016
+#: Settings.py:1305
+msgid "A quick way to set many advanced settings."
+msgstr "एक त्वरित करने के लिए कई उन्नत सेटिंग्स निर्धारित तरीका है."
+
+#: Settings.py:1017
+msgid "Hide Advanced Options"
+msgstr "उन्नत विकल्प छिपाएँ"
+
+#: Settings.py:1047
+#: Settings.py:1320
+msgid "FoFiX needs to restart to apply setting changes."
+msgstr "FoFiX करने के लिए सेटिंग परिवर्तन लागू पुनः आरंभ की जरूरत है."
+
+#: Settings.py:1066
+#: Settings.py:1328
+msgid "Test Controls"
+msgstr "टेस्ट नियंत्रण"
+
+#: Settings.py:1066
+#: Settings.py:1328
+msgid "Go here to test your controllers."
+msgstr "यहाँ जाओ अपने नियंत्रकों परीक्षण."
+
+#: Settings.py:1071
+#: Settings.py:1333
+msgid "New Controller"
+msgstr "नए नियंत्रक"
+
+#: Settings.py:1071
+#: Settings.py:1333
+msgid "Create a new controller to use."
+msgstr "एक नया नियंत्रक का उपयोग करने के लिए."
+
+#: Settings.py:1072
+#: Settings.py:1334
+msgid "Edit Controller"
+msgstr "संपादित नियंत्रक"
+
+#: Settings.py:1072
+#: Settings.py:1334
+msgid "Edit a controller you have created."
+msgstr "आप एक नियंत्रक बनाया है संपादित करें."
+
+#: Settings.py:1073
+#: Settings.py:1335
+msgid "Delete Controller"
+msgstr "हटाएँ नियंत्रक"
+
+#: Settings.py:1073
+#: Settings.py:1335
+msgid "Delete a controller you have created."
+msgstr "आप एक नियंत्रक बनाया है हटाएँ."
+
+#: Settings.py:1089
+#: Settings.py:1366
+msgid "You must specify a controller for slot 1!"
+msgstr "आप 1 स्लॉट के लिए एक नियंत्रक निर्दिष्ट करना होगा!"
+
+#: Settings.py:1095
+#: Settings.py:1372
+#, python-format
+msgid "Controllers in slots %d and %d conflict. Setting %d to None."
+msgstr "%d स्लॉट्स और %d संघर्ष में नियंत्रकों. कोई भी %d स्थापना."
+
+#: Settings.py:1104
+#: Settings.py:1381
+#, python-format
+msgid "%d more conflicts."
+msgstr "%d से अधिक संघर्ष."
+
+#: Settings.py:1149
+#: Settings.py:1411
+msgid "Choose a new songs directory."
+msgstr "एक नए गाने निर्देशिका चुनें."
+
+#: Settings.py:1306
+msgid "See Advanced Options"
+msgstr "देखने के उन्नत विकल्प"
+
+#: Settings.py:1600
+msgid "Cheats"
+msgstr "धोखा देती है"
+
+#: Song.py:132
+msgid "Guitar"
+msgstr "गिटार"
+
+#: Song.py:133
+msgid "Rhythm"
+msgstr "ताल"
+
+#: Song.py:134
+msgid "Bass"
+msgstr "बास"
+
+#: Song.py:135
+msgid "Lead"
+msgstr "नेतृत्व"
+
+#: Song.py:136
+msgid "Drums"
+msgstr "ड्रम"
+
+#: Song.py:137
+msgid "Vocals"
+msgstr "Vocals"
+
+#: Song.py:162
+msgid "Easy"
+msgstr "आसान"
+
+#: Song.py:163
+msgid "Medium"
+msgstr "मध्यम"
+
+#: Song.py:164
+msgid "Hard"
+msgstr "कठिन"
+
+#: Song.py:165
+msgid "Expert"
+msgstr "विशेषज्ञ"
+
+#: Song.py:227
+msgid "NoName"
+msgstr "NoName"
+
+#: Song.py:960
+msgid "This song is locked."
+msgstr "यह गाना बंद है."
+
+#: Song.py:1166
+msgid "Reset Career"
+msgstr "रीसेट कैरियर"
+
+#: Song.py:1213
+msgid "   (Random Song)"
+msgstr "(रैंडम सांग)"
+
+#: Song.py:4171
+msgid "End of Career"
+msgstr "कैरियर का अंत"
+
+#: Song.py:4434
+#: Song.py:4437
+msgid "Checking song database..."
+msgstr "गीत डेटाबेस जाँच रहा है ..."
+
+#: Song.py:4444
+#, python-format
+msgid "Enumerating song folders... (%d so far)"
+msgstr "Enumerating गीत फ़ोल्डर्स ... (%d अब तक)"
+
+#: Song.py:4448
+msgid "Caching song data..."
+msgstr "डेटा कैशिंग गीत ..."
+
+#: Song.py:4448
+#, python-format
+msgid "(folder %d of %d; %d%% of this folder)"
+msgstr "(%d से %d फ़ोल्डर; %d इस फ़ोल्डर का%%)"
+
+#: Song.py:4449
+msgid "Pruning leftover entries..."
+msgstr "Pruning अंतिमांश प्रविष्टियों ..."
+
+#: SongChoosingScene.py:104
+msgid "Initializing Setlist..."
+msgstr "Setlist शुरू कर ..."
+
+#: SongChoosingScene.py:106
+msgid "Checking Command-Line Settings..."
+msgstr "जाँच कमांड लाइन सेटिंग्स ..."
+
+#: SongChoosingScene.py:108
+msgid "Checking Setlist Settings..."
+msgstr "Setlist सेटिंग्स की जाँच की ..."
+
+#: SongChoosingScene.py:265
+#: SongChoosingScene.py:267
+#: SongChoosingScene.py:277
+msgid "Browsing Collection..."
+msgstr "संग्रह ब्राउज़िंग ..."
+
+#: SongChoosingScene.py:327
+#: SongChoosingScene.py:337
+msgid "No songs in this setlist are available to play!"
+msgstr "इस setlist में कोई गाने खेलने के लिए उपलब्ध हैं!"
+
+#: SongChoosingScene.py:329
+#: SongChoosingScene.py:339
+msgid "Make sure you have a working career pack!"
+msgstr "सुनिश्चित करें कि आप एक काम कैरियर पैक है!"
+
+#: SongChoosingScene.py:389
+#: SongChoosingScene.py:496
+msgid "Loading Album Artwork..."
+msgstr "एल्बम कलाकृति लोड हो रहा है ..."
+
+#: SongChoosingScene.py:423
+#: SongChoosingScene.py:634
+msgid "There are no drum parts in this song. Change your controllers to play."
+msgstr "कोई इस गीत में भागों ड्रम हैं. परिवर्तन आपके नियंत्रकों खेलने के लिए."
+
+#: SongChoosingScene.py:431
+#: SongChoosingScene.py:637
+msgid "There are no guitar parts in this song. Change your controllers to play."
+msgstr "इस गीत में कोई गिटार भागों रहे हैं. परिवर्तन आपके नियंत्रकों खेलने के लिए."
+
+#: SongChoosingScene.py:439
+#: SongChoosingScene.py:640
+msgid "There are no vocal parts in this song. Change your controllers to play."
+msgstr "इस गीत में कोई मुखर हिस्से हैं. परिवर्तन आपके नियंत्रकों खेलने के लिए."
+
+#: SongChoosingScene.py:457
+#, python-format
+msgid "%s Choose a difficulty:"
+msgstr "%s चुनें एक कठिनाई:"
+
+#: Theme.py:1001
+#: Theme.py:1126
+#: Theme.py:1209
+#: Theme.py:1319
+#: Theme.py:1482
+#: Theme.py:1605
+#: Theme.py:2114
+msgid "-- Locked --"
+msgstr "बंद - -"
+
+#: Theme.py:1047
+#: Theme.py:1070
+#: Theme.py:1086
+#: Theme.py:1103
+#: Theme.py:1236
+#: Theme.py:1260
+#: Theme.py:1276
+#: Theme.py:1280
+#: Theme.py:1365
+#: Theme.py:1388
+#: Theme.py:1404
+#: Theme.py:1417
+#: Theme.py:1631
+#: Theme.py:1655
+#: Theme.py:1671
+#: Theme.py:1674
+msgid "Nil"
+msgstr "शून्य"
+
+#: Theme.py:1432
+#: Theme.py:2055
+#: Theme.py:2060
+#: Theme.py:2096
+msgid "Loading Preview..."
+msgstr "पूर्वावलोकन लोड हो रहा है ..."
+
+#: Theme.py:1440
+#: Theme.py:1549
+msgid "Play To Advance"
+msgstr "खेलने के लिए अग्रिम के लिए"
+
+#: Theme.py:1446
+#: Theme.py:1555
+msgid "Played Once"
+msgstr "एक बार खेला गया"
+
+#: Theme.py:1448
+#: Theme.py:1557
+#, python-format
+msgid "Played %d times."
+msgstr "खेला %d बार."
+
+#: Theme.py:1455
+#: Theme.py:1571
+msgid "There Is 1 Song In This Setlist."
+msgstr "वहाँ इस Setlist में 1 गीत है."
+
+#: Theme.py:1457
+#: Theme.py:1573
+#, python-format
+msgid "There Are %d Songs In This Setlist."
+msgstr "वहाँ इस Setlist में %d गाने हैं."
+
+#: Theme.py:1461
+#: Theme.py:1577
+msgid "Tier"
+msgstr "टीयर"
+
+#: Theme.py:1465
+#: Theme.py:1588
+msgid "Random Song"
+msgstr "यादृच्छिक गीत"
+
+#: Theme.py:2016
+msgid "DIFFICULTY"
+msgstr "कठिनाई"
+
+#: Theme.py:2018
+msgid "BAND"
+msgstr "बैंड"
+
+#: Theme.py:2020
+msgid "GUITAR"
+msgstr "गिटार"
+
+#: Theme.py:2022
+msgid "DRUM"
+msgstr "ड्रम"
+
+#: Theme.py:2024
+msgid "BASS"
+msgstr "बास"
+
+#: Theme.py:2026
+msgid "VOCALS"
+msgstr "Vocals"
+
+#: Theme.py:2032
+msgid "SORTING:"
+msgstr "छँटाई:"
+
+#: Theme.py:2034
+msgid "ALPHABETICALLY BY TITLE"
+msgstr "वर्णानुक्रम शीर्षक से"
+
+#: Theme.py:2036
+msgid "ALPHABETICALLY BY ARTIST"
+msgstr "वर्णानुक्रम कलाकार द्वारा"
+
+#: Theme.py:2038
+msgid "BY PLAY COUNT"
+msgstr "खेलने के द्वारा COUNT"
+
+#: Theme.py:2040
+msgid "ALPHABETICALLY BY ALBUM"
+msgstr "वर्णानुक्रम एल्बम द्वारा"
+
+#: Theme.py:2042
+msgid "ALPHABETICALLY BY GENRE"
+msgstr "वर्णानुक्रम Genre द्वारा"
+
+#: Theme.py:2044
+msgid "BY YEAR"
+msgstr "द्वारा वर्ष"
+
+#: Theme.py:2046
+msgid "BY BAND DIFFICULTY"
+msgstr "कठिनाई बैंड द्वारा"
+
+#: Theme.py:2048
+msgid "BY INSTRUMENT DIFFICULTY"
+msgstr "यंत्र द्वारा कठिनाई"
+
+#: Theme.py:2050
+msgid "BY SONG COLLECTION"
+msgstr "गीत द्वारा संग्रहण"
+
+#: Theme.py:2145
+#, python-format
+msgid "Played %d time"
+msgstr "खेला %d समय"
+
+#: Theme.py:2147
+#, python-format
+msgid "Played %d times"
+msgstr "खेला %d बार"
+
+#: Theme.py:2152
+#: Theme.py:2159
+msgid "Play To Advance."
+msgstr "खेलने के लिए अग्रिम के लिए."
+
+#: Theme.py:2155
+msgid "Never Played"
+msgstr "कभी नहीं खेला"
+
+#: Theme.py:2219
+msgid "One Song In This Setlist"
+msgstr "इस Setlist में एक गाना"
+
+#: Theme.py:2221
+#, python-format
+msgid "%d Songs In This Setlist"
+msgstr "इस Setlist में %d गीत"
+
+#: Theme.py:2230
+msgid "(Random Song)"
+msgstr "(रैंडम सांग)"
+
+#: Theme.py:2428
+msgid "No Album"
+msgstr "कोई एल्बम"
+
+#: Theme.py:2433
+msgid "No Genre"
+msgstr "कोई शैली"
+
+#: Video.py:151
+msgid "Video setup failed with your resolution settings, and so were reset to defaults."
+msgstr "वीडियो सेटअप अपने संकल्प सेटिंग्स के साथ असफल, और इसलिए चूक पुनर्स्थापित करने के लिए गए थे."
+
+#: Vocalist.py:120
+msgid "Amazing!"
+msgstr "कमाल है!"
+
+#: Vocalist.py:120
+msgid "Great!"
+msgstr "महान!"
+
+#: Vocalist.py:120
+msgid "Decent"
+msgstr "सभ्य"
+
+#: Vocalist.py:120
+msgid "Average"
+msgstr "औसत"
+
+#: Vocalist.py:120
+msgid "Meh"
+msgstr "Meh"
+
+#: Vocalist.py:120
+msgid "Bad"
+msgstr "बुरा"
+
+#: Vocalist.py:120
+msgid "Terrible..."
+msgstr "भयानक ..."
+
+#: Vocalist.py:449
+msgid "Tap!"
+msgstr "नल!"
+
+#: World.py:60
+msgid "FoFiX Co-Op Mode"
+msgstr "FoFiX सह सेशन मोड"
+
+#: World.py:62
+msgid "RB Co-Op Mode"
+msgstr "आरबी सह सेशन मोड"
+
+#: World.py:64
+msgid "GH Co-Op Mode"
+msgstr "GH सह सेशन मोड"
+
+#: World.py:66
+msgid "Battle Mode"
+msgstr "लड़ाई के रूप"
+
+#: World.py:73
+msgid "Career Mode"
+msgstr "कैरियर मोड"
+

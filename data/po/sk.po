@@ -1,0 +1,5011 @@
+# -*- coding: utf-8 -*-
+#####################################################################
+#                                                                   #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
+#                                                                   #
+# This program is free software; you can redistribute it and/or     #
+# modify it under the terms of the GNU General Public License       #
+# as published by the Free Software Foundation; either version 2    #
+# of the License, or (at your option) any later version.            #
+#                                                                   #
+# This program is distributed in the hope that it will be useful,   #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of    #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the     #
+# GNU General Public License for more details.                      #
+#                                                                   #
+# You should have received a copy of the GNU General Public License #
+# along with this program; if not, write to the Free Software       #
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,        #
+# MA  02110-1301, USA.                                              #
+#####################################################################
+
+msgid ""
+msgstr ""
+"Project-Id-Version: FoFiX 4 Development\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-19 11:47-0600\n"
+"PO-Revision-Date: 2010-09-19 11:48-0600\n"
+"Last-Translator: Google Translator\n"
+"Language-Team: FoFiX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: Credits.py:125
+msgid "This mod was built on Alarian's mod,"
+msgstr "Tento mod bol postavený na mod Alarian to,"
+
+#: Credits.py:126
+msgid "which was built on UltimateCoffee's Ultimate mod,"
+msgstr "ktorý bol postavený na mod UltimateCoffee konečný,"
+
+#: Credits.py:127
+msgid "which was built on RogueF's RF_mod 4.15,"
+msgstr "ktorý bol postavený na RF_mod RogueF je 4,15,"
+
+#: Credits.py:128
+msgid "which was, of course, built on Frets on Fire 1.2.451,"
+msgstr ", Ktorý bol, samozrejme, postavený na Frets on Fire 1.2.451,"
+
+#: Credits.py:129
+msgid "which was created by Unreal Voodoo"
+msgstr "ktorý bol vytvorený Unreal Voodoo"
+
+#: Credits.py:130
+msgid "No Particular Order"
+msgstr "Bez osobitného poradie"
+
+#: Credits.py:131
+msgid "Active Coders:"
+msgstr "Aktívne Programátori:"
+
+#: Credits.py:132
+msgid "Past Coders:"
+msgstr "Past Programátori:"
+
+#: Credits.py:133
+msgid "Main Graphic Contributors:"
+msgstr "Hlavné Grafické Prispievatelia:"
+
+#: Credits.py:134
+msgid "Translators:"
+msgstr "Prekladatelia:"
+
+#: Credits.py:135
+msgid "Team Hero:"
+msgstr "Tím Hero:"
+
+#: Credits.py:136
+msgid "Creators of Career Mode"
+msgstr "Tvorcovia z režimu kariéry"
+
+#: Credits.py:137
+msgid "Honorary Credits to:"
+msgstr "Čestný úvery:"
+
+#: Credits.py:138
+msgid "Donations to MFH"
+msgstr "Dary na MFH"
+
+#: Credits.py:139
+msgid "Donations to akedrou"
+msgstr "Dary na akedrou"
+
+#: Credits.py:140
+msgid "Major Donations:"
+msgstr "Hlavné Dary:"
+
+#: Credits.py:141
+msgid "Other Donations:"
+msgstr "Ostatné dary:"
+
+#: Credits.py:142
+msgid "Other Credits:"
+msgstr "Ďalšie úvery:"
+
+#: Credits.py:143
+msgid "Jurgen FoF tutorial inspired by adam02"
+msgstr "Jurgen FoF tutorial inšpirované adam02"
+
+#: Credits.py:144
+msgid "Drum test song tutorial by Heka"
+msgstr "Drum test song tutorial od Heka"
+
+#: Credits.py:145
+msgid "Bang Bang Mystery Man song tutorial is from the original FoF"
+msgstr "Bang Bang Mystery Man song tutorial je z pôvodnej FoF"
+
+#: Credits.py:146
+msgid "Drum Rolls practice tutorial by venom426"
+msgstr "Drum Rolls prax tutorial od venom426"
+
+#: Credits.py:147
+msgid "If you see your work included in this game and you aren't"
+msgstr "Ak vidíte vaša práca zaradené v tejto hre a nie ste"
+
+#: Credits.py:148
+msgid "in the credits, please leave a polite post stating what you"
+msgstr "v kredity, prosím, napísať slušný post tom, čo si"
+
+#: Credits.py:149
+msgid "did and when, as specific as possible."
+msgstr "robil a kedy, čo najkonkrétnejšie."
+
+#: Credits.py:150
+msgid "If you can, please provide a link to your original posting"
+msgstr "Ak môžete, uveďte odkaz na pôvodný vysielanie"
+
+#: Credits.py:151
+msgid "of the work in question."
+msgstr "z práce."
+
+#: Credits.py:152
+msgid "Then we can properly credit you."
+msgstr "Potom môžeme správne kredit vás."
+
+#: Credits.py:153
+msgid "Thank you for your contribution."
+msgstr "Ďakujeme Vám za Váš príspevok."
+
+#: Credits.py:154
+msgid "Please keep in mind that it is not easy to trace down and"
+msgstr "Prosím, majte na pamäti, že nie je jednoduché dohľadať nadol a"
+
+#: Credits.py:155
+msgid "credit every single person who contributed; if your name is"
+msgstr "úver každý, kto prispel, ak vaše meno je"
+
+#: Credits.py:156
+msgid "not included, it was not meant to slight you."
+msgstr "nie sú zahrnuté, bolo to nie je určený k miernemu vás."
+
+#: Credits.py:157
+msgid "It was an oversight."
+msgstr "To bol omyl."
+
+#: Credits.py:159
+#, python-format
+msgid "%s theme credits:"
+msgstr "%s téma úvery:"
+
+#: Credits.py:160
+#, python-format
+msgid "%s theme specific thanks:"
+msgstr "%s Téma špeciálne poďakovanie:"
+
+#: Credits.py:162
+msgid "French"
+msgstr "Francúzština"
+
+#: Credits.py:163
+msgid "French (reform 1990)"
+msgstr "Francúzština (reforma 1990)"
+
+#: Credits.py:164
+msgid "German"
+msgstr "Nemecký"
+
+#: Credits.py:165
+msgid "Italian"
+msgstr "Taliančina"
+
+#: Credits.py:166
+msgid "Pig Latin"
+msgstr "Hatmatilka"
+
+#: Credits.py:167
+msgid "Portuguese (Brazilian)"
+msgstr "Portugalčina (Brazília)"
+
+#: Credits.py:168
+msgid "Russian"
+msgstr "Ruský"
+
+#: Credits.py:169
+msgid "Spanish"
+msgstr "Španielčina"
+
+#: Credits.py:170
+msgid "Swedish"
+msgstr "Švédsky"
+
+#: Credits.py:223
+msgid "Made with:"
+msgstr "Vyrobené s:"
+
+#: Credits.py:246
+msgid "Source Code available under the GNU General Public License"
+msgstr "Zdrojový kód k dispozícii pod GNU General Public License"
+
+#: Credits.py:250
+msgid "Copyright 2006, 2007 by Unreal Voodoo"
+msgstr "Copyright 2006, 2007 by Unreal Voodoo"
+
+#: Credits.py:251
+msgid "Copyright 2008-2010 by Team FoFiX"
+msgstr "Copyright 2008-2010 od tímu FoFiX"
+
+#: Dialogs.py:489
+msgid "<OK>"
+msgstr "<OK>"
+
+#: Dialogs.py:576
+msgid "[Parent Folder]"
+msgstr "[Nadradené zložky]"
+
+#: Dialogs.py:580
+msgid "[Accept Folder]"
+msgstr "[Accept Zložka]"
+
+#: Dialogs.py:582
+#, python-format
+msgid "%s [Folder]"
+msgstr "%s [zložka]"
+
+#: Dialogs.py:707
+msgid "Yellow (#3) / Blue (#4) to change, Green (#1) to confirm:"
+msgstr "Žltá (# 3) / Blue (# 4) k zmene, Green (# 1) potvrdiť:"
+
+#: Dialogs.py:719
+msgid "Loading necks..."
+msgstr "Loading krky ..."
+
+#: Dialogs.py:784
+#: GameEngine.py:97
+msgid "Neck"
+msgstr "Krk"
+
+#: Dialogs.py:983
+msgid "Loading avatars..."
+msgstr "Loading avatary ..."
+
+#: Dialogs.py:1092
+msgid "Select Your Avatar:"
+msgstr "Vyberte svoj avatar:"
+
+#: Dialogs.py:1572
+msgid "Press Start to Begin!"
+msgstr "Stlačením tlačidla Štart začína!"
+
+#: Dialogs.py:1573
+msgid "Use the keyboard to select or just play some notes!"
+msgstr "Pomocou klávesnice vyberte, alebo len hrať niekoľko poznámok!"
+
+#: Dialogs.py:1584
+msgid "No Controller"
+msgstr "Č radič"
+
+#: Dialogs.py:1588
+msgid "Disabled Controller"
+msgstr "Bezbariérový radič"
+
+#: Dialogs.py:1592
+msgid "Default Guitar"
+msgstr "Východiskové gitara"
+
+#: Dialogs.py:1594
+msgid "Default Drums"
+msgstr "Východiskové Drums"
+
+#: Dialogs.py:1596
+msgid "Default Microphone"
+msgstr "Východiskové mikrofón"
+
+#: Dialogs.py:1657
+msgid "controller"
+msgstr "kontrolór"
+
+#: Dialogs.py:1659
+msgid "controllers"
+msgstr "regulátory"
+
+#: Dialogs.py:1660
+#, python-format
+msgid "You only have %d %s defined. You need at least %d for this mode."
+msgstr "Tie majú iba %d %s definované. Potrebujete minimálne %d pre tento režim."
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+#: GameEngine.py:212
+msgid "Left"
+msgstr "Vľavo"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+#: GameEngine.py:212
+msgid "Right"
+msgstr "Vpravo"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Up"
+msgstr "Hore"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Down"
+msgstr "Nadol"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Start"
+msgstr "Začiatok"
+
+#: Dialogs.py:1917
+#: Dialogs.py:1925
+#: Dialogs.py:1930
+#: Dialogs.py:1938
+msgid "Select"
+msgstr "Vybrať"
+
+#: Dialogs.py:1917
+msgid "Fret #1"
+msgstr "Rozčuľovať # 1"
+
+#: Dialogs.py:1917
+msgid "Solo #1"
+msgstr "Sólo # 1"
+
+#: Dialogs.py:1917
+msgid "Fret #2"
+msgstr "Rozčuľovať # 2"
+
+#: Dialogs.py:1917
+msgid "Solo #2"
+msgstr "Sólo # 2"
+
+#: Dialogs.py:1918
+msgid "Fret #3"
+msgstr "Rozčuľovať # 3"
+
+#: Dialogs.py:1918
+msgid "Solo #3"
+msgstr "Sólo # 3"
+
+#: Dialogs.py:1918
+msgid "Fret #4"
+msgstr "Rozčuľovať # 4"
+
+#: Dialogs.py:1918
+msgid "Solo #4"
+msgstr "Sólo # 4"
+
+#: Dialogs.py:1918
+msgid "Fret #5"
+msgstr "Rozčuľovať # 5"
+
+#: Dialogs.py:1919
+msgid "Solo #5"
+msgstr "Sólo # 5"
+
+#: Dialogs.py:1919
+msgid "Pick!"
+msgstr "Vyberte si!"
+
+#: Dialogs.py:1919
+#: Dialogs.py:1927
+#: Dialogs.py:1932
+#: Dialogs.py:1940
+msgid "Starpower!"
+msgstr "Starpower!"
+
+#: Dialogs.py:1919
+#: GameEngine.py:278
+msgid "Whammy"
+msgstr "Whammy"
+
+#: Dialogs.py:1925
+#: Dialogs.py:1938
+msgid "Drum #1"
+msgstr "Drum # 1"
+
+#: Dialogs.py:1925
+msgid "Drum #2"
+msgstr "Drum # 2"
+
+#: Dialogs.py:1926
+#: Dialogs.py:1939
+msgid "Drum #3"
+msgstr "Drum # 3"
+
+#: Dialogs.py:1926
+msgid "Drum #4"
+msgstr "Drum # 4"
+
+#: Dialogs.py:1927
+#: Dialogs.py:1940
+msgid "Bass Drum"
+msgstr "Bass Drum"
+
+#: Dialogs.py:1927
+#: Dialogs.py:1940
+#: Dialogs.py:2268
+#: GameEngine.py:89
+#: GameEngine.py:155
+#: GameEngine.py:190
+#: GameEngine.py:691
+#: GameResultsScene.py:250
+msgid "None"
+msgstr "Žiadny"
+
+#: Dialogs.py:1938
+msgid "Cymbal #2"
+msgstr "Činel # 2"
+
+#: Dialogs.py:1939
+msgid "Cymbal #4"
+msgstr "Činel # 4"
+
+#: Dialogs.py:1939
+msgid "Drum #5"
+msgstr "Drum # 5"
+
+#: Dialogs.py:1942
+msgid "Fret"
+msgstr "Rozčuľovať sa"
+
+#: Dialogs.py:1943
+msgid "Solo"
+msgstr "Sólo"
+
+#: Dialogs.py:1944
+msgid "Drum"
+msgstr "Bubon"
+
+#: Dialogs.py:1945
+msgid "Slide~"
+msgstr "Slide ~"
+
+#: Dialogs.py:2248
+msgid "Level:"
+msgstr "Level:"
+
+#: Dialogs.py:2249
+msgid "Note:"
+msgstr "Poznámka:"
+
+#: Dialogs.py:2263
+msgid "Tap"
+msgstr "Využiť"
+
+#: Dialogs.py:2359
+msgid "Choose a File"
+msgstr "Vyberte súbor"
+
+#: Dialogs.py:2435
+msgid "Play with the keys and press Escape when you're done."
+msgstr "Hrajte s klávesami a stlačte Escape, keď budete hotoví."
+
+#: Dialogs.py:2448
+#: Dialogs.py:2554
+#: Dialogs.py:2560
+msgid "Loading..."
+msgstr "Loading ..."
+
+#: FoFiX.py:179
+#, python-format
+msgid "Song directory provided ('%s') is not a valid song directory. Starting up FoFiX in standard mode."
+msgstr "Song adresár predpokladu ('%s '), nie je platný adresár pieseň. Spúšťanie FoFiX v štandardnom režime."
+
+#: FoFiX.py:301
+msgid "Terminating due to unhandled exception:"
+msgstr "Zastavuje kvôli nechránenú výnimku:"
+
+#: FoFiX.py:303
+msgid "If you make a bug report about this error, please include the contents of the following log file:"
+msgstr "Ak urobíte chybu správu o tejto chybe, prosím uveďte obsah týchto log súbor:"
+
+#: FoFiX.py:305
+msgid "The log file already includes the traceback given above."
+msgstr "Log súbor už obsahuje traceback uvedené vyššie."
+
+#: FoFiX.py:310
+msgid "Open the logfile now?"
+msgstr "Open logfile teraz?"
+
+#: GameEngine.py:86
+msgid "FPS Limiter"
+msgstr "FPS Limiter"
+
+#: GameEngine.py:86
+msgid "On (Set Below)"
+msgstr "On (Set nižšie)"
+
+#: GameEngine.py:86
+msgid "Off (Auto Max FPS)"
+msgstr "Off (FPS Auto Max)"
+
+#: GameEngine.py:86
+msgid "Use this to enable or disable the FPS Limiter. If off, the game will render as many frames as possible. (This is affected by the 'Performance' quickset)"
+msgstr "Použite pre zapnutie alebo vypnutie FPS Limiter. Ak je vypnutý, bude hra urobiť ako mnoho snímok, ako je to možné. (To je ovplyvnená 'Výkon' živý plot)"
+
+#: GameEngine.py:88
+msgid "Fullscreen Mode"
+msgstr "Celoobrazovkový režim"
+
+#: GameEngine.py:88
+#: GameEngine.py:90
+#: GameEngine.py:93
+#: GameEngine.py:96
+#: GameEngine.py:105
+#: GameEngine.py:107
+#: GameEngine.py:112
+#: GameEngine.py:145
+#: GameEngine.py:146
+#: GameEngine.py:172
+#: GameEngine.py:175
+#: GameEngine.py:176
+#: GameEngine.py:177
+#: GameEngine.py:178
+#: GameEngine.py:181
+#: GameEngine.py:182
+#: GameEngine.py:196
+#: GameEngine.py:199
+#: GameEngine.py:201
+#: GameEngine.py:202
+#: GameEngine.py:216
+#: GameEngine.py:219
+#: GameEngine.py:225
+#: GameEngine.py:245
+#: GameEngine.py:246
+#: GameEngine.py:247
+#: GameEngine.py:259
+#: GameEngine.py:260
+#: GameEngine.py:261
+#: GameEngine.py:262
+#: GameEngine.py:263
+#: GameEngine.py:264
+#: GameEngine.py:265
+#: GameEngine.py:266
+#: GameEngine.py:267
+#: GameEngine.py:268
+#: GameEngine.py:269
+#: GameEngine.py:300
+#: GameEngine.py:301
+#: GameEngine.py:304
+#: GameEngine.py:312
+#: GameEngine.py:315
+#: GameEngine.py:318
+#: GameEngine.py:321
+#: GameEngine.py:371
+#: GameEngine.py:410
+msgid "No"
+msgstr "Nie"
+
+#: GameEngine.py:88
+#: GameEngine.py:90
+#: GameEngine.py:93
+#: GameEngine.py:96
+#: GameEngine.py:105
+#: GameEngine.py:107
+#: GameEngine.py:112
+#: GameEngine.py:145
+#: GameEngine.py:146
+#: GameEngine.py:172
+#: GameEngine.py:175
+#: GameEngine.py:176
+#: GameEngine.py:177
+#: GameEngine.py:178
+#: GameEngine.py:181
+#: GameEngine.py:182
+#: GameEngine.py:196
+#: GameEngine.py:199
+#: GameEngine.py:216
+#: GameEngine.py:219
+#: GameEngine.py:225
+#: GameEngine.py:245
+#: GameEngine.py:246
+#: GameEngine.py:247
+#: GameEngine.py:259
+#: GameEngine.py:260
+#: GameEngine.py:261
+#: GameEngine.py:262
+#: GameEngine.py:263
+#: GameEngine.py:264
+#: GameEngine.py:265
+#: GameEngine.py:266
+#: GameEngine.py:267
+#: GameEngine.py:268
+#: GameEngine.py:300
+#: GameEngine.py:301
+#: GameEngine.py:304
+#: GameEngine.py:312
+#: GameEngine.py:315
+#: GameEngine.py:318
+#: GameEngine.py:321
+#: GameEngine.py:371
+#: GameEngine.py:410
+msgid "Yes"
+msgstr "Áno"
+
+#: GameEngine.py:88
+msgid "Play either in fullscreen ('Yes') or windowed ('No') mode."
+msgstr "Play buď na celej obrazovke ('Áno') alebo okna ('Nie') režime."
+
+#: GameEngine.py:89
+msgid "Antialiasing Quality"
+msgstr "Antialiasing kvality"
+
+#: GameEngine.py:89
+msgid "Sets the antialiasing quality of openGL rendering. Higher values reduce jaggediness, but could affect performance. (This is affected by the 'Performance' quickset)"
+msgstr "Nastavuje antialiasing kvalitu OpenGL. Vyššie hodnoty znížiť jaggediness, ale môžu ovplyvniť ich funkciu. (To je ovplyvnená 'Výkon' živý plot)"
+
+#: GameEngine.py:90
+msgid "Show Fret Glow Effect"
+msgstr "Zobraziť Fret žiara Effect"
+
+#: GameEngine.py:90
+msgid "Turn on or off the glow that appears around a fret when you press it."
+msgstr "Zapnúť alebo vypnúť žiara, ktorá sa zobrazí po starosti, keď ju stlačíte."
+
+#: GameEngine.py:92
+msgid "Frames per Second"
+msgstr "Snímok za sekundu"
+
+#: GameEngine.py:92
+msgid "Set the number of frames to render per second. Higher values are better, but your computer may not be able to keep up. You probably can leave this alone. (This is affected by the 'Performance' quickset)"
+msgstr "Nastavte počet snímok k tomu, aby za sekundu. Vyššie hodnoty sú lepšie, ale váš počítač nemusí byť schopný držať krok. Pravdepodobne ste si nechať o samote. (To je ovplyvnená 'Výkon' živý plot)"
+
+#: GameEngine.py:93
+msgid "Print Frames per Second"
+msgstr "Tlač snímok za sekundu"
+
+#: GameEngine.py:93
+msgid "This will display your FPS on some screens, and if running from sources will print your FPS there every two seconds."
+msgstr "Tým sa zobrazí vaše FPS na niektorých obrazovkách, a ak beží zo zdrojov bude tlačiť FPS tam každé dve sekundy."
+
+#: GameEngine.py:94
+msgid "Fret Glow Color"
+msgstr "Rozčuľovať žiara farieb"
+
+#: GameEngine.py:94
+msgid "Same as Fret"
+msgstr "Rovnaké ako Fret"
+
+#: GameEngine.py:94
+msgid "Actual Color"
+msgstr "Skutočné farby"
+
+#: GameEngine.py:94
+msgid "Sets whether or not the fret glow image will be color-masked with the theme-determined fret color."
+msgstr "Nastaví, či rozčuľovať žiary obraz bude farebný-zastavala téma-určuje starosti farby."
+
+#: GameEngine.py:96
+msgid "Use Shaders"
+msgstr "Použitie shaderov"
+
+#: GameEngine.py:96
+msgid "Enable or disable the use of shaders. Shaders are visual effects. This must be set to 'Yes' to use the settings below. 'By Theme' leaves it to the theme creator."
+msgstr "Povoliť alebo zakázať použitie shaderov. Shadery sú vizuálne efekty. To musí byť nastavená na 'Áno' pre použitie nastavenia nižšie. 'Podľa tém' ponecháva na tému tvorcov."
+
+#: GameEngine.py:97
+#: GameEngine.py:98
+#: GameEngine.py:99
+#: GameEngine.py:101
+#: GameEngine.py:102
+#: GameEngine.py:118
+#: GameEngine.py:322
+#: GameEngine.py:351
+msgid "Disabled"
+msgstr "Zdravotne postihnuté"
+
+#: GameEngine.py:97
+msgid "Flashing"
+msgstr "Bliká"
+
+#: GameEngine.py:97
+#: GameEngine.py:98
+#: GameEngine.py:99
+#: GameEngine.py:100
+#: GameEngine.py:101
+#: GameEngine.py:102
+#: GameEngine.py:190
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:213
+#: GameEngine.py:228
+#: GameEngine.py:232
+#: GameEngine.py:291
+#: GameEngine.py:298
+msgid "By Theme"
+msgstr "Podľa tém"
+
+#: GameEngine.py:97
+msgid "A bright flash along your fretboard reflecting the notes you've hit. 'By Theme' leaves it to the theme creator."
+msgstr "Jasný záblesk na vašej fretboard odrážajúce poznámky, ktoré ste hit. 'Podľa tém' ponecháva na tému tvorcov."
+
+#: GameEngine.py:98
+msgid "Stage"
+msgstr "Fázy"
+
+#: GameEngine.py:98
+msgid "EQ Lightning"
+msgstr "EQ Lightning"
+
+#: GameEngine.py:98
+msgid "A visual waveform centered above you fretboard. 'By Theme' leaves it to the theme creator."
+msgstr "Vizuálna krivky so stredom nad vami hmatníkom. 'Podľa tém' ponecháva na tému tvorcov."
+
+#: GameEngine.py:99
+msgid "Solo and SP"
+msgstr "Sólo a SP"
+
+#: GameEngine.py:99
+#: GameEngine.py:100
+msgid "Lightnings"
+msgstr "Blesky"
+
+#: GameEngine.py:99
+msgid "Enables lightning along the side of your fretboard when you are in solos or use SP. 'By Theme' leaves it to the theme creator."
+msgstr "Umožňuje blesk po boku svojho hmatník, keď ste v sólach alebo použite SP. 'Podľa tém' ponecháva na tému tvorcov."
+
+#: GameEngine.py:100
+msgid "Tails"
+msgstr "Chvosty"
+
+#: GameEngine.py:100
+msgid "Classic"
+msgstr "Klasický"
+
+#: GameEngine.py:100
+#: GameEngine.py:210
+#: GameEngine.py:298
+msgid "RB2"
+msgstr "RB2"
+
+#: GameEngine.py:100
+msgid "Sets the tail effect. Choose from classic tails, lightning, or RB2 style. 'By Theme' leaves it to the theme creator."
+msgstr "Nastaví chvost účinok. Vyberte si z klasických chvosty, blesky, alebo RB2 štýlu. 'Podľa tém' ponecháva na tému tvorcov."
+
+#: GameEngine.py:101
+msgid "Notes"
+msgstr "Poznámky"
+
+#: GameEngine.py:101
+msgid "Metal"
+msgstr "Kov"
+
+#: GameEngine.py:101
+msgid "Gives your notes a metallic sheen. 'By Theme' leaves it to the theme creator."
+msgstr "Dáva svoje poznámky kovový lesk. 'Podľa tém' ponecháva na tému tvorcov."
+
+#: GameEngine.py:102
+#: GameEngine.py:298
+msgid "CDs"
+msgstr "CD"
+
+#: GameEngine.py:102
+msgid "White"
+msgstr "Biely"
+
+#: GameEngine.py:102
+msgid "Adds a soft lighting effect to CD labels in CD setlist mode."
+msgstr "Dodáva mäkké osvetlenie efekt CD etikiet v režime Setlist CD."
+
+#: GameEngine.py:105
+msgid "Disable Screensaver"
+msgstr "Zakázať Screensaver"
+
+#: GameEngine.py:105
+msgid "Set whether the game disables the screensaver while it is running.  Does not necessarily work on all platforms."
+msgstr "Nastaviť, či hra vypne screensaver, ktorá je spustená. Nemusí nevyhnutne fungovať na všetkých platformách."
+
+#: GameEngine.py:107
+msgid "Animated Star Notes"
+msgstr "Animované Star Poznámky"
+
+#: GameEngine.py:107
+msgid "This will animate star notes as they come towards you, if that is included in your theme. This can have a hit on performance. (This is affected by the 'Performance' quickset)"
+msgstr "To bude animovať hviezda berie na vedomie, ako prídu k vám, ak je to súčasťou vášho téme. To môže mať hit na výkon. (To je ovplyvnená 'Výkon' živý plot)"
+
+#: GameEngine.py:108
+msgid "Sample Frequency"
+msgstr "Vzorkovací kmitočet"
+
+#: GameEngine.py:108
+msgid "Set the sample frequency for the audio in the game. You almost certainly want to leave this at 44100 Hz unless you really know what you're doing."
+msgstr "Nastavte vzorkovací kmitočet pre audio v hre. Tie takmer určite chcieť opustiť toto na 44100 Hz, ak naozaj neviete, čo robíte."
+
+#: GameEngine.py:109
+msgid "Sample Bits"
+msgstr "Ukážka Bity"
+
+#: GameEngine.py:109
+msgid "Set the sample bits for the audio in the game. You almost certainly want to leave this at 16-bit unless you really know what you're doing."
+msgstr "Set vzorka bitov pre audio v hre. Tie takmer určite chcieť opustiť toto na 16-bit, ak naozaj neviete, čo robíte."
+
+#: GameEngine.py:112
+msgid "Upload Highscores"
+msgstr "Upload Nejvyššískóre"
+
+#: GameEngine.py:112
+msgid "If enabled, your high scores will be sent to the server to rank you against other players."
+msgstr "Ak je povolené, bude vaša vysoké skóre bude odoslaný na server, aby hodnosť ste proti ostatným hráčom."
+
+#: GameEngine.py:118
+msgid "Song Queue System"
+msgstr "Song fronty systému"
+
+#: GameEngine.py:118
+#: GameEngine.py:188
+msgid "Automatic"
+msgstr "Automatický"
+
+#: GameEngine.py:118
+msgid "Enables or disables creating multi-song sets in the setlist."
+msgstr "Povolí alebo zakáže vytváranie multi-song sad Setlist."
+
+#: GameEngine.py:119
+msgid "Song Queue Order"
+msgstr "Song fronty Objednať"
+
+#: GameEngine.py:119
+#: GameEngine.py:167
+#: GameEngine.py:168
+msgid "In Order"
+msgstr "V Objednať"
+
+#: GameEngine.py:119
+#: GameEngine.py:167
+#: GameEngine.py:168
+#: GameEngine.py:169
+#: GameEngine.py:676
+msgid "Random"
+msgstr "Náhodný"
+
+#: GameEngine.py:119
+msgid "Sets the order in which songs added to the queue will be played."
+msgstr "Nastavuje poradie, v akom piesne pridaný do fronty sa budú hrať."
+
+#: GameEngine.py:120
+msgid "Song Queue Parts"
+msgstr "Časti Song fronty"
+
+#: GameEngine.py:120
+msgid "Closest Available"
+msgstr "Najbližšie k dispozícii"
+
+#: GameEngine.py:120
+#: GameEngine.py:121
+msgid "Always Ask"
+msgstr "Vždy sa opýtať"
+
+#: GameEngine.py:120
+msgid "Choose the behavior when the chosen part is not available in all queued songs. 'Closest Available' will match lead parts to guitar and bass to rhythm, or guitar if no rhythm parts are available. 'Always Ask' brings up the part select screen."
+msgstr "Vyberte si správanie, kedy vybrané časti, nie je k dispozícii vo všetkých fronte piesní. 'Najkratšie k dispozícii' bude zápas povedie diely pre gitaru a basgitaru pre rytmus, alebo gitaru nie je rytmus diely sú k dispozícii. 'Vždy sa spýtať' otvorí časť vyberte obrazovky."
+
+#: GameEngine.py:121
+msgid "Song Queue Difficulty"
+msgstr "Song fronty Obtiažnosť"
+
+#: GameEngine.py:121
+msgid "Closest Down"
+msgstr "Najbližšie nadol"
+
+#: GameEngine.py:121
+msgid "Closest Up"
+msgstr "Najbližšie hore"
+
+#: GameEngine.py:121
+msgid "Choose the behavior when the chosen difficulty is not available in all queued songs. 'Closest Up' will prefer a harder difficulty, while 'Closest Down' will prefer an easier one. 'Always Ask' brings up the difficulty select screen."
+msgstr "Vyberte si správanie pri zvolenej obtiažnosti nie je k dispozícii vo všetkých fronte piesní. 'Najbližšie hore' bude radšej ťažšie obtiažnosť, zatiaľ čo 'Najkratšie nadol' bude preferovať jednoduchšie jeden. 'Vždy sa spýtať' prináša ako je ťažké vybrať obrazovku."
+
+#: GameEngine.py:134
+msgid "Buffer Size"
+msgstr "Veľkosť vyrovnávacej pamäte"
+
+#: GameEngine.py:134
+msgid "Set your audio buffer size. Higher values will reduce audio popping, but increase game lag. Only change this if you are having audio quality issues, and use the lowest value that sounds right."
+msgstr "Nastavte si svoje audio veľkosť vyrovnávacej pamäte. Vyššie hodnoty zníži zvuk praskanie, ale zvýšenie hra meškanie. Jediná zmena tejto Ak sa vám audio otázok kvality, a použitie najnižšiu hodnotu, že to znie dobre."
+
+#: GameEngine.py:135
+msgid "A/V Delay"
+msgstr "A / V meškanie"
+
+#: GameEngine.py:135
+msgid "Set your A/V delay. Unfortunately for now you have to use trial and error."
+msgstr "Nastavte si A / V meškanie. Bohužiaľ teraz budete musieť použiť pokusu a omylu."
+
+#: GameEngine.py:136
+msgid "Screw-Up Sounds"
+msgstr "Skrutku-Up Znie"
+
+#: GameEngine.py:136
+#: GameEngine.py:152
+#: GameEngine.py:156
+#: GameEngine.py:158
+#: GameEngine.py:159
+#: GameEngine.py:167
+#: GameEngine.py:168
+#: GameEngine.py:170
+#: GameEngine.py:171
+#: GameEngine.py:173
+#: GameEngine.py:179
+#: GameEngine.py:187
+#: GameEngine.py:189
+#: GameEngine.py:193
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:200
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:206
+#: GameEngine.py:207
+#: GameEngine.py:208
+#: GameEngine.py:213
+#: GameEngine.py:215
+#: GameEngine.py:218
+#: GameEngine.py:220
+#: GameEngine.py:222
+#: GameEngine.py:223
+#: GameEngine.py:227
+#: GameEngine.py:229
+#: GameEngine.py:231
+#: GameEngine.py:232
+#: GameEngine.py:239
+#: GameEngine.py:248
+#: GameEngine.py:249
+#: GameEngine.py:251
+#: GameEngine.py:274
+#: GameEngine.py:278
+#: GameEngine.py:279
+#: GameEngine.py:280
+#: GameEngine.py:281
+#: GameEngine.py:282
+#: GameEngine.py:283
+#: GameEngine.py:284
+#: GameEngine.py:285
+#: GameEngine.py:286
+#: GameEngine.py:289
+#: GameEngine.py:290
+#: GameEngine.py:291
+#: GameEngine.py:293
+#: GameEngine.py:294
+#: GameEngine.py:303
+#: GameEngine.py:326
+#: GameEngine.py:330
+#: GameEngine.py:334
+#: GameEngine.py:338
+#: GameEngine.py:405
+msgid "Off"
+msgstr "Preč"
+
+#: GameEngine.py:136
+msgid "Quiet"
+msgstr "Kľud"
+
+#: GameEngine.py:136
+msgid "Loud"
+msgstr "Hlasný"
+
+#: GameEngine.py:136
+msgid "Painful"
+msgstr "Bolestivý"
+
+#: GameEngine.py:136
+msgid "How loud should the sound of your screwing up be? Very."
+msgstr "Ako hlasno by zvuk vášho zašroubovácí byť? Veľmi."
+
+#: GameEngine.py:140
+msgid "Active Track Volume"
+msgstr "Aktívne Sledovať Objem"
+
+#: GameEngine.py:140
+msgid "Volume of the parts you are playing."
+msgstr "Objem časti hráte."
+
+#: GameEngine.py:141
+msgid "Background Volume"
+msgstr "Hlasitosť pozadia"
+
+#: GameEngine.py:141
+msgid "Volume of the parts you are not playing."
+msgstr "Objem dielov nie hranie."
+
+#: GameEngine.py:144
+msgid "Process Priority"
+msgstr "Prioritu procesu"
+
+#: GameEngine.py:144
+msgid "Idle"
+msgstr "Nečinný"
+
+#: GameEngine.py:144
+msgid "Low"
+msgstr "Nízky"
+
+#: GameEngine.py:144
+#: GameEngine.py:157
+#: GameEngine.py:179
+#: GameEngine.py:299
+#: GameResultsScene.py:276
+msgid "Normal"
+msgstr "Normálne"
+
+#: GameEngine.py:144
+msgid "Above Normal"
+msgstr "Nad normálne"
+
+#: GameEngine.py:144
+msgid "High"
+msgstr "Vysoký"
+
+#: GameEngine.py:144
+msgid "Realtime"
+msgstr "Realtime"
+
+#: GameEngine.py:144
+msgid "Change this to increase the priority of the FoFiX process. Don't change this unless you know what you're doing. DO NOT set this to Realtime. Ever."
+msgstr "Zmeniť toto zvýšenie priority procesu FoFiX. Nemeňte to, ak viete, čo robíte. Neinštalujte to v reálnom čase. Vôbec."
+
+#: GameEngine.py:145
+msgid "Restrict to First Core (Win32 Only)"
+msgstr "Obmedziť na prvý Core (Win32 len)"
+
+#: GameEngine.py:145
+msgid "Choose whether to restrict the game to running on only the first processor core on the system. Only has an effect under Windows."
+msgstr "Vyberte, či chcete obmedziť hru bežiaci na len prvý procesor s jadrom v systéme. Iba má vplyv pod Windows."
+
+#: GameEngine.py:146
+msgid "Use Psyco"
+msgstr "Použite Psyco"
+
+#: GameEngine.py:146
+msgid "Enable or disable the Psyco specializing compiler. Tests have indicated the game runs faster with it off."
+msgstr "Povoliť alebo zakázať Psyco špecializujúca kompilátor. Testy ukázali, hra beží rýchlejšie s ním preč."
+
+#: GameEngine.py:147
+msgid "Missed Notes"
+msgstr "Zmeškané Poznámky"
+
+#: GameEngine.py:147
+msgid "Disappear"
+msgstr "Zmiznúť"
+
+#: GameEngine.py:147
+msgid "Keep on going"
+msgstr "Majte na prebiehajúce"
+
+#: GameEngine.py:147
+msgid "When you miss a note, this sets whether they disappear from the fretboard or scroll off the bottom of the screen."
+msgstr "Keď slečna na vedomie, to určuje, či zmizne z fretboard alebo zmizne dolnej časti obrazovky."
+
+#: GameEngine.py:150
+msgid "Performance"
+msgstr "Výkon"
+
+#: GameEngine.py:150
+#: GameEngine.py:151
+msgid "Manual"
+msgstr "Manuál"
+
+#: GameEngine.py:150
+msgid "Pure Speed"
+msgstr "Pure rýchlosti"
+
+#: GameEngine.py:150
+msgid "Fast"
+msgstr "Rýchlo"
+
+#: GameEngine.py:150
+msgid "Quality (Recommended)"
+msgstr "Kvalita (odporúčané)"
+
+#: GameEngine.py:150
+msgid "Max Quality (Slow)"
+msgstr "Max kvalita (pomalé)"
+
+#: GameEngine.py:150
+msgid "Set the performance of your game. You can fine-tune in the advanced menus."
+msgstr "Nastavte výkon vašej hry. Môžete jemné-naladiť pokročilé menu."
+
+#: GameEngine.py:151
+msgid "Gameplay"
+msgstr "Gameplay"
+
+#: GameEngine.py:151
+msgid "Theme-Based"
+msgstr "Téma-Na"
+
+#: GameEngine.py:151
+msgid "MIDI Based"
+msgstr "Na MIDI"
+
+#: GameEngine.py:151
+msgid "RB Style"
+msgstr "RB štýl"
+
+#: GameEngine.py:151
+msgid "GH Style"
+msgstr "GH štýl"
+
+#: GameEngine.py:151
+msgid "WT Style"
+msgstr "WT štýl"
+
+#: GameEngine.py:151
+msgid "Sets how the game 'feels' to play. Theme-Based lets the theme creator decide. MIDI Based lets the fretter decide."
+msgstr "Nastaví, ako sa hra 'sa domnieva,' hrať. Téma-Báza umožňuje tému tvorca rozhodnúť. MIDI Na umožňuje fretter rozhodnúť."
+
+#: GameEngine.py:152
+msgid "Pause on Loss of Focus"
+msgstr "Pozastaviť na straty sústredenia"
+
+#: GameEngine.py:152
+#: GameEngine.py:156
+#: GameEngine.py:158
+#: GameEngine.py:170
+#: GameEngine.py:173
+#: GameEngine.py:187
+#: GameEngine.py:189
+#: GameEngine.py:193
+#: GameEngine.py:200
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:206
+#: GameEngine.py:207
+#: GameEngine.py:213
+#: GameEngine.py:218
+#: GameEngine.py:220
+#: GameEngine.py:222
+#: GameEngine.py:223
+#: GameEngine.py:227
+#: GameEngine.py:232
+#: GameEngine.py:239
+#: GameEngine.py:248
+#: GameEngine.py:249
+#: GameEngine.py:251
+#: GameEngine.py:274
+#: GameEngine.py:278
+#: GameEngine.py:279
+#: GameEngine.py:280
+#: GameEngine.py:281
+#: GameEngine.py:282
+#: GameEngine.py:283
+#: GameEngine.py:284
+#: GameEngine.py:285
+#: GameEngine.py:286
+#: GameEngine.py:289
+#: GameEngine.py:290
+#: GameEngine.py:291
+#: GameEngine.py:293
+#: GameEngine.py:303
+#: GameEngine.py:326
+#: GameEngine.py:330
+#: GameEngine.py:334
+#: GameEngine.py:338
+#: GameEngine.py:405
+msgid "On"
+msgstr "Na"
+
+#: GameEngine.py:152
+msgid "Set whether the game automatically pauses when another application steals input focus."
+msgstr "Nastaviť, či hra sa automaticky zastaví, keď iná aplikácia kradne vstup zameranie."
+
+#: GameEngine.py:155
+msgid "HO/PO System"
+msgstr "HO / PO systém"
+
+#: GameEngine.py:155
+#: GameResultsScene.py:252
+msgid "RF-Mod"
+msgstr "RF-Mod"
+
+#: GameEngine.py:155
+#: GameResultsScene.py:254
+msgid "GH2 Strict"
+msgstr "GH2 Strict"
+
+#: GameEngine.py:155
+#: GameEngine.py:319
+#: GameResultsScene.py:256
+msgid "GH2"
+msgstr "GH2"
+
+#: GameEngine.py:155
+msgid "Set the system used for marking hammer-ons and pull-offs (HO/PO). You can either disable them altogether, use the RF-Mod method, or the GH2 system."
+msgstr "Nastavte systém používaný na označovanie kladiva-ons a ťahať-offs (HO / PO). Môžete buď zakázať úplne, použite RF-Mod metóda alebo GH2 systému."
+
+#: GameEngine.py:156
+msgid "GH2 Sloppy Mode"
+msgstr "GH2 Sloppy režim"
+
+#: GameEngine.py:156
+msgid "Sloppy mode allows you to hold higher frets while tapping lower frets during HO/PO sections. This will lower your score by 25%."
+msgstr "Nedbalý režim vám umožňuje držať vyššiu podvaly, kým odpočúvanie nižšia pražcov počas HO / PO sekciách. To zníži svoje skóre o 25%."
+
+#: GameEngine.py:157
+msgid "HO/PO Frequency"
+msgstr "HO / PO frekvencie"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:272
+msgid "Least"
+msgstr "Najmenej"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:274
+msgid "Less"
+msgstr "Menej"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:278
+msgid "More"
+msgstr "Viac"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:280
+msgid "Even More"
+msgstr "Ešte viac"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:282
+msgid "Most"
+msgstr "Väčšina"
+
+#: GameEngine.py:157
+msgid "Sets the window used to determine HO/PO notes. Increasing the frequency will reduce your score, and lower settings will give you a tiny bonus."
+msgstr "Nastaví okno pre určenie HO / PO poznámky. Zvýšenie frekvencie zníži vaše skóre, a nižšie nastavenie vám malý bonus."
+
+#: GameEngine.py:158
+msgid "HO/PO After Chord"
+msgstr "HO / PO po Chord"
+
+#: GameEngine.py:158
+msgid "This will determine whether or not HO/PO notes can follow a chord. This only applies to the GH2 systems."
+msgstr "To sa zistí, či alebo nie HO / PO poznámky môžu nasledovať akord. To sa vzťahuje iba na GH2 systémov."
+
+#: GameEngine.py:159
+msgid "Show Hit Accuracy"
+msgstr "Zobraziť presnosť zásahu"
+
+#: GameEngine.py:159
+msgid "Numeric"
+msgstr "Číselná"
+
+#: GameEngine.py:159
+msgid "Friendly"
+msgstr "Priateľský"
+
+#: GameEngine.py:159
+msgid "Both"
+msgstr "Oba"
+
+#: GameEngine.py:159
+msgid "Shows how accurate your note hits are. Numeric will give a time in milliseconds, and Friendly will use English to inform you. Both will show, well, both. Useful for determining your A/V delay."
+msgstr "Ukazuje, ako presné poznámky hity sú. Číselná dám čas v milisekundách, a Friendly bude používať angličtinu Vás informovať. Obaja ukáže, dobre, a to ako. Užitočným nástrojom na určovanie vašej A / V meškanie."
+
+#: GameEngine.py:160
+msgid "Hit Accuracy Pos"
+msgstr "Hit Presnosť Pos"
+
+#: GameEngine.py:160
+#: GameEngine.py:212
+msgid "Center"
+msgstr "Centrum"
+
+#: GameEngine.py:160
+msgid "Top-Right Corner"
+msgstr "Top-pravý roh"
+
+#: GameEngine.py:160
+msgid "Bottom-Left Corner"
+msgstr "Dolné-rohu"
+
+#: GameEngine.py:160
+msgid "Center-Bottom"
+msgstr "Center-Dolné"
+
+#: GameEngine.py:160
+msgid "Sets where the accuracy information will be displayed, if enabled."
+msgstr "Nastaví, kde budú informácie o presnosti sa zobrazí, ak je povolená."
+
+#: GameEngine.py:162
+msgid "Max Players"
+msgstr "Max hráčov"
+
+#: GameEngine.py:162
+msgid "Set the maximum number of players in Co-Op modes. Be aware that higher numbers are associated with a significant drop in performance."
+msgstr "Stanoviť maximálny počet hráčov v Co-Op režimy. Uvedomte si, že vyššie čísla sú spojené s významným poklesom výkonnosti."
+
+#: GameEngine.py:165
+msgid "Slideshow Delay"
+msgstr "Prezentácia Delay"
+
+#: GameEngine.py:165
+msgid "Sets how long, in milliseconds, to wait between each frame in a stage slideshow."
+msgstr "Nastavuje ako dlho, v milisekundách, čakať medzi každému snímky v etape slideshow."
+
+#: GameEngine.py:166
+msgid "Animation Delay"
+msgstr "Animácie Delay"
+
+#: GameEngine.py:166
+msgid "Sets how long, in milliseconds, to wait between each frame in a stage animation."
+msgstr "Nastavuje ako dlho, v milisekundách, čakať medzi každým rámom fáze animácie."
+
+#: GameEngine.py:167
+msgid "Stage Slideshow"
+msgstr "Etapa prezentáciu"
+
+#: GameEngine.py:167
+#: GameEngine.py:168
+msgid "BackNForth"
+msgstr "BackNForth"
+
+#: GameEngine.py:167
+msgid "Sets the method used to rotate frames in a stage slideshow."
+msgstr "Nastaví metódu pre otáčanie snímok vo fáze slideshow."
+
+#: GameEngine.py:168
+msgid "Stage Animation"
+msgstr "Fázy animácie"
+
+#: GameEngine.py:168
+msgid "Sets the method used to rotate frames in a stage animation."
+msgstr "Nastaví metódu pre otáčanie snímok vo fáze animácie."
+
+#: GameEngine.py:169
+msgid "Stage Selection"
+msgstr "Fázy výberu"
+
+#: GameEngine.py:169
+msgid "Default"
+msgstr "Omeškanie"
+
+#: GameEngine.py:169
+msgid "Blank"
+msgstr "Prázdny"
+
+#: GameEngine.py:169
+msgid "Video"
+msgstr "Video"
+
+#: GameEngine.py:169
+msgid "Set the background for your stage. Default will use the default background, and Blank puts you in a dark room. Probably a lot like the one you're in now."
+msgstr "Nastaviť pozadie pre váš fázu. Východiskové budú používať predvolené pozadia, a prázdne vám dáva v temnej miestnosti. Asi veľa, ako ten ste teraz."
+
+#: GameEngine.py:170
+msgid "Song Stage"
+msgstr "Song etapa"
+
+#: GameEngine.py:170
+msgid "Fretters can include a stage to be used with their songs. If this is enabled, you can see it."
+msgstr "Fretters môžu zahŕňať fázu majú byť použité s ich piesne. Ak je to povolené, môžete vidieť."
+
+#: GameEngine.py:171
+msgid "Script Lyric Display"
+msgstr "Script zobrazeni textu"
+
+#: GameEngine.py:171
+msgid "By Song"
+msgstr "By Song"
+
+#: GameEngine.py:171
+#: GameEngine.py:190
+#: GameEngine.py:201
+#: GameEngine.py:202
+#: GameEngine.py:214
+#: GameEngine.py:228
+#: GameEngine.py:269
+#: GameEngine.py:297
+msgid "Always"
+msgstr "Vždy"
+
+#: GameEngine.py:171
+msgid "Dual Lyric Prevention"
+msgstr "Duálny Lyrická Prevencia"
+
+#: GameEngine.py:171
+msgid "Sets whether lyrics from a script.txt file are displayed. 'By Song' lets the fretter decide. 'Always' always displays script lyrics, if available, and 'Dual Lyric Prevention' will disable script lyrics if there are MIDI lyrics. (This is affected by the 'Performance' quickset)"
+msgstr "Určuje, či texty z skript.txt súbor sa zobrazí. 'By Song' umožňuje fretter rozhodnúť. 'Vždy' vždy zobrazí skript lyrics, ak je k dispozícii, a 'dvojitého Lyrická Prevencia' zakáže skript texty, ak sú MIDI texty. (To je ovplyvnená 'Výkon' živý plot)"
+
+#: GameEngine.py:172
+msgid "Frets Under Notes"
+msgstr "Pražcov Podľa poznámky"
+
+#: GameEngine.py:172
+msgid "Sets whether the notes slide under the frets or over them."
+msgstr "Nastaví, či sa berie na vedomie snímky podľa pražcov alebo nad nimi."
+
+#: GameEngine.py:173
+msgid "Drum Navigation"
+msgstr "Drum navigácia"
+
+#: GameEngine.py:173
+msgid "If enabled, drum keys will be allowed to navigate menus. If not, only guitar keys and keyboard master keys will."
+msgstr "Ak je povolené, bubon kľúče budú môcť prechádzať menu. Ak nie, bude len gitaru klávesy a klávesy klávesnice master."
+
+#: GameEngine.py:175
+msgid "Ignore Open Strums"
+msgstr "Ignorovať Open Strums"
+
+#: GameEngine.py:175
+msgid "If enabled, strumming without holding any frets down won't be counted."
+msgstr "Ak je povolené, vybrnkávanie bez držania akejkoľvek pražcov sa nebudú počítať."
+
+#: GameEngine.py:176
+msgid "Static Strings"
+msgstr "Statické Strings"
+
+#: GameEngine.py:176
+msgid "If enabled, the 'strings' on your fretboard will not scroll."
+msgstr "Ak je povolené, bude 'reťazca' na vaše fretboard neposúva."
+
+#: GameEngine.py:177
+msgid "Effects Save SP"
+msgstr "Účinky Uložiť SP"
+
+#: GameEngine.py:177
+msgid "If enabled, whammying while in SP will slow down its decrease. And your score will be handicapped by 5%."
+msgstr "Ak je povolené, whammying kým v SP sa bude spomaľovať jej pokles. A vaše skóre so zdravotným postihnutím o 5%."
+
+#: GameEngine.py:178
+msgid "Show HO/PO Indicator"
+msgstr "Zobraziť HO / PO Ukazovateľ"
+
+#: GameEngine.py:178
+msgid "If enabled, 'HOPO' will appear in game. When there are HOPO notes active, it will turn white."
+msgstr "Ak je povolené, 'HOPO' sa objaví v hre. Keď tam sú HOPO poznámky aktívny, bude to zase biela."
+
+#: GameEngine.py:179
+msgid "Use Tiers in Quickplay"
+msgstr "Použite tried v QuickPlay"
+
+#: GameEngine.py:179
+msgid "Sorting"
+msgstr "Triedenie"
+
+#: GameEngine.py:179
+msgid "Sets whether to mark tiers in quickplay mode. 'Normal' will use the career tiers and 'Sorting' will insert tiers based on the current sort order."
+msgstr "Nastaví, či sa ochranná známka tried v QuickPlay režime. 'Normálny' budú používať profesijný úrovňou a 'Triedenie' vloží vrstvy v závislosti na aktuálnom poradí radenie."
+
+#: GameEngine.py:180
+msgid "Star Updates"
+msgstr "Star aktualizácie"
+
+#: GameEngine.py:180
+msgid "On Hit"
+msgstr "On Hit"
+
+#: GameEngine.py:180
+msgid "Score Change"
+msgstr "Prehľad zmien"
+
+#: GameEngine.py:180
+msgid "If set to 'On Hit', your star score will only be checked when you hit a note. If set to 'Score Change', your star score will constantly update. (This is affected by the 'Performance' quickset)"
+msgstr "Ak je nastavené na 'On Hit', bude vaša hviezda skóre iba skontrolovať, keď narazí na vedomie. Ak je nastavené na 'Prehľad Zmeniť', bude vaša hviezda skóre neustále aktualizovať. (To je ovplyvnená 'Výkon' živý plot)"
+
+#: GameEngine.py:181
+msgid "Partial Star Continuous Fillup"
+msgstr "Čiastočné Star Kontinuálne Fillup"
+
+#: GameEngine.py:181
+msgid "Sets whether your partial stars will fill up gradually ('Yes') or in chunks. (This is affected by the 'Performance' quickset)"
+msgstr "Nastaví, či vaše čiastočné hviezdy zaplní postupne ('Áno') alebo kúsky. (To je ovplyvnená 'Výkon' živý plot)"
+
+#: GameEngine.py:182
+msgid "Countdown on Resume"
+msgstr "Odpočítavanie na Resume"
+
+#: GameEngine.py:182
+msgid "If enabled, there will be a three second countdown when you unpause."
+msgstr "Ak je povolené, bude existovať tri sekundy odpočítavanie, keď pauzy."
+
+#: GameEngine.py:184
+msgid "Script Lyric Position"
+msgstr "Script Lyrická Poradie"
+
+#: GameEngine.py:184
+msgid "Bottom"
+msgstr "Dno"
+
+#: GameEngine.py:184
+msgid "Top"
+msgstr "Top"
+
+#: GameEngine.py:184
+msgid "Display script lyrics at either the bottom or top of the screen."
+msgstr "Display skript texty buď spodnej alebo hornej časti obrazovky."
+
+#: GameEngine.py:187
+msgid "Starpower Claps"
+msgstr "Starpower Claps"
+
+#: GameEngine.py:187
+msgid "Enables a clapping sound effect to be used on the beats in Starpower."
+msgstr "Umožňuje potlesk zvukový efekt majú byť použité na bije v Starpower."
+
+#: GameEngine.py:188
+msgid "Song Previews"
+msgstr "Song Obrázok"
+
+#: GameEngine.py:188
+msgid "Yellow Fret (#3)"
+msgstr "Žltá Fret (# 3)"
+
+#: GameEngine.py:188
+msgid "If set to 'Automatic', songs will automatically start previewing when you select them. Otherwise you must press the third fret."
+msgstr "Ak je nastavené na 'Automatické', budú skladby automaticky spustiť náhľad, keď je vybrať. V opačnom prípade musíte stlačiť tretí pražec."
+
+#: GameEngine.py:189
+msgid "RB SP Neck Glow"
+msgstr "RB SP krku žiara"
+
+#: GameEngine.py:189
+msgid "Sets a neck glow effect during SP in RB-type themes."
+msgstr "Nastaví krk žiara účinok pri SP v RB-type témy."
+
+#: GameEngine.py:190
+msgid "SP Refill Mode"
+msgstr "SP Náplň štúdia"
+
+#: GameEngine.py:190
+msgid "By MIDI Type"
+msgstr "Do MIDI typu"
+
+#: GameEngine.py:190
+msgid "Sets whether you can earn more starpower while using it. In 'By MIDI Type', only MIDIs that mark RB-style sections will use this. (This is set by the 'Gameplay' quickset)"
+msgstr "Určuje, či môžete zarobiť viac Starpower pri používaní. V 'By MIDI Type', len MIDIs, že ochranná známka RB-štýl sekcia bude používať. (To je daný 'Gameplay' živý plot)"
+
+#: GameEngine.py:193
+msgid "Effects Debug"
+msgstr "Účinky Debug"
+
+#: GameEngine.py:193
+msgid "If enabled, will show on-screen the raw data of your killswitch/whammy."
+msgstr "Ak je povolené, bude show on-screen surové dáta svojho Killswitch / whammy."
+
+#: GameEngine.py:195
+msgid "Drum SP"
+msgstr "Drum SP"
+
+#: GameEngine.py:195
+msgid "Auto / Fills"
+msgstr "Auto / výplne"
+
+#: GameEngine.py:195
+msgid "Manual / Fills"
+msgstr "Manual / výplne"
+
+#: GameEngine.py:195
+msgid "Determines how drum starpower is activated when there are no drum fills. Auto will automatically activate when available, and Manual will wait for the 'Starpower' button to be pressed."
+msgstr "Určuje, ako bubon Starpower je aktivovaná, keď nie sú k dispozícii žiadne bubon zapĺňa. Auto sa automaticky aktivuje, keď sú k dispozícii, a príručka bude čakať na 'Starpower' tlačidlo sa stlačí."
+
+#: GameEngine.py:196
+msgid "Large Drum Neck"
+msgstr "Veľký bubon krku"
+
+#: GameEngine.py:196
+msgid "If enabled, will show a larger neck when playing drums."
+msgstr "Ak je povolené, bude show väčšie krku, keď hrá na bicie."
+
+#: GameEngine.py:197
+#: GameEngine.py:235
+msgid "Bass Groove Neck"
+msgstr "Bass Groove krku"
+
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:307
+msgid "Replace"
+msgstr "Nahradiť"
+
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:307
+msgid "Overlay"
+msgstr "Overlay"
+
+#: GameEngine.py:197
+msgid "Sets the style of the Bass Groove neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "Nastaví štýl krku Bass Groove. 'Nahradiť' nahrádza krku so špeciálnym krk, zatiaľ čo 'Overlay' určuje krku cez vrchol."
+
+#: GameEngine.py:198
+msgid "Guitar Solo Neck"
+msgstr "Gitarové sólo krku"
+
+#: GameEngine.py:198
+msgid "Sets the style of the Guitar Solo neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "Nastaví štýl krku gitarové sólo. 'Nahradiť' nahrádza krku so špeciálnym krk, zatiaľ čo 'Overlay' určuje krku cez vrchol."
+
+#: GameEngine.py:199
+msgid "Show Unused Events"
+msgstr "Zobraziť Nevyužité Udalosti"
+
+#: GameEngine.py:199
+msgid "If enabled, various MIDI events not used by the game will be shown on-screen."
+msgstr "Ak je povolené, nie rôzne MIDI udalosti používané v hre sa objaví on-screen."
+
+#: GameEngine.py:200
+msgid "Kick Bass Sound"
+msgstr "Kick basový zvuk"
+
+#: GameEngine.py:200
+msgid "If enabled, you'll hear a kick bass sound when you use the kick pedal."
+msgstr "Ak je povolené, počujete kop basový zvuk pri použití kop pedál."
+
+#: GameEngine.py:201
+msgid "Show Lyrics in All Modes"
+msgstr "Zobraziť Slová vo všetkých režimoch"
+
+#: GameEngine.py:201
+#: GameEngine.py:202
+msgid "Single Player"
+msgstr "Single Player"
+
+#: GameEngine.py:201
+msgid "Sets whether or not MIDI lyrics will be displayed in modes without a vocalist. 'Single Player' will only show lyrics when in Solo modes."
+msgstr "Určuje, či budú alebo nebudú MIDI texty sa zobrazí v režime bez speváka. 'Single Player' budú zobrazovať iba texty, keď v Solo režimoch."
+
+#: GameEngine.py:202
+msgid "Show MIDI Sections"
+msgstr "Zobraziť MIDI sekcie"
+
+#: GameEngine.py:202
+msgid "Sets whether or not to scroll the names of sections as marked in the MIDI files."
+msgstr "Nastaví, či sa zvitok názvy sekcií, ako je vyznačený v súboroch MIDI."
+
+#: GameEngine.py:203
+msgid "Key Conflicts"
+msgstr "Key Conflicts"
+
+#: GameEngine.py:203
+msgid "Don't check"
+msgstr "Nekontrolovat"
+
+#: GameEngine.py:203
+msgid "Notify"
+msgstr "Oznámiť"
+
+#: GameEngine.py:203
+msgid "Enforce"
+msgstr "Vynútiť"
+
+#: GameEngine.py:203
+msgid "Sets how the game handles key conflicts. 'Don't check' doesn't check, but conflicts will affect play. 'Notify' will inform you, but allow you to continue, and 'Enforce' will not allow you to exit the menu until all key conflicts have been resolved."
+msgstr "Nastavuje, ako hra spracováva kľúčové konflikty. 'Nekontrolovať' nekontroluje, ale konflikty bude mať vplyv na hru. 'Notify' vás bude informovať, ale umožňujú aj naďalej, a 'Presadenie' vám nedovolí opustiť menu, kým všetky kľúčové konflikty boli vyriešené."
+
+#: GameEngine.py:204
+msgid "Show In-Game Stats"
+msgstr "Zobraziť In-game Štatistiky"
+
+#: GameEngine.py:204
+msgid "Sets whether or not to show detailed stats as you play. 'By Theme' leaves it to the theme creator."
+msgstr "Nastaví, či sa ukázať Podrobná štatistika, ako budete hrať. 'Podľa tém' ponecháva na tému tvorcov."
+
+#: GameEngine.py:205
+msgid "Show Stars In-Game"
+msgstr "Zobraziť Hviezdičky In-hry"
+
+#: GameEngine.py:205
+msgid "Sets whether or not to show your star score as you play. 'By Theme' leaves it to the theme creator."
+msgstr "Nastaví, či sa má zobraziť vaša hviezda hostí, ako si hrať. 'Podľa tém' ponecháva na tému tvorcov."
+
+#: GameEngine.py:206
+msgid "Show Partial Stars"
+msgstr "Zobraziť Čiastočné Hviezdičky"
+
+#: GameEngine.py:206
+msgid "Sets whether or not to show partial stars, if available"
+msgstr "Nastaví, či sa ukázať čiastočné hviezd, ak je k dispozícii"
+
+#: GameEngine.py:207
+msgid "HO/PO Debug"
+msgstr "HO / PO Debug"
+
+#: GameEngine.py:207
+msgid "If enabled, various log messages will be recorded regarding the HO/PO system. Please leave this disabled if submitting logs for bug reports unless you are certain it is necessary."
+msgstr "Ak je povolené, budú rôzne log správe sa zaznamená, pokiaľ ide o HO / PO systém. Prosím, nechajte toto zdravotne ak podá protokoly chybových hlásení, ak ste si istí, že je nutné."
+
+#: GameEngine.py:208
+msgid "Show Solo Stats"
+msgstr "Zobraziť Sólo Stats"
+
+#: GameEngine.py:208
+msgid "Percent"
+msgstr "Percento"
+
+#: GameEngine.py:208
+msgid "Detail"
+msgstr "Detail"
+
+#: GameEngine.py:208
+msgid "Sets whether to show your solo results when you finish a solo. 'Percent' will only show the percentage, while 'Detail' includes additional information."
+msgstr "Nastaví, či sa má zobraziť vaša sólo výsledky po dokončení sólo. 'Percento' budú zobrazovať len v percentách, zatiaľ čo 'Detail' obsahuje dodatočné informácie."
+
+#: GameEngine.py:209
+msgid "Stat Decimal Places"
+msgstr "Stat desatinných miest"
+
+#: GameEngine.py:209
+msgid "Determines how many decimal places will be noted in displaying stats."
+msgstr "Určuje, koľko desatinných miest sa bude uvedené v zobrazovanie štatistík."
+
+#: GameEngine.py:210
+msgid "Star Scoring Style"
+msgstr "Star Bodovanie štýlu"
+
+#: GameEngine.py:210
+msgid "Accuracy"
+msgstr "Presnosť"
+
+#: GameEngine.py:210
+msgid "GH"
+msgstr "GH"
+
+#: GameEngine.py:210
+msgid "RB"
+msgstr "RB"
+
+#: GameEngine.py:210
+msgid "RB+GH"
+msgstr "RB + GH"
+
+#: GameEngine.py:210
+msgid "Sets which system to use to calculate your star score."
+msgstr "Nastavuje, ktorý systém použiť pre výpočet hviezdy skóre."
+
+#: GameEngine.py:211
+msgid "Career Mode Advance"
+msgstr "Kariérny režim Advance"
+
+#: GameEngine.py:211
+msgid "0 (Song Finish)"
+msgstr "0 (Song Finish)"
+
+#: GameEngine.py:211
+msgid "1 Star"
+msgstr "1 Hviezdička"
+
+#: GameEngine.py:211
+msgid "2 Stars"
+msgstr "2 Hviezdičky"
+
+#: GameEngine.py:211
+msgid "3 Stars"
+msgstr "3 Hviezdičky"
+
+#: GameEngine.py:211
+msgid "4 Stars"
+msgstr "4 Hviezdičky"
+
+#: GameEngine.py:211
+msgid "5 Stars"
+msgstr "5 Hviezdičky"
+
+#: GameEngine.py:211
+msgid "6 (Gold Stars)"
+msgstr "6 (Gold Stars)"
+
+#: GameEngine.py:211
+msgid "7 (Full Combo)"
+msgstr "7 (Plný Combo)"
+
+#: GameEngine.py:211
+msgid "Determine how many stars are needed on a song before it is unlocked in career mode."
+msgstr "Určiť, koľko hviezd treba na pieseň pred tým, než sa uvoľniť v režime kariéry."
+
+#: GameEngine.py:212
+msgid "Solo Stat Positioning"
+msgstr "Sólo Stat polohy"
+
+#: GameEngine.py:212
+#: GameEngine.py:319
+msgid "Rock Band"
+msgstr "Rock Band"
+
+#: GameEngine.py:212
+msgid "Sets where your solo result stats will be displayed."
+msgstr "Nastaví Ak sa vaše štatistiky sólo výsledok sa zobrazí."
+
+#: GameEngine.py:213
+msgid "Bass Groove"
+msgstr "Bass Groove"
+
+#: GameEngine.py:213
+msgid "By MIDI"
+msgstr "Do MIDI"
+
+#: GameEngine.py:213
+msgid "Enable or disable bass groove (additional score multiplier for bass)"
+msgstr "Povoliť alebo zakázať bas Groove (ďalšie skóre multiplikátor pre bas)"
+
+#: GameEngine.py:214
+msgid "Drum Miss Penalty"
+msgstr "Drum Miss Penalty"
+
+#: GameEngine.py:214
+msgid "Song Start"
+msgstr "Song Štart"
+
+#: GameEngine.py:214
+msgid "First Note"
+msgstr "Prvá poznámka"
+
+#: GameEngine.py:214
+msgid "Determines when drum hits count as misses: When the song begins, after the first note, or always."
+msgstr "Určuje, kedy bubon hity sa počítajú ako minie: Keď pieseň začína, po prvej správe, alebo vždy."
+
+#: GameEngine.py:215
+msgid "Time Display Format"
+msgstr "Formátom zobrazenia času"
+
+#: GameEngine.py:215
+#: GameEngine.py:306
+msgid "Countdown"
+msgstr "Odpočítavanie"
+
+#: GameEngine.py:215
+msgid "Elapsed"
+msgstr "Uplynulý"
+
+#: GameEngine.py:215
+msgid "Sets whether the song time is displayed as time elapsed, time remaining, or not at all"
+msgstr "Nastaví, či sa pieseň Čas je zobrazený ako uplynulý čas, čas zostávajúci, alebo vôbec nie"
+
+#: GameEngine.py:216
+msgid "Show Theme Version Tag"
+msgstr "Zobraziť tému Version Tag"
+
+#: GameEngine.py:216
+msgid "Places the theme's version tag over menus and dialogs."
+msgstr "Miesta tému verzie tagu cez menu a dialógy."
+
+#: GameEngine.py:217
+msgid "Menu Navigation"
+msgstr "Menu navigácie"
+
+#: GameEngine.py:217
+msgid "P1 Only"
+msgstr "P1 iba"
+
+#: GameEngine.py:217
+msgid "All Players"
+msgstr "Všetci hráči"
+
+#: GameEngine.py:217
+msgid "Sets whether all players can navigate the menu, or only the controller set as Player 1 and the master keys."
+msgstr "Nastaví, či všetci hráči môžu prechádzať menu, alebo iba správca Nastaviť ako Player 1 a Master kľúča."
+
+#: GameEngine.py:218
+msgid "In-Game Font Shadow"
+msgstr "In-game Písmo Tieň"
+
+#: GameEngine.py:218
+msgid "Sets whether or not a shadowed font will be used, if available."
+msgstr "Určuje, či budú alebo nebudú stínovaným písma použiť, ak je k dispozícii."
+
+#: GameEngine.py:219
+msgid "Mute Last Second"
+msgstr "Mute poslednej sekunde"
+
+#: GameEngine.py:219
+msgid "Cuts the volume with one second remaining to prevent any pops when the song ends."
+msgstr "Znižuje objem jedna sekunda zvyšné, aby sa zabránilo akejkoľvek objaví, keď pieseň končí."
+
+#: GameEngine.py:220
+msgid "Results Cheer Loop"
+msgstr "Výsledky Hlavu slučky"
+
+#: GameEngine.py:220
+#: GameEngine.py:319
+#: GameEngine.py:399
+msgid "Theme"
+msgstr "Téma"
+
+#: GameEngine.py:220
+msgid "Sets whether the cheering sound heard on the result screen will loop. 'Theme' leaves it to the theme creator."
+msgstr "Nastaví, či sa fandenia zvuk počuť na výsledok obrazovka slučky. 'Téma' ponecháva na tému tvorcov."
+
+#: GameEngine.py:221
+msgid "Cheer Loop Delay"
+msgstr "Hlavu slučky Delay"
+
+#: GameEngine.py:221
+msgid "Sets the time, in milliseconds, to wait before playing the result cheer again (if looping is enabled)."
+msgstr "Nastavuje čas v milisekundách, čakať pred hraním výsledok jasot znova (ak je slučka je povolená)."
+
+#: GameEngine.py:222
+msgid "Miss Pauses Anim"
+msgstr "Miss Pozastaví Animo"
+
+#: GameEngine.py:222
+msgid "When enabled, missing a note will pause the stage animation."
+msgstr "Keď je aktivovaný, bude chýbať poznámku pauza fázy animácie."
+
+#: GameEngine.py:223
+msgid "Song HO/PO Freq"
+msgstr "Song HO / PO Freq"
+
+#: GameEngine.py:223
+msgid "Sets whether or not to use the HO/PO Frequency setting determined by the fretter, if available."
+msgstr "Nastavuje, či používať HO / PO Frekvencia nastavenie určuje fretter, ak je k dispozícii."
+
+#: GameEngine.py:225
+msgid "Mute Drum Track During Fills"
+msgstr "Mute Drum Track Počas výplne"
+
+#: GameEngine.py:225
+msgid "Sets whether or not the drum track will be muted during drum fills (so you can hear yourself have at it!)"
+msgstr "Nastaví, či bubon trati bude vypínaný počas bubon zapĺňa (takže môžete počuť sami majú na to!)"
+
+#: GameEngine.py:226
+msgid "Sustain Muting"
+msgstr "Udržiavať Stlmenie"
+
+#: GameEngine.py:226
+msgid "Never Mute"
+msgstr "Nikdy Mute"
+
+#: GameEngine.py:226
+msgid "Very Early"
+msgstr "Veľmi skoro"
+
+#: GameEngine.py:226
+msgid "Early"
+msgstr "Čoskoro"
+
+#: GameEngine.py:226
+#: GameEngine.py:309
+#: GameResultsScene.py:293
+msgid "Standard"
+msgstr "Štandardné"
+
+#: GameEngine.py:226
+msgid "Always Mute"
+msgstr "Vždy Mute"
+
+#: GameEngine.py:226
+msgid "Sets the window used to determine whether or not to mute a dropped sustain note. 'Early' means it will only mute when you drop the sustain relatively early."
+msgstr "Nastaví okno slúži na určenie, či možno vypnúť klesol udržanie poznámku. 'Staré' znamená, že bude len stlmiť, keď kvapka udržať relatívne skoro."
+
+#: GameEngine.py:227
+msgid "Show Solo Frame"
+msgstr "Zobraziť Sólo rám"
+
+#: GameEngine.py:227
+msgid "Sets whether to show a frame around the solo stats, if available."
+msgstr "Nastaví, či chcete zobraziť rámček okolo sólo štatistiky, ak je k dispozícii."
+
+#: GameEngine.py:228
+msgid "Enable Guitar Solos"
+msgstr "Povoliť gitarové sóla"
+
+#: GameEngine.py:228
+#: GameEngine.py:297
+msgid "Never"
+msgstr "Nikdy"
+
+#: GameEngine.py:228
+msgid "MIDI Only"
+msgstr "MIDI iba"
+
+#: GameEngine.py:228
+msgid "Sets the logic used to mark solos. 'Always' will mark solos in sections if available. 'By Theme' leaves it to the theme creator. 'MIDI Only' only enables solos marked with the MIDI marker note."
+msgstr "Nastavuje logiku používa pre označenie sóla. 'Vždy' bude znamenať sóla v sekciách je k dispozícii. 'Podľa tém' ponecháva na tému tvorcov. 'MIDI Only' iba umožňuje sóla označené poznámku marker MIDI."
+
+#: GameEngine.py:229
+msgid "SP Mode"
+msgstr "SP režim"
+
+#: GameEngine.py:229
+#: GameEngine.py:319
+msgid "FoF"
+msgstr "FoF"
+
+#: GameEngine.py:229
+msgid "Auto MIDI"
+msgstr "Auto MIDI"
+
+#: GameEngine.py:229
+msgid "Sets the logic used to determine starpower phrases. 'FoF' will generate paths based on the number of notes. 'Auto MIDI' will use MIDI markers to determine the paths, and fall back on the FoF mode if none are available."
+msgstr "Nastavuje logiky pre určenie Starpower frázy. 'FoF' bude generovať cesty na základe počtu poznámok. 'Auto MIDI' budú používať MIDI markerov pre určenie cesty, a na jeseň späť na režim FoF Ak žiadny k dispozícii."
+
+#: GameEngine.py:231
+msgid "Inc. Neck Mode"
+msgstr "Inc krku režim"
+
+#: GameEngine.py:231
+msgid "Start Only"
+msgstr "Štart iba"
+
+#: GameEngine.py:231
+msgid "Start & End"
+msgstr "Start & Koniec"
+
+#: GameEngine.py:231
+msgid "Sets how and whether to render incoming solo necks. 'Start Only' will scroll it in but not out, while 'Start & End' does both."
+msgstr "Nastaví, ako a či k tomu, aby prichádzajúce sólo krky. 'Štart Only' bude vyhľadajte ho v, ale nie von, zatiaľ čo 'Start & Koniec' robí oboje."
+
+#: GameEngine.py:232
+msgid "Big Rock Endings"
+msgstr "Big Rock Endings"
+
+#: GameEngine.py:232
+msgid "Enable or disable big rock endings. 'By Theme' leaves it to the theme creator."
+msgstr "Povoliť alebo zakázať veľký kameň zakončenie. 'Podľa tém' ponecháva na tému tvorcov."
+
+#: GameEngine.py:233
+msgid "Main Neck"
+msgstr "Hlavné krku"
+
+#: GameEngine.py:233
+#, python-format
+msgid "Set the transparency of the main neck. 100% is fully visible."
+msgstr "Nastavte priehľadnosť hlavného krku. 100% je úplne viditeľná."
+
+#: GameEngine.py:234
+msgid "Solo Neck"
+msgstr "Sólo na krk"
+
+#: GameEngine.py:234
+#, python-format
+msgid "Set the transparency of the solo neck. 100% is fully visible."
+msgstr "Nastavte transparentnosť sólo krku. 100% je úplne viditeľná."
+
+#: GameEngine.py:235
+#, python-format
+msgid "Set the transparency of the bass groove neck. 100% is fully visible."
+msgstr "Nastavte transparentnosť basy Groove krku. 100% je úplne viditeľná."
+
+#: GameEngine.py:236
+msgid "Fail Neck"
+msgstr "Zlyhať krku"
+
+#: GameEngine.py:236
+#, python-format
+msgid "Set the transparency of the failing neck. 100% is fully visible."
+msgstr "Nastavte transparentnosť tým krku. 100% je úplne viditeľná."
+
+#: GameEngine.py:237
+msgid "Overlay Neck"
+msgstr "Overlay krku"
+
+#: GameEngine.py:237
+#, python-format
+msgid "Set the transparency of neck overlays. 100% is fully visible."
+msgstr "Nastavte transparentnosť krku presahmi. 100% je úplne viditeľná."
+
+#: GameEngine.py:238
+msgid "All Necks"
+msgstr "Všetky krky"
+
+#: GameEngine.py:238
+#, python-format
+msgid "Set the master transparency of all necks. 100% is fully visible."
+msgstr "Set Master transparentnosť všetkých hrdiel. 100% je úplne viditeľná."
+
+#: GameEngine.py:239
+msgid "Show Any Available Score"
+msgstr "Zobraziť Všetky dostupné skóre"
+
+#: GameEngine.py:239
+msgid "When set to 'On', this will look for any available score on the currently selected instrument for setlist score display, if one is not available at the chosen difficulty."
+msgstr "Ak je nastavené na 'On', bude hľadať všetky dostupné skóre na aktuálne vybraný nástroj pre Setlist skóre zobrazenie, ak nie je k dispozícii vo vybraných obtiažnosti."
+
+#: GameEngine.py:241
+msgid "Scroll Delay"
+msgstr "Prejdite Delay"
+
+#: GameEngine.py:241
+msgid "Sets how long, in milliseconds, to wait before beginning to scroll."
+msgstr "Nastavuje ako dlho, v milisekundách, čakať pred začatím navigačné."
+
+#: GameEngine.py:242
+msgid "Scroll Rate"
+msgstr "Prejdite Hodnotiť"
+
+#: GameEngine.py:242
+msgid "Sets how quickly menus will scroll."
+msgstr "Nastavuje, ako rýchlo sa bude navigačné menu."
+
+#: GameEngine.py:245
+msgid "Use (notes-unedited.mid)"
+msgstr "Použitie (poznámky-unedited.mid)"
+
+#: GameEngine.py:245
+msgid "Sets whether to look for (and use) a 'notes-unedited.mid' before 'notes.mid'. There's no reason to change this."
+msgstr "Nastaví, či hľadať (a použitie) 'konštatuje-unedited.mid' pred 'notes.mid'. Nie je dôvod, prečo túto situáciu zmeniť."
+
+#: GameEngine.py:246
+msgid "Show Fill Status"
+msgstr "Zobraziť Vyplňte Status"
+
+#: GameEngine.py:246
+msgid "When enabled, whether or not you are in a drum fill/freestyle ending will be displayed in text on the screen."
+msgstr "Ak je povolené, či ste alebo nie ste v bubne vyplniť / freestyle končí sa zobrazí text na obrazovke."
+
+#: GameEngine.py:247
+msgid "Show BPM"
+msgstr "Zobraziť BPM"
+
+#: GameEngine.py:247
+msgid "When enabled, the current song BPM will be shown on screen."
+msgstr "Keď je aktivovaný, bude aktuálne skladby BPM sa zobrazí na obrazovke."
+
+#: GameEngine.py:248
+msgid "New BPM Logic"
+msgstr "New BPM Logické"
+
+#: GameEngine.py:248
+msgid "If enabled, the game will attempt to use the new BPM logic. This is not a finished feature. Use at your own risk."
+msgstr "Ak je povolené, bude hra pokúsi využiť nové BPM logiku. To nie je hotové funkcie. Použite na vlastné riziko."
+
+#: GameEngine.py:249
+msgid "New Song Database Code"
+msgstr "New Song databázy zákonníka"
+
+#: GameEngine.py:249
+msgid "Activates the new, incomplete song database code."
+msgstr "Aktivuje nové, nekompletné song databázy kódu."
+
+#: GameEngine.py:251
+msgid "Show Raw Vocal Data"
+msgstr "Zobraziť Surový Vokálna Data"
+
+#: GameEngine.py:251
+msgid "If enabled, various information about the microphone input will be show in text on screen. Probably only needed for vocal debugging."
+msgstr "Ak je povolené, rôzne informácie o mikrofónový vstup bude show v texte na obrazovke. Pravdepodobne len potrebné pre vokálne ladenie."
+
+#: GameEngine.py:253
+msgid "Speed Factor"
+msgstr "Rýchlosť Factor"
+
+#: GameEngine.py:253
+msgid "1.00x"
+msgstr "1.00x"
+
+#: GameEngine.py:253
+msgid "0.75x"
+msgstr "0,75 x"
+
+#: GameEngine.py:253
+msgid "0.50x"
+msgstr "0.50x"
+
+#: GameEngine.py:253
+msgid "0.25x"
+msgstr "0.25x"
+
+#: GameEngine.py:253
+msgid "Sets the speed to play the audio at. Your score will be severely penalized if you slow the music down."
+msgstr "Nastaví rýchlosť prehrávania audio V. Vaše skóre bude prísne potrestaný, ak si pomaly hudbu."
+
+#: GameEngine.py:255
+msgid "Effects Mode"
+msgstr "Účinky režimu"
+
+#: GameEngine.py:255
+msgid "Killswitch"
+msgstr "Killswitch"
+
+#: GameEngine.py:255
+msgid "Pitchbend"
+msgstr "Pitchbend"
+
+#: GameEngine.py:255
+msgid "Sets whether to use a killswitch or pitchbend as the effect on your whammy."
+msgstr "Nastavuje či použiť Killswitch alebo pitchbend ako vplyv na vaše whammy."
+
+#: GameEngine.py:259
+msgid "Log INI Reads"
+msgstr "Log INI Čte"
+
+#: GameEngine.py:259
+msgid "Logs any read to an INI file. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Záznamy každý prečítať na súbore INI. To je zbytočné informácie v hlásení o chybách, prosím, nechajte vypnuté, ak ste si istí, že je relevantná."
+
+#: GameEngine.py:260
+msgid "Log Class Inits"
+msgstr "Log triedy Inits"
+
+#: GameEngine.py:260
+msgid "Logs most class initializations in '__init__'. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Záznamy väčšiny trieda inicializácia v '__init__'. To je zbytočné informácie v hlásení o chybách, prosím, nechajte vypnuté, ak ste si istí, že je relevantná."
+
+#: GameEngine.py:261
+msgid "Log Loadings"
+msgstr "Log zaťaženie"
+
+#: GameEngine.py:261
+msgid "Logs resource loads. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Záznamy zdroj zaťaženie. To je zbytočné informácie v hlásení o chybách, prosím, nechajte vypnuté, ak ste si istí, že je relevantná."
+
+#: GameEngine.py:262
+msgid "Log MIDI Sections"
+msgstr "Log MIDI sekcie"
+
+#: GameEngine.py:262
+msgid "Logs MIDI sections. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Záznamy MIDI sekciách. To je zbytočné informácie v hlásení o chybách, prosím, nechajte vypnuté, ak ste si istí, že je relevantná."
+
+#: GameEngine.py:263
+msgid "Log Undefined GETs"
+msgstr "Log Undefined GET"
+
+#: GameEngine.py:263
+msgid "Logs attempts to read an undefined config key. This is unnecessary information."
+msgstr "Záznamy sa pokúsi prečítať nedefinované config kľúč. To je zbytočné informácie."
+
+#: GameEngine.py:264
+msgid "Log Marker Notes"
+msgstr "Log Marker Poznámky"
+
+#: GameEngine.py:264
+msgid "Logs MIDI marker notes (solo, SP, etc). This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Záznamy MIDI marker poznámky (sólo, SP, atď). To je zbytočné informácie v hlásení o chybách, prosím, nechajte vypnuté, ak ste si istí, že je relevantná."
+
+#: GameEngine.py:265
+msgid "Log SP Misses"
+msgstr "Log SP slečny"
+
+#: GameEngine.py:265
+msgid "Logs SP phrase misses. This is unnecessary information."
+msgstr "Záznamy SP frázy mine. To je zbytočné informácie."
+
+#: GameEngine.py:266
+msgid "Log Unedited MIDIs"
+msgstr "Log neupravený MIDIs"
+
+#: GameEngine.py:266
+msgid "Logs when notes-unedited.mid is used. This is unnecessary information."
+msgstr "Záznamy pri uplatnení poznámky-unedited.mid. To je zbytočné informácie."
+
+#: GameEngine.py:267
+msgid "Log Lyric Events"
+msgstr "Log Lyrická Udalosti"
+
+#: GameEngine.py:267
+msgid "Logs MIDI lyric events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Záznamy MIDI text udalosti. To je zbytočné informácie v hlásení o chybách, prosím, nechajte vypnuté, ak ste si istí, že je relevantná."
+
+#: GameEngine.py:268
+msgid "Log Tempo Events"
+msgstr "Log Tempo udalostí"
+
+#: GameEngine.py:268
+msgid "Logs MIDI tempo events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Záznamy MIDI tempo udalostí. To je zbytočné informácie v hlásení o chybách, prosím, nechajte vypnuté, ak ste si istí, že je relevantná."
+
+#: GameEngine.py:269
+msgid "Log Missing Images"
+msgstr "Log Chýbajúce obrázky"
+
+#: GameEngine.py:269
+msgid "Only on single images"
+msgstr "Len na jednotlivé snímky"
+
+#: GameEngine.py:269
+msgid "Logs when files loaded are not found. 'Only on single images' skips logging when directories are loaded."
+msgstr "Záznamy, kedy sú nahraté súbory nebol nájdený. 'Iba v jedinom obrázky' vynechá protokolovanie pri nakládke adresára."
+
+#: GameEngine.py:274
+msgid "Practice Beat Claps"
+msgstr "Prax Beat Claps"
+
+#: GameEngine.py:274
+msgid "Enables clap sound effects on every beat in practice mode."
+msgstr "Umožňuje tlieskať zvukové efekty na každý úder v praxi režime."
+
+#: GameEngine.py:275
+msgid "Change Score Display"
+msgstr "Zmena skóre Display"
+
+#: GameEngine.py:275
+#: GameEngine.py:311
+msgid "Auto"
+msgstr "Auto"
+
+#: GameEngine.py:275
+msgid "Blue Fret (#4)"
+msgstr "Blue Fret (# 4)"
+
+#: GameEngine.py:275
+msgid "Sets whether to change the setlist high score difficulty automatically or with the fourth fret."
+msgstr "Nastaví, či k zmene Setlist vysoké skóre ťažkosti automaticky alebo sa štvrtú starosti."
+
+#: GameEngine.py:278
+msgid "Makes opponent miss notes until the whammy bar is pushed a few times"
+msgstr "Spôsobí, že súper berie na vedomie, miss, kým whammy bar je tlačil niekoľkokrát"
+
+#: GameEngine.py:279
+msgid "Difficulty Up"
+msgstr "Obtiažnosť hore"
+
+#: GameEngine.py:279
+msgid "Ups opponent's difficulty for a while (if not playing on Expert)"
+msgstr "Ups súperove ťažkosti na chvíľu (ne-li hrať na Expert)"
+
+#: GameEngine.py:280
+msgid "String Break"
+msgstr "Reťazec Break"
+
+#: GameEngine.py:280
+msgid "Breaks a string, causing your opponent to miss notes on that fret until they push the fret button several times."
+msgstr "Prestávky reťazec, spôsobuje súper nechať ujsť poznámky, že rozčuľovať, kým sa tlačí pražec tlačidlo niekoľkokrát."
+
+#: GameEngine.py:281
+msgid "Double Notes"
+msgstr "Dvojlôžková Poznámky"
+
+#: GameEngine.py:281
+msgid "Makes single notes into chords, and chords into even bigger ones."
+msgstr "Spôsobí, že jediné poznámky do akordy a akordy do ešte väčšej z nich."
+
+#: GameEngine.py:282
+msgid "Death Drain"
+msgstr "Death vypúšťací"
+
+#: GameEngine.py:282
+msgid "Sudden Death Only"
+msgstr "Náhlej smrti až"
+
+#: GameEngine.py:282
+msgid "Drains your opponents life until they die. 'Sudden Death Only' keeps this from appearing until you reach sudden death mode."
+msgstr "Prepady svojich protivníkov život, kým nezomrú. 'Sudden Death Only' udržiava túto objavilo, kým sa nedostanete náhlej smrti režimu."
+
+#: GameEngine.py:283
+msgid "Amp Overload"
+msgstr "Amp preťaženia"
+
+#: GameEngine.py:283
+msgid "Makes opponent's amp flip out, making notes disappear and reappear randomly."
+msgstr "Robí protivníka amp flip out, čo poznámky zmizne a znovu objaví náhodne."
+
+#: GameEngine.py:284
+msgid "Switch Controls"
+msgstr "Spínač"
+
+#: GameEngine.py:284
+msgid "Switches opponent to (or from) lefty mode for a bit!"
+msgstr "Prepínače odporcu (alebo z), ľavičiar režimu bit!"
+
+#: GameEngine.py:285
+msgid "Steal Object"
+msgstr "Ukradnúť objektu"
+
+#: GameEngine.py:285
+msgid "Steals an object your opponent has."
+msgstr "Kradne objekt svojho súpera má."
+
+#: GameEngine.py:286
+msgid "Guitar Tune"
+msgstr "Gitaru Ladenie"
+
+#: GameEngine.py:286
+msgid "Makes opponent miss all notes until they play a scale."
+msgstr "Spôsobí, že súper miss všetky poznámky, kým budú hrať stupnice."
+
+#: GameEngine.py:289
+msgid "Score SFX"
+msgstr "Prehľad SFX"
+
+#: GameEngine.py:289
+msgid "Sets whether or not to have Jurgen taunt (or, I suppose, congratulate) you at the end of a song."
+msgstr "Určuje, či mať alebo nemať Jurgen posmievať sa (alebo, ja predpokladám, blahoželám) si na konci skladby."
+
+#: GameEngine.py:290
+msgid "GH SP Lights"
+msgstr "GH SP Svetla"
+
+#: GameEngine.py:290
+msgid "Sets whether to fade images over the starpower bulbs in GH themes when fully lit."
+msgstr "Nastaví, či sa fade obrázky cez Starpower žiarovky v témach GH, kedy plne osvetlené."
+
+#: GameEngine.py:291
+msgid "RB Small 1x Multiplier"
+msgstr "RB Malé 1x Multiplikačný"
+
+#: GameEngine.py:291
+msgid "When enabled, RB-type themes will have a smaller mult image when the multiplier is at 1x. 'By Theme' leaves it to the theme creator."
+msgstr "Ak je povolené, RB-Type témy budú mať menšie mult obrazu, ak sa na násobiace je 1x. 'Podľa tém' ponecháva na tému tvorcov."
+
+#: GameEngine.py:292
+msgid "Board Speed Mode"
+msgstr "Odvolací režim SPEED"
+
+#: GameEngine.py:292
+#: GameEngine.py:344
+msgid "BPM"
+msgstr "BPM"
+
+#: GameEngine.py:292
+#: GameEngine.py:317
+#: GameEngine.py:344
+msgid "Difficulty"
+msgstr "Obtiaž"
+
+#: GameEngine.py:292
+#: GameEngine.py:344
+msgid "BPM & Diff"
+msgstr "BPM & Diff"
+
+#: GameEngine.py:292
+msgid "Percentage"
+msgstr "Percento"
+
+#: GameEngine.py:292
+msgid "Sets what determines the speed of the scrolling notes."
+msgstr "Nastaví to, čo určuje rýchlosť rolovanie poznámok."
+
+#: GameEngine.py:293
+msgid "Loading Phrases"
+msgstr "Loading frázy"
+
+#: GameEngine.py:293
+msgid "Sets whether or not to use loading phrases while loading a song"
+msgstr "Nastavuje, či používať ložné frázy pri nahrávaní piesne"
+
+#: GameEngine.py:294
+msgid "Effects Display Mode"
+msgstr "Účinky Režim zobrazenia"
+
+#: GameEngine.py:294
+msgid "Static"
+msgstr "Statický"
+
+#: GameEngine.py:294
+msgid "Animated"
+msgstr "Živý"
+
+#: GameEngine.py:294
+msgid "Sets whether or not the whammy effect is animated. (This is affected by the 'Performance' quickset)"
+msgstr "Určuje, či je alebo nie je animovaný whammy účinok. (To je ovplyvnená 'Výkon' živý plot)"
+
+#: GameEngine.py:295
+msgid "Show Filepath"
+msgstr "Zobraziť Filepath"
+
+#: GameEngine.py:295
+msgid "Show"
+msgstr "Ukázať"
+
+#: GameEngine.py:295
+msgid "Hide"
+msgstr "Skryť"
+
+#: GameEngine.py:295
+msgid "Sets whether or not to show the filepath of the song."
+msgstr "Nastaví, či sa ukázať filepath skladby."
+
+#: GameEngine.py:296
+msgid "3D Note Rotation"
+msgstr "3D Poznámka Rotation"
+
+#: GameEngine.py:296
+msgid "Old"
+msgstr "Starý"
+
+#: GameEngine.py:296
+msgid "New"
+msgstr "Nový"
+
+#: GameEngine.py:296
+msgid "Sets the manner of 3D Note Rotation."
+msgstr "Nastavuje spôsob 3D poznámky Rotation."
+
+#: GameEngine.py:297
+msgid "Show In-Game Text"
+msgstr "Zobraziť In-game Text"
+
+#: GameEngine.py:297
+msgid "Only Note Streaks"
+msgstr "Len poznámka Pruhy"
+
+#: GameEngine.py:297
+msgid "Sets whether or not to show text in-game. This includes note streaks and 'Starpower Ready'. (This is affected by the 'Performance' quickset)"
+msgstr "Nastaví, či zobrazovať text v-hra. To zahŕňa vedomie, pruhy a 'Starpower Ready'. (To je ovplyvnená 'Výkon' živý plot)"
+
+#: GameEngine.py:298
+msgid "Setlist Display Mode"
+msgstr "Setlist Režim zobrazenia"
+
+#: GameEngine.py:298
+msgid "List"
+msgstr "Zoznam"
+
+#: GameEngine.py:298
+msgid "List/CD"
+msgstr "List / CD"
+
+#: GameEngine.py:298
+msgid "Sets the setlist display mode. 'By Theme' lets the theme creator decide."
+msgstr "Nastavuje Setlist režimu zobrazenia. 'Podľa tém' lets tému tvorca rozhodnúť."
+
+#: GameEngine.py:299
+msgid "Use Subfolders"
+msgstr "Použite podzložky"
+
+#: GameEngine.py:299
+msgid "List All"
+msgstr "Zoznam všetkých"
+
+#: GameEngine.py:299
+msgid "'Normal' allows you to navigate folders. 'List All' places all songs into a single setlist."
+msgstr "'Normálny' vám umožňuje prechádzať zložky. 'Zoznam všetkých' objekty všetky pesničky do jedného Setlist."
+
+#: GameEngine.py:300
+msgid "Show Song Type Icons"
+msgstr "Zobraziť ikony Song Typ"
+
+#: GameEngine.py:300
+msgid "Sets whether or not to show icons indicating the song 'type'"
+msgstr "Nastaví, či chcete zobrazovať ikony song 'typ'"
+
+#: GameEngine.py:301
+msgid "Preload Song Labels"
+msgstr "Preload Song štítky"
+
+#: GameEngine.py:301
+msgid "Sets whether to preload all song labels on load. With large setlists, this option is extremely slow."
+msgstr "Nastaví, či preload všetky piesne štítkov na zaťaženie. S veľkými setlists, táto možnosť je veľmi pomalý."
+
+#: GameEngine.py:302
+msgid "Label Type"
+msgstr "Typ štítku"
+
+#: GameEngine.py:302
+msgid "CD Labels"
+msgstr "CD štítky"
+
+#: GameEngine.py:302
+msgid "Album Covers"
+msgstr "Album Obaly"
+
+#: GameEngine.py:302
+msgid "Sets whether to show CD labels or album covers as the art."
+msgstr "Nastaví, či chcete zobraziť CD etikety alebo obaly platní za umenie."
+
+#: GameEngine.py:303
+msgid "Rotating CDs"
+msgstr "Rotujúce CD"
+
+#: GameEngine.py:303
+msgid "Sets whether or not CDs rotate."
+msgstr "Nastaví, či CD otáčať."
+
+#: GameEngine.py:304
+msgid "Remember Play Count"
+msgstr "Pamätajte Play Počet"
+
+#: GameEngine.py:304
+msgid "Keeps track of how many times you've played each song."
+msgstr "Udržuje informácie o tom, koľkokrát ste hrali každý song."
+
+#: GameEngine.py:306
+msgid "Show at Song Start"
+msgstr "Zobraziť na Song Štart"
+
+#: GameEngine.py:306
+msgid "Part"
+msgstr "Časť"
+
+#: GameEngine.py:306
+msgid "Sets whether to show a countdown or your name and part at the song's start."
+msgstr "Nastaví, či chcete zobraziť odpočítavanie alebo Vaše meno a čiastočne na piesne štart."
+
+#: GameEngine.py:307
+msgid "Overdrive Neck"
+msgstr "Overdrive krku"
+
+#: GameEngine.py:307
+msgid "Sets the style of the Overdrive neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "Nastaví štýl Overdrive krku. 'Nahradiť' nahrádza krku so špeciálnym krk, zatiaľ čo 'Overlay' určuje krku cez vrchol."
+
+#: GameEngine.py:309
+msgid "Note Hit Window"
+msgstr "Poznámka: Hit Window"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:285
+msgid "Tightest"
+msgstr "Najužšiu"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:287
+msgid "Tight"
+msgstr "Tesný"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:289
+msgid "Wide"
+msgstr "Široký"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:291
+msgid "Widest"
+msgstr "Najširšiu"
+
+#: GameEngine.py:309
+msgid "Sets how accurate you need to be while playing."
+msgstr "Nastavuje, ako presne si treba pri hraní."
+
+#: GameEngine.py:311
+msgid "Early Hit Window"
+msgstr "Predčasné Hit Window"
+
+#: GameEngine.py:311
+msgid "None (RB2)"
+msgstr "Žiadna (RB2)"
+
+#: GameEngine.py:311
+msgid "Half (GH2)"
+msgstr "Half (GH2)"
+
+#: GameEngine.py:311
+msgid "Full (FoF)"
+msgstr "Full (FoF)"
+
+#: GameEngine.py:311
+msgid "Sets how much time before the note is part of the hit window. 'Auto' uses the MIDI to determine."
+msgstr "Nastavuje, koľko času pred poznámka je súčasťou hit okna. 'Auto' používa MIDI určiť."
+
+#: GameEngine.py:312
+msgid "Show Detailed Handicap"
+msgstr "Zobraziť detailné Handicap"
+
+#: GameEngine.py:312
+msgid "Shows the handicaps individually on the result screen."
+msgstr "Zobrazuje znevýhodnenia individuálne na výsledok obrazovke."
+
+#: GameEngine.py:315
+msgid "Disable Variable BPM"
+msgstr "Zakázať Variabilné BPM"
+
+#: GameEngine.py:315
+msgid "This will disable the use of the Variable BPM logic."
+msgstr "To zakázať používanie premenné BPM logiku."
+
+#: GameEngine.py:316
+msgid "Sort Direction"
+msgstr "Triediť Smer"
+
+#: GameEngine.py:316
+msgid "Ascending"
+msgstr "Vzostupne"
+
+#: GameEngine.py:316
+msgid "Descending"
+msgstr "Klesajúci"
+
+#: GameEngine.py:316
+msgid "Choose whether to sort in ascending (A-Z) or descending (Z-A) order."
+msgstr "Vyberte, či chcete radiť vzostupne (AZ) alebo zostupne (ZA) poradie."
+
+#: GameEngine.py:317
+msgid "Sort Setlist By"
+msgstr "Triediť podľa Setlist"
+
+#: GameEngine.py:317
+msgid "Title"
+msgstr "Názov"
+
+#: GameEngine.py:317
+msgid "Artist"
+msgstr "Umelec"
+
+#: GameEngine.py:317
+msgid "Times played"
+msgstr "Times hral"
+
+#: GameEngine.py:317
+msgid "Album"
+msgstr "Album"
+
+#: GameEngine.py:317
+msgid "Genre"
+msgstr "Žáner"
+
+#: GameEngine.py:317
+msgid "Year"
+msgstr "Rok"
+
+#: GameEngine.py:317
+msgid "Band Difficulty"
+msgstr "Obtiažnosť kapela"
+
+#: GameEngine.py:317
+msgid "Song Collection"
+msgstr "Song kolekcia"
+
+#: GameEngine.py:317
+msgid "Choose how to sort the setlist by default."
+msgstr "Vyberte si, ako triediť Setlist v predvolenom nastavení."
+
+#: GameEngine.py:318
+msgid "Whammy Changes Sort Order"
+msgstr "Whammy zmeny poradia"
+
+#: GameEngine.py:318
+msgid "When enabled, pressing the whammy bar will change the sort order in the setlist."
+msgstr "Ak je zapnutá, stlačením whammy bar sa zmení radenie na Setlist."
+
+#: GameEngine.py:319
+msgid "Point Of View"
+msgstr "Názor"
+
+#: GameEngine.py:319
+msgid "GH3"
+msgstr "GH3"
+
+#: GameEngine.py:319
+msgid "Rock Rev"
+msgstr "Rock Rev"
+
+#: GameEngine.py:319
+msgid "Sets the camera's point of view. Set it to any game, or set it to 'Theme' to leave it to the theme creator."
+msgstr "Nastaví fotoaparát pohľadu. Nastavte ju na akúkoľvek hru, alebo nastaviť na 'tému' to nechať na tému tvorcov."
+
+#: GameEngine.py:320
+msgid "Party Mode Timer"
+msgstr "Strana Režim Timer"
+
+#: GameEngine.py:320
+msgid "Sets the timer in Party Mode."
+msgstr "Nastaví časovač na strane režimu."
+
+#: GameEngine.py:321
+msgid "Show Setlist Size"
+msgstr "Zobraziť Setlist Veľkosť"
+
+#: GameEngine.py:321
+msgid "Show the number of songs inside of each setlist."
+msgstr "Zobraziť počet piesní vnútri každého Setlist."
+
+#: GameEngine.py:322
+msgid "CD Mode Y-Rotation"
+msgstr "CD Režim Y-Rotation"
+
+#: GameEngine.py:322
+#: GameEngine.py:351
+msgid "Enabled"
+msgstr "Povolené"
+
+#: GameEngine.py:322
+msgid "Sets whether or not CDs in the setlist rotate about the Y axis."
+msgstr "Nastaví, či CD v Setlist otáčať okolo osi Y."
+
+#: GameEngine.py:326
+msgid "P1 AI"
+msgstr "P1 AI"
+
+#: GameEngine.py:326
+msgid "Enable or disable the player 1 AI"
+msgstr "Povoliť alebo zakázať hráč 1 AI"
+
+#: GameEngine.py:327
+msgid "P1 AI Personality"
+msgstr "P1 AI osobnosti"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "1. KiD"
+msgstr "1. KID"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "2. Stump"
+msgstr "2. Peň"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "3. akedRobot"
+msgstr "3. akedRobot"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "4. Q"
+msgstr "4. Q"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "5. MFH"
+msgstr "5. MFH"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "6. Jurgen"
+msgstr "6. Jurgen"
+
+#: GameEngine.py:327
+msgid "Set the personality of the player 1 AI. The numbers correspond with their skill."
+msgstr "Set osobnosť hráča 1 AI. Čísla zodpovedajú ich zručnosti."
+
+#: GameEngine.py:328
+msgid "P1 AI Logic"
+msgstr "P1 AI Logické"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "Original"
+msgstr "Pôvodná"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-Early"
+msgstr "MFH-Predčasné"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-OnTime1"
+msgstr "MFH-OnTime1"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-OnTime2"
+msgstr "MFH-OnTime2"
+
+#: GameEngine.py:328
+msgid "Set the logic used for the player 1 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "Nastavenie logiky používané pre hráčov 1 AI. 'Pôvodný' nemôže zvládnuť rýchlo sekciách. 'MFH-starej' pokusy hit poznámky budú pri vstupe do hit okna. 'MFH-OnTime' sú implementácie, ktoré sa pokúšajú zasiahnuť poznámky k nim dochádza, rovnako ako Real Player."
+
+#: GameEngine.py:330
+msgid "P2 AI"
+msgstr "P2 AI"
+
+#: GameEngine.py:330
+msgid "Enable or disable the player 2 AI"
+msgstr "Povoliť alebo zakázať Hráč 2 AI"
+
+#: GameEngine.py:331
+msgid "P2 AI Personality"
+msgstr "P2 AI osobnosti"
+
+#: GameEngine.py:331
+msgid "Set the personality of the player 2 AI. The numbers correspond with their skill."
+msgstr "Set osobnosť hráča 2 AI. Čísla zodpovedajú ich zručnosti."
+
+#: GameEngine.py:332
+msgid "P2 AI Logic"
+msgstr "P2 AI Logické"
+
+#: GameEngine.py:332
+msgid "Set the logic used for the player 2 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "Nastavenie logiky pre hráčov 2 AI. 'Pôvodný' nemôže zvládnuť rýchlo sekciách. 'MFH-starej' pokusy hit poznámky budú pri vstupe do hit okna. 'MFH-OnTime' sú implementácie, ktoré sa pokúšajú zasiahnuť poznámky k nim dochádza, rovnako ako Real Player."
+
+#: GameEngine.py:334
+msgid "P3 AI"
+msgstr "P3 AI"
+
+#: GameEngine.py:334
+msgid "Enable or disable the player 3 AI"
+msgstr "Povoliť alebo zakázať hráč 3 AI"
+
+#: GameEngine.py:335
+msgid "P3 AI Personality"
+msgstr "P3 AI osobnosti"
+
+#: GameEngine.py:335
+msgid "Set the personality of the player 3 AI. The numbers correspond with their skill."
+msgstr "Set osobnosť hráča 3 AI. Čísla zodpovedajú ich zručnosti."
+
+#: GameEngine.py:336
+msgid "P3 AI Logic"
+msgstr "P3 AI Logické"
+
+#: GameEngine.py:336
+msgid "Set the logic used for the player 3 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "Nastavenie logiky používané pre hráčov 3 AI. 'Pôvodný' nemôže zvládnuť rýchlo sekciách. 'MFH-starej' pokusy hit poznámky budú pri vstupe do hit okna. 'MFH-OnTime' sú implementácie, ktoré sa pokúšajú zasiahnuť poznámky k nim dochádza, rovnako ako Real Player."
+
+#: GameEngine.py:338
+msgid "P4 AI"
+msgstr "P4 AI"
+
+#: GameEngine.py:338
+msgid "Enable or disable the player 4 AI"
+msgstr "Povoliť alebo zakázať Player 4 AI"
+
+#: GameEngine.py:339
+msgid "P4 AI Personality"
+msgstr "P4 AI osobnosti"
+
+#: GameEngine.py:339
+msgid "Set the personality of the player 4 AI. The numbers correspond with their skill."
+msgstr "Set osobnosť Player 4 AI. Čísla zodpovedajú ich zručnosti."
+
+#: GameEngine.py:340
+msgid "P4 AI Logic"
+msgstr "P4 AI Logické"
+
+#: GameEngine.py:340
+msgid "Set the logic used for the player 4 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "Nastavenie logiky používané pre hráčov 4 AI. 'Pôvodný' nemôže zvládnuť rýchlo sekciách. 'MFH-starej' pokusy hit poznámky budú pri vstupe do hit okna. 'MFH-OnTime' sú implementácie, ktoré sa pokúšajú zasiahnuť poznámky k nim dochádza, rovnako ako Real Player."
+
+#: GameEngine.py:343
+msgid "Lyric Display Mode"
+msgstr "Lyrická Režim zobrazenia"
+
+#: GameEngine.py:343
+msgid "Scrolling"
+msgstr "Rolovanie"
+
+#: GameEngine.py:343
+msgid "Simple Lines"
+msgstr "Jednoduché línie"
+
+#: GameEngine.py:343
+msgid "2-Line"
+msgstr "2-Line"
+
+#: GameEngine.py:343
+msgid "Sets the display mode for MIDI lyrics. Both 'Simple Lines' and '2-Line' will show as single phrases when playing the vocal part."
+msgstr "Nastavuje režim zobrazenia pre lyrics MIDI. Oba 'jednoduché línie' a '2-Line 'ukáže, ako jednu vetu pri prehrávaní vokálneho partiu."
+
+#: GameEngine.py:344
+msgid "Lyric Speed Mode"
+msgstr "Lyrická režim SPEED"
+
+#: GameEngine.py:344
+msgid "Sets what determines the speed of the scrolling lyrics."
+msgstr "Nastaví to, čo určuje rýchlosť rolovania textu."
+
+#: GameEngine.py:345
+msgid "Lyric Speed Percent"
+msgstr "Lyrická Rýchlosť percent"
+
+#: GameEngine.py:345
+msgid "Sets how quickly lyrics will scroll."
+msgstr "Nastavuje, ako rýchlo texty dôjde k posunu."
+
+#: GameEngine.py:351
+msgid "Graphical Submenus"
+msgstr "Grafické submenu"
+
+#: GameEngine.py:351
+msgid "Enable or disable the use of graphical submenus."
+msgstr "Povoliť alebo zakázať používanie grafického podponúk."
+
+#: GameEngine.py:354
+msgid "Crowd Cheers"
+msgstr "Crowd Na zdravie"
+
+#: GameEngine.py:354
+msgid "Off (Disabled)"
+msgstr "Off (vypnuté)"
+
+#: GameEngine.py:354
+msgid "During SP Only"
+msgstr "Počas SP iba"
+
+#: GameEngine.py:354
+msgid "During SP & Green"
+msgstr "Počas SP & Green"
+
+#: GameEngine.py:354
+msgid "Always On"
+msgstr "Vždy On"
+
+#: GameEngine.py:354
+msgid "Sets when the crowd will cheer for you (if a crowd.ogg is present). 'During SP' will have them sing along in star power, and 'During SP & Green' will have them cheering both in SP and when your rock meter is above 2/3"
+msgstr "Nastaví, keď sa ľudia budú fandiť na vás (ak crowd.ogg je prítomný). 'Počas SP' bude mať nimi zaspievať v hviezdnu silu, a 'Počas SP & Green' bude mať ich fandenia a to ako v SP, a keď sa rock meter vyššia ako 2 / 3"
+
+#: GameEngine.py:357
+msgid "Miss Volume"
+msgstr "Miss Objem"
+
+#: GameEngine.py:357
+msgid "Set the volume of the active track when you miss a note."
+msgstr "Nastavte hlasitosť aktívny dráhy, keď vynecháte poznámku."
+
+#: GameEngine.py:358
+msgid "Single Track Miss"
+msgstr "Jednu stopu Miss"
+
+#: GameEngine.py:358
+msgid "When playing a song with only a single track, this sets the volume of the track when you miss a note."
+msgstr "Pri prehrávaní skladby s iba jedinou trať, to nastavuje hlasitosť na trati, keď vynecháte poznámku."
+
+#: GameEngine.py:359
+msgid "Menu Volume"
+msgstr "Menu Objem"
+
+#: GameEngine.py:359
+msgid "Set the volume of the background menu music."
+msgstr "Nastavte hlasitosť hudby na pozadí menu."
+
+#: GameEngine.py:361
+msgid "Crowd Volume"
+msgstr "Objem Crowd"
+
+#: GameEngine.py:361
+msgid "Set the volume of the crowd."
+msgstr "Nastavte hlasitosť davu."
+
+#: GameEngine.py:363
+msgid "Kill Volume"
+msgstr "Zabi Objem"
+
+#: GameEngine.py:363
+msgid "Sets the volume when using the killswitch."
+msgstr "Nastavuje hlasitosť pri použití Killswitch."
+
+#: GameEngine.py:364
+msgid "SFX Volume"
+msgstr "SFX Objem"
+
+#: GameEngine.py:364
+msgid "Sets the volume of various sound effects."
+msgstr "Nastaví hlasitosť jednotlivých zvukových efektov."
+
+#: GameEngine.py:371
+msgid "Cache Song Metadata"
+msgstr "Cache Song Metaúdaje"
+
+#: GameEngine.py:371
+msgid "This will allow information about the songs to be stored for quick access later at the cost of a slow first time loading."
+msgstr "To umožní informácie o piesne má byť skladovaný pre rýchly prístup neskôr za cenu pomalého prvýkrát zaťaženia."
+
+#: GameEngine.py:399
+msgid "Sets the overall graphical feel of the game. You can find and download many more at fretsonfire.net"
+msgstr "Nastaví celkový grafický dojem z hry. Môžete si vyhľadať a stiahnuť mnoho ďalších na fretsonfire.net"
+
+#: GameEngine.py:404
+msgid "Board Speed Percent"
+msgstr "Odvolací Rýchlosť percent"
+
+#: GameEngine.py:404
+msgid "Sets how quickly note will scroll"
+msgstr "Nastavuje, ako rýchlo na vedomie, dôjde k posunu"
+
+#: GameEngine.py:405
+msgid "No Fail"
+msgstr "Č poruche"
+
+#: GameEngine.py:405
+msgid "Sets whether or not you can fail out of a song."
+msgstr "Určuje, či môžete alebo nemôžete zlyhať z piesne."
+
+#: GameEngine.py:409
+msgid "Difficulty (Setlist Score)"
+msgstr "Obtiažnosť (Setlist skóre)"
+
+#: GameEngine.py:409
+msgid "Sets the default difficulty displayed in the setlist score."
+msgstr "Prednastavenú obtiažnosť zobrazí Setlist skóre."
+
+#: GameEngine.py:410
+msgid "Show Additional Stats"
+msgstr "Zobraziť ďalšie Stats"
+
+#: GameEngine.py:410
+msgid "If enabled, additional score information (longest streak, percentage) is displayed on the setlist."
+msgstr "Ak je povolené, ďalšie skóre informácie (najdlhší pruh, percento) je zobrazený na Setlist."
+
+#: GameEngine.py:412
+msgid "Instrument (Setlist Score)"
+msgstr "Nástroj (Setlist skóre)"
+
+#: GameEngine.py:412
+msgid "Sets the default part displayed in the setlist score."
+msgstr "Nastaví predvolené časť zobrazená v Setlist skóre."
+
+#: GameEngine.py:674
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#: GameEngine.py:677
+#: GameEngine.py:691
+msgid "Animated Stage"
+msgstr "Animované etapa"
+
+#: GameResultsScene.py:121
+#: GameResultsScene.py:122
+msgid "Co-Op Mode"
+msgstr "Co-Op režime"
+
+#: GameResultsScene.py:124
+msgid "settings"
+msgstr "Nastavenie"
+
+#: GameResultsScene.py:125
+msgid "HOPOs"
+msgstr "HOPOs"
+
+#: GameResultsScene.py:126
+msgid "Hit Window"
+msgstr "Hit Window"
+
+#: GameResultsScene.py:127
+msgid "Adjusted Score Multiplier:"
+msgstr "Upravený skóre Multiplikačný:"
+
+#: GameResultsScene.py:128
+msgid "Original Score:"
+msgstr "Originálne skóre:"
+
+#: GameResultsScene.py:133
+#: GameResultsScene.py:140
+#: GameResultsScene.py:147
+msgid "Continue"
+msgstr "Pokračovať"
+
+#: GameResultsScene.py:134
+msgid "Replay Setlist"
+msgstr "Replay Setlist"
+
+#: GameResultsScene.py:136
+#: GameResultsScene.py:143
+#: GameResultsScene.py:150
+msgid "Quit"
+msgstr "Prestať"
+
+#: GameResultsScene.py:141
+msgid "Replay"
+msgstr "Replay"
+
+#: GameResultsScene.py:148
+msgid "End Setlist"
+msgstr "Koniec Setlist"
+
+#: GameResultsScene.py:165
+msgid "Relax, it was an excellent show."
+msgstr "Relax, to bola výborná show."
+
+#: GameResultsScene.py:167
+msgid "Truly Amazing!"
+msgstr "Naozaj úžasné!"
+
+#: GameResultsScene.py:169
+msgid "Thanks for playing!"
+msgstr "Vďaka za hranie!"
+
+#: GameResultsScene.py:171
+msgid "One more song can't hurt!"
+msgstr "Ešte jednu pieseň nemôže ublížiť!"
+
+#: GameResultsScene.py:173
+msgid "What an amazing performance!"
+msgstr "Čo úžasný výkon!"
+
+#: GameResultsScene.py:175
+msgid "That's how it's done!"
+msgstr "To je ako sa to robí!"
+
+#: GameResultsScene.py:248
+msgid "GH2 Sloppy"
+msgstr "GH2 Sloppy"
+
+#: GameResultsScene.py:258
+msgid "New System"
+msgstr "Nový systém"
+
+#: GameResultsScene.py:573
+#, python-format
+msgid "%d points is a new high score! Enter your name:"
+msgstr "%d bodov je nové vysoké skóre! Zadajte vaše meno:"
+
+#: GameResultsScene.py:1297
+#, python-format
+msgid "%s High Scores for %s"
+msgstr "%s vysokého skóre %s"
+
+#: GameResultsScene.py:1299
+#, python-format
+msgid "%s High Scores"
+msgstr "%s Nejvyššískóre"
+
+#: GameResultsScene.py:1305
+#, python-format
+msgid "Difficulty: %s"
+msgstr "Obtiažnosť: %s"
+
+#: GameResultsScene.py:1367
+msgid "Uploading Scores..."
+msgstr "Nahrávanie skóre ..."
+
+#: GameResultsScene.py:1372
+msgid "Scores uploaded!"
+msgstr "Skóre Vložené!"
+
+#: GameResultsScene.py:1376
+msgid "Your highscore ranks"
+msgstr "Vaša highscore radov"
+
+#: GameResultsScene.py:1377
+msgid "on the world starpower chart!"
+msgstr "na svetovom Starpower chart!"
+
+#: GameResultsScene.py:1380
+msgid "but your rank is unknown."
+msgstr "ale vaša hodnosť je neznáma."
+
+#: GameResultsScene.py:1383
+msgid "but there was no new highscore."
+msgstr "ale tam bol žiadne nové highscore."
+
+#: GameResultsScene.py:1386
+msgid "Score upload failed!  World charts may be down."
+msgstr "Prehľad upload failed! Svet máp môžu byť dole."
+
+#: GuitarScene.py:82
+#: GuitarScene.py:83
+msgid "Initializing..."
+msgstr "Začína ..."
+
+#: GuitarScene.py:497
+msgid "KiD"
+msgstr "KID"
+
+#: GuitarScene.py:497
+msgid "Stump"
+msgstr "Peň"
+
+#: GuitarScene.py:497
+msgid "AkedRobot"
+msgstr "AkedRobot"
+
+#: GuitarScene.py:497
+msgid "Q"
+msgstr "Q"
+
+#: GuitarScene.py:497
+msgid "MFH"
+msgstr "MFH"
+
+#: GuitarScene.py:497
+msgid "Jurgen"
+msgstr "Jurgen"
+
+#: GuitarScene.py:504
+msgid "Broken String"
+msgstr "Zlomené Reťazec"
+
+#: GuitarScene.py:506
+msgid "Powerup Steal"
+msgstr "PowerUp Ukradnúť"
+
+#: GuitarScene.py:510
+#, python-format
+msgid "%d Note Streak"
+msgstr "%d Poznámka: pruhu"
+
+#: GuitarScene.py:511
+#, python-format
+msgid "%d Phrase Streak"
+msgstr "%d frázy pruhu"
+
+#: GuitarScene.py:512
+#, python-format
+msgid "%s Ready"
+msgstr "%s Ready"
+
+#: GuitarScene.py:513
+#, python-format
+msgid "Activate %s!"
+msgstr "Aktivovať %s!"
+
+#: GuitarScene.py:514
+msgid "You Failed"
+msgstr "Zlyhali ste"
+
+#: GuitarScene.py:515
+#, python-format
+msgid "%s is here"
+msgstr "%s je tu"
+
+#: GuitarScene.py:516
+#, python-format
+msgid "%s was here"
+msgstr "%s bolo tu"
+
+#: GuitarScene.py:517
+msgid "% Complete"
+msgstr "% Hotovo"
+
+#: GuitarScene.py:518
+#: GuitarScene.py:5839
+msgid "HOPO"
+msgstr "HOPO"
+
+#: GuitarScene.py:519
+#: GuitarScene.py:5809
+#: GuitarScene.py:5818
+msgid "COMPLETED"
+msgstr "Completed"
+
+#: GuitarScene.py:520
+#: GuitarScene.py:5811
+#: GuitarScene.py:5827
+msgid " % ON "
+msgstr "ON%"
+
+#: GuitarScene.py:521
+msgid "BASS GROOVE"
+msgstr "BASS GROOVE"
+
+#: GuitarScene.py:522
+msgid "Bass Groove:"
+msgstr "Bass Groove:"
+
+#: GuitarScene.py:523
+msgid "Handicap"
+msgstr "Handicap"
+
+#: GuitarScene.py:524
+msgid "Avg"
+msgstr "Avg"
+
+#: GuitarScene.py:525
+msgid "Very Late"
+msgstr "Veľmi neskoro"
+
+#: GuitarScene.py:526
+msgid "Late"
+msgstr "Neskoro"
+
+#: GuitarScene.py:527
+msgid "Slightly Late"
+msgstr "Mierne Neskoré"
+
+#: GuitarScene.py:528
+msgid "-Excellent!"
+msgstr "-Vynikajúci!"
+
+#: GuitarScene.py:529
+msgid "Perfect!!"
+msgstr "Perfektné!"
+
+#: GuitarScene.py:530
+msgid "+Excellent!"
+msgstr "+ Výborná!"
+
+#: GuitarScene.py:531
+msgid "Slightly Early"
+msgstr "Mierne Predčasné"
+
+#: GuitarScene.py:534
+msgid "ms"
+msgstr "ms"
+
+#: GuitarScene.py:535
+msgid "Solo!"
+msgstr "Sólo!"
+
+#: GuitarScene.py:536
+msgid "Perfect Solo!"
+msgstr "Perfektné sólo!"
+
+#: GuitarScene.py:537
+msgid "Awesome Solo!"
+msgstr "Awesome Sólo!"
+
+#: GuitarScene.py:538
+msgid "Great Solo!"
+msgstr "Veľké sólo!"
+
+#: GuitarScene.py:539
+msgid "Good Solo!"
+msgstr "Dobrý Sólo!"
+
+#: GuitarScene.py:540
+msgid "Solid Solo!"
+msgstr "Pevné Sólo!"
+
+#: GuitarScene.py:541
+msgid "Okay Solo"
+msgstr "Dobre Sólo"
+
+#: GuitarScene.py:542
+msgid "Messy Solo"
+msgstr "Chaotický Sólo"
+
+#: GuitarScene.py:543
+msgid "pts"
+msgstr "bodov"
+
+#: GuitarScene.py:544
+msgid "Get Ready to Rock"
+msgstr "Pripravte sa na Rock"
+
+#: GuitarScene.py:545
+msgid "as made famous by"
+msgstr "ako je vyrobený slávny"
+
+#: GuitarScene.py:546
+msgid "by "
+msgstr "podľa"
+
+#: GuitarScene.py:547
+msgid " fretted by "
+msgstr "zlostil sa od"
+
+#: GuitarScene.py:890
+msgid "Loading Song..."
+msgstr "Loading Song ..."
+
+#: GuitarScene.py:900
+msgid "Preparing Note Phrases..."
+msgstr "Príprava Poznámka frázy ..."
+
+#: GuitarScene.py:1401
+msgid "Loading Graphics..."
+msgstr "Loading grafika ..."
+
+#: GuitarScene.py:1615
+msgid "         RESUME"
+msgstr "RESUME"
+
+#: GuitarScene.py:1616
+msgid "        RESTART"
+msgstr "RESTART"
+
+#: GuitarScene.py:1618
+msgid "       PRACTICE"
+msgstr "PRAX"
+
+#: GuitarScene.py:1619
+msgid "        OPTIONS"
+msgstr "VOĽBY"
+
+#: GuitarScene.py:1620
+#: GuitarScene.py:1629
+msgid "           QUIT"
+msgstr "QUIT"
+
+#: GuitarScene.py:1624
+msgid "        RESUME"
+msgstr "RESUME"
+
+#: GuitarScene.py:1625
+msgid "       RESTART"
+msgstr "RESTART"
+
+#: GuitarScene.py:1627
+msgid "      END SONG"
+msgstr "END SONG"
+
+#: GuitarScene.py:1628
+msgid "       OPTIONS"
+msgstr "VOĽBY"
+
+#: GuitarScene.py:1634
+#: GuitarScene.py:1641
+msgid "RETRY SONG"
+msgstr "RETRO SONG"
+
+#: GuitarScene.py:1635
+msgid "  PRACTICE"
+msgstr "PRAX"
+
+#: GuitarScene.py:1636
+#: GuitarScene.py:1642
+#: GuitarScene.py:1706
+#: GuitarScene.py:1713
+msgid " NEW SONG"
+msgstr "Nové piesne"
+
+#: GuitarScene.py:1637
+#: GuitarScene.py:1643
+msgid "     QUIT"
+msgstr "QUIT"
+
+#: GuitarScene.py:1650
+#: GuitarScene.py:1659
+msgid "  Resume"
+msgstr "Pokračovať"
+
+#: GuitarScene.py:1651
+#: GuitarScene.py:1660
+msgid "  Start Over"
+msgstr "Začať znova"
+
+#: GuitarScene.py:1652
+#: GuitarScene.py:1661
+msgid "  Change Song"
+msgstr "Zmena Song"
+
+#: GuitarScene.py:1653
+msgid "  Practice"
+msgstr "Prax"
+
+#: GuitarScene.py:1654
+#: GuitarScene.py:1663
+msgid "  Settings"
+msgstr "Nastavenie"
+
+#: GuitarScene.py:1655
+#: GuitarScene.py:1664
+msgid "  Quit to Main Menu"
+msgstr "Odísť na hlavné menu"
+
+#: GuitarScene.py:1662
+msgid "  End Song"
+msgstr "Koniec Song"
+
+#: GuitarScene.py:1669
+#: GuitarScene.py:1676
+msgid " Try Again?"
+msgstr "Skúste to znova?"
+
+#: GuitarScene.py:1670
+#: GuitarScene.py:1677
+msgid "  Give Up?"
+msgstr "Vzdať?"
+
+#: GuitarScene.py:1671
+msgid "  Practice?"
+msgstr "Praxi?"
+
+#: GuitarScene.py:1672
+#: GuitarScene.py:1678
+msgid "Quit to Main"
+msgstr "Odísť na hlavnú"
+
+#: GuitarScene.py:1686
+#: GuitarScene.py:1695
+msgid "   RESUME"
+msgstr "RESUME"
+
+#: GuitarScene.py:1687
+#: GuitarScene.py:1696
+msgid "   RESTART"
+msgstr "RESTART"
+
+#: GuitarScene.py:1688
+#: GuitarScene.py:1697
+msgid "   CHANGE SONG"
+msgstr "CHANGE SONG"
+
+#: GuitarScene.py:1689
+msgid "   PRACTICE"
+msgstr "PRAX"
+
+#: GuitarScene.py:1690
+#: GuitarScene.py:1699
+msgid "   SETTINGS"
+msgstr "NASTAVENIE"
+
+#: GuitarScene.py:1691
+#: GuitarScene.py:1700
+msgid "   QUIT"
+msgstr "QUIT"
+
+#: GuitarScene.py:1698
+msgid "   END SONG"
+msgstr "END SONG"
+
+#: GuitarScene.py:1705
+#: GuitarScene.py:1712
+msgid " RETRY"
+msgstr "RETRO"
+
+#: GuitarScene.py:1707
+msgid " PRACTICE"
+msgstr "PRAX"
+
+#: GuitarScene.py:1708
+#: GuitarScene.py:1714
+msgid " QUIT"
+msgstr "QUIT"
+
+#: GuitarScene.py:6488
+#, python-format
+msgid "FPS: %.2f"
+msgstr "FPS: %.2f"
+
+#: Language.py:62
+msgid "Language"
+msgstr "Jazyk"
+
+#: Language.py:62
+msgid "Change the game language!"
+msgstr "Zmeňte hru jazyk!"
+
+#: Lobby.py:39
+#: MainMenu.py:294
+msgid "Your controls are not properly set up for this mode. Please check your settings."
+msgstr "Vaša kontroly nie sú správne nastaviť pre tento režim. Skontrolujte prosím svoje nastavenia."
+
+#: Lobby.py:43
+msgid "World error. Please try again."
+msgstr "Svet chyba. Prosím skúste to znova."
+
+#: Lobby.py:167
+msgid "Choose Your Character"
+msgstr "Vyberte si svoju povahu"
+
+#: Lobby.py:168
+#: Lobby.py:750
+#, python-format
+msgid "Player %d"
+msgstr "Player %d"
+
+#: Lobby.py:170
+msgid "Regular Drums"
+msgstr "Pravidelné Drums"
+
+#: Lobby.py:170
+msgid "Flipped Drums"
+msgstr "Prevrátený Drums"
+
+#: Lobby.py:171
+msgid "Pedal-Using"
+msgstr "Pedál-Použitie"
+
+#: Lobby.py:171
+msgid "Footless"
+msgstr "Beznohý"
+
+#: Lobby.py:172
+msgid "Assist Mode Off"
+msgstr "Assist Režim vypnutia"
+
+#: Lobby.py:172
+#: Lobby.py:503
+#: Player.py:211
+msgid "Easy Assist"
+msgstr "Easy Assist"
+
+#: Lobby.py:172
+#: Lobby.py:503
+#: Player.py:211
+msgid "Medium Assist"
+msgstr "Medium Assist"
+
+#: Lobby.py:173
+msgid "Chordmaster"
+msgstr "Chordmaster"
+
+#: Lobby.py:173
+msgid "Two Notes Max"
+msgstr "Dve poznámky Max"
+
+#: Lobby.py:174
+msgid "Information:"
+msgstr "Informácie:"
+
+#: Lobby.py:188
+msgid "Create New Player"
+msgstr "Vytvoriť nový prehrávač"
+
+#: Lobby.py:188
+msgid "Saved Characters"
+msgstr "Uložené Postavy"
+
+#: Lobby.py:502
+#: Player.py:207
+msgid "Default Neck"
+msgstr "Východiskové krku"
+
+#: Lobby.py:502
+#: Player.py:207
+msgid "Theme Neck"
+msgstr "Téma krku"
+
+#: Lobby.py:502
+msgid "Select a Neck"
+msgstr "Vyberte krku"
+
+#: Lobby.py:504
+msgid "Name"
+msgstr "Meno"
+
+#: Lobby.py:504
+msgid "Name your character!"
+msgstr "Meno vašej postavy!"
+
+#: Lobby.py:505
+#: Player.py:208
+msgid "Lefty Mode"
+msgstr "Lefty režim"
+
+#: Lobby.py:505
+msgid "Flip the guitar frets for left-handed playing!"
+msgstr "Flip gitara pražcov pre levoruký hrať!"
+
+#: Lobby.py:506
+#: Player.py:209
+msgid "Drum Flip"
+msgstr "Drum Fanda"
+
+#: Lobby.py:506
+msgid "Flip the drum sounds - snare becomes crash, and so on"
+msgstr "Flip bicích zvukov - snare stane havárie, a tak ďalej"
+
+#: Lobby.py:507
+msgid "Auto-Kick Bass"
+msgstr "Auto-Kick Bass"
+
+#: Lobby.py:507
+msgid "Feet uncooperative? Broke your pedal? Not to worry!"
+msgstr "Nohy nespolupracujúce? Zlomila pedál? Nie je sa čoho báť!"
+
+#: Lobby.py:508
+#: Player.py:211
+msgid "Assist Mode"
+msgstr "Assist Režim"
+
+#: Lobby.py:508
+msgid "Play hard and expert, even when you're not that good!"
+msgstr "Play tvrdé a expert, aj keď nie ste, že dobré!"
+
+#: Lobby.py:509
+#: Player.py:190
+#: Player.py:210
+msgid "Two-Chord Max"
+msgstr "Dva-Chord Max"
+
+#: Lobby.py:509
+msgid "For those still playing with uncooperative keyboards."
+msgstr "Pre tých, stále hrá s nespolupracujúce klávesnice."
+
+#: Lobby.py:510
+msgid "Give the endless procession of notes a bit of flair!"
+msgstr "Dajte nekonečný sprievod zápisníka trochu zmysel!"
+
+#: Lobby.py:511
+msgid "Upload Name"
+msgstr "Upload Názov"
+
+#: Lobby.py:511
+msgid "To the internet, you are GUITARGOD23047124!"
+msgstr "K internetu, ste GUITARGOD23047124!"
+
+#: Lobby.py:512
+msgid "Choose Avatar"
+msgstr "Vyberte Avatar"
+
+#: Lobby.py:512
+msgid "A 256x256 window into your soul."
+msgstr "256x256 okno do tvojej duše."
+
+#: Lobby.py:513
+msgid "Delete Character"
+msgstr "Zmazanie znaku"
+
+#: Lobby.py:513
+msgid "Quitter."
+msgstr "Predčasne sa vzdávající osoba."
+
+#: Lobby.py:514
+msgid "Done"
+msgstr "Hotovo"
+
+#: Lobby.py:514
+msgid "All finished? Let's do this thing!"
+msgstr "Všetky hotové? Poďme si túto vec!"
+
+#: Lobby.py:549
+msgid "Are you sure you want to delete this player?"
+msgstr "Ste si istí, že chcete zmazať tento prehrávač?"
+
+#: Lobby.py:560
+msgid "That is a terrible name. Choose something not 'default'"
+msgstr "To je hrozné meno. Vyberte si niečo, čo nie je 'default'"
+
+#: Lobby.py:575
+msgid "That name already exists!"
+msgstr "To meno už existuje!"
+
+#: Lobby.py:577
+msgid "Please enter a name!"
+msgstr "Prosím, zadajte meno!"
+
+#: MainMenu.py:150
+msgid "Tutorials"
+msgstr "Návody"
+
+#: MainMenu.py:151
+msgid "Practice"
+msgstr "Prax"
+
+#: MainMenu.py:165
+msgid "Face-Off"
+msgstr "Face-vypnuté"
+
+#: MainMenu.py:166
+msgid "Pro Face-Off"
+msgstr "Pre Face-vypnuté"
+
+#: MainMenu.py:167
+msgid "Party Mode"
+msgstr "Strana režim"
+
+#: MainMenu.py:168
+msgid "FoFiX Co-Op"
+msgstr "FoFiX Co-Op"
+
+#: MainMenu.py:169
+msgid "RB Co-Op"
+msgstr "RB Co-Op"
+
+#: MainMenu.py:170
+msgid "GH Co-Op"
+msgstr "GH Co-Op"
+
+#: MainMenu.py:171
+msgid "GH Battle"
+msgstr "GH Battle"
+
+#: MainMenu.py:188
+msgid "Solo Tour"
+msgstr "Sólové turné"
+
+#: MainMenu.py:189
+msgid "Quickplay"
+msgstr "QuickPlay"
+
+#: MainMenu.py:236
+#, python-format
+msgid "This binary release is being run from a %(currentVcs)s working copy. This is not the correct way to run FoFiX from %(currentVcs)s. Please see one of the following web pages to set your %(currentVcs)s working copy up correctly:"
+msgstr "Táto binárna verzia je spustiť z %(currentVcs)s pracovnej kópie. To nie je správny spôsob, ako spúšťať FoFiX od %(currentVcs)s. Prečítajte si prosím jeden z týchto webových stránok nastaviť %(currentVcs)s pracovnej kópie až správne:"
+
+#: MainMenu.py:240
+#, python-format
+msgid "This binary was built from a %(buildVcs)s working copy but is not running from one. The FoFiX Team will not provide any support whatsoever for this binary. Please see the following site for official binary releases:"
+msgstr "Táto binárne bola postavená z %(buildVcs)s pracovnú kópiu, ale nie je spustený z jedného. FoFiX tím nebude poskytovať žiadnu podporu vôbec pre túto binárne. Nájdete na nasledujúcich webových stránkach pre oficiálnu binárne správy:"
+
+#: MainMenu.py:312
+msgid "No tutorials found!"
+msgstr "Nie návody neboli nájdené!"
+
+#: Microphone.py:50
+msgid "[Default Microphone]"
+msgstr "[Predvolené mikrofón]"
+
+#: Microphone.py:183
+msgid "[Microphones not supported]"
+msgstr "[Mikrofóny nie sú podporované]"
+
+#: Player.py:169
+msgid "Name your controller."
+msgstr "Názov vašej radič."
+
+#: Player.py:170
+msgid "Move left"
+msgstr "Presunúť doľava"
+
+#: Player.py:171
+msgid "Move right"
+msgstr "Presunúť vpravo"
+
+#: Player.py:172
+msgid "Move up"
+msgstr "Posunúť hore"
+
+#: Player.py:173
+msgid "Move down"
+msgstr "Presunúť nadol"
+
+#: Player.py:174
+msgid "Pick"
+msgstr "Výber"
+
+#: Player.py:175
+msgid "Secondary Pick"
+msgstr "Sekundárne Vyberte"
+
+#: Player.py:175
+msgid "Bass Drum 2"
+msgstr "Bass Drum 2"
+
+#: Player.py:181
+msgid "Solo Fret #1"
+msgstr "Jednotlivec Fret # 1"
+
+#: Player.py:181
+msgid "Solo Key"
+msgstr "Sólo Key"
+
+#: Player.py:181
+#: Player.py:196
+msgid "Analog Slider"
+msgstr "Analóg Slider"
+
+#: Player.py:182
+msgid "Solo Fret #2"
+msgstr "Jednotlivec Fret # 2"
+
+#: Player.py:183
+msgid "Solo Fret #3"
+msgstr "Jednotlivec Fret # 3"
+
+#: Player.py:184
+msgid "Solo Fret #4"
+msgstr "Jednotlivec Fret # 4"
+
+#: Player.py:185
+msgid "Solo Fret #5"
+msgstr "Sólo Fret # 5"
+
+#: Player.py:186
+msgid "Cancel"
+msgstr "Zrušiť"
+
+#: Player.py:187
+msgid "StarPower"
+msgstr "Starpower"
+
+#: Player.py:190
+msgid "When enabled, the highest notes in large note chords are auto-played."
+msgstr "Ak je povolené, čo je najvyššia poznámky vo veľkých Poznámka akordov sú auto-hral."
+
+#: Player.py:191
+msgid "Controller Type"
+msgstr "Typ ovládača"
+
+#: Player.py:191
+msgid "Standard Guitar"
+msgstr "Standard gitara"
+
+#: Player.py:191
+msgid "Solo Shift Guitar"
+msgstr "Sólo Shift gitara"
+
+#: Player.py:191
+msgid "Drum Set (4-Drum)"
+msgstr "Drum Set (4-valec)"
+
+#: Player.py:191
+msgid "Analog Slide Guitar"
+msgstr "Analóg slide gitaru"
+
+#: Player.py:191
+msgid "Microphone"
+msgstr "Mikrofón"
+
+#: Player.py:191
+msgid "'Standard Guitar' is for keyboards and pre-WT GH-series guitars. 'Solo Shift Guitar' is for RB-series guitars and keyboards who want to use a shift key for solo frets. 'Analog Slide Guitar' is for guitars with an analog slider bar."
+msgstr "'Standard gitara' je pre klávesnice a pre-WT-GH séria gitár. 'Sólo gitara Shift' je pre RB-séria gitary a klávesy, ktorí chcú použiť kláves shift pre sólové pražcov. 'Analog slide gitaru' je pre gitary s analógovým posuvník."
+
+#: Player.py:192
+msgid "Analog SP"
+msgstr "Analog SP"
+
+#: Player.py:192
+msgid "Enables analog SP (as in the XBOX Xplorer controller.)"
+msgstr "Umožňuje analógové SP (ako je v regulátora XBOX Xplorer.)"
+
+#: Player.py:193
+msgid "Analog SP Threshold"
+msgstr "Analog SP Threshold"
+
+#: Player.py:193
+msgid "Sets a threshold level for activating SP in analog mode."
+msgstr "Nastavuje prahové hodnoty pre aktiváciu SP v analógový režim."
+
+#: Player.py:194
+msgid "Analog SP Sensitivity"
+msgstr "Analog SP Citlivosť"
+
+#: Player.py:194
+msgid "Sets the sensitivity for activating SP in analog mode."
+msgstr "Nastavenie citlivosti pre aktiváciu SP v analógovom režime."
+
+#: Player.py:195
+msgid "Analog Drums"
+msgstr "Analóg Drums"
+
+#: Player.py:195
+#: Player.py:197
+msgid "PS2/PS3/Wii"
+msgstr "PS2/PS3/Wii"
+
+#: Player.py:195
+#: Player.py:197
+msgid "XBOX"
+msgstr "XBOX"
+
+#: Player.py:195
+#: Player.py:197
+msgid "XBOX Inv."
+msgstr "XBOX Inv."
+
+#: Player.py:195
+msgid "Enables analog drums as in RB2 and GH drumsets."
+msgstr "Umožňuje analógové bicie ako v RB2 a GH drumsets."
+
+#: Player.py:196
+msgid "Inverted"
+msgstr "Inverted"
+
+#: Player.py:196
+msgid "Experimental testing for the analog slide mode."
+msgstr "Experimentálne testovanie na analógový snímku režimu."
+
+#: Player.py:197
+msgid "Analog Effects"
+msgstr "Analógové efekty"
+
+#: Player.py:197
+msgid "Enables analog whammy bar. Set to the system your controller was designed for."
+msgstr "Umožňuje analógové whammy bar. Set k systému Váš regulátor bol navrhnutý pre."
+
+#: Player.py:198
+msgid "Sound FX Switch"
+msgstr "Sound FX prepínač"
+
+#: Player.py:198
+msgid "Switch"
+msgstr "Prepínač"
+
+#: Player.py:198
+msgid "Cycle"
+msgstr "Cyklus"
+
+#: Player.py:199
+msgid "Microphone Device"
+msgstr "Mikrofón zariadenia"
+
+#: Player.py:200
+msgid "Tap Sensitivity"
+msgstr "Poklepte na citlivosť"
+
+#: Player.py:200
+msgid "Sets how sensitive the microphone is to being tapped."
+msgstr "Nastavuje ako citlivý mikrofón je vývoja."
+
+#: Player.py:201
+msgid "Passthrough Volume"
+msgstr "Passthrough Objem"
+
+#: Player.py:201
+msgid "Sets how loud you hear yourself singing."
+msgstr "Nastavuje, ako hlasno počujete sami spievať."
+
+#: Player.py:207
+msgid "Neck Type"
+msgstr "Krk typu"
+
+#: Player.py:207
+msgid "Specific Neck"
+msgstr "Osobitné krku"
+
+#: Player.py:212
+msgid "Auto Kick"
+msgstr "Auto Kick"
+
+#: Player.py:385
+msgid "Default Drum"
+msgstr "Východiskové Drum"
+
+#: Player.py:390
+#, python-format
+msgid "Controller %d"
+msgstr "Radič %d"
+
+#: Player.py:391
+#, python-format
+msgid "Select the controller for slot %d"
+msgstr "Vyberte radič pre slot %d"
+
+#: Player.py:754
+#, python-format
+msgid "%s conflicts with %s"
+msgstr "%s je v rozpore s %s"
+
+#: Player.py:842
+#, python-format
+msgid "This key conflicts with the following keys: %s"
+msgstr "Tento kľúč je v rozpore s nasledujúce tlačidlá: %s"
+
+#: Scorekeeper.py:30
+msgid "Auto Kick Bass"
+msgstr "Auto Kick Bass"
+
+#: Scorekeeper.py:30
+msgid "Medium Assist Mode"
+msgstr "Medium Assist Režim"
+
+#: Scorekeeper.py:30
+msgid "Easy Assist Mode"
+msgstr "Easy Assist Režim"
+
+#: Scorekeeper.py:30
+msgid "Jurgen Played!"
+msgstr "Jurgen prehrať!"
+
+#: Scorekeeper.py:31
+msgid "Effects Saved SP"
+msgstr "Účinky Uložené SP"
+
+#: Scorekeeper.py:31
+msgid "All Tapping"
+msgstr "Všetky Výčapné"
+
+#: Scorekeeper.py:31
+msgid "HOPO Frequency: Most"
+msgstr "HOPO Frekvencia: Most"
+
+#: Scorekeeper.py:31
+msgid "HOPO Frequency: Even More"
+msgstr "HOPO Frekvencia: ešte"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: More"
+msgstr "HOPO Frekvencia: Viac"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: Less"
+msgstr "HOPO Frekvencia: Menej"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: Least"
+msgstr "HOPO Frekvencia: Najmenej"
+
+#: Scorekeeper.py:32
+msgid "HOPO Disabled!"
+msgstr "HOPO zakázaný!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Tightest!"
+msgstr "Hit Window: najužšiu!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Tight!"
+msgstr "Hit Window: Tesné!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Wider"
+msgstr "Hit Window: \"Širšia"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Widest"
+msgstr "Hit Window: Najširší"
+
+#: Scorekeeper.py:34
+msgid "Two Note Chords"
+msgstr "Dve poznámky Akordy"
+
+#: Scorekeeper.py:34
+msgid "No Fail Mode"
+msgstr "Č poruche režim"
+
+#: Scorekeeper.py:34
+msgid "Sloppy Mode!"
+msgstr "Nedbanlivý Mode!"
+
+#: Scorekeeper.py:35
+msgid "Song Slowdown"
+msgstr "Song Spomalenie"
+
+#: Scorekeeper.py:35
+msgid "Early Hit Window Adjustment"
+msgstr "Predčasné Hit Window prispôsobenie"
+
+#: Settings.py:250
+#, python-format
+msgid "Press a key for '%s' or hold Escape to disable."
+msgstr "Stlačte tlačidlo pre '%s 'alebo držať Escape vypnúť."
+
+#: Settings.py:252
+#, python-format
+msgid "Press a key for '%s' or hold Escape to cancel."
+msgstr "Stlačte tlačidlo pre '%s 'alebo držať Escape zrušiť."
+
+#: Settings.py:302
+msgid "No Controllers Found."
+msgstr "Č Radiče Found."
+
+#: Settings.py:350
+msgid "Are you sure you want to delete this controller?"
+msgstr "Ste si istí, že chcete zmazať tento radič?"
+
+#: Settings.py:374
+msgid "Please name your controller"
+msgstr "Prosím, meno váš správca"
+
+#: Settings.py:376
+#: Settings.py:626
+msgid "That name is already taken."
+msgstr "Tento názov je už prijatá."
+
+#: Settings.py:378
+#: Settings.py:628
+msgid "Canceled."
+msgstr "Zrušená."
+
+#: Settings.py:450
+#: Settings.py:487
+#: Settings.py:517
+#: Settings.py:546
+#: Settings.py:584
+#: Settings.py:612
+msgid "Rename Controller"
+msgstr "Premenovanie radiče"
+
+#: Settings.py:473
+msgid "Press the solo shift key. Be sure to assign the frets first! Hold Escape to cancel."
+msgstr "Stlačte sólo Shift. Uistite sa, že priradiť pražcov prvý! Hold Escape zrušiť."
+
+#: Settings.py:569
+msgid "Press the highest fret on the slider. Hold Escape to cancel."
+msgstr "Stlačte najvyššej pražec na posúvač. Hold Escape zrušiť."
+
+#: Settings.py:624
+msgid "Please rename your controller"
+msgstr "Prosím premenujte váš správca"
+
+#: Settings.py:752
+msgid "Battle Objects"
+msgstr "Battle Objekty"
+
+#: Settings.py:752
+msgid "Set which objects can appear in Battle Mode"
+msgstr "Set, ktoré objekty sa môžu objaviť v Battle móde"
+
+#: Settings.py:767
+msgid "Advanced Gameplay Settings"
+msgstr "Rozšírené herných nastavenie"
+
+#: Settings.py:767
+msgid "Set advanced gameplay settings that affect the game rules."
+msgstr "Určenie vyspelých herných nastavení, ktoré ovplyvňujú pravidlá hry."
+
+#: Settings.py:768
+msgid "Vocal Mode Settings"
+msgstr "Vokálne Nastavenie režimu"
+
+#: Settings.py:768
+msgid "Change settings that affect lyrics and in-game vocals."
+msgstr "Zmeniť nastavenia, ktoré ovplyvňujú texty a in-hra vokály."
+
+#: Settings.py:769
+msgid "HO/PO Settings"
+msgstr "HO / PO Nastavenie"
+
+#: Settings.py:769
+msgid "Change settings that affect hammer-ons and pull-offs (HO/PO)."
+msgstr "Zmeniť nastavenia, ktoré ovplyvňujú kladivo-ons a ťahať-offs (HO / PO)."
+
+#: Settings.py:770
+msgid "Battle Settings"
+msgstr "Battle Nastavenia"
+
+#: Settings.py:770
+msgid "Change settings that affect battle mode."
+msgstr "Zmena nastavení, ktoré ovplyvnia bitku režimu."
+
+#: Settings.py:776
+#: Settings.py:1218
+msgid "Test Controller 1"
+msgstr "Test kontroléru 1"
+
+#: Settings.py:776
+#: Settings.py:1218
+msgid "Test the controller configured for slot 1."
+msgstr "Test regulátor nakonfigurovaný pre slot 1."
+
+#: Settings.py:777
+#: Settings.py:1219
+msgid "Test Controller 2"
+msgstr "Radiče testu 2"
+
+#: Settings.py:777
+#: Settings.py:1219
+msgid "Test the controller configured for slot 2."
+msgstr "Test regulátor nakonfigurovaný pre slot 2."
+
+#: Settings.py:778
+#: Settings.py:1220
+msgid "Test Controller 3"
+msgstr "Test radič 3"
+
+#: Settings.py:778
+#: Settings.py:1220
+msgid "Test the controller configured for slot 3."
+msgstr "Test regulátor nakonfigurovaný pre slot 3."
+
+#: Settings.py:779
+#: Settings.py:1221
+msgid "Test Controller 4"
+msgstr "Radiče testu 4"
+
+#: Settings.py:779
+#: Settings.py:1221
+msgid "Test the controller configured for slot 4."
+msgstr "Test regulátor nakonfigurovaný pre slot 4."
+
+#: Settings.py:818
+msgid "More Effects"
+msgstr "Ďalšie efekty"
+
+#: Settings.py:818
+msgid "Change the settings of the shader system."
+msgstr "Zmena nastavení shader systému."
+
+#: Settings.py:834
+msgid "Change Neck Transparency"
+msgstr "Zmena krku Transparentnosť"
+
+#: Settings.py:834
+msgid "Change the transparency of the various in-game necks."
+msgstr "Zmeniť transparentnosť rôznych in-hra krky."
+
+#: Settings.py:847
+msgid "Theme Display Settings"
+msgstr "Téma Nastavenia displeja"
+
+#: Settings.py:847
+msgid "Change settings that only affect certain theme types."
+msgstr "Zmena nastavenia, ktoré majú vplyv iba na určitú tému typy."
+
+#: Settings.py:866
+#: Settings.py:1239
+msgid "Video Resolution"
+msgstr "Video rozlíšenie"
+
+#: Settings.py:866
+#: Settings.py:1239
+msgid "Set the resolution of the game. In windowed mode, higher values mean a larger screen."
+msgstr "Nastavte rozlíšenie hry. V režime okná, vyššie hodnoty znamenajú väčšej obrazovke."
+
+#: Settings.py:873
+msgid "Stages Options"
+msgstr "Etapy Možnosti"
+
+#: Settings.py:873
+msgid "Change settings related to the in-game background."
+msgstr "Zmeniť nastavenia týkajúce sa in-hra na pozadí."
+
+#: Settings.py:874
+#: Settings.py:1246
+msgid "Choose Default Neck >"
+msgstr "Vyberte Predvolené krk>"
+
+#: Settings.py:874
+#: Settings.py:1246
+msgid "Choose your default neck. You still have to choose which neck you use for your character in the character select screen."
+msgstr "Vyberte si predvolenú krk. Stále máte vybrať, ktorý krk používate pre svoju postavu v znaku vyberte obrazovke."
+
+#: Settings.py:875
+msgid "Fretboard Settings"
+msgstr "Hmatník Nastavenia"
+
+#: Settings.py:875
+msgid "Change settings related to the fretboard."
+msgstr "Zmena nastavenia súvisiace s hmatníkom."
+
+#: Settings.py:876
+#: Settings.py:1247
+msgid "In-Game Display Settings"
+msgstr "In-game nastavenie displeja"
+
+#: Settings.py:876
+#: Settings.py:1247
+msgid "Change what and where things appear in-game."
+msgstr "Zmeniť to, čo a kde sa veci objavujú v-hra."
+
+#: Settings.py:877
+msgid "Advanced Video Settings"
+msgstr "Advanced Video nastavenie"
+
+#: Settings.py:877
+msgid "Change advanced video settings."
+msgstr "Zmeniť pokročilé nastavenia obrazu."
+
+#: Settings.py:905
+#: Settings.py:1266
+msgid "Volume Settings"
+msgstr "Nastavenie hlasitosti"
+
+#: Settings.py:905
+#: Settings.py:1266
+msgid "Change the volume of game sounds."
+msgstr "Zmena objemu herných zvukov."
+
+#: Settings.py:914
+msgid "Advanced Audio Settings"
+msgstr "Advanced Audio nastavenie"
+
+#: Settings.py:914
+msgid "Change advanced audio settings."
+msgstr "Zmeniť pokročilé nastavenia zvuku."
+
+#: Settings.py:956
+#: Settings.py:1281
+msgid "Change Setlist Path >"
+msgstr "Zmena Setlist Cesta>"
+
+#: Settings.py:956
+#: Settings.py:1281
+msgid "Set the path to a folder named 'songs' that contains your songs."
+msgstr "Nastavte cestu k súbor nazvaný 'piesne', ktorá obsahuje vaše piesne."
+
+#: Settings.py:988
+msgid "Debug Settings"
+msgstr "Debug Nastavenia"
+
+#: Settings.py:988
+msgid "Settings for coders to debug. Probably not worth changing."
+msgstr "Nastavenie pre kódery k ladenie. Asi nemá cenu meniť."
+
+#: Settings.py:989
+msgid "Log Settings"
+msgstr "Prihlásiť Nastavenia"
+
+#: Settings.py:989
+msgid "Adds junk information to the logfile. Probably not useful in bug reports."
+msgstr "Pridá junk informácie logfile. Pravdepodobne nie užitočná v hlásení o chybách."
+
+#: Settings.py:994
+msgid "AI Settings"
+msgstr "AI Nastavenia"
+
+#: Settings.py:994
+msgid "Change the settings of the AI"
+msgstr "Zmena nastavenia AI"
+
+#: Settings.py:1003
+#: Settings.py:1356
+msgid "Mod settings"
+msgstr "Mod nastavenia"
+
+#: Settings.py:1003
+#: Settings.py:1356
+msgid "Enable or disable any mods you have installed."
+msgstr "Povoliť alebo zakázať akékoľvek mods ste nainštalovali."
+
+#: Settings.py:1008
+#: Settings.py:1298
+msgid "Gameplay Settings"
+msgstr "Gameplay Nastavenia"
+
+#: Settings.py:1008
+#: Settings.py:1298
+msgid "Settings that affect the rules of the game."
+msgstr "Nastavenia, ktoré ovplyvňujú pravidlá hry."
+
+#: Settings.py:1009
+#: Settings.py:1299
+msgid "Control Settings"
+msgstr "Ovládanie nastavenia"
+
+#: Settings.py:1009
+#: Settings.py:1299
+msgid "Create, delete, and edit your controls."
+msgstr "Vytvoriť, odstrániť, a upravte ovládacie prvky."
+
+#: Settings.py:1010
+#: Settings.py:1300
+msgid "Display Settings"
+msgstr "Nastavenia displeja"
+
+#: Settings.py:1010
+#: Settings.py:1300
+msgid "Theme, neck, resolution, etc."
+msgstr "Téma, krk, rozlíšenie, atď"
+
+#: Settings.py:1011
+#: Settings.py:1301
+msgid "Audio Settings"
+msgstr "Nastavenia zvuku"
+
+#: Settings.py:1011
+#: Settings.py:1301
+msgid "Volume controls, etc."
+msgstr "Ovládanie hlasitosti atď"
+
+#: Settings.py:1012
+#: Settings.py:1302
+msgid "Setlist Settings"
+msgstr "Setlist Nastavenia"
+
+#: Settings.py:1012
+#: Settings.py:1302
+msgid "Settings that affect the setlist."
+msgstr "Nastavenia, ktoré ovplyvňujú Setlist."
+
+#: Settings.py:1013
+msgid "Advanced Settings"
+msgstr "Pokročilé nastavenia"
+
+#: Settings.py:1013
+msgid "Settings that probably don't need to be changed."
+msgstr "Nastavenie, ktoré pravdepodobne nie je potrebné meniť."
+
+#: Settings.py:1014
+#: Settings.py:1303
+msgid "Mods, Cheats, AI"
+msgstr "Mods, Cheaty, AI"
+
+#: Settings.py:1014
+#: Settings.py:1303
+msgid "Set Jurgen to play for you, or other cheats."
+msgstr "Set Jurgen hrať pre vás, alebo iné podvody."
+
+#: Settings.py:1015
+#: Settings.py:1304
+#, python-format
+msgid "%s Credits"
+msgstr "%s Kredity"
+
+#: Settings.py:1015
+#: Settings.py:1304
+msgid "See who made this game."
+msgstr "Pozrite sa, kto z tejto hry."
+
+#: Settings.py:1016
+#: Settings.py:1305
+msgid "Quickset"
+msgstr "Živý plot"
+
+#: Settings.py:1016
+#: Settings.py:1305
+msgid "A quick way to set many advanced settings."
+msgstr "Rýchla cesta k nastavenie mnohých pokročilých nastavení."
+
+#: Settings.py:1017
+msgid "Hide Advanced Options"
+msgstr "Skryť Pokročilé hľadanie"
+
+#: Settings.py:1047
+#: Settings.py:1320
+msgid "FoFiX needs to restart to apply setting changes."
+msgstr "FoFiX nutnosti reštartu aplikovať zmeny nastavenia."
+
+#: Settings.py:1066
+#: Settings.py:1328
+msgid "Test Controls"
+msgstr "Test kontroly"
+
+#: Settings.py:1066
+#: Settings.py:1328
+msgid "Go here to test your controllers."
+msgstr "Choď si test vášho radiče."
+
+#: Settings.py:1071
+#: Settings.py:1333
+msgid "New Controller"
+msgstr "Nový radič"
+
+#: Settings.py:1071
+#: Settings.py:1333
+msgid "Create a new controller to use."
+msgstr "Vytvoriť nový radič použiť."
+
+#: Settings.py:1072
+#: Settings.py:1334
+msgid "Edit Controller"
+msgstr "Upraviť radič"
+
+#: Settings.py:1072
+#: Settings.py:1334
+msgid "Edit a controller you have created."
+msgstr "Upraviť radič ste vytvorili."
+
+#: Settings.py:1073
+#: Settings.py:1335
+msgid "Delete Controller"
+msgstr "Odstrániť radič"
+
+#: Settings.py:1073
+#: Settings.py:1335
+msgid "Delete a controller you have created."
+msgstr "Odstrániť radič ste vytvorili."
+
+#: Settings.py:1089
+#: Settings.py:1366
+msgid "You must specify a controller for slot 1!"
+msgstr "Musíte určiť radič pre slot 1!"
+
+#: Settings.py:1095
+#: Settings.py:1372
+#, python-format
+msgid "Controllers in slots %d and %d conflict. Setting %d to None."
+msgstr "Radiče v sloty %d a %d v rozpore. Nastavenie %d na Žiadny."
+
+#: Settings.py:1104
+#: Settings.py:1381
+#, python-format
+msgid "%d more conflicts."
+msgstr "%d viac konfliktov."
+
+#: Settings.py:1149
+#: Settings.py:1411
+msgid "Choose a new songs directory."
+msgstr "Vyberte nových skladieb adresára."
+
+#: Settings.py:1306
+msgid "See Advanced Options"
+msgstr "Pozri Rozšírené možnosti"
+
+#: Settings.py:1600
+msgid "Cheats"
+msgstr "Cheaty"
+
+#: Song.py:132
+msgid "Guitar"
+msgstr "Gitara"
+
+#: Song.py:133
+msgid "Rhythm"
+msgstr "Rytmus"
+
+#: Song.py:134
+msgid "Bass"
+msgstr "Bas"
+
+#: Song.py:135
+msgid "Lead"
+msgstr "Olovo"
+
+#: Song.py:136
+msgid "Drums"
+msgstr "Bubny"
+
+#: Song.py:137
+msgid "Vocals"
+msgstr "Spev"
+
+#: Song.py:162
+msgid "Easy"
+msgstr "Ľahký"
+
+#: Song.py:163
+msgid "Medium"
+msgstr "Stredná"
+
+#: Song.py:164
+msgid "Hard"
+msgstr "Tvrdý"
+
+#: Song.py:165
+msgid "Expert"
+msgstr "Odborník"
+
+#: Song.py:227
+msgid "NoName"
+msgstr "NoName"
+
+#: Song.py:960
+msgid "This song is locked."
+msgstr "Táto pieseň je uzamknutý."
+
+#: Song.py:1166
+msgid "Reset Career"
+msgstr "Reset Kariéra"
+
+#: Song.py:1213
+msgid "   (Random Song)"
+msgstr "(Random Song)"
+
+#: Song.py:4171
+msgid "End of Career"
+msgstr "Koniec kariéry"
+
+#: Song.py:4434
+#: Song.py:4437
+msgid "Checking song database..."
+msgstr "Kontrola song databázy ..."
+
+#: Song.py:4444
+#, python-format
+msgid "Enumerating song folders... (%d so far)"
+msgstr "Vyčíslenie song zložky ... (%d doteraz)"
+
+#: Song.py:4448
+msgid "Caching song data..."
+msgstr "Kešovanie song data ..."
+
+#: Song.py:4448
+#, python-format
+msgid "(folder %d of %d; %d%% of this folder)"
+msgstr "(Priečinok %d z %d, %d%% z tejto zložky)"
+
+#: Song.py:4449
+msgid "Pruning leftover entries..."
+msgstr "Prerezávanie zvyšok záznamy ..."
+
+#: SongChoosingScene.py:104
+msgid "Initializing Setlist..."
+msgstr "Inicializácia Setlist ..."
+
+#: SongChoosingScene.py:106
+msgid "Checking Command-Line Settings..."
+msgstr "Kontrola Command-Line Settings ..."
+
+#: SongChoosingScene.py:108
+msgid "Checking Setlist Settings..."
+msgstr "Kontrola Setlist Nastavenie ..."
+
+#: SongChoosingScene.py:265
+#: SongChoosingScene.py:267
+#: SongChoosingScene.py:277
+msgid "Browsing Collection..."
+msgstr "Prehliadanie kolekcie ..."
+
+#: SongChoosingScene.py:327
+#: SongChoosingScene.py:337
+msgid "No songs in this setlist are available to play!"
+msgstr "Žiadne skladby v tomto Setlist sú k dispozícii hrať!"
+
+#: SongChoosingScene.py:329
+#: SongChoosingScene.py:339
+msgid "Make sure you have a working career pack!"
+msgstr "Uistite sa, že máte pracovný kariéry balení!"
+
+#: SongChoosingScene.py:389
+#: SongChoosingScene.py:496
+msgid "Loading Album Artwork..."
+msgstr "Loading Album Umelecké dielo ..."
+
+#: SongChoosingScene.py:423
+#: SongChoosingScene.py:634
+msgid "There are no drum parts in this song. Change your controllers to play."
+msgstr "Nie sú žiadne bicích partov v tejto piesni. Zmeňte svoj radiče hrať."
+
+#: SongChoosingScene.py:431
+#: SongChoosingScene.py:637
+msgid "There are no guitar parts in this song. Change your controllers to play."
+msgstr "Nie sú žiadne gitarové pasáže v tejto piesni. Zmeňte svoj radiče hrať."
+
+#: SongChoosingScene.py:439
+#: SongChoosingScene.py:640
+msgid "There are no vocal parts in this song. Change your controllers to play."
+msgstr "Nie sú žiadne vokálnych partov v tejto piesni. Zmeňte svoj radiče hrať."
+
+#: SongChoosingScene.py:457
+#, python-format
+msgid "%s Choose a difficulty:"
+msgstr "%s Vyberte si obtiažnosť:"
+
+#: Theme.py:1001
+#: Theme.py:1126
+#: Theme.py:1209
+#: Theme.py:1319
+#: Theme.py:1482
+#: Theme.py:1605
+#: Theme.py:2114
+msgid "-- Locked --"
+msgstr "- Strážené -"
+
+#: Theme.py:1047
+#: Theme.py:1070
+#: Theme.py:1086
+#: Theme.py:1103
+#: Theme.py:1236
+#: Theme.py:1260
+#: Theme.py:1276
+#: Theme.py:1280
+#: Theme.py:1365
+#: Theme.py:1388
+#: Theme.py:1404
+#: Theme.py:1417
+#: Theme.py:1631
+#: Theme.py:1655
+#: Theme.py:1671
+#: Theme.py:1674
+msgid "Nil"
+msgstr "Nula"
+
+#: Theme.py:1432
+#: Theme.py:2055
+#: Theme.py:2060
+#: Theme.py:2096
+msgid "Loading Preview..."
+msgstr "Načítanie náhľadu ..."
+
+#: Theme.py:1440
+#: Theme.py:1549
+msgid "Play To Advance"
+msgstr "Play Pre Advance"
+
+#: Theme.py:1446
+#: Theme.py:1555
+msgid "Played Once"
+msgstr "Prehrá raz"
+
+#: Theme.py:1448
+#: Theme.py:1557
+#, python-format
+msgid "Played %d times."
+msgstr "Hralo %d krát."
+
+#: Theme.py:1455
+#: Theme.py:1571
+msgid "There Is 1 Song In This Setlist."
+msgstr "K dispozícii je 1 Song In This Setlist."
+
+#: Theme.py:1457
+#: Theme.py:1573
+#, python-format
+msgid "There Are %d Songs In This Setlist."
+msgstr "Existuje %d Songs In This Setlist."
+
+#: Theme.py:1461
+#: Theme.py:1577
+msgid "Tier"
+msgstr "Stupeň"
+
+#: Theme.py:1465
+#: Theme.py:1588
+msgid "Random Song"
+msgstr "Náhodné Song"
+
+#: Theme.py:2016
+msgid "DIFFICULTY"
+msgstr "Ťažkostiach"
+
+#: Theme.py:2018
+msgid "BAND"
+msgstr "BAND"
+
+#: Theme.py:2020
+msgid "GUITAR"
+msgstr "GUITAR"
+
+#: Theme.py:2022
+msgid "DRUM"
+msgstr "DRUM"
+
+#: Theme.py:2024
+msgid "BASS"
+msgstr "BASS"
+
+#: Theme.py:2026
+msgid "VOCALS"
+msgstr "Spev"
+
+#: Theme.py:2032
+msgid "SORTING:"
+msgstr "Triedenie:"
+
+#: Theme.py:2034
+msgid "ALPHABETICALLY BY TITLE"
+msgstr "Abecedne podľa názvu"
+
+#: Theme.py:2036
+msgid "ALPHABETICALLY BY ARTIST"
+msgstr "Abecedne podľa interpretov"
+
+#: Theme.py:2038
+msgid "BY PLAY COUNT"
+msgstr "BY PLAY COUNT"
+
+#: Theme.py:2040
+msgid "ALPHABETICALLY BY ALBUM"
+msgstr "Abecedne podľa ALBUM"
+
+#: Theme.py:2042
+msgid "ALPHABETICALLY BY GENRE"
+msgstr "Abecedne podľa žánru"
+
+#: Theme.py:2044
+msgid "BY YEAR"
+msgstr "Podľa roka"
+
+#: Theme.py:2046
+msgid "BY BAND DIFFICULTY"
+msgstr "BY BAND ťažkostiach"
+
+#: Theme.py:2048
+msgid "BY INSTRUMENT DIFFICULTY"
+msgstr "NÁSTROJE ťažkostiach"
+
+#: Theme.py:2050
+msgid "BY SONG COLLECTION"
+msgstr "Piesní KOLEKCIA"
+
+#: Theme.py:2145
+#, python-format
+msgid "Played %d time"
+msgstr "Odohrané %d čas"
+
+#: Theme.py:2147
+#, python-format
+msgid "Played %d times"
+msgstr "Hralo %d krát"
+
+#: Theme.py:2152
+#: Theme.py:2159
+msgid "Play To Advance."
+msgstr "Play Pre Advance."
+
+#: Theme.py:2155
+msgid "Never Played"
+msgstr "Nikdy nehral"
+
+#: Theme.py:2219
+msgid "One Song In This Setlist"
+msgstr "Jeden Song In This Setlist"
+
+#: Theme.py:2221
+#, python-format
+msgid "%d Songs In This Setlist"
+msgstr "%d Songs In This Setlist"
+
+#: Theme.py:2230
+msgid "(Random Song)"
+msgstr "(Random Song)"
+
+#: Theme.py:2428
+msgid "No Album"
+msgstr "Žiadne album"
+
+#: Theme.py:2433
+msgid "No Genre"
+msgstr "Nie Žáner"
+
+#: Video.py:151
+msgid "Video setup failed with your resolution settings, and so were reset to defaults."
+msgstr "Video inštaláciu došlo k chybe s nastavenie rozlíšenia, a tak bol reset na predvolené."
+
+#: Vocalist.py:120
+msgid "Amazing!"
+msgstr "Úžasné!"
+
+#: Vocalist.py:120
+msgid "Great!"
+msgstr "Výborne!"
+
+#: Vocalist.py:120
+msgid "Decent"
+msgstr "Slušný"
+
+#: Vocalist.py:120
+msgid "Average"
+msgstr "Priemer"
+
+#: Vocalist.py:120
+msgid "Meh"
+msgstr "Meh"
+
+#: Vocalist.py:120
+msgid "Bad"
+msgstr "Zlý"
+
+#: Vocalist.py:120
+msgid "Terrible..."
+msgstr "Hrozný ..."
+
+#: Vocalist.py:449
+msgid "Tap!"
+msgstr "Poklepaním!"
+
+#: World.py:60
+msgid "FoFiX Co-Op Mode"
+msgstr "FoFiX Co-Op režime"
+
+#: World.py:62
+msgid "RB Co-Op Mode"
+msgstr "RB Co-Op režime"
+
+#: World.py:64
+msgid "GH Co-Op Mode"
+msgstr "GH Co-Op režime"
+
+#: World.py:66
+msgid "Battle Mode"
+msgstr "Battle mód"
+
+#: World.py:73
+msgid "Career Mode"
+msgstr "Režime kariéry"
+

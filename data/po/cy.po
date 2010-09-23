@@ -1,0 +1,5011 @@
+# -*- coding: utf-8 -*-
+#####################################################################
+#                                                                   #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
+#                                                                   #
+# This program is free software; you can redistribute it and/or     #
+# modify it under the terms of the GNU General Public License       #
+# as published by the Free Software Foundation; either version 2    #
+# of the License, or (at your option) any later version.            #
+#                                                                   #
+# This program is distributed in the hope that it will be useful,   #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of    #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the     #
+# GNU General Public License for more details.                      #
+#                                                                   #
+# You should have received a copy of the GNU General Public License #
+# along with this program; if not, write to the Free Software       #
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,        #
+# MA  02110-1301, USA.                                              #
+#####################################################################
+
+msgid ""
+msgstr ""
+"Project-Id-Version: FoFiX 4 Development\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-19 11:47-0600\n"
+"PO-Revision-Date: 2010-09-19 11:48-0600\n"
+"Last-Translator: Google Translator\n"
+"Language-Team: FoFiX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: Credits.py:125
+msgid "This mod was built on Alarian's mod,"
+msgstr "Mae hyn yn mod wedi ei adeiladu ar Alarian's mod,"
+
+#: Credits.py:126
+msgid "which was built on UltimateCoffee's Ultimate mod,"
+msgstr "a adeiladwyd ar UltimateCoffee's Ultimate mod,"
+
+#: Credits.py:127
+msgid "which was built on RogueF's RF_mod 4.15,"
+msgstr "a adeiladwyd ar RogueF's RF_mod 4.15,"
+
+#: Credits.py:128
+msgid "which was, of course, built on Frets on Fire 1.2.451,"
+msgstr "oedd, wrth gwrs, a adeiladwyd ar Frets ar Tân 1.2.451,"
+
+#: Credits.py:129
+msgid "which was created by Unreal Voodoo"
+msgstr "a gafodd ei greu gan Unreal Voodoo"
+
+#: Credits.py:130
+msgid "No Particular Order"
+msgstr "Nid oes Gorchymyn arbennig"
+
+#: Credits.py:131
+msgid "Active Coders:"
+msgstr "Coders Gweithredol:"
+
+#: Credits.py:132
+msgid "Past Coders:"
+msgstr "Coders Gorffennol:"
+
+#: Credits.py:133
+msgid "Main Graphic Contributors:"
+msgstr "Cyfranwyr Prif Graffeg:"
+
+#: Credits.py:134
+msgid "Translators:"
+msgstr "Cyfieithwyr:"
+
+#: Credits.py:135
+msgid "Team Hero:"
+msgstr "Tîm Arwr:"
+
+#: Credits.py:136
+msgid "Creators of Career Mode"
+msgstr "Chreawdwyr chan Ddelw Gyrfa"
+
+#: Credits.py:137
+msgid "Honorary Credits to:"
+msgstr "Credydau er Anrhydedd i:"
+
+#: Credits.py:138
+msgid "Donations to MFH"
+msgstr "Cyfraniadau i MFH"
+
+#: Credits.py:139
+msgid "Donations to akedrou"
+msgstr "Cyfraniadau i akedrou"
+
+#: Credits.py:140
+msgid "Major Donations:"
+msgstr "Rhoddion Mawr:"
+
+#: Credits.py:141
+msgid "Other Donations:"
+msgstr "Rhoddion eraill:"
+
+#: Credits.py:142
+msgid "Other Credits:"
+msgstr "Credydau eraill:"
+
+#: Credits.py:143
+msgid "Jurgen FoF tutorial inspired by adam02"
+msgstr "Jürgen FoF tutorial hysbrydoli gan adam02"
+
+#: Credits.py:144
+msgid "Drum test song tutorial by Heka"
+msgstr "gân prawf Drum tutorial gan Heka"
+
+#: Credits.py:145
+msgid "Bang Bang Mystery Man song tutorial is from the original FoF"
+msgstr "Bang Bang gân Man Dirgelwch tiwtorial yn dod o FoF wreiddiol"
+
+#: Credits.py:146
+msgid "Drum Rolls practice tutorial by venom426"
+msgstr "Drum Rolls arfer tutorial gan venom426"
+
+#: Credits.py:147
+msgid "If you see your work included in this game and you aren't"
+msgstr "Os ydych yn gweld eich gwaith yn cynnwys yn y gêm hon, ac nad ydych yn"
+
+#: Credits.py:148
+msgid "in the credits, please leave a polite post stating what you"
+msgstr "yn y credydau, os gwelwch yn dda adael swydd gwrtais dweud yr hyn yr ydych"
+
+#: Credits.py:149
+msgid "did and when, as specific as possible."
+msgstr "wnaeth a phryd, mor benodol â phosibl."
+
+#: Credits.py:150
+msgid "If you can, please provide a link to your original posting"
+msgstr "Os gallwch, rhowch ddolen ar eich gwreiddiol postio"
+
+#: Credits.py:151
+msgid "of the work in question."
+msgstr "o'r gwaith yn y cwestiwn."
+
+#: Credits.py:152
+msgid "Then we can properly credit you."
+msgstr "Yna gallwn briodol credyd i chi."
+
+#: Credits.py:153
+msgid "Thank you for your contribution."
+msgstr "Diolch i chi am eich cyfraniad."
+
+#: Credits.py:154
+msgid "Please keep in mind that it is not easy to trace down and"
+msgstr "Cadwch mewn cof nad yw'n hawdd i olrhain i lawr a"
+
+#: Credits.py:155
+msgid "credit every single person who contributed; if your name is"
+msgstr "credyd i bob person sengl sy'n cyfrannu; os ydy eich enw"
+
+#: Credits.py:156
+msgid "not included, it was not meant to slight you."
+msgstr "cynnwys, nid oedd yn golygu i ychydig chi."
+
+#: Credits.py:157
+msgid "It was an oversight."
+msgstr "Yr oedd yn goruchwylio."
+
+#: Credits.py:159
+#, python-format
+msgid "%s theme credits:"
+msgstr "%s credydau thema:"
+
+#: Credits.py:160
+#, python-format
+msgid "%s theme specific thanks:"
+msgstr "%s ddiolch thema benodol:"
+
+#: Credits.py:162
+msgid "French"
+msgstr "Ffrangeg"
+
+#: Credits.py:163
+msgid "French (reform 1990)"
+msgstr "Ffrangeg (diwygio 1990)"
+
+#: Credits.py:164
+msgid "German"
+msgstr "Almaeneg"
+
+#: Credits.py:165
+msgid "Italian"
+msgstr "Eidaleg"
+
+#: Credits.py:166
+msgid "Pig Latin"
+msgstr "Lladin y Moch"
+
+#: Credits.py:167
+msgid "Portuguese (Brazilian)"
+msgstr "Portiwgaleg (Brasil)"
+
+#: Credits.py:168
+msgid "Russian"
+msgstr "Rwsia"
+
+#: Credits.py:169
+msgid "Spanish"
+msgstr "Sbaeneg"
+
+#: Credits.py:170
+msgid "Swedish"
+msgstr "Swedeg"
+
+#: Credits.py:223
+msgid "Made with:"
+msgstr "Wedi'u gwneud gyda:"
+
+#: Credits.py:246
+msgid "Source Code available under the GNU General Public License"
+msgstr "Ffynhonnell Côd ar gael o dan y Drwydded Gyhoeddus Gyffredinol GNU"
+
+#: Credits.py:250
+msgid "Copyright 2006, 2007 by Unreal Voodoo"
+msgstr "Hawlfraint 2006, 2007 gan Voodoo Unreal"
+
+#: Credits.py:251
+msgid "Copyright 2008-2010 by Team FoFiX"
+msgstr "Hawlfraint 2008-2010 gan Tîm FoFiX"
+
+#: Dialogs.py:489
+msgid "<OK>"
+msgstr "<OK>"
+
+#: Dialogs.py:576
+msgid "[Parent Folder]"
+msgstr "[Rhiant] Folder"
+
+#: Dialogs.py:580
+msgid "[Accept Folder]"
+msgstr "[Derbyn] Folder"
+
+#: Dialogs.py:582
+#, python-format
+msgid "%s [Folder]"
+msgstr "%s] Folder ["
+
+#: Dialogs.py:707
+msgid "Yellow (#3) / Blue (#4) to change, Green (#1) to confirm:"
+msgstr "Melyn (# 3) / Blue (# 4) i newid, Green (# 1) i gadarnhau:"
+
+#: Dialogs.py:719
+msgid "Loading necks..."
+msgstr "gyddfau Loading ..."
+
+#: Dialogs.py:784
+#: GameEngine.py:97
+msgid "Neck"
+msgstr "Gwddf"
+
+#: Dialogs.py:983
+msgid "Loading avatars..."
+msgstr "avatars Loading ..."
+
+#: Dialogs.py:1092
+msgid "Select Your Avatar:"
+msgstr "Dewiswch eich Avatar:"
+
+#: Dialogs.py:1572
+msgid "Press Start to Begin!"
+msgstr "Press Dechrau Dechrau!"
+
+#: Dialogs.py:1573
+msgid "Use the keyboard to select or just play some notes!"
+msgstr "Defnyddiwch y bysellfwrdd i ddewis neu dim ond chwarae rhai nodiadau!"
+
+#: Dialogs.py:1584
+msgid "No Controller"
+msgstr "Dim Rheolwr"
+
+#: Dialogs.py:1588
+msgid "Disabled Controller"
+msgstr "Rheolwr Anabl"
+
+#: Dialogs.py:1592
+msgid "Default Guitar"
+msgstr "Default Gitâr"
+
+#: Dialogs.py:1594
+msgid "Default Drums"
+msgstr "Default Drymiau"
+
+#: Dialogs.py:1596
+msgid "Default Microphone"
+msgstr "Default Microphone"
+
+#: Dialogs.py:1657
+msgid "controller"
+msgstr "reolwr"
+
+#: Dialogs.py:1659
+msgid "controllers"
+msgstr "rheolwyr"
+
+#: Dialogs.py:1660
+#, python-format
+msgid "You only have %d %s defined. You need at least %d for this mode."
+msgstr "Dim ond wedi %d %s diffinio. Angen o leiaf %d ar gyfer y dull hwn."
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+#: GameEngine.py:212
+msgid "Left"
+msgstr "Chwith"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+#: GameEngine.py:212
+msgid "Right"
+msgstr "Hawl"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Up"
+msgstr "Up"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Down"
+msgstr "Down"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Start"
+msgstr "Dechrau"
+
+#: Dialogs.py:1917
+#: Dialogs.py:1925
+#: Dialogs.py:1930
+#: Dialogs.py:1938
+msgid "Select"
+msgstr "Dewis"
+
+#: Dialogs.py:1917
+msgid "Fret #1"
+msgstr "Phoeni # 1"
+
+#: Dialogs.py:1917
+msgid "Solo #1"
+msgstr "Unawd # 1"
+
+#: Dialogs.py:1917
+msgid "Fret #2"
+msgstr "Phoeni # 2"
+
+#: Dialogs.py:1917
+msgid "Solo #2"
+msgstr "Unawd # 2"
+
+#: Dialogs.py:1918
+msgid "Fret #3"
+msgstr "Phoeni # 3"
+
+#: Dialogs.py:1918
+msgid "Solo #3"
+msgstr "Unawd # 3"
+
+#: Dialogs.py:1918
+msgid "Fret #4"
+msgstr "Phoeni # 4"
+
+#: Dialogs.py:1918
+msgid "Solo #4"
+msgstr "Unawd # 4"
+
+#: Dialogs.py:1918
+msgid "Fret #5"
+msgstr "Phoeni # 5"
+
+#: Dialogs.py:1919
+msgid "Solo #5"
+msgstr "Unawd # 5"
+
+#: Dialogs.py:1919
+msgid "Pick!"
+msgstr "Pick!"
+
+#: Dialogs.py:1919
+#: Dialogs.py:1927
+#: Dialogs.py:1932
+#: Dialogs.py:1940
+msgid "Starpower!"
+msgstr "Starpower!"
+
+#: Dialogs.py:1919
+#: GameEngine.py:278
+msgid "Whammy"
+msgstr "Ergyd"
+
+#: Dialogs.py:1925
+#: Dialogs.py:1938
+msgid "Drum #1"
+msgstr "Drum # 1"
+
+#: Dialogs.py:1925
+msgid "Drum #2"
+msgstr "Drum # 2"
+
+#: Dialogs.py:1926
+#: Dialogs.py:1939
+msgid "Drum #3"
+msgstr "Drum # 3"
+
+#: Dialogs.py:1926
+msgid "Drum #4"
+msgstr "Drum # 4"
+
+#: Dialogs.py:1927
+#: Dialogs.py:1940
+msgid "Bass Drum"
+msgstr "Bass Drum"
+
+#: Dialogs.py:1927
+#: Dialogs.py:1940
+#: Dialogs.py:2268
+#: GameEngine.py:89
+#: GameEngine.py:155
+#: GameEngine.py:190
+#: GameEngine.py:691
+#: GameResultsScene.py:250
+msgid "None"
+msgstr "Dim"
+
+#: Dialogs.py:1938
+msgid "Cymbal #2"
+msgstr "Cymbal # 2"
+
+#: Dialogs.py:1939
+msgid "Cymbal #4"
+msgstr "Cymbal # 4"
+
+#: Dialogs.py:1939
+msgid "Drum #5"
+msgstr "Drum # 5"
+
+#: Dialogs.py:1942
+msgid "Fret"
+msgstr "Phoeni"
+
+#: Dialogs.py:1943
+msgid "Solo"
+msgstr "Unawd"
+
+#: Dialogs.py:1944
+msgid "Drum"
+msgstr "Drum"
+
+#: Dialogs.py:1945
+msgid "Slide~"
+msgstr "Sleid ~"
+
+#: Dialogs.py:2248
+msgid "Level:"
+msgstr "Lefel:"
+
+#: Dialogs.py:2249
+msgid "Note:"
+msgstr "Nodyn:"
+
+#: Dialogs.py:2263
+msgid "Tap"
+msgstr "Tap"
+
+#: Dialogs.py:2359
+msgid "Choose a File"
+msgstr "Dewiswch Ffeil"
+
+#: Dialogs.py:2435
+msgid "Play with the keys and press Escape when you're done."
+msgstr "Chwarae gyda 'r agoriadau a bwyso Escape pan fyddwch chi'n ei wneud."
+
+#: Dialogs.py:2448
+#: Dialogs.py:2554
+#: Dialogs.py:2560
+msgid "Loading..."
+msgstr "Loading ..."
+
+#: FoFiX.py:179
+#, python-format
+msgid "Song directory provided ('%s') is not a valid song directory. Starting up FoFiX in standard mode."
+msgstr "Cyfeiriadur Song darparu ('%s ') yn cael ei cyfeiriadur gân dilys. Dechrau FoFiX yn y modd safonol."
+
+#: FoFiX.py:301
+msgid "Terminating due to unhandled exception:"
+msgstr "Terfynu oherwydd eithriad http://bugzilla.redhat:"
+
+#: FoFiX.py:303
+msgid "If you make a bug report about this error, please include the contents of the following log file:"
+msgstr "Os ydych yn gwneud adroddiad bug am y gwall hwn, cofiwch gynnwys y gynnwys y log ffeilia canlynol:"
+
+#: FoFiX.py:305
+msgid "The log file already includes the traceback given above."
+msgstr "Mae'r ffeil log eisoes yn cynnwys y traceback a roddir uchod."
+
+#: FoFiX.py:310
+msgid "Open the logfile now?"
+msgstr "Agor y ffeil cofnodi yn awr?"
+
+#: GameEngine.py:86
+msgid "FPS Limiter"
+msgstr "FPS Limiter"
+
+#: GameEngine.py:86
+msgid "On (Set Below)"
+msgstr "Ar (Set Isod)"
+
+#: GameEngine.py:86
+msgid "Off (Auto Max FPS)"
+msgstr "Off (FPS Max Auto)"
+
+#: GameEngine.py:86
+msgid "Use this to enable or disable the FPS Limiter. If off, the game will render as many frames as possible. (This is affected by the 'Performance' quickset)"
+msgstr "Defnyddiwch hwn i alluogi ai analluoga 'r Limiter FPS. Os off, bydd y gêm yn golygu fel fframiau ag y bo modd. (Mae hyn yn cael ei effeithio gan y 'Perfformiad' quickset)"
+
+#: GameEngine.py:88
+msgid "Fullscreen Mode"
+msgstr "Sgrîn Ddelw"
+
+#: GameEngine.py:88
+#: GameEngine.py:90
+#: GameEngine.py:93
+#: GameEngine.py:96
+#: GameEngine.py:105
+#: GameEngine.py:107
+#: GameEngine.py:112
+#: GameEngine.py:145
+#: GameEngine.py:146
+#: GameEngine.py:172
+#: GameEngine.py:175
+#: GameEngine.py:176
+#: GameEngine.py:177
+#: GameEngine.py:178
+#: GameEngine.py:181
+#: GameEngine.py:182
+#: GameEngine.py:196
+#: GameEngine.py:199
+#: GameEngine.py:201
+#: GameEngine.py:202
+#: GameEngine.py:216
+#: GameEngine.py:219
+#: GameEngine.py:225
+#: GameEngine.py:245
+#: GameEngine.py:246
+#: GameEngine.py:247
+#: GameEngine.py:259
+#: GameEngine.py:260
+#: GameEngine.py:261
+#: GameEngine.py:262
+#: GameEngine.py:263
+#: GameEngine.py:264
+#: GameEngine.py:265
+#: GameEngine.py:266
+#: GameEngine.py:267
+#: GameEngine.py:268
+#: GameEngine.py:269
+#: GameEngine.py:300
+#: GameEngine.py:301
+#: GameEngine.py:304
+#: GameEngine.py:312
+#: GameEngine.py:315
+#: GameEngine.py:318
+#: GameEngine.py:321
+#: GameEngine.py:371
+#: GameEngine.py:410
+msgid "No"
+msgstr "Dim"
+
+#: GameEngine.py:88
+#: GameEngine.py:90
+#: GameEngine.py:93
+#: GameEngine.py:96
+#: GameEngine.py:105
+#: GameEngine.py:107
+#: GameEngine.py:112
+#: GameEngine.py:145
+#: GameEngine.py:146
+#: GameEngine.py:172
+#: GameEngine.py:175
+#: GameEngine.py:176
+#: GameEngine.py:177
+#: GameEngine.py:178
+#: GameEngine.py:181
+#: GameEngine.py:182
+#: GameEngine.py:196
+#: GameEngine.py:199
+#: GameEngine.py:216
+#: GameEngine.py:219
+#: GameEngine.py:225
+#: GameEngine.py:245
+#: GameEngine.py:246
+#: GameEngine.py:247
+#: GameEngine.py:259
+#: GameEngine.py:260
+#: GameEngine.py:261
+#: GameEngine.py:262
+#: GameEngine.py:263
+#: GameEngine.py:264
+#: GameEngine.py:265
+#: GameEngine.py:266
+#: GameEngine.py:267
+#: GameEngine.py:268
+#: GameEngine.py:300
+#: GameEngine.py:301
+#: GameEngine.py:304
+#: GameEngine.py:312
+#: GameEngine.py:315
+#: GameEngine.py:318
+#: GameEngine.py:321
+#: GameEngine.py:371
+#: GameEngine.py:410
+msgid "Yes"
+msgstr "Ydw"
+
+#: GameEngine.py:88
+msgid "Play either in fullscreen ('Yes') or windowed ('No') mode."
+msgstr "Chwarae naill ai yn fullscreen ('Ie') neu windowed ('Na') ddelw."
+
+#: GameEngine.py:89
+msgid "Antialiasing Quality"
+msgstr "Ansawdd Antialiasing"
+
+#: GameEngine.py:89
+msgid "Sets the antialiasing quality of openGL rendering. Higher values reduce jaggediness, but could affect performance. (This is affected by the 'Performance' quickset)"
+msgstr "Gosod y safon antialiasing o rendro OpenGL. gwerthoedd uwch yn lleihau jaggediness, ond gallai effeithio ar berfformiad. (Mae hyn yn cael ei effeithio gan y 'Perfformiad' quickset)"
+
+#: GameEngine.py:90
+msgid "Show Fret Glow Effect"
+msgstr "Dangos phoeni Effaith Glow"
+
+#: GameEngine.py:90
+msgid "Turn on or off the glow that appears around a fret when you press it."
+msgstr "Trowch ar neu oddi ar y llewyrch sy'n ymddangos o amgylch phoeni pan fyddwch yn ei wasgu."
+
+#: GameEngine.py:92
+msgid "Frames per Second"
+msgstr "Fframiau y Ail"
+
+#: GameEngine.py:92
+msgid "Set the number of frames to render per second. Higher values are better, but your computer may not be able to keep up. You probably can leave this alone. (This is affected by the 'Performance' quickset)"
+msgstr "Gosod y nifer o fframiau i rendrad per eilia. gwerthoedd uwch yn well, ond efallai na fydd eich cyfrifiadur yn gallu cadw i fyny. Mae'n debyg Gallwch adael hyn yn unig. (Mae hyn yn cael ei effeithio gan y 'Perfformiad' quickset)"
+
+#: GameEngine.py:93
+msgid "Print Frames per Second"
+msgstr "Fframiau Argraffu y Ail"
+
+#: GameEngine.py:93
+msgid "This will display your FPS on some screens, and if running from sources will print your FPS there every two seconds."
+msgstr "Bydd hyn yn dangos eich FPS ar rai sgriniau, ac os yn rhedeg o ffynonellau print bydd eich FPS yno bob dwy eiliad."
+
+#: GameEngine.py:94
+msgid "Fret Glow Color"
+msgstr "Lliw Glow phoeni"
+
+#: GameEngine.py:94
+msgid "Same as Fret"
+msgstr "Unrhyw fel phoeni"
+
+#: GameEngine.py:94
+msgid "Actual Color"
+msgstr "Lliw Gwirioneddol"
+
+#: GameEngine.py:94
+msgid "Sets whether or not the fret glow image will be color-masked with the theme-determined fret color."
+msgstr "Setiau a yw'r ddelwedd phoeni llewyrch yn cael eu lliw-cuddio gyda thema-benderfynol phoeni lliw."
+
+#: GameEngine.py:96
+msgid "Use Shaders"
+msgstr "Shaders Defnyddio"
+
+#: GameEngine.py:96
+msgid "Enable or disable the use of shaders. Shaders are visual effects. This must be set to 'Yes' to use the settings below. 'By Theme' leaves it to the theme creator."
+msgstr "Alluoga ai analluoga 'r defnydd o Shaders. Shaders yn effeithiau gweledol. Rhaid i hyn gael ei osod i 'Ydw' i ddefnyddio'r gosodiadau isod. 'Drwy Thema' dail 'i at' r chreawdwr thema."
+
+#: GameEngine.py:97
+#: GameEngine.py:98
+#: GameEngine.py:99
+#: GameEngine.py:101
+#: GameEngine.py:102
+#: GameEngine.py:118
+#: GameEngine.py:322
+#: GameEngine.py:351
+msgid "Disabled"
+msgstr "Anabl"
+
+#: GameEngine.py:97
+msgid "Flashing"
+msgstr "Sy'n fflachio"
+
+#: GameEngine.py:97
+#: GameEngine.py:98
+#: GameEngine.py:99
+#: GameEngine.py:100
+#: GameEngine.py:101
+#: GameEngine.py:102
+#: GameEngine.py:190
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:213
+#: GameEngine.py:228
+#: GameEngine.py:232
+#: GameEngine.py:291
+#: GameEngine.py:298
+msgid "By Theme"
+msgstr "Erbyn Thema"
+
+#: GameEngine.py:97
+msgid "A bright flash along your fretboard reflecting the notes you've hit. 'By Theme' leaves it to the theme creator."
+msgstr "A fflachia llachar ar hyd eich fretboard yn adlewyrchu y nodiadau ydych wedi taro. 'Drwy Thema' dail 'i at' r chreawdwr thema."
+
+#: GameEngine.py:98
+msgid "Stage"
+msgstr "Cyfnod"
+
+#: GameEngine.py:98
+msgid "EQ Lightning"
+msgstr "Mellt EQ"
+
+#: GameEngine.py:98
+msgid "A visual waveform centered above you fretboard. 'By Theme' leaves it to the theme creator."
+msgstr "A waveform gweledol canolbwyntio uwch eich fretboard. 'Drwy Thema' dail 'i at' r chreawdwr thema."
+
+#: GameEngine.py:99
+msgid "Solo and SP"
+msgstr "Unawd a SP"
+
+#: GameEngine.py:99
+#: GameEngine.py:100
+msgid "Lightnings"
+msgstr "Mellt"
+
+#: GameEngine.py:99
+msgid "Enables lightning along the side of your fretboard when you are in solos or use SP. 'By Theme' leaves it to the theme creator."
+msgstr "Galluogi mellt hyd ochr eich fretboard pan fyddwch yn unawdau neu ddefnyddio SP. 'Drwy Thema' dail 'i at' r chreawdwr thema."
+
+#: GameEngine.py:100
+msgid "Tails"
+msgstr "Tails"
+
+#: GameEngine.py:100
+msgid "Classic"
+msgstr "Classic"
+
+#: GameEngine.py:100
+#: GameEngine.py:210
+#: GameEngine.py:298
+msgid "RB2"
+msgstr "RB2"
+
+#: GameEngine.py:100
+msgid "Sets the tail effect. Choose from classic tails, lightning, or RB2 style. 'By Theme' leaves it to the theme creator."
+msgstr "Gosod yr effaith gynffon. Dewiswch o cynffonau clasurol, mellt, neu arddull RB2. 'Drwy Thema' dail 'i at' r chreawdwr thema."
+
+#: GameEngine.py:101
+msgid "Notes"
+msgstr "Nodiadau"
+
+#: GameEngine.py:101
+msgid "Metal"
+msgstr "Metel"
+
+#: GameEngine.py:101
+msgid "Gives your notes a metallic sheen. 'By Theme' leaves it to the theme creator."
+msgstr "Rhoi eich nodiadau a llewyrch metelaidd. 'Drwy Thema' dail 'i at' r chreawdwr thema."
+
+#: GameEngine.py:102
+#: GameEngine.py:298
+msgid "CDs"
+msgstr "CDs"
+
+#: GameEngine.py:102
+msgid "White"
+msgstr "Gwyn"
+
+#: GameEngine.py:102
+msgid "Adds a soft lighting effect to CD labels in CD setlist mode."
+msgstr "Adds effaith golau meddal i labeli CD yn y modd setlist CD."
+
+#: GameEngine.py:105
+msgid "Disable Screensaver"
+msgstr "Analluoga Arbedwr Sgrin"
+
+#: GameEngine.py:105
+msgid "Set whether the game disables the screensaver while it is running.  Does not necessarily work on all platforms."
+msgstr "Gosod a yw'r gêm disables 'r screensaver er ei bod yn rhedeg. Nid yw o reidrwydd yn gweithio ar bob llwyfan."
+
+#: GameEngine.py:107
+msgid "Animated Star Notes"
+msgstr "Nodiadau Seren Animeiddiedig"
+
+#: GameEngine.py:107
+msgid "This will animate star notes as they come towards you, if that is included in your theme. This can have a hit on performance. (This is affected by the 'Performance' quickset)"
+msgstr "Bydd hyn yn animeiddio nodiadau seren fel y maent yn dod tuag atoch, os yw hynny'n cynnwys yn eich thema. Gall hyn fod yn taro ar berfformiad. (Mae hyn yn cael ei effeithio gan y 'Perfformiad' quickset)"
+
+#: GameEngine.py:108
+msgid "Sample Frequency"
+msgstr "Sampl Amlder"
+
+#: GameEngine.py:108
+msgid "Set the sample frequency for the audio in the game. You almost certainly want to leave this at 44100 Hz unless you really know what you're doing."
+msgstr "Gosod yr amlder sampl ar gyfer yr sain yn y gêm. Rydych chi bron yn sicr am adael hyn ar 44100 Hz oni bai eich bod yn gwybod beth rydych chi'n ei wneud."
+
+#: GameEngine.py:109
+msgid "Sample Bits"
+msgstr "Darnau Sampl"
+
+#: GameEngine.py:109
+msgid "Set the sample bits for the audio in the game. You almost certainly want to leave this at 16-bit unless you really know what you're doing."
+msgstr "Gosod y darnau sampl ar gyfer y sain yn y gêm. Rydych chi bron yn sicr am adael hyn ar 16-bit oni bai eich bod yn gwybod beth rydych chi'n ei wneud."
+
+#: GameEngine.py:112
+msgid "Upload Highscores"
+msgstr "Sgorau Gorau Upload"
+
+#: GameEngine.py:112
+msgid "If enabled, your high scores will be sent to the server to rank you against other players."
+msgstr "Wedi'i alluogi, bydd eich sgôr uchel yn cael ei anfon at 'r gweinyddwr at radd yr ydych yn erbyn chwaraewyr eraill."
+
+#: GameEngine.py:118
+msgid "Song Queue System"
+msgstr "System Ciw Song"
+
+#: GameEngine.py:118
+#: GameEngine.py:188
+msgid "Automatic"
+msgstr "Awtomatig"
+
+#: GameEngine.py:118
+msgid "Enables or disables creating multi-song sets in the setlist."
+msgstr "Datgloi greu setiau aml-gân yn y setlist."
+
+#: GameEngine.py:119
+msgid "Song Queue Order"
+msgstr "Gorchymyn Ciw Song"
+
+#: GameEngine.py:119
+#: GameEngine.py:167
+#: GameEngine.py:168
+msgid "In Order"
+msgstr "Yn y Gorchymyn"
+
+#: GameEngine.py:119
+#: GameEngine.py:167
+#: GameEngine.py:168
+#: GameEngine.py:169
+#: GameEngine.py:676
+msgid "Random"
+msgstr "Ar hap"
+
+#: GameEngine.py:119
+msgid "Sets the order in which songs added to the queue will be played."
+msgstr "Gosod y drefn y caneuon ychwanegu at y rhestr aros yn cael ei chwarae."
+
+#: GameEngine.py:120
+msgid "Song Queue Parts"
+msgstr "Rhannau Ciw Song"
+
+#: GameEngine.py:120
+msgid "Closest Available"
+msgstr "Agosaf sydd ar gael"
+
+#: GameEngine.py:120
+#: GameEngine.py:121
+msgid "Always Ask"
+msgstr "Gofynnwch bob amser"
+
+#: GameEngine.py:120
+msgid "Choose the behavior when the chosen part is not available in all queued songs. 'Closest Available' will match lead parts to guitar and bass to rhythm, or guitar if no rhythm parts are available. 'Always Ask' brings up the part select screen."
+msgstr "Dewiswch y ymddygiad pan nad yw'r rhan dewis ar gael ym mhob rhes ganeuon. 'Agosaf sydd ar gael' yn cyfateb rhannau arwain at gitâr a bas i rhythm, neu gitâr os nad oes unrhyw rannau rhythm ar gael. 'Gofyn' yn dod i fyny 'r screen rhan ddethol."
+
+#: GameEngine.py:121
+msgid "Song Queue Difficulty"
+msgstr "Anhawster Song Ciw"
+
+#: GameEngine.py:121
+msgid "Closest Down"
+msgstr "Agosaf Down"
+
+#: GameEngine.py:121
+msgid "Closest Up"
+msgstr "Agosaf Up"
+
+#: GameEngine.py:121
+msgid "Choose the behavior when the chosen difficulty is not available in all queued songs. 'Closest Up' will prefer a harder difficulty, while 'Closest Down' will prefer an easier one. 'Always Ask' brings up the difficulty select screen."
+msgstr "Dewiswch y ymddygiad pan nad yw'r anhawster dewis ar gael ym mhob rhes ganeuon. Bydd 'agosaf Up' prefer a anhawster galetach, tra bydd agosaf Down 'yn ffafrio un yn haws. 'Gofyn' yn dod i fyny 'r screen anhawster dewis."
+
+#: GameEngine.py:134
+msgid "Buffer Size"
+msgstr "Buffer Maint"
+
+#: GameEngine.py:134
+msgid "Set your audio buffer size. Higher values will reduce audio popping, but increase game lag. Only change this if you are having audio quality issues, and use the lowest value that sounds right."
+msgstr "Gosod eich maint y byffer sain. Bydd gwerthoedd uwch yn lleihau popping sain, ond lag gêm yn cynyddu. Dim ond yn newid hwn os ydych yn cael materion ansawdd sain, ac yn defnyddio'r gwerth isaf a swnio'n iawn."
+
+#: GameEngine.py:135
+msgid "A/V Delay"
+msgstr "A Oedi V /"
+
+#: GameEngine.py:135
+msgid "Set your A/V delay. Unfortunately for now you have to use trial and error."
+msgstr "Gosod eich A oedi V /. Yn anffodus, ar hyn o bryd mae'n rhaid i chi ddefnyddio braw a amryfusedd."
+
+#: GameEngine.py:136
+msgid "Screw-Up Sounds"
+msgstr "Sgriw-Up Sounds"
+
+#: GameEngine.py:136
+#: GameEngine.py:152
+#: GameEngine.py:156
+#: GameEngine.py:158
+#: GameEngine.py:159
+#: GameEngine.py:167
+#: GameEngine.py:168
+#: GameEngine.py:170
+#: GameEngine.py:171
+#: GameEngine.py:173
+#: GameEngine.py:179
+#: GameEngine.py:187
+#: GameEngine.py:189
+#: GameEngine.py:193
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:200
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:206
+#: GameEngine.py:207
+#: GameEngine.py:208
+#: GameEngine.py:213
+#: GameEngine.py:215
+#: GameEngine.py:218
+#: GameEngine.py:220
+#: GameEngine.py:222
+#: GameEngine.py:223
+#: GameEngine.py:227
+#: GameEngine.py:229
+#: GameEngine.py:231
+#: GameEngine.py:232
+#: GameEngine.py:239
+#: GameEngine.py:248
+#: GameEngine.py:249
+#: GameEngine.py:251
+#: GameEngine.py:274
+#: GameEngine.py:278
+#: GameEngine.py:279
+#: GameEngine.py:280
+#: GameEngine.py:281
+#: GameEngine.py:282
+#: GameEngine.py:283
+#: GameEngine.py:284
+#: GameEngine.py:285
+#: GameEngine.py:286
+#: GameEngine.py:289
+#: GameEngine.py:290
+#: GameEngine.py:291
+#: GameEngine.py:293
+#: GameEngine.py:294
+#: GameEngine.py:303
+#: GameEngine.py:326
+#: GameEngine.py:330
+#: GameEngine.py:334
+#: GameEngine.py:338
+#: GameEngine.py:405
+msgid "Off"
+msgstr "Off"
+
+#: GameEngine.py:136
+msgid "Quiet"
+msgstr "Tawel"
+
+#: GameEngine.py:136
+msgid "Loud"
+msgstr "Uchel"
+
+#: GameEngine.py:136
+msgid "Painful"
+msgstr "Poenus"
+
+#: GameEngine.py:136
+msgid "How loud should the sound of your screwing up be? Very."
+msgstr "Sut dylai uchel y sŵn eich nydd-droi i fyny fod? Iawn."
+
+#: GameEngine.py:140
+msgid "Active Track Volume"
+msgstr "Cyfrol Trac Actif"
+
+#: GameEngine.py:140
+msgid "Volume of the parts you are playing."
+msgstr "Cyfrol o ardaloedd rydych yn chwarae."
+
+#: GameEngine.py:141
+msgid "Background Volume"
+msgstr "Cyfrol Cefndir"
+
+#: GameEngine.py:141
+msgid "Volume of the parts you are not playing."
+msgstr "Cyfrol o rannau nad ydych yn chwarae."
+
+#: GameEngine.py:144
+msgid "Process Priority"
+msgstr "Proses Blaenoriaeth"
+
+#: GameEngine.py:144
+msgid "Idle"
+msgstr "Idle"
+
+#: GameEngine.py:144
+msgid "Low"
+msgstr "Isel"
+
+#: GameEngine.py:144
+#: GameEngine.py:157
+#: GameEngine.py:179
+#: GameEngine.py:299
+#: GameResultsScene.py:276
+msgid "Normal"
+msgstr "Normal"
+
+#: GameEngine.py:144
+msgid "Above Normal"
+msgstr "Uchod Normal"
+
+#: GameEngine.py:144
+msgid "High"
+msgstr "Uchel"
+
+#: GameEngine.py:144
+msgid "Realtime"
+msgstr "Realtime"
+
+#: GameEngine.py:144
+msgid "Change this to increase the priority of the FoFiX process. Don't change this unless you know what you're doing. DO NOT set this to Realtime. Ever."
+msgstr "Newid hyn i gynyddu'r flaenoriaeth y broses FoFiX. Peidiwch â newid yn yr hyn oni bai eich bod yn gwybod beth rydych chi'n ei wneud. PEIDIWCH gosod hyn i Realtime. Bob amser."
+
+#: GameEngine.py:145
+msgid "Restrict to First Core (Win32 Only)"
+msgstr "Restrict i Craidd yn Gyntaf (Win32 yn unig)"
+
+#: GameEngine.py:145
+msgid "Choose whether to restrict the game to running on only the first processor core on the system. Only has an effect under Windows."
+msgstr "Dewiswch ddylid cyfyngu ar y gêm i redeg ar y craidd yn unig processor cyntaf ar y system. Dim ond yn cael effaith dan Ffenestri."
+
+#: GameEngine.py:146
+msgid "Use Psyco"
+msgstr "Defnyddiwch Psyco"
+
+#: GameEngine.py:146
+msgid "Enable or disable the Psyco specializing compiler. Tests have indicated the game runs faster with it off."
+msgstr "Alluoga ai analluoga y Psyco arbenigo compiler. Profion wedi dangos y gêm yn rhedeg yn gyflymach ag ef i ffwrdd."
+
+#: GameEngine.py:147
+msgid "Missed Notes"
+msgstr "Colli Nodiadau"
+
+#: GameEngine.py:147
+msgid "Disappear"
+msgstr "Ddifanna"
+
+#: GameEngine.py:147
+msgid "Keep on going"
+msgstr "Cadwch ar fynd"
+
+#: GameEngine.py:147
+msgid "When you miss a note, this sets whether they disappear from the fretboard or scroll off the bottom of the screen."
+msgstr "Pan fyddwch yn colli nodyn, mae hyn yn gosod a ydynt yn diflannu oddi ar y fretboard neu sgroliwch oddi ar waelod y sgrîn."
+
+#: GameEngine.py:150
+msgid "Performance"
+msgstr "Perfformiad"
+
+#: GameEngine.py:150
+#: GameEngine.py:151
+msgid "Manual"
+msgstr "Llawlyfr"
+
+#: GameEngine.py:150
+msgid "Pure Speed"
+msgstr "Pur Cyflymder"
+
+#: GameEngine.py:150
+msgid "Fast"
+msgstr "Cyflym"
+
+#: GameEngine.py:150
+msgid "Quality (Recommended)"
+msgstr "Ansawdd a Argymhellir ()"
+
+#: GameEngine.py:150
+msgid "Max Quality (Slow)"
+msgstr "Max Ansawdd (Arafa)"
+
+#: GameEngine.py:150
+msgid "Set the performance of your game. You can fine-tune in the advanced menus."
+msgstr "Chyflea 'r berfformiad eich gêm. Gallwch fireinio'r yn y dewislenni uwch."
+
+#: GameEngine.py:151
+msgid "Gameplay"
+msgstr "Gameplay"
+
+#: GameEngine.py:151
+msgid "Theme-Based"
+msgstr "Thema-Seiliedig"
+
+#: GameEngine.py:151
+msgid "MIDI Based"
+msgstr "MIDI Seiliedig"
+
+#: GameEngine.py:151
+msgid "RB Style"
+msgstr "RB Arddull"
+
+#: GameEngine.py:151
+msgid "GH Style"
+msgstr "GH Arddull"
+
+#: GameEngine.py:151
+msgid "WT Style"
+msgstr "WT Arddull"
+
+#: GameEngine.py:151
+msgid "Sets how the game 'feels' to play. Theme-Based lets the theme creator decide. MIDI Based lets the fretter decide."
+msgstr "Setiau sut y gêm 'yn teimlo' i chwarae. Thema-Seiliedig lets 'r chreawdwr thema benderfynu. MIDI Seiliedig yn gadael y fretter benderfynu."
+
+#: GameEngine.py:152
+msgid "Pause on Loss of Focus"
+msgstr "Pause ar Colli Ffocws"
+
+#: GameEngine.py:152
+#: GameEngine.py:156
+#: GameEngine.py:158
+#: GameEngine.py:170
+#: GameEngine.py:173
+#: GameEngine.py:187
+#: GameEngine.py:189
+#: GameEngine.py:193
+#: GameEngine.py:200
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:206
+#: GameEngine.py:207
+#: GameEngine.py:213
+#: GameEngine.py:218
+#: GameEngine.py:220
+#: GameEngine.py:222
+#: GameEngine.py:223
+#: GameEngine.py:227
+#: GameEngine.py:232
+#: GameEngine.py:239
+#: GameEngine.py:248
+#: GameEngine.py:249
+#: GameEngine.py:251
+#: GameEngine.py:274
+#: GameEngine.py:278
+#: GameEngine.py:279
+#: GameEngine.py:280
+#: GameEngine.py:281
+#: GameEngine.py:282
+#: GameEngine.py:283
+#: GameEngine.py:284
+#: GameEngine.py:285
+#: GameEngine.py:286
+#: GameEngine.py:289
+#: GameEngine.py:290
+#: GameEngine.py:291
+#: GameEngine.py:293
+#: GameEngine.py:303
+#: GameEngine.py:326
+#: GameEngine.py:330
+#: GameEngine.py:334
+#: GameEngine.py:338
+#: GameEngine.py:405
+msgid "On"
+msgstr "Ar"
+
+#: GameEngine.py:152
+msgid "Set whether the game automatically pauses when another application steals input focus."
+msgstr "Gosod a yw'r gêm yn awtomatig pan seibiau cais arall yn dwyn canolbwyntio mewnbwn."
+
+#: GameEngine.py:155
+msgid "HO/PO System"
+msgstr "HO / System PO"
+
+#: GameEngine.py:155
+#: GameResultsScene.py:252
+msgid "RF-Mod"
+msgstr "RF-Weinyddiaeth Amddiffyn"
+
+#: GameEngine.py:155
+#: GameResultsScene.py:254
+msgid "GH2 Strict"
+msgstr "GH2 Strict"
+
+#: GameEngine.py:155
+#: GameEngine.py:319
+#: GameResultsScene.py:256
+msgid "GH2"
+msgstr "GH2"
+
+#: GameEngine.py:155
+msgid "Set the system used for marking hammer-ons and pull-offs (HO/PO). You can either disable them altogether, use the RF-Mod method, or the GH2 system."
+msgstr "Gosod y system a ddefnyddir ar gyfer marcio morthwyl-ons a thynnu-offs (HO / PO). Gallwch naill ai eu hatal yn gyfan gwbl, defnyddiwch y dull RF-Mod neu'r system GH2."
+
+#: GameEngine.py:156
+msgid "GH2 Sloppy Mode"
+msgstr "Modd GH2 Blêr"
+
+#: GameEngine.py:156
+msgid "Sloppy mode allows you to hold higher frets while tapping lower frets during HO/PO sections. This will lower your score by 25%."
+msgstr "Blêr ddelw yn eich galluogi i gynnal uwch frets tra yn taro is frets yn ystod HO / adrannau PO. Bydd hyn yn lleihau eich sgôr o 25%."
+
+#: GameEngine.py:157
+msgid "HO/PO Frequency"
+msgstr "HO / Amlder PO"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:272
+msgid "Least"
+msgstr "Lleiaf"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:274
+msgid "Less"
+msgstr "Llai"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:278
+msgid "More"
+msgstr "Mwy o"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:280
+msgid "Even More"
+msgstr "Hyd yn oed mwy o"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:282
+msgid "Most"
+msgstr "Mae'r rhan fwyaf o"
+
+#: GameEngine.py:157
+msgid "Sets the window used to determine HO/PO notes. Increasing the frequency will reduce your score, and lower settings will give you a tiny bonus."
+msgstr "Gosod y ffenestr a ddefnyddir i benderfynu HO nodiadau PO /. Bydd cynyddu'r pa mor aml y bydd yn lleihau eich sgôr, a lleoliadau is rhoi bonws bach."
+
+#: GameEngine.py:158
+msgid "HO/PO After Chord"
+msgstr "HO / PO ôl tant"
+
+#: GameEngine.py:158
+msgid "This will determine whether or not HO/PO notes can follow a chord. This only applies to the GH2 systems."
+msgstr "Bydd hyn yn pennu HO ai peidio / methu nodiadau PO dilyn tant. Mae hyn yn berthnasol yn unig i'r systemau GH2."
+
+#: GameEngine.py:159
+msgid "Show Hit Accuracy"
+msgstr "Dangos Hit Cywirdeb"
+
+#: GameEngine.py:159
+msgid "Numeric"
+msgstr "Rhifol"
+
+#: GameEngine.py:159
+msgid "Friendly"
+msgstr "Friendly"
+
+#: GameEngine.py:159
+msgid "Both"
+msgstr "Y ddau"
+
+#: GameEngine.py:159
+msgid "Shows how accurate your note hits are. Numeric will give a time in milliseconds, and Friendly will use English to inform you. Both will show, well, both. Useful for determining your A/V delay."
+msgstr "Dangos pa mor gywir taro eich nodyn yn cael eu. Bydd rhifo yn rhoi amser mewn milfedau, a chyfeillgar yn defnyddio Saesneg i roi gwybod i chi. Bydd y ddau yn dangos, yn dda, y ddau. Defnyddiol ar gyfer penderfynu ar eich A oedi V /."
+
+#: GameEngine.py:160
+msgid "Hit Accuracy Pos"
+msgstr "Pos Cywirdeb Hit"
+
+#: GameEngine.py:160
+#: GameEngine.py:212
+msgid "Center"
+msgstr "Canola"
+
+#: GameEngine.py:160
+msgid "Top-Right Corner"
+msgstr "Corner Top-Hawl"
+
+#: GameEngine.py:160
+msgid "Bottom-Left Corner"
+msgstr "Gwaelod-Corner Chwith"
+
+#: GameEngine.py:160
+msgid "Center-Bottom"
+msgstr "Canola-Gwaelod"
+
+#: GameEngine.py:160
+msgid "Sets where the accuracy information will be displayed, if enabled."
+msgstr "Setiau lle bydd y wybodaeth yn cael ei arddangos cywirdeb, os alluogi."
+
+#: GameEngine.py:162
+msgid "Max Players"
+msgstr "Chwaraewyr Max"
+
+#: GameEngine.py:162
+msgid "Set the maximum number of players in Co-Op modes. Be aware that higher numbers are associated with a significant drop in performance."
+msgstr "Gosod y nifer uchaf o chwaraewyr mewn dulliau Co-Op. Byddwch yn ymwybodol bod niferoedd uwch yn gysylltiedig â gostyngiad sylweddol mewn perfformiad."
+
+#: GameEngine.py:165
+msgid "Slideshow Delay"
+msgstr "Oedi Slideshow"
+
+#: GameEngine.py:165
+msgid "Sets how long, in milliseconds, to wait between each frame in a stage slideshow."
+msgstr "Setiau faint o amser, mewn milfedau, i aros rhwng pob ffrâm mewn cyfnod slideshow."
+
+#: GameEngine.py:166
+msgid "Animation Delay"
+msgstr "Animeiddio Oedi"
+
+#: GameEngine.py:166
+msgid "Sets how long, in milliseconds, to wait between each frame in a stage animation."
+msgstr "Setiau faint o amser, mewn milfedau, i aros rhwng pob ffrâm mewn animeiddio llwyfan."
+
+#: GameEngine.py:167
+msgid "Stage Slideshow"
+msgstr "Cyfnod Slideshow"
+
+#: GameEngine.py:167
+#: GameEngine.py:168
+msgid "BackNForth"
+msgstr "BackNForth"
+
+#: GameEngine.py:167
+msgid "Sets the method used to rotate frames in a stage slideshow."
+msgstr "Gosod y dull a ddefnyddir i gylchdroi fframiau mewn cyfnod slideshow."
+
+#: GameEngine.py:168
+msgid "Stage Animation"
+msgstr "Animeiddio Cyfnod"
+
+#: GameEngine.py:168
+msgid "Sets the method used to rotate frames in a stage animation."
+msgstr "Gosod y dull a ddefnyddir i gylchdroi fframiau mewn animeiddio llwyfan."
+
+#: GameEngine.py:169
+msgid "Stage Selection"
+msgstr "Cyfnod Dewis"
+
+#: GameEngine.py:169
+msgid "Default"
+msgstr "Default"
+
+#: GameEngine.py:169
+msgid "Blank"
+msgstr "Blank"
+
+#: GameEngine.py:169
+msgid "Video"
+msgstr "Fideo"
+
+#: GameEngine.py:169
+msgid "Set the background for your stage. Default will use the default background, and Blank puts you in a dark room. Probably a lot like the one you're in now."
+msgstr "Gosod y cefndir ar gyfer eich cyfnod. Bydd Default defnyddio'r cefndir ball, a 'n Syn yn eich rhoi mewn ystafell dywyll. Yn ôl pob tebyg lawer fel yr un rydych yn awr."
+
+#: GameEngine.py:170
+msgid "Song Stage"
+msgstr "Cyfnod Song"
+
+#: GameEngine.py:170
+msgid "Fretters can include a stage to be used with their songs. If this is enabled, you can see it."
+msgstr "Gall Fretters cynnwys llwyfan i gael ei ddefnyddio yn eu caneuon. Os yw hyn yn alluogi, gallwch chi ei weld."
+
+#: GameEngine.py:171
+msgid "Script Lyric Display"
+msgstr "Arddangos Lyric Script"
+
+#: GameEngine.py:171
+msgid "By Song"
+msgstr "Erbyn Song"
+
+#: GameEngine.py:171
+#: GameEngine.py:190
+#: GameEngine.py:201
+#: GameEngine.py:202
+#: GameEngine.py:214
+#: GameEngine.py:228
+#: GameEngine.py:269
+#: GameEngine.py:297
+msgid "Always"
+msgstr "Bob amser"
+
+#: GameEngine.py:171
+msgid "Dual Lyric Prevention"
+msgstr "Atal Lyric Ddeuol"
+
+#: GameEngine.py:171
+msgid "Sets whether lyrics from a script.txt file are displayed. 'By Song' lets the fretter decide. 'Always' always displays script lyrics, if available, and 'Dual Lyric Prevention' will disable script lyrics if there are MIDI lyrics. (This is affected by the 'Performance' quickset)"
+msgstr "Setiau a lyrics o ffeil script.txt yn cael eu harddangos. 'Drwy Song' yn gadael y fretter benderfynu. 'Always' bob amser yn dangos geiriau script, os ydynt ar gael, a 'n Ddeuol Lyric Atal' Bydd geiriau script analluoga os oes geiriau MIDI. (Mae hyn yn cael ei effeithio gan y 'Perfformiad' quickset)"
+
+#: GameEngine.py:172
+msgid "Frets Under Notes"
+msgstr "Frets Dan Nodiadau"
+
+#: GameEngine.py:172
+msgid "Sets whether the notes slide under the frets or over them."
+msgstr "Gosod a lithra y nodiadau o dan y frets neu dros nhw."
+
+#: GameEngine.py:173
+msgid "Drum Navigation"
+msgstr "Drum Navigation"
+
+#: GameEngine.py:173
+msgid "If enabled, drum keys will be allowed to navigate menus. If not, only guitar keys and keyboard master keys will."
+msgstr "Wedi'i alluogi, drwm allweddi yn cael ei ganiatáu i fynd bwydlenni. Os na, dim ond agoriadau gitâr ac allweddau yn feistr allweddell."
+
+#: GameEngine.py:175
+msgid "Ignore Open Strums"
+msgstr "Anwybyddu Strums Agored"
+
+#: GameEngine.py:175
+msgid "If enabled, strumming without holding any frets down won't be counted."
+msgstr "Wedi'i alluogi, strumming heb gynnal unrhyw frets lawr ni fydd yn cael ei gyfrif."
+
+#: GameEngine.py:176
+msgid "Static Strings"
+msgstr "Static Llinynnau"
+
+#: GameEngine.py:176
+msgid "If enabled, the 'strings' on your fretboard will not scroll."
+msgstr "Wedi'i alluogi, ni fydd y tannau 'ar eich fretboard sgrolio."
+
+#: GameEngine.py:177
+msgid "Effects Save SP"
+msgstr "Effeithiau Cadw SP"
+
+#: GameEngine.py:177
+msgid "If enabled, whammying while in SP will slow down its decrease. And your score will be handicapped by 5%."
+msgstr "Wedi'i alluogi, whammying tra i mewn yn SP arafa i lawr ei leihau. A fydd eich sgôr yn llesteirio gan 5%."
+
+#: GameEngine.py:178
+msgid "Show HO/PO Indicator"
+msgstr "Dangos HO / Dangosydd PO"
+
+#: GameEngine.py:178
+msgid "If enabled, 'HOPO' will appear in game. When there are HOPO notes active, it will turn white."
+msgstr "Wedi'i alluogi, 'Bydd HOPO' yn ymddangos yn y gêm. Pan fydd yn cael eu nodi HOPO weithredol, bydd yn troi gwyn."
+
+#: GameEngine.py:179
+msgid "Use Tiers in Quickplay"
+msgstr "Defnyddiwch Haenau yn Quickplay"
+
+#: GameEngine.py:179
+msgid "Sorting"
+msgstr "Trefnu"
+
+#: GameEngine.py:179
+msgid "Sets whether to mark tiers in quickplay mode. 'Normal' will use the career tiers and 'Sorting' will insert tiers based on the current sort order."
+msgstr "Setiau p'un ai i nodi haenau yn y modd quickplay. 'Normal' yn defnyddio haenau gyrfa a 'Trefnu' haen ychwanegwch y bydd yn seiliedig ar y drefn ar hyn o bryd."
+
+#: GameEngine.py:180
+msgid "Star Updates"
+msgstr "Diweddariadau Star"
+
+#: GameEngine.py:180
+msgid "On Hit"
+msgstr "Ar Hit"
+
+#: GameEngine.py:180
+msgid "Score Change"
+msgstr "Newid Sgôr"
+
+#: GameEngine.py:180
+msgid "If set to 'On Hit', your star score will only be checked when you hit a note. If set to 'Score Change', your star score will constantly update. (This is affected by the 'Performance' quickset)"
+msgstr "Os yn 'Ar Hit', bydd eich sgôr yn unig seren yn cael ei wirio pan fyddwch yn taro nodyn. Os yn 'Score Newid', bydd eich sgôr yn gyson seren update. (Mae hyn yn cael ei effeithio gan y 'Perfformiad' quickset)"
+
+#: GameEngine.py:181
+msgid "Partial Star Continuous Fillup"
+msgstr "Seren Fillup Parhaus Rhannol"
+
+#: GameEngine.py:181
+msgid "Sets whether your partial stars will fill up gradually ('Yes') or in chunks. (This is affected by the 'Performance' quickset)"
+msgstr "Setiau a fydd eich sêr rhannol lanw i fyny yn raddol ('Ie') neu yn ddarnau. (Mae hyn yn cael ei effeithio gan y 'Perfformiad' quickset)"
+
+#: GameEngine.py:182
+msgid "Countdown on Resume"
+msgstr "Countdown ar Resume"
+
+#: GameEngine.py:182
+msgid "If enabled, there will be a three second countdown when you unpause."
+msgstr "Wedi'i alluogi, bydd tri countdown ail pan fyddwch yn unpause."
+
+#: GameEngine.py:184
+msgid "Script Lyric Position"
+msgstr "Swydd Lyric Script"
+
+#: GameEngine.py:184
+msgid "Bottom"
+msgstr "Bottom"
+
+#: GameEngine.py:184
+msgid "Top"
+msgstr "Top"
+
+#: GameEngine.py:184
+msgid "Display script lyrics at either the bottom or top of the screen."
+msgstr "geiriau script Arddangos naill ai yn y gwaelod neu frig y sgrin."
+
+#: GameEngine.py:187
+msgid "Starpower Claps"
+msgstr "Starpower Claps"
+
+#: GameEngine.py:187
+msgid "Enables a clapping sound effect to be used on the beats in Starpower."
+msgstr "Galluogi effaith sain glapio i gael ei ddefnyddio ar y curiad yn Starpower."
+
+#: GameEngine.py:188
+msgid "Song Previews"
+msgstr "Rhagolygon Song"
+
+#: GameEngine.py:188
+msgid "Yellow Fret (#3)"
+msgstr "Melyn phoeni (# 3)"
+
+#: GameEngine.py:188
+msgid "If set to 'Automatic', songs will automatically start previewing when you select them. Otherwise you must press the third fret."
+msgstr "Os yn i '' n awtomatig ', bydd caneuon' n awtomatig chychwyn previewing pan fyddwch yn dewis nhw. Fel arall, mae'n rhaid i chi bwyso y trydydd phoeni."
+
+#: GameEngine.py:189
+msgid "RB SP Neck Glow"
+msgstr "RB Gwddf SP Glow"
+
+#: GameEngine.py:189
+msgid "Sets a neck glow effect during SP in RB-type themes."
+msgstr "Setiau gwddf effaith glow yn ystod SP mewn themâu RB-fath."
+
+#: GameEngine.py:190
+msgid "SP Refill Mode"
+msgstr "Ail-lenwi SP Ddelw"
+
+#: GameEngine.py:190
+msgid "By MIDI Type"
+msgstr "Erbyn Math MIDI"
+
+#: GameEngine.py:190
+msgid "Sets whether you can earn more starpower while using it. In 'By MIDI Type', only MIDIs that mark RB-style sections will use this. (This is set by the 'Gameplay' quickset)"
+msgstr "Setiau a allwch chi ennill mwy starpower wrth ei ddefnyddio. Yn '' Erbyn MIDI Math, dim ond MIDIs y marc adrannau RB-arddull byddwn yn defnyddio hwn. (Mae hyn yn cael ei osod gan y 'gameplay' quickset)"
+
+#: GameEngine.py:193
+msgid "Effects Debug"
+msgstr "Effeithiau Dadnamu"
+
+#: GameEngine.py:193
+msgid "If enabled, will show on-screen the raw data of your killswitch/whammy."
+msgstr "Wedi'i alluogi, yn dangos ar y sgrin y data crai eich killswitch / ergyd."
+
+#: GameEngine.py:195
+msgid "Drum SP"
+msgstr "Drum SP"
+
+#: GameEngine.py:195
+msgid "Auto / Fills"
+msgstr "Auto / Llond"
+
+#: GameEngine.py:195
+msgid "Manual / Fills"
+msgstr "Llawlyfr / Llond"
+
+#: GameEngine.py:195
+msgid "Determines how drum starpower is activated when there are no drum fills. Auto will automatically activate when available, and Manual will wait for the 'Starpower' button to be pressed."
+msgstr "Pennu pa mor drwm starpower yn cael ei weithredu pan nad oes drwm llenwi. Bydd Auto activate 'n awtomatig pan fydd ar gael, a bydd yn Llawlyfr aros ar gyfer y' Starpower botwm 'i fod yn dioddef caledi."
+
+#: GameEngine.py:196
+msgid "Large Drum Neck"
+msgstr "Mawr Drum Gwddf"
+
+#: GameEngine.py:196
+msgid "If enabled, will show a larger neck when playing drums."
+msgstr "Wedi'i alluogi, yn dangos gwddf mwy pan drymiau chwarae."
+
+#: GameEngine.py:197
+#: GameEngine.py:235
+msgid "Bass Groove Neck"
+msgstr "Bas Gwddf Groove"
+
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:307
+msgid "Replace"
+msgstr "Replace"
+
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:307
+msgid "Overlay"
+msgstr "Overlay"
+
+#: GameEngine.py:197
+msgid "Sets the style of the Bass Groove neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "Setiau arddull y gwddf Groove Bass. 'Replace' yn cymryd lle eich gwddf y gwddf arbennig, tra bod 'Overlay' yn gosod y gwddf dros ben."
+
+#: GameEngine.py:198
+msgid "Guitar Solo Neck"
+msgstr "Gwddf Unawd Gitâr"
+
+#: GameEngine.py:198
+msgid "Sets the style of the Guitar Solo neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "Setiau arddull y gwddf Unawd Guitar. 'Replace' yn cymryd lle eich gwddf y gwddf arbennig, tra bod 'Overlay' yn gosod y gwddf dros ben."
+
+#: GameEngine.py:199
+msgid "Show Unused Events"
+msgstr "Digwyddiadau Dangos Unused"
+
+#: GameEngine.py:199
+msgid "If enabled, various MIDI events not used by the game will be shown on-screen."
+msgstr "Os nad yw galluogi, digwyddiadau MIDI amrywiol a ddefnyddir gan y gêm yn cael eu dangos ar y sgrin."
+
+#: GameEngine.py:200
+msgid "Kick Bass Sound"
+msgstr "Sain Bass Cic"
+
+#: GameEngine.py:200
+msgid "If enabled, you'll hear a kick bass sound when you use the kick pedal."
+msgstr "Wedi'i alluogi, byddwch yn clywed swn gic bas pan fyddwch yn defnyddio'r cicio pedal."
+
+#: GameEngine.py:201
+msgid "Show Lyrics in All Modes"
+msgstr "Lyrics Dangos mewn Holl Dulliau"
+
+#: GameEngine.py:201
+#: GameEngine.py:202
+msgid "Single Player"
+msgstr "Chwaraewr Sengl"
+
+#: GameEngine.py:201
+msgid "Sets whether or not MIDI lyrics will be displayed in modes without a vocalist. 'Single Player' will only show lyrics when in Solo modes."
+msgstr "Setiau a yw geiriau MIDI yn cael ei arddangos mewn dulliau heb leisydd. 'Chwaraewr Sengl' yn unig yn dangos geiriau pan mewn dulliau Solo."
+
+#: GameEngine.py:202
+msgid "Show MIDI Sections"
+msgstr "Dangos Adrannau MIDI"
+
+#: GameEngine.py:202
+msgid "Sets whether or not to scroll the names of sections as marked in the MIDI files."
+msgstr "Setiau p'un ai i sgrolio enwau o adrannau fel y nodir yn y ffeiliau MIDI."
+
+#: GameEngine.py:203
+msgid "Key Conflicts"
+msgstr "Gwrthdaro Allweddol"
+
+#: GameEngine.py:203
+msgid "Don't check"
+msgstr "Peidiwch â gwirio"
+
+#: GameEngine.py:203
+msgid "Notify"
+msgstr "Notify"
+
+#: GameEngine.py:203
+msgid "Enforce"
+msgstr "Gorfodi"
+
+#: GameEngine.py:203
+msgid "Sets how the game handles key conflicts. 'Don't check' doesn't check, but conflicts will affect play. 'Notify' will inform you, but allow you to continue, and 'Enforce' will not allow you to exit the menu until all key conflicts have been resolved."
+msgstr "Setiau sut y mae'r gêm yn trin gwrthdaro allweddol. 'Peidiwch gwirio' nid yw gwirio, ond bydd gwrthdaro yn effeithio ar chwarae. 'Notify' yn rhoi gwybod i chi, ond yn caniatáu i chi barhau, a 'Gorfodi' yn caniatáu i chi adael y ddewislen nes bod yr holl gwrthdaro allweddol wedi cael eu datrys."
+
+#: GameEngine.py:204
+msgid "Show In-Game Stats"
+msgstr "Stats Dangos Yn-Gêm"
+
+#: GameEngine.py:204
+msgid "Sets whether or not to show detailed stats as you play. 'By Theme' leaves it to the theme creator."
+msgstr "Setiau p'un ai i ddangos stats fanwl fel y chwarae. 'Drwy Thema' dail 'i at' r chreawdwr thema."
+
+#: GameEngine.py:205
+msgid "Show Stars In-Game"
+msgstr "Dangos Sêr Yn y-Gêm"
+
+#: GameEngine.py:205
+msgid "Sets whether or not to show your star score as you play. 'By Theme' leaves it to the theme creator."
+msgstr "Setiau p'un ai i ddangos eich sgôr seren wrth chwarae. 'Drwy Thema' dail 'i at' r chreawdwr thema."
+
+#: GameEngine.py:206
+msgid "Show Partial Stars"
+msgstr "Dangos Stars Rhannol"
+
+#: GameEngine.py:206
+msgid "Sets whether or not to show partial stars, if available"
+msgstr "Setiau p'un ai i ddangos sêr rhannol, os ydynt ar gael"
+
+#: GameEngine.py:207
+msgid "HO/PO Debug"
+msgstr "HO / PO Debug"
+
+#: GameEngine.py:207
+msgid "If enabled, various log messages will be recorded regarding the HO/PO system. Please leave this disabled if submitting logs for bug reports unless you are certain it is necessary."
+msgstr "Wedi'i alluogi, bydd negeseuon cofnod yn cael ei gofnodi o ran y system HO PO /. Os gwelwch yn dda gadael y bobl anabl os cyflwyno logs ar gyfer adroddiadau nam oni bai eich bod yn sicr ei bod yn angenrheidiol."
+
+#: GameEngine.py:208
+msgid "Show Solo Stats"
+msgstr "Unawd Sioe Stats"
+
+#: GameEngine.py:208
+msgid "Percent"
+msgstr "Canran"
+
+#: GameEngine.py:208
+msgid "Detail"
+msgstr "Manylion"
+
+#: GameEngine.py:208
+msgid "Sets whether to show your solo results when you finish a solo. 'Percent' will only show the percentage, while 'Detail' includes additional information."
+msgstr "Setiau p'un ai i ddangos eich canlyniadau unigol pan fyddwch yn gorffen yn unigol. 'Canran y bydd' ond yn dangos y canran, tra bod 'Manylion' yn cynnwys gwybodaeth ychwanegol."
+
+#: GameEngine.py:209
+msgid "Stat Decimal Places"
+msgstr "Lleoedd Stat Degol"
+
+#: GameEngine.py:209
+msgid "Determines how many decimal places will be noted in displaying stats."
+msgstr "Determines bydd nifer y lleoedd degol yn cael ei nodi yn arddangos stats."
+
+#: GameEngine.py:210
+msgid "Star Scoring Style"
+msgstr "Arddull Sgorio Seren"
+
+#: GameEngine.py:210
+msgid "Accuracy"
+msgstr "Cywirdeb"
+
+#: GameEngine.py:210
+msgid "GH"
+msgstr "GH"
+
+#: GameEngine.py:210
+msgid "RB"
+msgstr "RB"
+
+#: GameEngine.py:210
+msgid "RB+GH"
+msgstr "RB + GH"
+
+#: GameEngine.py:210
+msgid "Sets which system to use to calculate your star score."
+msgstr "Setiau y system ei defnyddio i gyfrifo eich sgôr seren."
+
+#: GameEngine.py:211
+msgid "Career Mode Advance"
+msgstr "Ymlaen llaw Gyrfa Ddelw"
+
+#: GameEngine.py:211
+msgid "0 (Song Finish)"
+msgstr "0 (Gorffen Song)"
+
+#: GameEngine.py:211
+msgid "1 Star"
+msgstr "1 Seren"
+
+#: GameEngine.py:211
+msgid "2 Stars"
+msgstr "2 Stars"
+
+#: GameEngine.py:211
+msgid "3 Stars"
+msgstr "3 Seren"
+
+#: GameEngine.py:211
+msgid "4 Stars"
+msgstr "4 Stars"
+
+#: GameEngine.py:211
+msgid "5 Stars"
+msgstr "5 Stars"
+
+#: GameEngine.py:211
+msgid "6 (Gold Stars)"
+msgstr "6 (Seren Aur)"
+
+#: GameEngine.py:211
+msgid "7 (Full Combo)"
+msgstr "7 (Combo llawn)"
+
+#: GameEngine.py:211
+msgid "Determine how many stars are needed on a song before it is unlocked in career mode."
+msgstr "Penderfynu faint o sêr yn cael eu hangen ar gân cyn ei ddatgloi mewn modd gyrfa."
+
+#: GameEngine.py:212
+msgid "Solo Stat Positioning"
+msgstr "Positioning Unawd Stat"
+
+#: GameEngine.py:212
+#: GameEngine.py:319
+msgid "Rock Band"
+msgstr "Rock Band"
+
+#: GameEngine.py:212
+msgid "Sets where your solo result stats will be displayed."
+msgstr "Setiau lle bydd eich stats canlyniad unigol yn cael eu harddangos."
+
+#: GameEngine.py:213
+msgid "Bass Groove"
+msgstr "Bas Groove"
+
+#: GameEngine.py:213
+msgid "By MIDI"
+msgstr "Erbyn MIDI"
+
+#: GameEngine.py:213
+msgid "Enable or disable bass groove (additional score multiplier for bass)"
+msgstr "groove bas Alluoga ai analluoga (sgôr ychwanegol lluosydd ar gyfer bas)"
+
+#: GameEngine.py:214
+msgid "Drum Miss Penalty"
+msgstr "Drum Miss Cosb"
+
+#: GameEngine.py:214
+msgid "Song Start"
+msgstr "Song Cychwyn"
+
+#: GameEngine.py:214
+msgid "First Note"
+msgstr "Nodyn Gyntaf"
+
+#: GameEngine.py:214
+msgid "Determines when drum hits count as misses: When the song begins, after the first note, or always."
+msgstr "Determines pan drwm hits yn cyfrif fel colli: Pan fydd y gân yn dechrau, ar ôl y nodyn cyntaf, neu bob amser."
+
+#: GameEngine.py:215
+msgid "Time Display Format"
+msgstr "Fformat Arddangos Amser"
+
+#: GameEngine.py:215
+#: GameEngine.py:306
+msgid "Countdown"
+msgstr "Countdown"
+
+#: GameEngine.py:215
+msgid "Elapsed"
+msgstr "Aeth heibio"
+
+#: GameEngine.py:215
+msgid "Sets whether the song time is displayed as time elapsed, time remaining, or not at all"
+msgstr "Gosod a yw'r amser gân ei ddangos ar amser a aeth heibio, amser sydd ar ôl, neu ddim o gwbl"
+
+#: GameEngine.py:216
+msgid "Show Theme Version Tag"
+msgstr "Dangos Thema Tag Fersiwn"
+
+#: GameEngine.py:216
+msgid "Places the theme's version tag over menus and dialogs."
+msgstr "Lleoedd tag fersiwn y thema dros bwydlenni a dadlau."
+
+#: GameEngine.py:217
+msgid "Menu Navigation"
+msgstr "Dewislen Llywio"
+
+#: GameEngine.py:217
+msgid "P1 Only"
+msgstr "P1 yn unig"
+
+#: GameEngine.py:217
+msgid "All Players"
+msgstr "Pob Chwaraewyr"
+
+#: GameEngine.py:217
+msgid "Sets whether all players can navigate the menu, or only the controller set as Player 1 and the master keys."
+msgstr "Setiau a gall yr holl chwaraewyr navigate y fwydlen, neu dim ond y rheolwr fel Chwaraewr 1 a 'r agoriadau meistr."
+
+#: GameEngine.py:218
+msgid "In-Game Font Shadow"
+msgstr "Mewn-Gêm Cysgodol Font"
+
+#: GameEngine.py:218
+msgid "Sets whether or not a shadowed font will be used, if available."
+msgstr "Setiau os na fydd ffont cysgodi cael ei ddefnyddio, os ydynt ar gael."
+
+#: GameEngine.py:219
+msgid "Mute Last Second"
+msgstr "Mud diwethaf Ail"
+
+#: GameEngine.py:219
+msgid "Cuts the volume with one second remaining to prevent any pops when the song ends."
+msgstr "Torri'r gyfrol gyda ail un yn weddill i atal unrhyw pops pan fydd y gân yn dod i ben."
+
+#: GameEngine.py:220
+msgid "Results Cheer Loop"
+msgstr "Dolen Cheer Canlyniadau"
+
+#: GameEngine.py:220
+#: GameEngine.py:319
+#: GameEngine.py:399
+msgid "Theme"
+msgstr "Thema"
+
+#: GameEngine.py:220
+msgid "Sets whether the cheering sound heard on the result screen will loop. 'Theme' leaves it to the theme creator."
+msgstr "Gosod a yw'r sŵn yn bloeddio clywed ar y sgrîn ganlyniad, bydd dolen. 'Thema' dail 'i at' r chreawdwr thema."
+
+#: GameEngine.py:221
+msgid "Cheer Loop Delay"
+msgstr "Oedi Dolen Cheer"
+
+#: GameEngine.py:221
+msgid "Sets the time, in milliseconds, to wait before playing the result cheer again (if looping is enabled)."
+msgstr "Gosod y pryd, mewn milfedau, i aros cyn chwarae gymeradwyaeth canlyniad eto (os yn dolennu ei alluogi)."
+
+#: GameEngine.py:222
+msgid "Miss Pauses Anim"
+msgstr "Miss seibiau Anim"
+
+#: GameEngine.py:222
+msgid "When enabled, missing a note will pause the stage animation."
+msgstr "Pan alluogi, bydd yn methu nodyn oedi yr animeiddiad llwyfan."
+
+#: GameEngine.py:223
+msgid "Song HO/PO Freq"
+msgstr "Song HO / Freq PO"
+
+#: GameEngine.py:223
+msgid "Sets whether or not to use the HO/PO Frequency setting determined by the fretter, if available."
+msgstr "Setiau p'un ai i ddefnyddio'r HO / PO Amlder lleoliad a bennir gan y fretter, os ydynt ar gael."
+
+#: GameEngine.py:225
+msgid "Mute Drum Track During Fills"
+msgstr "Mud Drum Trac ystod Llond"
+
+#: GameEngine.py:225
+msgid "Sets whether or not the drum track will be muted during drum fills (so you can hear yourself have at it!)"
+msgstr "Bydd Setiau a yw'r trac drwm yn dawel yn ystod y drwm llenwi (fel y gallwch glywed eich hun wrth ei!)"
+
+#: GameEngine.py:226
+msgid "Sustain Muting"
+msgstr "Sustain Muting"
+
+#: GameEngine.py:226
+msgid "Never Mute"
+msgstr "Peidiwch byth Mud"
+
+#: GameEngine.py:226
+msgid "Very Early"
+msgstr "Iawn Cynnar"
+
+#: GameEngine.py:226
+msgid "Early"
+msgstr "Cynnar"
+
+#: GameEngine.py:226
+#: GameEngine.py:309
+#: GameResultsScene.py:293
+msgid "Standard"
+msgstr "Standard"
+
+#: GameEngine.py:226
+msgid "Always Mute"
+msgstr "Bob amser Mud"
+
+#: GameEngine.py:226
+msgid "Sets the window used to determine whether or not to mute a dropped sustain note. 'Early' means it will only mute when you drop the sustain relatively early."
+msgstr "Gosod y ffenestr a ddefnyddir i benderfynu p'un ai i fud yn gostwng cynnal nodyn. 'Early' yn golygu 'i ewyllysia ond yn fud pan fyddwch yn gollwng y cynnal gymharol gynnar."
+
+#: GameEngine.py:227
+msgid "Show Solo Frame"
+msgstr "Ffrâm Unawd Sioe"
+
+#: GameEngine.py:227
+msgid "Sets whether to show a frame around the solo stats, if available."
+msgstr "Setiau a ddylid dangos ffrâm o gwmpas y stats unigol, os ydynt ar gael."
+
+#: GameEngine.py:228
+msgid "Enable Guitar Solos"
+msgstr "Guitar unawdau Galluogi"
+
+#: GameEngine.py:228
+#: GameEngine.py:297
+msgid "Never"
+msgstr "Peidiwch byth"
+
+#: GameEngine.py:228
+msgid "MIDI Only"
+msgstr "MIDI yn unig"
+
+#: GameEngine.py:228
+msgid "Sets the logic used to mark solos. 'Always' will mark solos in sections if available. 'By Theme' leaves it to the theme creator. 'MIDI Only' only enables solos marked with the MIDI marker note."
+msgstr "Gosod y rhesymeg a ddefnyddir i nodi unawdau. 'Bob amser' yn nodi unawdau mewn adrannau os ydynt ar gael. 'Drwy Thema' dail 'i at' r chreawdwr thema. 'MIDI Unig' yn unig yn galluogi unawdau marcio gyda'r nodyn marciwr MIDI."
+
+#: GameEngine.py:229
+msgid "SP Mode"
+msgstr "SP Ddelw"
+
+#: GameEngine.py:229
+#: GameEngine.py:319
+msgid "FoF"
+msgstr "FoF"
+
+#: GameEngine.py:229
+msgid "Auto MIDI"
+msgstr "Auto MIDI"
+
+#: GameEngine.py:229
+msgid "Sets the logic used to determine starpower phrases. 'FoF' will generate paths based on the number of notes. 'Auto MIDI' will use MIDI markers to determine the paths, and fall back on the FoF mode if none are available."
+msgstr "Gosod y rhesymeg a ddefnyddir i benderfynu ymadroddion starpower. 'FoF' yn creu llwybrau yn seiliedig ar y nifer o nodiadau. Bydd 'Auto MIDI' ddefnyddio marcwyr MIDI i benderfynu ar y llwybrau, ac yn disgyn yn ôl ar y modd FoF os nad oes un ar gael."
+
+#: GameEngine.py:231
+msgid "Inc. Neck Mode"
+msgstr "Modd Gwddf Inc"
+
+#: GameEngine.py:231
+msgid "Start Only"
+msgstr "Dim ond Cychwyn"
+
+#: GameEngine.py:231
+msgid "Start & End"
+msgstr "Dechrau a Diwedd"
+
+#: GameEngine.py:231
+msgid "Sets how and whether to render incoming solo necks. 'Start Only' will scroll it in but not out, while 'Start & End' does both."
+msgstr "Setiau sut a ddylid gwneud gwddf unigol sy'n dod i mewn. 'Start Dim ond' bydd sgrôl yn ond nid allan, tra bod 'End Start a' gwneud y ddau."
+
+#: GameEngine.py:232
+msgid "Big Rock Endings"
+msgstr "Terfyniadau Big Rock"
+
+#: GameEngine.py:232
+msgid "Enable or disable big rock endings. 'By Theme' leaves it to the theme creator."
+msgstr "terfyniadau graig Alluoga ai analluoga mawr. 'Drwy Thema' dail 'i at' r chreawdwr thema."
+
+#: GameEngine.py:233
+msgid "Main Neck"
+msgstr "Prif Gwddf"
+
+#: GameEngine.py:233
+#, python-format
+msgid "Set the transparency of the main neck. 100% is fully visible."
+msgstr "Chyflea 'r dryloywder y prif gwddf. 100% yn gwbl weladwy."
+
+#: GameEngine.py:234
+msgid "Solo Neck"
+msgstr "Unawd Gwddf"
+
+#: GameEngine.py:234
+#, python-format
+msgid "Set the transparency of the solo neck. 100% is fully visible."
+msgstr "Chyflea 'r dryloywder y gwddf unigol. 100% yn gwbl weladwy."
+
+#: GameEngine.py:235
+#, python-format
+msgid "Set the transparency of the bass groove neck. 100% is fully visible."
+msgstr "Chyflea 'r dryloywder y bas gwddf rhigol. 100% yn gwbl weladwy."
+
+#: GameEngine.py:236
+msgid "Fail Neck"
+msgstr "Methu Gwddf"
+
+#: GameEngine.py:236
+#, python-format
+msgid "Set the transparency of the failing neck. 100% is fully visible."
+msgstr "Chyflea 'r dryloywder y gwddf yn methu. 100% yn gwbl weladwy."
+
+#: GameEngine.py:237
+msgid "Overlay Neck"
+msgstr "Overlay Gwddf"
+
+#: GameEngine.py:237
+#, python-format
+msgid "Set the transparency of neck overlays. 100% is fully visible."
+msgstr "Set tryloywder y gwddf troshaenau. 100% yn gwbl weladwy."
+
+#: GameEngine.py:238
+msgid "All Necks"
+msgstr "Pob gyddfau"
+
+#: GameEngine.py:238
+#, python-format
+msgid "Set the master transparency of all necks. 100% is fully visible."
+msgstr "Chyflea 'r dryloywder meistr yr holl gwddf. 100% yn gwbl weladwy."
+
+#: GameEngine.py:239
+msgid "Show Any Available Score"
+msgstr "Dangos Unrhyw Sgôr ar gael"
+
+#: GameEngine.py:239
+msgid "When set to 'On', this will look for any available score on the currently selected instrument for setlist score display, if one is not available at the chosen difficulty."
+msgstr "Pan fydd gosod i 'Ar', bydd hyn yn edrych am unrhyw sgôr ar gael ar hyn o bryd yn offeryn a ddewiswyd ar gyfer eu harddangos score setlist, os nad oes un ar gael yn y anhawster dewis."
+
+#: GameEngine.py:241
+msgid "Scroll Delay"
+msgstr "Sgroliwch Oedi"
+
+#: GameEngine.py:241
+msgid "Sets how long, in milliseconds, to wait before beginning to scroll."
+msgstr "Setiau faint o amser, mewn milfedau, i aros cyn dechrau sgrolio."
+
+#: GameEngine.py:242
+msgid "Scroll Rate"
+msgstr "Sgroliwch Cyfradd"
+
+#: GameEngine.py:242
+msgid "Sets how quickly menus will scroll."
+msgstr "Setiau Bydd pa mor gyflym y bwydlenni sgrolio."
+
+#: GameEngine.py:245
+msgid "Use (notes-unedited.mid)"
+msgstr "Defnyddiwch (nodiadau-unedited.mid)"
+
+#: GameEngine.py:245
+msgid "Sets whether to look for (and use) a 'notes-unedited.mid' before 'notes.mid'. There's no reason to change this."
+msgstr "Setiau p'un ai i edrych am (a defnyddio) a 'nodiadau-unedited.mid' cyn 'notes.mid'. Nid oes unrhyw reswm i newid hyn."
+
+#: GameEngine.py:246
+msgid "Show Fill Status"
+msgstr "Dangos Llenwch Statws"
+
+#: GameEngine.py:246
+msgid "When enabled, whether or not you are in a drum fill/freestyle ending will be displayed in text on the screen."
+msgstr "Pan galluogi, os nad ydych yn drwm llenwi / dull rhydd yn dod i ben yn cael ei arddangos yn y testun ar y sgrin."
+
+#: GameEngine.py:247
+msgid "Show BPM"
+msgstr "Dangos BPM"
+
+#: GameEngine.py:247
+msgid "When enabled, the current song BPM will be shown on screen."
+msgstr "Pan fydd galluogi, bydd y BPM gân ar hyn o bryd yn cael ei ddangos ar y sgrin."
+
+#: GameEngine.py:248
+msgid "New BPM Logic"
+msgstr "Logic BPM Newydd"
+
+#: GameEngine.py:248
+msgid "If enabled, the game will attempt to use the new BPM logic. This is not a finished feature. Use at your own risk."
+msgstr "Wedi'i alluogi, bydd y gêm yn ymgais i ddefnyddio rhesymeg BPM newydd. Nid yw hon yn nodwedd gorffenedig. Defnyddiwch ar eich risg eich hun."
+
+#: GameEngine.py:249
+msgid "New Song Database Code"
+msgstr "Cân Newydd Côd Cronfa Ddata"
+
+#: GameEngine.py:249
+msgid "Activates the new, incomplete song database code."
+msgstr "Activates newydd, cod gân cronfa ddata anghyflawn."
+
+#: GameEngine.py:251
+msgid "Show Raw Vocal Data"
+msgstr "Dangos Data Amrwd Lleisiol"
+
+#: GameEngine.py:251
+msgid "If enabled, various information about the microphone input will be show in text on screen. Probably only needed for vocal debugging."
+msgstr "Wedi'i alluogi, gwybodaeth amrywiol am y cyfraniad meicroffon yn cael eu dangos yn y testun ar y sgrin. Mae'n debyg eu hangen yn unig ar gyfer debugging lleisiol."
+
+#: GameEngine.py:253
+msgid "Speed Factor"
+msgstr "Cyflymder Ffactor"
+
+#: GameEngine.py:253
+msgid "1.00x"
+msgstr "1.00x"
+
+#: GameEngine.py:253
+msgid "0.75x"
+msgstr "0.75x"
+
+#: GameEngine.py:253
+msgid "0.50x"
+msgstr "0.50x"
+
+#: GameEngine.py:253
+msgid "0.25x"
+msgstr "0.25x"
+
+#: GameEngine.py:253
+msgid "Sets the speed to play the audio at. Your score will be severely penalized if you slow the music down."
+msgstr "Gosod y cyflymder i chwarae sain ar. Bydd eich sgôr yn cael eu cosbi difrifol os ydych yn araf gerddoriaeth i lawr."
+
+#: GameEngine.py:255
+msgid "Effects Mode"
+msgstr "Effeithiau Ddelw"
+
+#: GameEngine.py:255
+msgid "Killswitch"
+msgstr "Killswitch"
+
+#: GameEngine.py:255
+msgid "Pitchbend"
+msgstr "Pitchbend"
+
+#: GameEngine.py:255
+msgid "Sets whether to use a killswitch or pitchbend as the effect on your whammy."
+msgstr "Setiau a ddylid defnyddio killswitch neu pitchbend fel yr effaith ar eich ergyd."
+
+#: GameEngine.py:259
+msgid "Log INI Reads"
+msgstr "Mewngofnodi INI Reads"
+
+#: GameEngine.py:259
+msgid "Logs any read to an INI file. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Logiau unrhyw darllen i ffeil INI. Mae hyn yn wybodaeth ddiangen mewn adroddiadau bug; gadewch ef anabl oni bai eich bod yn sicr ei fod yn berthnasol."
+
+#: GameEngine.py:260
+msgid "Log Class Inits"
+msgstr "Mewngofnodi Inits Dosbarth"
+
+#: GameEngine.py:260
+msgid "Logs most class initializations in '__init__'. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Logiau initializations y rhan fwyaf o dosbarth yn '__init__'. Mae hyn yn wybodaeth ddiangen mewn adroddiadau bug; gadewch ef anabl oni bai eich bod yn sicr ei fod yn berthnasol."
+
+#: GameEngine.py:261
+msgid "Log Loadings"
+msgstr "Mewngofnodi bwysau llwythi"
+
+#: GameEngine.py:261
+msgid "Logs resource loads. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "llwythi adnoddau Logs. Mae hyn yn wybodaeth ddiangen mewn adroddiadau bug; gadewch ef anabl oni bai eich bod yn sicr ei fod yn berthnasol."
+
+#: GameEngine.py:262
+msgid "Log MIDI Sections"
+msgstr "Mewngofnodi Adrannau MIDI"
+
+#: GameEngine.py:262
+msgid "Logs MIDI sections. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Logiau adrannau MIDI. Mae hyn yn wybodaeth ddiangen mewn adroddiadau bug; gadewch ef anabl oni bai eich bod yn sicr ei fod yn berthnasol."
+
+#: GameEngine.py:263
+msgid "Log Undefined GETs"
+msgstr "Mewngofnodi Anniffiniedig YN"
+
+#: GameEngine.py:263
+msgid "Logs attempts to read an undefined config key. This is unnecessary information."
+msgstr "Logiau ymdrechion i ddarllen allweddol config undefined. Mae hyn yn wybodaeth ddiangen."
+
+#: GameEngine.py:264
+msgid "Log Marker Notes"
+msgstr "Mewngofnodi Nodiadau Marker"
+
+#: GameEngine.py:264
+msgid "Logs MIDI marker notes (solo, SP, etc). This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Logiau nodiadau marciwr MIDI (unawd, SP, ac ati). Mae hyn yn wybodaeth ddiangen mewn adroddiadau bug; gadewch ef anabl oni bai eich bod yn sicr ei fod yn berthnasol."
+
+#: GameEngine.py:265
+msgid "Log SP Misses"
+msgstr "Mewngofnodi SP colli"
+
+#: GameEngine.py:265
+msgid "Logs SP phrase misses. This is unnecessary information."
+msgstr "Logiau SP ymadrodd yn methu'r. Mae hyn yn wybodaeth ddiangen."
+
+#: GameEngine.py:266
+msgid "Log Unedited MIDIs"
+msgstr "Mewngofnodi MIDIs anolygedig"
+
+#: GameEngine.py:266
+msgid "Logs when notes-unedited.mid is used. This is unnecessary information."
+msgstr "Logiau pan nodiadau-unedited.mid yn cael ei ddefnyddio. Mae hyn yn wybodaeth ddiangen."
+
+#: GameEngine.py:267
+msgid "Log Lyric Events"
+msgstr "Mewngofnodi Digwyddiadau Lyric"
+
+#: GameEngine.py:267
+msgid "Logs MIDI lyric events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "digwyddiadau Logs telynegol MIDI. Mae hyn yn wybodaeth ddiangen mewn adroddiadau bug; gadewch ef anabl oni bai eich bod yn sicr ei fod yn berthnasol."
+
+#: GameEngine.py:268
+msgid "Log Tempo Events"
+msgstr "Mewngofnodi Digwyddiadau Amser"
+
+#: GameEngine.py:268
+msgid "Logs MIDI tempo events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "digwyddiadau Logs tempo MIDI. Mae hyn yn wybodaeth ddiangen mewn adroddiadau bug; gadewch ef anabl oni bai eich bod yn sicr ei fod yn berthnasol."
+
+#: GameEngine.py:269
+msgid "Log Missing Images"
+msgstr "Mewngofnodi Delweddau ar goll"
+
+#: GameEngine.py:269
+msgid "Only on single images"
+msgstr "Dim ond ar delweddau unigol"
+
+#: GameEngine.py:269
+msgid "Logs when files loaded are not found. 'Only on single images' skips logging when directories are loaded."
+msgstr "Logiau pan na ffeiliau i'w llwytho. 'Dim ond ar ddelweddau sengl' sgipiau logging pan cyfeirlyfrau yn cael eu llwytho."
+
+#: GameEngine.py:274
+msgid "Practice Beat Claps"
+msgstr "Ymarfer Beat Claps"
+
+#: GameEngine.py:274
+msgid "Enables clap sound effects on every beat in practice mode."
+msgstr "Galluogi clap effeithiau sain ar bob bît yn y modd ymarferol."
+
+#: GameEngine.py:275
+msgid "Change Score Display"
+msgstr "Arddangos Sgôr Newid"
+
+#: GameEngine.py:275
+#: GameEngine.py:311
+msgid "Auto"
+msgstr "Auto"
+
+#: GameEngine.py:275
+msgid "Blue Fret (#4)"
+msgstr "Blue phoeni (# 4)"
+
+#: GameEngine.py:275
+msgid "Sets whether to change the setlist high score difficulty automatically or with the fourth fret."
+msgstr "Setiau p'un ai i newid y anhawster sgôr uchel setlist awtomatig neu â phoeni pedwerydd."
+
+#: GameEngine.py:278
+msgid "Makes opponent miss notes until the whammy bar is pushed a few times"
+msgstr "Gwneud gwrthwynebydd yn nodi colli hyd nes y bar ergyd yn cael ei wthio ychydig o weithiau"
+
+#: GameEngine.py:279
+msgid "Difficulty Up"
+msgstr "Anhawster Up"
+
+#: GameEngine.py:279
+msgid "Ups opponent's difficulty for a while (if not playing on Expert)"
+msgstr "Busnes anhawster gwrthwynebydd am gyfnod (os nad yn chwarae ar Arbenigol)"
+
+#: GameEngine.py:280
+msgid "String Break"
+msgstr "String Break"
+
+#: GameEngine.py:280
+msgid "Breaks a string, causing your opponent to miss notes on that fret until they push the fret button several times."
+msgstr "Gwyliau llinyn, gan achosi eich gwrthwynebydd i golli nodiadau ar y phoeni hyd nes eu gwthio phoeni sawl gwaith botyma."
+
+#: GameEngine.py:281
+msgid "Double Notes"
+msgstr "Nodiadau dwbl"
+
+#: GameEngine.py:281
+msgid "Makes single notes into chords, and chords into even bigger ones."
+msgstr "Gwneud nodiadau unigol i mewn i cordiau, a chordiau yn rhai hyd yn oed yn fwy."
+
+#: GameEngine.py:282
+msgid "Death Drain"
+msgstr "Marwolaeth Drain"
+
+#: GameEngine.py:282
+msgid "Sudden Death Only"
+msgstr "Marwolaeth Sydyn yn unig"
+
+#: GameEngine.py:282
+msgid "Drains your opponents life until they die. 'Sudden Death Only' keeps this from appearing until you reach sudden death mode."
+msgstr "Draeniau eich gwrthwynebwyr bywyd hyd nes iddynt farw. 'Marwolaeth Sydyn yn unig' yn cadw hyn rhag ymddangos nes i chi gyrraedd ddelw farwolaeth sydyn."
+
+#: GameEngine.py:283
+msgid "Amp Overload"
+msgstr "Gorlwytho amp"
+
+#: GameEngine.py:283
+msgid "Makes opponent's amp flip out, making notes disappear and reappear randomly."
+msgstr "Gwneud amp gwrthwynebydd yn troi allan, gwneud nodiadau yn diflannu a ailymddangos ar hap."
+
+#: GameEngine.py:284
+msgid "Switch Controls"
+msgstr "Newid Rheolaethau"
+
+#: GameEngine.py:284
+msgid "Switches opponent to (or from) lefty mode for a bit!"
+msgstr "Gwiail gwrthwynebydd i (neu o) ddelw Lefty am dipyn!"
+
+#: GameEngine.py:285
+msgid "Steal Object"
+msgstr "Dwyn Gwrthrych"
+
+#: GameEngine.py:285
+msgid "Steals an object your opponent has."
+msgstr "Dwyn gwrthrych eich gwrthwynebydd wedi."
+
+#: GameEngine.py:286
+msgid "Guitar Tune"
+msgstr "Guitar Alaw"
+
+#: GameEngine.py:286
+msgid "Makes opponent miss all notes until they play a scale."
+msgstr "Gwneud gwrthwynebydd colli holl nodiadau hyd nes eu bod yn chwarae ar raddfa fawr."
+
+#: GameEngine.py:289
+msgid "Score SFX"
+msgstr "Sgôr SFX"
+
+#: GameEngine.py:289
+msgid "Sets whether or not to have Jurgen taunt (or, I suppose, congratulate) you at the end of a song."
+msgstr "Setiau p'un ai i gael Jürgen taunt (neu, mae'n debyg, yn llongyfarch) i chi ar ddiwedd y gân."
+
+#: GameEngine.py:290
+msgid "GH SP Lights"
+msgstr "Goleuadau SP GH"
+
+#: GameEngine.py:290
+msgid "Sets whether to fade images over the starpower bulbs in GH themes when fully lit."
+msgstr "Setiau p'un ai i pylu delweddau dros y bylbiau starpower mewn themâu GH pan fydd yn llawn golau."
+
+#: GameEngine.py:291
+msgid "RB Small 1x Multiplier"
+msgstr "1x RB Bach Lluosydd"
+
+#: GameEngine.py:291
+msgid "When enabled, RB-type themes will have a smaller mult image when the multiplier is at 1x. 'By Theme' leaves it to the theme creator."
+msgstr "Pan fydd galluogi, bydd themâu RB-fath gael delwedd amryfal llai pan fydd y lluosydd yn cael ei 1x. 'Drwy Thema' dail 'i at' r chreawdwr thema."
+
+#: GameEngine.py:292
+msgid "Board Speed Mode"
+msgstr "Cyflymder Ddelw Bwrdd"
+
+#: GameEngine.py:292
+#: GameEngine.py:344
+msgid "BPM"
+msgstr "BPM"
+
+#: GameEngine.py:292
+#: GameEngine.py:317
+#: GameEngine.py:344
+msgid "Difficulty"
+msgstr "Anhawster"
+
+#: GameEngine.py:292
+#: GameEngine.py:344
+msgid "BPM & Diff"
+msgstr "BPM a Diff"
+
+#: GameEngine.py:292
+msgid "Percentage"
+msgstr "Canran"
+
+#: GameEngine.py:292
+msgid "Sets what determines the speed of the scrolling notes."
+msgstr "Setiau hyn yn pennu cyflymder y nodiadau scrolling."
+
+#: GameEngine.py:293
+msgid "Loading Phrases"
+msgstr "Llwytho Ymadroddion"
+
+#: GameEngine.py:293
+msgid "Sets whether or not to use loading phrases while loading a song"
+msgstr "Setiau p'un ai i ddefnyddio ymadroddion lwytho tra llwytho cân"
+
+#: GameEngine.py:294
+msgid "Effects Display Mode"
+msgstr "Effeithiau Arddangos Ddelw"
+
+#: GameEngine.py:294
+msgid "Static"
+msgstr "Static"
+
+#: GameEngine.py:294
+msgid "Animated"
+msgstr "Hanimeiddio"
+
+#: GameEngine.py:294
+msgid "Sets whether or not the whammy effect is animated. (This is affected by the 'Performance' quickset)"
+msgstr "Setiau a yw'r effaith ergyd yn hanimeiddio. (Mae hyn yn cael ei effeithio gan y 'Perfformiad' quickset)"
+
+#: GameEngine.py:295
+msgid "Show Filepath"
+msgstr "Dangos Filepath"
+
+#: GameEngine.py:295
+msgid "Show"
+msgstr "Dangos"
+
+#: GameEngine.py:295
+msgid "Hide"
+msgstr "Cuddio"
+
+#: GameEngine.py:295
+msgid "Sets whether or not to show the filepath of the song."
+msgstr "Setiau p'un ai i ddangos y filepath o'r gân."
+
+#: GameEngine.py:296
+msgid "3D Note Rotation"
+msgstr "Nodyn 3D Cylchdroi"
+
+#: GameEngine.py:296
+msgid "Old"
+msgstr "Hen"
+
+#: GameEngine.py:296
+msgid "New"
+msgstr "Newydd"
+
+#: GameEngine.py:296
+msgid "Sets the manner of 3D Note Rotation."
+msgstr "Gosod y dull o 3D Nodyn Cylchdroi."
+
+#: GameEngine.py:297
+msgid "Show In-Game Text"
+msgstr "Dangos Yn-Gêm Testun"
+
+#: GameEngine.py:297
+msgid "Only Note Streaks"
+msgstr "Dim ond Nodyn llinellau"
+
+#: GameEngine.py:297
+msgid "Sets whether or not to show text in-game. This includes note streaks and 'Starpower Ready'. (This is affected by the 'Performance' quickset)"
+msgstr "Setiau p'un ai i ddangos testun yn-gêm. Mae hyn yn cynnwys llinellau yn nodi ac yn 'Ready Starpower'. (Mae hyn yn cael ei effeithio gan y 'Perfformiad' quickset)"
+
+#: GameEngine.py:298
+msgid "Setlist Display Mode"
+msgstr "Arddangos Ddelw Setlist"
+
+#: GameEngine.py:298
+msgid "List"
+msgstr "Rhestr"
+
+#: GameEngine.py:298
+msgid "List/CD"
+msgstr "Rhestr / CD"
+
+#: GameEngine.py:298
+msgid "Sets the setlist display mode. 'By Theme' lets the theme creator decide."
+msgstr "Gosod y modd arddangos setlist. 'Drwy Thema' yn gadael y crëwr thema benderfynu."
+
+#: GameEngine.py:299
+msgid "Use Subfolders"
+msgstr "Defnyddiwch subfolders"
+
+#: GameEngine.py:299
+msgid "List All"
+msgstr "Rhestr holl"
+
+#: GameEngine.py:299
+msgid "'Normal' allows you to navigate folders. 'List All' places all songs into a single setlist."
+msgstr "'Normal' yn eich galluogi i fynd folders. 'Rhestr yr Holl' mannau holl ganeuon i mewn i setlist sengl."
+
+#: GameEngine.py:300
+msgid "Show Song Type Icons"
+msgstr "Dangos Icons Song Type"
+
+#: GameEngine.py:300
+msgid "Sets whether or not to show icons indicating the song 'type'"
+msgstr "Setiau p'un ai i ddangos eiconau yn dangos y gân 'Math'"
+
+#: GameEngine.py:301
+msgid "Preload Song Labels"
+msgstr "Labeli Preload Song"
+
+#: GameEngine.py:301
+msgid "Sets whether to preload all song labels on load. With large setlists, this option is extremely slow."
+msgstr "Setiau p'un ai i preload labeli pob cân ar llwyth. Gyda setlists mawr, yr opsiwn hwn yn hynod o araf."
+
+#: GameEngine.py:302
+msgid "Label Type"
+msgstr "Type Label"
+
+#: GameEngine.py:302
+msgid "CD Labels"
+msgstr "Labeli CD"
+
+#: GameEngine.py:302
+msgid "Album Covers"
+msgstr "Albwm Caeadau"
+
+#: GameEngine.py:302
+msgid "Sets whether to show CD labels or album covers as the art."
+msgstr "Setiau p'un ai i ddangos labeli CD neu albwm yn cynnwys fel y celf."
+
+#: GameEngine.py:303
+msgid "Rotating CDs"
+msgstr "CDs Chwyldroi"
+
+#: GameEngine.py:303
+msgid "Sets whether or not CDs rotate."
+msgstr "Setiau p'un ai peidio CDs chwyldro."
+
+#: GameEngine.py:304
+msgid "Remember Play Count"
+msgstr "Cofiwch Chwarae Cyfrif"
+
+#: GameEngine.py:304
+msgid "Keeps track of how many times you've played each song."
+msgstr "Cadw golwg ar faint o weithiau yr ydych wedi chwarae pob cân."
+
+#: GameEngine.py:306
+msgid "Show at Song Start"
+msgstr "Dangos ar y Song Cychwyn"
+
+#: GameEngine.py:306
+msgid "Part"
+msgstr "Rhan"
+
+#: GameEngine.py:306
+msgid "Sets whether to show a countdown or your name and part at the song's start."
+msgstr "Setiau p'un ai i ddangos countdown neu eich enw a rhan ar y dechrau yn y gân."
+
+#: GameEngine.py:307
+msgid "Overdrive Neck"
+msgstr "Overdrive Gwddf"
+
+#: GameEngine.py:307
+msgid "Sets the style of the Overdrive neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "Setiau arddull y gwddf Overdrive. 'Replace' yn cymryd lle eich gwddf y gwddf arbennig, tra bod 'Overlay' yn gosod y gwddf dros ben."
+
+#: GameEngine.py:309
+msgid "Note Hit Window"
+msgstr "Nodyn Ffenestr Hit"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:285
+msgid "Tightest"
+msgstr "Mwyaf caeth"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:287
+msgid "Tight"
+msgstr "Dynn"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:289
+msgid "Wide"
+msgstr "Eang"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:291
+msgid "Widest"
+msgstr "Ehangaf"
+
+#: GameEngine.py:309
+msgid "Sets how accurate you need to be while playing."
+msgstr "Setiau pa mor gywir y mae angen i chi fod yn chwarae tra."
+
+#: GameEngine.py:311
+msgid "Early Hit Window"
+msgstr "Ffenestr Hit Cynnar"
+
+#: GameEngine.py:311
+msgid "None (RB2)"
+msgstr "Dim (RB2)"
+
+#: GameEngine.py:311
+msgid "Half (GH2)"
+msgstr "Hanner (GH2)"
+
+#: GameEngine.py:311
+msgid "Full (FoF)"
+msgstr "Llawn (FoF)"
+
+#: GameEngine.py:311
+msgid "Sets how much time before the note is part of the hit window. 'Auto' uses the MIDI to determine."
+msgstr "Setiau faint o amser cyn y nodyn hwn yn rhan o'r ffenestr daro. 'Auto' yn defnyddio y MIDI i benderfynu."
+
+#: GameEngine.py:312
+msgid "Show Detailed Handicap"
+msgstr "Dangos Anfantais manwl"
+
+#: GameEngine.py:312
+msgid "Shows the handicaps individually on the result screen."
+msgstr "Dangos y anfanteision unigol ar y sgrin canlyniad."
+
+#: GameEngine.py:315
+msgid "Disable Variable BPM"
+msgstr "Amrywiol BPM Analluoga"
+
+#: GameEngine.py:315
+msgid "This will disable the use of the Variable BPM logic."
+msgstr "Bydd hyn yn atal y defnydd o'r rhesymeg BPM Amrywiol."
+
+#: GameEngine.py:316
+msgid "Sort Direction"
+msgstr "Trefnu Cyfarwyddyd"
+
+#: GameEngine.py:316
+msgid "Ascending"
+msgstr "Esgynnol"
+
+#: GameEngine.py:316
+msgid "Descending"
+msgstr "Disgynnol"
+
+#: GameEngine.py:316
+msgid "Choose whether to sort in ascending (A-Z) or descending (Z-A) order."
+msgstr "Dewiswch fath p'un ai i mewn trefn esgynnol (AZ) neu i lawr (ZA) gorchymyn."
+
+#: GameEngine.py:317
+msgid "Sort Setlist By"
+msgstr "Trefnu yn Setlist Erbyn"
+
+#: GameEngine.py:317
+msgid "Title"
+msgstr "Teitl"
+
+#: GameEngine.py:317
+msgid "Artist"
+msgstr "Artist"
+
+#: GameEngine.py:317
+msgid "Times played"
+msgstr "Amseroedd chwarae"
+
+#: GameEngine.py:317
+msgid "Album"
+msgstr "Albwm"
+
+#: GameEngine.py:317
+msgid "Genre"
+msgstr "Genre"
+
+#: GameEngine.py:317
+msgid "Year"
+msgstr "Blwyddyn"
+
+#: GameEngine.py:317
+msgid "Band Difficulty"
+msgstr "Band Anhawster"
+
+#: GameEngine.py:317
+msgid "Song Collection"
+msgstr "Casgliad Song"
+
+#: GameEngine.py:317
+msgid "Choose how to sort the setlist by default."
+msgstr "Dewiswch sut i ddatrys y setlist at ball."
+
+#: GameEngine.py:318
+msgid "Whammy Changes Sort Order"
+msgstr "Trefnu yn ergyd Newidiadau Gorchymyn"
+
+#: GameEngine.py:318
+msgid "When enabled, pressing the whammy bar will change the sort order in the setlist."
+msgstr "Pan fydd galluogi, yn cymell y bydd y bar ergyd newid y drefn yn y setlist."
+
+#: GameEngine.py:319
+msgid "Point Of View"
+msgstr "Point Of View"
+
+#: GameEngine.py:319
+msgid "GH3"
+msgstr "GH3"
+
+#: GameEngine.py:319
+msgid "Rock Rev"
+msgstr "Rock Parch"
+
+#: GameEngine.py:319
+msgid "Sets the camera's point of view. Set it to any game, or set it to 'Theme' to leave it to the theme creator."
+msgstr "Setiau pwynt y camera o farn. Chyflea 'i unrhyw gêm, neu chyflea' i at 'Thema' i adael i'r thema chreawdwr."
+
+#: GameEngine.py:320
+msgid "Party Mode Timer"
+msgstr "Modd Timer Blaid"
+
+#: GameEngine.py:320
+msgid "Sets the timer in Party Mode."
+msgstr "Gosod y timer yn y Blaid Ddelw."
+
+#: GameEngine.py:321
+msgid "Show Setlist Size"
+msgstr "Maint Setlist Dangos"
+
+#: GameEngine.py:321
+msgid "Show the number of songs inside of each setlist."
+msgstr "Dangos y nifer o ganeuon y tu mewn o bob setlist."
+
+#: GameEngine.py:322
+msgid "CD Mode Y-Rotation"
+msgstr "CD Ddelw Y-Cylchdroi"
+
+#: GameEngine.py:322
+#: GameEngine.py:351
+msgid "Enabled"
+msgstr "Alluogedig"
+
+#: GameEngine.py:322
+msgid "Sets whether or not CDs in the setlist rotate about the Y axis."
+msgstr "Setiau p'un ai peidio CDs yn y setlist cylchdroi am y echel Y."
+
+#: GameEngine.py:326
+msgid "P1 AI"
+msgstr "AI P1"
+
+#: GameEngine.py:326
+msgid "Enable or disable the player 1 AI"
+msgstr "Alluoga ai analluoga 'r chwaraewr 1 AI"
+
+#: GameEngine.py:327
+msgid "P1 AI Personality"
+msgstr "Personoliaeth P1 AI"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "1. KiD"
+msgstr "1. Kid"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "2. Stump"
+msgstr "2. Stump"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "3. akedRobot"
+msgstr "3. akedRobot"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "4. Q"
+msgstr "4. Q"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "5. MFH"
+msgstr "5. MFH"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "6. Jurgen"
+msgstr "6. Jürgen"
+
+#: GameEngine.py:327
+msgid "Set the personality of the player 1 AI. The numbers correspond with their skill."
+msgstr "Set personoliaeth y chwaraewr 1 AI. Mae'r niferoedd yn cyfateb â eu sgiliau."
+
+#: GameEngine.py:328
+msgid "P1 AI Logic"
+msgstr "P1 Logic AI"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "Original"
+msgstr "Gwreiddiol"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-Early"
+msgstr "MFH-Cynnar"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-OnTime1"
+msgstr "MFH-OnTime1"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-OnTime2"
+msgstr "MFH-OnTime2"
+
+#: GameEngine.py:328
+msgid "Set the logic used for the player 1 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "Gosod y rhesymeg a ddefnyddir ar gyfer y chwaraewr 1 AI. 'Gwreiddiol' na all ddelio adrannau gyflym. 'MFH-Cynnar' ymdrechion i daro nodiadau wrth iddynt fynd i mewn i'r ffenestr daro. 'MFH-OnTime' implementations yw ceisio taro y nodiadau fel y maent yn digwydd, fel chwaraewr go iawn."
+
+#: GameEngine.py:330
+msgid "P2 AI"
+msgstr "P2 AI"
+
+#: GameEngine.py:330
+msgid "Enable or disable the player 2 AI"
+msgstr "Alluoga ai analluoga 'r chwaraewr 2 AI"
+
+#: GameEngine.py:331
+msgid "P2 AI Personality"
+msgstr "Personoliaeth P2 AI"
+
+#: GameEngine.py:331
+msgid "Set the personality of the player 2 AI. The numbers correspond with their skill."
+msgstr "Set personoliaeth y chwaraewr 2 AI. Mae'r niferoedd yn cyfateb â eu sgiliau."
+
+#: GameEngine.py:332
+msgid "P2 AI Logic"
+msgstr "P2 Logic AI"
+
+#: GameEngine.py:332
+msgid "Set the logic used for the player 2 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "Gosod y rhesymeg a ddefnyddir ar gyfer y chwaraewr 2 AI. 'Gwreiddiol' na all ddelio adrannau gyflym. 'MFH-Cynnar' ymdrechion i daro nodiadau wrth iddynt fynd i mewn i'r ffenestr daro. 'MFH-OnTime' implementations yw ceisio taro y nodiadau fel y maent yn digwydd, fel chwaraewr go iawn."
+
+#: GameEngine.py:334
+msgid "P3 AI"
+msgstr "AI P3"
+
+#: GameEngine.py:334
+msgid "Enable or disable the player 3 AI"
+msgstr "AI Alluoga ai analluoga 'r chwaraewr 3"
+
+#: GameEngine.py:335
+msgid "P3 AI Personality"
+msgstr "Personoliaeth P3 AI"
+
+#: GameEngine.py:335
+msgid "Set the personality of the player 3 AI. The numbers correspond with their skill."
+msgstr "Set personoliaeth y chwaraewr 3 AI. Mae'r niferoedd yn cyfateb â eu sgiliau."
+
+#: GameEngine.py:336
+msgid "P3 AI Logic"
+msgstr "P3 Logic AI"
+
+#: GameEngine.py:336
+msgid "Set the logic used for the player 3 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "Gosod y rhesymeg a ddefnyddir ar gyfer y chwaraewr 3 AI. 'Gwreiddiol' na all ddelio adrannau gyflym. 'MFH-Cynnar' ymdrechion i daro nodiadau wrth iddynt fynd i mewn i'r ffenestr daro. 'MFH-OnTime' implementations yw ceisio taro y nodiadau fel y maent yn digwydd, fel chwaraewr go iawn."
+
+#: GameEngine.py:338
+msgid "P4 AI"
+msgstr "P4 AI"
+
+#: GameEngine.py:338
+msgid "Enable or disable the player 4 AI"
+msgstr "Alluoga ai analluoga 'r chwaraewr 4 AI"
+
+#: GameEngine.py:339
+msgid "P4 AI Personality"
+msgstr "Personoliaeth P4 AI"
+
+#: GameEngine.py:339
+msgid "Set the personality of the player 4 AI. The numbers correspond with their skill."
+msgstr "Set personoliaeth y chwaraewr 4 AI. Mae'r niferoedd yn cyfateb â eu sgiliau."
+
+#: GameEngine.py:340
+msgid "P4 AI Logic"
+msgstr "P4 Logic AI"
+
+#: GameEngine.py:340
+msgid "Set the logic used for the player 4 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "Gosod y rhesymeg a ddefnyddir ar gyfer y chwaraewr 4 AI. 'Gwreiddiol' na all ddelio adrannau gyflym. 'MFH-Cynnar' ymdrechion i daro nodiadau wrth iddynt fynd i mewn i'r ffenestr daro. 'MFH-OnTime' implementations yw ceisio taro y nodiadau fel y maent yn digwydd, fel chwaraewr go iawn."
+
+#: GameEngine.py:343
+msgid "Lyric Display Mode"
+msgstr "Arddangos Ddelw Lyric"
+
+#: GameEngine.py:343
+msgid "Scrolling"
+msgstr "Scrolling"
+
+#: GameEngine.py:343
+msgid "Simple Lines"
+msgstr "Llinellau Simple"
+
+#: GameEngine.py:343
+msgid "2-Line"
+msgstr "2-Line"
+
+#: GameEngine.py:343
+msgid "Sets the display mode for MIDI lyrics. Both 'Simple Lines' and '2-Line' will show as single phrases when playing the vocal part."
+msgstr "Gosod y modd arddangos ar gyfer geiriau MIDI. Mae 'Llinellau Simple' a '2-Line 'yn dangos ag ymadroddion sengl pan yn chwarae rhan lleisiol."
+
+#: GameEngine.py:344
+msgid "Lyric Speed Mode"
+msgstr "Modd Cyflymder Lyric"
+
+#: GameEngine.py:344
+msgid "Sets what determines the speed of the scrolling lyrics."
+msgstr "Setiau hyn yn pennu cyflymder y geiriau scrolling."
+
+#: GameEngine.py:345
+msgid "Lyric Speed Percent"
+msgstr "Cyflymder Canran Lyric"
+
+#: GameEngine.py:345
+msgid "Sets how quickly lyrics will scroll."
+msgstr "Setiau Bydd pa mor gyflym y geiriau sgrolio."
+
+#: GameEngine.py:351
+msgid "Graphical Submenus"
+msgstr "Submenus Graffigol"
+
+#: GameEngine.py:351
+msgid "Enable or disable the use of graphical submenus."
+msgstr "Alluoga ai analluoga 'r defnydd o submenus graffigol."
+
+#: GameEngine.py:354
+msgid "Crowd Cheers"
+msgstr "Lloniannau dorf"
+
+#: GameEngine.py:354
+msgid "Off (Disabled)"
+msgstr "Off (anabl)"
+
+#: GameEngine.py:354
+msgid "During SP Only"
+msgstr "Yn ystod SP yn unig"
+
+#: GameEngine.py:354
+msgid "During SP & Green"
+msgstr "Yn ystod SP & Gwyrdd"
+
+#: GameEngine.py:354
+msgid "Always On"
+msgstr "Ar bob amser"
+
+#: GameEngine.py:354
+msgid "Sets when the crowd will cheer for you (if a crowd.ogg is present). 'During SP' will have them sing along in star power, and 'During SP & Green' will have them cheering both in SP and when your rock meter is above 2/3"
+msgstr "Setiau pryd y bydd y dorf hwrê i chi (os crowd.ogg yn bresennol). 'Yn ystod bydd SP' wedi eu canu ar hyd mewn grym seren, ac yn 'Yn ystod SP & Gwyrdd', wedi eu bloeddio yng SP a phan fydd eich mesurydd graig yn uwch na 2 / 3"
+
+#: GameEngine.py:357
+msgid "Miss Volume"
+msgstr "Miss Cyfrol"
+
+#: GameEngine.py:357
+msgid "Set the volume of the active track when you miss a note."
+msgstr "Set cyfaint y trac weithgar pan fyddwch yn colli nodyn."
+
+#: GameEngine.py:358
+msgid "Single Track Miss"
+msgstr "Trac Sengl Miss"
+
+#: GameEngine.py:358
+msgid "When playing a song with only a single track, this sets the volume of the track when you miss a note."
+msgstr "Wrth chwarae cân gyda dim ond drac sengl, mae hyn yn gosod y gyfrol o'r trac pan fyddwch yn colli nodyn."
+
+#: GameEngine.py:359
+msgid "Menu Volume"
+msgstr "Cyfrol Ddewislen"
+
+#: GameEngine.py:359
+msgid "Set the volume of the background menu music."
+msgstr "Set cyfaint y fwydlen cefndir beroriaeth."
+
+#: GameEngine.py:361
+msgid "Crowd Volume"
+msgstr "Cyfrol dorf"
+
+#: GameEngine.py:361
+msgid "Set the volume of the crowd."
+msgstr "Chyflea 'r cyfaint y dorf."
+
+#: GameEngine.py:363
+msgid "Kill Volume"
+msgstr "Cyfrol Kill"
+
+#: GameEngine.py:363
+msgid "Sets the volume when using the killswitch."
+msgstr "Gosod y gyfrol wrth ddefnyddio'r killswitch."
+
+#: GameEngine.py:364
+msgid "SFX Volume"
+msgstr "Cyfrol SFX"
+
+#: GameEngine.py:364
+msgid "Sets the volume of various sound effects."
+msgstr "Gosod y gyfrol o effeithiau sain."
+
+#: GameEngine.py:371
+msgid "Cache Song Metadata"
+msgstr "Metadata Song Cache"
+
+#: GameEngine.py:371
+msgid "This will allow information about the songs to be stored for quick access later at the cost of a slow first time loading."
+msgstr "Bydd hyn yn caniatáu i wybodaeth am y caneuon o gael ei storio ar gyfer mynediad cyflym yn ddiweddarach yn y gost o llwytho tro cyntaf araf."
+
+#: GameEngine.py:399
+msgid "Sets the overall graphical feel of the game. You can find and download many more at fretsonfire.net"
+msgstr "Gosod y teimlo graffigol cyffredinol y gêm. Gallwch ddod o hyd a download llawer mwy ar fretsonfire.net"
+
+#: GameEngine.py:404
+msgid "Board Speed Percent"
+msgstr "Cyflymder Canran y Bwrdd"
+
+#: GameEngine.py:404
+msgid "Sets how quickly note will scroll"
+msgstr "Setiau Bydd pa mor gyflym y nodyn sgrolio"
+
+#: GameEngine.py:405
+msgid "No Fail"
+msgstr "Dim Methu"
+
+#: GameEngine.py:405
+msgid "Sets whether or not you can fail out of a song."
+msgstr "Setiau os nad ydych yn gallu methu allan o gân."
+
+#: GameEngine.py:409
+msgid "Difficulty (Setlist Score)"
+msgstr "Anhawster (Sgôr Setlist)"
+
+#: GameEngine.py:409
+msgid "Sets the default difficulty displayed in the setlist score."
+msgstr "Gosod yr anhawster ball harddangos yn y sgôr setlist."
+
+#: GameEngine.py:410
+msgid "Show Additional Stats"
+msgstr "Dangos Stats Ychwanegol"
+
+#: GameEngine.py:410
+msgid "If enabled, additional score information (longest streak, percentage) is displayed on the setlist."
+msgstr "Wedi'i alluogi, gwybodaeth score ychwanegol (streak hiraf, canran) yn cael ei arddangos ar y setlist."
+
+#: GameEngine.py:412
+msgid "Instrument (Setlist Score)"
+msgstr "Offeryn (Sgôr Setlist)"
+
+#: GameEngine.py:412
+msgid "Sets the default part displayed in the setlist score."
+msgstr "Gosod y rhan ball harddangos yn y sgôr setlist."
+
+#: GameEngine.py:674
+msgid "Slideshow"
+msgstr "Slideshow"
+
+#: GameEngine.py:677
+#: GameEngine.py:691
+msgid "Animated Stage"
+msgstr "Cyfnod Animeiddiedig"
+
+#: GameResultsScene.py:121
+#: GameResultsScene.py:122
+msgid "Co-Op Mode"
+msgstr "Modd Co-Op"
+
+#: GameResultsScene.py:124
+msgid "settings"
+msgstr "lleoliadau"
+
+#: GameResultsScene.py:125
+msgid "HOPOs"
+msgstr "HOPOs"
+
+#: GameResultsScene.py:126
+msgid "Hit Window"
+msgstr "Ffenestr Hit"
+
+#: GameResultsScene.py:127
+msgid "Adjusted Score Multiplier:"
+msgstr "Sgôr addasu Lluosydd:"
+
+#: GameResultsScene.py:128
+msgid "Original Score:"
+msgstr "Sgôr Gwreiddiol:"
+
+#: GameResultsScene.py:133
+#: GameResultsScene.py:140
+#: GameResultsScene.py:147
+msgid "Continue"
+msgstr "Parhau"
+
+#: GameResultsScene.py:134
+msgid "Replay Setlist"
+msgstr "Replay Setlist"
+
+#: GameResultsScene.py:136
+#: GameResultsScene.py:143
+#: GameResultsScene.py:150
+msgid "Quit"
+msgstr "Quit"
+
+#: GameResultsScene.py:141
+msgid "Replay"
+msgstr "Replay"
+
+#: GameResultsScene.py:148
+msgid "End Setlist"
+msgstr "Diwedd Setlist"
+
+#: GameResultsScene.py:165
+msgid "Relax, it was an excellent show."
+msgstr "Ymlaciwch, yr oedd yn dangos rhagorol."
+
+#: GameResultsScene.py:167
+msgid "Truly Amazing!"
+msgstr "Wirioneddol Amazing!"
+
+#: GameResultsScene.py:169
+msgid "Thanks for playing!"
+msgstr "Diolch am chwarae!"
+
+#: GameResultsScene.py:171
+msgid "One more song can't hurt!"
+msgstr "Ni all un mwy o ganeuon brifo!"
+
+#: GameResultsScene.py:173
+msgid "What an amazing performance!"
+msgstr "Beth perfformiad anhygoel!"
+
+#: GameResultsScene.py:175
+msgid "That's how it's done!"
+msgstr "Dyna sut mae'n cael ei wneud!"
+
+#: GameResultsScene.py:248
+msgid "GH2 Sloppy"
+msgstr "GH2 Blêr"
+
+#: GameResultsScene.py:258
+msgid "New System"
+msgstr "System Newydd"
+
+#: GameResultsScene.py:573
+#, python-format
+msgid "%d points is a new high score! Enter your name:"
+msgstr "%d pwyntiau yn sgôr uchel newydd! Rhowch eich enw:"
+
+#: GameResultsScene.py:1297
+#, python-format
+msgid "%s High Scores for %s"
+msgstr "%s Sgorau uchel ar gyfer %s"
+
+#: GameResultsScene.py:1299
+#, python-format
+msgid "%s High Scores"
+msgstr "%s Sgorau uchel"
+
+#: GameResultsScene.py:1305
+#, python-format
+msgid "Difficulty: %s"
+msgstr "Graddfa: %s"
+
+#: GameResultsScene.py:1367
+msgid "Uploading Scores..."
+msgstr "Sgorau Uploading ..."
+
+#: GameResultsScene.py:1372
+msgid "Scores uploaded!"
+msgstr "Sgorau uploaded!"
+
+#: GameResultsScene.py:1376
+msgid "Your highscore ranks"
+msgstr "Eich sgorau gorau rhengoedd"
+
+#: GameResultsScene.py:1377
+msgid "on the world starpower chart!"
+msgstr "ar y siart starpower byd!"
+
+#: GameResultsScene.py:1380
+msgid "but your rank is unknown."
+msgstr "ond mae eich safle yn anhysbys."
+
+#: GameResultsScene.py:1383
+msgid "but there was no new highscore."
+msgstr "ond nid oedd sgorau gorau newydd."
+
+#: GameResultsScene.py:1386
+msgid "Score upload failed!  World charts may be down."
+msgstr "Sgôr upload methu! Efallai y siartiau Byd yn cael i lawr."
+
+#: GuitarScene.py:82
+#: GuitarScene.py:83
+msgid "Initializing..."
+msgstr "Ymgychwyn ..."
+
+#: GuitarScene.py:497
+msgid "KiD"
+msgstr "Kid"
+
+#: GuitarScene.py:497
+msgid "Stump"
+msgstr "Stump"
+
+#: GuitarScene.py:497
+msgid "AkedRobot"
+msgstr "AkedRobot"
+
+#: GuitarScene.py:497
+msgid "Q"
+msgstr "Q"
+
+#: GuitarScene.py:497
+msgid "MFH"
+msgstr "MFH"
+
+#: GuitarScene.py:497
+msgid "Jurgen"
+msgstr "Jürgen"
+
+#: GuitarScene.py:504
+msgid "Broken String"
+msgstr "Broken Llinynnol"
+
+#: GuitarScene.py:506
+msgid "Powerup Steal"
+msgstr "PowerUp Ddwg"
+
+#: GuitarScene.py:510
+#, python-format
+msgid "%d Note Streak"
+msgstr "%d Nodyn Streak"
+
+#: GuitarScene.py:511
+#, python-format
+msgid "%d Phrase Streak"
+msgstr "%d Streak Ymadroddion"
+
+#: GuitarScene.py:512
+#, python-format
+msgid "%s Ready"
+msgstr "%s Barod"
+
+#: GuitarScene.py:513
+#, python-format
+msgid "Activate %s!"
+msgstr "Activate %s!"
+
+#: GuitarScene.py:514
+msgid "You Failed"
+msgstr "Rydych chi Methwyd"
+
+#: GuitarScene.py:515
+#, python-format
+msgid "%s is here"
+msgstr "%s yma"
+
+#: GuitarScene.py:516
+#, python-format
+msgid "%s was here"
+msgstr "%s yma"
+
+#: GuitarScene.py:517
+msgid "% Complete"
+msgstr "% Cyflawn"
+
+#: GuitarScene.py:518
+#: GuitarScene.py:5839
+msgid "HOPO"
+msgstr "HOPO"
+
+#: GuitarScene.py:519
+#: GuitarScene.py:5809
+#: GuitarScene.py:5818
+msgid "COMPLETED"
+msgstr "CWBLHAU"
+
+#: GuitarScene.py:520
+#: GuitarScene.py:5811
+#: GuitarScene.py:5827
+msgid " % ON "
+msgstr "% AR"
+
+#: GuitarScene.py:521
+msgid "BASS GROOVE"
+msgstr "Bas groove"
+
+#: GuitarScene.py:522
+msgid "Bass Groove:"
+msgstr "Bas Groove:"
+
+#: GuitarScene.py:523
+msgid "Handicap"
+msgstr "Anfantais"
+
+#: GuitarScene.py:524
+msgid "Avg"
+msgstr "Avg"
+
+#: GuitarScene.py:525
+msgid "Very Late"
+msgstr "Hwyr Iawn"
+
+#: GuitarScene.py:526
+msgid "Late"
+msgstr "Hwyr"
+
+#: GuitarScene.py:527
+msgid "Slightly Late"
+msgstr "Ychydig yn hwyr"
+
+#: GuitarScene.py:528
+msgid "-Excellent!"
+msgstr "-Ardderchog!"
+
+#: GuitarScene.py:529
+msgid "Perfect!!"
+msgstr "Perffaith!"
+
+#: GuitarScene.py:530
+msgid "+Excellent!"
+msgstr "+ Ardderchog!"
+
+#: GuitarScene.py:531
+msgid "Slightly Early"
+msgstr "Ychydig Cynnar"
+
+#: GuitarScene.py:534
+msgid "ms"
+msgstr "ms"
+
+#: GuitarScene.py:535
+msgid "Solo!"
+msgstr "Unawd!"
+
+#: GuitarScene.py:536
+msgid "Perfect Solo!"
+msgstr "Unawd Perffaith!"
+
+#: GuitarScene.py:537
+msgid "Awesome Solo!"
+msgstr "Unawd Awesome!"
+
+#: GuitarScene.py:538
+msgid "Great Solo!"
+msgstr "Unawd Great!"
+
+#: GuitarScene.py:539
+msgid "Good Solo!"
+msgstr "Unawd Da!"
+
+#: GuitarScene.py:540
+msgid "Solid Solo!"
+msgstr "Solid Unawd!"
+
+#: GuitarScene.py:541
+msgid "Okay Solo"
+msgstr "Unawd Iawn"
+
+#: GuitarScene.py:542
+msgid "Messy Solo"
+msgstr "Unawd messy"
+
+#: GuitarScene.py:543
+msgid "pts"
+msgstr "Pts"
+
+#: GuitarScene.py:544
+msgid "Get Ready to Rock"
+msgstr "Byddwch yn barod i Rock"
+
+#: GuitarScene.py:545
+msgid "as made famous by"
+msgstr "a wnaed yn enwog gan"
+
+#: GuitarScene.py:546
+msgid "by "
+msgstr "gan"
+
+#: GuitarScene.py:547
+msgid " fretted by "
+msgstr "chribellau gan"
+
+#: GuitarScene.py:890
+msgid "Loading Song..."
+msgstr "Llwytho Song ..."
+
+#: GuitarScene.py:900
+msgid "Preparing Note Phrases..."
+msgstr "Ymadroddion Nodyn Paratoi ..."
+
+#: GuitarScene.py:1401
+msgid "Loading Graphics..."
+msgstr "Graffigau Loading ..."
+
+#: GuitarScene.py:1615
+msgid "         RESUME"
+msgstr "Ail-ddechrau"
+
+#: GuitarScene.py:1616
+msgid "        RESTART"
+msgstr "Restart"
+
+#: GuitarScene.py:1618
+msgid "       PRACTICE"
+msgstr "YMARFER"
+
+#: GuitarScene.py:1619
+msgid "        OPTIONS"
+msgstr "OPSIYNAU"
+
+#: GuitarScene.py:1620
+#: GuitarScene.py:1629
+msgid "           QUIT"
+msgstr "QUIT"
+
+#: GuitarScene.py:1624
+msgid "        RESUME"
+msgstr "Ail-ddechrau"
+
+#: GuitarScene.py:1625
+msgid "       RESTART"
+msgstr "Restart"
+
+#: GuitarScene.py:1627
+msgid "      END SONG"
+msgstr "SONG END"
+
+#: GuitarScene.py:1628
+msgid "       OPTIONS"
+msgstr "OPSIYNAU"
+
+#: GuitarScene.py:1634
+#: GuitarScene.py:1641
+msgid "RETRY SONG"
+msgstr "Retry SONG"
+
+#: GuitarScene.py:1635
+msgid "  PRACTICE"
+msgstr "YMARFER"
+
+#: GuitarScene.py:1636
+#: GuitarScene.py:1642
+#: GuitarScene.py:1706
+#: GuitarScene.py:1713
+msgid " NEW SONG"
+msgstr "NEWYDD SONG"
+
+#: GuitarScene.py:1637
+#: GuitarScene.py:1643
+msgid "     QUIT"
+msgstr "QUIT"
+
+#: GuitarScene.py:1650
+#: GuitarScene.py:1659
+msgid "  Resume"
+msgstr "Resume"
+
+#: GuitarScene.py:1651
+#: GuitarScene.py:1660
+msgid "  Start Over"
+msgstr "Dros Cychwyn"
+
+#: GuitarScene.py:1652
+#: GuitarScene.py:1661
+msgid "  Change Song"
+msgstr "Newid Song"
+
+#: GuitarScene.py:1653
+msgid "  Practice"
+msgstr "Ymarfer"
+
+#: GuitarScene.py:1654
+#: GuitarScene.py:1663
+msgid "  Settings"
+msgstr "Gosodiadau"
+
+#: GuitarScene.py:1655
+#: GuitarScene.py:1664
+msgid "  Quit to Main Menu"
+msgstr "Quit i Brif Ddewislen"
+
+#: GuitarScene.py:1662
+msgid "  End Song"
+msgstr "Diwedd Song"
+
+#: GuitarScene.py:1669
+#: GuitarScene.py:1676
+msgid " Try Again?"
+msgstr "Ceisiwch eto?"
+
+#: GuitarScene.py:1670
+#: GuitarScene.py:1677
+msgid "  Give Up?"
+msgstr "Rhoi Up?"
+
+#: GuitarScene.py:1671
+msgid "  Practice?"
+msgstr "Ymarfer?"
+
+#: GuitarScene.py:1672
+#: GuitarScene.py:1678
+msgid "Quit to Main"
+msgstr "Quit i Brif"
+
+#: GuitarScene.py:1686
+#: GuitarScene.py:1695
+msgid "   RESUME"
+msgstr "Ail-ddechrau"
+
+#: GuitarScene.py:1687
+#: GuitarScene.py:1696
+msgid "   RESTART"
+msgstr "Restart"
+
+#: GuitarScene.py:1688
+#: GuitarScene.py:1697
+msgid "   CHANGE SONG"
+msgstr "NEWID SONG"
+
+#: GuitarScene.py:1689
+msgid "   PRACTICE"
+msgstr "YMARFER"
+
+#: GuitarScene.py:1690
+#: GuitarScene.py:1699
+msgid "   SETTINGS"
+msgstr "LLEOLIADAU"
+
+#: GuitarScene.py:1691
+#: GuitarScene.py:1700
+msgid "   QUIT"
+msgstr "QUIT"
+
+#: GuitarScene.py:1698
+msgid "   END SONG"
+msgstr "SONG END"
+
+#: GuitarScene.py:1705
+#: GuitarScene.py:1712
+msgid " RETRY"
+msgstr "Retry"
+
+#: GuitarScene.py:1707
+msgid " PRACTICE"
+msgstr "YMARFER"
+
+#: GuitarScene.py:1708
+#: GuitarScene.py:1714
+msgid " QUIT"
+msgstr "QUIT"
+
+#: GuitarScene.py:6488
+#, python-format
+msgid "FPS: %.2f"
+msgstr "FPS: %.2f"
+
+#: Language.py:62
+msgid "Language"
+msgstr "Iaith"
+
+#: Language.py:62
+msgid "Change the game language!"
+msgstr "Newid yr iaith gêm!"
+
+#: Lobby.py:39
+#: MainMenu.py:294
+msgid "Your controls are not properly set up for this mode. Please check your settings."
+msgstr "Nid yw eich rheolaethau yn cael eu gosod yn briodol ar gyfer y dull hwn. Gwiriwch eich gosodiadau."
+
+#: Lobby.py:43
+msgid "World error. Please try again."
+msgstr "Byd amryfusedd. Ceisiwch eto."
+
+#: Lobby.py:167
+msgid "Choose Your Character"
+msgstr "Dewiswch eich Cymeriad"
+
+#: Lobby.py:168
+#: Lobby.py:750
+#, python-format
+msgid "Player %d"
+msgstr "Chwaraewr %d"
+
+#: Lobby.py:170
+msgid "Regular Drums"
+msgstr "Drymiau rheolaidd"
+
+#: Lobby.py:170
+msgid "Flipped Drums"
+msgstr "Flipped Drymiau"
+
+#: Lobby.py:171
+msgid "Pedal-Using"
+msgstr "Pedal-Defnyddio"
+
+#: Lobby.py:171
+msgid "Footless"
+msgstr "Footless"
+
+#: Lobby.py:172
+msgid "Assist Mode Off"
+msgstr "Off Ddelw Cynorthwyo"
+
+#: Lobby.py:172
+#: Lobby.py:503
+#: Player.py:211
+msgid "Easy Assist"
+msgstr "Hawdd Cynorthwyo"
+
+#: Lobby.py:172
+#: Lobby.py:503
+#: Player.py:211
+msgid "Medium Assist"
+msgstr "Cynorthwyo Canolig"
+
+#: Lobby.py:173
+msgid "Chordmaster"
+msgstr "Chordmaster"
+
+#: Lobby.py:173
+msgid "Two Notes Max"
+msgstr "Dau Nodiadau Max"
+
+#: Lobby.py:174
+msgid "Information:"
+msgstr "Gwybodaeth:"
+
+#: Lobby.py:188
+msgid "Create New Player"
+msgstr "Creu Chwaraewr Newydd"
+
+#: Lobby.py:188
+msgid "Saved Characters"
+msgstr "Cadwyd Cymeriadau"
+
+#: Lobby.py:502
+#: Player.py:207
+msgid "Default Neck"
+msgstr "Default Gwddf"
+
+#: Lobby.py:502
+#: Player.py:207
+msgid "Theme Neck"
+msgstr "Thema Gwddf"
+
+#: Lobby.py:502
+msgid "Select a Neck"
+msgstr "Dewiswch Gwddf"
+
+#: Lobby.py:504
+msgid "Name"
+msgstr "Enw"
+
+#: Lobby.py:504
+msgid "Name your character!"
+msgstr "Enw eich cymeriad!"
+
+#: Lobby.py:505
+#: Player.py:208
+msgid "Lefty Mode"
+msgstr "Lefty Ddelw"
+
+#: Lobby.py:505
+msgid "Flip the guitar frets for left-handed playing!"
+msgstr "Flip y gitâr frets ar gyfer chwarae chwith-handed!"
+
+#: Lobby.py:506
+#: Player.py:209
+msgid "Drum Flip"
+msgstr "Drum Chnithia"
+
+#: Lobby.py:506
+msgid "Flip the drum sounds - snare becomes crash, and so on"
+msgstr "Flip y drwm seiniau - yn dod yn fagl a damwain, ac yn y blaen"
+
+#: Lobby.py:507
+msgid "Auto-Kick Bass"
+msgstr "Auto-Cic Bass"
+
+#: Lobby.py:507
+msgid "Feet uncooperative? Broke your pedal? Not to worry!"
+msgstr "Feet anghydweithredol? Broke eich pedal? I beidio â phoeni!"
+
+#: Lobby.py:508
+#: Player.py:211
+msgid "Assist Mode"
+msgstr "Cynorthwyo Ddelw"
+
+#: Lobby.py:508
+msgid "Play hard and expert, even when you're not that good!"
+msgstr "Chwarae caled ac arbenigol, hyd yn oed pan nad ydych chi'n a da!"
+
+#: Lobby.py:509
+#: Player.py:190
+#: Player.py:210
+msgid "Two-Chord Max"
+msgstr "Max Dau-tant"
+
+#: Lobby.py:509
+msgid "For those still playing with uncooperative keyboards."
+msgstr "I'r rhai yn dal i chwarae gyda allweddellau anghydweithredol."
+
+#: Lobby.py:510
+msgid "Give the endless procession of notes a bit of flair!"
+msgstr "Rhowch y gorymdaith diddiwedd o nodiadau tipyn o ddawn!"
+
+#: Lobby.py:511
+msgid "Upload Name"
+msgstr "Upload Enw"
+
+#: Lobby.py:511
+msgid "To the internet, you are GUITARGOD23047124!"
+msgstr "I y rhyngrwyd, rydych yn GUITARGOD23047124!"
+
+#: Lobby.py:512
+msgid "Choose Avatar"
+msgstr "Dewiswch Avatar"
+
+#: Lobby.py:512
+msgid "A 256x256 window into your soul."
+msgstr "A ffenestr 256x256 i mewn i dy enaid."
+
+#: Lobby.py:513
+msgid "Delete Character"
+msgstr "Dileu Cymeriad"
+
+#: Lobby.py:513
+msgid "Quitter."
+msgstr "Quitter."
+
+#: Lobby.py:514
+msgid "Done"
+msgstr "Done"
+
+#: Lobby.py:514
+msgid "All finished? Let's do this thing!"
+msgstr "Pob gorffen? Gadewch i ni wneud y peth!"
+
+#: Lobby.py:549
+msgid "Are you sure you want to delete this player?"
+msgstr "A ydych yn siŵr eich bod eisiau dileu y chwaraewr?"
+
+#: Lobby.py:560
+msgid "That is a terrible name. Choose something not 'default'"
+msgstr "Mae hynny'n enw ofnadwy. Dewiswch rhywbeth na 'ball'"
+
+#: Lobby.py:575
+msgid "That name already exists!"
+msgstr "Mae'r enw yn bodoli eisoes!"
+
+#: Lobby.py:577
+msgid "Please enter a name!"
+msgstr "Rhowch enw!"
+
+#: MainMenu.py:150
+msgid "Tutorials"
+msgstr "Tutorials"
+
+#: MainMenu.py:151
+msgid "Practice"
+msgstr "Ymarfer"
+
+#: MainMenu.py:165
+msgid "Face-Off"
+msgstr "Wyneb-Off"
+
+#: MainMenu.py:166
+msgid "Pro Face-Off"
+msgstr "Pro Wyneb-Off"
+
+#: MainMenu.py:167
+msgid "Party Mode"
+msgstr "Plaid Ddelw"
+
+#: MainMenu.py:168
+msgid "FoFiX Co-Op"
+msgstr "FoFiX Co-Op"
+
+#: MainMenu.py:169
+msgid "RB Co-Op"
+msgstr "RB Co-Op"
+
+#: MainMenu.py:170
+msgid "GH Co-Op"
+msgstr "GH Co-Op"
+
+#: MainMenu.py:171
+msgid "GH Battle"
+msgstr "Brwydr GH"
+
+#: MainMenu.py:188
+msgid "Solo Tour"
+msgstr "Unawd Tour"
+
+#: MainMenu.py:189
+msgid "Quickplay"
+msgstr "Quickplay"
+
+#: MainMenu.py:236
+#, python-format
+msgid "This binary release is being run from a %(currentVcs)s working copy. This is not the correct way to run FoFiX from %(currentVcs)s. Please see one of the following web pages to set your %(currentVcs)s working copy up correctly:"
+msgstr "Mae'r datganiad hwn yn binary yn cael ei redeg o gopi gweithio %(currentVcs)s. Nid yw hyn yn y ffordd gywir i redeg FoFiX o %(currentVcs)s. Os gwelwch yn dda gweld un o'r tudalennau gwe canlynol i osod eich copi gweithio %(currentVcs)s i fyny yn gywir:"
+
+#: MainMenu.py:240
+#, python-format
+msgid "This binary was built from a %(buildVcs)s working copy but is not running from one. The FoFiX Team will not provide any support whatsoever for this binary. Please see the following site for official binary releases:"
+msgstr "Mae hyn yn binary fe'i adeiladwyd o copi yn gweithio %(buildVcs)s ond nid yn rhedeg o un. Ni fydd y Tîm FoFiX darparu unrhyw gymorth o gwbl ar gyfer y binary. Os gwelwch yn dda gweld y safle canlynol ar gyfer Datganiadau binary swyddogol:"
+
+#: MainMenu.py:312
+msgid "No tutorials found!"
+msgstr "Dim tutorials dod o hyd!"
+
+#: Microphone.py:50
+msgid "[Default Microphone]"
+msgstr "[Default] Microphone"
+
+#: Microphone.py:183
+msgid "[Microphones not supported]"
+msgstr "[Meicroffonau Ni chynhelir]"
+
+#: Player.py:169
+msgid "Name your controller."
+msgstr "Enw eich rheolwr."
+
+#: Player.py:170
+msgid "Move left"
+msgstr "Symud i'r chwith"
+
+#: Player.py:171
+msgid "Move right"
+msgstr "Symud i'r dde"
+
+#: Player.py:172
+msgid "Move up"
+msgstr "Symud i fyny"
+
+#: Player.py:173
+msgid "Move down"
+msgstr "Symud i lawr"
+
+#: Player.py:174
+msgid "Pick"
+msgstr "Pick"
+
+#: Player.py:175
+msgid "Secondary Pick"
+msgstr "Pick Uwchradd"
+
+#: Player.py:175
+msgid "Bass Drum 2"
+msgstr "Bass Drum 2"
+
+#: Player.py:181
+msgid "Solo Fret #1"
+msgstr "Unawd phoeni # 1"
+
+#: Player.py:181
+msgid "Solo Key"
+msgstr "Unawd Allweddol"
+
+#: Player.py:181
+#: Player.py:196
+msgid "Analog Slider"
+msgstr "Analog Slider"
+
+#: Player.py:182
+msgid "Solo Fret #2"
+msgstr "Unawd phoeni # 2"
+
+#: Player.py:183
+msgid "Solo Fret #3"
+msgstr "Unawd phoeni # 3"
+
+#: Player.py:184
+msgid "Solo Fret #4"
+msgstr "Unawd phoeni # 4"
+
+#: Player.py:185
+msgid "Solo Fret #5"
+msgstr "Unawd phoeni # 5"
+
+#: Player.py:186
+msgid "Cancel"
+msgstr "Diddymu"
+
+#: Player.py:187
+msgid "StarPower"
+msgstr "StarPower"
+
+#: Player.py:190
+msgid "When enabled, the highest notes in large note chords are auto-played."
+msgstr "Pan fydd galluogi, y nodiadau uchaf yn cordiau nodyn mawr yn auto-chwarae."
+
+#: Player.py:191
+msgid "Controller Type"
+msgstr "Rheolwr Math"
+
+#: Player.py:191
+msgid "Standard Guitar"
+msgstr "Safon Gitâr"
+
+#: Player.py:191
+msgid "Solo Shift Guitar"
+msgstr "Guitar Shift Unawd"
+
+#: Player.py:191
+msgid "Drum Set (4-Drum)"
+msgstr "Drum Set (4-Drum)"
+
+#: Player.py:191
+msgid "Analog Slide Guitar"
+msgstr "Slide Guitar Analog"
+
+#: Player.py:191
+msgid "Microphone"
+msgstr "Microphone"
+
+#: Player.py:191
+msgid "'Standard Guitar' is for keyboards and pre-WT GH-series guitars. 'Solo Shift Guitar' is for RB-series guitars and keyboards who want to use a shift key for solo frets. 'Analog Slide Guitar' is for guitars with an analog slider bar."
+msgstr "'Standard Gitâr' ar gyfer allweddellau a gitars GH-chyfres cyn-WT. 'Unawd Shift Guitar' ar gyfer gitarau RB-gyfres, ac allweddellau sydd am ddefnyddio allweddol sifft ar gyfer unigol frets. 'Analog Slide Guitar' ar gyfer gitâr gyda bar slider analog."
+
+#: Player.py:192
+msgid "Analog SP"
+msgstr "Analog SP"
+
+#: Player.py:192
+msgid "Enables analog SP (as in the XBOX Xplorer controller.)"
+msgstr "Galluogi analog SP (fel yn y rheolwr Xplorer XBOX.)"
+
+#: Player.py:193
+msgid "Analog SP Threshold"
+msgstr "Trothwy SP Analog"
+
+#: Player.py:193
+msgid "Sets a threshold level for activating SP in analog mode."
+msgstr "Setiau lefel trothwy ar gyfer activating SP yn y modd analog."
+
+#: Player.py:194
+msgid "Analog SP Sensitivity"
+msgstr "Sensitifrwydd SP Analog"
+
+#: Player.py:194
+msgid "Sets the sensitivity for activating SP in analog mode."
+msgstr "Gosod y sensitifrwydd achos activating SP yn y modd analog."
+
+#: Player.py:195
+msgid "Analog Drums"
+msgstr "Analog Drymiau"
+
+#: Player.py:195
+#: Player.py:197
+msgid "PS2/PS3/Wii"
+msgstr "PS2/PS3/Wii"
+
+#: Player.py:195
+#: Player.py:197
+msgid "XBOX"
+msgstr "XBOX"
+
+#: Player.py:195
+#: Player.py:197
+msgid "XBOX Inv."
+msgstr "XBOX Cynnwys."
+
+#: Player.py:195
+msgid "Enables analog drums as in RB2 and GH drumsets."
+msgstr "Galluogi drymiau analog fel yn RB2 a drumsets GH."
+
+#: Player.py:196
+msgid "Inverted"
+msgstr "Inverted"
+
+#: Player.py:196
+msgid "Experimental testing for the analog slide mode."
+msgstr "profi arbrofol ar gyfer y modd analog sleid."
+
+#: Player.py:197
+msgid "Analog Effects"
+msgstr "Effeithiau Analog"
+
+#: Player.py:197
+msgid "Enables analog whammy bar. Set to the system your controller was designed for."
+msgstr "Galluogi bar ergyd analog. Gosod y system eich rheolwr ar ei gyfer."
+
+#: Player.py:198
+msgid "Sound FX Switch"
+msgstr "Newid FX Sain"
+
+#: Player.py:198
+msgid "Switch"
+msgstr "Newid"
+
+#: Player.py:198
+msgid "Cycle"
+msgstr "Beicio"
+
+#: Player.py:199
+msgid "Microphone Device"
+msgstr "Ddychymyg Microphone"
+
+#: Player.py:200
+msgid "Tap Sensitivity"
+msgstr "Tap Sensitifrwydd"
+
+#: Player.py:200
+msgid "Sets how sensitive the microphone is to being tapped."
+msgstr "Setiau pa mor sensitif y microffon i yn taro yn erbyn."
+
+#: Player.py:201
+msgid "Passthrough Volume"
+msgstr "Cyfrol Passthrough"
+
+#: Player.py:201
+msgid "Sets how loud you hear yourself singing."
+msgstr "Setiau sut uchel byddwch yn clywed eich hun canu."
+
+#: Player.py:207
+msgid "Neck Type"
+msgstr "Math Gwddf"
+
+#: Player.py:207
+msgid "Specific Neck"
+msgstr "Gwddf Penodol"
+
+#: Player.py:212
+msgid "Auto Kick"
+msgstr "Auto Cic"
+
+#: Player.py:385
+msgid "Default Drum"
+msgstr "Default Drum"
+
+#: Player.py:390
+#, python-format
+msgid "Controller %d"
+msgstr "Rheolwr %d"
+
+#: Player.py:391
+#, python-format
+msgid "Select the controller for slot %d"
+msgstr "Dewiswch y rheolwr i slot %d"
+
+#: Player.py:754
+#, python-format
+msgid "%s conflicts with %s"
+msgstr "%s gwrthdaro gyda %s"
+
+#: Player.py:842
+#, python-format
+msgid "This key conflicts with the following keys: %s"
+msgstr "Mae hyn yn gwrthdaro allweddol gyda 'r agoriadau canlynol: %s"
+
+#: Scorekeeper.py:30
+msgid "Auto Kick Bass"
+msgstr "Bas Cic Auto"
+
+#: Scorekeeper.py:30
+msgid "Medium Assist Mode"
+msgstr "Canolig Cynorthwyo Ddelw"
+
+#: Scorekeeper.py:30
+msgid "Easy Assist Mode"
+msgstr "Hawdd Cynorthwyo Ddelw"
+
+#: Scorekeeper.py:30
+msgid "Jurgen Played!"
+msgstr "Jürgen Chwarae!"
+
+#: Scorekeeper.py:31
+msgid "Effects Saved SP"
+msgstr "Effeithiau Saved SP"
+
+#: Scorekeeper.py:31
+msgid "All Tapping"
+msgstr "Pob Tapping"
+
+#: Scorekeeper.py:31
+msgid "HOPO Frequency: Most"
+msgstr "HOPO Amlder: Mae'r rhan fwyaf o"
+
+#: Scorekeeper.py:31
+msgid "HOPO Frequency: Even More"
+msgstr "HOPO Amlder: Hyd yn oed mwy o"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: More"
+msgstr "HOPO Amlder: Mwy"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: Less"
+msgstr "HOPO Amlder: Llai"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: Least"
+msgstr "HOPO Amlder: Lleiaf"
+
+#: Scorekeeper.py:32
+msgid "HOPO Disabled!"
+msgstr "HOPO Anabl!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Tightest!"
+msgstr "Ffenestr Daro: tynnaf!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Tight!"
+msgstr "Ffenestr Daro: dynn!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Wider"
+msgstr "Ffenestr Hit: Ehangach"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Widest"
+msgstr "Ffenestr Hit: Lletaf"
+
+#: Scorekeeper.py:34
+msgid "Two Note Chords"
+msgstr "Chords Dau Nodyn"
+
+#: Scorekeeper.py:34
+msgid "No Fail Mode"
+msgstr "Dim Methu Ddelw"
+
+#: Scorekeeper.py:34
+msgid "Sloppy Mode!"
+msgstr "Blêr Ddelw!"
+
+#: Scorekeeper.py:35
+msgid "Song Slowdown"
+msgstr "Slowdown Song"
+
+#: Scorekeeper.py:35
+msgid "Early Hit Window Adjustment"
+msgstr "Hit Cynnar Addasiad Ffenestr"
+
+#: Settings.py:250
+#, python-format
+msgid "Press a key for '%s' or hold Escape to disable."
+msgstr "Wasg yn allweddol ar gyfer '%s 'neu gynnal Escape at analluoga."
+
+#: Settings.py:252
+#, python-format
+msgid "Press a key for '%s' or hold Escape to cancel."
+msgstr "Wasg yn allweddol ar gyfer '%s 'neu gynnal Escape i ganslo."
+
+#: Settings.py:302
+msgid "No Controllers Found."
+msgstr "Rhif Rheolwyr wedi ei ddarganfod."
+
+#: Settings.py:350
+msgid "Are you sure you want to delete this controller?"
+msgstr "A ydych yn siŵr eich bod eisiau dileu y reolwr?"
+
+#: Settings.py:374
+msgid "Please name your controller"
+msgstr "Rhowch enw eich rheolwr"
+
+#: Settings.py:376
+#: Settings.py:626
+msgid "That name is already taken."
+msgstr "Mae'r enw yn cael ei gymryd yn barod."
+
+#: Settings.py:378
+#: Settings.py:628
+msgid "Canceled."
+msgstr "Ganslo."
+
+#: Settings.py:450
+#: Settings.py:487
+#: Settings.py:517
+#: Settings.py:546
+#: Settings.py:584
+#: Settings.py:612
+msgid "Rename Controller"
+msgstr "Rename Rheolwr"
+
+#: Settings.py:473
+msgid "Press the solo shift key. Be sure to assign the frets first! Hold Escape to cancel."
+msgstr "Press yr unawd allweddol sifft. Byddwch yn siwr i neilltuo'r frets gyntaf! Cynnal Escape i ganslo."
+
+#: Settings.py:569
+msgid "Press the highest fret on the slider. Hold Escape to cancel."
+msgstr "Pwyswch y uchaf phoeni ar y llithrydd. Cynnal Escape i ganslo."
+
+#: Settings.py:624
+msgid "Please rename your controller"
+msgstr "Os gwelwch yn dda eich rheolwr rename"
+
+#: Settings.py:752
+msgid "Battle Objects"
+msgstr "Gwrthrychau Battle"
+
+#: Settings.py:752
+msgid "Set which objects can appear in Battle Mode"
+msgstr "Gosod y gall gwrthrychau ymddangos ym Mrwydr Ddelw"
+
+#: Settings.py:767
+msgid "Advanced Gameplay Settings"
+msgstr "Gosodiadau gameplay Uwch"
+
+#: Settings.py:767
+msgid "Set advanced gameplay settings that affect the game rules."
+msgstr "Set ddyrchafedig lleoliadau gameplay sy'n effeithio ar y rheolau gêm."
+
+#: Settings.py:768
+msgid "Vocal Mode Settings"
+msgstr "Gosodiadau Ddelw Lleisiol"
+
+#: Settings.py:768
+msgid "Change settings that affect lyrics and in-game vocals."
+msgstr "Newid gosodiadau sy'n effeithio ar eiriau a llais mewn gêm."
+
+#: Settings.py:769
+msgid "HO/PO Settings"
+msgstr "Gosodiadau HO PO /"
+
+#: Settings.py:769
+msgid "Change settings that affect hammer-ons and pull-offs (HO/PO)."
+msgstr "Newid gosodiadau sy'n effeithio ar morthwyl-ons a thynnu-offs (HO / PO)."
+
+#: Settings.py:770
+msgid "Battle Settings"
+msgstr "Brwydr Gosodiadau"
+
+#: Settings.py:770
+msgid "Change settings that affect battle mode."
+msgstr "Newid gosodiadau sy'n effeithio ar ddelw frwydr."
+
+#: Settings.py:776
+#: Settings.py:1218
+msgid "Test Controller 1"
+msgstr "Rheolwr Prawf 1"
+
+#: Settings.py:776
+#: Settings.py:1218
+msgid "Test the controller configured for slot 1."
+msgstr "Prawf y rheolwr newid ar gyfer slot 1."
+
+#: Settings.py:777
+#: Settings.py:1219
+msgid "Test Controller 2"
+msgstr "Rheolwr Prawf 2"
+
+#: Settings.py:777
+#: Settings.py:1219
+msgid "Test the controller configured for slot 2."
+msgstr "Prawf y rheolwr newid ar gyfer slot 2."
+
+#: Settings.py:778
+#: Settings.py:1220
+msgid "Test Controller 3"
+msgstr "Rheolwr Prawf 3"
+
+#: Settings.py:778
+#: Settings.py:1220
+msgid "Test the controller configured for slot 3."
+msgstr "Prawf y rheolwr newid ar gyfer slot 3."
+
+#: Settings.py:779
+#: Settings.py:1221
+msgid "Test Controller 4"
+msgstr "Rheolwr Prawf 4"
+
+#: Settings.py:779
+#: Settings.py:1221
+msgid "Test the controller configured for slot 4."
+msgstr "Prawf y rheolwr newid ar gyfer slot 4."
+
+#: Settings.py:818
+msgid "More Effects"
+msgstr "Mwy o Effeithiau"
+
+#: Settings.py:818
+msgid "Change the settings of the shader system."
+msgstr "Newid y gosodiadau y system Shader."
+
+#: Settings.py:834
+msgid "Change Neck Transparency"
+msgstr "Tryloywder Gwddf Newid"
+
+#: Settings.py:834
+msgid "Change the transparency of the various in-game necks."
+msgstr "Newid tryloywder y gwddf yn-gêm amrywiol."
+
+#: Settings.py:847
+msgid "Theme Display Settings"
+msgstr "Gosodiadau Arddangos Thema"
+
+#: Settings.py:847
+msgid "Change settings that only affect certain theme types."
+msgstr "Newid gosodiadau mai dim ond yn effeithio ar fathau penodol thema."
+
+#: Settings.py:866
+#: Settings.py:1239
+msgid "Video Resolution"
+msgstr "'N Fideo Benderfyniad"
+
+#: Settings.py:866
+#: Settings.py:1239
+msgid "Set the resolution of the game. In windowed mode, higher values mean a larger screen."
+msgstr "Chyflea 'r benderfyniad y gêm. Yn y modd windowed, gwerthoedd uwch yn golygu mwy screen."
+
+#: Settings.py:873
+msgid "Stages Options"
+msgstr "Cyfnodau Dewisiadau"
+
+#: Settings.py:873
+msgid "Change settings related to the in-game background."
+msgstr "Newid gosodiadau yn ymwneud â chefndir mewn-gêm."
+
+#: Settings.py:874
+#: Settings.py:1246
+msgid "Choose Default Neck >"
+msgstr "Dewiswch Default> Gwddf"
+
+#: Settings.py:874
+#: Settings.py:1246
+msgid "Choose your default neck. You still have to choose which neck you use for your character in the character select screen."
+msgstr "Dewiswch eich gwddf ball. Byddwch yn dal yn rhaid i ddewis y gwddf rydych yn ei ddefnyddio ar gyfer eich cymeriad yn y cymeriad screen ddethol."
+
+#: Settings.py:875
+msgid "Fretboard Settings"
+msgstr "Fretboard Gosodiadau"
+
+#: Settings.py:875
+msgid "Change settings related to the fretboard."
+msgstr "Newid gosodiadau yn gysylltiedig â'r fretboard."
+
+#: Settings.py:876
+#: Settings.py:1247
+msgid "In-Game Display Settings"
+msgstr "Mewn-Gêm Gosodiadau Arddangos"
+
+#: Settings.py:876
+#: Settings.py:1247
+msgid "Change what and where things appear in-game."
+msgstr "Newid yn yr hyn a lle mae pethau yn ymddangos yn-gêm."
+
+#: Settings.py:877
+msgid "Advanced Video Settings"
+msgstr "Gosodiadau 'n Fideo Uwch"
+
+#: Settings.py:877
+msgid "Change advanced video settings."
+msgstr "Newid gosodiadau ddyrchafedig 'n fideo."
+
+#: Settings.py:905
+#: Settings.py:1266
+msgid "Volume Settings"
+msgstr "Cyfrol Gosodiadau"
+
+#: Settings.py:905
+#: Settings.py:1266
+msgid "Change the volume of game sounds."
+msgstr "Newid maint y synau gêm."
+
+#: Settings.py:914
+msgid "Advanced Audio Settings"
+msgstr "Ddyrchafedig Fachludiadau Audio"
+
+#: Settings.py:914
+msgid "Change advanced audio settings."
+msgstr "Newid gosodiadau ddyrchafedig sain."
+
+#: Settings.py:956
+#: Settings.py:1281
+msgid "Change Setlist Path >"
+msgstr "Newid> Llwybr Setlist"
+
+#: Settings.py:956
+#: Settings.py:1281
+msgid "Set the path to a folder named 'songs' that contains your songs."
+msgstr "Chyflea 'r llwybr at a folder enwedig' caneuon 'sy'n cynnwys eich caneuon."
+
+#: Settings.py:988
+msgid "Debug Settings"
+msgstr "Dadnamu Gosodiadau"
+
+#: Settings.py:988
+msgid "Settings for coders to debug. Probably not worth changing."
+msgstr "Gosodiadau ar gyfer coders i debug. Yn ôl pob tebyg yn werth ei newid."
+
+#: Settings.py:989
+msgid "Log Settings"
+msgstr "Log Gosodiadau"
+
+#: Settings.py:989
+msgid "Adds junk information to the logfile. Probably not useful in bug reports."
+msgstr "Adds gwybodaeth sothach ar y ffeil cofnodi. Yn ôl pob tebyg yn ddefnyddiol mewn adroddiadau bug."
+
+#: Settings.py:994
+msgid "AI Settings"
+msgstr "AI Gosodiadau"
+
+#: Settings.py:994
+msgid "Change the settings of the AI"
+msgstr "Newid y gosodiadau y AI"
+
+#: Settings.py:1003
+#: Settings.py:1356
+msgid "Mod settings"
+msgstr "lleoliadau Weinyddiaeth Amddiffyn"
+
+#: Settings.py:1003
+#: Settings.py:1356
+msgid "Enable or disable any mods you have installed."
+msgstr "Alluoga ai analluoga unrhyw mods i chi osod."
+
+#: Settings.py:1008
+#: Settings.py:1298
+msgid "Gameplay Settings"
+msgstr "Gameplay Gosodiadau"
+
+#: Settings.py:1008
+#: Settings.py:1298
+msgid "Settings that affect the rules of the game."
+msgstr "Gosodiadau sy'n effeithio ar y rheolau y gêm."
+
+#: Settings.py:1009
+#: Settings.py:1299
+msgid "Control Settings"
+msgstr "Rheoli Gosodiadau"
+
+#: Settings.py:1009
+#: Settings.py:1299
+msgid "Create, delete, and edit your controls."
+msgstr "Creu, dileu, ac yn golygu eich rheolaethau."
+
+#: Settings.py:1010
+#: Settings.py:1300
+msgid "Display Settings"
+msgstr "Arddangos Gosodiadau"
+
+#: Settings.py:1010
+#: Settings.py:1300
+msgid "Theme, neck, resolution, etc."
+msgstr "Thema, gwddf, benderfyniad, ac ati"
+
+#: Settings.py:1011
+#: Settings.py:1301
+msgid "Audio Settings"
+msgstr "Audio Gosodiadau"
+
+#: Settings.py:1011
+#: Settings.py:1301
+msgid "Volume controls, etc."
+msgstr "rheolaethau Cyfrol, ac ati"
+
+#: Settings.py:1012
+#: Settings.py:1302
+msgid "Setlist Settings"
+msgstr "Setlist Gosodiadau"
+
+#: Settings.py:1012
+#: Settings.py:1302
+msgid "Settings that affect the setlist."
+msgstr "Gosodiadau sy'n effeithio ar y setlist."
+
+#: Settings.py:1013
+msgid "Advanced Settings"
+msgstr "Ddyrchafedig Fachludiadau"
+
+#: Settings.py:1013
+msgid "Settings that probably don't need to be changed."
+msgstr "Gosodiadau y mae'n debyg nad oes angen ei newid."
+
+#: Settings.py:1014
+#: Settings.py:1303
+msgid "Mods, Cheats, AI"
+msgstr "Mods, Hocedwyr, AI"
+
+#: Settings.py:1014
+#: Settings.py:1303
+msgid "Set Jurgen to play for you, or other cheats."
+msgstr "Set Jürgen i chwarae i chi, neu hocedwyr eraill."
+
+#: Settings.py:1015
+#: Settings.py:1304
+#, python-format
+msgid "%s Credits"
+msgstr "%s Credydau"
+
+#: Settings.py:1015
+#: Settings.py:1304
+msgid "See who made this game."
+msgstr "Gweler a wnaeth y gêm hon."
+
+#: Settings.py:1016
+#: Settings.py:1305
+msgid "Quickset"
+msgstr "Quickset"
+
+#: Settings.py:1016
+#: Settings.py:1305
+msgid "A quick way to set many advanced settings."
+msgstr "Mae ffordd gyflym i sefydlu nifer o leoliadau uwch."
+
+#: Settings.py:1017
+msgid "Hide Advanced Options"
+msgstr "Cuddio Dewisiadau Uwch"
+
+#: Settings.py:1047
+#: Settings.py:1320
+msgid "FoFiX needs to restart to apply setting changes."
+msgstr "FoFiX angen i restart i wneud cais newidiadau leoliad."
+
+#: Settings.py:1066
+#: Settings.py:1328
+msgid "Test Controls"
+msgstr "Test Rheolaethau"
+
+#: Settings.py:1066
+#: Settings.py:1328
+msgid "Go here to test your controllers."
+msgstr "Ewch yma i brofi eich rheolwyr."
+
+#: Settings.py:1071
+#: Settings.py:1333
+msgid "New Controller"
+msgstr "Rheolwr Newydd"
+
+#: Settings.py:1071
+#: Settings.py:1333
+msgid "Create a new controller to use."
+msgstr "Creu reolwr newydd i'w defnyddio."
+
+#: Settings.py:1072
+#: Settings.py:1334
+msgid "Edit Controller"
+msgstr "Rheolwr Golygu"
+
+#: Settings.py:1072
+#: Settings.py:1334
+msgid "Edit a controller you have created."
+msgstr "Golygu reolwr yr ydych wedi creu."
+
+#: Settings.py:1073
+#: Settings.py:1335
+msgid "Delete Controller"
+msgstr "Dileu Rheolwr"
+
+#: Settings.py:1073
+#: Settings.py:1335
+msgid "Delete a controller you have created."
+msgstr "Dileu reolwr yr ydych wedi creu."
+
+#: Settings.py:1089
+#: Settings.py:1366
+msgid "You must specify a controller for slot 1!"
+msgstr "Rhaid i chi benodi rheolwr i slot 1!"
+
+#: Settings.py:1095
+#: Settings.py:1372
+#, python-format
+msgid "Controllers in slots %d and %d conflict. Setting %d to None."
+msgstr "Rheolwyr mewn slotiau %d a %d gwrthdaro. Gosod %d i Dim."
+
+#: Settings.py:1104
+#: Settings.py:1381
+#, python-format
+msgid "%d more conflicts."
+msgstr "%d gwrthdaro mwy."
+
+#: Settings.py:1149
+#: Settings.py:1411
+msgid "Choose a new songs directory."
+msgstr "Dewiswch cyfeiriadur ganeuon newydd."
+
+#: Settings.py:1306
+msgid "See Advanced Options"
+msgstr "Gweler Uwch Dewisiadau"
+
+#: Settings.py:1600
+msgid "Cheats"
+msgstr "Hocedwyr"
+
+#: Song.py:132
+msgid "Guitar"
+msgstr "Gitâr"
+
+#: Song.py:133
+msgid "Rhythm"
+msgstr "Rhythm"
+
+#: Song.py:134
+msgid "Bass"
+msgstr "Bas"
+
+#: Song.py:135
+msgid "Lead"
+msgstr "Arweiniol"
+
+#: Song.py:136
+msgid "Drums"
+msgstr "Drymiau"
+
+#: Song.py:137
+msgid "Vocals"
+msgstr "Llais"
+
+#: Song.py:162
+msgid "Easy"
+msgstr "Hawdd"
+
+#: Song.py:163
+msgid "Medium"
+msgstr "Canolig"
+
+#: Song.py:164
+msgid "Hard"
+msgstr "Caled"
+
+#: Song.py:165
+msgid "Expert"
+msgstr "Arbenigol"
+
+#: Song.py:227
+msgid "NoName"
+msgstr "NoName"
+
+#: Song.py:960
+msgid "This song is locked."
+msgstr "Y gân hon wedi ei gloi."
+
+#: Song.py:1166
+msgid "Reset Career"
+msgstr "Reset Gyrfa"
+
+#: Song.py:1213
+msgid "   (Random Song)"
+msgstr "(Song ar hap)"
+
+#: Song.py:4171
+msgid "End of Career"
+msgstr "Diwedd y Gyrfa"
+
+#: Song.py:4434
+#: Song.py:4437
+msgid "Checking song database..."
+msgstr "Checking cronfa ddata gân ..."
+
+#: Song.py:4444
+#, python-format
+msgid "Enumerating song folders... (%d so far)"
+msgstr "folders gân Enumerating ... (%d hyd yn hyn)"
+
+#: Song.py:4448
+msgid "Caching song data..."
+msgstr "data gân Caching ..."
+
+#: Song.py:4448
+#, python-format
+msgid "(folder %d of %d; %d%% of this folder)"
+msgstr "(Folder %d o %d; %d%% o'r folder)"
+
+#: Song.py:4449
+msgid "Pruning leftover entries..."
+msgstr "cofnodion sydd dros ben Tocio ..."
+
+#: SongChoosingScene.py:104
+msgid "Initializing Setlist..."
+msgstr "Ymgychwyn Setlist ..."
+
+#: SongChoosingScene.py:106
+msgid "Checking Command-Line Settings..."
+msgstr "Gosodiadau Archa-Lein Gwirio ..."
+
+#: SongChoosingScene.py:108
+msgid "Checking Setlist Settings..."
+msgstr "Checking Gosodiadau Setlist ..."
+
+#: SongChoosingScene.py:265
+#: SongChoosingScene.py:267
+#: SongChoosingScene.py:277
+msgid "Browsing Collection..."
+msgstr "Pori Casgliad ..."
+
+#: SongChoosingScene.py:327
+#: SongChoosingScene.py:337
+msgid "No songs in this setlist are available to play!"
+msgstr "Dim caneuon yn y setlist ar gael i chwarae!"
+
+#: SongChoosingScene.py:329
+#: SongChoosingScene.py:339
+msgid "Make sure you have a working career pack!"
+msgstr "Gwnewch yn siŵr bod gennych becyn yrfa yn gweithio!"
+
+#: SongChoosingScene.py:389
+#: SongChoosingScene.py:496
+msgid "Loading Album Artwork..."
+msgstr "Llwytho gwaith celf Albwm ..."
+
+#: SongChoosingScene.py:423
+#: SongChoosingScene.py:634
+msgid "There are no drum parts in this song. Change your controllers to play."
+msgstr "Nid oes unrhyw rannau drwm yn y gân. Newid eich reolwyr i chwarae."
+
+#: SongChoosingScene.py:431
+#: SongChoosingScene.py:637
+msgid "There are no guitar parts in this song. Change your controllers to play."
+msgstr "Nid oes unrhyw rannau gitâr yn y gân. Newid eich reolwyr i chwarae."
+
+#: SongChoosingScene.py:439
+#: SongChoosingScene.py:640
+msgid "There are no vocal parts in this song. Change your controllers to play."
+msgstr "Nid oes unrhyw rannau llafar yn y gân. Newid eich reolwyr i chwarae."
+
+#: SongChoosingScene.py:457
+#, python-format
+msgid "%s Choose a difficulty:"
+msgstr "%s Dewiswch anhawster:"
+
+#: Theme.py:1001
+#: Theme.py:1126
+#: Theme.py:1209
+#: Theme.py:1319
+#: Theme.py:1482
+#: Theme.py:1605
+#: Theme.py:2114
+msgid "-- Locked --"
+msgstr "- Glo -"
+
+#: Theme.py:1047
+#: Theme.py:1070
+#: Theme.py:1086
+#: Theme.py:1103
+#: Theme.py:1236
+#: Theme.py:1260
+#: Theme.py:1276
+#: Theme.py:1280
+#: Theme.py:1365
+#: Theme.py:1388
+#: Theme.py:1404
+#: Theme.py:1417
+#: Theme.py:1631
+#: Theme.py:1655
+#: Theme.py:1671
+#: Theme.py:1674
+msgid "Nil"
+msgstr "Dim"
+
+#: Theme.py:1432
+#: Theme.py:2055
+#: Theme.py:2060
+#: Theme.py:2096
+msgid "Loading Preview..."
+msgstr "Llwytho Preview ..."
+
+#: Theme.py:1440
+#: Theme.py:1549
+msgid "Play To Advance"
+msgstr "Chwarae I ymlaen llaw"
+
+#: Theme.py:1446
+#: Theme.py:1555
+msgid "Played Once"
+msgstr "Unwaith Chwarae"
+
+#: Theme.py:1448
+#: Theme.py:1557
+#, python-format
+msgid "Played %d times."
+msgstr "Chwarae %d amser."
+
+#: Theme.py:1455
+#: Theme.py:1571
+msgid "There Is 1 Song In This Setlist."
+msgstr "Mae Ydy 1 Song Yn y Setlist."
+
+#: Theme.py:1457
+#: Theme.py:1573
+#, python-format
+msgid "There Are %d Songs In This Setlist."
+msgstr "Mae A %d Caneuon Yn y Setlist."
+
+#: Theme.py:1461
+#: Theme.py:1577
+msgid "Tier"
+msgstr "Haen"
+
+#: Theme.py:1465
+#: Theme.py:1588
+msgid "Random Song"
+msgstr "Random Song"
+
+#: Theme.py:2016
+msgid "DIFFICULTY"
+msgstr "Anhawster"
+
+#: Theme.py:2018
+msgid "BAND"
+msgstr "BAND"
+
+#: Theme.py:2020
+msgid "GUITAR"
+msgstr "Gitâr"
+
+#: Theme.py:2022
+msgid "DRUM"
+msgstr "DRWM"
+
+#: Theme.py:2024
+msgid "BASS"
+msgstr "Bas"
+
+#: Theme.py:2026
+msgid "VOCALS"
+msgstr "Llais"
+
+#: Theme.py:2032
+msgid "SORTING:"
+msgstr "DOSBARTHU:"
+
+#: Theme.py:2034
+msgid "ALPHABETICALLY BY TITLE"
+msgstr "Yr wyddor yn ôl TEITL"
+
+#: Theme.py:2036
+msgid "ALPHABETICALLY BY ARTIST"
+msgstr "GAN ARTIST yn nhrefn yr wyddor"
+
+#: Theme.py:2038
+msgid "BY PLAY COUNT"
+msgstr "GAN CHWARAE COUNT"
+
+#: Theme.py:2040
+msgid "ALPHABETICALLY BY ALBUM"
+msgstr "Yr wyddor yn ôl ALBUM"
+
+#: Theme.py:2042
+msgid "ALPHABETICALLY BY GENRE"
+msgstr "Yn nhrefn yr wyddor yn ôl genre"
+
+#: Theme.py:2044
+msgid "BY YEAR"
+msgstr "GAN BLWYDDYN"
+
+#: Theme.py:2046
+msgid "BY BAND DIFFICULTY"
+msgstr "GAN BAND Anhawster"
+
+#: Theme.py:2048
+msgid "BY INSTRUMENT DIFFICULTY"
+msgstr "GAN OFFERYNNAU Anhawster"
+
+#: Theme.py:2050
+msgid "BY SONG COLLECTION"
+msgstr "GAN SONG CASGLU"
+
+#: Theme.py:2145
+#, python-format
+msgid "Played %d time"
+msgstr "Chwarae amser %d"
+
+#: Theme.py:2147
+#, python-format
+msgid "Played %d times"
+msgstr "Chwarae %d amseroedd"
+
+#: Theme.py:2152
+#: Theme.py:2159
+msgid "Play To Advance."
+msgstr "Chwarae I ymlaen llaw."
+
+#: Theme.py:2155
+msgid "Never Played"
+msgstr "Peidiwch byth Chwarae"
+
+#: Theme.py:2219
+msgid "One Song In This Setlist"
+msgstr "Un Song Yn y Setlist"
+
+#: Theme.py:2221
+#, python-format
+msgid "%d Songs In This Setlist"
+msgstr "%d Caneuon Yn y Setlist"
+
+#: Theme.py:2230
+msgid "(Random Song)"
+msgstr "(Song ar hap)"
+
+#: Theme.py:2428
+msgid "No Album"
+msgstr "Dim Albwm"
+
+#: Theme.py:2433
+msgid "No Genre"
+msgstr "Dim Genre"
+
+#: Video.py:151
+msgid "Video setup failed with your resolution settings, and so were reset to defaults."
+msgstr "'N Fideo setup methu â phenderfyniad eich gosodiadau, ac felly roedd reset i ddiffygion."
+
+#: Vocalist.py:120
+msgid "Amazing!"
+msgstr "Amazing!"
+
+#: Vocalist.py:120
+msgid "Great!"
+msgstr "Gwych!"
+
+#: Vocalist.py:120
+msgid "Decent"
+msgstr "Gweddus"
+
+#: Vocalist.py:120
+msgid "Average"
+msgstr "Cyfartaledd"
+
+#: Vocalist.py:120
+msgid "Meh"
+msgstr "Meh"
+
+#: Vocalist.py:120
+msgid "Bad"
+msgstr "Gwael"
+
+#: Vocalist.py:120
+msgid "Terrible..."
+msgstr "Ofnadwy ..."
+
+#: Vocalist.py:449
+msgid "Tap!"
+msgstr "Tap!"
+
+#: World.py:60
+msgid "FoFiX Co-Op Mode"
+msgstr "Modd FoFiX Co-Op"
+
+#: World.py:62
+msgid "RB Co-Op Mode"
+msgstr "RB Ddelw Co-Op"
+
+#: World.py:64
+msgid "GH Co-Op Mode"
+msgstr "GH Ddelw Co-Op"
+
+#: World.py:66
+msgid "Battle Mode"
+msgstr "Brwydr Ddelw"
+
+#: World.py:73
+msgid "Career Mode"
+msgstr "Gyrfa Ddelw"
+

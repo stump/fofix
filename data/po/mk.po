@@ -1,0 +1,5011 @@
+# -*- coding: utf-8 -*-
+#####################################################################
+#                                                                   #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
+#                                                                   #
+# This program is free software; you can redistribute it and/or     #
+# modify it under the terms of the GNU General Public License       #
+# as published by the Free Software Foundation; either version 2    #
+# of the License, or (at your option) any later version.            #
+#                                                                   #
+# This program is distributed in the hope that it will be useful,   #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of    #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the     #
+# GNU General Public License for more details.                      #
+#                                                                   #
+# You should have received a copy of the GNU General Public License #
+# along with this program; if not, write to the Free Software       #
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,        #
+# MA  02110-1301, USA.                                              #
+#####################################################################
+
+msgid ""
+msgstr ""
+"Project-Id-Version: FoFiX 4 Development\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-19 11:47-0600\n"
+"PO-Revision-Date: 2010-09-19 11:48-0600\n"
+"Last-Translator: Google Translator\n"
+"Language-Team: FoFiX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: Credits.py:125
+msgid "This mod was built on Alarian's mod,"
+msgstr "Овој мод е изграден на современи Alarian е,"
+
+#: Credits.py:126
+msgid "which was built on UltimateCoffee's Ultimate mod,"
+msgstr "кој беше изграден на Ultimate современи UltimateCoffee е,"
+
+#: Credits.py:127
+msgid "which was built on RogueF's RF_mod 4.15,"
+msgstr "кој беше изграден на RogueF е RF_mod 4,15,"
+
+#: Credits.py:128
+msgid "which was, of course, built on Frets on Fire 1.2.451,"
+msgstr "кој беше, се разбира, изграден на Frets на пожар 1.2.451,"
+
+#: Credits.py:129
+msgid "which was created by Unreal Voodoo"
+msgstr "која е создадена од Unreal Вуду"
+
+#: Credits.py:130
+msgid "No Particular Order"
+msgstr "Не Посебни Побарувања"
+
+#: Credits.py:131
+msgid "Active Coders:"
+msgstr "Активни Coders:"
+
+#: Credits.py:132
+msgid "Past Coders:"
+msgstr "Минатото Coders:"
+
+#: Credits.py:133
+msgid "Main Graphic Contributors:"
+msgstr "Главната графички авторите:"
+
+#: Credits.py:134
+msgid "Translators:"
+msgstr "Преведувачи:"
+
+#: Credits.py:135
+msgid "Team Hero:"
+msgstr "Тим Херојот:"
+
+#: Credits.py:136
+msgid "Creators of Career Mode"
+msgstr "Креаторите на кариера Режим"
+
+#: Credits.py:137
+msgid "Honorary Credits to:"
+msgstr "Почесен Кредити на:"
+
+#: Credits.py:138
+msgid "Donations to MFH"
+msgstr "Донации за MFH"
+
+#: Credits.py:139
+msgid "Donations to akedrou"
+msgstr "Донации за akedrou"
+
+#: Credits.py:140
+msgid "Major Donations:"
+msgstr "Големи донации:"
+
+#: Credits.py:141
+msgid "Other Donations:"
+msgstr "Други донации:"
+
+#: Credits.py:142
+msgid "Other Credits:"
+msgstr "Други кредити:"
+
+#: Credits.py:143
+msgid "Jurgen FoF tutorial inspired by adam02"
+msgstr "Јурген FoF туториал инспириран од adam02"
+
+#: Credits.py:144
+msgid "Drum test song tutorial by Heka"
+msgstr "Drum тест песна туториал од Heka"
+
+#: Credits.py:145
+msgid "Bang Bang Mystery Man song tutorial is from the original FoF"
+msgstr "Бенг Бенг Мистерии Човекот песна туториал е од оригиналот FoF"
+
+#: Credits.py:146
+msgid "Drum Rolls practice tutorial by venom426"
+msgstr "Drum Ролс пракса туториал од venom426"
+
+#: Credits.py:147
+msgid "If you see your work included in this game and you aren't"
+msgstr "Ако гледате вашата работа се вклучени во оваа игра и не сте"
+
+#: Credits.py:148
+msgid "in the credits, please leave a polite post stating what you"
+msgstr "во кредити, ве молиме оставете љубезен пост во која се наведува тоа што го"
+
+#: Credits.py:149
+msgid "did and when, as specific as possible."
+msgstr "не и кога, што е можно поконкретно."
+
+#: Credits.py:150
+msgid "If you can, please provide a link to your original posting"
+msgstr "Ако можете, ве молиме наведете линк до оригиналниот објавување"
+
+#: Credits.py:151
+msgid "of the work in question."
+msgstr "на работата во прашање."
+
+#: Credits.py:152
+msgid "Then we can properly credit you."
+msgstr "Тогаш ние правилно може да ви кредит."
+
+#: Credits.py:153
+msgid "Thank you for your contribution."
+msgstr "Ви благодариме за вашиот придонес."
+
+#: Credits.py:154
+msgid "Please keep in mind that it is not easy to trace down and"
+msgstr "Ве молиме имајте во предвид дека не е лесно да се трага надолу и"
+
+#: Credits.py:155
+msgid "credit every single person who contributed; if your name is"
+msgstr "кредитна секој еден човек кој придонел, ако вашето име е"
+
+#: Credits.py:156
+msgid "not included, it was not meant to slight you."
+msgstr "не се вклучени, тоа не беше со цел да се мали вас."
+
+#: Credits.py:157
+msgid "It was an oversight."
+msgstr "Тоа беше надзор."
+
+#: Credits.py:159
+#, python-format
+msgid "%s theme credits:"
+msgstr "%s тема кредити:"
+
+#: Credits.py:160
+#, python-format
+msgid "%s theme specific thanks:"
+msgstr "%s тема специфични благодарение:"
+
+#: Credits.py:162
+msgid "French"
+msgstr "Француски"
+
+#: Credits.py:163
+msgid "French (reform 1990)"
+msgstr "Француски (реформи 1990)"
+
+#: Credits.py:164
+msgid "German"
+msgstr "Германски"
+
+#: Credits.py:165
+msgid "Italian"
+msgstr "Италијански"
+
+#: Credits.py:166
+msgid "Pig Latin"
+msgstr "Пиг Латински"
+
+#: Credits.py:167
+msgid "Portuguese (Brazilian)"
+msgstr "Португалски (во Бразил)"
+
+#: Credits.py:168
+msgid "Russian"
+msgstr "Руски"
+
+#: Credits.py:169
+msgid "Spanish"
+msgstr "Шпански"
+
+#: Credits.py:170
+msgid "Swedish"
+msgstr "Шведските"
+
+#: Credits.py:223
+msgid "Made with:"
+msgstr "Направени со:"
+
+#: Credits.py:246
+msgid "Source Code available under the GNU General Public License"
+msgstr "Изворниот код достапни под условите на ГНУ-овата Општа Јавна Лиценца"
+
+#: Credits.py:250
+msgid "Copyright 2006, 2007 by Unreal Voodoo"
+msgstr "Copyright 2006, 2007 година од Unreal Вуду"
+
+#: Credits.py:251
+msgid "Copyright 2008-2010 by Team FoFiX"
+msgstr "Copyright 2008-2010 од страна на тим FoFiX"
+
+#: Dialogs.py:489
+msgid "<OK>"
+msgstr "<OK>"
+
+#: Dialogs.py:576
+msgid "[Parent Folder]"
+msgstr "[Папка]"
+
+#: Dialogs.py:580
+msgid "[Accept Folder]"
+msgstr "[Прифати папка]"
+
+#: Dialogs.py:582
+#, python-format
+msgid "%s [Folder]"
+msgstr "%s [папка]"
+
+#: Dialogs.py:707
+msgid "Yellow (#3) / Blue (#4) to change, Green (#1) to confirm:"
+msgstr "Жолто (# 3) / Сина (# 4) да се промени, зелено (# 1) да се потврди:"
+
+#: Dialogs.py:719
+msgid "Loading necks..."
+msgstr "Loading вратови ..."
+
+#: Dialogs.py:784
+#: GameEngine.py:97
+msgid "Neck"
+msgstr "Вратот"
+
+#: Dialogs.py:983
+msgid "Loading avatars..."
+msgstr "Loading аватари ..."
+
+#: Dialogs.py:1092
+msgid "Select Your Avatar:"
+msgstr "Изберете Твојата репутација:"
+
+#: Dialogs.py:1572
+msgid "Press Start to Begin!"
+msgstr "Прес Start за да започне!"
+
+#: Dialogs.py:1573
+msgid "Use the keyboard to select or just play some notes!"
+msgstr "Користете ја тастатурата за да изберете или само да свири на некои белешки!"
+
+#: Dialogs.py:1584
+msgid "No Controller"
+msgstr "Нема контролор"
+
+#: Dialogs.py:1588
+msgid "Disabled Controller"
+msgstr "Петров контролор"
+
+#: Dialogs.py:1592
+msgid "Default Guitar"
+msgstr "Стандардна гитара"
+
+#: Dialogs.py:1594
+msgid "Default Drums"
+msgstr "Стандардна тапани"
+
+#: Dialogs.py:1596
+msgid "Default Microphone"
+msgstr "Стандардна микрофон"
+
+#: Dialogs.py:1657
+msgid "controller"
+msgstr "контролер"
+
+#: Dialogs.py:1659
+msgid "controllers"
+msgstr "контролори"
+
+#: Dialogs.py:1660
+#, python-format
+msgid "You only have %d %s defined. You need at least %d for this mode."
+msgstr "Имате само %d %s дефинирани. Ви треба најмалку %d за овој мод."
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+#: GameEngine.py:212
+msgid "Left"
+msgstr "Лево"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+#: GameEngine.py:212
+msgid "Right"
+msgstr "Право"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Up"
+msgstr "До"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Down"
+msgstr "Одредување на"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Start"
+msgstr "На проектот"
+
+#: Dialogs.py:1917
+#: Dialogs.py:1925
+#: Dialogs.py:1930
+#: Dialogs.py:1938
+msgid "Select"
+msgstr "Изберете"
+
+#: Dialogs.py:1917
+msgid "Fret #1"
+msgstr "Секирај # 1"
+
+#: Dialogs.py:1917
+msgid "Solo #1"
+msgstr "Соло # 1"
+
+#: Dialogs.py:1917
+msgid "Fret #2"
+msgstr "Секирај # 2"
+
+#: Dialogs.py:1917
+msgid "Solo #2"
+msgstr "Соло # 2"
+
+#: Dialogs.py:1918
+msgid "Fret #3"
+msgstr "Секирај # 3"
+
+#: Dialogs.py:1918
+msgid "Solo #3"
+msgstr "Соло # 3"
+
+#: Dialogs.py:1918
+msgid "Fret #4"
+msgstr "Секирај # 4"
+
+#: Dialogs.py:1918
+msgid "Solo #4"
+msgstr "Соло # 4"
+
+#: Dialogs.py:1918
+msgid "Fret #5"
+msgstr "Секирај # 5"
+
+#: Dialogs.py:1919
+msgid "Solo #5"
+msgstr "Соло # 5"
+
+#: Dialogs.py:1919
+msgid "Pick!"
+msgstr "Трансферот!"
+
+#: Dialogs.py:1919
+#: Dialogs.py:1927
+#: Dialogs.py:1932
+#: Dialogs.py:1940
+msgid "Starpower!"
+msgstr "Starpower!"
+
+#: Dialogs.py:1919
+#: GameEngine.py:278
+msgid "Whammy"
+msgstr "Уроки"
+
+#: Dialogs.py:1925
+#: Dialogs.py:1938
+msgid "Drum #1"
+msgstr "Drum # 1"
+
+#: Dialogs.py:1925
+msgid "Drum #2"
+msgstr "Drum # 2"
+
+#: Dialogs.py:1926
+#: Dialogs.py:1939
+msgid "Drum #3"
+msgstr "Drum # 3"
+
+#: Dialogs.py:1926
+msgid "Drum #4"
+msgstr "Drum # 4"
+
+#: Dialogs.py:1927
+#: Dialogs.py:1940
+msgid "Bass Drum"
+msgstr "Бас Тапани"
+
+#: Dialogs.py:1927
+#: Dialogs.py:1940
+#: Dialogs.py:2268
+#: GameEngine.py:89
+#: GameEngine.py:155
+#: GameEngine.py:190
+#: GameEngine.py:691
+#: GameResultsScene.py:250
+msgid "None"
+msgstr "Никој"
+
+#: Dialogs.py:1938
+msgid "Cymbal #2"
+msgstr "Кимвал # 2"
+
+#: Dialogs.py:1939
+msgid "Cymbal #4"
+msgstr "Кимвал # 4"
+
+#: Dialogs.py:1939
+msgid "Drum #5"
+msgstr "Drum # 5"
+
+#: Dialogs.py:1942
+msgid "Fret"
+msgstr "Секирај"
+
+#: Dialogs.py:1943
+msgid "Solo"
+msgstr "Соло"
+
+#: Dialogs.py:1944
+msgid "Drum"
+msgstr "Тапан"
+
+#: Dialogs.py:1945
+msgid "Slide~"
+msgstr "Slide ~"
+
+#: Dialogs.py:2248
+msgid "Level:"
+msgstr "Ниво:"
+
+#: Dialogs.py:2249
+msgid "Note:"
+msgstr "Забелешка:"
+
+#: Dialogs.py:2263
+msgid "Tap"
+msgstr "Допрете"
+
+#: Dialogs.py:2359
+msgid "Choose a File"
+msgstr "Изберете Датотека"
+
+#: Dialogs.py:2435
+msgid "Play with the keys and press Escape when you're done."
+msgstr "Си играат со клучеви и притиснете Escape кога ќе завршиш."
+
+#: Dialogs.py:2448
+#: Dialogs.py:2554
+#: Dialogs.py:2560
+msgid "Loading..."
+msgstr "Loading ..."
+
+#: FoFiX.py:179
+#, python-format
+msgid "Song directory provided ('%s') is not a valid song directory. Starting up FoFiX in standard mode."
+msgstr "Песна директориум предвидени ('%s ') не е валиден песна директориум. Стартување FoFiX во стандарден режим."
+
+#: FoFiX.py:301
+msgid "Terminating due to unhandled exception:"
+msgstr "Прекинува поради појави исклучок:"
+
+#: FoFiX.py:303
+msgid "If you make a bug report about this error, please include the contents of the following log file:"
+msgstr "Ако направите грешка извештај за оваа грешка, ве молиме да го вклучите содржината на следниве log датотеката:"
+
+#: FoFiX.py:305
+msgid "The log file already includes the traceback given above."
+msgstr "Лог датотека веќе вклучува следење дадена погоре."
+
+#: FoFiX.py:310
+msgid "Open the logfile now?"
+msgstr "Отворете ја датотеката за евиденција сега?"
+
+#: GameEngine.py:86
+msgid "FPS Limiter"
+msgstr "FPS ограничувач"
+
+#: GameEngine.py:86
+msgid "On (Set Below)"
+msgstr "На (Постави подолу)"
+
+#: GameEngine.py:86
+msgid "Off (Auto Max FPS)"
+msgstr "Исклучено (авто Макс fps)"
+
+#: GameEngine.py:86
+msgid "Use this to enable or disable the FPS Limiter. If off, the game will render as many frames as possible. (This is affected by the 'Performance' quickset)"
+msgstr "Користете го ова за да овозможите или оневозможите на FPS ограничувач. Ако исклучен, играта ќе ја даде толку рамки што е можно. (Ова е под влијание од страна на 'жив плет ефикасноста')"
+
+#: GameEngine.py:88
+msgid "Fullscreen Mode"
+msgstr "Приказ на цел екран"
+
+#: GameEngine.py:88
+#: GameEngine.py:90
+#: GameEngine.py:93
+#: GameEngine.py:96
+#: GameEngine.py:105
+#: GameEngine.py:107
+#: GameEngine.py:112
+#: GameEngine.py:145
+#: GameEngine.py:146
+#: GameEngine.py:172
+#: GameEngine.py:175
+#: GameEngine.py:176
+#: GameEngine.py:177
+#: GameEngine.py:178
+#: GameEngine.py:181
+#: GameEngine.py:182
+#: GameEngine.py:196
+#: GameEngine.py:199
+#: GameEngine.py:201
+#: GameEngine.py:202
+#: GameEngine.py:216
+#: GameEngine.py:219
+#: GameEngine.py:225
+#: GameEngine.py:245
+#: GameEngine.py:246
+#: GameEngine.py:247
+#: GameEngine.py:259
+#: GameEngine.py:260
+#: GameEngine.py:261
+#: GameEngine.py:262
+#: GameEngine.py:263
+#: GameEngine.py:264
+#: GameEngine.py:265
+#: GameEngine.py:266
+#: GameEngine.py:267
+#: GameEngine.py:268
+#: GameEngine.py:269
+#: GameEngine.py:300
+#: GameEngine.py:301
+#: GameEngine.py:304
+#: GameEngine.py:312
+#: GameEngine.py:315
+#: GameEngine.py:318
+#: GameEngine.py:321
+#: GameEngine.py:371
+#: GameEngine.py:410
+msgid "No"
+msgstr "Нема"
+
+#: GameEngine.py:88
+#: GameEngine.py:90
+#: GameEngine.py:93
+#: GameEngine.py:96
+#: GameEngine.py:105
+#: GameEngine.py:107
+#: GameEngine.py:112
+#: GameEngine.py:145
+#: GameEngine.py:146
+#: GameEngine.py:172
+#: GameEngine.py:175
+#: GameEngine.py:176
+#: GameEngine.py:177
+#: GameEngine.py:178
+#: GameEngine.py:181
+#: GameEngine.py:182
+#: GameEngine.py:196
+#: GameEngine.py:199
+#: GameEngine.py:216
+#: GameEngine.py:219
+#: GameEngine.py:225
+#: GameEngine.py:245
+#: GameEngine.py:246
+#: GameEngine.py:247
+#: GameEngine.py:259
+#: GameEngine.py:260
+#: GameEngine.py:261
+#: GameEngine.py:262
+#: GameEngine.py:263
+#: GameEngine.py:264
+#: GameEngine.py:265
+#: GameEngine.py:266
+#: GameEngine.py:267
+#: GameEngine.py:268
+#: GameEngine.py:300
+#: GameEngine.py:301
+#: GameEngine.py:304
+#: GameEngine.py:312
+#: GameEngine.py:315
+#: GameEngine.py:318
+#: GameEngine.py:321
+#: GameEngine.py:371
+#: GameEngine.py:410
+msgid "Yes"
+msgstr "Да"
+
+#: GameEngine.py:88
+msgid "Play either in fullscreen ('Yes') or windowed ('No') mode."
+msgstr "Игра ниту во цел (\"Да\") или windowed ('Нема') режим."
+
+#: GameEngine.py:89
+msgid "Antialiasing Quality"
+msgstr "Антиалиасинг Квалитет"
+
+#: GameEngine.py:89
+msgid "Sets the antialiasing quality of openGL rendering. Higher values reduce jaggediness, but could affect performance. (This is affected by the 'Performance' quickset)"
+msgstr "Поставува антиалиасинг квалитетот на OpenGL рендерирање. Повисоки вредности намали jaggediness, но може да влијае на перформансите. (Ова е под влијание од страна на 'жив плет ефикасноста')"
+
+#: GameEngine.py:90
+msgid "Show Fret Glow Effect"
+msgstr "Прикажи Fret вжарена Ефект"
+
+#: GameEngine.py:90
+msgid "Turn on or off the glow that appears around a fret when you press it."
+msgstr "Вклучи или исклучите сјајот кој се појавува околу секирај кога ќе го притиснете."
+
+#: GameEngine.py:92
+msgid "Frames per Second"
+msgstr "Фрејмови во секунда"
+
+#: GameEngine.py:92
+msgid "Set the number of frames to render per second. Higher values are better, but your computer may not be able to keep up. You probably can leave this alone. (This is affected by the 'Performance' quickset)"
+msgstr "Поставете го бројот на рамки за рендерирање во секунда. Повисоки вредности се подобри, но вашиот компјутер не може да биде во состојба да се задржи. Веројатно можеш да го оставам овој сам. (Ова е под влијание од страна на 'жив плет ефикасноста')"
+
+#: GameEngine.py:93
+msgid "Print Frames per Second"
+msgstr "Верзија за фрејмови во секунда"
+
+#: GameEngine.py:93
+msgid "This will display your FPS on some screens, and if running from sources will print your FPS there every two seconds."
+msgstr "Ова ќе се прикаже вашето FPS на некои екрани, и ако се протега од извори ќе печати ја вашата FPS има на секои две секунди."
+
+#: GameEngine.py:94
+msgid "Fret Glow Color"
+msgstr "Секирај вжарена боја"
+
+#: GameEngine.py:94
+msgid "Same as Fret"
+msgstr "Исто како Fret"
+
+#: GameEngine.py:94
+msgid "Actual Color"
+msgstr "Крај на боја"
+
+#: GameEngine.py:94
+msgid "Sets whether or not the fret glow image will be color-masked with the theme-determined fret color."
+msgstr "Поставува дали или не секирај сјај сликата ќе биде боја-маскирани со темата определена секирај боја."
+
+#: GameEngine.py:96
+msgid "Use Shaders"
+msgstr "Користете шејдерите"
+
+#: GameEngine.py:96
+msgid "Enable or disable the use of shaders. Shaders are visual effects. This must be set to 'Yes' to use the settings below. 'By Theme' leaves it to the theme creator."
+msgstr "Овозможи или оневозможи употребата на шејдерите. Шејдерите се визуелни ефекти. Ова мора да се намести на 'Да' за да ги користат поставувањата подолу. \"Со Тема 'остава тоа со темата творец."
+
+#: GameEngine.py:97
+#: GameEngine.py:98
+#: GameEngine.py:99
+#: GameEngine.py:101
+#: GameEngine.py:102
+#: GameEngine.py:118
+#: GameEngine.py:322
+#: GameEngine.py:351
+msgid "Disabled"
+msgstr "Исклучено"
+
+#: GameEngine.py:97
+msgid "Flashing"
+msgstr "Трепка"
+
+#: GameEngine.py:97
+#: GameEngine.py:98
+#: GameEngine.py:99
+#: GameEngine.py:100
+#: GameEngine.py:101
+#: GameEngine.py:102
+#: GameEngine.py:190
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:213
+#: GameEngine.py:228
+#: GameEngine.py:232
+#: GameEngine.py:291
+#: GameEngine.py:298
+msgid "By Theme"
+msgstr "Со Тема"
+
+#: GameEngine.py:97
+msgid "A bright flash along your fretboard reflecting the notes you've hit. 'By Theme' leaves it to the theme creator."
+msgstr "Тој е светол блиц заедно со вашите вратот одразува белешки сте хит. \"Со Тема 'остава тоа со темата творец."
+
+#: GameEngine.py:98
+msgid "Stage"
+msgstr "Фаза"
+
+#: GameEngine.py:98
+msgid "EQ Lightning"
+msgstr "EQ Молња"
+
+#: GameEngine.py:98
+msgid "A visual waveform centered above you fretboard. 'By Theme' leaves it to the theme creator."
+msgstr "А визуелна waveform центриран над тебе вратот. \"Со Тема 'остава тоа со темата творец."
+
+#: GameEngine.py:99
+msgid "Solo and SP"
+msgstr "Зоки и СП"
+
+#: GameEngine.py:99
+#: GameEngine.py:100
+msgid "Lightnings"
+msgstr "Молњи"
+
+#: GameEngine.py:99
+msgid "Enables lightning along the side of your fretboard when you are in solos or use SP. 'By Theme' leaves it to the theme creator."
+msgstr "Овозможува молња покрај од страна на вашиот вратот кога сте во сола или употреба на СП. \"Со Тема 'остава тоа со темата творец."
+
+#: GameEngine.py:100
+msgid "Tails"
+msgstr "Редиците"
+
+#: GameEngine.py:100
+msgid "Classic"
+msgstr "Класичните"
+
+#: GameEngine.py:100
+#: GameEngine.py:210
+#: GameEngine.py:298
+msgid "RB2"
+msgstr "RB2"
+
+#: GameEngine.py:100
+msgid "Sets the tail effect. Choose from classic tails, lightning, or RB2 style. 'By Theme' leaves it to the theme creator."
+msgstr "Поставува опашка ефект. Изберете од класичен опашки, молња, или RB2 стил. \"Со Тема 'остава тоа со темата творец."
+
+#: GameEngine.py:101
+msgid "Notes"
+msgstr "Белешки"
+
+#: GameEngine.py:101
+msgid "Metal"
+msgstr "Метал"
+
+#: GameEngine.py:101
+msgid "Gives your notes a metallic sheen. 'By Theme' leaves it to the theme creator."
+msgstr "Дава на Вашите белешки метален сјај. \"Со Тема 'остава тоа со темата творец."
+
+#: GameEngine.py:102
+#: GameEngine.py:298
+msgid "CDs"
+msgstr "ЦД-а"
+
+#: GameEngine.py:102
+msgid "White"
+msgstr "Бело"
+
+#: GameEngine.py:102
+msgid "Adds a soft lighting effect to CD labels in CD setlist mode."
+msgstr "Додава меки осветлување ефект на CD етикети во ЦД setlist режим."
+
+#: GameEngine.py:105
+msgid "Disable Screensaver"
+msgstr "Оневозможи чувар на екранот"
+
+#: GameEngine.py:105
+msgid "Set whether the game disables the screensaver while it is running.  Does not necessarily work on all platforms."
+msgstr "Постави дали играта ја исклучува екранот, додека е трчање. Не мора да работат на сите платформи."
+
+#: GameEngine.py:107
+msgid "Animated Star Notes"
+msgstr "Анимирани Star белешки"
+
+#: GameEngine.py:107
+msgid "This will animate star notes as they come towards you, if that is included in your theme. This can have a hit on performance. (This is affected by the 'Performance' quickset)"
+msgstr "Ова ќе анимира ѕвезда белешки како доаѓаат кон тебе, ако тоа е вклучено во Вашите тема. Ова може да има хит врз перформансите. (Ова е под влијание од страна на 'жив плет ефикасноста')"
+
+#: GameEngine.py:108
+msgid "Sample Frequency"
+msgstr "Пример Фреквенција"
+
+#: GameEngine.py:108
+msgid "Set the sample frequency for the audio in the game. You almost certainly want to leave this at 44100 Hz unless you really know what you're doing."
+msgstr "Поставете на мострата фреквенција за аудио во играта. Можете речиси сигурно сакаат да ја напуштат оваа на 44100 Hz, освен ако навистина знаете што правите."
+
+#: GameEngine.py:109
+msgid "Sample Bits"
+msgstr "Мострата со битови"
+
+#: GameEngine.py:109
+msgid "Set the sample bits for the audio in the game. You almost certainly want to leave this at 16-bit unless you really know what you're doing."
+msgstr "Поставете на мострата битови за аудио во играта. Можете речиси сигурно сакаат да ја напуштат оваа во 16-битна освен ако навистина знаете што правите."
+
+#: GameEngine.py:112
+msgid "Upload Highscores"
+msgstr "Додадени Најдобрирезултати"
+
+#: GameEngine.py:112
+msgid "If enabled, your high scores will be sent to the server to rank you against other players."
+msgstr "Ако е овозможено, вашата високи оценки ќе се испраќаат до серверот за да ви ранг против други играчи."
+
+#: GameEngine.py:118
+msgid "Song Queue System"
+msgstr "Песна дното систем"
+
+#: GameEngine.py:118
+#: GameEngine.py:188
+msgid "Automatic"
+msgstr "Автоматско"
+
+#: GameEngine.py:118
+msgid "Enables or disables creating multi-song sets in the setlist."
+msgstr "Овозможува или оневозможува создавање на мулти-песна поставува во setlist."
+
+#: GameEngine.py:119
+msgid "Song Queue Order"
+msgstr "Песна дното Побарувања"
+
+#: GameEngine.py:119
+#: GameEngine.py:167
+#: GameEngine.py:168
+msgid "In Order"
+msgstr "Во ред"
+
+#: GameEngine.py:119
+#: GameEngine.py:167
+#: GameEngine.py:168
+#: GameEngine.py:169
+#: GameEngine.py:676
+msgid "Random"
+msgstr "Случаен избор"
+
+#: GameEngine.py:119
+msgid "Sets the order in which songs added to the queue will be played."
+msgstr "Утврдува редоследот по кој песни додадена на дното ќе се одигра."
+
+#: GameEngine.py:120
+msgid "Song Queue Parts"
+msgstr "Песна дното Делови"
+
+#: GameEngine.py:120
+msgid "Closest Available"
+msgstr "Најблиску Достапно"
+
+#: GameEngine.py:120
+#: GameEngine.py:121
+msgid "Always Ask"
+msgstr "Секогашпрашувај"
+
+#: GameEngine.py:120
+msgid "Choose the behavior when the chosen part is not available in all queued songs. 'Closest Available' will match lead parts to guitar and bass to rhythm, or guitar if no rhythm parts are available. 'Always Ask' brings up the part select screen."
+msgstr "Изберете однесување кога избраниот дел не е достапен во сите чекаат на ред песни. 'Најблиску Достапно \"ќе се совпадне доведе делови за гитара и бас со ритамот, или гитара ако не ритам делови се на располагање. 'Секогаш прашуваат' го покренува дел одберете екран."
+
+#: GameEngine.py:121
+msgid "Song Queue Difficulty"
+msgstr "Песна дното Ниво на тешкотија"
+
+#: GameEngine.py:121
+msgid "Closest Down"
+msgstr "Најблиску Down"
+
+#: GameEngine.py:121
+msgid "Closest Up"
+msgstr "Најблиску Up"
+
+#: GameEngine.py:121
+msgid "Choose the behavior when the chosen difficulty is not available in all queued songs. 'Closest Up' will prefer a harder difficulty, while 'Closest Down' will prefer an easier one. 'Always Ask' brings up the difficulty select screen."
+msgstr "Изберете однесување кога одбраната тешкотии не е достапна во сите чекаат на ред песни. 'Најблиску Up' ќе претпочита потешко тешкотии, додека пак 'надолу најблиски \", ќе претпочитаат полесно еден. 'Секогаш прашуваат' носи до тешкотијата одберете екран."
+
+#: GameEngine.py:134
+msgid "Buffer Size"
+msgstr "Големина на бафер"
+
+#: GameEngine.py:134
+msgid "Set your audio buffer size. Higher values will reduce audio popping, but increase game lag. Only change this if you are having audio quality issues, and use the lowest value that sounds right."
+msgstr "Поставете ги вашите аудио тампон големина. Повисоки вредности ќе го намали аудио пукање, но се зголеми игра заостануваат. Само промени го ова ако имаш аудио квалитет прашања, и употреба на најниската вредност тоа звучи десно."
+
+#: GameEngine.py:135
+msgid "A/V Delay"
+msgstr "A / V губеа"
+
+#: GameEngine.py:135
+msgid "Set your A/V delay. Unfortunately for now you have to use trial and error."
+msgstr "Поставете ги вашите A / V одлагање. За жал сега за сега ќе треба да ја користите обиди и грешки."
+
+#: GameEngine.py:136
+msgid "Screw-Up Sounds"
+msgstr "Завртката-Up Звуци"
+
+#: GameEngine.py:136
+#: GameEngine.py:152
+#: GameEngine.py:156
+#: GameEngine.py:158
+#: GameEngine.py:159
+#: GameEngine.py:167
+#: GameEngine.py:168
+#: GameEngine.py:170
+#: GameEngine.py:171
+#: GameEngine.py:173
+#: GameEngine.py:179
+#: GameEngine.py:187
+#: GameEngine.py:189
+#: GameEngine.py:193
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:200
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:206
+#: GameEngine.py:207
+#: GameEngine.py:208
+#: GameEngine.py:213
+#: GameEngine.py:215
+#: GameEngine.py:218
+#: GameEngine.py:220
+#: GameEngine.py:222
+#: GameEngine.py:223
+#: GameEngine.py:227
+#: GameEngine.py:229
+#: GameEngine.py:231
+#: GameEngine.py:232
+#: GameEngine.py:239
+#: GameEngine.py:248
+#: GameEngine.py:249
+#: GameEngine.py:251
+#: GameEngine.py:274
+#: GameEngine.py:278
+#: GameEngine.py:279
+#: GameEngine.py:280
+#: GameEngine.py:281
+#: GameEngine.py:282
+#: GameEngine.py:283
+#: GameEngine.py:284
+#: GameEngine.py:285
+#: GameEngine.py:286
+#: GameEngine.py:289
+#: GameEngine.py:290
+#: GameEngine.py:291
+#: GameEngine.py:293
+#: GameEngine.py:294
+#: GameEngine.py:303
+#: GameEngine.py:326
+#: GameEngine.py:330
+#: GameEngine.py:334
+#: GameEngine.py:338
+#: GameEngine.py:405
+msgid "Off"
+msgstr "Исклучено"
+
+#: GameEngine.py:136
+msgid "Quiet"
+msgstr "Тивко"
+
+#: GameEngine.py:136
+msgid "Loud"
+msgstr "Гласно"
+
+#: GameEngine.py:136
+msgid "Painful"
+msgstr "Болниот"
+
+#: GameEngine.py:136
+msgid "How loud should the sound of your screwing up be? Very."
+msgstr "Како гласно треба да се звукот на вашиот нарезници до биде? Многу."
+
+#: GameEngine.py:140
+msgid "Active Track Volume"
+msgstr "Активни песна Година"
+
+#: GameEngine.py:140
+msgid "Volume of the parts you are playing."
+msgstr "Волуменот на делови играте."
+
+#: GameEngine.py:141
+msgid "Background Volume"
+msgstr "Позадина Година"
+
+#: GameEngine.py:141
+msgid "Volume of the parts you are not playing."
+msgstr "Волуменот на делови не се повеќе се игра."
+
+#: GameEngine.py:144
+msgid "Process Priority"
+msgstr "Процесот Приоритет"
+
+#: GameEngine.py:144
+msgid "Idle"
+msgstr "Неактивен"
+
+#: GameEngine.py:144
+msgid "Low"
+msgstr "Ниско"
+
+#: GameEngine.py:144
+#: GameEngine.py:157
+#: GameEngine.py:179
+#: GameEngine.py:299
+#: GameResultsScene.py:276
+msgid "Normal"
+msgstr "Нормален"
+
+#: GameEngine.py:144
+msgid "Above Normal"
+msgstr "Над Нормален"
+
+#: GameEngine.py:144
+msgid "High"
+msgstr "Високо"
+
+#: GameEngine.py:144
+msgid "Realtime"
+msgstr "Во реално време"
+
+#: GameEngine.py:144
+msgid "Change this to increase the priority of the FoFiX process. Don't change this unless you know what you're doing. DO NOT set this to Realtime. Ever."
+msgstr "Промените оваа да се зголеми приоритет на процесот FoFiX. Не го менувајте ова, освен ако знаеш што правиш. НЕ собата на оваа реално време. Века."
+
+#: GameEngine.py:145
+msgid "Restrict to First Core (Win32 Only)"
+msgstr "Ограничи да Прво Core (Win32 Само)"
+
+#: GameEngine.py:145
+msgid "Choose whether to restrict the game to running on only the first processor core on the system. Only has an effect under Windows."
+msgstr "Избере дали да се ограничи игра да трча по само првиот процесор јадрото на системот. Само има ефект под Windows."
+
+#: GameEngine.py:146
+msgid "Use Psyco"
+msgstr "Користете Psyco"
+
+#: GameEngine.py:146
+msgid "Enable or disable the Psyco specializing compiler. Tests have indicated the game runs faster with it off."
+msgstr "Овозможи или оневозможи Psyco специјализирана компајлерот. Тестови покажаа играта тече побрзо со тоа и исклучување."
+
+#: GameEngine.py:147
+msgid "Missed Notes"
+msgstr "Пропуштени белешки"
+
+#: GameEngine.py:147
+msgid "Disappear"
+msgstr "Исчезнувам"
+
+#: GameEngine.py:147
+msgid "Keep on going"
+msgstr "Постојано ќе"
+
+#: GameEngine.py:147
+msgid "When you miss a note, this sets whether they disappear from the fretboard or scroll off the bottom of the screen."
+msgstr "Кога ќе го пропуштите некоја белешка, овој утврдува дали тие исчезнуваат од вратот или движете го на дното од екранот."
+
+#: GameEngine.py:150
+msgid "Performance"
+msgstr "Ефикасноста на"
+
+#: GameEngine.py:150
+#: GameEngine.py:151
+msgid "Manual"
+msgstr "Упатство"
+
+#: GameEngine.py:150
+msgid "Pure Speed"
+msgstr "Чиста брзина"
+
+#: GameEngine.py:150
+msgid "Fast"
+msgstr "Брз"
+
+#: GameEngine.py:150
+msgid "Quality (Recommended)"
+msgstr "Квалитет (препорачано)"
+
+#: GameEngine.py:150
+msgid "Max Quality (Slow)"
+msgstr "Макс квалитет (slow)"
+
+#: GameEngine.py:150
+msgid "Set the performance of your game. You can fine-tune in the advanced menus."
+msgstr "Поставување на извршувањето на својата игра. Можете да ги ситно-мелодија во напредните менија."
+
+#: GameEngine.py:151
+msgid "Gameplay"
+msgstr "Игра"
+
+#: GameEngine.py:151
+msgid "Theme-Based"
+msgstr "Тема-Врз основа"
+
+#: GameEngine.py:151
+msgid "MIDI Based"
+msgstr "MIDI Врз основа"
+
+#: GameEngine.py:151
+msgid "RB Style"
+msgstr "RB Стил"
+
+#: GameEngine.py:151
+msgid "GH Style"
+msgstr "GH Стил"
+
+#: GameEngine.py:151
+msgid "WT Style"
+msgstr "WT Стил"
+
+#: GameEngine.py:151
+msgid "Sets how the game 'feels' to play. Theme-Based lets the theme creator decide. MIDI Based lets the fretter decide."
+msgstr "Поставува како играта \"чувствува\" да се игра. Тема-Врз основа овозможува на тема творец одлучи. MIDI Врз основа овозможува на fretter одлучи."
+
+#: GameEngine.py:152
+msgid "Pause on Loss of Focus"
+msgstr "Пауза на Губење на Фокус"
+
+#: GameEngine.py:152
+#: GameEngine.py:156
+#: GameEngine.py:158
+#: GameEngine.py:170
+#: GameEngine.py:173
+#: GameEngine.py:187
+#: GameEngine.py:189
+#: GameEngine.py:193
+#: GameEngine.py:200
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:206
+#: GameEngine.py:207
+#: GameEngine.py:213
+#: GameEngine.py:218
+#: GameEngine.py:220
+#: GameEngine.py:222
+#: GameEngine.py:223
+#: GameEngine.py:227
+#: GameEngine.py:232
+#: GameEngine.py:239
+#: GameEngine.py:248
+#: GameEngine.py:249
+#: GameEngine.py:251
+#: GameEngine.py:274
+#: GameEngine.py:278
+#: GameEngine.py:279
+#: GameEngine.py:280
+#: GameEngine.py:281
+#: GameEngine.py:282
+#: GameEngine.py:283
+#: GameEngine.py:284
+#: GameEngine.py:285
+#: GameEngine.py:286
+#: GameEngine.py:289
+#: GameEngine.py:290
+#: GameEngine.py:291
+#: GameEngine.py:293
+#: GameEngine.py:303
+#: GameEngine.py:326
+#: GameEngine.py:330
+#: GameEngine.py:334
+#: GameEngine.py:338
+#: GameEngine.py:405
+msgid "On"
+msgstr "На"
+
+#: GameEngine.py:152
+msgid "Set whether the game automatically pauses when another application steals input focus."
+msgstr "Постави дали играта автоматски паузи кога друга апликација краде влез фокус."
+
+#: GameEngine.py:155
+msgid "HO/PO System"
+msgstr "ХО / PO систем"
+
+#: GameEngine.py:155
+#: GameResultsScene.py:252
+msgid "RF-Mod"
+msgstr "RF-mod"
+
+#: GameEngine.py:155
+#: GameResultsScene.py:254
+msgid "GH2 Strict"
+msgstr "GH2 Строга"
+
+#: GameEngine.py:155
+#: GameEngine.py:319
+#: GameResultsScene.py:256
+msgid "GH2"
+msgstr "GH2"
+
+#: GameEngine.py:155
+msgid "Set the system used for marking hammer-ons and pull-offs (HO/PO). You can either disable them altogether, use the RF-Mod method, or the GH2 system."
+msgstr "Поставување на систем кој се користи за означување чекан-ons и pull-off (ХО / Po). Можете или да ги исклучите целосно, користете RF-Mod метод, или GH2 систем."
+
+#: GameEngine.py:156
+msgid "GH2 Sloppy Mode"
+msgstr "GH2 невешт Режим"
+
+#: GameEngine.py:156
+msgid "Sloppy mode allows you to hold higher frets while tapping lower frets during HO/PO sections. This will lower your score by 25%."
+msgstr "Невешт режим Ви овозможува да се одржи високото frets додека прислушување пониски frets за време на ХО / PO секции. Ова ќе го намалат вашиот резултат од 25%."
+
+#: GameEngine.py:157
+msgid "HO/PO Frequency"
+msgstr "ХО / PO Фреквенција"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:272
+msgid "Least"
+msgstr "Најмалку"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:274
+msgid "Less"
+msgstr "Помалку"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:278
+msgid "More"
+msgstr "Повеќе"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:280
+msgid "Even More"
+msgstr ""
+
+#: GameEngine.py:157
+#: GameResultsScene.py:282
+msgid "Most"
+msgstr "Повеќето"
+
+#: GameEngine.py:157
+msgid "Sets the window used to determine HO/PO notes. Increasing the frequency will reduce your score, and lower settings will give you a tiny bonus."
+msgstr "Прозорецот користат за одредување на ХО / PO белешки. Зголемување на фреквенцијата ќе ги намали резултатот, и пониски подесувања ќе ви даде мал бонус."
+
+#: GameEngine.py:158
+msgid "HO/PO After Chord"
+msgstr "ХО / PO По Хорда"
+
+#: GameEngine.py:158
+msgid "This will determine whether or not HO/PO notes can follow a chord. This only applies to the GH2 systems."
+msgstr "Ова ќе се утврди дали или не ХО / PO белешки можат да следат акорд. Ова се однесува само на GH2 системи."
+
+#: GameEngine.py:159
+msgid "Show Hit Accuracy"
+msgstr "Прикажи Хит Точност"
+
+#: GameEngine.py:159
+msgid "Numeric"
+msgstr "Нумеричка"
+
+#: GameEngine.py:159
+msgid "Friendly"
+msgstr "Пријателски"
+
+#: GameEngine.py:159
+msgid "Both"
+msgstr "Двете"
+
+#: GameEngine.py:159
+msgid "Shows how accurate your note hits are. Numeric will give a time in milliseconds, and Friendly will use English to inform you. Both will show, well, both. Useful for determining your A/V delay."
+msgstr "Покажува колку точни вашите белешка хитови се. Нумеричка ќе им даде време во милисекунди, и пријателски ќе го користат англискиот јазик да ве известам. И двајцата ќе покаже, добро, и двете. Корисни за одредување на вашите A / V одлагање."
+
+#: GameEngine.py:160
+msgid "Hit Accuracy Pos"
+msgstr "Хит Точност Поз"
+
+#: GameEngine.py:160
+#: GameEngine.py:212
+msgid "Center"
+msgstr "Центар"
+
+#: GameEngine.py:160
+msgid "Top-Right Corner"
+msgstr "Нај-десен агол"
+
+#: GameEngine.py:160
+msgid "Bottom-Left Corner"
+msgstr "Долниот-лев агол"
+
+#: GameEngine.py:160
+msgid "Center-Bottom"
+msgstr "Центар-bottom"
+
+#: GameEngine.py:160
+msgid "Sets where the accuracy information will be displayed, if enabled."
+msgstr "Поставува каде што точноста информации ќе бидат прикажани, доколку е овозможено."
+
+#: GameEngine.py:162
+msgid "Max Players"
+msgstr "Макс играчи"
+
+#: GameEngine.py:162
+msgid "Set the maximum number of players in Co-Op modes. Be aware that higher numbers are associated with a significant drop in performance."
+msgstr "Поставување на максималниот број на играчи во режими Co-op. Бидете свесни дека повисоките бројки се поврзани со значителен пад во перформансите."
+
+#: GameEngine.py:165
+msgid "Slideshow Delay"
+msgstr "Слајдшоу губеа"
+
+#: GameEngine.py:165
+msgid "Sets how long, in milliseconds, to wait between each frame in a stage slideshow."
+msgstr "Поставува колку долго, во милисекунди, да се чека меѓу секоја рамка во фаза слајдшоу."
+
+#: GameEngine.py:166
+msgid "Animation Delay"
+msgstr "Анимација губеа"
+
+#: GameEngine.py:166
+msgid "Sets how long, in milliseconds, to wait between each frame in a stage animation."
+msgstr "Поставува колку долго, во милисекунди, да се чека меѓу секоја рамка во фаза анимација."
+
+#: GameEngine.py:167
+msgid "Stage Slideshow"
+msgstr "Фаза слајдшоу"
+
+#: GameEngine.py:167
+#: GameEngine.py:168
+msgid "BackNForth"
+msgstr "BackNForth"
+
+#: GameEngine.py:167
+msgid "Sets the method used to rotate frames in a stage slideshow."
+msgstr "Поставува метод се користи за да ротирате рамки во фаза слајдшоу."
+
+#: GameEngine.py:168
+msgid "Stage Animation"
+msgstr "Фаза цртани"
+
+#: GameEngine.py:168
+msgid "Sets the method used to rotate frames in a stage animation."
+msgstr "Поставува метод се користи за да ротирате рамки во фаза анимација."
+
+#: GameEngine.py:169
+msgid "Stage Selection"
+msgstr "Фаза селекција"
+
+#: GameEngine.py:169
+msgid "Default"
+msgstr "Вообичаената вредност"
+
+#: GameEngine.py:169
+msgid "Blank"
+msgstr "Празно"
+
+#: GameEngine.py:169
+msgid "Video"
+msgstr "Видео"
+
+#: GameEngine.py:169
+msgid "Set the background for your stage. Default will use the default background, and Blank puts you in a dark room. Probably a lot like the one you're in now."
+msgstr "Поставите позадина за вашиот фаза. Стандардно ќе ја користи стандардната позадина, и Слепа ве става во темна соба. Веројатно многу слични една сте во моментов."
+
+#: GameEngine.py:170
+msgid "Song Stage"
+msgstr "Песна сцена"
+
+#: GameEngine.py:170
+msgid "Fretters can include a stage to be used with their songs. If this is enabled, you can see it."
+msgstr "Fretters може да вклучува и фаза треба да се користат со нивните песни. Ако е овозможена оваа опција, можете да го видите."
+
+#: GameEngine.py:171
+msgid "Script Lyric Display"
+msgstr "Стихови од песнате од сценариото Покажи"
+
+#: GameEngine.py:171
+msgid "By Song"
+msgstr "Со песна"
+
+#: GameEngine.py:171
+#: GameEngine.py:190
+#: GameEngine.py:201
+#: GameEngine.py:202
+#: GameEngine.py:214
+#: GameEngine.py:228
+#: GameEngine.py:269
+#: GameEngine.py:297
+msgid "Always"
+msgstr "Секогаш"
+
+#: GameEngine.py:171
+msgid "Dual Lyric Prevention"
+msgstr "Стихови од песнате од двојна превенција"
+
+#: GameEngine.py:171
+msgid "Sets whether lyrics from a script.txt file are displayed. 'By Song' lets the fretter decide. 'Always' always displays script lyrics, if available, and 'Dual Lyric Prevention' will disable script lyrics if there are MIDI lyrics. (This is affected by the 'Performance' quickset)"
+msgstr "Поставува дали стиховите од script.txt датотека се покажува на екранот. \"Со песната\" им овозможува на fretter одлучи. 'Секогаш' секогаш покажува скрипта стихови, ако е достапна, и 'ќе се оневозможи Двојно Стихови од песнате од превенција' скрипта стихови ако постојат MIDI стихови. (Ова е под влијание од страна на 'жив плет ефикасноста')"
+
+#: GameEngine.py:172
+msgid "Frets Under Notes"
+msgstr "Frets Под белешки"
+
+#: GameEngine.py:172
+msgid "Sets whether the notes slide under the frets or over them."
+msgstr "Поставува дали забелешките слајд под frets или над нив."
+
+#: GameEngine.py:173
+msgid "Drum Navigation"
+msgstr "Drum Навигација"
+
+#: GameEngine.py:173
+msgid "If enabled, drum keys will be allowed to navigate menus. If not, only guitar keys and keyboard master keys will."
+msgstr "Ако е овозможено, тапан клучеви ќе им биде дозволено да се движите менија. Ако не, само гитара копчиња и тастатура господар клучеви ќе."
+
+#: GameEngine.py:175
+msgid "Ignore Open Strums"
+msgstr "Игнорирај Отвори огласува"
+
+#: GameEngine.py:175
+msgid "If enabled, strumming without holding any frets down won't be counted."
+msgstr "Ако е овозможено, strumming без холдинг кој било frets долу нема да се изброи."
+
+#: GameEngine.py:176
+msgid "Static Strings"
+msgstr "Статични Стрингови"
+
+#: GameEngine.py:176
+msgid "If enabled, the 'strings' on your fretboard will not scroll."
+msgstr "Ако е овозможено, 'жици \"на Вашиот вратот не ќе лизга."
+
+#: GameEngine.py:177
+msgid "Effects Save SP"
+msgstr "Ефекти Зачувај СП"
+
+#: GameEngine.py:177
+msgid "If enabled, whammying while in SP will slow down its decrease. And your score will be handicapped by 5%."
+msgstr "Ако е овозможено, whammying додека во СП ќе го забави нејзиното намалување. И вашиот резултат ќе биде хендикеп за 5%."
+
+#: GameEngine.py:178
+msgid "Show HO/PO Indicator"
+msgstr "Прикажи ХО / PO Индикатор"
+
+#: GameEngine.py:178
+msgid "If enabled, 'HOPO' will appear in game. When there are HOPO notes active, it will turn white."
+msgstr "Ако е овозможено, 'HOPO' ќе се појави во играта. Кога има HOPO белешки активен, тој ќе се претвори во бела боја."
+
+#: GameEngine.py:179
+msgid "Use Tiers in Quickplay"
+msgstr "Користете бухта во Quickplay"
+
+#: GameEngine.py:179
+msgid "Sorting"
+msgstr "Сортирањето"
+
+#: GameEngine.py:179
+msgid "Sets whether to mark tiers in quickplay mode. 'Normal' will use the career tiers and 'Sorting' will insert tiers based on the current sort order."
+msgstr "Поставува дали да се одбележи бухта во quickplay режим. \"Нормална\" ќе ја користи кариерата бухта и 'Сортирањето \"ќе ја внесе групи врз основа на сегашните вид ред."
+
+#: GameEngine.py:180
+msgid "Star Updates"
+msgstr "Новости ѕвезда"
+
+#: GameEngine.py:180
+msgid "On Hit"
+msgstr "На Хит"
+
+#: GameEngine.py:180
+msgid "Score Change"
+msgstr "Поени Смени"
+
+#: GameEngine.py:180
+msgid "If set to 'On Hit', your star score will only be checked when you hit a note. If set to 'Score Change', your star score will constantly update. (This is affected by the 'Performance' quickset)"
+msgstr "Ако е поставено на \"На Хит ', вашите ѕвезда резултат само што ќе се проверува кога ќе удри некоја белешка. Ако е поставено на \"рејтинг Промена ', вашите ѕвезда резултат постојано ќе ги ажурира. (Ова е под влијание од страна на 'жив плет ефикасноста')"
+
+#: GameEngine.py:181
+msgid "Partial Star Continuous Fillup"
+msgstr "Делумно Star Континуирано Fillup"
+
+#: GameEngine.py:181
+msgid "Sets whether your partial stars will fill up gradually ('Yes') or in chunks. (This is affected by the 'Performance' quickset)"
+msgstr "Поставува дали вашата делумно ѕвезди ќе го пополни постепено (\"Да\") или во парчиња. (Ова е под влијание од страна на 'жив плет ефикасноста')"
+
+#: GameEngine.py:182
+msgid "Countdown on Resume"
+msgstr "Одбројувањето на Resume"
+
+#: GameEngine.py:182
+msgid "If enabled, there will be a three second countdown when you unpause."
+msgstr "Ако е овозможено, ќе има три вториот одбројувањето кога ќе Избршување повторно."
+
+#: GameEngine.py:184
+msgid "Script Lyric Position"
+msgstr "Сценарио Стихови од песнате од функцијата"
+
+#: GameEngine.py:184
+msgid "Bottom"
+msgstr "Дното"
+
+#: GameEngine.py:184
+msgid "Top"
+msgstr "Top"
+
+#: GameEngine.py:184
+msgid "Display script lyrics at either the bottom or top of the screen."
+msgstr "Покажи скрипта стихови во или на дното или на врвот од екранот."
+
+#: GameEngine.py:187
+msgid "Starpower Claps"
+msgstr "Starpower Claps"
+
+#: GameEngine.py:187
+msgid "Enables a clapping sound effect to be used on the beats in Starpower."
+msgstr "Овозможува плескање звук ефект треба да се користи за чука во Starpower."
+
+#: GameEngine.py:188
+msgid "Song Previews"
+msgstr "Песна Извадоци"
+
+#: GameEngine.py:188
+msgid "Yellow Fret (#3)"
+msgstr "Жолта Fret (# 3)"
+
+#: GameEngine.py:188
+msgid "If set to 'Automatic', songs will automatically start previewing when you select them. Otherwise you must press the third fret."
+msgstr "Ако е поставено на \"Автоматско ', песни автоматски ќе започне преглед на кога ќе ги изберете. Инаку мора да притиснете на третиот секирај."
+
+#: GameEngine.py:189
+msgid "RB SP Neck Glow"
+msgstr "RB СП врат Glow"
+
+#: GameEngine.py:189
+msgid "Sets a neck glow effect during SP in RB-type themes."
+msgstr "Поставува вратот сјај ефект за време на СП во RB-тип на теми."
+
+#: GameEngine.py:190
+msgid "SP Refill Mode"
+msgstr "СП Рефил Режим"
+
+#: GameEngine.py:190
+msgid "By MIDI Type"
+msgstr "Од MIDI Вид"
+
+#: GameEngine.py:190
+msgid "Sets whether you can earn more starpower while using it. In 'By MIDI Type', only MIDIs that mark RB-style sections will use this. (This is set by the 'Gameplay' quickset)"
+msgstr "Поставува дали можете да заработите повеќе starpower додека го користите. Во \"Со MIDI Вид ', само MIDIs што ја означуваат RB-стил делници ќе го користи ова. (Ова е наместено од страна на 'жив плет Gameplay')"
+
+#: GameEngine.py:193
+msgid "Effects Debug"
+msgstr "Ефекти грешки"
+
+#: GameEngine.py:193
+msgid "If enabled, will show on-screen the raw data of your killswitch/whammy."
+msgstr "Ако е овозможено, ќе се покаже на екранот на необработените податоци од вашиот killswitch / уроки."
+
+#: GameEngine.py:195
+msgid "Drum SP"
+msgstr "Drum СП"
+
+#: GameEngine.py:195
+msgid "Auto / Fills"
+msgstr "Автоматски / исполнува"
+
+#: GameEngine.py:195
+msgid "Manual / Fills"
+msgstr "Прирачник / исполнува"
+
+#: GameEngine.py:195
+msgid "Determines how drum starpower is activated when there are no drum fills. Auto will automatically activate when available, and Manual will wait for the 'Starpower' button to be pressed."
+msgstr "Одредува како тапан starpower се активира кога нема удари. Авто автоматски ќе го активирате, кога на располагање, и Прирачникот ќе чекаат на копчето 'Starpower', за да биде притиснато."
+
+#: GameEngine.py:196
+msgid "Large Drum Neck"
+msgstr "Голем Тапани врат"
+
+#: GameEngine.py:196
+msgid "If enabled, will show a larger neck when playing drums."
+msgstr "Ако е овозможено, ќе покаже поголем вратот, кога играте со тапани."
+
+#: GameEngine.py:197
+#: GameEngine.py:235
+msgid "Bass Groove Neck"
+msgstr "Бас Groove врат"
+
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:307
+msgid "Replace"
+msgstr "Заменете"
+
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:307
+msgid "Overlay"
+msgstr "Комбинирање"
+
+#: GameEngine.py:197
+msgid "Sets the style of the Bass Groove neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "Го поставува стилот на бас Groove вратот. \"Замени\" се заменува вратот со посебни вратот, додека \"Overlay\" за воспоставување на вратот над врвот."
+
+#: GameEngine.py:198
+msgid "Guitar Solo Neck"
+msgstr "Соло гитара врат"
+
+#: GameEngine.py:198
+msgid "Sets the style of the Guitar Solo neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "Го поставува стилот на гитара Соло вратот. \"Замени\" се заменува вратот со посебни вратот, додека \"Overlay\" за воспоставување на вратот над врвот."
+
+#: GameEngine.py:199
+msgid "Show Unused Events"
+msgstr "Прикажи неупотребени Настани"
+
+#: GameEngine.py:199
+msgid "If enabled, various MIDI events not used by the game will be shown on-screen."
+msgstr "Ако е овозможено, не различни МИДИ настани користат од страна на играта ќе бидат прикажани на екранот."
+
+#: GameEngine.py:200
+msgid "Kick Bass Sound"
+msgstr "Kick бас звук"
+
+#: GameEngine.py:200
+msgid "If enabled, you'll hear a kick bass sound when you use the kick pedal."
+msgstr "Ако е овозможено, ќе слушнете удар бас звук кога користите удар педал."
+
+#: GameEngine.py:201
+msgid "Show Lyrics in All Modes"
+msgstr "Прикажи коментари за оваа песна во сите видови"
+
+#: GameEngine.py:201
+#: GameEngine.py:202
+msgid "Single Player"
+msgstr "Едениграч"
+
+#: GameEngine.py:201
+msgid "Sets whether or not MIDI lyrics will be displayed in modes without a vocalist. 'Single Player' will only show lyrics when in Solo modes."
+msgstr "Поставува дали или не MIDI стихови ќе биде прикажан во режими без вокалист. \"Единствен играч само што ќе се појавуваат стихови кога во Соло режими."
+
+#: GameEngine.py:202
+msgid "Show MIDI Sections"
+msgstr "Прикажи MIDI Секции"
+
+#: GameEngine.py:202
+msgid "Sets whether or not to scroll the names of sections as marked in the MIDI files."
+msgstr "Поставува дали или не да дојдете имињата на деловите како што е означено во MIDI датотеки."
+
+#: GameEngine.py:203
+msgid "Key Conflicts"
+msgstr "Клучни Конфликти"
+
+#: GameEngine.py:203
+msgid "Don't check"
+msgstr "Не проверете"
+
+#: GameEngine.py:203
+msgid "Notify"
+msgstr "Извести"
+
+#: GameEngine.py:203
+msgid "Enforce"
+msgstr "Спроведуваат"
+
+#: GameEngine.py:203
+msgid "Sets how the game handles key conflicts. 'Don't check' doesn't check, but conflicts will affect play. 'Notify' will inform you, but allow you to continue, and 'Enforce' will not allow you to exit the menu until all key conflicts have been resolved."
+msgstr "Поставува како играта се справува со клучните конфликти. \"Не провериш\" не провериш, но конфликтите ќе влијае на играта. 'Соопштување' ќе ве информира, туку ќе ви овозможи да продолжи, и 'применете' не ќе ви овозможи да излезете од менито до сите клучни конфликти се решени."
+
+#: GameEngine.py:204
+msgid "Show In-Game Stats"
+msgstr "Прикажи од играта Статистика"
+
+#: GameEngine.py:204
+msgid "Sets whether or not to show detailed stats as you play. 'By Theme' leaves it to the theme creator."
+msgstr "Поставува дали или не да се покаже деталната статистика, како си играш. \"Со Тема 'остава тоа со темата творец."
+
+#: GameEngine.py:205
+msgid "Show Stars In-Game"
+msgstr "Прикажи ѕвезди во игра"
+
+#: GameEngine.py:205
+msgid "Sets whether or not to show your star score as you play. 'By Theme' leaves it to the theme creator."
+msgstr "Поставува дали или не да ја покажете Вашата ѕвезда резултат како што игра. \"Со Тема 'остава тоа со темата творец."
+
+#: GameEngine.py:206
+msgid "Show Partial Stars"
+msgstr "Прикажи делумно Ѕвезди"
+
+#: GameEngine.py:206
+msgid "Sets whether or not to show partial stars, if available"
+msgstr "Поставува дали или не да се покаже делумно ѕвезди, ако се достапни"
+
+#: GameEngine.py:207
+msgid "HO/PO Debug"
+msgstr "ХО / PO грешки"
+
+#: GameEngine.py:207
+msgid "If enabled, various log messages will be recorded regarding the HO/PO system. Please leave this disabled if submitting logs for bug reports unless you are certain it is necessary."
+msgstr "Ако е овозможено, различни пораки од дневникот ќе биде снимен во однос на ХО / PO систем. Ве молиме оставете го ова оневозможена ако поднесување на дневници за извештаи за грешки, освен ако сте сигурни дека е потребно."
+
+#: GameEngine.py:208
+msgid "Show Solo Stats"
+msgstr "Прикажи Соло статистика"
+
+#: GameEngine.py:208
+msgid "Percent"
+msgstr "Проценти"
+
+#: GameEngine.py:208
+msgid "Detail"
+msgstr "Детална"
+
+#: GameEngine.py:208
+msgid "Sets whether to show your solo results when you finish a solo. 'Percent' will only show the percentage, while 'Detail' includes additional information."
+msgstr "Поставува дали да покаже вашата соло резултати кога ќе завршите со соло. 'Процент' само ќе се покаже на процент, додека 'Детална \"вклучува и дополнителни информации."
+
+#: GameEngine.py:209
+msgid "Stat Decimal Places"
+msgstr "Stat децимални места"
+
+#: GameEngine.py:209
+msgid "Determines how many decimal places will be noted in displaying stats."
+msgstr "Одредува колку децимални места ќе бидат означени во прикажување на статистика."
+
+#: GameEngine.py:210
+msgid "Star Scoring Style"
+msgstr "Ѕвезда Бодување Стил"
+
+#: GameEngine.py:210
+msgid "Accuracy"
+msgstr "Точност"
+
+#: GameEngine.py:210
+msgid "GH"
+msgstr "GH"
+
+#: GameEngine.py:210
+msgid "RB"
+msgstr "RB"
+
+#: GameEngine.py:210
+msgid "RB+GH"
+msgstr "RB + GH"
+
+#: GameEngine.py:210
+msgid "Sets which system to use to calculate your star score."
+msgstr "Поставува кој систем да се користи за да се пресмета вашата ѕвезда резултат."
+
+#: GameEngine.py:211
+msgid "Career Mode Advance"
+msgstr "Режим на напредување во кариерата"
+
+#: GameEngine.py:211
+msgid "0 (Song Finish)"
+msgstr "0 (песна Заврши)"
+
+#: GameEngine.py:211
+msgid "1 Star"
+msgstr "1 ѕвезда"
+
+#: GameEngine.py:211
+msgid "2 Stars"
+msgstr "2 ѕвезди"
+
+#: GameEngine.py:211
+msgid "3 Stars"
+msgstr "3 ѕвезди"
+
+#: GameEngine.py:211
+msgid "4 Stars"
+msgstr "4 ѕвезди"
+
+#: GameEngine.py:211
+msgid "5 Stars"
+msgstr "5 ѕвезди"
+
+#: GameEngine.py:211
+msgid "6 (Gold Stars)"
+msgstr "6 (златни ѕвезди)"
+
+#: GameEngine.py:211
+msgid "7 (Full Combo)"
+msgstr "7 (Комплетна Combo)"
+
+#: GameEngine.py:211
+msgid "Determine how many stars are needed on a song before it is unlocked in career mode."
+msgstr "Се утврди како многу ѕвезди се потребни на една песна пред да се отклучи во кариерата на владата."
+
+#: GameEngine.py:212
+msgid "Solo Stat Positioning"
+msgstr "Соло Stat позиционирање"
+
+#: GameEngine.py:212
+#: GameEngine.py:319
+msgid "Rock Band"
+msgstr "Рок Бенд"
+
+#: GameEngine.py:212
+msgid "Sets where your solo result stats will be displayed."
+msgstr "Поставува каде се вашите соло резултат статистика ќе бидат прикажани."
+
+#: GameEngine.py:213
+msgid "Bass Groove"
+msgstr "Бас Groove"
+
+#: GameEngine.py:213
+msgid "By MIDI"
+msgstr "Од страна на MIDI"
+
+#: GameEngine.py:213
+msgid "Enable or disable bass groove (additional score multiplier for bass)"
+msgstr "Овозможи или Оневозможи бас жлебот (дополнителни резултат множител за бас)"
+
+#: GameEngine.py:214
+msgid "Drum Miss Penalty"
+msgstr "Drum Мис казна"
+
+#: GameEngine.py:214
+msgid "Song Start"
+msgstr "Песна Почеток"
+
+#: GameEngine.py:214
+msgid "First Note"
+msgstr "Првата белешка"
+
+#: GameEngine.py:214
+msgid "Determines when drum hits count as misses: When the song begins, after the first note, or always."
+msgstr "Утврдува кога тапанот хитови брои како промаши: Кога песната почнува, по првата белешка, или секогаш."
+
+#: GameEngine.py:215
+msgid "Time Display Format"
+msgstr "Време Покажи формат"
+
+#: GameEngine.py:215
+#: GameEngine.py:306
+msgid "Countdown"
+msgstr "Одбројувањето"
+
+#: GameEngine.py:215
+msgid "Elapsed"
+msgstr "Поминатото"
+
+#: GameEngine.py:215
+msgid "Sets whether the song time is displayed as time elapsed, time remaining, or not at all"
+msgstr "Поставува дали песната време е прикажана како поминатото време, преостанатото време, или воопшто не"
+
+#: GameEngine.py:216
+msgid "Show Theme Version Tag"
+msgstr "Прикажи Тема Верзија етикета"
+
+#: GameEngine.py:216
+msgid "Places the theme's version tag over menus and dialogs."
+msgstr "Места за печатење тагот на темата над менија и дијалози."
+
+#: GameEngine.py:217
+msgid "Menu Navigation"
+msgstr "Мени за навигација"
+
+#: GameEngine.py:217
+msgid "P1 Only"
+msgstr "P1 Само"
+
+#: GameEngine.py:217
+msgid "All Players"
+msgstr "Сите играчи"
+
+#: GameEngine.py:217
+msgid "Sets whether all players can navigate the menu, or only the controller set as Player 1 and the master keys."
+msgstr "Поставува дали сите играчи може да отидете на менито, или само контролер поставен како играч 1 и господар клучеви."
+
+#: GameEngine.py:218
+msgid "In-Game Font Shadow"
+msgstr "Во играта на фонт сенка"
+
+#: GameEngine.py:218
+msgid "Sets whether or not a shadowed font will be used, if available."
+msgstr "Поставува дали или не осенчени фонт ќе се користи, ако е достапно."
+
+#: GameEngine.py:219
+msgid "Mute Last Second"
+msgstr "Неми последната секунда"
+
+#: GameEngine.py:219
+msgid "Cuts the volume with one second remaining to prevent any pops when the song ends."
+msgstr "Намалување на јачината на звукот со една секунда останатите за да се спречи било кој се појавува кога песната завршува."
+
+#: GameEngine.py:220
+msgid "Results Cheer Loop"
+msgstr "Резултати Cheer јамка"
+
+#: GameEngine.py:220
+#: GameEngine.py:319
+#: GameEngine.py:399
+msgid "Theme"
+msgstr "Тема"
+
+#: GameEngine.py:220
+msgid "Sets whether the cheering sound heard on the result screen will loop. 'Theme' leaves it to the theme creator."
+msgstr "Поставува дали навива звук слушнав на резултат екранот ќе поминете. 'Тема' го остава на тема творец."
+
+#: GameEngine.py:221
+msgid "Cheer Loop Delay"
+msgstr "Расположи јамка губеа"
+
+#: GameEngine.py:221
+msgid "Sets the time, in milliseconds, to wait before playing the result cheer again (if looping is enabled)."
+msgstr "Го поставува времето во милисекунди, да се чека пред игра на резултат расположи повторно (доколку looping е овозможено)."
+
+#: GameEngine.py:222
+msgid "Miss Pauses Anim"
+msgstr "Мис Испраќа на анимирање на надимакот"
+
+#: GameEngine.py:222
+msgid "When enabled, missing a note will pause the stage animation."
+msgstr "Кога е овозможено, фали една нота ќе пауза на сцената анимација."
+
+#: GameEngine.py:223
+msgid "Song HO/PO Freq"
+msgstr "Песна ХО / PO Избор на настанот"
+
+#: GameEngine.py:223
+msgid "Sets whether or not to use the HO/PO Frequency setting determined by the fretter, if available."
+msgstr "Поставува дали или не да се користи ХО / PO Фреквенција на поставување одредува од страна на fretter, ако е достапно."
+
+#: GameEngine.py:225
+msgid "Mute Drum Track During Fills"
+msgstr "Глувиот тапан песна време исполнува"
+
+#: GameEngine.py:225
+msgid "Sets whether or not the drum track will be muted during drum fills (so you can hear yourself have at it!)"
+msgstr "Поставува дали или не на тапанот пат ќе бидат пригушени за време на удари (па можете да слушнете себеси се во неа!)"
+
+#: GameEngine.py:226
+msgid "Sustain Muting"
+msgstr "Одржи Muting"
+
+#: GameEngine.py:226
+msgid "Never Mute"
+msgstr "Никогаш не Заглушаване"
+
+#: GameEngine.py:226
+msgid "Very Early"
+msgstr "Многу рано"
+
+#: GameEngine.py:226
+msgid "Early"
+msgstr "Почетокот"
+
+#: GameEngine.py:226
+#: GameEngine.py:309
+#: GameResultsScene.py:293
+msgid "Standard"
+msgstr "Стандардна"
+
+#: GameEngine.py:226
+msgid "Always Mute"
+msgstr "Секогаш Заглушаване"
+
+#: GameEngine.py:226
+msgid "Sets the window used to determine whether or not to mute a dropped sustain note. 'Early' means it will only mute when you drop the sustain relatively early."
+msgstr "Прозорецот користи за да се утврди дали или не да се неми на опадна одржи белешка. \"Рани\" е тоа само ќе го неми кога го отфрлаш одржи релативно рано."
+
+#: GameEngine.py:227
+msgid "Show Solo Frame"
+msgstr "Прикажи Solo на рамка за"
+
+#: GameEngine.py:227
+msgid "Sets whether to show a frame around the solo stats, if available."
+msgstr "Поставува дали да покаже рамка околу соло статистика, ако е достапно."
+
+#: GameEngine.py:228
+msgid "Enable Guitar Solos"
+msgstr "Им овозможи на гитара Солос"
+
+#: GameEngine.py:228
+#: GameEngine.py:297
+msgid "Never"
+msgstr "Никогаш не"
+
+#: GameEngine.py:228
+msgid "MIDI Only"
+msgstr "Само MIDI"
+
+#: GameEngine.py:228
+msgid "Sets the logic used to mark solos. 'Always' will mark solos in sections if available. 'By Theme' leaves it to the theme creator. 'MIDI Only' only enables solos marked with the MIDI marker note."
+msgstr "Поставува логиката се користат да се одбележи сола. 'Секогаш \"ќе го одбележи сола во деловите ако е достапно. \"Со Тема 'остава тоа со темата творец. 'MIDI Само' само што им овозможува сола означени со маркер MIDI белешка."
+
+#: GameEngine.py:229
+msgid "SP Mode"
+msgstr "СП Режим"
+
+#: GameEngine.py:229
+#: GameEngine.py:319
+msgid "FoF"
+msgstr "FoF"
+
+#: GameEngine.py:229
+msgid "Auto MIDI"
+msgstr "Авто MIDI"
+
+#: GameEngine.py:229
+msgid "Sets the logic used to determine starpower phrases. 'FoF' will generate paths based on the number of notes. 'Auto MIDI' will use MIDI markers to determine the paths, and fall back on the FoF mode if none are available."
+msgstr "Поставува логиката се користат за да се утврди starpower фрази. 'FoF' ќе генерираат патеки врз основа на бројот на белешки. \"Авто MIDI\" ќе ја користи MIDI маркери за да се одреди патеки, и да падне повторно на владата FoF ако никој не се достапни."
+
+#: GameEngine.py:231
+msgid "Inc. Neck Mode"
+msgstr "АД врат Режим"
+
+#: GameEngine.py:231
+msgid "Start Only"
+msgstr "На проектот Само"
+
+#: GameEngine.py:231
+msgid "Start & End"
+msgstr "На проектот & Крај"
+
+#: GameEngine.py:231
+msgid "Sets how and whether to render incoming solo necks. 'Start Only' will scroll it in but not out, while 'Start & End' does both."
+msgstr "Поставува како и дали да се направат нови соло врат. 'Започни Само \"ќе ја дојдете во но не и надвор, додека' Започни со & Крај 'не и двете."
+
+#: GameEngine.py:232
+msgid "Big Rock Endings"
+msgstr "Big Rock Endings"
+
+#: GameEngine.py:232
+msgid "Enable or disable big rock endings. 'By Theme' leaves it to the theme creator."
+msgstr "Овозможи или оневозможи голема карпа завршетоци. \"Со Тема 'остава тоа со темата творец."
+
+#: GameEngine.py:233
+msgid "Main Neck"
+msgstr "Главната врата"
+
+#: GameEngine.py:233
+#, python-format
+msgid "Set the transparency of the main neck. 100% is fully visible."
+msgstr "Поставете на транспарентноста на главната вратот. 100% е целосно видлива."
+
+#: GameEngine.py:234
+msgid "Solo Neck"
+msgstr "Соло врат"
+
+#: GameEngine.py:234
+#, python-format
+msgid "Set the transparency of the solo neck. 100% is fully visible."
+msgstr "Поставете на транспарентноста на соло вратот. 100% е целосно видлива."
+
+#: GameEngine.py:235
+#, python-format
+msgid "Set the transparency of the bass groove neck. 100% is fully visible."
+msgstr "Поставете на транспарентноста на бас жлебот вратот. 100% е целосно видлива."
+
+#: GameEngine.py:236
+msgid "Fail Neck"
+msgstr "Не успеваат врат"
+
+#: GameEngine.py:236
+#, python-format
+msgid "Set the transparency of the failing neck. 100% is fully visible."
+msgstr "Поставете на транспарентноста на неуспехот вратот. 100% е целосно видлива."
+
+#: GameEngine.py:237
+msgid "Overlay Neck"
+msgstr "Комбинирање на врата"
+
+#: GameEngine.py:237
+#, python-format
+msgid "Set the transparency of neck overlays. 100% is fully visible."
+msgstr "Поставете на транспарентноста на вратот overlays. 100% е целосно видлива."
+
+#: GameEngine.py:238
+msgid "All Necks"
+msgstr "Сите вратовите"
+
+#: GameEngine.py:238
+#, python-format
+msgid "Set the master transparency of all necks. 100% is fully visible."
+msgstr "Постави господар транспарентноста на сите врат. 100% е целосно видлива."
+
+#: GameEngine.py:239
+msgid "Show Any Available Score"
+msgstr "Прикажи ги сите расположливи рејтинг"
+
+#: GameEngine.py:239
+msgid "When set to 'On', this will look for any available score on the currently selected instrument for setlist score display, if one is not available at the chosen difficulty."
+msgstr "Кога е поставен на 'On', ова ќе го барате сите расположливи резултат на тековно избраната инструмент за setlist резултат екранот, ако не е на располагање во одбраната тежина."
+
+#: GameEngine.py:241
+msgid "Scroll Delay"
+msgstr "Дојдете губеа"
+
+#: GameEngine.py:241
+msgid "Sets how long, in milliseconds, to wait before beginning to scroll."
+msgstr "Поставува колку долго, во милисекунди, да се чека пред почетокот на пергамент."
+
+#: GameEngine.py:242
+msgid "Scroll Rate"
+msgstr "Дојдете Оцени"
+
+#: GameEngine.py:242
+msgid "Sets how quickly menus will scroll."
+msgstr "Поставува колку брзо менија ќе лизга."
+
+#: GameEngine.py:245
+msgid "Use (notes-unedited.mid)"
+msgstr "Употреба (записи-unedited.mid)"
+
+#: GameEngine.py:245
+msgid "Sets whether to look for (and use) a 'notes-unedited.mid' before 'notes.mid'. There's no reason to change this."
+msgstr "Поставува дали да барате (и користи) 'белешки-unedited.mid' пред 'notes.mid \". , Нема причина да се промени тоа."
+
+#: GameEngine.py:246
+msgid "Show Fill Status"
+msgstr "Прикажи Пополнете Статус"
+
+#: GameEngine.py:246
+msgid "When enabled, whether or not you are in a drum fill/freestyle ending will be displayed in text on the screen."
+msgstr "Кога е овозможено, без разлика дали се наоѓате во барабан пополнете / слободен стил крај ќе биде прикажан во текстот на екранот."
+
+#: GameEngine.py:247
+msgid "Show BPM"
+msgstr "Прикажи BPM"
+
+#: GameEngine.py:247
+msgid "When enabled, the current song BPM will be shown on screen."
+msgstr "Кога е овозможено, тековната песна BPM ќе бидат прикажани на екранот."
+
+#: GameEngine.py:248
+msgid "New BPM Logic"
+msgstr "Нов BPM Логика"
+
+#: GameEngine.py:248
+msgid "If enabled, the game will attempt to use the new BPM logic. This is not a finished feature. Use at your own risk."
+msgstr "Ако е овозможено, играта ќе се обиде да ја користат новата BPM логика. Ова не е завршена функција. Користите на сопствен ризик."
+
+#: GameEngine.py:249
+msgid "New Song Database Code"
+msgstr "Нова песна База на податоци законик"
+
+#: GameEngine.py:249
+msgid "Activates the new, incomplete song database code."
+msgstr "Активира нов, нецелосни песна база на податоци код."
+
+#: GameEngine.py:251
+msgid "Show Raw Vocal Data"
+msgstr "Прикажи Суровини вокал на податоци"
+
+#: GameEngine.py:251
+msgid "If enabled, various information about the microphone input will be show in text on screen. Probably only needed for vocal debugging."
+msgstr "Ако е овозможено, различни информации за микрофон ќе се покаже во текстот на екранот. Веројатно само потребни за вокал дебагирање."
+
+#: GameEngine.py:253
+msgid "Speed Factor"
+msgstr "Брзина Factor"
+
+#: GameEngine.py:253
+msgid "1.00x"
+msgstr "1.00x"
+
+#: GameEngine.py:253
+msgid "0.75x"
+msgstr "0.75x"
+
+#: GameEngine.py:253
+msgid "0.50x"
+msgstr "0.50x"
+
+#: GameEngine.py:253
+msgid "0.25x"
+msgstr "0.25x"
+
+#: GameEngine.py:253
+msgid "Sets the speed to play the audio at. Your score will be severely penalized if you slow the music down."
+msgstr "Поставува брзина да игра за аудио во. Вашиот резултат ќе биде строго казнет ако бавно музиката надолу."
+
+#: GameEngine.py:255
+msgid "Effects Mode"
+msgstr "Ефекти Режим"
+
+#: GameEngine.py:255
+msgid "Killswitch"
+msgstr "Killswitch"
+
+#: GameEngine.py:255
+msgid "Pitchbend"
+msgstr "Pitchbend"
+
+#: GameEngine.py:255
+msgid "Sets whether to use a killswitch or pitchbend as the effect on your whammy."
+msgstr "Поставува дали да се користи killswitch или pitchbend како ефект на вашиот уроки."
+
+#: GameEngine.py:259
+msgid "Log INI Reads"
+msgstr "Пријавете се ini Прочита"
+
+#: GameEngine.py:259
+msgid "Logs any read to an INI file. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Логовите сите прочита до податотека ini. Ова е ширење на непотребни информации во извештаи за грешки; ве молиме оставете откажана доколку не сте сигурни што е важно."
+
+#: GameEngine.py:260
+msgid "Log Class Inits"
+msgstr "Пријавете се Класа Inits"
+
+#: GameEngine.py:260
+msgid "Logs most class initializations in '__init__'. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Дневници повеќето класа initializations во \"__init__\". Ова е ширење на непотребни информации во извештаи за грешки; ве молиме оставете откажана доколку не сте сигурни што е важно."
+
+#: GameEngine.py:261
+msgid "Log Loadings"
+msgstr "Пријавете се оптоварувања"
+
+#: GameEngine.py:261
+msgid "Logs resource loads. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Дневници ресурс товари. Ова е ширење на непотребни информации во извештаи за грешки; ве молиме оставете откажана доколку не сте сигурни што е важно."
+
+#: GameEngine.py:262
+msgid "Log MIDI Sections"
+msgstr "Пријавете се MIDI Секции"
+
+#: GameEngine.py:262
+msgid "Logs MIDI sections. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Дневници MIDI секции. Ова е ширење на непотребни информации во извештаи за грешки; ве молиме оставете откажана доколку не сте сигурни што е важно."
+
+#: GameEngine.py:263
+msgid "Log Undefined GETs"
+msgstr "Пријавете се Недефиниран GETS"
+
+#: GameEngine.py:263
+msgid "Logs attempts to read an undefined config key. This is unnecessary information."
+msgstr "Дневници обиди да ја прочитам недефиниран копчето за конфигурација. Ова е ширење на непотребни информации."
+
+#: GameEngine.py:264
+msgid "Log Marker Notes"
+msgstr "Пријавете се маркер белешки"
+
+#: GameEngine.py:264
+msgid "Logs MIDI marker notes (solo, SP, etc). This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Дневници MIDI маркер белешки (соло, СП, итн.) Ова е ширење на непотребни информации во извештаи за грешки; ве молиме оставете откажана доколку не сте сигурни што е важно."
+
+#: GameEngine.py:265
+msgid "Log SP Misses"
+msgstr "Пријавете се СП промаши"
+
+#: GameEngine.py:265
+msgid "Logs SP phrase misses. This is unnecessary information."
+msgstr "Дневници СП фраза промаши. Ова е ширење на непотребни информации."
+
+#: GameEngine.py:266
+msgid "Log Unedited MIDIs"
+msgstr "Пријавете се неиздаден MIDIs"
+
+#: GameEngine.py:266
+msgid "Logs when notes-unedited.mid is used. This is unnecessary information."
+msgstr "Дневници кога белешки-unedited.mid се користи. Ова е ширење на непотребни информации."
+
+#: GameEngine.py:267
+msgid "Log Lyric Events"
+msgstr "Пријавете се Стихови од песнате од Настани"
+
+#: GameEngine.py:267
+msgid "Logs MIDI lyric events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Дневници MIDI лирскиот настани. Ова е ширење на непотребни информации во извештаи за грешки; ве молиме оставете откажана доколку не сте сигурни што е важно."
+
+#: GameEngine.py:268
+msgid "Log Tempo Events"
+msgstr "Пријавете се Темпо Настани"
+
+#: GameEngine.py:268
+msgid "Logs MIDI tempo events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Дневници MIDI темпо настани. Ова е ширење на непотребни информации во извештаи за грешки; ве молиме оставете откажана доколку не сте сигурни што е важно."
+
+#: GameEngine.py:269
+msgid "Log Missing Images"
+msgstr "Пријавете се исчезнати Слики"
+
+#: GameEngine.py:269
+msgid "Only on single images"
+msgstr "Само, единствено слики"
+
+#: GameEngine.py:269
+msgid "Logs when files loaded are not found. 'Only on single images' skips logging when directories are loaded."
+msgstr "Дневници кога додадени фајлови: натоварени не се пронајдени. \"Само, единствено слики 'прескокнува влезете кога директориуми се вчита."
+
+#: GameEngine.py:274
+msgid "Practice Beat Claps"
+msgstr "Пракса Beat Claps"
+
+#: GameEngine.py:274
+msgid "Enables clap sound effects on every beat in practice mode."
+msgstr "Овозможува трипер звучни ефекти на секој бит во пракса режим."
+
+#: GameEngine.py:275
+msgid "Change Score Display"
+msgstr "Промена на рејтинг Покажи"
+
+#: GameEngine.py:275
+#: GameEngine.py:311
+msgid "Auto"
+msgstr "Авто"
+
+#: GameEngine.py:275
+msgid "Blue Fret (#4)"
+msgstr "Blue Fret (# 4)"
+
+#: GameEngine.py:275
+msgid "Sets whether to change the setlist high score difficulty automatically or with the fourth fret."
+msgstr "Поставува дали да се промени setlist висок резултат тешкотии автоматски или со четвртото секирај."
+
+#: GameEngine.py:278
+msgid "Makes opponent miss notes until the whammy bar is pushed a few times"
+msgstr "Прави противник пропуштите белешки до уроки бар се турка неколку пати"
+
+#: GameEngine.py:279
+msgid "Difficulty Up"
+msgstr "Ниво на тешкотија Горе"
+
+#: GameEngine.py:279
+msgid "Ups opponent's difficulty for a while (if not playing on Expert)"
+msgstr "Ups противникот тешкотии за некое време (ако не е игра на експерт)"
+
+#: GameEngine.py:280
+msgid "String Break"
+msgstr "Стринг Break"
+
+#: GameEngine.py:280
+msgid "Breaks a string, causing your opponent to miss notes on that fret until they push the fret button several times."
+msgstr "Прекините стринг, предизвикувајќи вашиот противник да ја пропуштиме белешки за тоа секирај се додека не го притисне секирај копче неколку пати."
+
+#: GameEngine.py:281
+msgid "Double Notes"
+msgstr "Двоен белешки"
+
+#: GameEngine.py:281
+msgid "Makes single notes into chords, and chords into even bigger ones."
+msgstr "Го прави единствено белешки во акорди, и акорди во уште поголем оние."
+
+#: GameEngine.py:282
+msgid "Death Drain"
+msgstr "Смртта Drain"
+
+#: GameEngine.py:282
+msgid "Sudden Death Only"
+msgstr "Ненадејна смрт Само"
+
+#: GameEngine.py:282
+msgid "Drains your opponents life until they die. 'Sudden Death Only' keeps this from appearing until you reach sudden death mode."
+msgstr "Канализација вашите противници живот се додека не умре. 'Ненадејна смрт Само' ја чува оваа се појавуваат додека не се постигне ненадејна смрт на владата."
+
+#: GameEngine.py:283
+msgid "Amp Overload"
+msgstr "Amp Overload"
+
+#: GameEngine.py:283
+msgid "Makes opponent's amp flip out, making notes disappear and reappear randomly."
+msgstr "засилувач го противникот флип надвор, правејќи белешки и неповратно исчезнуваат и се појавува случајно."
+
+#: GameEngine.py:284
+msgid "Switch Controls"
+msgstr "Исклучете контролс \""
+
+#: GameEngine.py:284
+msgid "Switches opponent to (or from) lefty mode for a bit!"
+msgstr "Склопки противник на (или од) Лефти режим за малку!"
+
+#: GameEngine.py:285
+msgid "Steal Object"
+msgstr "Крадат Објект"
+
+#: GameEngine.py:285
+msgid "Steals an object your opponent has."
+msgstr "Краде објект вашиот противник има."
+
+#: GameEngine.py:286
+msgid "Guitar Tune"
+msgstr "Гитара Барај"
+
+#: GameEngine.py:286
+msgid "Makes opponent miss all notes until they play a scale."
+msgstr "Прави противник пропушти сите белешки додека тие играат скала."
+
+#: GameEngine.py:289
+msgid "Score SFX"
+msgstr "Поени SFX"
+
+#: GameEngine.py:289
+msgid "Sets whether or not to have Jurgen taunt (or, I suppose, congratulate) you at the end of a song."
+msgstr "Поставува дали или не да имаат Јурген омаловажувања (или, претпоставувам, честитам), вие на крајот на песната."
+
+#: GameEngine.py:290
+msgid "GH SP Lights"
+msgstr "GH СП Светлини"
+
+#: GameEngine.py:290
+msgid "Sets whether to fade images over the starpower bulbs in GH themes when fully lit."
+msgstr "Поставува дали да бледеат слики во текот на starpower луковици во GH теми кога целосно осветлен."
+
+#: GameEngine.py:291
+msgid "RB Small 1x Multiplier"
+msgstr "RB Мали 1x Класер"
+
+#: GameEngine.py:291
+msgid "When enabled, RB-type themes will have a smaller mult image when the multiplier is at 1x. 'By Theme' leaves it to the theme creator."
+msgstr "Кога е овозможено, RB-тип на теми ќе имаат помали mult сликата кога множител е 1x. \"Со Тема 'остава тоа со темата творец."
+
+#: GameEngine.py:292
+msgid "Board Speed Mode"
+msgstr "Одбор Брзина Режим"
+
+#: GameEngine.py:292
+#: GameEngine.py:344
+msgid "BPM"
+msgstr "BPM"
+
+#: GameEngine.py:292
+#: GameEngine.py:317
+#: GameEngine.py:344
+msgid "Difficulty"
+msgstr "Ниво на тешкотија"
+
+#: GameEngine.py:292
+#: GameEngine.py:344
+msgid "BPM & Diff"
+msgstr "BPM & Diff"
+
+#: GameEngine.py:292
+msgid "Percentage"
+msgstr "Процент"
+
+#: GameEngine.py:292
+msgid "Sets what determines the speed of the scrolling notes."
+msgstr "Определува на која се определува брзината на лизгање белешки."
+
+#: GameEngine.py:293
+msgid "Loading Phrases"
+msgstr "Loading фрази"
+
+#: GameEngine.py:293
+msgid "Sets whether or not to use loading phrases while loading a song"
+msgstr "Поставува дали или не да се користи вчитување фрази при вчитување песна"
+
+#: GameEngine.py:294
+msgid "Effects Display Mode"
+msgstr "Ефекти Режим на прикажување"
+
+#: GameEngine.py:294
+msgid "Static"
+msgstr "Статични"
+
+#: GameEngine.py:294
+msgid "Animated"
+msgstr "Анимирани"
+
+#: GameEngine.py:294
+msgid "Sets whether or not the whammy effect is animated. (This is affected by the 'Performance' quickset)"
+msgstr "Поставува дали или не уроки ефект е анимиран. (Ова е под влијание од страна на 'жив плет ефикасноста')"
+
+#: GameEngine.py:295
+msgid "Show Filepath"
+msgstr "Прикажи Filepath"
+
+#: GameEngine.py:295
+msgid "Show"
+msgstr "Покажи"
+
+#: GameEngine.py:295
+msgid "Hide"
+msgstr "Скриј"
+
+#: GameEngine.py:295
+msgid "Sets whether or not to show the filepath of the song."
+msgstr "Поставува дали или не да се прикаже filepath на песната."
+
+#: GameEngine.py:296
+msgid "3D Note Rotation"
+msgstr "3D Забелешка ротација"
+
+#: GameEngine.py:296
+msgid "Old"
+msgstr "Стар"
+
+#: GameEngine.py:296
+msgid "New"
+msgstr "Нови"
+
+#: GameEngine.py:296
+msgid "Sets the manner of 3D Note Rotation."
+msgstr "Утврдува начинот на 3D Забелешка ротација."
+
+#: GameEngine.py:297
+msgid "Show In-Game Text"
+msgstr "Прикажи од играта текст"
+
+#: GameEngine.py:297
+msgid "Only Note Streaks"
+msgstr "Само Забелешка ленти"
+
+#: GameEngine.py:297
+msgid "Sets whether or not to show text in-game. This includes note streaks and 'Starpower Ready'. (This is affected by the 'Performance' quickset)"
+msgstr "Поставува дали или не да се покаже текст во играта. Ова ги вклучува белешка ленти и 'Starpower Подготвен \". (Ова е под влијание од страна на 'жив плет ефикасноста')"
+
+#: GameEngine.py:298
+msgid "Setlist Display Mode"
+msgstr "Setlist Режим на прикажување"
+
+#: GameEngine.py:298
+msgid "List"
+msgstr "Листа"
+
+#: GameEngine.py:298
+msgid "List/CD"
+msgstr "Листа / CD"
+
+#: GameEngine.py:298
+msgid "Sets the setlist display mode. 'By Theme' lets the theme creator decide."
+msgstr "Поставува setlist приказ на владата. \"Со Тема 'овозможува на тема творец одлучи."
+
+#: GameEngine.py:299
+msgid "Use Subfolders"
+msgstr "Користете потпапки"
+
+#: GameEngine.py:299
+msgid "List All"
+msgstr "Листа Сите"
+
+#: GameEngine.py:299
+msgid "'Normal' allows you to navigate folders. 'List All' places all songs into a single setlist."
+msgstr "\"Нормална\" ви овозможува да управувате со папки. 'Листа Сите \"места сите песни во една setlist."
+
+#: GameEngine.py:300
+msgid "Show Song Type Icons"
+msgstr "Прикажи песна Вид икони"
+
+#: GameEngine.py:300
+msgid "Sets whether or not to show icons indicating the song 'type'"
+msgstr "Поставува дали или не да се прикажуваат икони кои укажуваат на песната 'тип'"
+
+#: GameEngine.py:301
+msgid "Preload Song Labels"
+msgstr "Preload песна Етикети"
+
+#: GameEngine.py:301
+msgid "Sets whether to preload all song labels on load. With large setlists, this option is extremely slow."
+msgstr "Поставува дали да preload сите песна етикети на товарот. Со големи setlists, оваа опција е многу бавно."
+
+#: GameEngine.py:302
+msgid "Label Type"
+msgstr "Етикета Вид"
+
+#: GameEngine.py:302
+msgid "CD Labels"
+msgstr "ЦД Етикети"
+
+#: GameEngine.py:302
+msgid "Album Covers"
+msgstr "Албум Covers"
+
+#: GameEngine.py:302
+msgid "Sets whether to show CD labels or album covers as the art."
+msgstr "Поставува дали да покаже ЦД етикети или албум опфаќа како уметност."
+
+#: GameEngine.py:303
+msgid "Rotating CDs"
+msgstr "Ротирачки ЦД-а"
+
+#: GameEngine.py:303
+msgid "Sets whether or not CDs rotate."
+msgstr "Поставува дали или не дискови ротирање."
+
+#: GameEngine.py:304
+msgid "Remember Play Count"
+msgstr "Запомни игра Грофот"
+
+#: GameEngine.py:304
+msgid "Keeps track of how many times you've played each song."
+msgstr "Покажува колку пати сте играле секоја песна."
+
+#: GameEngine.py:306
+msgid "Show at Song Start"
+msgstr "Покажи на песна Почеток"
+
+#: GameEngine.py:306
+msgid "Part"
+msgstr "Дел"
+
+#: GameEngine.py:306
+msgid "Sets whether to show a countdown or your name and part at the song's start."
+msgstr "Поставува дали да покаже одбројувањето или вашето име и дел на почетокот на песната."
+
+#: GameEngine.py:307
+msgid "Overdrive Neck"
+msgstr "Overdrive врат"
+
+#: GameEngine.py:307
+msgid "Sets the style of the Overdrive neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "Го поставува стилот на overdrive вратот. \"Замени\" се заменува вратот со посебни вратот, додека \"Overlay\" за воспоставување на вратот над врвот."
+
+#: GameEngine.py:309
+msgid "Note Hit Window"
+msgstr "Забелешка Хит прозорецот"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:285
+msgid "Tightest"
+msgstr "Tightest"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:287
+msgid "Tight"
+msgstr "Тесни"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:289
+msgid "Wide"
+msgstr "Широк"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:291
+msgid "Widest"
+msgstr "Најширокиот"
+
+#: GameEngine.py:309
+msgid "Sets how accurate you need to be while playing."
+msgstr "Поставува како точни, треба да бидете додека играте."
+
+#: GameEngine.py:311
+msgid "Early Hit Window"
+msgstr "Почетокот на Хит прозорецот"
+
+#: GameEngine.py:311
+msgid "None (RB2)"
+msgstr "Нема (RB2)"
+
+#: GameEngine.py:311
+msgid "Half (GH2)"
+msgstr "Половина (GH2)"
+
+#: GameEngine.py:311
+msgid "Full (FoF)"
+msgstr "Комплетна (FoF)"
+
+#: GameEngine.py:311
+msgid "Sets how much time before the note is part of the hit window. 'Auto' uses the MIDI to determine."
+msgstr "Поставува колку време пред белешка е дел од хит прозорец. \"Автоматски\" го користи MIDI за да се утврди."
+
+#: GameEngine.py:312
+msgid "Show Detailed Handicap"
+msgstr "Покажи детали Хендикеп"
+
+#: GameEngine.py:312
+msgid "Shows the handicaps individually on the result screen."
+msgstr "Покажува хендикеп поединечно на резултатот екран."
+
+#: GameEngine.py:315
+msgid "Disable Variable BPM"
+msgstr "Оневозможи Променлива BPM"
+
+#: GameEngine.py:315
+msgid "This will disable the use of the Variable BPM logic."
+msgstr "Ова ќе оневозможи употребата на променливата BPM логика."
+
+#: GameEngine.py:316
+msgid "Sort Direction"
+msgstr "Подреди Дирекцијата"
+
+#: GameEngine.py:316
+msgid "Ascending"
+msgstr "Зголемувајки"
+
+#: GameEngine.py:316
+msgid "Descending"
+msgstr "Опаѓачки"
+
+#: GameEngine.py:316
+msgid "Choose whether to sort in ascending (A-Z) or descending (Z-A) order."
+msgstr "Избере дали да се подреди по растечки (az) или надолу (ZA) ред."
+
+#: GameEngine.py:317
+msgid "Sort Setlist By"
+msgstr "Подреди Setlist Со"
+
+#: GameEngine.py:317
+msgid "Title"
+msgstr "Наслов"
+
+#: GameEngine.py:317
+msgid "Artist"
+msgstr "Уметникот"
+
+#: GameEngine.py:317
+msgid "Times played"
+msgstr "Број игра"
+
+#: GameEngine.py:317
+msgid "Album"
+msgstr "Албум"
+
+#: GameEngine.py:317
+msgid "Genre"
+msgstr "Жанр"
+
+#: GameEngine.py:317
+msgid "Year"
+msgstr "Година"
+
+#: GameEngine.py:317
+msgid "Band Difficulty"
+msgstr "Бенд Ниво на тешкотија"
+
+#: GameEngine.py:317
+msgid "Song Collection"
+msgstr "Песна Колекција"
+
+#: GameEngine.py:317
+msgid "Choose how to sort the setlist by default."
+msgstr "Изберете како да ги сортирате setlist стандардните."
+
+#: GameEngine.py:318
+msgid "Whammy Changes Sort Order"
+msgstr "Уроки Промени подредување"
+
+#: GameEngine.py:318
+msgid "When enabled, pressing the whammy bar will change the sort order in the setlist."
+msgstr "Кога е овозможено, притискање на уроки бар ќе го промени редоследот на сортирање во setlist."
+
+#: GameEngine.py:319
+msgid "Point Of View"
+msgstr "Гледна точка"
+
+#: GameEngine.py:319
+msgid "GH3"
+msgstr "GH3"
+
+#: GameEngine.py:319
+msgid "Rock Rev"
+msgstr "Рок Rev"
+
+#: GameEngine.py:319
+msgid "Sets the camera's point of view. Set it to any game, or set it to 'Theme' to leave it to the theme creator."
+msgstr "на апаратот колекции гледна точка. Поставете ја било која игра, или поставете го на 'Тема', за да го оставиме тоа на тема творец."
+
+#: GameEngine.py:320
+msgid "Party Mode Timer"
+msgstr "Партија на режимот на тајмер"
+
+#: GameEngine.py:320
+msgid "Sets the timer in Party Mode."
+msgstr "Поставува тајмер во партија режим."
+
+#: GameEngine.py:321
+msgid "Show Setlist Size"
+msgstr "Прикажи Setlist Големина"
+
+#: GameEngine.py:321
+msgid "Show the number of songs inside of each setlist."
+msgstr "Прикажи го бројот на песни внатрешноста на секоја setlist."
+
+#: GameEngine.py:322
+msgid "CD Mode Y-Rotation"
+msgstr "ЦД Режим на Y-ротација"
+
+#: GameEngine.py:322
+#: GameEngine.py:351
+msgid "Enabled"
+msgstr "От"
+
+#: GameEngine.py:322
+msgid "Sets whether or not CDs in the setlist rotate about the Y axis."
+msgstr "Поставува дали или не CD-а во setlist ротира околу Y оска."
+
+#: GameEngine.py:326
+msgid "P1 AI"
+msgstr "P1 АИ"
+
+#: GameEngine.py:326
+msgid "Enable or disable the player 1 AI"
+msgstr "Овозможи или оневозможи играч 1 АИ"
+
+#: GameEngine.py:327
+msgid "P1 AI Personality"
+msgstr "P1 Пи личноста"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "1. KiD"
+msgstr "1. Kid"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "2. Stump"
+msgstr "2. Трупецот"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "3. akedRobot"
+msgstr "3. akedRobot"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "4. Q"
+msgstr "4. П"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "5. MFH"
+msgstr "5. MFH"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "6. Jurgen"
+msgstr "6. Јурген"
+
+#: GameEngine.py:327
+msgid "Set the personality of the player 1 AI. The numbers correspond with their skill."
+msgstr "Поставување на личноста на играч 1 АИ. Бројките соодветствува со нивната вештина."
+
+#: GameEngine.py:328
+msgid "P1 AI Logic"
+msgstr "P1 Пи Логика"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "Original"
+msgstr "Авторски"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-Early"
+msgstr "MFH-рано"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-OnTime1"
+msgstr "MFH-OnTime1"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-OnTime2"
+msgstr "MFH-OnTime2"
+
+#: GameEngine.py:328
+msgid "Set the logic used for the player 1 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "Поставување на логиката се користат за играчот 1 АИ. \"Авторски 'не може да се справи брзо секции. обиди 'MFH-Рано' да погоди белешки што влегува хит прозорец. се имплементации 'MFH-OnTime \", која се обиде да ја погоди белешки како што се случи, како вистински играч."
+
+#: GameEngine.py:330
+msgid "P2 AI"
+msgstr "P2 АИ"
+
+#: GameEngine.py:330
+msgid "Enable or disable the player 2 AI"
+msgstr "Овозможи или оневозможи плеер 2 АИ"
+
+#: GameEngine.py:331
+msgid "P2 AI Personality"
+msgstr "P2 Пи личноста"
+
+#: GameEngine.py:331
+msgid "Set the personality of the player 2 AI. The numbers correspond with their skill."
+msgstr "Поставување на личноста на играч 2 АИ. Бројките соодветствува со нивната вештина."
+
+#: GameEngine.py:332
+msgid "P2 AI Logic"
+msgstr "P2 Пи Логика"
+
+#: GameEngine.py:332
+msgid "Set the logic used for the player 2 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "Поставување на логиката се користат за играчот 2 АИ. \"Авторски 'не може да се справи брзо секции. обиди 'MFH-Рано' да погоди белешки што влегува хит прозорец. се имплементации 'MFH-OnTime \", која се обиде да ја погоди белешки како што се случи, како вистински играч."
+
+#: GameEngine.py:334
+msgid "P3 AI"
+msgstr "P3 АИ"
+
+#: GameEngine.py:334
+msgid "Enable or disable the player 3 AI"
+msgstr "Овозможи или оневозможи плеер 3 Пи"
+
+#: GameEngine.py:335
+msgid "P3 AI Personality"
+msgstr "P3 Пи личноста"
+
+#: GameEngine.py:335
+msgid "Set the personality of the player 3 AI. The numbers correspond with their skill."
+msgstr "Поставување на личноста на играч 3 АИ. Бројките соодветствува со нивната вештина."
+
+#: GameEngine.py:336
+msgid "P3 AI Logic"
+msgstr "P3 Пи Логика"
+
+#: GameEngine.py:336
+msgid "Set the logic used for the player 3 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "Поставување на логиката се користат за играч 3 АИ. \"Авторски 'не може да се справи брзо секции. обиди 'MFH-Рано' да погоди белешки што влегува хит прозорец. се имплементации 'MFH-OnTime \", која се обиде да ја погоди белешки како што се случи, како вистински играч."
+
+#: GameEngine.py:338
+msgid "P4 AI"
+msgstr "P4 АИ"
+
+#: GameEngine.py:338
+msgid "Enable or disable the player 4 AI"
+msgstr "Овозможи или оневозможи плеер 4 АИ"
+
+#: GameEngine.py:339
+msgid "P4 AI Personality"
+msgstr "P4 Пи личноста"
+
+#: GameEngine.py:339
+msgid "Set the personality of the player 4 AI. The numbers correspond with their skill."
+msgstr "Поставување на личноста на играч 4 АИ. Бројките соодветствува со нивната вештина."
+
+#: GameEngine.py:340
+msgid "P4 AI Logic"
+msgstr "P4 Пи Логика"
+
+#: GameEngine.py:340
+msgid "Set the logic used for the player 4 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "Поставување на логиката се користат за играч 4 АИ. \"Авторски 'не може да се справи брзо секции. обиди 'MFH-Рано' да погоди белешки што влегува хит прозорец. се имплементации 'MFH-OnTime \", која се обиде да ја погоди белешки како што се случи, како вистински играч."
+
+#: GameEngine.py:343
+msgid "Lyric Display Mode"
+msgstr "Стихови од песнате од Режим на прикажување"
+
+#: GameEngine.py:343
+msgid "Scrolling"
+msgstr "Лизгање"
+
+#: GameEngine.py:343
+msgid "Simple Lines"
+msgstr "Едноставни линии"
+
+#: GameEngine.py:343
+msgid "2-Line"
+msgstr "2-Line"
+
+#: GameEngine.py:343
+msgid "Sets the display mode for MIDI lyrics. Both 'Simple Lines' and '2-Line' will show as single phrases when playing the vocal part."
+msgstr "Поставува на екранот режим за MIDI стихови. Двете 'едноставни линии и 2-Line' ќе се појави како единствен фрази, кога играте со гласните дел."
+
+#: GameEngine.py:344
+msgid "Lyric Speed Mode"
+msgstr "Стихови од песнате од Speed Mode"
+
+#: GameEngine.py:344
+msgid "Sets what determines the speed of the scrolling lyrics."
+msgstr "Определува на која се определува брзината на лизгање стихови."
+
+#: GameEngine.py:345
+msgid "Lyric Speed Percent"
+msgstr "Стихови од песнате од Speed Проценти"
+
+#: GameEngine.py:345
+msgid "Sets how quickly lyrics will scroll."
+msgstr "Поставува колку брзо стихови ќе лизга."
+
+#: GameEngine.py:351
+msgid "Graphical Submenus"
+msgstr "Графички подменија"
+
+#: GameEngine.py:351
+msgid "Enable or disable the use of graphical submenus."
+msgstr "Овозможи или оневозможи употребата на графички подменија."
+
+#: GameEngine.py:354
+msgid "Crowd Cheers"
+msgstr "Толпата Наздраве"
+
+#: GameEngine.py:354
+msgid "Off (Disabled)"
+msgstr "Исклучено (Петров)"
+
+#: GameEngine.py:354
+msgid "During SP Only"
+msgstr "За време на СП Само"
+
+#: GameEngine.py:354
+msgid "During SP & Green"
+msgstr "За време на СП и зелено"
+
+#: GameEngine.py:354
+msgid "Always On"
+msgstr "Секогаш На"
+
+#: GameEngine.py:354
+msgid "Sets when the crowd will cheer for you (if a crowd.ogg is present). 'During SP' will have them sing along in star power, and 'During SP & Green' will have them cheering both in SP and when your rock meter is above 2/3"
+msgstr "Поставува кога толпата ќе навиваат за вас (ако crowd.ogg е присутна). \"За време на СП\", ќе ги пеат во ѕвезда моќ, и 'За време на СП и Зелени \"ќе ги навива и во СП и кога вашиот рок метар е над 2 / 3"
+
+#: GameEngine.py:357
+msgid "Miss Volume"
+msgstr "Мис Година"
+
+#: GameEngine.py:357
+msgid "Set the volume of the active track when you miss a note."
+msgstr "Поставете на волуменот на активни песна кога ќе пропуштиш некоја белешка."
+
+#: GameEngine.py:358
+msgid "Single Track Miss"
+msgstr "Единствена песна Мис"
+
+#: GameEngine.py:358
+msgid "When playing a song with only a single track, this sets the volume of the track when you miss a note."
+msgstr "Кога играте песна со само еден единствен пат, овој утврдува обемот на патеката кога ќе пропуштиш некоја белешка."
+
+#: GameEngine.py:359
+msgid "Menu Volume"
+msgstr "Мени Година"
+
+#: GameEngine.py:359
+msgid "Set the volume of the background menu music."
+msgstr "Поставете на волуменот на позадина мени музика."
+
+#: GameEngine.py:361
+msgid "Crowd Volume"
+msgstr "Толпата Година"
+
+#: GameEngine.py:361
+msgid "Set the volume of the crowd."
+msgstr "Поставете на волуменот на толпата."
+
+#: GameEngine.py:363
+msgid "Kill Volume"
+msgstr "Година убие"
+
+#: GameEngine.py:363
+msgid "Sets the volume when using the killswitch."
+msgstr "Утврдува обемот кога се користи killswitch."
+
+#: GameEngine.py:364
+msgid "SFX Volume"
+msgstr "SFX Година"
+
+#: GameEngine.py:364
+msgid "Sets the volume of various sound effects."
+msgstr "Утврдува обемот на различни звучни ефекти."
+
+#: GameEngine.py:371
+msgid "Cache Song Metadata"
+msgstr "Кеш песна Метаданните"
+
+#: GameEngine.py:371
+msgid "This will allow information about the songs to be stored for quick access later at the cost of a slow first time loading."
+msgstr "Ова ќе овозможи информации за песни да се чуваат за брз пристап подоцна по цена на бавна првпат подигне."
+
+#: GameEngine.py:399
+msgid "Sets the overall graphical feel of the game. You can find and download many more at fretsonfire.net"
+msgstr "Поставува целокупната графички чувство на играта. Можете да најдете и преземете многу повеќе на fretsonfire.net"
+
+#: GameEngine.py:404
+msgid "Board Speed Percent"
+msgstr "Одбор Брзина Проценти"
+
+#: GameEngine.py:404
+msgid "Sets how quickly note will scroll"
+msgstr "Поставува колку брзо белешката ќе дојдете"
+
+#: GameEngine.py:405
+msgid "No Fail"
+msgstr "Не успеаја"
+
+#: GameEngine.py:405
+msgid "Sets whether or not you can fail out of a song."
+msgstr "Поставува дали можете или не да не извади од песната."
+
+#: GameEngine.py:409
+msgid "Difficulty (Setlist Score)"
+msgstr "Ниво на тешкотија (Setlist рејтинг)"
+
+#: GameEngine.py:409
+msgid "Sets the default difficulty displayed in the setlist score."
+msgstr "Одредува default тешкотии прикажани во setlist резултат."
+
+#: GameEngine.py:410
+msgid "Show Additional Stats"
+msgstr "Прикажи Дополнителни Статистика"
+
+#: GameEngine.py:410
+msgid "If enabled, additional score information (longest streak, percentage) is displayed on the setlist."
+msgstr "Ако е овозможено, дополнителни резултат информации (најдолго редеа, процент) е на екранот на setlist."
+
+#: GameEngine.py:412
+msgid "Instrument (Setlist Score)"
+msgstr "Инструмент (Setlist рејтинг)"
+
+#: GameEngine.py:412
+msgid "Sets the default part displayed in the setlist score."
+msgstr "Одредува default дел прикажани во setlist резултат."
+
+#: GameEngine.py:674
+msgid "Slideshow"
+msgstr "Слајдшоу"
+
+#: GameEngine.py:677
+#: GameEngine.py:691
+msgid "Animated Stage"
+msgstr "Анимирани сцена"
+
+#: GameResultsScene.py:121
+#: GameResultsScene.py:122
+msgid "Co-Op Mode"
+msgstr "Co-op Режим"
+
+#: GameResultsScene.py:124
+msgid "settings"
+msgstr "поставувања"
+
+#: GameResultsScene.py:125
+msgid "HOPOs"
+msgstr "HOPOs"
+
+#: GameResultsScene.py:126
+msgid "Hit Window"
+msgstr "Удри го прозорецот"
+
+#: GameResultsScene.py:127
+msgid "Adjusted Score Multiplier:"
+msgstr "Решени рејтинг Класер:"
+
+#: GameResultsScene.py:128
+msgid "Original Score:"
+msgstr "Авторски Поени:"
+
+#: GameResultsScene.py:133
+#: GameResultsScene.py:140
+#: GameResultsScene.py:147
+msgid "Continue"
+msgstr "Продолжи"
+
+#: GameResultsScene.py:134
+msgid "Replay Setlist"
+msgstr "Replay Setlist"
+
+#: GameResultsScene.py:136
+#: GameResultsScene.py:143
+#: GameResultsScene.py:150
+msgid "Quit"
+msgstr "Напушти"
+
+#: GameResultsScene.py:141
+msgid "Replay"
+msgstr "Replay"
+
+#: GameResultsScene.py:148
+msgid "End Setlist"
+msgstr "Крајот Setlist"
+
+#: GameResultsScene.py:165
+msgid "Relax, it was an excellent show."
+msgstr "Опушти се, тоа беше одлична емисија."
+
+#: GameResultsScene.py:167
+msgid "Truly Amazing!"
+msgstr "Навистина Amazing!"
+
+#: GameResultsScene.py:169
+msgid "Thanks for playing!"
+msgstr "Ви благодариме за играње!"
+
+#: GameResultsScene.py:171
+msgid "One more song can't hurt!"
+msgstr "Уште една песна не може да наштети!"
+
+#: GameResultsScene.py:173
+msgid "What an amazing performance!"
+msgstr "Што брилијантна изведба!"
+
+#: GameResultsScene.py:175
+msgid "That's how it's done!"
+msgstr "Тоа е како Свршено е!"
+
+#: GameResultsScene.py:248
+msgid "GH2 Sloppy"
+msgstr "GH2 невешт"
+
+#: GameResultsScene.py:258
+msgid "New System"
+msgstr "Нов систем"
+
+#: GameResultsScene.py:573
+#, python-format
+msgid "%d points is a new high score! Enter your name:"
+msgstr "%d поени е нов висок резултат! Внесете го вашето име:"
+
+#: GameResultsScene.py:1297
+#, python-format
+msgid "%s High Scores for %s"
+msgstr "%s Високиот рејтинг за %s"
+
+#: GameResultsScene.py:1299
+#, python-format
+msgid "%s High Scores"
+msgstr "%s Високиот рејтинг"
+
+#: GameResultsScene.py:1305
+#, python-format
+msgid "Difficulty: %s"
+msgstr "Ниво на тешкотија: %s"
+
+#: GameResultsScene.py:1367
+msgid "Uploading Scores..."
+msgstr "Неуспешно рејтинг ..."
+
+#: GameResultsScene.py:1372
+msgid "Scores uploaded!"
+msgstr "Резултати качен!"
+
+#: GameResultsScene.py:1376
+msgid "Your highscore ranks"
+msgstr "Твојот Најдобаррезултат редови"
+
+#: GameResultsScene.py:1377
+msgid "on the world starpower chart!"
+msgstr "на светската starpower шема!"
+
+#: GameResultsScene.py:1380
+msgid "but your rank is unknown."
+msgstr "но вашиот ранк е непознат."
+
+#: GameResultsScene.py:1383
+msgid "but there was no new highscore."
+msgstr "но немаше нови Најдобаррезултат."
+
+#: GameResultsScene.py:1386
+msgid "Score upload failed!  World charts may be down."
+msgstr "Поени испраќате не успеа! Светот листи може да биде надолу."
+
+#: GuitarScene.py:82
+#: GuitarScene.py:83
+msgid "Initializing..."
+msgstr "Иницијализирам ..."
+
+#: GuitarScene.py:497
+msgid "KiD"
+msgstr "Kid"
+
+#: GuitarScene.py:497
+msgid "Stump"
+msgstr "Трупецот"
+
+#: GuitarScene.py:497
+msgid "AkedRobot"
+msgstr "AkedRobot"
+
+#: GuitarScene.py:497
+msgid "Q"
+msgstr "П"
+
+#: GuitarScene.py:497
+msgid "MFH"
+msgstr "MFH"
+
+#: GuitarScene.py:497
+msgid "Jurgen"
+msgstr "Јурген"
+
+#: GuitarScene.py:504
+msgid "Broken String"
+msgstr "Скршен Стринг"
+
+#: GuitarScene.py:506
+msgid "Powerup Steal"
+msgstr "Powerup украде"
+
+#: GuitarScene.py:510
+#, python-format
+msgid "%d Note Streak"
+msgstr "%d Забелешка редеа"
+
+#: GuitarScene.py:511
+#, python-format
+msgid "%d Phrase Streak"
+msgstr "%d фраза редеа"
+
+#: GuitarScene.py:512
+#, python-format
+msgid "%s Ready"
+msgstr "%s Подготвен"
+
+#: GuitarScene.py:513
+#, python-format
+msgid "Activate %s!"
+msgstr "Активирање на %s!"
+
+#: GuitarScene.py:514
+msgid "You Failed"
+msgstr "Вие Не успеав"
+
+#: GuitarScene.py:515
+#, python-format
+msgid "%s is here"
+msgstr "%s е тука"
+
+#: GuitarScene.py:516
+#, python-format
+msgid "%s was here"
+msgstr "%s беше тука"
+
+#: GuitarScene.py:517
+msgid "% Complete"
+msgstr "Целосно%"
+
+#: GuitarScene.py:518
+#: GuitarScene.py:5839
+msgid "HOPO"
+msgstr "HOPO"
+
+#: GuitarScene.py:519
+#: GuitarScene.py:5809
+#: GuitarScene.py:5818
+msgid "COMPLETED"
+msgstr "Пополнување на"
+
+#: GuitarScene.py:520
+#: GuitarScene.py:5811
+#: GuitarScene.py:5827
+msgid " % ON "
+msgstr "% На"
+
+#: GuitarScene.py:521
+msgid "BASS GROOVE"
+msgstr "BASS Groove"
+
+#: GuitarScene.py:522
+msgid "Bass Groove:"
+msgstr "Бас Groove:"
+
+#: GuitarScene.py:523
+msgid "Handicap"
+msgstr "Хендикеп"
+
+#: GuitarScene.py:524
+msgid "Avg"
+msgstr "Ср"
+
+#: GuitarScene.py:525
+msgid "Very Late"
+msgstr "Многу доцна"
+
+#: GuitarScene.py:526
+msgid "Late"
+msgstr "Доцна"
+
+#: GuitarScene.py:527
+msgid "Slightly Late"
+msgstr "Малку доцна"
+
+#: GuitarScene.py:528
+msgid "-Excellent!"
+msgstr "-Одлично!"
+
+#: GuitarScene.py:529
+msgid "Perfect!!"
+msgstr "Совршен!"
+
+#: GuitarScene.py:530
+msgid "+Excellent!"
+msgstr "+ Одлично!"
+
+#: GuitarScene.py:531
+msgid "Slightly Early"
+msgstr "Малку рано"
+
+#: GuitarScene.py:534
+msgid "ms"
+msgstr "ms"
+
+#: GuitarScene.py:535
+msgid "Solo!"
+msgstr "Соло!"
+
+#: GuitarScene.py:536
+msgid "Perfect Solo!"
+msgstr "Совршен Соло!"
+
+#: GuitarScene.py:537
+msgid "Awesome Solo!"
+msgstr "Прекрасно Соло!"
+
+#: GuitarScene.py:538
+msgid "Great Solo!"
+msgstr "Велики Соло!"
+
+#: GuitarScene.py:539
+msgid "Good Solo!"
+msgstr "Добар Соло!"
+
+#: GuitarScene.py:540
+msgid "Solid Solo!"
+msgstr "Солидна Соло!"
+
+#: GuitarScene.py:541
+msgid "Okay Solo"
+msgstr "Океј Solo"
+
+#: GuitarScene.py:542
+msgid "Messy Solo"
+msgstr "Неуредна Solo"
+
+#: GuitarScene.py:543
+msgid "pts"
+msgstr "поени"
+
+#: GuitarScene.py:544
+msgid "Get Ready to Rock"
+msgstr "Се подготвени да Рок"
+
+#: GuitarScene.py:545
+msgid "as made famous by"
+msgstr "како направи познат по"
+
+#: GuitarScene.py:546
+msgid "by "
+msgstr "од страна на"
+
+#: GuitarScene.py:547
+msgid " fretted by "
+msgstr "измачуваше со"
+
+#: GuitarScene.py:890
+msgid "Loading Song..."
+msgstr "Loading песна ..."
+
+#: GuitarScene.py:900
+msgid "Preparing Note Phrases..."
+msgstr "Подготовки Забелешка фрази ..."
+
+#: GuitarScene.py:1401
+msgid "Loading Graphics..."
+msgstr "Loading Графика ..."
+
+#: GuitarScene.py:1615
+msgid "         RESUME"
+msgstr "Продолжи"
+
+#: GuitarScene.py:1616
+msgid "        RESTART"
+msgstr "Рестартирајте"
+
+#: GuitarScene.py:1618
+msgid "       PRACTICE"
+msgstr "Пракса"
+
+#: GuitarScene.py:1619
+msgid "        OPTIONS"
+msgstr "ОПЦИИ"
+
+#: GuitarScene.py:1620
+#: GuitarScene.py:1629
+msgid "           QUIT"
+msgstr "Напушти"
+
+#: GuitarScene.py:1624
+msgid "        RESUME"
+msgstr "Продолжи"
+
+#: GuitarScene.py:1625
+msgid "       RESTART"
+msgstr "Рестартирајте"
+
+#: GuitarScene.py:1627
+msgid "      END SONG"
+msgstr "END песна"
+
+#: GuitarScene.py:1628
+msgid "       OPTIONS"
+msgstr "ОПЦИИ"
+
+#: GuitarScene.py:1634
+#: GuitarScene.py:1641
+msgid "RETRY SONG"
+msgstr "Да се обидете повторно песна"
+
+#: GuitarScene.py:1635
+msgid "  PRACTICE"
+msgstr "Пракса"
+
+#: GuitarScene.py:1636
+#: GuitarScene.py:1642
+#: GuitarScene.py:1706
+#: GuitarScene.py:1713
+msgid " NEW SONG"
+msgstr "Нова песна"
+
+#: GuitarScene.py:1637
+#: GuitarScene.py:1643
+msgid "     QUIT"
+msgstr "Напушти"
+
+#: GuitarScene.py:1650
+#: GuitarScene.py:1659
+msgid "  Resume"
+msgstr "Продолжи"
+
+#: GuitarScene.py:1651
+#: GuitarScene.py:1660
+msgid "  Start Over"
+msgstr "Во текот на проектот"
+
+#: GuitarScene.py:1652
+#: GuitarScene.py:1661
+msgid "  Change Song"
+msgstr "Промена песна"
+
+#: GuitarScene.py:1653
+msgid "  Practice"
+msgstr "Пракса"
+
+#: GuitarScene.py:1654
+#: GuitarScene.py:1663
+msgid "  Settings"
+msgstr "Подесувања"
+
+#: GuitarScene.py:1655
+#: GuitarScene.py:1664
+msgid "  Quit to Main Menu"
+msgstr "Престанам да Главно Мени"
+
+#: GuitarScene.py:1662
+msgid "  End Song"
+msgstr "Крајот песна"
+
+#: GuitarScene.py:1669
+#: GuitarScene.py:1676
+msgid " Try Again?"
+msgstr "Обидете се повторно?"
+
+#: GuitarScene.py:1670
+#: GuitarScene.py:1677
+msgid "  Give Up?"
+msgstr "Се откажат?"
+
+#: GuitarScene.py:1671
+msgid "  Practice?"
+msgstr "Пракса?"
+
+#: GuitarScene.py:1672
+#: GuitarScene.py:1678
+msgid "Quit to Main"
+msgstr "Престанам да Старт"
+
+#: GuitarScene.py:1686
+#: GuitarScene.py:1695
+msgid "   RESUME"
+msgstr "Продолжи"
+
+#: GuitarScene.py:1687
+#: GuitarScene.py:1696
+msgid "   RESTART"
+msgstr "Рестартирајте"
+
+#: GuitarScene.py:1688
+#: GuitarScene.py:1697
+msgid "   CHANGE SONG"
+msgstr "ПРОМЕНА песна"
+
+#: GuitarScene.py:1689
+msgid "   PRACTICE"
+msgstr "Пракса"
+
+#: GuitarScene.py:1690
+#: GuitarScene.py:1699
+msgid "   SETTINGS"
+msgstr "SETTINGS"
+
+#: GuitarScene.py:1691
+#: GuitarScene.py:1700
+msgid "   QUIT"
+msgstr "Напушти"
+
+#: GuitarScene.py:1698
+msgid "   END SONG"
+msgstr "END песна"
+
+#: GuitarScene.py:1705
+#: GuitarScene.py:1712
+msgid " RETRY"
+msgstr "Да се обидете повторно"
+
+#: GuitarScene.py:1707
+msgid " PRACTICE"
+msgstr "Пракса"
+
+#: GuitarScene.py:1708
+#: GuitarScene.py:1714
+msgid " QUIT"
+msgstr "Напушти"
+
+#: GuitarScene.py:6488
+#, python-format
+msgid "FPS: %.2f"
+msgstr "FPS: %.2f"
+
+#: Language.py:62
+msgid "Language"
+msgstr "Јазик"
+
+#: Language.py:62
+msgid "Change the game language!"
+msgstr "Промена на играта јазикот!"
+
+#: Lobby.py:39
+#: MainMenu.py:294
+msgid "Your controls are not properly set up for this mode. Please check your settings."
+msgstr "Твојот контроли не се правилно поставени за овој режим. Ве молиме проверете ги Вашите поставки."
+
+#: Lobby.py:43
+msgid "World error. Please try again."
+msgstr "Светот грешка. Ве молиме обидете се повторно."
+
+#: Lobby.py:167
+msgid "Choose Your Character"
+msgstr "Изберете вашиот карактер"
+
+#: Lobby.py:168
+#: Lobby.py:750
+#, python-format
+msgid "Player %d"
+msgstr "Плеер %d"
+
+#: Lobby.py:170
+msgid "Regular Drums"
+msgstr "Редовен тапани"
+
+#: Lobby.py:170
+msgid "Flipped Drums"
+msgstr "Flipped тапани"
+
+#: Lobby.py:171
+msgid "Pedal-Using"
+msgstr "Педал-Користење"
+
+#: Lobby.py:171
+msgid "Footless"
+msgstr "Клинове"
+
+#: Lobby.py:172
+msgid "Assist Mode Off"
+msgstr "Помогне Режим на исклучен"
+
+#: Lobby.py:172
+#: Lobby.py:503
+#: Player.py:211
+msgid "Easy Assist"
+msgstr "Лесно Асист"
+
+#: Lobby.py:172
+#: Lobby.py:503
+#: Player.py:211
+msgid "Medium Assist"
+msgstr "Медиум Асист"
+
+#: Lobby.py:173
+msgid "Chordmaster"
+msgstr "Chordmaster"
+
+#: Lobby.py:173
+msgid "Two Notes Max"
+msgstr "Две Забелешки Макс"
+
+#: Lobby.py:174
+msgid "Information:"
+msgstr "Информации:"
+
+#: Lobby.py:188
+msgid "Create New Player"
+msgstr "Креирај нов играч"
+
+#: Lobby.py:188
+msgid "Saved Characters"
+msgstr "Зачувани Лица"
+
+#: Lobby.py:502
+#: Player.py:207
+msgid "Default Neck"
+msgstr "Стандардна врат"
+
+#: Lobby.py:502
+#: Player.py:207
+msgid "Theme Neck"
+msgstr "Тема врат"
+
+#: Lobby.py:502
+msgid "Select a Neck"
+msgstr "Изберете еден врат"
+
+#: Lobby.py:504
+msgid "Name"
+msgstr "Името"
+
+#: Lobby.py:504
+msgid "Name your character!"
+msgstr "Име вашиот карактер!"
+
+#: Lobby.py:505
+#: Player.py:208
+msgid "Lefty Mode"
+msgstr "Лефти Режим"
+
+#: Lobby.py:505
+msgid "Flip the guitar frets for left-handed playing!"
+msgstr "Flip на гитара frets за левак игра!"
+
+#: Lobby.py:506
+#: Player.py:209
+msgid "Drum Flip"
+msgstr "Drum Флип"
+
+#: Lobby.py:506
+msgid "Flip the drum sounds - snare becomes crash, and so on"
+msgstr "Flip на тапанот звуци - примка станува несреќата, и така натаму"
+
+#: Lobby.py:507
+msgid "Auto-Kick Bass"
+msgstr "Авто-Kick Бас"
+
+#: Lobby.py:507
+msgid "Feet uncooperative? Broke your pedal? Not to worry!"
+msgstr "Нозете несоработка? Скршил педалата? Не да се грижиш!"
+
+#: Lobby.py:508
+#: Player.py:211
+msgid "Assist Mode"
+msgstr "Помогне на режимот на"
+
+#: Lobby.py:508
+msgid "Play hard and expert, even when you're not that good!"
+msgstr "Игра тешко и експерт, дури и кога не си тоа добро!"
+
+#: Lobby.py:509
+#: Player.py:190
+#: Player.py:210
+msgid "Two-Chord Max"
+msgstr "Две-Хорда Макс"
+
+#: Lobby.py:509
+msgid "For those still playing with uncooperative keyboards."
+msgstr "За оние кои се уште си игра со несоработка клавијатури."
+
+#: Lobby.py:510
+msgid "Give the endless procession of notes a bit of flair!"
+msgstr "Даде на бескрајни процесијата на белешки малку талент!"
+
+#: Lobby.py:511
+msgid "Upload Name"
+msgstr "Додадени Име"
+
+#: Lobby.py:511
+msgid "To the internet, you are GUITARGOD23047124!"
+msgstr "На интернет, вие сте GUITARGOD23047124!"
+
+#: Lobby.py:512
+msgid "Choose Avatar"
+msgstr "Изберете Аватар"
+
+#: Lobby.py:512
+msgid "A 256x256 window into your soul."
+msgstr "А 256x256 прозор во твојата душа."
+
+#: Lobby.py:513
+msgid "Delete Character"
+msgstr "Избриши карактер"
+
+#: Lobby.py:513
+msgid "Quitter."
+msgstr "Несигурен човек."
+
+#: Lobby.py:514
+msgid "Done"
+msgstr "Признаена"
+
+#: Lobby.py:514
+msgid "All finished? Let's do this thing!"
+msgstr "Сите завршени? Ајде да го направите ова нешто!"
+
+#: Lobby.py:549
+msgid "Are you sure you want to delete this player?"
+msgstr "Дали сте сигурни дека сакате да го избришете овој играч?"
+
+#: Lobby.py:560
+msgid "That is a terrible name. Choose something not 'default'"
+msgstr "Тоа е страшно име. Изберете нешто што не 'стандардно'"
+
+#: Lobby.py:575
+msgid "That name already exists!"
+msgstr "Тоа име веќе постои!"
+
+#: Lobby.py:577
+msgid "Please enter a name!"
+msgstr "Внесете име!"
+
+#: MainMenu.py:150
+msgid "Tutorials"
+msgstr "Помагала"
+
+#: MainMenu.py:151
+msgid "Practice"
+msgstr "Пракса"
+
+#: MainMenu.py:165
+msgid "Face-Off"
+msgstr "Лице-Off"
+
+#: MainMenu.py:166
+msgid "Pro Face-Off"
+msgstr "Про лице-Off"
+
+#: MainMenu.py:167
+msgid "Party Mode"
+msgstr "Режим на партијата"
+
+#: MainMenu.py:168
+msgid "FoFiX Co-Op"
+msgstr "FoFiX Co-op"
+
+#: MainMenu.py:169
+msgid "RB Co-Op"
+msgstr "RB Co-op"
+
+#: MainMenu.py:170
+msgid "GH Co-Op"
+msgstr "GH Co-op"
+
+#: MainMenu.py:171
+msgid "GH Battle"
+msgstr "GH Битката"
+
+#: MainMenu.py:188
+msgid "Solo Tour"
+msgstr "Соло турнеја"
+
+#: MainMenu.py:189
+msgid "Quickplay"
+msgstr "Quickplay"
+
+#: MainMenu.py:236
+#, python-format
+msgid "This binary release is being run from a %(currentVcs)s working copy. This is not the correct way to run FoFiX from %(currentVcs)s. Please see one of the following web pages to set your %(currentVcs)s working copy up correctly:"
+msgstr "Оваа бинарни порака ќе се кандидира од %(currentVcs)s работна копија. Ова не е правилен начин за да ја извршите FoFiX од %(currentVcs)s. Ве молиме погледнете една од следниве веб страници, за да го поставите вашиот %(currentVcs)s работна копија правилно:"
+
+#: MainMenu.py:240
+#, python-format
+msgid "This binary was built from a %(buildVcs)s working copy but is not running from one. The FoFiX Team will not provide any support whatsoever for this binary. Please see the following site for official binary releases:"
+msgstr "Оваа бинарни била изградена од %(buildVcs)s работна копија, но не е трчање од еден. На FoFiX тим нема да обезбеди каква било поддршка на она што за оваа бинарни. Ве молиме видете ја следнава страница за официјалната бинарни изданија:"
+
+#: MainMenu.py:312
+msgid "No tutorials found!"
+msgstr "Без вежби е пронајдена!"
+
+#: Microphone.py:50
+msgid "[Default Microphone]"
+msgstr "[Default микрофон]"
+
+#: Microphone.py:183
+msgid "[Microphones not supported]"
+msgstr "[Микрофон не се поддржани]"
+
+#: Player.py:169
+msgid "Name your controller."
+msgstr "Името на вашата контролер."
+
+#: Player.py:170
+msgid "Move left"
+msgstr "Се движи лево"
+
+#: Player.py:171
+msgid "Move right"
+msgstr "Премести надесно"
+
+#: Player.py:172
+msgid "Move up"
+msgstr "Се движат нагоре"
+
+#: Player.py:173
+msgid "Move down"
+msgstr "Надолу"
+
+#: Player.py:174
+msgid "Pick"
+msgstr "Трансферот"
+
+#: Player.py:175
+msgid "Secondary Pick"
+msgstr "Средно Трансферот"
+
+#: Player.py:175
+msgid "Bass Drum 2"
+msgstr "Бас Тапани 2"
+
+#: Player.py:181
+msgid "Solo Fret #1"
+msgstr "Соло Fret # 1"
+
+#: Player.py:181
+msgid "Solo Key"
+msgstr "Клучни соло"
+
+#: Player.py:181
+#: Player.py:196
+msgid "Analog Slider"
+msgstr "Аналогни лизгачот"
+
+#: Player.py:182
+msgid "Solo Fret #2"
+msgstr "Соло Fret # 2"
+
+#: Player.py:183
+msgid "Solo Fret #3"
+msgstr "Соло Fret # 3"
+
+#: Player.py:184
+msgid "Solo Fret #4"
+msgstr "Соло Fret # 4"
+
+#: Player.py:185
+msgid "Solo Fret #5"
+msgstr "Соло Fret # 5"
+
+#: Player.py:186
+msgid "Cancel"
+msgstr "Откажи"
+
+#: Player.py:187
+msgid "StarPower"
+msgstr "StarPower"
+
+#: Player.py:190
+msgid "When enabled, the highest notes in large note chords are auto-played."
+msgstr "Кога е овозможено, што е највисока белешки во голем белешка акорди се авто-игра."
+
+#: Player.py:191
+msgid "Controller Type"
+msgstr "Контролор Вид"
+
+#: Player.py:191
+msgid "Standard Guitar"
+msgstr "Стандардна гитара"
+
+#: Player.py:191
+msgid "Solo Shift Guitar"
+msgstr "Соло гитара Shift"
+
+#: Player.py:191
+msgid "Drum Set (4-Drum)"
+msgstr "Drum Поставете (4-Тапани)"
+
+#: Player.py:191
+msgid "Analog Slide Guitar"
+msgstr "Аналогни гитарски \"слајд\""
+
+#: Player.py:191
+msgid "Microphone"
+msgstr "Микрофон"
+
+#: Player.py:191
+msgid "'Standard Guitar' is for keyboards and pre-WT GH-series guitars. 'Solo Shift Guitar' is for RB-series guitars and keyboards who want to use a shift key for solo frets. 'Analog Slide Guitar' is for guitars with an analog slider bar."
+msgstr "\"Стандард гитара 'е за тастатури и пред-WT ГХ-серија гитари. \"Соло Shift гитара 'е за RB-серија гитари и клавијатури кој сакате да го користите промена клуч за соло frets. 'Аналоген гитарски \"слајд\" е за гитари со аналогни лизгачот бар."
+
+#: Player.py:192
+msgid "Analog SP"
+msgstr "Аналогни СП"
+
+#: Player.py:192
+msgid "Enables analog SP (as in the XBOX Xplorer controller.)"
+msgstr "Им овозможува на аналогни СП (како во XBOX Xplorer контролер.)"
+
+#: Player.py:193
+msgid "Analog SP Threshold"
+msgstr "Аналогни СП Праг"
+
+#: Player.py:193
+msgid "Sets a threshold level for activating SP in analog mode."
+msgstr "Поставува праг ниво за активирање на СП во аналоген режим."
+
+#: Player.py:194
+msgid "Analog SP Sensitivity"
+msgstr "Аналогни СП чувствителност"
+
+#: Player.py:194
+msgid "Sets the sensitivity for activating SP in analog mode."
+msgstr "Поставува чувствителност за активирање на СП во аналоген режим."
+
+#: Player.py:195
+msgid "Analog Drums"
+msgstr "Аналогни тапани"
+
+#: Player.py:195
+#: Player.py:197
+msgid "PS2/PS3/Wii"
+msgstr "PS2/PS3/Wii"
+
+#: Player.py:195
+#: Player.py:197
+msgid "XBOX"
+msgstr "XBOX"
+
+#: Player.py:195
+#: Player.py:197
+msgid "XBOX Inv."
+msgstr "XBOX Inv."
+
+#: Player.py:195
+msgid "Enables analog drums as in RB2 and GH drumsets."
+msgstr "Им овозможува на аналогни тапани, како и во RB2 и GH drumsets."
+
+#: Player.py:196
+msgid "Inverted"
+msgstr "Инвертен"
+
+#: Player.py:196
+msgid "Experimental testing for the analog slide mode."
+msgstr "Експериментални тестирање за аналогни слајд режим."
+
+#: Player.py:197
+msgid "Analog Effects"
+msgstr "Аналогни ефект"
+
+#: Player.py:197
+msgid "Enables analog whammy bar. Set to the system your controller was designed for."
+msgstr "Им овозможува на аналогни уроки бар. Поставете го системот е дизајниран за вашите контролер за."
+
+#: Player.py:198
+msgid "Sound FX Switch"
+msgstr "Звук FX Switch"
+
+#: Player.py:198
+msgid "Switch"
+msgstr "Исклучете"
+
+#: Player.py:198
+msgid "Cycle"
+msgstr "Циклус"
+
+#: Player.py:199
+msgid "Microphone Device"
+msgstr "Уред за микрофон"
+
+#: Player.py:200
+msgid "Tap Sensitivity"
+msgstr "Допрете чувствителност"
+
+#: Player.py:200
+msgid "Sets how sensitive the microphone is to being tapped."
+msgstr "Поставува како чувствителни микрофонот е да се биде избран."
+
+#: Player.py:201
+msgid "Passthrough Volume"
+msgstr "Passthrough Година"
+
+#: Player.py:201
+msgid "Sets how loud you hear yourself singing."
+msgstr "Поставува како гласно ќе слушнете себеси пеење."
+
+#: Player.py:207
+msgid "Neck Type"
+msgstr "Вид вратот"
+
+#: Player.py:207
+msgid "Specific Neck"
+msgstr "Специфични врат"
+
+#: Player.py:212
+msgid "Auto Kick"
+msgstr "Авто Kick"
+
+#: Player.py:385
+msgid "Default Drum"
+msgstr "Вообичаената вредност барабан"
+
+#: Player.py:390
+#, python-format
+msgid "Controller %d"
+msgstr "Контролор %d"
+
+#: Player.py:391
+#, python-format
+msgid "Select the controller for slot %d"
+msgstr "Изберете контролорот за слот %d"
+
+#: Player.py:754
+#, python-format
+msgid "%s conflicts with %s"
+msgstr "%s во судир со %s"
+
+#: Player.py:842
+#, python-format
+msgid "This key conflicts with the following keys: %s"
+msgstr "Овој клуч конфликти со следните копчиња: %s"
+
+#: Scorekeeper.py:30
+msgid "Auto Kick Bass"
+msgstr "Авто Kick Бас"
+
+#: Scorekeeper.py:30
+msgid "Medium Assist Mode"
+msgstr "Медиум ас Режим"
+
+#: Scorekeeper.py:30
+msgid "Easy Assist Mode"
+msgstr "Лесно ас Режим"
+
+#: Scorekeeper.py:30
+msgid "Jurgen Played!"
+msgstr "Јурген игра!"
+
+#: Scorekeeper.py:31
+msgid "Effects Saved SP"
+msgstr "Ефекти логираните СП"
+
+#: Scorekeeper.py:31
+msgid "All Tapping"
+msgstr "Сите Навлегувањето"
+
+#: Scorekeeper.py:31
+msgid "HOPO Frequency: Most"
+msgstr "HOPO Фреквенција: Повеќето"
+
+#: Scorekeeper.py:31
+msgid "HOPO Frequency: Even More"
+msgstr "HOPO Фреквенција: Дури Повеќе"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: More"
+msgstr "HOPO Фреквенција: Повеќе"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: Less"
+msgstr "HOPO Фреквенција: Помалку"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: Least"
+msgstr "HOPO Фреквенција: Најмалку"
+
+#: Scorekeeper.py:32
+msgid "HOPO Disabled!"
+msgstr "HOPO Петров!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Tightest!"
+msgstr "Хит прозорецот: Tightest!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Tight!"
+msgstr "Хит прозорецот: слабо!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Wider"
+msgstr "Хит прозорецот: Wider"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Widest"
+msgstr "Хит прозорецот: најширокиот"
+
+#: Scorekeeper.py:34
+msgid "Two Note Chords"
+msgstr "Две Забелешка акорди"
+
+#: Scorekeeper.py:34
+msgid "No Fail Mode"
+msgstr "Не успеаја Режим"
+
+#: Scorekeeper.py:34
+msgid "Sloppy Mode!"
+msgstr "Невешт мод!"
+
+#: Scorekeeper.py:35
+msgid "Song Slowdown"
+msgstr "Песна застој"
+
+#: Scorekeeper.py:35
+msgid "Early Hit Window Adjustment"
+msgstr "Почетокот на Хит прозорецот Прилагодување"
+
+#: Settings.py:250
+#, python-format
+msgid "Press a key for '%s' or hold Escape to disable."
+msgstr "Притиснете копче за '%s 'или имаат Бегство за да се оневозможи."
+
+#: Settings.py:252
+#, python-format
+msgid "Press a key for '%s' or hold Escape to cancel."
+msgstr "Притиснете копче за '%s 'или имаат Бегство да го откажете."
+
+#: Settings.py:302
+msgid "No Controllers Found."
+msgstr "Не Контролери најдени."
+
+#: Settings.py:350
+msgid "Are you sure you want to delete this controller?"
+msgstr "Дали сте сигурни дека сакате да го избришете овој контролер?"
+
+#: Settings.py:374
+msgid "Please name your controller"
+msgstr "Ве молиме името на вашата контролер"
+
+#: Settings.py:376
+#: Settings.py:626
+msgid "That name is already taken."
+msgstr "Тоа име е веќе зафатено."
+
+#: Settings.py:378
+#: Settings.py:628
+msgid "Canceled."
+msgstr "Откажана."
+
+#: Settings.py:450
+#: Settings.py:487
+#: Settings.py:517
+#: Settings.py:546
+#: Settings.py:584
+#: Settings.py:612
+msgid "Rename Controller"
+msgstr "Преименувај контролор"
+
+#: Settings.py:473
+msgid "Press the solo shift key. Be sure to assign the frets first! Hold Escape to cancel."
+msgstr "Притиснете го копчето за соло промена клуч. Бидете сигурни да му ја додели frets на прво место! Држете Бегство да го откажете."
+
+#: Settings.py:569
+msgid "Press the highest fret on the slider. Hold Escape to cancel."
+msgstr "Прес на највисоко секирај на лизгачот. Држете Бегство да го откажете."
+
+#: Settings.py:624
+msgid "Please rename your controller"
+msgstr "Ве молиме преименувајте вашиот контролер"
+
+#: Settings.py:752
+msgid "Battle Objects"
+msgstr "Битка објекти"
+
+#: Settings.py:752
+msgid "Set which objects can appear in Battle Mode"
+msgstr "Постави кои предмети може да се појави во битката Режим"
+
+#: Settings.py:767
+msgid "Advanced Gameplay Settings"
+msgstr "Напредно Gameplay Подесувања"
+
+#: Settings.py:767
+msgid "Set advanced gameplay settings that affect the game rules."
+msgstr "Постави напредни игра поставувања кои влијаат на правила на играта."
+
+#: Settings.py:768
+msgid "Vocal Mode Settings"
+msgstr "Вокално Режим Подесувања"
+
+#: Settings.py:768
+msgid "Change settings that affect lyrics and in-game vocals."
+msgstr "Промена на поставки кои влијаат на текстови и во играта вокал."
+
+#: Settings.py:769
+msgid "HO/PO Settings"
+msgstr "ХО / PO Подесувања"
+
+#: Settings.py:769
+msgid "Change settings that affect hammer-ons and pull-offs (HO/PO)."
+msgstr "Промена на поставки кои влијаат чекан-ons и pull-off (ХО / Po)."
+
+#: Settings.py:770
+msgid "Battle Settings"
+msgstr "Битка Подесувања"
+
+#: Settings.py:770
+msgid "Change settings that affect battle mode."
+msgstr "Промена на поставки кои влијаат на битката на владата."
+
+#: Settings.py:776
+#: Settings.py:1218
+msgid "Test Controller 1"
+msgstr "Тест контролор 1"
+
+#: Settings.py:776
+#: Settings.py:1218
+msgid "Test the controller configured for slot 1."
+msgstr "Тест на контролорот конфигуриран за слот 1."
+
+#: Settings.py:777
+#: Settings.py:1219
+msgid "Test Controller 2"
+msgstr "Тест контролор 2"
+
+#: Settings.py:777
+#: Settings.py:1219
+msgid "Test the controller configured for slot 2."
+msgstr "Тест на контролорот конфигуриран за слот 2."
+
+#: Settings.py:778
+#: Settings.py:1220
+msgid "Test Controller 3"
+msgstr "Тест контролор 3"
+
+#: Settings.py:778
+#: Settings.py:1220
+msgid "Test the controller configured for slot 3."
+msgstr "Тест на контролорот конфигуриран за слот 3."
+
+#: Settings.py:779
+#: Settings.py:1221
+msgid "Test Controller 4"
+msgstr "Тест контролор 4"
+
+#: Settings.py:779
+#: Settings.py:1221
+msgid "Test the controller configured for slot 4."
+msgstr "Тест на контролорот конфигуриран за слот 4."
+
+#: Settings.py:818
+msgid "More Effects"
+msgstr "Повеќе ефект"
+
+#: Settings.py:818
+msgid "Change the settings of the shader system."
+msgstr "Промена на поставките на Shader систем."
+
+#: Settings.py:834
+msgid "Change Neck Transparency"
+msgstr "Промена врат Транспарентност"
+
+#: Settings.py:834
+msgid "Change the transparency of the various in-game necks."
+msgstr "Промена на транспарентноста на различни во играта врат."
+
+#: Settings.py:847
+msgid "Theme Display Settings"
+msgstr "Тема Display Settings"
+
+#: Settings.py:847
+msgid "Change settings that only affect certain theme types."
+msgstr "Промена на поставки дека само влијае на одредени типови тема."
+
+#: Settings.py:866
+#: Settings.py:1239
+msgid "Video Resolution"
+msgstr "Видео резолуција"
+
+#: Settings.py:866
+#: Settings.py:1239
+msgid "Set the resolution of the game. In windowed mode, higher values mean a larger screen."
+msgstr "Поставување на резолуција на играта. Во windowed мод, повисоки вредности значи поголем екран."
+
+#: Settings.py:873
+msgid "Stages Options"
+msgstr "Фази Опции"
+
+#: Settings.py:873
+msgid "Change settings related to the in-game background."
+msgstr "Промена на поставки кои се однесуваат на во-игра позадина."
+
+#: Settings.py:874
+#: Settings.py:1246
+msgid "Choose Default Neck >"
+msgstr "Изберете стандардно врат>"
+
+#: Settings.py:874
+#: Settings.py:1246
+msgid "Choose your default neck. You still have to choose which neck you use for your character in the character select screen."
+msgstr "Изберете стандардно вратот. Вие се уште треба да изберете кои вратот ја користите за вашиот карактер во ликот одберете екран."
+
+#: Settings.py:875
+msgid "Fretboard Settings"
+msgstr "Вратот Подесувања"
+
+#: Settings.py:875
+msgid "Change settings related to the fretboard."
+msgstr "Промена на поставки кои се однесуваат на вратот."
+
+#: Settings.py:876
+#: Settings.py:1247
+msgid "In-Game Display Settings"
+msgstr "Во играта Display Settings"
+
+#: Settings.py:876
+#: Settings.py:1247
+msgid "Change what and where things appear in-game."
+msgstr "Промени што и каде работи се појави во играта."
+
+#: Settings.py:877
+msgid "Advanced Video Settings"
+msgstr "Напредно поставените видео параметри"
+
+#: Settings.py:877
+msgid "Change advanced video settings."
+msgstr "Промена напредни видео поставувањата."
+
+#: Settings.py:905
+#: Settings.py:1266
+msgid "Volume Settings"
+msgstr "Том Подесувања"
+
+#: Settings.py:905
+#: Settings.py:1266
+msgid "Change the volume of game sounds."
+msgstr "Промена на волуменот на играта звуци."
+
+#: Settings.py:914
+msgid "Advanced Audio Settings"
+msgstr "Напредно Аудио Подесувања"
+
+#: Settings.py:914
+msgid "Change advanced audio settings."
+msgstr "Промена напредни аудио поставувања."
+
+#: Settings.py:956
+#: Settings.py:1281
+msgid "Change Setlist Path >"
+msgstr "Промена Setlist Пат>"
+
+#: Settings.py:956
+#: Settings.py:1281
+msgid "Set the path to a folder named 'songs' that contains your songs."
+msgstr "Поставете на патот кон папка со име 'песни', која содржи вашите песни."
+
+#: Settings.py:988
+msgid "Debug Settings"
+msgstr "Debug Подесувања"
+
+#: Settings.py:988
+msgid "Settings for coders to debug. Probably not worth changing."
+msgstr "Подесувања за Coders да debug. Веројатно не вреди да се менува."
+
+#: Settings.py:989
+msgid "Log Settings"
+msgstr "Пријавете се Подесувања"
+
+#: Settings.py:989
+msgid "Adds junk information to the logfile. Probably not useful in bug reports."
+msgstr "Додава ѓубре информации на лог датотеката. Веројатно не корисен во извештаи за грешки."
+
+#: Settings.py:994
+msgid "AI Settings"
+msgstr "Пи Подесувања"
+
+#: Settings.py:994
+msgid "Change the settings of the AI"
+msgstr "Промена на поставките на АИ"
+
+#: Settings.py:1003
+#: Settings.py:1356
+msgid "Mod settings"
+msgstr "Современи поставки"
+
+#: Settings.py:1003
+#: Settings.py:1356
+msgid "Enable or disable any mods you have installed."
+msgstr "Овозможи или оневозможи било Умерени сте го инсталирале."
+
+#: Settings.py:1008
+#: Settings.py:1298
+msgid "Gameplay Settings"
+msgstr "Игра Подесувања"
+
+#: Settings.py:1008
+#: Settings.py:1298
+msgid "Settings that affect the rules of the game."
+msgstr "Подесувања кои влијаат на правилата на игра."
+
+#: Settings.py:1009
+#: Settings.py:1299
+msgid "Control Settings"
+msgstr "Контрола Подесувања"
+
+#: Settings.py:1009
+#: Settings.py:1299
+msgid "Create, delete, and edit your controls."
+msgstr "Креирање, избришете, и уреди контроли."
+
+#: Settings.py:1010
+#: Settings.py:1300
+msgid "Display Settings"
+msgstr "Display Settings"
+
+#: Settings.py:1010
+#: Settings.py:1300
+msgid "Theme, neck, resolution, etc."
+msgstr "Тема, вратот, резолуција, итн"
+
+#: Settings.py:1011
+#: Settings.py:1301
+msgid "Audio Settings"
+msgstr "Аудио Подесувања"
+
+#: Settings.py:1011
+#: Settings.py:1301
+msgid "Volume controls, etc."
+msgstr "Обем на контроли, итн"
+
+#: Settings.py:1012
+#: Settings.py:1302
+msgid "Setlist Settings"
+msgstr "Setlist Подесувања"
+
+#: Settings.py:1012
+#: Settings.py:1302
+msgid "Settings that affect the setlist."
+msgstr "Подесувања кои влијаат на setlist."
+
+#: Settings.py:1013
+msgid "Advanced Settings"
+msgstr "Напредни поставувања"
+
+#: Settings.py:1013
+msgid "Settings that probably don't need to be changed."
+msgstr "Подесувања кои најверојатно не треба да се промени."
+
+#: Settings.py:1014
+#: Settings.py:1303
+msgid "Mods, Cheats, AI"
+msgstr "Умерени, Хитрини, AI"
+
+#: Settings.py:1014
+#: Settings.py:1303
+msgid "Set Jurgen to play for you, or other cheats."
+msgstr "Постави Јурген да игра за вас, или други претвора во рогоносец."
+
+#: Settings.py:1015
+#: Settings.py:1304
+#, python-format
+msgid "%s Credits"
+msgstr "%s Кредити"
+
+#: Settings.py:1015
+#: Settings.py:1304
+msgid "See who made this game."
+msgstr "Видете кој направил оваа игра."
+
+#: Settings.py:1016
+#: Settings.py:1305
+msgid "Quickset"
+msgstr "Жив плет"
+
+#: Settings.py:1016
+#: Settings.py:1305
+msgid "A quick way to set many advanced settings."
+msgstr "А брз начин за поставување на многу напредни поставувања."
+
+#: Settings.py:1017
+msgid "Hide Advanced Options"
+msgstr "Скриј Напредни опции"
+
+#: Settings.py:1047
+#: Settings.py:1320
+msgid "FoFiX needs to restart to apply setting changes."
+msgstr "FoFiX треба да го рестартирате да се применуваат поставување промени."
+
+#: Settings.py:1066
+#: Settings.py:1328
+msgid "Test Controls"
+msgstr "Тест контролс \""
+
+#: Settings.py:1066
+#: Settings.py:1328
+msgid "Go here to test your controllers."
+msgstr "Одете овде за да ги тестираат вашите контролери."
+
+#: Settings.py:1071
+#: Settings.py:1333
+msgid "New Controller"
+msgstr "Нов контролер"
+
+#: Settings.py:1071
+#: Settings.py:1333
+msgid "Create a new controller to use."
+msgstr "Креирај нов контролер да го користите."
+
+#: Settings.py:1072
+#: Settings.py:1334
+msgid "Edit Controller"
+msgstr "Уредување на контролор"
+
+#: Settings.py:1072
+#: Settings.py:1334
+msgid "Edit a controller you have created."
+msgstr "Уредување на контролер имаш креирано."
+
+#: Settings.py:1073
+#: Settings.py:1335
+msgid "Delete Controller"
+msgstr "Избриши контролор"
+
+#: Settings.py:1073
+#: Settings.py:1335
+msgid "Delete a controller you have created."
+msgstr "Избришете контролер имаш креирано."
+
+#: Settings.py:1089
+#: Settings.py:1366
+msgid "You must specify a controller for slot 1!"
+msgstr "Мора да наведеш контролер за слот 1!"
+
+#: Settings.py:1095
+#: Settings.py:1372
+#, python-format
+msgid "Controllers in slots %d and %d conflict. Setting %d to None."
+msgstr "Контролори во слотови %d и %d конфликт. Поставување на %d да нема."
+
+#: Settings.py:1104
+#: Settings.py:1381
+#, python-format
+msgid "%d more conflicts."
+msgstr "%d повеќе конфликти."
+
+#: Settings.py:1149
+#: Settings.py:1411
+msgid "Choose a new songs directory."
+msgstr "Изберете нови песни, нови директориум."
+
+#: Settings.py:1306
+msgid "See Advanced Options"
+msgstr "Види Напредни опции"
+
+#: Settings.py:1600
+msgid "Cheats"
+msgstr "Хитрини"
+
+#: Song.py:132
+msgid "Guitar"
+msgstr "Гитара"
+
+#: Song.py:133
+msgid "Rhythm"
+msgstr "Ритам"
+
+#: Song.py:134
+msgid "Bass"
+msgstr "Бас"
+
+#: Song.py:135
+msgid "Lead"
+msgstr "Води"
+
+#: Song.py:136
+msgid "Drums"
+msgstr "Тапани"
+
+#: Song.py:137
+msgid "Vocals"
+msgstr "Вокали"
+
+#: Song.py:162
+msgid "Easy"
+msgstr "Лесно"
+
+#: Song.py:163
+msgid "Medium"
+msgstr "Медиум"
+
+#: Song.py:164
+msgid "Hard"
+msgstr "Тешко"
+
+#: Song.py:165
+msgid "Expert"
+msgstr "Експерт"
+
+#: Song.py:227
+msgid "NoName"
+msgstr "NoName"
+
+#: Song.py:960
+msgid "This song is locked."
+msgstr "Оваа песна е заклучена."
+
+#: Song.py:1166
+msgid "Reset Career"
+msgstr "Ресетирање на кариера"
+
+#: Song.py:1213
+msgid "   (Random Song)"
+msgstr "(Вообичаени песна)"
+
+#: Song.py:4171
+msgid "End of Career"
+msgstr "Крајот на кариерата"
+
+#: Song.py:4434
+#: Song.py:4437
+msgid "Checking song database..."
+msgstr "Проверка на песна базата на податоци ..."
+
+#: Song.py:4444
+#, python-format
+msgid "Enumerating song folders... (%d so far)"
+msgstr "Енумерација на песна папки ... (%d досега)"
+
+#: Song.py:4448
+msgid "Caching song data..."
+msgstr "Кеширање песна податоци ..."
+
+#: Song.py:4448
+#, python-format
+msgid "(folder %d of %d; %d%% of this folder)"
+msgstr "(Папка %d од %d; %d%% на оваа папка)"
+
+#: Song.py:4449
+msgid "Pruning leftover entries..."
+msgstr "Автоматското чистење рецидив записи ..."
+
+#: SongChoosingScene.py:104
+msgid "Initializing Setlist..."
+msgstr "Иницијализацијата Setlist ..."
+
+#: SongChoosingScene.py:106
+msgid "Checking Command-Line Settings..."
+msgstr "Проверка на командната линија Опции ..."
+
+#: SongChoosingScene.py:108
+msgid "Checking Setlist Settings..."
+msgstr "Проверка на Setlist Опции ..."
+
+#: SongChoosingScene.py:265
+#: SongChoosingScene.py:267
+#: SongChoosingScene.py:277
+msgid "Browsing Collection..."
+msgstr "Сурфање колекција ..."
+
+#: SongChoosingScene.py:327
+#: SongChoosingScene.py:337
+msgid "No songs in this setlist are available to play!"
+msgstr "Не песни во оваа setlist се достапни да се игра!"
+
+#: SongChoosingScene.py:329
+#: SongChoosingScene.py:339
+msgid "Make sure you have a working career pack!"
+msgstr "Осигурајте се дека имате работна кариера пакет!"
+
+#: SongChoosingScene.py:389
+#: SongChoosingScene.py:496
+msgid "Loading Album Artwork..."
+msgstr "Loading албум Artwork ..."
+
+#: SongChoosingScene.py:423
+#: SongChoosingScene.py:634
+msgid "There are no drum parts in this song. Change your controllers to play."
+msgstr "Нема тапан делови во оваа песна. Промена на вашата контролори да играат."
+
+#: SongChoosingScene.py:431
+#: SongChoosingScene.py:637
+msgid "There are no guitar parts in this song. Change your controllers to play."
+msgstr "Нема гитара делови во оваа песна. Промена на вашата контролори да играат."
+
+#: SongChoosingScene.py:439
+#: SongChoosingScene.py:640
+msgid "There are no vocal parts in this song. Change your controllers to play."
+msgstr "Нема вокални делови во оваа песна. Промена на вашата контролори да играат."
+
+#: SongChoosingScene.py:457
+#, python-format
+msgid "%s Choose a difficulty:"
+msgstr "%s Изберете тешкотии:"
+
+#: Theme.py:1001
+#: Theme.py:1126
+#: Theme.py:1209
+#: Theme.py:1319
+#: Theme.py:1482
+#: Theme.py:1605
+#: Theme.py:2114
+msgid "-- Locked --"
+msgstr "- Заклучени -"
+
+#: Theme.py:1047
+#: Theme.py:1070
+#: Theme.py:1086
+#: Theme.py:1103
+#: Theme.py:1236
+#: Theme.py:1260
+#: Theme.py:1276
+#: Theme.py:1280
+#: Theme.py:1365
+#: Theme.py:1388
+#: Theme.py:1404
+#: Theme.py:1417
+#: Theme.py:1631
+#: Theme.py:1655
+#: Theme.py:1671
+#: Theme.py:1674
+msgid "Nil"
+msgstr "Нил"
+
+#: Theme.py:1432
+#: Theme.py:2055
+#: Theme.py:2060
+#: Theme.py:2096
+msgid "Loading Preview..."
+msgstr "Loading Преглед ..."
+
+#: Theme.py:1440
+#: Theme.py:1549
+msgid "Play To Advance"
+msgstr "Играат за напредување"
+
+#: Theme.py:1446
+#: Theme.py:1555
+msgid "Played Once"
+msgstr "Одиграно Еднаш"
+
+#: Theme.py:1448
+#: Theme.py:1557
+#, python-format
+msgid "Played %d times."
+msgstr "Одиграно %d пати."
+
+#: Theme.py:1455
+#: Theme.py:1571
+msgid "There Is 1 Song In This Setlist."
+msgstr "Има 1 песна на Оваа Setlist."
+
+#: Theme.py:1457
+#: Theme.py:1573
+#, python-format
+msgid "There Are %d Songs In This Setlist."
+msgstr "Постојат %d песни во овој Setlist."
+
+#: Theme.py:1461
+#: Theme.py:1577
+msgid "Tier"
+msgstr "Група"
+
+#: Theme.py:1465
+#: Theme.py:1588
+msgid "Random Song"
+msgstr "Вообичаени песна"
+
+#: Theme.py:2016
+msgid "DIFFICULTY"
+msgstr "Ниво на тешкотија"
+
+#: Theme.py:2018
+msgid "BAND"
+msgstr "БАНД"
+
+#: Theme.py:2020
+msgid "GUITAR"
+msgstr "Гитара"
+
+#: Theme.py:2022
+msgid "DRUM"
+msgstr "Drum"
+
+#: Theme.py:2024
+msgid "BASS"
+msgstr "BASS"
+
+#: Theme.py:2026
+msgid "VOCALS"
+msgstr "Вокали"
+
+#: Theme.py:2032
+msgid "SORTING:"
+msgstr "Сортирањето:"
+
+#: Theme.py:2034
+msgid "ALPHABETICALLY BY TITLE"
+msgstr "По азбучен ред по наслов"
+
+#: Theme.py:2036
+msgid "ALPHABETICALLY BY ARTIST"
+msgstr "По азбучен ред по градежно"
+
+#: Theme.py:2038
+msgid "BY PLAY COUNT"
+msgstr "ОД играше COUNT"
+
+#: Theme.py:2040
+msgid "ALPHABETICALLY BY ALBUM"
+msgstr "По азбучен ред по албумите"
+
+#: Theme.py:2042
+msgid "ALPHABETICALLY BY GENRE"
+msgstr "По азбучен ред по жанр"
+
+#: Theme.py:2044
+msgid "BY YEAR"
+msgstr "По години"
+
+#: Theme.py:2046
+msgid "BY BAND DIFFICULTY"
+msgstr "ОД БЕНД Ниво на тешкотија"
+
+#: Theme.py:2048
+msgid "BY INSTRUMENT DIFFICULTY"
+msgstr "По инструмент Ниво на тешкотија"
+
+#: Theme.py:2050
+msgid "BY SONG COLLECTION"
+msgstr "ПРЕКУ ПЕСНА КОЛЕКЦИЈА"
+
+#: Theme.py:2145
+#, python-format
+msgid "Played %d time"
+msgstr "Одиграно %d време"
+
+#: Theme.py:2147
+#, python-format
+msgid "Played %d times"
+msgstr "Одиграно %d пати"
+
+#: Theme.py:2152
+#: Theme.py:2159
+msgid "Play To Advance."
+msgstr "Играат за напредување."
+
+#: Theme.py:2155
+msgid "Never Played"
+msgstr "Никогаш не одиграл"
+
+#: Theme.py:2219
+msgid "One Song In This Setlist"
+msgstr "Една песна, во овој Setlist"
+
+#: Theme.py:2221
+#, python-format
+msgid "%d Songs In This Setlist"
+msgstr "%d песни во овој Setlist"
+
+#: Theme.py:2230
+msgid "(Random Song)"
+msgstr "(Вообичаени песна)"
+
+#: Theme.py:2428
+msgid "No Album"
+msgstr "Не албум"
+
+#: Theme.py:2433
+msgid "No Genre"
+msgstr "Не жанр"
+
+#: Video.py:151
+msgid "Video setup failed with your resolution settings, and so were reset to defaults."
+msgstr "Видео подесување не успеа со својата Резолуција на поставки, и така беа ресетирање со неплаќање."
+
+#: Vocalist.py:120
+msgid "Amazing!"
+msgstr "Неверојатни!"
+
+#: Vocalist.py:120
+msgid "Great!"
+msgstr "Одлично!"
+
+#: Vocalist.py:120
+msgid "Decent"
+msgstr "Пристоен"
+
+#: Vocalist.py:120
+msgid "Average"
+msgstr "Просечна"
+
+#: Vocalist.py:120
+msgid "Meh"
+msgstr "Meh"
+
+#: Vocalist.py:120
+msgid "Bad"
+msgstr "Лоша"
+
+#: Vocalist.py:120
+msgid "Terrible..."
+msgstr "Страшно ..."
+
+#: Vocalist.py:449
+msgid "Tap!"
+msgstr "Допрете!"
+
+#: World.py:60
+msgid "FoFiX Co-Op Mode"
+msgstr "FoFiX Co-op Режим"
+
+#: World.py:62
+msgid "RB Co-Op Mode"
+msgstr "RB Co-op Режим"
+
+#: World.py:64
+msgid "GH Co-Op Mode"
+msgstr "GH Co-op Режим"
+
+#: World.py:66
+msgid "Battle Mode"
+msgstr "Битка Режим"
+
+#: World.py:73
+msgid "Career Mode"
+msgstr "Режим на кариера"
+

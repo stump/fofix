@@ -1,0 +1,5011 @@
+# -*- coding: utf-8 -*-
+#####################################################################
+#                                                                   #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
+#                                                                   #
+# This program is free software; you can redistribute it and/or     #
+# modify it under the terms of the GNU General Public License       #
+# as published by the Free Software Foundation; either version 2    #
+# of the License, or (at your option) any later version.            #
+#                                                                   #
+# This program is distributed in the hope that it will be useful,   #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of    #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the     #
+# GNU General Public License for more details.                      #
+#                                                                   #
+# You should have received a copy of the GNU General Public License #
+# along with this program; if not, write to the Free Software       #
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,        #
+# MA  02110-1301, USA.                                              #
+#####################################################################
+
+msgid ""
+msgstr ""
+"Project-Id-Version: FoFiX 4 Development\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-19 11:47-0600\n"
+"PO-Revision-Date: 2010-09-19 11:48-0600\n"
+"Last-Translator: Google Translator\n"
+"Language-Team: FoFiX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: Credits.py:125
+msgid "This mod was built on Alarian's mod,"
+msgstr "mod này được xây dựng trên Alarian của mod,"
+
+#: Credits.py:126
+msgid "which was built on UltimateCoffee's Ultimate mod,"
+msgstr "được xây dựng trên mod Ultimate của UltimateCoffee,"
+
+#: Credits.py:127
+msgid "which was built on RogueF's RF_mod 4.15,"
+msgstr "được xây dựng trên RF_mod của RogueF 4,15,"
+
+#: Credits.py:128
+msgid "which was, of course, built on Frets on Fire 1.2.451,"
+msgstr "đó là, tất nhiên, được xây dựng trên phím đàn on Fire 1.2.451,"
+
+#: Credits.py:129
+msgid "which was created by Unreal Voodoo"
+msgstr "mà đã được tạo ra bởi Unreal Voodoo"
+
+#: Credits.py:130
+msgid "No Particular Order"
+msgstr "Không đặt hàng đặc biệt"
+
+#: Credits.py:131
+msgid "Active Coders:"
+msgstr "Active Coders:"
+
+#: Credits.py:132
+msgid "Past Coders:"
+msgstr "Quá Coders:"
+
+#: Credits.py:133
+msgid "Main Graphic Contributors:"
+msgstr "Graphic chính đóng góp:"
+
+#: Credits.py:134
+msgid "Translators:"
+msgstr "Translators:"
+
+#: Credits.py:135
+msgid "Team Hero:"
+msgstr "Team Hero:"
+
+#: Credits.py:136
+msgid "Creators of Career Mode"
+msgstr "Tác giả của Chế độ Hướng nghiệp"
+
+#: Credits.py:137
+msgid "Honorary Credits to:"
+msgstr "Danh dự Tín tới:"
+
+#: Credits.py:138
+msgid "Donations to MFH"
+msgstr "Quyên góp để MFH"
+
+#: Credits.py:139
+msgid "Donations to akedrou"
+msgstr "Quyên góp để akedrou"
+
+#: Credits.py:140
+msgid "Major Donations:"
+msgstr "Tài trợ chính:"
+
+#: Credits.py:141
+msgid "Other Donations:"
+msgstr "Tài trợ khác:"
+
+#: Credits.py:142
+msgid "Other Credits:"
+msgstr "Các Tín:"
+
+#: Credits.py:143
+msgid "Jurgen FoF tutorial inspired by adam02"
+msgstr "Jurgen FoF hướng dẫn, truyền cảm hứng bởi adam02"
+
+#: Credits.py:144
+msgid "Drum test song tutorial by Heka"
+msgstr "Drum kiểm tra hướng dẫn của bài hát Heka"
+
+#: Credits.py:145
+msgid "Bang Bang Mystery Man song tutorial is from the original FoF"
+msgstr "Bang Bang Mystery Man song hướng dẫn là từ bản gốc FoF"
+
+#: Credits.py:146
+msgid "Drum Rolls practice tutorial by venom426"
+msgstr "Drum Rolls thực hành hướng dẫn của venom426"
+
+#: Credits.py:147
+msgid "If you see your work included in this game and you aren't"
+msgstr "Nếu bạn thấy công việc của bạn trong trò chơi này và bạn không"
+
+#: Credits.py:148
+msgid "in the credits, please leave a polite post stating what you"
+msgstr "trong các khoản tín dụng, xin vui lòng để lại một bài lịch sự nói những gì bạn"
+
+#: Credits.py:149
+msgid "did and when, as specific as possible."
+msgstr "đã làm và khi nào, như cụ thể càng tốt."
+
+#: Credits.py:150
+msgid "If you can, please provide a link to your original posting"
+msgstr "Nếu bạn, có thể xin cung cấp một liên kết để gửi bài ban đầu của bạn"
+
+#: Credits.py:151
+msgid "of the work in question."
+msgstr "các công việc trong câu hỏi."
+
+#: Credits.py:152
+msgid "Then we can properly credit you."
+msgstr "Sau đó chúng ta có thể tín dụng đúng cách bạn."
+
+#: Credits.py:153
+msgid "Thank you for your contribution."
+msgstr "Cảm ơn bạn đã đóng góp của bạn."
+
+#: Credits.py:154
+msgid "Please keep in mind that it is not easy to trace down and"
+msgstr "Hãy ghi nhớ rằng nó không phải là dễ dàng để theo dõi xuống và"
+
+#: Credits.py:155
+msgid "credit every single person who contributed; if your name is"
+msgstr "tín dụng của từng cá nhân đã đóng góp; nếu tên của bạn"
+
+#: Credits.py:156
+msgid "not included, it was not meant to slight you."
+msgstr "không có, nó không phải là để nhẹ bạn."
+
+#: Credits.py:157
+msgid "It was an oversight."
+msgstr "Đó là một giám sát."
+
+#: Credits.py:159
+#, python-format
+msgid "%s theme credits:"
+msgstr "%s chủ đề tín dụng:"
+
+#: Credits.py:160
+#, python-format
+msgid "%s theme specific thanks:"
+msgstr "%s chủ đề nhờ cụ thể:"
+
+#: Credits.py:162
+msgid "French"
+msgstr "Pháp"
+
+#: Credits.py:163
+msgid "French (reform 1990)"
+msgstr "Pháp (cải cách năm 1990)"
+
+#: Credits.py:164
+msgid "German"
+msgstr "Đức"
+
+#: Credits.py:165
+msgid "Italian"
+msgstr "Ý"
+
+#: Credits.py:166
+msgid "Pig Latin"
+msgstr "Pig Latin"
+
+#: Credits.py:167
+msgid "Portuguese (Brazilian)"
+msgstr "Bồ Đào Nha (Brazil)"
+
+#: Credits.py:168
+msgid "Russian"
+msgstr "Nga"
+
+#: Credits.py:169
+msgid "Spanish"
+msgstr "Tây Ban Nha"
+
+#: Credits.py:170
+msgid "Swedish"
+msgstr "Thụy Điển"
+
+#: Credits.py:223
+msgid "Made with:"
+msgstr "Được làm bằng:"
+
+#: Credits.py:246
+msgid "Source Code available under the GNU General Public License"
+msgstr "Mã Nguồn hành theo GNU General Public License"
+
+#: Credits.py:250
+msgid "Copyright 2006, 2007 by Unreal Voodoo"
+msgstr "2006 Bản quyền năm 2007 của Voodoo Unreal"
+
+#: Credits.py:251
+msgid "Copyright 2008-2010 by Team FoFiX"
+msgstr "Bản quyền 2008-2010 bởi đội FoFiX"
+
+#: Dialogs.py:489
+msgid "<OK>"
+msgstr "<OK>"
+
+#: Dialogs.py:576
+msgid "[Parent Folder]"
+msgstr "[Parent Folder]"
+
+#: Dialogs.py:580
+msgid "[Accept Folder]"
+msgstr "[Chấp nhận] Folder"
+
+#: Dialogs.py:582
+#, python-format
+msgid "%s [Folder]"
+msgstr "%s [Folder]"
+
+#: Dialogs.py:707
+msgid "Yellow (#3) / Blue (#4) to change, Green (#1) to confirm:"
+msgstr "Màu vàng (# 3) / Blue (# 4) để thay đổi, Green (# 1) để xác nhận:"
+
+#: Dialogs.py:719
+msgid "Loading necks..."
+msgstr "Loading cổ ..."
+
+#: Dialogs.py:784
+#: GameEngine.py:97
+msgid "Neck"
+msgstr "Cổ"
+
+#: Dialogs.py:983
+msgid "Loading avatars..."
+msgstr "Loading avatar ..."
+
+#: Dialogs.py:1092
+msgid "Select Your Avatar:"
+msgstr "Chọn Avatar của bạn:"
+
+#: Dialogs.py:1572
+msgid "Press Start to Begin!"
+msgstr "Bấm Start để Bắt đầu!"
+
+#: Dialogs.py:1573
+msgid "Use the keyboard to select or just play some notes!"
+msgstr "Sử dụng bàn phím để chọn, hoặc chỉ chơi một số ghi chú!"
+
+#: Dialogs.py:1584
+msgid "No Controller"
+msgstr "Không có điều khiển"
+
+#: Dialogs.py:1588
+msgid "Disabled Controller"
+msgstr "Tàn tật điều khiển"
+
+#: Dialogs.py:1592
+msgid "Default Guitar"
+msgstr "Default Guitar"
+
+#: Dialogs.py:1594
+msgid "Default Drums"
+msgstr "Mặc định trống"
+
+#: Dialogs.py:1596
+msgid "Default Microphone"
+msgstr "Default Microphone"
+
+#: Dialogs.py:1657
+msgid "controller"
+msgstr "điều khiển"
+
+#: Dialogs.py:1659
+msgid "controllers"
+msgstr "điều khiển"
+
+#: Dialogs.py:1660
+#, python-format
+msgid "You only have %d %s defined. You need at least %d for this mode."
+msgstr "Bạn chỉ có %d %s được xác định. Bạn cần ít nhất %d cho chế độ này."
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+#: GameEngine.py:212
+msgid "Left"
+msgstr "Còn lại"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+#: GameEngine.py:212
+msgid "Right"
+msgstr "Ngay"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Up"
+msgstr "Up"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Down"
+msgstr "Down"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Start"
+msgstr "Bắt đầu"
+
+#: Dialogs.py:1917
+#: Dialogs.py:1925
+#: Dialogs.py:1930
+#: Dialogs.py:1938
+msgid "Select"
+msgstr "Chọn"
+
+#: Dialogs.py:1917
+msgid "Fret #1"
+msgstr "Băn khoăn # 1"
+
+#: Dialogs.py:1917
+msgid "Solo #1"
+msgstr "Solo # 1"
+
+#: Dialogs.py:1917
+msgid "Fret #2"
+msgstr "Băn khoăn # 2"
+
+#: Dialogs.py:1917
+msgid "Solo #2"
+msgstr "Solo # 2"
+
+#: Dialogs.py:1918
+msgid "Fret #3"
+msgstr "Băn khoăn # 3"
+
+#: Dialogs.py:1918
+msgid "Solo #3"
+msgstr "Solo # 3"
+
+#: Dialogs.py:1918
+msgid "Fret #4"
+msgstr "Băn khoăn # 4"
+
+#: Dialogs.py:1918
+msgid "Solo #4"
+msgstr "Solo # 4"
+
+#: Dialogs.py:1918
+msgid "Fret #5"
+msgstr "Băn khoăn # 5"
+
+#: Dialogs.py:1919
+msgid "Solo #5"
+msgstr "Solo # 5"
+
+#: Dialogs.py:1919
+msgid "Pick!"
+msgstr "Pick!"
+
+#: Dialogs.py:1919
+#: Dialogs.py:1927
+#: Dialogs.py:1932
+#: Dialogs.py:1940
+msgid "Starpower!"
+msgstr "Starpower!"
+
+#: Dialogs.py:1919
+#: GameEngine.py:278
+msgid "Whammy"
+msgstr "Whammy"
+
+#: Dialogs.py:1925
+#: Dialogs.py:1938
+msgid "Drum #1"
+msgstr "Drum # 1"
+
+#: Dialogs.py:1925
+msgid "Drum #2"
+msgstr "Drum # 2"
+
+#: Dialogs.py:1926
+#: Dialogs.py:1939
+msgid "Drum #3"
+msgstr "Drum # 3"
+
+#: Dialogs.py:1926
+msgid "Drum #4"
+msgstr "Drum # 4"
+
+#: Dialogs.py:1927
+#: Dialogs.py:1940
+msgid "Bass Drum"
+msgstr "Bass Drum"
+
+#: Dialogs.py:1927
+#: Dialogs.py:1940
+#: Dialogs.py:2268
+#: GameEngine.py:89
+#: GameEngine.py:155
+#: GameEngine.py:190
+#: GameEngine.py:691
+#: GameResultsScene.py:250
+msgid "None"
+msgstr "Không ai"
+
+#: Dialogs.py:1938
+msgid "Cymbal #2"
+msgstr "Cymbal # 2"
+
+#: Dialogs.py:1939
+msgid "Cymbal #4"
+msgstr "Cymbal # 4"
+
+#: Dialogs.py:1939
+msgid "Drum #5"
+msgstr "Drum # 5"
+
+#: Dialogs.py:1942
+msgid "Fret"
+msgstr "Băn khoăn"
+
+#: Dialogs.py:1943
+msgid "Solo"
+msgstr "Solo"
+
+#: Dialogs.py:1944
+msgid "Drum"
+msgstr "Drum"
+
+#: Dialogs.py:1945
+msgid "Slide~"
+msgstr "Slide ~"
+
+#: Dialogs.py:2248
+msgid "Level:"
+msgstr "Cấp:"
+
+#: Dialogs.py:2249
+msgid "Note:"
+msgstr "Lưu ý:"
+
+#: Dialogs.py:2263
+msgid "Tap"
+msgstr "Tập"
+
+#: Dialogs.py:2359
+msgid "Choose a File"
+msgstr "Chọn một File"
+
+#: Dialogs.py:2435
+msgid "Play with the keys and press Escape when you're done."
+msgstr "Chơi với các phím và nhấn Escape khi bạn đang làm."
+
+#: Dialogs.py:2448
+#: Dialogs.py:2554
+#: Dialogs.py:2560
+msgid "Loading..."
+msgstr "Loading ..."
+
+#: FoFiX.py:179
+#, python-format
+msgid "Song directory provided ('%s') is not a valid song directory. Starting up FoFiX in standard mode."
+msgstr "Song thư mục cung cấp ('%s ') không phải là một thư mục bài hát hợp lệ. FoFiX bắt đầu lên trong chế độ tiêu chuẩn."
+
+#: FoFiX.py:301
+msgid "Terminating due to unhandled exception:"
+msgstr "Chấm dứt do không được quản lý ngoại lệ:"
+
+#: FoFiX.py:303
+msgid "If you make a bug report about this error, please include the contents of the following log file:"
+msgstr "Nếu bạn thực hiện một báo cáo lỗi về lỗi này, xin vui lòng bao gồm các nội dung của file log sau đây:"
+
+#: FoFiX.py:305
+msgid "The log file already includes the traceback given above."
+msgstr "Các file bản ghi đã bao gồm các traceback như ở trên."
+
+#: FoFiX.py:310
+msgid "Open the logfile now?"
+msgstr "Mở logfile bây giờ?"
+
+#: GameEngine.py:86
+msgid "FPS Limiter"
+msgstr "FPS Limiter"
+
+#: GameEngine.py:86
+msgid "On (Set Below)"
+msgstr "Ngày (Set Dưới đây)"
+
+#: GameEngine.py:86
+msgid "Off (Auto Max FPS)"
+msgstr "Off (Auto FPS Max)"
+
+#: GameEngine.py:86
+msgid "Use this to enable or disable the FPS Limiter. If off, the game will render as many frames as possible. (This is affected by the 'Performance' quickset)"
+msgstr "Sử dụng điều này để kích hoạt hoặc vô hiệu hóa các Limiter FPS. Nếu tắt, các trò chơi sẽ làm như khung nhiều càng tốt. (Điều này bị ảnh hưởng bởi các 'diễn' hàng rào cây)"
+
+#: GameEngine.py:88
+msgid "Fullscreen Mode"
+msgstr "Chế độ toàn màn hình"
+
+#: GameEngine.py:88
+#: GameEngine.py:90
+#: GameEngine.py:93
+#: GameEngine.py:96
+#: GameEngine.py:105
+#: GameEngine.py:107
+#: GameEngine.py:112
+#: GameEngine.py:145
+#: GameEngine.py:146
+#: GameEngine.py:172
+#: GameEngine.py:175
+#: GameEngine.py:176
+#: GameEngine.py:177
+#: GameEngine.py:178
+#: GameEngine.py:181
+#: GameEngine.py:182
+#: GameEngine.py:196
+#: GameEngine.py:199
+#: GameEngine.py:201
+#: GameEngine.py:202
+#: GameEngine.py:216
+#: GameEngine.py:219
+#: GameEngine.py:225
+#: GameEngine.py:245
+#: GameEngine.py:246
+#: GameEngine.py:247
+#: GameEngine.py:259
+#: GameEngine.py:260
+#: GameEngine.py:261
+#: GameEngine.py:262
+#: GameEngine.py:263
+#: GameEngine.py:264
+#: GameEngine.py:265
+#: GameEngine.py:266
+#: GameEngine.py:267
+#: GameEngine.py:268
+#: GameEngine.py:269
+#: GameEngine.py:300
+#: GameEngine.py:301
+#: GameEngine.py:304
+#: GameEngine.py:312
+#: GameEngine.py:315
+#: GameEngine.py:318
+#: GameEngine.py:321
+#: GameEngine.py:371
+#: GameEngine.py:410
+msgid "No"
+msgstr "Không"
+
+#: GameEngine.py:88
+#: GameEngine.py:90
+#: GameEngine.py:93
+#: GameEngine.py:96
+#: GameEngine.py:105
+#: GameEngine.py:107
+#: GameEngine.py:112
+#: GameEngine.py:145
+#: GameEngine.py:146
+#: GameEngine.py:172
+#: GameEngine.py:175
+#: GameEngine.py:176
+#: GameEngine.py:177
+#: GameEngine.py:178
+#: GameEngine.py:181
+#: GameEngine.py:182
+#: GameEngine.py:196
+#: GameEngine.py:199
+#: GameEngine.py:216
+#: GameEngine.py:219
+#: GameEngine.py:225
+#: GameEngine.py:245
+#: GameEngine.py:246
+#: GameEngine.py:247
+#: GameEngine.py:259
+#: GameEngine.py:260
+#: GameEngine.py:261
+#: GameEngine.py:262
+#: GameEngine.py:263
+#: GameEngine.py:264
+#: GameEngine.py:265
+#: GameEngine.py:266
+#: GameEngine.py:267
+#: GameEngine.py:268
+#: GameEngine.py:300
+#: GameEngine.py:301
+#: GameEngine.py:304
+#: GameEngine.py:312
+#: GameEngine.py:315
+#: GameEngine.py:318
+#: GameEngine.py:321
+#: GameEngine.py:371
+#: GameEngine.py:410
+msgid "Yes"
+msgstr "Vâng"
+
+#: GameEngine.py:88
+msgid "Play either in fullscreen ('Yes') or windowed ('No') mode."
+msgstr "Nghe hoặc trong toàn màn hình ('Có') hoặc cửa sổ ('Không') Hình thức."
+
+#: GameEngine.py:89
+msgid "Antialiasing Quality"
+msgstr "Chất lượng khử răng cưa"
+
+#: GameEngine.py:89
+msgid "Sets the antialiasing quality of openGL rendering. Higher values reduce jaggediness, but could affect performance. (This is affected by the 'Performance' quickset)"
+msgstr "Thiết lập chất lượng khử răng cưa của OpenGL rendering. giá trị cao hơn giảm jaggediness, nhưng có thể ảnh hưởng đến hiệu suất. (Điều này bị ảnh hưởng bởi các 'diễn' hàng rào cây)"
+
+#: GameEngine.py:90
+msgid "Show Fret Glow Effect"
+msgstr "Show băn khoăn Glow Effect"
+
+#: GameEngine.py:90
+msgid "Turn on or off the glow that appears around a fret when you press it."
+msgstr "Bật hoặc tắt ánh sáng xuất hiện xung quanh một băn khoăn khi bạn nhấn nó."
+
+#: GameEngine.py:92
+msgid "Frames per Second"
+msgstr "Khung hình / lần thứ hai"
+
+#: GameEngine.py:92
+msgid "Set the number of frames to render per second. Higher values are better, but your computer may not be able to keep up. You probably can leave this alone. (This is affected by the 'Performance' quickset)"
+msgstr "Thiết lập số lượng các khung hình để vẽ lại một giây. giá trị cao hơn được tốt hơn, nhưng máy tính của bạn có thể không thể theo kịp. Bạn có lẽ có thể để lại một mình này. (Điều này bị ảnh hưởng bởi các 'diễn' hàng rào cây)"
+
+#: GameEngine.py:93
+msgid "Print Frames per Second"
+msgstr "In khung mỗi thứ hai"
+
+#: GameEngine.py:93
+msgid "This will display your FPS on some screens, and if running from sources will print your FPS there every two seconds."
+msgstr "Điều này sẽ hiển thị FPS của bạn trên một số màn hình, và nếu chạy từ các nguồn sẽ in FPS của bạn có mỗi hai giây."
+
+#: GameEngine.py:94
+msgid "Fret Glow Color"
+msgstr "Băn khoăn Glow Color"
+
+#: GameEngine.py:94
+msgid "Same as Fret"
+msgstr "Tương tự như băn khoăn"
+
+#: GameEngine.py:94
+msgid "Actual Color"
+msgstr "Màu sắc thực tế"
+
+#: GameEngine.py:94
+msgid "Sets whether or not the fret glow image will be color-masked with the theme-determined fret color."
+msgstr "Bộ hay không băn khoăn hình ảnh sẽ được phát sáng màu đeo mặt nạ với chủ đề băn khoăn xác định màu sắc."
+
+#: GameEngine.py:96
+msgid "Use Shaders"
+msgstr "Sử dụng Shaders"
+
+#: GameEngine.py:96
+msgid "Enable or disable the use of shaders. Shaders are visual effects. This must be set to 'Yes' to use the settings below. 'By Theme' leaves it to the theme creator."
+msgstr "Kích hoạt hoặc vô hiệu hóa việc sử dụng các bóng đổ. Shaders là hiệu ứng thị giác. Điều này phải được thiết lập để 'Có' để sử dụng các cài đặt dưới đây. 'Theo đề' lá nó vào người tạo chủ đề."
+
+#: GameEngine.py:97
+#: GameEngine.py:98
+#: GameEngine.py:99
+#: GameEngine.py:101
+#: GameEngine.py:102
+#: GameEngine.py:118
+#: GameEngine.py:322
+#: GameEngine.py:351
+msgid "Disabled"
+msgstr "Tàn tật"
+
+#: GameEngine.py:97
+msgid "Flashing"
+msgstr "Nhấp nháy"
+
+#: GameEngine.py:97
+#: GameEngine.py:98
+#: GameEngine.py:99
+#: GameEngine.py:100
+#: GameEngine.py:101
+#: GameEngine.py:102
+#: GameEngine.py:190
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:213
+#: GameEngine.py:228
+#: GameEngine.py:232
+#: GameEngine.py:291
+#: GameEngine.py:298
+msgid "By Theme"
+msgstr "Bởi Theme"
+
+#: GameEngine.py:97
+msgid "A bright flash along your fretboard reflecting the notes you've hit. 'By Theme' leaves it to the theme creator."
+msgstr "Một flash sáng cùng fretboard của bạn phản ánh các ghi chú mà bạn đã nhấn. 'Theo đề' lá nó vào người tạo chủ đề."
+
+#: GameEngine.py:98
+msgid "Stage"
+msgstr "Giai đoạn"
+
+#: GameEngine.py:98
+msgid "EQ Lightning"
+msgstr "EQ Lightning"
+
+#: GameEngine.py:98
+msgid "A visual waveform centered above you fretboard. 'By Theme' leaves it to the theme creator."
+msgstr "Một dạng sóng hình ảnh trung tâm trên, bạn fretboard. 'Theo đề' lá nó vào người tạo chủ đề."
+
+#: GameEngine.py:99
+msgid "Solo and SP"
+msgstr "Solo và SP"
+
+#: GameEngine.py:99
+#: GameEngine.py:100
+msgid "Lightnings"
+msgstr "Lightning"
+
+#: GameEngine.py:99
+msgid "Enables lightning along the side of your fretboard when you are in solos or use SP. 'By Theme' leaves it to the theme creator."
+msgstr "Cho phép sét dọc theo bên fretboard của bạn khi bạn đang ở trong solo hoặc sử dụng SP. 'Theo đề' lá nó vào người tạo chủ đề."
+
+#: GameEngine.py:100
+msgid "Tails"
+msgstr "Tails"
+
+#: GameEngine.py:100
+msgid "Classic"
+msgstr "Classic"
+
+#: GameEngine.py:100
+#: GameEngine.py:210
+#: GameEngine.py:298
+msgid "RB2"
+msgstr "RB2"
+
+#: GameEngine.py:100
+msgid "Sets the tail effect. Choose from classic tails, lightning, or RB2 style. 'By Theme' leaves it to the theme creator."
+msgstr "Thiết lập hiệu ứng đuôi. Chọn từ đuôi cổ điển, sét, hay phong cách RB2. 'Theo đề' lá nó vào người tạo chủ đề."
+
+#: GameEngine.py:101
+msgid "Notes"
+msgstr "Ghi chú"
+
+#: GameEngine.py:101
+msgid "Metal"
+msgstr "Metal"
+
+#: GameEngine.py:101
+msgid "Gives your notes a metallic sheen. 'By Theme' leaves it to the theme creator."
+msgstr "Cho ghi chú của bạn một ánh kim loại. 'Theo đề' lá nó vào người tạo chủ đề."
+
+#: GameEngine.py:102
+#: GameEngine.py:298
+msgid "CDs"
+msgstr "CD"
+
+#: GameEngine.py:102
+msgid "White"
+msgstr "White"
+
+#: GameEngine.py:102
+msgid "Adds a soft lighting effect to CD labels in CD setlist mode."
+msgstr "Thêm một hiệu ứng ánh sáng mềm mại cho nhãn đĩa CD trong chế độ setlist CD."
+
+#: GameEngine.py:105
+msgid "Disable Screensaver"
+msgstr "Vô hiệu hoá bảo vệ màn hình"
+
+#: GameEngine.py:105
+msgid "Set whether the game disables the screensaver while it is running.  Does not necessarily work on all platforms."
+msgstr "Thiết lập cho dù các trò chơi vô hiệu hóa bảo vệ màn hình trong khi nó đang chạy. Không nhất thiết phải làm việc trên mọi nền tảng."
+
+#: GameEngine.py:107
+msgid "Animated Star Notes"
+msgstr "Hoạt hình Star Notes"
+
+#: GameEngine.py:107
+msgid "This will animate star notes as they come towards you, if that is included in your theme. This can have a hit on performance. (This is affected by the 'Performance' quickset)"
+msgstr "Điều này sẽ sinh động các ghi chú sao khi họ đi về phía bạn, nếu đó là bao gồm trong các chủ đề của bạn. Điều này có thể có một hit trên hiệu suất. (Điều này bị ảnh hưởng bởi các 'diễn' hàng rào cây)"
+
+#: GameEngine.py:108
+msgid "Sample Frequency"
+msgstr "Tần số mẫu"
+
+#: GameEngine.py:108
+msgid "Set the sample frequency for the audio in the game. You almost certainly want to leave this at 44100 Hz unless you really know what you're doing."
+msgstr "Đặt tần số mẫu cho các âm thanh trong game. Bạn gần như chắc chắn muốn để lại này tại 44.100 Hz, trừ khi bạn thực sự biết những gì bạn đang làm."
+
+#: GameEngine.py:109
+msgid "Sample Bits"
+msgstr "Mẫu vặt"
+
+#: GameEngine.py:109
+msgid "Set the sample bits for the audio in the game. You almost certainly want to leave this at 16-bit unless you really know what you're doing."
+msgstr "Thiết lập các mẫu bit cho âm thanh trong game. Bạn gần như chắc chắn muốn để lại này tại bit-16, trừ khi bạn thực sự biết những gì bạn đang làm."
+
+#: GameEngine.py:112
+msgid "Upload Highscores"
+msgstr "Upload Highscores"
+
+#: GameEngine.py:112
+msgid "If enabled, your high scores will be sent to the server to rank you against other players."
+msgstr "Nếu kích hoạt, điểm cao của bạn sẽ được gửi đến máy chủ để xếp hạng bạn chống lại người chơi khác."
+
+#: GameEngine.py:118
+msgid "Song Queue System"
+msgstr "Song hệ thống xếp hàng"
+
+#: GameEngine.py:118
+#: GameEngine.py:188
+msgid "Automatic"
+msgstr "Tự động"
+
+#: GameEngine.py:118
+msgid "Enables or disables creating multi-song sets in the setlist."
+msgstr "Cho phép hoặc vô hiệu hóa việc tạo nhiều bài hát trong setlist này."
+
+#: GameEngine.py:119
+msgid "Song Queue Order"
+msgstr "Song xếp hàng Đặt hàng"
+
+#: GameEngine.py:119
+#: GameEngine.py:167
+#: GameEngine.py:168
+msgid "In Order"
+msgstr "Trong Đặt hàng"
+
+#: GameEngine.py:119
+#: GameEngine.py:167
+#: GameEngine.py:168
+#: GameEngine.py:169
+#: GameEngine.py:676
+msgid "Random"
+msgstr "Ngâu nhiên"
+
+#: GameEngine.py:119
+msgid "Sets the order in which songs added to the queue will be played."
+msgstr "Thiết lập trật tự trong đó bài hát được thêm vào hàng đợi sẽ được chơi."
+
+#: GameEngine.py:120
+msgid "Song Queue Parts"
+msgstr "Song Queue Parts"
+
+#: GameEngine.py:120
+msgid "Closest Available"
+msgstr "Gần nhất Available"
+
+#: GameEngine.py:120
+#: GameEngine.py:121
+msgid "Always Ask"
+msgstr "Luôn Hỏi"
+
+#: GameEngine.py:120
+msgid "Choose the behavior when the chosen part is not available in all queued songs. 'Closest Available' will match lead parts to guitar and bass to rhythm, or guitar if no rhythm parts are available. 'Always Ask' brings up the part select screen."
+msgstr "Chọn các hành vi khi tham gia lựa chọn không có sẵn trong tất cả các bài hát xếp hàng đợi. 'Gần nhất Available' sẽ phù hợp với các bộ phận dẫn đến guitar và bass nhịp, hoặc guitar nếu không có bộ phận nhịp điệu có sẵn. \"Luôn Hỏi 'sẽ trả về phần chọn màn hình."
+
+#: GameEngine.py:121
+msgid "Song Queue Difficulty"
+msgstr "Song khó khăn Queue"
+
+#: GameEngine.py:121
+msgid "Closest Down"
+msgstr "Down gần nhất"
+
+#: GameEngine.py:121
+msgid "Closest Up"
+msgstr "Up gần nhất"
+
+#: GameEngine.py:121
+msgid "Choose the behavior when the chosen difficulty is not available in all queued songs. 'Closest Up' will prefer a harder difficulty, while 'Closest Down' will prefer an easier one. 'Always Ask' brings up the difficulty select screen."
+msgstr "Chọn các hành vi lựa chọn khó khăn khi không có sẵn trong tất cả các bài hát xếp hàng đợi. 'Gần nhất Up' sẽ thích một khó khăn hơn, trong khi 'gần nhất Down' sẽ thích một một dễ dàng hơn. \"Luôn Hỏi 'sẽ trả về màn hình lựa chọn khó khăn."
+
+#: GameEngine.py:134
+msgid "Buffer Size"
+msgstr "Buffer Size"
+
+#: GameEngine.py:134
+msgid "Set your audio buffer size. Higher values will reduce audio popping, but increase game lag. Only change this if you are having audio quality issues, and use the lowest value that sounds right."
+msgstr "Thiết lập âm thanh kích thước bộ đệm của bạn. giá trị cao hơn sẽ làm giảm âm thanh popping, nhưng lag game tăng lên. Chỉ có sự thay đổi này nếu bạn gặp vấn đề chất lượng âm thanh, và sử dụng giá trị thấp nhất mà âm thanh bên phải."
+
+#: GameEngine.py:135
+msgid "A/V Delay"
+msgstr "A / V Delay"
+
+#: GameEngine.py:135
+msgid "Set your A/V delay. Unfortunately for now you have to use trial and error."
+msgstr "Set A / V chậm trễ. Thật không may cho bây giờ bạn phải sử dụng thử và sai."
+
+#: GameEngine.py:136
+msgid "Screw-Up Sounds"
+msgstr "Vít-Up Âm thanh"
+
+#: GameEngine.py:136
+#: GameEngine.py:152
+#: GameEngine.py:156
+#: GameEngine.py:158
+#: GameEngine.py:159
+#: GameEngine.py:167
+#: GameEngine.py:168
+#: GameEngine.py:170
+#: GameEngine.py:171
+#: GameEngine.py:173
+#: GameEngine.py:179
+#: GameEngine.py:187
+#: GameEngine.py:189
+#: GameEngine.py:193
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:200
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:206
+#: GameEngine.py:207
+#: GameEngine.py:208
+#: GameEngine.py:213
+#: GameEngine.py:215
+#: GameEngine.py:218
+#: GameEngine.py:220
+#: GameEngine.py:222
+#: GameEngine.py:223
+#: GameEngine.py:227
+#: GameEngine.py:229
+#: GameEngine.py:231
+#: GameEngine.py:232
+#: GameEngine.py:239
+#: GameEngine.py:248
+#: GameEngine.py:249
+#: GameEngine.py:251
+#: GameEngine.py:274
+#: GameEngine.py:278
+#: GameEngine.py:279
+#: GameEngine.py:280
+#: GameEngine.py:281
+#: GameEngine.py:282
+#: GameEngine.py:283
+#: GameEngine.py:284
+#: GameEngine.py:285
+#: GameEngine.py:286
+#: GameEngine.py:289
+#: GameEngine.py:290
+#: GameEngine.py:291
+#: GameEngine.py:293
+#: GameEngine.py:294
+#: GameEngine.py:303
+#: GameEngine.py:326
+#: GameEngine.py:330
+#: GameEngine.py:334
+#: GameEngine.py:338
+#: GameEngine.py:405
+msgid "Off"
+msgstr "Off"
+
+#: GameEngine.py:136
+msgid "Quiet"
+msgstr "Quiet"
+
+#: GameEngine.py:136
+msgid "Loud"
+msgstr "Loud"
+
+#: GameEngine.py:136
+msgid "Painful"
+msgstr "Đau đớn"
+
+#: GameEngine.py:136
+msgid "How loud should the sound of your screwing up be? Very."
+msgstr "Làm thế nào lớn nên những âm thanh của screwing của bạn lên được? Rất."
+
+#: GameEngine.py:140
+msgid "Active Track Volume"
+msgstr "Active Track Volume"
+
+#: GameEngine.py:140
+msgid "Volume of the parts you are playing."
+msgstr "Khối lượng các phần bạn đang chơi."
+
+#: GameEngine.py:141
+msgid "Background Volume"
+msgstr "Khối lượng nền"
+
+#: GameEngine.py:141
+msgid "Volume of the parts you are not playing."
+msgstr "Khối lượng các phần bạn không chơi."
+
+#: GameEngine.py:144
+msgid "Process Priority"
+msgstr "Quy trình ưu tiên"
+
+#: GameEngine.py:144
+msgid "Idle"
+msgstr "Idle"
+
+#: GameEngine.py:144
+msgid "Low"
+msgstr "Thấp"
+
+#: GameEngine.py:144
+#: GameEngine.py:157
+#: GameEngine.py:179
+#: GameEngine.py:299
+#: GameResultsScene.py:276
+msgid "Normal"
+msgstr "Bình thường"
+
+#: GameEngine.py:144
+msgid "Above Normal"
+msgstr "Bình thường ở trên"
+
+#: GameEngine.py:144
+msgid "High"
+msgstr "Cao"
+
+#: GameEngine.py:144
+msgid "Realtime"
+msgstr "Thời gian thực"
+
+#: GameEngine.py:144
+msgid "Change this to increase the priority of the FoFiX process. Don't change this unless you know what you're doing. DO NOT set this to Realtime. Ever."
+msgstr "Thay đổi này làm tăng ưu tiên của quá trình FoFiX. Không thay đổi này trừ khi bạn biết những gì bạn đang làm. KHÔNG thiết lập này để thời gian thực. Bao giờ hết."
+
+#: GameEngine.py:145
+msgid "Restrict to First Core (Win32 Only)"
+msgstr "Hạn chế đến Core đầu tiên (Win32 Chỉ)"
+
+#: GameEngine.py:145
+msgid "Choose whether to restrict the game to running on only the first processor core on the system. Only has an effect under Windows."
+msgstr "Chọn liệu để hạn chế các trò chơi để chạy trên các bộ xử lý lõi chỉ đầu tiên trên hệ thống. Chỉ có tác dụng trong Windows."
+
+#: GameEngine.py:146
+msgid "Use Psyco"
+msgstr "Sử dụng Psyco"
+
+#: GameEngine.py:146
+msgid "Enable or disable the Psyco specializing compiler. Tests have indicated the game runs faster with it off."
+msgstr "Kích hoạt hoặc vô hiệu hóa các trình biên dịch Psyco chuyên. Các thử nghiệm đã chỉ ra các trò chơi chạy nhanh hơn với nó đi."
+
+#: GameEngine.py:147
+msgid "Missed Notes"
+msgstr "Hỏng Notes"
+
+#: GameEngine.py:147
+msgid "Disappear"
+msgstr "Biến mất"
+
+#: GameEngine.py:147
+msgid "Keep on going"
+msgstr "Tiếp tục đi"
+
+#: GameEngine.py:147
+msgid "When you miss a note, this sets whether they disappear from the fretboard or scroll off the bottom of the screen."
+msgstr "Khi bạn bỏ lỡ một lưu ý, bộ này cho dù họ biến mất từ fretboard hoặc di chuyển ra phía dưới của màn hình."
+
+#: GameEngine.py:150
+msgid "Performance"
+msgstr "Hiệu suất"
+
+#: GameEngine.py:150
+#: GameEngine.py:151
+msgid "Manual"
+msgstr "Hướng dẫn"
+
+#: GameEngine.py:150
+msgid "Pure Speed"
+msgstr "Tốc độ tinh khiết"
+
+#: GameEngine.py:150
+msgid "Fast"
+msgstr "Nhanh"
+
+#: GameEngine.py:150
+msgid "Quality (Recommended)"
+msgstr "Chất lượng (Recommended)"
+
+#: GameEngine.py:150
+msgid "Max Quality (Slow)"
+msgstr "Max Chất lượng (Slow)"
+
+#: GameEngine.py:150
+msgid "Set the performance of your game. You can fine-tune in the advanced menus."
+msgstr "Thiết lập hiệu suất của các trò chơi của bạn. Bạn có thể tinh chỉnh trong menu tiên tiến."
+
+#: GameEngine.py:151
+msgid "Gameplay"
+msgstr "Cách chơi"
+
+#: GameEngine.py:151
+msgid "Theme-Based"
+msgstr "Chủ đề-Based"
+
+#: GameEngine.py:151
+msgid "MIDI Based"
+msgstr "Dựa MIDI"
+
+#: GameEngine.py:151
+msgid "RB Style"
+msgstr "RB Style"
+
+#: GameEngine.py:151
+msgid "GH Style"
+msgstr "GH Style"
+
+#: GameEngine.py:151
+msgid "WT Style"
+msgstr "WT Style"
+
+#: GameEngine.py:151
+msgid "Sets how the game 'feels' to play. Theme-Based lets the theme creator decide. MIDI Based lets the fretter decide."
+msgstr "Bộ trò chơi như thế nào 'cảm thấy' để chơi. Chủ đề-Based cho phép người tạo ra chủ đề quyết định. Dựa MIDI cho phép các fretter quyết định."
+
+#: GameEngine.py:152
+msgid "Pause on Loss of Focus"
+msgstr "Pause ngày mất của Focus"
+
+#: GameEngine.py:152
+#: GameEngine.py:156
+#: GameEngine.py:158
+#: GameEngine.py:170
+#: GameEngine.py:173
+#: GameEngine.py:187
+#: GameEngine.py:189
+#: GameEngine.py:193
+#: GameEngine.py:200
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:206
+#: GameEngine.py:207
+#: GameEngine.py:213
+#: GameEngine.py:218
+#: GameEngine.py:220
+#: GameEngine.py:222
+#: GameEngine.py:223
+#: GameEngine.py:227
+#: GameEngine.py:232
+#: GameEngine.py:239
+#: GameEngine.py:248
+#: GameEngine.py:249
+#: GameEngine.py:251
+#: GameEngine.py:274
+#: GameEngine.py:278
+#: GameEngine.py:279
+#: GameEngine.py:280
+#: GameEngine.py:281
+#: GameEngine.py:282
+#: GameEngine.py:283
+#: GameEngine.py:284
+#: GameEngine.py:285
+#: GameEngine.py:286
+#: GameEngine.py:289
+#: GameEngine.py:290
+#: GameEngine.py:291
+#: GameEngine.py:293
+#: GameEngine.py:303
+#: GameEngine.py:326
+#: GameEngine.py:330
+#: GameEngine.py:334
+#: GameEngine.py:338
+#: GameEngine.py:405
+msgid "On"
+msgstr "Trên"
+
+#: GameEngine.py:152
+msgid "Set whether the game automatically pauses when another application steals input focus."
+msgstr "Thiết lập cho dù trò chơi sẽ tự động tạm dừng khi một ứng dụng khác đánh cắp tập trung đầu vào."
+
+#: GameEngine.py:155
+msgid "HO/PO System"
+msgstr "HO / PO hệ thống"
+
+#: GameEngine.py:155
+#: GameResultsScene.py:252
+msgid "RF-Mod"
+msgstr "RF-Mod"
+
+#: GameEngine.py:155
+#: GameResultsScene.py:254
+msgid "GH2 Strict"
+msgstr "GH2 Strict"
+
+#: GameEngine.py:155
+#: GameEngine.py:319
+#: GameResultsScene.py:256
+msgid "GH2"
+msgstr "GH2"
+
+#: GameEngine.py:155
+msgid "Set the system used for marking hammer-ons and pull-offs (HO/PO). You can either disable them altogether, use the RF-Mod method, or the GH2 system."
+msgstr "Thiết lập hệ thống được sử dụng để đánh dấu búa-ons và kéo-off (HO / PO). Bạn có thể vô hiệu hóa chúng hoàn toàn, sử dụng phương pháp RF-Mod, hoặc hệ thống GH2."
+
+#: GameEngine.py:156
+msgid "GH2 Sloppy Mode"
+msgstr "GH2 cẩu thả Mode"
+
+#: GameEngine.py:156
+msgid "Sloppy mode allows you to hold higher frets while tapping lower frets during HO/PO sections. This will lower your score by 25%."
+msgstr "Hình thức cẩu thả cho phép bạn giữ phím đàn trong khi phương pháp cạo mủ cao thấp frets trong HO / PO phần. Điều này sẽ thấp hơn điểm số của bạn bằng 25%."
+
+#: GameEngine.py:157
+msgid "HO/PO Frequency"
+msgstr "HO / PO Tần số"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:272
+msgid "Least"
+msgstr "Ít nhất"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:274
+msgid "Less"
+msgstr "Ít"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:278
+msgid "More"
+msgstr "Hơn"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:280
+msgid "Even More"
+msgstr "Thậm chí hơn nữa"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:282
+msgid "Most"
+msgstr "Hầu hết các"
+
+#: GameEngine.py:157
+msgid "Sets the window used to determine HO/PO notes. Increasing the frequency will reduce your score, and lower settings will give you a tiny bonus."
+msgstr "Thiết lập cửa sổ được sử dụng để xác định HO / ghi chú PO. Tăng tần số sẽ làm giảm điểm số của bạn, và các thiết lập thấp hơn sẽ cho bạn một tiền thưởng nhỏ."
+
+#: GameEngine.py:158
+msgid "HO/PO After Chord"
+msgstr "HO / PO Sau khi dây nhau"
+
+#: GameEngine.py:158
+msgid "This will determine whether or not HO/PO notes can follow a chord. This only applies to the GH2 systems."
+msgstr "Điều này sẽ xác định HO hay không / ghi chú PO có thể làm theo một dây nhau. Điều này chỉ áp dụng cho các hệ thống GH2."
+
+#: GameEngine.py:159
+msgid "Show Hit Accuracy"
+msgstr "Hiển thị lượt truy cập chính xác"
+
+#: GameEngine.py:159
+msgid "Numeric"
+msgstr "Numeric"
+
+#: GameEngine.py:159
+msgid "Friendly"
+msgstr "Thân thiện"
+
+#: GameEngine.py:159
+msgid "Both"
+msgstr "Cả hai"
+
+#: GameEngine.py:159
+msgid "Shows how accurate your note hits are. Numeric will give a time in milliseconds, and Friendly will use English to inform you. Both will show, well, both. Useful for determining your A/V delay."
+msgstr "Cho thấy cách chính xác lưu ý của bạn truy cập được. Số sẽ cung cấp cho một thời gian trong mili giây, và thân thiện sẽ sử dụng tiếng Anh để thông báo cho bạn. Cả hai sẽ hiển thị, tốt, cả hai. Hữu ích để xác định A / V chậm trễ."
+
+#: GameEngine.py:160
+msgid "Hit Accuracy Pos"
+msgstr "Lượt Độ chính xác Pos"
+
+#: GameEngine.py:160
+#: GameEngine.py:212
+msgid "Center"
+msgstr "Trung tâm"
+
+#: GameEngine.py:160
+msgid "Top-Right Corner"
+msgstr "Top-Right Corner"
+
+#: GameEngine.py:160
+msgid "Bottom-Left Corner"
+msgstr "Bottom-còn lại Góc"
+
+#: GameEngine.py:160
+msgid "Center-Bottom"
+msgstr "Trung tâm-Bottom"
+
+#: GameEngine.py:160
+msgid "Sets where the accuracy information will be displayed, if enabled."
+msgstr "Tập hợp các thông tin chính xác sẽ được hiển thị, nếu được kích hoạt."
+
+#: GameEngine.py:162
+msgid "Max Players"
+msgstr "Max Players"
+
+#: GameEngine.py:162
+msgid "Set the maximum number of players in Co-Op modes. Be aware that higher numbers are associated with a significant drop in performance."
+msgstr "Đặt số lượng tối đa của người chơi trong chế độ Co-Op. Hãy nhận biết rằng con số cao hơn là liên kết với một thả đáng kể trong hiệu suất."
+
+#: GameEngine.py:165
+msgid "Slideshow Delay"
+msgstr "Delay xem hình tự động"
+
+#: GameEngine.py:165
+msgid "Sets how long, in milliseconds, to wait between each frame in a stage slideshow."
+msgstr "Bộ bao lâu, trong mili giây, để chờ đợi giữa mỗi frame trong một giai đoạn xem hình tự động."
+
+#: GameEngine.py:166
+msgid "Animation Delay"
+msgstr "Animation Delay"
+
+#: GameEngine.py:166
+msgid "Sets how long, in milliseconds, to wait between each frame in a stage animation."
+msgstr "Bộ bao lâu, trong mili giây, để chờ đợi giữa mỗi frame trong một hình ảnh động sân khấu."
+
+#: GameEngine.py:167
+msgid "Stage Slideshow"
+msgstr "Giai đoạn Slideshow"
+
+#: GameEngine.py:167
+#: GameEngine.py:168
+msgid "BackNForth"
+msgstr "BackNForth"
+
+#: GameEngine.py:167
+msgid "Sets the method used to rotate frames in a stage slideshow."
+msgstr "Thiết lập phương pháp dùng để xoay khung hình trong một giai đoạn xem hình tự động."
+
+#: GameEngine.py:168
+msgid "Stage Animation"
+msgstr "Giai đoạn hoạt hình"
+
+#: GameEngine.py:168
+msgid "Sets the method used to rotate frames in a stage animation."
+msgstr "Thiết lập phương pháp dùng để xoay khung hình trong một phim hoạt hình sân khấu."
+
+#: GameEngine.py:169
+msgid "Stage Selection"
+msgstr "Giai đoạn tuyển chọn"
+
+#: GameEngine.py:169
+msgid "Default"
+msgstr "Mặc định"
+
+#: GameEngine.py:169
+msgid "Blank"
+msgstr "Blank"
+
+#: GameEngine.py:169
+msgid "Video"
+msgstr "Video"
+
+#: GameEngine.py:169
+msgid "Set the background for your stage. Default will use the default background, and Blank puts you in a dark room. Probably a lot like the one you're in now."
+msgstr "Đặt nền tảng cho các giai đoạn của bạn. Mặc định sẽ sử dụng nền mặc định, và Blank đặt bạn trong một phòng tối. Có lẽ rất nhiều như một trong những bạn đang ở bây giờ."
+
+#: GameEngine.py:170
+msgid "Song Stage"
+msgstr "Song Stage"
+
+#: GameEngine.py:170
+msgid "Fretters can include a stage to be used with their songs. If this is enabled, you can see it."
+msgstr "Fretters có thể bao gồm một sân khấu để được sử dụng với các bài hát của họ. Nếu điều này được kích hoạt, bạn có thể nhìn thấy nó."
+
+#: GameEngine.py:171
+msgid "Script Lyric Display"
+msgstr "Script Lyric Hiển thị"
+
+#: GameEngine.py:171
+msgid "By Song"
+msgstr "Bởi Song"
+
+#: GameEngine.py:171
+#: GameEngine.py:190
+#: GameEngine.py:201
+#: GameEngine.py:202
+#: GameEngine.py:214
+#: GameEngine.py:228
+#: GameEngine.py:269
+#: GameEngine.py:297
+msgid "Always"
+msgstr "Luôn luôn"
+
+#: GameEngine.py:171
+msgid "Dual Lyric Prevention"
+msgstr "Phòng chống Dual Lyric"
+
+#: GameEngine.py:171
+msgid "Sets whether lyrics from a script.txt file are displayed. 'By Song' lets the fretter decide. 'Always' always displays script lyrics, if available, and 'Dual Lyric Prevention' will disable script lyrics if there are MIDI lyrics. (This is affected by the 'Performance' quickset)"
+msgstr "Cho dù bộ lời bài hát từ một tập tin script.txt được hiển thị. \"Bởi Song 'cho phép các fretter quyết định. \"Luôn luôn luôn hiển thị lời bài hát kịch bản, nếu có, và 'lời bài hát Dual Lyric Phòng chống' kịch bản sẽ vô hiệu hóa nếu có lời bài hát MIDI. (Điều này bị ảnh hưởng bởi các 'diễn' hàng rào cây)"
+
+#: GameEngine.py:172
+msgid "Frets Under Notes"
+msgstr "Dưới phím đàn Notes"
+
+#: GameEngine.py:172
+msgid "Sets whether the notes slide under the frets or over them."
+msgstr "Sets dù các ghi chú slide theo phím đàn hay trên họ."
+
+#: GameEngine.py:173
+msgid "Drum Navigation"
+msgstr "Drum Danh mục chính"
+
+#: GameEngine.py:173
+msgid "If enabled, drum keys will be allowed to navigate menus. If not, only guitar keys and keyboard master keys will."
+msgstr "Nếu kích hoạt, trống phím sẽ được phép điều hướng menu. Nếu không, chỉ guitar phím và bàn phím sẽ khóa thạc sĩ."
+
+#: GameEngine.py:175
+msgid "Ignore Open Strums"
+msgstr "Bỏ qua Strums Open"
+
+#: GameEngine.py:175
+msgid "If enabled, strumming without holding any frets down won't be counted."
+msgstr "Nếu kích hoạt, sự đánh đàn dở mà không nắm giữ bất kỳ phím đàn xuống sẽ không được tính."
+
+#: GameEngine.py:176
+msgid "Static Strings"
+msgstr "Tĩnh Strings"
+
+#: GameEngine.py:176
+msgid "If enabled, the 'strings' on your fretboard will not scroll."
+msgstr "Nếu kích hoạt, các chuỗi '' trên fretboard của bạn sẽ không di chuyển."
+
+#: GameEngine.py:177
+msgid "Effects Save SP"
+msgstr "Hiệu ứng Save SP"
+
+#: GameEngine.py:177
+msgid "If enabled, whammying while in SP will slow down its decrease. And your score will be handicapped by 5%."
+msgstr "Nếu kích hoạt, whammying trong khi ở SP sẽ làm chậm giảm của nó. Và điểm số của bạn sẽ được khuyết tật của 5%."
+
+#: GameEngine.py:178
+msgid "Show HO/PO Indicator"
+msgstr "Show HO / PO Indicator"
+
+#: GameEngine.py:178
+msgid "If enabled, 'HOPO' will appear in game. When there are HOPO notes active, it will turn white."
+msgstr "Nếu kích hoạt, 'HOPO' sẽ xuất hiện trong game. Khi có ghi chú HOPO hoạt động, nó sẽ chuyển sang màu trắng."
+
+#: GameEngine.py:179
+msgid "Use Tiers in Quickplay"
+msgstr "Sử dụng Tires trong QuickPlay"
+
+#: GameEngine.py:179
+msgid "Sorting"
+msgstr "Phân loại"
+
+#: GameEngine.py:179
+msgid "Sets whether to mark tiers in quickplay mode. 'Normal' will use the career tiers and 'Sorting' will insert tiers based on the current sort order."
+msgstr "Bộ hay không để đánh dấu các lớp trong chế độ QuickPlay. 'Normal' sẽ sử dụng các tầng sự nghiệp và 'sắp xếp' tiers chèn sẽ dựa trên thứ tự sắp xếp hiện hành."
+
+#: GameEngine.py:180
+msgid "Star Updates"
+msgstr "Star cập nhật"
+
+#: GameEngine.py:180
+msgid "On Hit"
+msgstr "Trên Lượt"
+
+#: GameEngine.py:180
+msgid "Score Change"
+msgstr "Số điểm thay đổi"
+
+#: GameEngine.py:180
+msgid "If set to 'On Hit', your star score will only be checked when you hit a note. If set to 'Score Change', your star score will constantly update. (This is affected by the 'Performance' quickset)"
+msgstr "Nếu thiết lập để 'Ngày Lượt', điểm số ngôi sao của bạn chỉ sẽ được kiểm tra khi bạn nhấn một lưu ý. Nếu thiết lập để 'Số điểm thay đổi', điểm số ngôi sao của bạn sẽ liên tục cập nhật. (Điều này bị ảnh hưởng bởi các 'diễn' hàng rào cây)"
+
+#: GameEngine.py:181
+msgid "Partial Star Continuous Fillup"
+msgstr "Một phần Fillup Star liên tục"
+
+#: GameEngine.py:181
+msgid "Sets whether your partial stars will fill up gradually ('Yes') or in chunks. (This is affected by the 'Performance' quickset)"
+msgstr "Sets dù sao một phần của bạn sẽ làm đầy dần ('Có') hoặc trong chunks. (Điều này bị ảnh hưởng bởi các 'diễn' hàng rào cây)"
+
+#: GameEngine.py:182
+msgid "Countdown on Resume"
+msgstr "Countdown trên Resume"
+
+#: GameEngine.py:182
+msgid "If enabled, there will be a three second countdown when you unpause."
+msgstr "Nếu kích hoạt, sẽ có một ba thứ hai khi bạn bỏ tạm dừng đếm ngược."
+
+#: GameEngine.py:184
+msgid "Script Lyric Position"
+msgstr "Script Lyric Vị trí"
+
+#: GameEngine.py:184
+msgid "Bottom"
+msgstr "Bottom"
+
+#: GameEngine.py:184
+msgid "Top"
+msgstr "Top"
+
+#: GameEngine.py:184
+msgid "Display script lyrics at either the bottom or top of the screen."
+msgstr "Hiển thị lời bài hát kịch bản ở phía dưới hoặc trên cùng của màn hình."
+
+#: GameEngine.py:187
+msgid "Starpower Claps"
+msgstr "Starpower Claps"
+
+#: GameEngine.py:187
+msgid "Enables a clapping sound effect to be used on the beats in Starpower."
+msgstr "Cho phép một hiệu ứng âm thanh vỗ tay được sử dụng trên các nhịp đập trong Starpower."
+
+#: GameEngine.py:188
+msgid "Song Previews"
+msgstr "Song Previews"
+
+#: GameEngine.py:188
+msgid "Yellow Fret (#3)"
+msgstr "Yellow băn khoăn (# 3)"
+
+#: GameEngine.py:188
+msgid "If set to 'Automatic', songs will automatically start previewing when you select them. Otherwise you must press the third fret."
+msgstr "Nếu thiết lập để 'tự động', bài hát sẽ tự động bắt đầu xem trước khi bạn chọn chúng. Nếu không, bạn phải bấm thứ ba băn khoăn."
+
+#: GameEngine.py:189
+msgid "RB SP Neck Glow"
+msgstr "RB SP Neck Glow"
+
+#: GameEngine.py:189
+msgid "Sets a neck glow effect during SP in RB-type themes."
+msgstr "Đặt một hiệu ứng phát sáng trong cổ SP trong chủ đề RB-type."
+
+#: GameEngine.py:190
+msgid "SP Refill Mode"
+msgstr "SP Mode Refill"
+
+#: GameEngine.py:190
+msgid "By MIDI Type"
+msgstr "By Type MIDI"
+
+#: GameEngine.py:190
+msgid "Sets whether you can earn more starpower while using it. In 'By MIDI Type', only MIDIs that mark RB-style sections will use this. (This is set by the 'Gameplay' quickset)"
+msgstr "Bộ cho dù bạn có thể kiếm được starpower nhiều hơn khi sử dụng nó. Trong 'theo MIDI Type', chỉ MIDIs đánh dấu phần RB-phong cách sẽ sử dụng này. (Điều này là do 'chơi' hàng rào cây)"
+
+#: GameEngine.py:193
+msgid "Effects Debug"
+msgstr "Hiệu ứng Debug"
+
+#: GameEngine.py:193
+msgid "If enabled, will show on-screen the raw data of your killswitch/whammy."
+msgstr "Nếu kích hoạt, sẽ hiển thị trên màn hình các nguyên liệu của killswitch của bạn / whammy."
+
+#: GameEngine.py:195
+msgid "Drum SP"
+msgstr "Drum SP"
+
+#: GameEngine.py:195
+msgid "Auto / Fills"
+msgstr "Auto / Điền vào các ô"
+
+#: GameEngine.py:195
+msgid "Manual / Fills"
+msgstr "Manual / Điền vào các ô"
+
+#: GameEngine.py:195
+msgid "Determines how drum starpower is activated when there are no drum fills. Auto will automatically activate when available, and Manual will wait for the 'Starpower' button to be pressed."
+msgstr "Xác định như thế nào trống starpower được kích hoạt khi không có trống đầy. Auto sẽ tự động kích hoạt khi có sẵn, và hướng dẫn sử dụng sẽ đợi cho 'nút Starpower' để được bấm."
+
+#: GameEngine.py:196
+msgid "Large Drum Neck"
+msgstr "Drum lớn Neck"
+
+#: GameEngine.py:196
+msgid "If enabled, will show a larger neck when playing drums."
+msgstr "Nếu kích hoạt, sẽ hiển thị một cổ lớn hơn khi chơi trống."
+
+#: GameEngine.py:197
+#: GameEngine.py:235
+msgid "Bass Groove Neck"
+msgstr "Bass Groove Neck"
+
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:307
+msgid "Replace"
+msgstr "Thay thế"
+
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:307
+msgid "Overlay"
+msgstr "Che"
+
+#: GameEngine.py:197
+msgid "Sets the style of the Bass Groove neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "Thiết lập phong cách của cổ Bass Groove. 'Thay thế' thay thế cổ của bạn với các cổ đặc biệt, trong khi 'Overlay' đẻ cổ trên đầu trang."
+
+#: GameEngine.py:198
+msgid "Guitar Solo Neck"
+msgstr "Guitar Solo Neck"
+
+#: GameEngine.py:198
+msgid "Sets the style of the Guitar Solo neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "Thiết lập phong cách của cổ Guitar Solo. 'Thay thế' thay thế cổ của bạn với các cổ đặc biệt, trong khi 'Overlay' đẻ cổ trên đầu trang."
+
+#: GameEngine.py:199
+msgid "Show Unused Events"
+msgstr "Hiện chưa sử dụng Sự kiện"
+
+#: GameEngine.py:199
+msgid "If enabled, various MIDI events not used by the game will be shown on-screen."
+msgstr "Nếu kích hoạt, các sự kiện MIDI không được sử dụng bởi các trò chơi sẽ được hiển thị trên màn hình."
+
+#: GameEngine.py:200
+msgid "Kick Bass Sound"
+msgstr "Kick âm thanh Bass"
+
+#: GameEngine.py:200
+msgid "If enabled, you'll hear a kick bass sound when you use the kick pedal."
+msgstr "Nếu kích hoạt, bạn sẽ nghe thấy một âm thanh bass kick khi bạn sử dụng kick pedal."
+
+#: GameEngine.py:201
+msgid "Show Lyrics in All Modes"
+msgstr "Show Lyrics trong Tất cả các chế độ"
+
+#: GameEngine.py:201
+#: GameEngine.py:202
+msgid "Single Player"
+msgstr "Single Player"
+
+#: GameEngine.py:201
+msgid "Sets whether or not MIDI lyrics will be displayed in modes without a vocalist. 'Single Player' will only show lyrics when in Solo modes."
+msgstr "Bộ hay không lời MIDI sẽ được hiển thị trong chế độ mà không một ca sĩ. \"Single Player\" sẽ chỉ hiển thị lời bài hát khi ở chế độ Solo."
+
+#: GameEngine.py:202
+msgid "Show MIDI Sections"
+msgstr "Show MIDI Phòng"
+
+#: GameEngine.py:202
+msgid "Sets whether or not to scroll the names of sections as marked in the MIDI files."
+msgstr "Bộ hay không để di chuyển tên các bộ phận như đánh dấu trong file MIDI."
+
+#: GameEngine.py:203
+msgid "Key Conflicts"
+msgstr "Xung đột chính"
+
+#: GameEngine.py:203
+msgid "Don't check"
+msgstr "Không kiểm tra"
+
+#: GameEngine.py:203
+msgid "Notify"
+msgstr "Thông báo cho"
+
+#: GameEngine.py:203
+msgid "Enforce"
+msgstr "Thi hành"
+
+#: GameEngine.py:203
+msgid "Sets how the game handles key conflicts. 'Don't check' doesn't check, but conflicts will affect play. 'Notify' will inform you, but allow you to continue, and 'Enforce' will not allow you to exit the menu until all key conflicts have been resolved."
+msgstr "Bộ trò chơi như thế nào xử lý các xung đột chính. 'Không kiểm tra \"không kiểm tra, nhưng các cuộc xung đột sẽ ảnh hưởng đến chơi. 'Thông báo' sẽ thông báo cho bạn, nhưng cho phép bạn tiếp tục, và 'Enforce' sẽ không cho phép bạn thoát khỏi trình đơn cho đến khi tất cả các xung đột chính đã được giải quyết."
+
+#: GameEngine.py:204
+msgid "Show In-Game Stats"
+msgstr "Show In-Game Thống kê"
+
+#: GameEngine.py:204
+msgid "Sets whether or not to show detailed stats as you play. 'By Theme' leaves it to the theme creator."
+msgstr "Bộ, có hoặc không hiển thị số liệu thống kê chi tiết như bạn chơi. 'Theo đề' lá nó vào người tạo chủ đề."
+
+#: GameEngine.py:205
+msgid "Show Stars In-Game"
+msgstr "Show Stars Game-In"
+
+#: GameEngine.py:205
+msgid "Sets whether or not to show your star score as you play. 'By Theme' leaves it to the theme creator."
+msgstr "Bộ hay không để hiển thị điểm số ngôi sao của bạn khi bạn chơi. 'Theo đề' lá nó vào người tạo chủ đề."
+
+#: GameEngine.py:206
+msgid "Show Partial Stars"
+msgstr "Hiển thị một phần Stars"
+
+#: GameEngine.py:206
+msgid "Sets whether or not to show partial stars, if available"
+msgstr "Bộ hay không để hiển thị các ngôi sao một phần, nếu có"
+
+#: GameEngine.py:207
+msgid "HO/PO Debug"
+msgstr "HO / PO Debug"
+
+#: GameEngine.py:207
+msgid "If enabled, various log messages will be recorded regarding the HO/PO system. Please leave this disabled if submitting logs for bug reports unless you are certain it is necessary."
+msgstr "Nếu kích hoạt, tin nhắn đăng nhập khác nhau sẽ được ghi lại về HO các / PO hệ thống. Xin vui lòng để vô hiệu hóa nếu trình này cho các bản ghi báo cáo lỗi, trừ khi bạn chắc chắn nó là cần thiết."
+
+#: GameEngine.py:208
+msgid "Show Solo Stats"
+msgstr "Thống kê cho thấy Solo"
+
+#: GameEngine.py:208
+msgid "Percent"
+msgstr "Phần trăm"
+
+#: GameEngine.py:208
+msgid "Detail"
+msgstr "Xem chi tiết"
+
+#: GameEngine.py:208
+msgid "Sets whether to show your solo results when you finish a solo. 'Percent' will only show the percentage, while 'Detail' includes additional information."
+msgstr "Bộ hay không để hiển thị kết quả solo của bạn khi bạn hoàn thành một solo. 'Phần trăm' sẽ chỉ hiển thị tỷ lệ phần trăm, trong khi 'chi tiết' bao gồm thông tin bổ sung."
+
+#: GameEngine.py:209
+msgid "Stat Decimal Places"
+msgstr "Stat Decimal Places"
+
+#: GameEngine.py:209
+msgid "Determines how many decimal places will be noted in displaying stats."
+msgstr "Xác định có bao nhiêu số thập phân sẽ được ghi vào hiển thị số liệu thống kê."
+
+#: GameEngine.py:210
+msgid "Star Scoring Style"
+msgstr "Phong cách sao cho điểm"
+
+#: GameEngine.py:210
+msgid "Accuracy"
+msgstr "Độ chính xác"
+
+#: GameEngine.py:210
+msgid "GH"
+msgstr "GH"
+
+#: GameEngine.py:210
+msgid "RB"
+msgstr "RB"
+
+#: GameEngine.py:210
+msgid "RB+GH"
+msgstr "RB + GH"
+
+#: GameEngine.py:210
+msgid "Sets which system to use to calculate your star score."
+msgstr "Bộ mà hệ thống sử dụng để tính toán điểm số ngôi sao của bạn."
+
+#: GameEngine.py:211
+msgid "Career Mode Advance"
+msgstr "Hướng nghiệp Advance Mode"
+
+#: GameEngine.py:211
+msgid "0 (Song Finish)"
+msgstr "0 (Song Finish)"
+
+#: GameEngine.py:211
+msgid "1 Star"
+msgstr "1 Star"
+
+#: GameEngine.py:211
+msgid "2 Stars"
+msgstr "2 Stars"
+
+#: GameEngine.py:211
+msgid "3 Stars"
+msgstr "3 Stars"
+
+#: GameEngine.py:211
+msgid "4 Stars"
+msgstr "4 Stars"
+
+#: GameEngine.py:211
+msgid "5 Stars"
+msgstr "5 Stars"
+
+#: GameEngine.py:211
+msgid "6 (Gold Stars)"
+msgstr "6 (sao vàng)"
+
+#: GameEngine.py:211
+msgid "7 (Full Combo)"
+msgstr "7 (toàn Combo)"
+
+#: GameEngine.py:211
+msgid "Determine how many stars are needed on a song before it is unlocked in career mode."
+msgstr "Xác định có bao nhiêu ngôi sao đều cần thiết về bài hát trước khi nó được mở khóa trong chế độ nghề nghiệp."
+
+#: GameEngine.py:212
+msgid "Solo Stat Positioning"
+msgstr "Solo Stat vị"
+
+#: GameEngine.py:212
+#: GameEngine.py:319
+msgid "Rock Band"
+msgstr "Rock Band"
+
+#: GameEngine.py:212
+msgid "Sets where your solo result stats will be displayed."
+msgstr "Tập hợp số liệu thống kê kết quả solo của bạn sẽ được hiển thị."
+
+#: GameEngine.py:213
+msgid "Bass Groove"
+msgstr "Bass Groove"
+
+#: GameEngine.py:213
+msgid "By MIDI"
+msgstr "Bởi MIDI"
+
+#: GameEngine.py:213
+msgid "Enable or disable bass groove (additional score multiplier for bass)"
+msgstr "Kích hoạt hoặc vô hiệu hóa bass groove (thêm điểm số nhân cho bass)"
+
+#: GameEngine.py:214
+msgid "Drum Miss Penalty"
+msgstr "Drum Miss Penalty"
+
+#: GameEngine.py:214
+msgid "Song Start"
+msgstr "Song bắt đầu"
+
+#: GameEngine.py:214
+msgid "First Note"
+msgstr "Lưu ý đầu tiên"
+
+#: GameEngine.py:214
+msgid "Determines when drum hits count as misses: When the song begins, after the first note, or always."
+msgstr "Xác định khi nào trống lượt truy cập tính là nhớ: Khi bài hát bắt đầu, sau khi lưu ý đầu tiên, hoặc luôn."
+
+#: GameEngine.py:215
+msgid "Time Display Format"
+msgstr "Thời gian hiển thị định dạng"
+
+#: GameEngine.py:215
+#: GameEngine.py:306
+msgid "Countdown"
+msgstr "Countdown"
+
+#: GameEngine.py:215
+msgid "Elapsed"
+msgstr "Trôi qua"
+
+#: GameEngine.py:215
+msgid "Sets whether the song time is displayed as time elapsed, time remaining, or not at all"
+msgstr "Sets dù thời gian bài hát được hiển thị như thời gian trôi qua, thời gian còn lại, hoặc không"
+
+#: GameEngine.py:216
+msgid "Show Theme Version Tag"
+msgstr "Show Chủ đề Phiên bản Tag"
+
+#: GameEngine.py:216
+msgid "Places the theme's version tag over menus and dialogs."
+msgstr "Địa danh tag phiên bản của chủ đề trên menu và hộp thoại."
+
+#: GameEngine.py:217
+msgid "Menu Navigation"
+msgstr "Menu Danh mục chính"
+
+#: GameEngine.py:217
+msgid "P1 Only"
+msgstr "Chỉ P1"
+
+#: GameEngine.py:217
+msgid "All Players"
+msgstr "Tất cả các cầu thủ"
+
+#: GameEngine.py:217
+msgid "Sets whether all players can navigate the menu, or only the controller set as Player 1 and the master keys."
+msgstr "Sets liệu tất cả người chơi có thể điều hướng trình đơn, hoặc chỉ điều khiển các thiết lập như là cầu thủ 1 và các phím chủ."
+
+#: GameEngine.py:218
+msgid "In-Game Font Shadow"
+msgstr "In-Game Shadow Font"
+
+#: GameEngine.py:218
+msgid "Sets whether or not a shadowed font will be used, if available."
+msgstr "Bộ có hay không một font shadowed sẽ được sử dụng, nếu có."
+
+#: GameEngine.py:219
+msgid "Mute Last Second"
+msgstr "Mute Ngày thứ hai"
+
+#: GameEngine.py:219
+msgid "Cuts the volume with one second remaining to prevent any pops when the song ends."
+msgstr "Cắt giảm khối lượng với một thứ hai còn lại để ngăn chặn bất kỳ pops khi bài hát kết thúc."
+
+#: GameEngine.py:220
+msgid "Results Cheer Loop"
+msgstr "Kết quả Cheer Loop"
+
+#: GameEngine.py:220
+#: GameEngine.py:319
+#: GameEngine.py:399
+msgid "Theme"
+msgstr "Chủ đề"
+
+#: GameEngine.py:220
+msgid "Sets whether the cheering sound heard on the result screen will loop. 'Theme' leaves it to the theme creator."
+msgstr "Bộ âm thanh cổ vũ cho dù nghe trên màn hình kết quả sẽ loop. 'Đề' lá nó vào người tạo chủ đề."
+
+#: GameEngine.py:221
+msgid "Cheer Loop Delay"
+msgstr "Cheer Delay Loop"
+
+#: GameEngine.py:221
+msgid "Sets the time, in milliseconds, to wait before playing the result cheer again (if looping is enabled)."
+msgstr "Thiết lập thời gian, trong mili giây, để chờ đợi trước khi vui chơi kết quả một lần nữa (nếu looping được kích hoạt)."
+
+#: GameEngine.py:222
+msgid "Miss Pauses Anim"
+msgstr "Miss dừng Anim"
+
+#: GameEngine.py:222
+msgid "When enabled, missing a note will pause the stage animation."
+msgstr "Khi được kích hoạt, mất tích, một lưu ý sẽ tạm dừng hoạt hình sân khấu."
+
+#: GameEngine.py:223
+msgid "Song HO/PO Freq"
+msgstr "Song HO / PO Thường"
+
+#: GameEngine.py:223
+msgid "Sets whether or not to use the HO/PO Frequency setting determined by the fretter, if available."
+msgstr "Bộ, có hoặc không sử dụng HO / PO Tần số thiết lập được xác định bởi fretter này, nếu có."
+
+#: GameEngine.py:225
+msgid "Mute Drum Track During Fills"
+msgstr "Mute Drum Track Trong Điền vào các ô"
+
+#: GameEngine.py:225
+msgid "Sets whether or not the drum track will be muted during drum fills (so you can hear yourself have at it!)"
+msgstr "Bộ hay không trống theo dõi sẽ được tắt trong thời gian trống đầy (để bạn có thể nghe thấy bản thân có lúc nó!)"
+
+#: GameEngine.py:226
+msgid "Sustain Muting"
+msgstr "Duy trì muting"
+
+#: GameEngine.py:226
+msgid "Never Mute"
+msgstr "Không bao giờ Mute"
+
+#: GameEngine.py:226
+msgid "Very Early"
+msgstr "Rất sớm"
+
+#: GameEngine.py:226
+msgid "Early"
+msgstr "Đầu"
+
+#: GameEngine.py:226
+#: GameEngine.py:309
+#: GameResultsScene.py:293
+msgid "Standard"
+msgstr "Standard"
+
+#: GameEngine.py:226
+msgid "Always Mute"
+msgstr "Luôn Mute"
+
+#: GameEngine.py:226
+msgid "Sets the window used to determine whether or not to mute a dropped sustain note. 'Early' means it will only mute when you drop the sustain relatively early."
+msgstr "Thiết lập cửa sổ được sử dụng để xác định có hay không để tắt bỏ duy trì một lưu ý. 'Sớm' có nghĩa là nó sẽ chỉ tắt khi bạn thả duy trì tương đối sớm."
+
+#: GameEngine.py:227
+msgid "Show Solo Frame"
+msgstr "Show Solo Frame"
+
+#: GameEngine.py:227
+msgid "Sets whether to show a frame around the solo stats, if available."
+msgstr "Sets liệu để hiển thị một khung xung quanh các số liệu thống kê solo, nếu có."
+
+#: GameEngine.py:228
+msgid "Enable Guitar Solos"
+msgstr "Kích hoạt tính năng Guitar solo"
+
+#: GameEngine.py:228
+#: GameEngine.py:297
+msgid "Never"
+msgstr "Không bao giờ"
+
+#: GameEngine.py:228
+msgid "MIDI Only"
+msgstr "Chỉ MIDI"
+
+#: GameEngine.py:228
+msgid "Sets the logic used to mark solos. 'Always' will mark solos in sections if available. 'By Theme' leaves it to the theme creator. 'MIDI Only' only enables solos marked with the MIDI marker note."
+msgstr "Thiết lập logic được sử dụng để đánh dấu solo. \"Luôn luôn\" sẽ đánh dấu solo trong phần nếu có. 'Theo đề' lá nó vào người tạo chủ đề. 'MIDI Chỉ' chỉ cho phép đánh dấu solo với lưu ý đánh dấu MIDI."
+
+#: GameEngine.py:229
+msgid "SP Mode"
+msgstr "SP Mode"
+
+#: GameEngine.py:229
+#: GameEngine.py:319
+msgid "FoF"
+msgstr "FoF"
+
+#: GameEngine.py:229
+msgid "Auto MIDI"
+msgstr "Auto MIDI"
+
+#: GameEngine.py:229
+msgid "Sets the logic used to determine starpower phrases. 'FoF' will generate paths based on the number of notes. 'Auto MIDI' will use MIDI markers to determine the paths, and fall back on the FoF mode if none are available."
+msgstr "Thiết lập logic được sử dụng để xác định các cụm từ starpower. 'FoF' sẽ tạo ra những con đường dựa trên số lượng các ghi chú. 'Auto MIDI' sẽ sử dụng MIDI dấu mốc để xác định đường dẫn, và rơi trở lại vào chế độ FoF nếu không có sẵn."
+
+#: GameEngine.py:231
+msgid "Inc. Neck Mode"
+msgstr "Inc Neck Mode"
+
+#: GameEngine.py:231
+msgid "Start Only"
+msgstr "Chỉ bắt đầu"
+
+#: GameEngine.py:231
+msgid "Start & End"
+msgstr "Start & End"
+
+#: GameEngine.py:231
+msgid "Sets how and whether to render incoming solo necks. 'Start Only' will scroll it in but not out, while 'Start & End' does both."
+msgstr "Bộ như thế nào và liệu để vẽ cổ solo đến. 'Bắt đầu Chỉ' sẽ di chuyển nó trong nhưng không ra, trong khi 'Start & End' nào cả."
+
+#: GameEngine.py:232
+msgid "Big Rock Endings"
+msgstr "Big Rock hậu"
+
+#: GameEngine.py:232
+msgid "Enable or disable big rock endings. 'By Theme' leaves it to the theme creator."
+msgstr "Kích hoạt hoặc vô hiệu hóa lớn rock kết thúc. 'Theo đề' lá nó vào người tạo chủ đề."
+
+#: GameEngine.py:233
+msgid "Main Neck"
+msgstr "Cổ chính"
+
+#: GameEngine.py:233
+#, python-format
+msgid "Set the transparency of the main neck. 100% is fully visible."
+msgstr "Đặt minh bạch của các cổ chính. Hoàn toàn 100% nhìn thấy được."
+
+#: GameEngine.py:234
+msgid "Solo Neck"
+msgstr "Solo Neck"
+
+#: GameEngine.py:234
+#, python-format
+msgid "Set the transparency of the solo neck. 100% is fully visible."
+msgstr "Đặt minh bạch của các cổ solo. Hoàn toàn 100% nhìn thấy được."
+
+#: GameEngine.py:235
+#, python-format
+msgid "Set the transparency of the bass groove neck. 100% is fully visible."
+msgstr "Đặt minh bạch của các rãnh cổ bass. Hoàn toàn 100% nhìn thấy được."
+
+#: GameEngine.py:236
+msgid "Fail Neck"
+msgstr "Không Neck"
+
+#: GameEngine.py:236
+#, python-format
+msgid "Set the transparency of the failing neck. 100% is fully visible."
+msgstr "Đặt minh bạch của các cổ không. Hoàn toàn 100% nhìn thấy được."
+
+#: GameEngine.py:237
+msgid "Overlay Neck"
+msgstr "Lớp phủ Neck"
+
+#: GameEngine.py:237
+#, python-format
+msgid "Set the transparency of neck overlays. 100% is fully visible."
+msgstr "Đặt minh bạch của các cổ lớp. Hoàn toàn 100% nhìn thấy được."
+
+#: GameEngine.py:238
+msgid "All Necks"
+msgstr "Tất cả các cổ"
+
+#: GameEngine.py:238
+#, python-format
+msgid "Set the master transparency of all necks. 100% is fully visible."
+msgstr "Đặt minh bạch tổng thể của tất cả cổ. Hoàn toàn 100% nhìn thấy được."
+
+#: GameEngine.py:239
+msgid "Show Any Available Score"
+msgstr "Show Bất kỳ Hệ số Available"
+
+#: GameEngine.py:239
+msgid "When set to 'On', this will look for any available score on the currently selected instrument for setlist score display, if one is not available at the chosen difficulty."
+msgstr "Khi được thiết lập để 'Ngày', điều này sẽ xem xét cho bất kỳ điểm số có sẵn trên các nhạc cụ hiện đang được chọn để hiển thị điểm số setlist, nếu có không có sẵn tại những khó khăn đã được chọn."
+
+#: GameEngine.py:241
+msgid "Scroll Delay"
+msgstr "Di chuyển chậm trễ"
+
+#: GameEngine.py:241
+msgid "Sets how long, in milliseconds, to wait before beginning to scroll."
+msgstr "Bộ bao lâu, trong mili giây, để chờ đợi trước khi bắt đầu di chuyển."
+
+#: GameEngine.py:242
+msgid "Scroll Rate"
+msgstr "Tỷ lệ di chuyển"
+
+#: GameEngine.py:242
+msgid "Sets how quickly menus will scroll."
+msgstr "Bộ nhanh như thế nào menu sẽ di chuyển."
+
+#: GameEngine.py:245
+msgid "Use (notes-unedited.mid)"
+msgstr "Sử dụng (ghi chú-unedited.mid)"
+
+#: GameEngine.py:245
+msgid "Sets whether to look for (and use) a 'notes-unedited.mid' before 'notes.mid'. There's no reason to change this."
+msgstr "Bộ hay không để tìm kiếm (và sử dụng) một 'ghi chú-unedited.mid' trước khi 'notes.mid'. Không có lý do gì để thay đổi này."
+
+#: GameEngine.py:246
+msgid "Show Fill Status"
+msgstr "Show Tình trạng Điền"
+
+#: GameEngine.py:246
+msgid "When enabled, whether or not you are in a drum fill/freestyle ending will be displayed in text on the screen."
+msgstr "Khi được kích hoạt, có hoặc không bạn đang ở trong một cái trống điền / tự do kết thúc sẽ được hiển thị trong văn bản trên màn hình."
+
+#: GameEngine.py:247
+msgid "Show BPM"
+msgstr "Show BPM"
+
+#: GameEngine.py:247
+msgid "When enabled, the current song BPM will be shown on screen."
+msgstr "Khi được kích hoạt, các BPM bài hát hiện hành sẽ được hiển thị trên màn hình."
+
+#: GameEngine.py:248
+msgid "New BPM Logic"
+msgstr "New BPM Logic"
+
+#: GameEngine.py:248
+msgid "If enabled, the game will attempt to use the new BPM logic. This is not a finished feature. Use at your own risk."
+msgstr "Nếu kích hoạt, các trò chơi sẽ cố gắng sử dụng logic BPM mới. Đây không phải là một tính năng hoàn thành. Sử dụng tại rủi ro của riêng bạn."
+
+#: GameEngine.py:249
+msgid "New Song Database Code"
+msgstr "New Song Mã Cơ sở dữ liệu"
+
+#: GameEngine.py:249
+msgid "Activates the new, incomplete song database code."
+msgstr "Kích hoạt, mới chưa đầy đủ cơ sở dữ liệu song mã."
+
+#: GameEngine.py:251
+msgid "Show Raw Vocal Data"
+msgstr "Show Vocal Nguyên liệu"
+
+#: GameEngine.py:251
+msgid "If enabled, various information about the microphone input will be show in text on screen. Probably only needed for vocal debugging."
+msgstr "Nếu kích hoạt, các thông tin về đầu vào microphone sẽ được hiển thị trong văn bản trên màn hình. Có lẽ chỉ cần thiết để sửa lỗi thanh nhạc."
+
+#: GameEngine.py:253
+msgid "Speed Factor"
+msgstr "Speed Factor"
+
+#: GameEngine.py:253
+msgid "1.00x"
+msgstr "1.00x"
+
+#: GameEngine.py:253
+msgid "0.75x"
+msgstr "0.75x"
+
+#: GameEngine.py:253
+msgid "0.50x"
+msgstr "0.50x"
+
+#: GameEngine.py:253
+msgid "0.25x"
+msgstr "0.25x"
+
+#: GameEngine.py:253
+msgid "Sets the speed to play the audio at. Your score will be severely penalized if you slow the music down."
+msgstr "Thiết lập tốc độ để chơi các âm thanh lúc. điểm số của bạn sẽ bị nghiêm phạt nếu bạn làm chậm xuống âm nhạc."
+
+#: GameEngine.py:255
+msgid "Effects Mode"
+msgstr "Chế độ hiệu ứng"
+
+#: GameEngine.py:255
+msgid "Killswitch"
+msgstr "Killswitch"
+
+#: GameEngine.py:255
+msgid "Pitchbend"
+msgstr "Pitchbend"
+
+#: GameEngine.py:255
+msgid "Sets whether to use a killswitch or pitchbend as the effect on your whammy."
+msgstr "Bộ xem có sử dụng một killswitch hoặc pitchbend như các hiệu ứng trên whammy của bạn."
+
+#: GameEngine.py:259
+msgid "Log INI Reads"
+msgstr "Đăng nhập INI đọc"
+
+#: GameEngine.py:259
+msgid "Logs any read to an INI file. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Các bản ghi bất kỳ đọc một tập tin INI. Điều này là không cần thiết thông tin trong báo cáo lỗi; xin hãy để nó vô hiệu hóa, trừ khi bạn chắc chắn nó có liên quan."
+
+#: GameEngine.py:260
+msgid "Log Class Inits"
+msgstr "Đăng nhập Inits Class"
+
+#: GameEngine.py:260
+msgid "Logs most class initializations in '__init__'. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Logs lớp nhất initializations trong '__init__'. Điều này là không cần thiết thông tin trong báo cáo lỗi; xin hãy để nó vô hiệu hóa, trừ khi bạn chắc chắn nó có liên quan."
+
+#: GameEngine.py:261
+msgid "Log Loadings"
+msgstr "Đăng nhập trội"
+
+#: GameEngine.py:261
+msgid "Logs resource loads. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Các bản ghi tài nguyên tải. Điều này là không cần thiết thông tin trong báo cáo lỗi; xin hãy để nó vô hiệu hóa, trừ khi bạn chắc chắn nó có liên quan."
+
+#: GameEngine.py:262
+msgid "Log MIDI Sections"
+msgstr "Đăng nhập MIDI Phòng"
+
+#: GameEngine.py:262
+msgid "Logs MIDI sections. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Logs MIDI phần. Điều này là không cần thiết thông tin trong báo cáo lỗi; xin hãy để nó vô hiệu hóa, trừ khi bạn chắc chắn nó có liên quan."
+
+#: GameEngine.py:263
+msgid "Log Undefined GETs"
+msgstr "Đăng nhập Không xác định được"
+
+#: GameEngine.py:263
+msgid "Logs attempts to read an undefined config key. This is unnecessary information."
+msgstr "Logs cố gắng để đọc một khoá cấu hình không xác định. Điều này là không cần thiết thông tin."
+
+#: GameEngine.py:264
+msgid "Log Marker Notes"
+msgstr "Đăng nhập Ghi chú Marker"
+
+#: GameEngine.py:264
+msgid "Logs MIDI marker notes (solo, SP, etc). This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Logs MIDI đánh dấu ghi chú (solo, SP, vv). Điều này là không cần thiết thông tin trong báo cáo lỗi; xin hãy để nó vô hiệu hóa, trừ khi bạn chắc chắn nó có liên quan."
+
+#: GameEngine.py:265
+msgid "Log SP Misses"
+msgstr "Đăng nhập SP nhớ"
+
+#: GameEngine.py:265
+msgid "Logs SP phrase misses. This is unnecessary information."
+msgstr "SP bản ghi nhớ cụm từ. Điều này là không cần thiết thông tin."
+
+#: GameEngine.py:266
+msgid "Log Unedited MIDIs"
+msgstr "Đăng nhập MIDIs chưa được chỉnh sửa"
+
+#: GameEngine.py:266
+msgid "Logs when notes-unedited.mid is used. This is unnecessary information."
+msgstr "Logs khi ghi chú unedited.mid-được sử dụng. Điều này là không cần thiết thông tin."
+
+#: GameEngine.py:267
+msgid "Log Lyric Events"
+msgstr "Đăng nhập Sự kiện Lyric"
+
+#: GameEngine.py:267
+msgid "Logs MIDI lyric events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Logs lyric MIDI sự kiện. Điều này là không cần thiết thông tin trong báo cáo lỗi; xin hãy để nó vô hiệu hóa, trừ khi bạn chắc chắn nó có liên quan."
+
+#: GameEngine.py:268
+msgid "Log Tempo Events"
+msgstr "Đăng nhập Sự kiện Tempo"
+
+#: GameEngine.py:268
+msgid "Logs MIDI tempo events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "Tiến độ các bản ghi MIDI sự kiện. Điều này là không cần thiết thông tin trong báo cáo lỗi; xin hãy để nó vô hiệu hóa, trừ khi bạn chắc chắn nó có liên quan."
+
+#: GameEngine.py:269
+msgid "Log Missing Images"
+msgstr "Đăng nhập Hình ảnh Thiếu"
+
+#: GameEngine.py:269
+msgid "Only on single images"
+msgstr "Chỉ duy nhất về hình ảnh"
+
+#: GameEngine.py:269
+msgid "Logs when files loaded are not found. 'Only on single images' skips logging when directories are loaded."
+msgstr "Logs khi tải tập tin không được tìm thấy. 'Chỉ trên một hình ảnh' bỏ qua đăng nhập khi thư mục được nạp."
+
+#: GameEngine.py:274
+msgid "Practice Beat Claps"
+msgstr "Thực hành Beat Claps"
+
+#: GameEngine.py:274
+msgid "Enables clap sound effects on every beat in practice mode."
+msgstr "Cho phép vỗ tay hiệu ứng âm thanh trên mỗi nhịp trong chế độ thực hành."
+
+#: GameEngine.py:275
+msgid "Change Score Display"
+msgstr "Thay đổi Hệ số Hiển thị"
+
+#: GameEngine.py:275
+#: GameEngine.py:311
+msgid "Auto"
+msgstr "Tự động"
+
+#: GameEngine.py:275
+msgid "Blue Fret (#4)"
+msgstr "Blue băn khoăn (# 4)"
+
+#: GameEngine.py:275
+msgid "Sets whether to change the setlist high score difficulty automatically or with the fourth fret."
+msgstr "Bộ hay không để thay đổi những khó khăn setlist cao điểm tự động hoặc với băn khoăn thứ tư."
+
+#: GameEngine.py:278
+msgid "Makes opponent miss notes until the whammy bar is pushed a few times"
+msgstr "Làm cho đối thủ bỏ lỡ ghi chú cho đến khi thanh whammy được đẩy một vài lần"
+
+#: GameEngine.py:279
+msgid "Difficulty Up"
+msgstr "Khó khăn Up"
+
+#: GameEngine.py:279
+msgid "Ups opponent's difficulty for a while (if not playing on Expert)"
+msgstr "Up của đối thủ gặp khó khăn trong một thời (nếu không phải chơi trên Expert)"
+
+#: GameEngine.py:280
+msgid "String Break"
+msgstr "String Break"
+
+#: GameEngine.py:280
+msgid "Breaks a string, causing your opponent to miss notes on that fret until they push the fret button several times."
+msgstr "Phá vỡ một chuỗi, gây ra đối thủ của bạn bỏ lỡ ghi chú về mà băn khoăn cho đến khi họ đẩy nút băn khoăn nhiều lần."
+
+#: GameEngine.py:281
+msgid "Double Notes"
+msgstr "Double Notes"
+
+#: GameEngine.py:281
+msgid "Makes single notes into chords, and chords into even bigger ones."
+msgstr "Làm đơn ghi chú vào chords, và hợp âm sang ngay cả lớn hơn."
+
+#: GameEngine.py:282
+msgid "Death Drain"
+msgstr "Death Drain"
+
+#: GameEngine.py:282
+msgid "Sudden Death Only"
+msgstr "Sudden Death Chỉ"
+
+#: GameEngine.py:282
+msgid "Drains your opponents life until they die. 'Sudden Death Only' keeps this from appearing until you reach sudden death mode."
+msgstr "Cống đối thủ của bạn cuộc sống cho đến khi họ chết. 'Sudden Death Chỉ' giữ này xuất hiện cho đến khi bạn đạt đến chế độ đột tử."
+
+#: GameEngine.py:283
+msgid "Amp Overload"
+msgstr "Amp quá tải"
+
+#: GameEngine.py:283
+msgid "Makes opponent's amp flip out, making notes disappear and reappear randomly."
+msgstr "Làm cho đối thủ của amp flip ra, làm cho biến mất và xuất hiện lại các ghi chú một cách ngẫu nhiên."
+
+#: GameEngine.py:284
+msgid "Switch Controls"
+msgstr "Switch Controls"
+
+#: GameEngine.py:284
+msgid "Switches opponent to (or from) lefty mode for a bit!"
+msgstr "Tắc đối thủ chế độ Lefty (hoặc từ) cho một chút!"
+
+#: GameEngine.py:285
+msgid "Steal Object"
+msgstr "Đối tượng trộm cắp"
+
+#: GameEngine.py:285
+msgid "Steals an object your opponent has."
+msgstr "Một đối tượng trộm đối thủ của bạn đã."
+
+#: GameEngine.py:286
+msgid "Guitar Tune"
+msgstr "Guitar Tune"
+
+#: GameEngine.py:286
+msgid "Makes opponent miss all notes until they play a scale."
+msgstr "Làm cho đối thủ bỏ lỡ tất cả các ghi chú cho đến khi họ chơi một quy mô."
+
+#: GameEngine.py:289
+msgid "Score SFX"
+msgstr "Hệ số SFX"
+
+#: GameEngine.py:289
+msgid "Sets whether or not to have Jurgen taunt (or, I suppose, congratulate) you at the end of a song."
+msgstr "Bộ, có hoặc không có Jurgen chế nhạo (hoặc, tôi giả sử, chúc mừng), bạn ở phần cuối của bài hát."
+
+#: GameEngine.py:290
+msgid "GH SP Lights"
+msgstr "GH SP Lights"
+
+#: GameEngine.py:290
+msgid "Sets whether to fade images over the starpower bulbs in GH themes when fully lit."
+msgstr "Bộ hay không để phai hình ảnh trên các bóng đèn starpower trong chủ đề GH khi có đủ ánh sáng."
+
+#: GameEngine.py:291
+msgid "RB Small 1x Multiplier"
+msgstr "RB 1x nhỏ Sô Nhân"
+
+#: GameEngine.py:291
+msgid "When enabled, RB-type themes will have a smaller mult image when the multiplier is at 1x. 'By Theme' leaves it to the theme creator."
+msgstr "Khi được kích hoạt, chủ đề RB-type sẽ có một hình ảnh mult nhỏ hơn khi các nhân đang ở 1x. 'Theo đề' lá nó vào người tạo chủ đề."
+
+#: GameEngine.py:292
+msgid "Board Speed Mode"
+msgstr "Board Speed Mode"
+
+#: GameEngine.py:292
+#: GameEngine.py:344
+msgid "BPM"
+msgstr "BPM"
+
+#: GameEngine.py:292
+#: GameEngine.py:317
+#: GameEngine.py:344
+msgid "Difficulty"
+msgstr "Khó khăn"
+
+#: GameEngine.py:292
+#: GameEngine.py:344
+msgid "BPM & Diff"
+msgstr "BPM & Chú"
+
+#: GameEngine.py:292
+msgid "Percentage"
+msgstr "Tỷ lệ phần trăm"
+
+#: GameEngine.py:292
+msgid "Sets what determines the speed of the scrolling notes."
+msgstr "Bộ những gì xác định tốc độ di chuyển của các ghi chú."
+
+#: GameEngine.py:293
+msgid "Loading Phrases"
+msgstr "Loading cụm từ"
+
+#: GameEngine.py:293
+msgid "Sets whether or not to use loading phrases while loading a song"
+msgstr "Bộ, có hoặc không sử dụng cụm từ, trong khi tải tải một bài hát"
+
+#: GameEngine.py:294
+msgid "Effects Display Mode"
+msgstr "Chế độ hiển thị hiệu ứng"
+
+#: GameEngine.py:294
+msgid "Static"
+msgstr "Tĩnh"
+
+#: GameEngine.py:294
+msgid "Animated"
+msgstr "Hoạt hình"
+
+#: GameEngine.py:294
+msgid "Sets whether or not the whammy effect is animated. (This is affected by the 'Performance' quickset)"
+msgstr "Bộ hay không có hiệu lực whammy là hoạt hình. (Điều này bị ảnh hưởng bởi các 'diễn' hàng rào cây)"
+
+#: GameEngine.py:295
+msgid "Show Filepath"
+msgstr "Show Filepath"
+
+#: GameEngine.py:295
+msgid "Show"
+msgstr "Show"
+
+#: GameEngine.py:295
+msgid "Hide"
+msgstr "Ẩn"
+
+#: GameEngine.py:295
+msgid "Sets whether or not to show the filepath of the song."
+msgstr "Bộ hay không để hiển thị filepath của bài hát."
+
+#: GameEngine.py:296
+msgid "3D Note Rotation"
+msgstr "Lưu ý xoay 3D"
+
+#: GameEngine.py:296
+msgid "Old"
+msgstr "Xưa"
+
+#: GameEngine.py:296
+msgid "New"
+msgstr "New"
+
+#: GameEngine.py:296
+msgid "Sets the manner of 3D Note Rotation."
+msgstr "Thiết lập theo cách của 3D Lưu ý Rotation."
+
+#: GameEngine.py:297
+msgid "Show In-Game Text"
+msgstr "Show In-Game Text"
+
+#: GameEngine.py:297
+msgid "Only Note Streaks"
+msgstr "Chỉ Lưu ý vệt"
+
+#: GameEngine.py:297
+msgid "Sets whether or not to show text in-game. This includes note streaks and 'Starpower Ready'. (This is affected by the 'Performance' quickset)"
+msgstr "Bộ hay không để hiển thị văn bản trong trò chơi. Điều này bao gồm vệt lưu ý và 'Starpower Ready'. (Điều này bị ảnh hưởng bởi các 'diễn' hàng rào cây)"
+
+#: GameEngine.py:298
+msgid "Setlist Display Mode"
+msgstr "Chế độ hiển thị Setlist"
+
+#: GameEngine.py:298
+msgid "List"
+msgstr "Danh sách"
+
+#: GameEngine.py:298
+msgid "List/CD"
+msgstr "Danh sách / CD"
+
+#: GameEngine.py:298
+msgid "Sets the setlist display mode. 'By Theme' lets the theme creator decide."
+msgstr "Thiết lập chế độ hiển thị setlist. 'Theo đề' cho phép người tạo ra chủ đề quyết định."
+
+#: GameEngine.py:299
+msgid "Use Subfolders"
+msgstr "Sử dụng Subfolders"
+
+#: GameEngine.py:299
+msgid "List All"
+msgstr "Tất cả"
+
+#: GameEngine.py:299
+msgid "'Normal' allows you to navigate folders. 'List All' places all songs into a single setlist."
+msgstr "'Normal' cho phép bạn điều hướng thư mục. 'Tất cả' nơi tất cả các bài hát thành một setlist duy nhất."
+
+#: GameEngine.py:300
+msgid "Show Song Type Icons"
+msgstr "Show Song Loại biểu tượng"
+
+#: GameEngine.py:300
+msgid "Sets whether or not to show icons indicating the song 'type'"
+msgstr "Bộ hay không để hiển thị các biểu tượng cho thấy bài hát 'loại'"
+
+#: GameEngine.py:301
+msgid "Preload Song Labels"
+msgstr "Song tải trước Nhãn"
+
+#: GameEngine.py:301
+msgid "Sets whether to preload all song labels on load. With large setlists, this option is extremely slow."
+msgstr "Bộ hay không để tải trước tất cả các nhãn bài hát tải. Với setlists lớn, tùy chọn này là rất chậm."
+
+#: GameEngine.py:302
+msgid "Label Type"
+msgstr "Loại nhãn"
+
+#: GameEngine.py:302
+msgid "CD Labels"
+msgstr "Nhãn CD"
+
+#: GameEngine.py:302
+msgid "Album Covers"
+msgstr "Album Covers"
+
+#: GameEngine.py:302
+msgid "Sets whether to show CD labels or album covers as the art."
+msgstr "Sets liệu để hiển thị các nhãn đĩa CD hay album bao gồm như là nghệ thuật."
+
+#: GameEngine.py:303
+msgid "Rotating CDs"
+msgstr "Quay đĩa CD"
+
+#: GameEngine.py:303
+msgid "Sets whether or not CDs rotate."
+msgstr "Bộ đĩa CD hay không xoay."
+
+#: GameEngine.py:304
+msgid "Remember Play Count"
+msgstr "Hãy nhớ Play Count"
+
+#: GameEngine.py:304
+msgid "Keeps track of how many times you've played each song."
+msgstr "Theo dõi bao nhiêu lần bạn đã chơi mỗi bài hát."
+
+#: GameEngine.py:306
+msgid "Show at Song Start"
+msgstr "Hiện tại Song bắt đầu"
+
+#: GameEngine.py:306
+msgid "Part"
+msgstr "Phần"
+
+#: GameEngine.py:306
+msgid "Sets whether to show a countdown or your name and part at the song's start."
+msgstr "Sets liệu để hiển thị một đếm ngược hoặc tên của bạn và một phần tại bắt đầu của bài hát."
+
+#: GameEngine.py:307
+msgid "Overdrive Neck"
+msgstr "Overdrive Neck"
+
+#: GameEngine.py:307
+msgid "Sets the style of the Overdrive neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "Thiết lập phong cách của cổ Overdrive. 'Thay thế' thay thế cổ của bạn với các cổ đặc biệt, trong khi 'Overlay' đẻ cổ trên đầu trang."
+
+#: GameEngine.py:309
+msgid "Note Hit Window"
+msgstr "Lưu ý Lượt Window"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:285
+msgid "Tightest"
+msgstr "Chặt chẽ"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:287
+msgid "Tight"
+msgstr "Chặt chẽ"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:289
+msgid "Wide"
+msgstr "Wide"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:291
+msgid "Widest"
+msgstr "Rộng nhất"
+
+#: GameEngine.py:309
+msgid "Sets how accurate you need to be while playing."
+msgstr "Bộ như thế nào chính xác bạn cần phải được trong khi chơi."
+
+#: GameEngine.py:311
+msgid "Early Hit Window"
+msgstr "Đầu Lượt Window"
+
+#: GameEngine.py:311
+msgid "None (RB2)"
+msgstr "Không (RB2)"
+
+#: GameEngine.py:311
+msgid "Half (GH2)"
+msgstr "Một nửa (GH2)"
+
+#: GameEngine.py:311
+msgid "Full (FoF)"
+msgstr "Toàn (FoF)"
+
+#: GameEngine.py:311
+msgid "Sets how much time before the note is part of the hit window. 'Auto' uses the MIDI to determine."
+msgstr "Bộ bao nhiêu thời gian trước khi lưu ý là một phần của cửa sổ hit. 'Auto' MIDI sử dụng để xác định."
+
+#: GameEngine.py:312
+msgid "Show Detailed Handicap"
+msgstr "Hiển thị chi tiết Handicap"
+
+#: GameEngine.py:312
+msgid "Shows the handicaps individually on the result screen."
+msgstr "Cho thấy tật cá nhân trên màn hình kết quả."
+
+#: GameEngine.py:315
+msgid "Disable Variable BPM"
+msgstr "Vô hiệu hoá biến BPM"
+
+#: GameEngine.py:315
+msgid "This will disable the use of the Variable BPM logic."
+msgstr "Điều này sẽ vô hiệu hóa việc sử dụng của logic BPM biến."
+
+#: GameEngine.py:316
+msgid "Sort Direction"
+msgstr "Phân loại Hướng"
+
+#: GameEngine.py:316
+msgid "Ascending"
+msgstr "Tăng dần"
+
+#: GameEngine.py:316
+msgid "Descending"
+msgstr "Giảm dần"
+
+#: GameEngine.py:316
+msgid "Choose whether to sort in ascending (A-Z) or descending (Z-A) order."
+msgstr "Chọn để sắp xếp tăng dần (AZ) hoặc giảm dần (ZA) đặt hàng."
+
+#: GameEngine.py:317
+msgid "Sort Setlist By"
+msgstr "Phân loại theo Setlist"
+
+#: GameEngine.py:317
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: GameEngine.py:317
+msgid "Artist"
+msgstr "Nghệ sĩ"
+
+#: GameEngine.py:317
+msgid "Times played"
+msgstr "Times chơi"
+
+#: GameEngine.py:317
+msgid "Album"
+msgstr "Album"
+
+#: GameEngine.py:317
+msgid "Genre"
+msgstr "Thể loại nhạc"
+
+#: GameEngine.py:317
+msgid "Year"
+msgstr "Năm"
+
+#: GameEngine.py:317
+msgid "Band Difficulty"
+msgstr "Khó khăn Band"
+
+#: GameEngine.py:317
+msgid "Song Collection"
+msgstr "Song Bộ sưu tập"
+
+#: GameEngine.py:317
+msgid "Choose how to sort the setlist by default."
+msgstr "Chọn làm thế nào để sắp xếp các setlist theo mặc định."
+
+#: GameEngine.py:318
+msgid "Whammy Changes Sort Order"
+msgstr "Whammy Thay đổi theo thứ tự"
+
+#: GameEngine.py:318
+msgid "When enabled, pressing the whammy bar will change the sort order in the setlist."
+msgstr "Khi được kích hoạt, cách nhấn vào thanh whammy sẽ thay đổi thứ tự sắp xếp trong setlist này."
+
+#: GameEngine.py:319
+msgid "Point Of View"
+msgstr "Point Of View"
+
+#: GameEngine.py:319
+msgid "GH3"
+msgstr "GH3"
+
+#: GameEngine.py:319
+msgid "Rock Rev"
+msgstr "Rock Rev"
+
+#: GameEngine.py:319
+msgid "Sets the camera's point of view. Set it to any game, or set it to 'Theme' to leave it to the theme creator."
+msgstr "Bộ của máy ảnh quan điểm. Đặt nó vào bất kỳ game, hoặc thiết lập nó để 'đề' để lại nó cho người tạo ra chủ đề."
+
+#: GameEngine.py:320
+msgid "Party Mode Timer"
+msgstr "Đảng Mode Timer"
+
+#: GameEngine.py:320
+msgid "Sets the timer in Party Mode."
+msgstr "Thiết lập chế độ hẹn giờ trong Đảng."
+
+#: GameEngine.py:321
+msgid "Show Setlist Size"
+msgstr "Kích thước hiển thị Setlist"
+
+#: GameEngine.py:321
+msgid "Show the number of songs inside of each setlist."
+msgstr "Chỉ số lượng bài hát bên trong của mỗi setlist."
+
+#: GameEngine.py:322
+msgid "CD Mode Y-Rotation"
+msgstr "CD Chế độ Y-Rotation"
+
+#: GameEngine.py:322
+#: GameEngine.py:351
+msgid "Enabled"
+msgstr "Bật"
+
+#: GameEngine.py:322
+msgid "Sets whether or not CDs in the setlist rotate about the Y axis."
+msgstr "Bộ, có hoặc không CD trong setlist các trục xoay về Y."
+
+#: GameEngine.py:326
+msgid "P1 AI"
+msgstr "AI P1"
+
+#: GameEngine.py:326
+msgid "Enable or disable the player 1 AI"
+msgstr "Kích hoạt hoặc vô hiệu hóa cầu thủ 1 AI"
+
+#: GameEngine.py:327
+msgid "P1 AI Personality"
+msgstr "AI P1 nhân"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "1. KiD"
+msgstr "1. Kid"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "2. Stump"
+msgstr "2. Chân"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "3. akedRobot"
+msgstr "3. akedRobot"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "4. Q"
+msgstr "4. Q"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "5. MFH"
+msgstr "5. MFH"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "6. Jurgen"
+msgstr "6. Jurgen"
+
+#: GameEngine.py:327
+msgid "Set the personality of the player 1 AI. The numbers correspond with their skill."
+msgstr "Đặt nhân cách của người chơi 1 AI. Các con số tương ứng với kỹ năng của họ."
+
+#: GameEngine.py:328
+msgid "P1 AI Logic"
+msgstr "AI P1 Logic"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "Original"
+msgstr "Nguyên"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-Early"
+msgstr "MFH-Early"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-OnTime1"
+msgstr "MFH-OnTime1"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-OnTime2"
+msgstr "MFH-OnTime2"
+
+#: GameEngine.py:328
+msgid "Set the logic used for the player 1 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "Thiết lập các logic được sử dụng cho người chơi 1 AI. 'Gốc' không thể xử lý các phần nhanh chóng. 'MFH-Đầu' nỗ lực để đạt các ghi chú khi họ bước vào cửa sổ hit. 'MFH-OnTime' được triển khai mà cố gắng để đạt các ghi chú khi chúng xảy ra, giống như một máy nghe nhạc thực sự."
+
+#: GameEngine.py:330
+msgid "P2 AI"
+msgstr "P2 AI"
+
+#: GameEngine.py:330
+msgid "Enable or disable the player 2 AI"
+msgstr "Kích hoạt hoặc vô hiệu hóa các cầu thủ 2 AI"
+
+#: GameEngine.py:331
+msgid "P2 AI Personality"
+msgstr "P2 AI nhân"
+
+#: GameEngine.py:331
+msgid "Set the personality of the player 2 AI. The numbers correspond with their skill."
+msgstr "Thiết lập cá nhân của cầu thủ 2 AI. Các con số tương ứng với kỹ năng của họ."
+
+#: GameEngine.py:332
+msgid "P2 AI Logic"
+msgstr "P2 AI Logic"
+
+#: GameEngine.py:332
+msgid "Set the logic used for the player 2 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "Thiết lập các logic được sử dụng cho người chơi 2 AI. 'Gốc' không thể xử lý các phần nhanh chóng. 'MFH-Đầu' nỗ lực để đạt các ghi chú khi họ bước vào cửa sổ hit. 'MFH-OnTime' được triển khai mà cố gắng để đạt các ghi chú khi chúng xảy ra, giống như một máy nghe nhạc thực sự."
+
+#: GameEngine.py:334
+msgid "P3 AI"
+msgstr "P3 AI"
+
+#: GameEngine.py:334
+msgid "Enable or disable the player 3 AI"
+msgstr "Kích hoạt hoặc vô hiệu hóa các cầu thủ 3 AI"
+
+#: GameEngine.py:335
+msgid "P3 AI Personality"
+msgstr "P3 AI nhân"
+
+#: GameEngine.py:335
+msgid "Set the personality of the player 3 AI. The numbers correspond with their skill."
+msgstr "Thiết lập cá nhân của cầu thủ 3 AI. Các con số tương ứng với kỹ năng của họ."
+
+#: GameEngine.py:336
+msgid "P3 AI Logic"
+msgstr "P3 AI Logic"
+
+#: GameEngine.py:336
+msgid "Set the logic used for the player 3 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "Thiết lập các logic được sử dụng cho máy nghe nhạc 3 AI. 'Gốc' không thể xử lý các phần nhanh chóng. 'MFH-Đầu' nỗ lực để đạt các ghi chú khi họ bước vào cửa sổ hit. 'MFH-OnTime' được triển khai mà cố gắng để đạt các ghi chú khi chúng xảy ra, giống như một máy nghe nhạc thực sự."
+
+#: GameEngine.py:338
+msgid "P4 AI"
+msgstr "P4 AI"
+
+#: GameEngine.py:338
+msgid "Enable or disable the player 4 AI"
+msgstr "Kích hoạt hoặc vô hiệu hóa các cầu thủ 4 AI"
+
+#: GameEngine.py:339
+msgid "P4 AI Personality"
+msgstr "P4 AI nhân"
+
+#: GameEngine.py:339
+msgid "Set the personality of the player 4 AI. The numbers correspond with their skill."
+msgstr "Đặt nhân cách của người chơi 4 AI. Các con số tương ứng với kỹ năng của họ."
+
+#: GameEngine.py:340
+msgid "P4 AI Logic"
+msgstr "P4 AI Logic"
+
+#: GameEngine.py:340
+msgid "Set the logic used for the player 4 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "Thiết lập các logic được sử dụng cho người chơi 4 AI. 'Gốc' không thể xử lý các phần nhanh chóng. 'MFH-Đầu' nỗ lực để đạt các ghi chú khi họ bước vào cửa sổ hit. 'MFH-OnTime' được triển khai mà cố gắng để đạt các ghi chú khi chúng xảy ra, giống như một máy nghe nhạc thực sự."
+
+#: GameEngine.py:343
+msgid "Lyric Display Mode"
+msgstr "Chế độ hiển thị Lyric"
+
+#: GameEngine.py:343
+msgid "Scrolling"
+msgstr "Cuộn"
+
+#: GameEngine.py:343
+msgid "Simple Lines"
+msgstr "Đơn giản Lines"
+
+#: GameEngine.py:343
+msgid "2-Line"
+msgstr "2-Line"
+
+#: GameEngine.py:343
+msgid "Sets the display mode for MIDI lyrics. Both 'Simple Lines' and '2-Line' will show as single phrases when playing the vocal part."
+msgstr "Thiết lập chế độ hiển thị lời bài hát MIDI. Cả hai 'đơn giản Lines' và '2-Line 'sẽ hiển thị như là cụm từ duy nhất khi chơi phần thanh nhạc."
+
+#: GameEngine.py:344
+msgid "Lyric Speed Mode"
+msgstr "Lyric Speed Mode"
+
+#: GameEngine.py:344
+msgid "Sets what determines the speed of the scrolling lyrics."
+msgstr "Bộ những gì xác định tốc độ của lời bài hát cuộn."
+
+#: GameEngine.py:345
+msgid "Lyric Speed Percent"
+msgstr "Lyric Speed Phần trăm"
+
+#: GameEngine.py:345
+msgid "Sets how quickly lyrics will scroll."
+msgstr "Bộ nhanh như thế nào lời bài hát sẽ di chuyển."
+
+#: GameEngine.py:351
+msgid "Graphical Submenus"
+msgstr "Đồ họa Submenus"
+
+#: GameEngine.py:351
+msgid "Enable or disable the use of graphical submenus."
+msgstr "Kích hoạt hoặc vô hiệu hóa việc sử dụng các menu con đồ họa."
+
+#: GameEngine.py:354
+msgid "Crowd Cheers"
+msgstr "Chúc mừng đám đông"
+
+#: GameEngine.py:354
+msgid "Off (Disabled)"
+msgstr "Off (Tắt)"
+
+#: GameEngine.py:354
+msgid "During SP Only"
+msgstr "Trong Chỉ SP"
+
+#: GameEngine.py:354
+msgid "During SP & Green"
+msgstr "Trong SP & Green"
+
+#: GameEngine.py:354
+msgid "Always On"
+msgstr "Luôn luôn Ngày"
+
+#: GameEngine.py:354
+msgid "Sets when the crowd will cheer for you (if a crowd.ogg is present). 'During SP' will have them sing along in star power, and 'During SP & Green' will have them cheering both in SP and when your rock meter is above 2/3"
+msgstr "Bộ khi đám đông sẽ cổ vũ cho bạn (nếu crowd.ogg một là hiện tại). 'Trong SP' sẽ có họ hát theo trong ngôi sao quyền lực, và 'Trong SP & Green' sẽ có họ cổ vũ cả SP và khi mét rock của bạn cao hơn 2 / 3"
+
+#: GameEngine.py:357
+msgid "Miss Volume"
+msgstr "Miss Volume"
+
+#: GameEngine.py:357
+msgid "Set the volume of the active track when you miss a note."
+msgstr "Đặt theo dõi khối lượng của hoạt động khi bạn bỏ lỡ một lưu ý."
+
+#: GameEngine.py:358
+msgid "Single Track Miss"
+msgstr "Theo dõi đơn Hoa hậu"
+
+#: GameEngine.py:358
+msgid "When playing a song with only a single track, this sets the volume of the track when you miss a note."
+msgstr "Khi chơi một bài hát với ca khúc chỉ có duy nhất, điều này đặt ra khối lượng theo dõi khi bạn bỏ lỡ một lưu ý."
+
+#: GameEngine.py:359
+msgid "Menu Volume"
+msgstr "Menu Volume"
+
+#: GameEngine.py:359
+msgid "Set the volume of the background menu music."
+msgstr "Thiết lập âm lượng của nhạc nền menu."
+
+#: GameEngine.py:361
+msgid "Crowd Volume"
+msgstr "Khối lượng đám đông"
+
+#: GameEngine.py:361
+msgid "Set the volume of the crowd."
+msgstr "Thiết lập âm lượng của đám đông."
+
+#: GameEngine.py:363
+msgid "Kill Volume"
+msgstr "Khối lượng Kill"
+
+#: GameEngine.py:363
+msgid "Sets the volume when using the killswitch."
+msgstr "Thiết lập âm lượng khi sử dụng killswitch."
+
+#: GameEngine.py:364
+msgid "SFX Volume"
+msgstr "Khối lượng SFX"
+
+#: GameEngine.py:364
+msgid "Sets the volume of various sound effects."
+msgstr "Bộ khối lượng của nhiều hiệu ứng âm thanh."
+
+#: GameEngine.py:371
+msgid "Cache Song Metadata"
+msgstr "Song Cache Metadata"
+
+#: GameEngine.py:371
+msgid "This will allow information about the songs to be stored for quick access later at the cost of a slow first time loading."
+msgstr "Điều này sẽ cho phép thông tin về các bài hát sẽ được lưu để truy cập nhanh hơn với chi phí của một thời gian tải chậm đầu tiên."
+
+#: GameEngine.py:399
+msgid "Sets the overall graphical feel of the game. You can find and download many more at fretsonfire.net"
+msgstr "Thiết lập tổng thể cảm thấy đồ họa của trò chơi. Bạn có thể tìm và tải về nhiều hơn nữa tại fretsonfire.net"
+
+#: GameEngine.py:404
+msgid "Board Speed Percent"
+msgstr "Ban Speed Phần trăm"
+
+#: GameEngine.py:404
+msgid "Sets how quickly note will scroll"
+msgstr "Lưu ý bộ nhanh như thế nào sẽ di chuyển"
+
+#: GameEngine.py:405
+msgid "No Fail"
+msgstr "Không có thất bại"
+
+#: GameEngine.py:405
+msgid "Sets whether or not you can fail out of a song."
+msgstr "Bộ hay không, bạn có thể thất bại trong một bài hát."
+
+#: GameEngine.py:409
+msgid "Difficulty (Setlist Score)"
+msgstr "Khó khăn (Setlist Hệ số)"
+
+#: GameEngine.py:409
+msgid "Sets the default difficulty displayed in the setlist score."
+msgstr "Thiết lập mặc định khó khăn hiển thị trong điểm số setlist."
+
+#: GameEngine.py:410
+msgid "Show Additional Stats"
+msgstr "Thống kê cho thấy bổ sung"
+
+#: GameEngine.py:410
+msgid "If enabled, additional score information (longest streak, percentage) is displayed on the setlist."
+msgstr "Nếu kích hoạt, thêm điểm số thông tin (streak dài nhất, tỷ lệ phần trăm) được hiển thị trên setlist này."
+
+#: GameEngine.py:412
+msgid "Instrument (Setlist Score)"
+msgstr "Cụ (Setlist Hệ số)"
+
+#: GameEngine.py:412
+msgid "Sets the default part displayed in the setlist score."
+msgstr "Thiết lập mặc định hiển thị trong phần điểm số setlist."
+
+#: GameEngine.py:674
+msgid "Slideshow"
+msgstr "Xem hình tự động"
+
+#: GameEngine.py:677
+#: GameEngine.py:691
+msgid "Animated Stage"
+msgstr "Giai đoạn hoạt hình"
+
+#: GameResultsScene.py:121
+#: GameResultsScene.py:122
+msgid "Co-Op Mode"
+msgstr "Co-Op Mode"
+
+#: GameResultsScene.py:124
+msgid "settings"
+msgstr "cài đặt"
+
+#: GameResultsScene.py:125
+msgid "HOPOs"
+msgstr "HOPOs"
+
+#: GameResultsScene.py:126
+msgid "Hit Window"
+msgstr "Lượt Window"
+
+#: GameResultsScene.py:127
+msgid "Adjusted Score Multiplier:"
+msgstr "Hệ số điều chỉnh Nhân:"
+
+#: GameResultsScene.py:128
+msgid "Original Score:"
+msgstr "Hệ số ban đầu:"
+
+#: GameResultsScene.py:133
+#: GameResultsScene.py:140
+#: GameResultsScene.py:147
+msgid "Continue"
+msgstr "Tiếp tục"
+
+#: GameResultsScene.py:134
+msgid "Replay Setlist"
+msgstr "Replay Setlist"
+
+#: GameResultsScene.py:136
+#: GameResultsScene.py:143
+#: GameResultsScene.py:150
+msgid "Quit"
+msgstr "Bỏ thuốc lá"
+
+#: GameResultsScene.py:141
+msgid "Replay"
+msgstr "Replay"
+
+#: GameResultsScene.py:148
+msgid "End Setlist"
+msgstr "Cuối Setlist"
+
+#: GameResultsScene.py:165
+msgid "Relax, it was an excellent show."
+msgstr "Thư giãn, nó đã được một hiển thị tuyệt vời."
+
+#: GameResultsScene.py:167
+msgid "Truly Amazing!"
+msgstr "Truly Amazing!"
+
+#: GameResultsScene.py:169
+msgid "Thanks for playing!"
+msgstr "Cảm ơn bạn đã chơi!"
+
+#: GameResultsScene.py:171
+msgid "One more song can't hurt!"
+msgstr "Một trong nhiều bài hát có thể không đau!"
+
+#: GameResultsScene.py:173
+msgid "What an amazing performance!"
+msgstr "Thật là một hiệu suất tuyệt vời!"
+
+#: GameResultsScene.py:175
+msgid "That's how it's done!"
+msgstr "Đó là cách hoàn thành công việc!"
+
+#: GameResultsScene.py:248
+msgid "GH2 Sloppy"
+msgstr "GH2 cẩu thả"
+
+#: GameResultsScene.py:258
+msgid "New System"
+msgstr "Hệ thống mới"
+
+#: GameResultsScene.py:573
+#, python-format
+msgid "%d points is a new high score! Enter your name:"
+msgstr "%d điểm là một điểm cao mới! Nhập tên của bạn:"
+
+#: GameResultsScene.py:1297
+#, python-format
+msgid "%s High Scores for %s"
+msgstr "Điểm cao %s cho %s"
+
+#: GameResultsScene.py:1299
+#, python-format
+msgid "%s High Scores"
+msgstr "%s Điểm cao"
+
+#: GameResultsScene.py:1305
+#, python-format
+msgid "Difficulty: %s"
+msgstr "Khó khăn: %s"
+
+#: GameResultsScene.py:1367
+msgid "Uploading Scores..."
+msgstr "Điểm tải lên ..."
+
+#: GameResultsScene.py:1372
+msgid "Scores uploaded!"
+msgstr "Điểm tải lên!"
+
+#: GameResultsScene.py:1376
+msgid "Your highscore ranks"
+msgstr "điểm cao của bạn ranks"
+
+#: GameResultsScene.py:1377
+msgid "on the world starpower chart!"
+msgstr "trên bảng xếp hạng starpower thế giới!"
+
+#: GameResultsScene.py:1380
+msgid "but your rank is unknown."
+msgstr "nhưng thứ hạng của bạn không rõ."
+
+#: GameResultsScene.py:1383
+msgid "but there was no new highscore."
+msgstr "nhưng không có điểm cao mới."
+
+#: GameResultsScene.py:1386
+msgid "Score upload failed!  World charts may be down."
+msgstr "Hệ số tải lên không thành công! Bảng xếp hạng thế giới có thể xuống."
+
+#: GuitarScene.py:82
+#: GuitarScene.py:83
+msgid "Initializing..."
+msgstr "Đang bắt đầu ..."
+
+#: GuitarScene.py:497
+msgid "KiD"
+msgstr "Kid"
+
+#: GuitarScene.py:497
+msgid "Stump"
+msgstr "Chân"
+
+#: GuitarScene.py:497
+msgid "AkedRobot"
+msgstr "AkedRobot"
+
+#: GuitarScene.py:497
+msgid "Q"
+msgstr "Q"
+
+#: GuitarScene.py:497
+msgid "MFH"
+msgstr "MFH"
+
+#: GuitarScene.py:497
+msgid "Jurgen"
+msgstr "Jurgen"
+
+#: GuitarScene.py:504
+msgid "Broken String"
+msgstr "Broken String"
+
+#: GuitarScene.py:506
+msgid "Powerup Steal"
+msgstr "PowerUp trộm cắp"
+
+#: GuitarScene.py:510
+#, python-format
+msgid "%d Note Streak"
+msgstr "%d Lưu ý Streak"
+
+#: GuitarScene.py:511
+#, python-format
+msgid "%d Phrase Streak"
+msgstr "Cụm từ %d Streak"
+
+#: GuitarScene.py:512
+#, python-format
+msgid "%s Ready"
+msgstr "%s Ready"
+
+#: GuitarScene.py:513
+#, python-format
+msgid "Activate %s!"
+msgstr "%s kích hoạt!"
+
+#: GuitarScene.py:514
+msgid "You Failed"
+msgstr "Bạn Không"
+
+#: GuitarScene.py:515
+#, python-format
+msgid "%s is here"
+msgstr "%s là ở đây"
+
+#: GuitarScene.py:516
+#, python-format
+msgid "%s was here"
+msgstr "%s đã ở đây"
+
+#: GuitarScene.py:517
+msgid "% Complete"
+msgstr "% Hoàn thành"
+
+#: GuitarScene.py:518
+#: GuitarScene.py:5839
+msgid "HOPO"
+msgstr "HOPO"
+
+#: GuitarScene.py:519
+#: GuitarScene.py:5809
+#: GuitarScene.py:5818
+msgid "COMPLETED"
+msgstr "Hoàn thành"
+
+#: GuitarScene.py:520
+#: GuitarScene.py:5811
+#: GuitarScene.py:5827
+msgid " % ON "
+msgstr "ON%"
+
+#: GuitarScene.py:521
+msgid "BASS GROOVE"
+msgstr "Groove BASS"
+
+#: GuitarScene.py:522
+msgid "Bass Groove:"
+msgstr "Bass Groove:"
+
+#: GuitarScene.py:523
+msgid "Handicap"
+msgstr "Tật nguyền"
+
+#: GuitarScene.py:524
+msgid "Avg"
+msgstr "Trung bình"
+
+#: GuitarScene.py:525
+msgid "Very Late"
+msgstr "Rất muộn"
+
+#: GuitarScene.py:526
+msgid "Late"
+msgstr "Hậu"
+
+#: GuitarScene.py:527
+msgid "Slightly Late"
+msgstr "Hơi muộn"
+
+#: GuitarScene.py:528
+msgid "-Excellent!"
+msgstr "-Tuyệt vời!"
+
+#: GuitarScene.py:529
+msgid "Perfect!!"
+msgstr "Hoàn hảo!!"
+
+#: GuitarScene.py:530
+msgid "+Excellent!"
+msgstr "+ Tuyệt vời!"
+
+#: GuitarScene.py:531
+msgid "Slightly Early"
+msgstr "Hơi sớm"
+
+#: GuitarScene.py:534
+msgid "ms"
+msgstr "ms"
+
+#: GuitarScene.py:535
+msgid "Solo!"
+msgstr "Solo!"
+
+#: GuitarScene.py:536
+msgid "Perfect Solo!"
+msgstr "Solo hoàn hảo!"
+
+#: GuitarScene.py:537
+msgid "Awesome Solo!"
+msgstr "Awesome Solo!"
+
+#: GuitarScene.py:538
+msgid "Great Solo!"
+msgstr "Great Solo!"
+
+#: GuitarScene.py:539
+msgid "Good Solo!"
+msgstr "Solo tốt!"
+
+#: GuitarScene.py:540
+msgid "Solid Solo!"
+msgstr "Solid Solo!"
+
+#: GuitarScene.py:541
+msgid "Okay Solo"
+msgstr "Được rồi Solo"
+
+#: GuitarScene.py:542
+msgid "Messy Solo"
+msgstr "Messy Solo"
+
+#: GuitarScene.py:543
+msgid "pts"
+msgstr "pts"
+
+#: GuitarScene.py:544
+msgid "Get Ready to Rock"
+msgstr "Get Ready to Rock"
+
+#: GuitarScene.py:545
+msgid "as made famous by"
+msgstr "như trở nên nổi tiếng bởi"
+
+#: GuitarScene.py:546
+msgid "by "
+msgstr "bởi"
+
+#: GuitarScene.py:547
+msgid " fretted by "
+msgstr "fretted bởi"
+
+#: GuitarScene.py:890
+msgid "Loading Song..."
+msgstr "Loading Song ..."
+
+#: GuitarScene.py:900
+msgid "Preparing Note Phrases..."
+msgstr "Chuẩn bị Lưu ý cụm từ ..."
+
+#: GuitarScene.py:1401
+msgid "Loading Graphics..."
+msgstr "Loading đồ họa ..."
+
+#: GuitarScene.py:1615
+msgid "         RESUME"
+msgstr "Resume"
+
+#: GuitarScene.py:1616
+msgid "        RESTART"
+msgstr "Khởi động lại"
+
+#: GuitarScene.py:1618
+msgid "       PRACTICE"
+msgstr "THỰC HÀNH"
+
+#: GuitarScene.py:1619
+msgid "        OPTIONS"
+msgstr "CHỌN"
+
+#: GuitarScene.py:1620
+#: GuitarScene.py:1629
+msgid "           QUIT"
+msgstr "QUIT"
+
+#: GuitarScene.py:1624
+msgid "        RESUME"
+msgstr "Resume"
+
+#: GuitarScene.py:1625
+msgid "       RESTART"
+msgstr "Khởi động lại"
+
+#: GuitarScene.py:1627
+msgid "      END SONG"
+msgstr "END SONG"
+
+#: GuitarScene.py:1628
+msgid "       OPTIONS"
+msgstr "CHỌN"
+
+#: GuitarScene.py:1634
+#: GuitarScene.py:1641
+msgid "RETRY SONG"
+msgstr "Thử lại SONG"
+
+#: GuitarScene.py:1635
+msgid "  PRACTICE"
+msgstr "THỰC HÀNH"
+
+#: GuitarScene.py:1636
+#: GuitarScene.py:1642
+#: GuitarScene.py:1706
+#: GuitarScene.py:1713
+msgid " NEW SONG"
+msgstr "NEW SONG"
+
+#: GuitarScene.py:1637
+#: GuitarScene.py:1643
+msgid "     QUIT"
+msgstr "QUIT"
+
+#: GuitarScene.py:1650
+#: GuitarScene.py:1659
+msgid "  Resume"
+msgstr "Resume"
+
+#: GuitarScene.py:1651
+#: GuitarScene.py:1660
+msgid "  Start Over"
+msgstr "Start Over"
+
+#: GuitarScene.py:1652
+#: GuitarScene.py:1661
+msgid "  Change Song"
+msgstr "Song thay đổi"
+
+#: GuitarScene.py:1653
+msgid "  Practice"
+msgstr "Thực hành"
+
+#: GuitarScene.py:1654
+#: GuitarScene.py:1663
+msgid "  Settings"
+msgstr "Cài đặt"
+
+#: GuitarScene.py:1655
+#: GuitarScene.py:1664
+msgid "  Quit to Main Menu"
+msgstr "Thoát để Menu chính"
+
+#: GuitarScene.py:1662
+msgid "  End Song"
+msgstr "Song kết thúc"
+
+#: GuitarScene.py:1669
+#: GuitarScene.py:1676
+msgid " Try Again?"
+msgstr "Thử lại?"
+
+#: GuitarScene.py:1670
+#: GuitarScene.py:1677
+msgid "  Give Up?"
+msgstr "Cho Up?"
+
+#: GuitarScene.py:1671
+msgid "  Practice?"
+msgstr "Thực hành?"
+
+#: GuitarScene.py:1672
+#: GuitarScene.py:1678
+msgid "Quit to Main"
+msgstr "Thoát để chính"
+
+#: GuitarScene.py:1686
+#: GuitarScene.py:1695
+msgid "   RESUME"
+msgstr "Resume"
+
+#: GuitarScene.py:1687
+#: GuitarScene.py:1696
+msgid "   RESTART"
+msgstr "Khởi động lại"
+
+#: GuitarScene.py:1688
+#: GuitarScene.py:1697
+msgid "   CHANGE SONG"
+msgstr "ĐỔI SONG"
+
+#: GuitarScene.py:1689
+msgid "   PRACTICE"
+msgstr "THỰC HÀNH"
+
+#: GuitarScene.py:1690
+#: GuitarScene.py:1699
+msgid "   SETTINGS"
+msgstr "SETTINGS"
+
+#: GuitarScene.py:1691
+#: GuitarScene.py:1700
+msgid "   QUIT"
+msgstr "QUIT"
+
+#: GuitarScene.py:1698
+msgid "   END SONG"
+msgstr "END SONG"
+
+#: GuitarScene.py:1705
+#: GuitarScene.py:1712
+msgid " RETRY"
+msgstr "Thử lại"
+
+#: GuitarScene.py:1707
+msgid " PRACTICE"
+msgstr "THỰC HÀNH"
+
+#: GuitarScene.py:1708
+#: GuitarScene.py:1714
+msgid " QUIT"
+msgstr "QUIT"
+
+#: GuitarScene.py:6488
+#, python-format
+msgid "FPS: %.2f"
+msgstr "FPS: %.2f"
+
+#: Language.py:62
+msgid "Language"
+msgstr "Ngôn ngư"
+
+#: Language.py:62
+msgid "Change the game language!"
+msgstr "Thay đổi ngôn ngữ game!"
+
+#: Lobby.py:39
+#: MainMenu.py:294
+msgid "Your controls are not properly set up for this mode. Please check your settings."
+msgstr "kiểm soát của bạn không được thiết lập đúng cho chế độ này. Xin vui lòng kiểm tra cấu hình của bạn."
+
+#: Lobby.py:43
+msgid "World error. Please try again."
+msgstr "World lỗi. Hãy thử lại."
+
+#: Lobby.py:167
+msgid "Choose Your Character"
+msgstr "Chọn nhân vật của bạn"
+
+#: Lobby.py:168
+#: Lobby.py:750
+#, python-format
+msgid "Player %d"
+msgstr "Thủ %d"
+
+#: Lobby.py:170
+msgid "Regular Drums"
+msgstr "Thường xuyên trống"
+
+#: Lobby.py:170
+msgid "Flipped Drums"
+msgstr "Lộn ngược trống"
+
+#: Lobby.py:171
+msgid "Pedal-Using"
+msgstr "-Sử dụng Pedal"
+
+#: Lobby.py:171
+msgid "Footless"
+msgstr "Cụt chân"
+
+#: Lobby.py:172
+msgid "Assist Mode Off"
+msgstr "Hỗ trợ chế độ Off"
+
+#: Lobby.py:172
+#: Lobby.py:503
+#: Player.py:211
+msgid "Easy Assist"
+msgstr "Giúp dễ dàng"
+
+#: Lobby.py:172
+#: Lobby.py:503
+#: Player.py:211
+msgid "Medium Assist"
+msgstr "Trung bình Assist"
+
+#: Lobby.py:173
+msgid "Chordmaster"
+msgstr "Chordmaster"
+
+#: Lobby.py:173
+msgid "Two Notes Max"
+msgstr "Hai chú Max"
+
+#: Lobby.py:174
+msgid "Information:"
+msgstr "Thông tin:"
+
+#: Lobby.py:188
+msgid "Create New Player"
+msgstr "Tạo mới Thủ"
+
+#: Lobby.py:188
+msgid "Saved Characters"
+msgstr "Nhân vật được lưu"
+
+#: Lobby.py:502
+#: Player.py:207
+msgid "Default Neck"
+msgstr "Default Neck"
+
+#: Lobby.py:502
+#: Player.py:207
+msgid "Theme Neck"
+msgstr "Chủ đề Neck"
+
+#: Lobby.py:502
+msgid "Select a Neck"
+msgstr "Chọn một Neck"
+
+#: Lobby.py:504
+msgid "Name"
+msgstr "Tên"
+
+#: Lobby.py:504
+msgid "Name your character!"
+msgstr "Tên nhân vật của bạn!"
+
+#: Lobby.py:505
+#: Player.py:208
+msgid "Lefty Mode"
+msgstr "Chế độ Lefty"
+
+#: Lobby.py:505
+msgid "Flip the guitar frets for left-handed playing!"
+msgstr "Flip guitar phím đàn để chơi thuận tay trái!"
+
+#: Lobby.py:506
+#: Player.py:209
+msgid "Drum Flip"
+msgstr "Drum Flip"
+
+#: Lobby.py:506
+msgid "Flip the drum sounds - snare becomes crash, and so on"
+msgstr "Flip trống âm thanh - cạm bẫy trở thành tai nạn, vv"
+
+#: Lobby.py:507
+msgid "Auto-Kick Bass"
+msgstr "Auto-Kick Bass"
+
+#: Lobby.py:507
+msgid "Feet uncooperative? Broke your pedal? Not to worry!"
+msgstr "Chân không hợp tác? Broke của bạn đạp? Không phải lo lắng!"
+
+#: Lobby.py:508
+#: Player.py:211
+msgid "Assist Mode"
+msgstr "Chế độ hỗ trợ"
+
+#: Lobby.py:508
+msgid "Play hard and expert, even when you're not that good!"
+msgstr "Play cứng và chuyên gia, ngay cả khi bạn không phải là tốt!"
+
+#: Lobby.py:509
+#: Player.py:190
+#: Player.py:210
+msgid "Two-Chord Max"
+msgstr "Hai dây nhau Max"
+
+#: Lobby.py:509
+msgid "For those still playing with uncooperative keyboards."
+msgstr "Đối với những người vẫn còn chơi với bàn phím không hợp tác."
+
+#: Lobby.py:510
+msgid "Give the endless procession of notes a bit of flair!"
+msgstr "Cho rước bất tận của các ghi chú một chút tinh tế!"
+
+#: Lobby.py:511
+msgid "Upload Name"
+msgstr "Tên Upload"
+
+#: Lobby.py:511
+msgid "To the internet, you are GUITARGOD23047124!"
+msgstr "Internet, bạn đang GUITARGOD23047124!"
+
+#: Lobby.py:512
+msgid "Choose Avatar"
+msgstr "Chọn Avatar"
+
+#: Lobby.py:512
+msgid "A 256x256 window into your soul."
+msgstr "Một cửa sổ với kích thước 256x256 thành linh hồn của bạn."
+
+#: Lobby.py:513
+msgid "Delete Character"
+msgstr "Xóa Ký tự"
+
+#: Lobby.py:513
+msgid "Quitter."
+msgstr "Người hèn nhát."
+
+#: Lobby.py:514
+msgid "Done"
+msgstr "Done"
+
+#: Lobby.py:514
+msgid "All finished? Let's do this thing!"
+msgstr "Tất cả đã hoàn thành? Hãy làm điều này!"
+
+#: Lobby.py:549
+msgid "Are you sure you want to delete this player?"
+msgstr "Bạn có chắc chắn muốn xóa máy nghe nhạc này?"
+
+#: Lobby.py:560
+msgid "That is a terrible name. Choose something not 'default'"
+msgstr "Đó là một tên khủng khiếp. Chọn một cái gì đó không phải là \"mặc định\""
+
+#: Lobby.py:575
+msgid "That name already exists!"
+msgstr "tên đó đã tồn tại!"
+
+#: Lobby.py:577
+msgid "Please enter a name!"
+msgstr "Xin vui lòng nhập một tên!"
+
+#: MainMenu.py:150
+msgid "Tutorials"
+msgstr "Hướng dẫn"
+
+#: MainMenu.py:151
+msgid "Practice"
+msgstr "Thực hành"
+
+#: MainMenu.py:165
+msgid "Face-Off"
+msgstr "Face-Off"
+
+#: MainMenu.py:166
+msgid "Pro Face-Off"
+msgstr "Pro Face-Off"
+
+#: MainMenu.py:167
+msgid "Party Mode"
+msgstr "Đảng Mode"
+
+#: MainMenu.py:168
+msgid "FoFiX Co-Op"
+msgstr "FoFiX Co-Op"
+
+#: MainMenu.py:169
+msgid "RB Co-Op"
+msgstr "RB Co-Op"
+
+#: MainMenu.py:170
+msgid "GH Co-Op"
+msgstr "GH Co-Op"
+
+#: MainMenu.py:171
+msgid "GH Battle"
+msgstr "Trận GH"
+
+#: MainMenu.py:188
+msgid "Solo Tour"
+msgstr "Solo Tour"
+
+#: MainMenu.py:189
+msgid "Quickplay"
+msgstr "QuickPlay"
+
+#: MainMenu.py:236
+#, python-format
+msgid "This binary release is being run from a %(currentVcs)s working copy. This is not the correct way to run FoFiX from %(currentVcs)s. Please see one of the following web pages to set your %(currentVcs)s working copy up correctly:"
+msgstr "Bản phát hành nhị phân đang được chạy từ một bản sao hoạt động %(currentVcs)s. Đây không phải là cách đúng để chạy FoFiX từ %(currentVcs)s. Xin vui lòng xem một trong những trang web sau đây để thiết lập %(currentVcs)s bản sao hoạt động của bạn lên một cách chính xác:"
+
+#: MainMenu.py:240
+#, python-format
+msgid "This binary was built from a %(buildVcs)s working copy but is not running from one. The FoFiX Team will not provide any support whatsoever for this binary. Please see the following site for official binary releases:"
+msgstr "Nhị phân này được xây dựng từ một bản sao hoạt động %(buildVcs)s nhưng không chạy từ một. Nhóm FoFiX sẽ không cung cấp bất kỳ hỗ trợ nào cho việc này nhị phân. Xin vui lòng xem trang web sau đây để phát hành chính thức nhị phân:"
+
+#: MainMenu.py:312
+msgid "No tutorials found!"
+msgstr "Không có hướng dẫn tìm thấy!"
+
+#: Microphone.py:50
+msgid "[Default Microphone]"
+msgstr "[Mặc định Microphone]"
+
+#: Microphone.py:183
+msgid "[Microphones not supported]"
+msgstr "[Microphones không được hỗ trợ]"
+
+#: Player.py:169
+msgid "Name your controller."
+msgstr "Tên điều khiển của bạn."
+
+#: Player.py:170
+msgid "Move left"
+msgstr "Di chuyển trái"
+
+#: Player.py:171
+msgid "Move right"
+msgstr "Di chuyển quyền"
+
+#: Player.py:172
+msgid "Move up"
+msgstr "Di chuyển lên"
+
+#: Player.py:173
+msgid "Move down"
+msgstr "Di chuyển xuống"
+
+#: Player.py:174
+msgid "Pick"
+msgstr "Pick"
+
+#: Player.py:175
+msgid "Secondary Pick"
+msgstr "Trung Pick"
+
+#: Player.py:175
+msgid "Bass Drum 2"
+msgstr "Bass Drum 2"
+
+#: Player.py:181
+msgid "Solo Fret #1"
+msgstr "Solo băn khoăn # 1"
+
+#: Player.py:181
+msgid "Solo Key"
+msgstr "Solo Key"
+
+#: Player.py:181
+#: Player.py:196
+msgid "Analog Slider"
+msgstr "Analog trượt"
+
+#: Player.py:182
+msgid "Solo Fret #2"
+msgstr "Solo băn khoăn # 2"
+
+#: Player.py:183
+msgid "Solo Fret #3"
+msgstr "Solo băn khoăn # 3"
+
+#: Player.py:184
+msgid "Solo Fret #4"
+msgstr "Solo băn khoăn # 4"
+
+#: Player.py:185
+msgid "Solo Fret #5"
+msgstr "Solo băn khoăn # 5"
+
+#: Player.py:186
+msgid "Cancel"
+msgstr "Huỷ"
+
+#: Player.py:187
+msgid "StarPower"
+msgstr "StarPower"
+
+#: Player.py:190
+msgid "When enabled, the highest notes in large note chords are auto-played."
+msgstr "Khi được kích hoạt, các ghi chú cao nhất trong hợp âm chú ý lớn là tự động chơi."
+
+#: Player.py:191
+msgid "Controller Type"
+msgstr "Loại điều khiển"
+
+#: Player.py:191
+msgid "Standard Guitar"
+msgstr "Standard Guitar"
+
+#: Player.py:191
+msgid "Solo Shift Guitar"
+msgstr "Shift Guitar Solo"
+
+#: Player.py:191
+msgid "Drum Set (4-Drum)"
+msgstr "Drum Set (4-Drum)"
+
+#: Player.py:191
+msgid "Analog Slide Guitar"
+msgstr "Analog Slide Guitar"
+
+#: Player.py:191
+msgid "Microphone"
+msgstr "Microphone"
+
+#: Player.py:191
+msgid "'Standard Guitar' is for keyboards and pre-WT GH-series guitars. 'Solo Shift Guitar' is for RB-series guitars and keyboards who want to use a shift key for solo frets. 'Analog Slide Guitar' is for guitars with an analog slider bar."
+msgstr "'Standard Guitar' là dành cho bàn phím và sẵn WT GH-series guitar. 'Shift Solo Guitar' là cho RB-series guitar và bàn phím những người muốn sử dụng một chìa khóa cho sự chuyển đổi phím solo. 'Analog Slide Guitar' là dành cho guitar với một thanh trượt analog."
+
+#: Player.py:192
+msgid "Analog SP"
+msgstr "Analog SP"
+
+#: Player.py:192
+msgid "Enables analog SP (as in the XBOX Xplorer controller.)"
+msgstr "Cho phép SP tương tự (như trong điều khiển XBOX Xplorer.)"
+
+#: Player.py:193
+msgid "Analog SP Threshold"
+msgstr "SP Analog ngưỡng"
+
+#: Player.py:193
+msgid "Sets a threshold level for activating SP in analog mode."
+msgstr "Lập một mức ngưỡng để kích hoạt SP trong chế độ tương tự."
+
+#: Player.py:194
+msgid "Analog SP Sensitivity"
+msgstr "SP nhạy Analog"
+
+#: Player.py:194
+msgid "Sets the sensitivity for activating SP in analog mode."
+msgstr "Thiết lập độ nhạy để kích hoạt SP trong chế độ tương tự."
+
+#: Player.py:195
+msgid "Analog Drums"
+msgstr "Analog trống"
+
+#: Player.py:195
+#: Player.py:197
+msgid "PS2/PS3/Wii"
+msgstr "PS2/PS3/Wii"
+
+#: Player.py:195
+#: Player.py:197
+msgid "XBOX"
+msgstr "XBOX"
+
+#: Player.py:195
+#: Player.py:197
+msgid "XBOX Inv."
+msgstr "XBOX Inv."
+
+#: Player.py:195
+msgid "Enables analog drums as in RB2 and GH drumsets."
+msgstr "Cho phép analog trống như trong RB2 và drumsets GH."
+
+#: Player.py:196
+msgid "Inverted"
+msgstr "Đảo ngược"
+
+#: Player.py:196
+msgid "Experimental testing for the analog slide mode."
+msgstr "Thử nghiệm thử nghiệm cho chế độ slide analog."
+
+#: Player.py:197
+msgid "Analog Effects"
+msgstr "Hiệu ứng tương tự"
+
+#: Player.py:197
+msgid "Enables analog whammy bar. Set to the system your controller was designed for."
+msgstr "Cho phép analog whammy bar. Thiết lập cho hệ thống điều khiển của bạn được thiết kế cho."
+
+#: Player.py:198
+msgid "Sound FX Switch"
+msgstr "Switch Sound FX"
+
+#: Player.py:198
+msgid "Switch"
+msgstr "Switch"
+
+#: Player.py:198
+msgid "Cycle"
+msgstr "Mùa thi"
+
+#: Player.py:199
+msgid "Microphone Device"
+msgstr "Microphone thiết bị"
+
+#: Player.py:200
+msgid "Tap Sensitivity"
+msgstr "Tập nhạy"
+
+#: Player.py:200
+msgid "Sets how sensitive the microphone is to being tapped."
+msgstr "Bộ microphone nhạy cảm như thế nào là để được khai thác."
+
+#: Player.py:201
+msgid "Passthrough Volume"
+msgstr "Khối lượng passthrough"
+
+#: Player.py:201
+msgid "Sets how loud you hear yourself singing."
+msgstr "Bộ lớn như thế nào bạn nghe mình hát."
+
+#: Player.py:207
+msgid "Neck Type"
+msgstr "Loại cổ"
+
+#: Player.py:207
+msgid "Specific Neck"
+msgstr "Cụ Neck"
+
+#: Player.py:212
+msgid "Auto Kick"
+msgstr "Auto Kick"
+
+#: Player.py:385
+msgid "Default Drum"
+msgstr "Default Drum"
+
+#: Player.py:390
+#, python-format
+msgid "Controller %d"
+msgstr "%d điều khiển"
+
+#: Player.py:391
+#, python-format
+msgid "Select the controller for slot %d"
+msgstr "Chọn bộ điều khiển cho các khe cắm %d"
+
+#: Player.py:754
+#, python-format
+msgid "%s conflicts with %s"
+msgstr "%s xung đột với %s"
+
+#: Player.py:842
+#, python-format
+msgid "This key conflicts with the following keys: %s"
+msgstr "Đây chính xung đột với các phím sau đây: %s"
+
+#: Scorekeeper.py:30
+msgid "Auto Kick Bass"
+msgstr "Auto Kick Bass"
+
+#: Scorekeeper.py:30
+msgid "Medium Assist Mode"
+msgstr "Hỗ trợ chế độ Trung bình"
+
+#: Scorekeeper.py:30
+msgid "Easy Assist Mode"
+msgstr "Easy Mode Assist"
+
+#: Scorekeeper.py:30
+msgid "Jurgen Played!"
+msgstr "Jurgen chơi!"
+
+#: Scorekeeper.py:31
+msgid "Effects Saved SP"
+msgstr "Hiệu ứng đã lưu SP"
+
+#: Scorekeeper.py:31
+msgid "All Tapping"
+msgstr "Mọi Khai thác"
+
+#: Scorekeeper.py:31
+msgid "HOPO Frequency: Most"
+msgstr "HOPO Tần số: Hầu hết các"
+
+#: Scorekeeper.py:31
+msgid "HOPO Frequency: Even More"
+msgstr "HOPO Tần số: Ngay cả thêm"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: More"
+msgstr "HOPO Tần số: More"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: Less"
+msgstr "HOPO Tần số: Ít"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: Least"
+msgstr "HOPO Tần số: Ít"
+
+#: Scorekeeper.py:32
+msgid "HOPO Disabled!"
+msgstr "HOPO tàn tật!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Tightest!"
+msgstr "Lượt cửa sổ: chặt chẽ!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Tight!"
+msgstr "Lượt cửa sổ: Tight!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Wider"
+msgstr "Lượt cửa sổ: rộng hơn"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Widest"
+msgstr "Lượt cửa sổ: Rộng Nhất"
+
+#: Scorekeeper.py:34
+msgid "Two Note Chords"
+msgstr "Hai Lưu ý Chords"
+
+#: Scorekeeper.py:34
+msgid "No Fail Mode"
+msgstr "Không có thất bại Mode"
+
+#: Scorekeeper.py:34
+msgid "Sloppy Mode!"
+msgstr "Chế độ cẩu thả!"
+
+#: Scorekeeper.py:35
+msgid "Song Slowdown"
+msgstr "Song chậm lại"
+
+#: Scorekeeper.py:35
+msgid "Early Hit Window Adjustment"
+msgstr "Đầu Lượt Điều chỉnh Window"
+
+#: Settings.py:250
+#, python-format
+msgid "Press a key for '%s' or hold Escape to disable."
+msgstr "Báo chí một chìa khóa cho '%s 'hoặc giữ Escape để vô hiệu hóa."
+
+#: Settings.py:252
+#, python-format
+msgid "Press a key for '%s' or hold Escape to cancel."
+msgstr "Báo chí một chìa khóa cho '%s 'hoặc giữ Escape để hủy bỏ."
+
+#: Settings.py:302
+msgid "No Controllers Found."
+msgstr "Không có lý tìm thấy."
+
+#: Settings.py:350
+msgid "Are you sure you want to delete this controller?"
+msgstr "Bạn có chắc bạn muốn xoá điều khiển này?"
+
+#: Settings.py:374
+msgid "Please name your controller"
+msgstr "Xin vui lòng tên điều khiển của bạn"
+
+#: Settings.py:376
+#: Settings.py:626
+msgid "That name is already taken."
+msgstr "Đó là tên đã được sử dụng."
+
+#: Settings.py:378
+#: Settings.py:628
+msgid "Canceled."
+msgstr "Hủy bỏ."
+
+#: Settings.py:450
+#: Settings.py:487
+#: Settings.py:517
+#: Settings.py:546
+#: Settings.py:584
+#: Settings.py:612
+msgid "Rename Controller"
+msgstr "Đổi tên Controller"
+
+#: Settings.py:473
+msgid "Press the solo shift key. Be sure to assign the frets first! Hold Escape to cancel."
+msgstr "Nhấn phím shift solo. Hãy chắc chắn để giao cho phím đàn đầu tiên! Giữ Escape để hủy bỏ."
+
+#: Settings.py:569
+msgid "Press the highest fret on the slider. Hold Escape to cancel."
+msgstr "Báo chí cao nhất băn khoăn trên thanh trượt. Giữ Escape để hủy bỏ."
+
+#: Settings.py:624
+msgid "Please rename your controller"
+msgstr "Xin hãy đổi tên điều khiển của bạn"
+
+#: Settings.py:752
+msgid "Battle Objects"
+msgstr "Trận Đối tượng"
+
+#: Settings.py:752
+msgid "Set which objects can appear in Battle Mode"
+msgstr "Thiết lập mà đối tượng có thể xuất hiện trong trận Mode"
+
+#: Settings.py:767
+msgid "Advanced Gameplay Settings"
+msgstr "Cách chơi Advanced Settings"
+
+#: Settings.py:767
+msgid "Set advanced gameplay settings that affect the game rules."
+msgstr "Thiết lập cài đặt nâng cao ảnh hưởng đến gameplay luật chơi."
+
+#: Settings.py:768
+msgid "Vocal Mode Settings"
+msgstr "Cài đặt chế độ thanh nhạc"
+
+#: Settings.py:768
+msgid "Change settings that affect lyrics and in-game vocals."
+msgstr "Thay đổi thiết lập mà ảnh hưởng đến lời bài hát và giọng hát trong trò chơi."
+
+#: Settings.py:769
+msgid "HO/PO Settings"
+msgstr "HO / PO Settings"
+
+#: Settings.py:769
+msgid "Change settings that affect hammer-ons and pull-offs (HO/PO)."
+msgstr "Thay đổi thiết lập mà ảnh hưởng đến búa-ons và kéo-off (HO / PO)."
+
+#: Settings.py:770
+msgid "Battle Settings"
+msgstr "Trận Settings"
+
+#: Settings.py:770
+msgid "Change settings that affect battle mode."
+msgstr "Thay đổi thiết lập mà ảnh hưởng đến chế độ chiến đấu."
+
+#: Settings.py:776
+#: Settings.py:1218
+msgid "Test Controller 1"
+msgstr "Test Controller 1"
+
+#: Settings.py:776
+#: Settings.py:1218
+msgid "Test the controller configured for slot 1."
+msgstr "Kiểm tra bộ điều khiển cấu hình cho khe 1."
+
+#: Settings.py:777
+#: Settings.py:1219
+msgid "Test Controller 2"
+msgstr "Controller Test 2"
+
+#: Settings.py:777
+#: Settings.py:1219
+msgid "Test the controller configured for slot 2."
+msgstr "Kiểm tra bộ điều khiển cấu hình cho 2 khe cắm."
+
+#: Settings.py:778
+#: Settings.py:1220
+msgid "Test Controller 3"
+msgstr "Test Controller 3"
+
+#: Settings.py:778
+#: Settings.py:1220
+msgid "Test the controller configured for slot 3."
+msgstr "Kiểm tra bộ điều khiển cấu hình cho khe 3."
+
+#: Settings.py:779
+#: Settings.py:1221
+msgid "Test Controller 4"
+msgstr "Kiểm tra điều khiển 4"
+
+#: Settings.py:779
+#: Settings.py:1221
+msgid "Test the controller configured for slot 4."
+msgstr "Kiểm tra bộ điều khiển cấu hình cho khe cắm 4."
+
+#: Settings.py:818
+msgid "More Effects"
+msgstr "More Effects"
+
+#: Settings.py:818
+msgid "Change the settings of the shader system."
+msgstr "Thay đổi các thiết lập của hệ thống đổ bóng."
+
+#: Settings.py:834
+msgid "Change Neck Transparency"
+msgstr "Thay đổi Neck minh bạch"
+
+#: Settings.py:834
+msgid "Change the transparency of the various in-game necks."
+msgstr "Thay đổi minh bạch của các cổ trong trò chơi khác nhau."
+
+#: Settings.py:847
+msgid "Theme Display Settings"
+msgstr "Chủ đề Display Settings"
+
+#: Settings.py:847
+msgid "Change settings that only affect certain theme types."
+msgstr "Thay đổi thiết lập mà chỉ ảnh hưởng đến các loại chủ đề nhất định."
+
+#: Settings.py:866
+#: Settings.py:1239
+msgid "Video Resolution"
+msgstr "Video Nghị quyết"
+
+#: Settings.py:866
+#: Settings.py:1239
+msgid "Set the resolution of the game. In windowed mode, higher values mean a larger screen."
+msgstr "Thiết lập độ phân giải của trò chơi. Trong chế độ cửa sổ, các giá trị cao hơn có nghĩa là một màn hình lớn hơn."
+
+#: Settings.py:873
+msgid "Stages Options"
+msgstr "Tùy chọn giai đoạn"
+
+#: Settings.py:873
+msgid "Change settings related to the in-game background."
+msgstr "Thay đổi các thiết lập liên quan đến nền trong trò chơi."
+
+#: Settings.py:874
+#: Settings.py:1246
+msgid "Choose Default Neck >"
+msgstr "Chọn Default Neck>"
+
+#: Settings.py:874
+#: Settings.py:1246
+msgid "Choose your default neck. You still have to choose which neck you use for your character in the character select screen."
+msgstr "Chọn cổ của bạn mặc định. Bạn vẫn phải chọn cổ bạn sử dụng cho nhân vật của bạn trong các ký tự chọn màn hình."
+
+#: Settings.py:875
+msgid "Fretboard Settings"
+msgstr "Fretboard Settings"
+
+#: Settings.py:875
+msgid "Change settings related to the fretboard."
+msgstr "Thay đổi các thiết lập liên quan đến fretboard này."
+
+#: Settings.py:876
+#: Settings.py:1247
+msgid "In-Game Display Settings"
+msgstr "In-Game Display Settings"
+
+#: Settings.py:876
+#: Settings.py:1247
+msgid "Change what and where things appear in-game."
+msgstr "Thay đổi những gì và ở đâu những thứ xuất hiện trong trò chơi."
+
+#: Settings.py:877
+msgid "Advanced Video Settings"
+msgstr "Advanced Video Settings"
+
+#: Settings.py:877
+msgid "Change advanced video settings."
+msgstr "Thay đổi cài đặt nâng cao video."
+
+#: Settings.py:905
+#: Settings.py:1266
+msgid "Volume Settings"
+msgstr "Khối lượng Settings"
+
+#: Settings.py:905
+#: Settings.py:1266
+msgid "Change the volume of game sounds."
+msgstr "Thay đổi âm lượng của âm thanh trò chơi."
+
+#: Settings.py:914
+msgid "Advanced Audio Settings"
+msgstr "Advanced Audio Settings"
+
+#: Settings.py:914
+msgid "Change advanced audio settings."
+msgstr "Thay đổi cài đặt nâng cao âm thanh."
+
+#: Settings.py:956
+#: Settings.py:1281
+msgid "Change Setlist Path >"
+msgstr "Thay đổi Setlist Đường dẫn>"
+
+#: Settings.py:956
+#: Settings.py:1281
+msgid "Set the path to a folder named 'songs' that contains your songs."
+msgstr "Thiết lập đường dẫn đến một thư mục tên là 'bài hát' có chứa các bài hát của bạn."
+
+#: Settings.py:988
+msgid "Debug Settings"
+msgstr "Debug Settings"
+
+#: Settings.py:988
+msgid "Settings for coders to debug. Probably not worth changing."
+msgstr "Cài đặt cho lập trình để gỡ lỗi. Có lẽ không có giá trị thay đổi."
+
+#: Settings.py:989
+msgid "Log Settings"
+msgstr "Đăng nhập Settings"
+
+#: Settings.py:989
+msgid "Adds junk information to the logfile. Probably not useful in bug reports."
+msgstr "Thêm thông tin rác đến các logfile. Có thể là không hữu ích trong các báo cáo lỗi."
+
+#: Settings.py:994
+msgid "AI Settings"
+msgstr "AI Settings"
+
+#: Settings.py:994
+msgid "Change the settings of the AI"
+msgstr "Thay đổi các thiết lập của AI"
+
+#: Settings.py:1003
+#: Settings.py:1356
+msgid "Mod settings"
+msgstr "Mod cài đặt"
+
+#: Settings.py:1003
+#: Settings.py:1356
+msgid "Enable or disable any mods you have installed."
+msgstr "Kích hoạt hoặc vô hiệu hóa bất kỳ Mods bạn đã cài đặt."
+
+#: Settings.py:1008
+#: Settings.py:1298
+msgid "Gameplay Settings"
+msgstr "Cài đặt game"
+
+#: Settings.py:1008
+#: Settings.py:1298
+msgid "Settings that affect the rules of the game."
+msgstr "Cài đặt ảnh hưởng đến các quy tắc của trò chơi."
+
+#: Settings.py:1009
+#: Settings.py:1299
+msgid "Control Settings"
+msgstr "Control Settings"
+
+#: Settings.py:1009
+#: Settings.py:1299
+msgid "Create, delete, and edit your controls."
+msgstr "Tạo, xóa, và chỉnh sửa của bạn điều khiển."
+
+#: Settings.py:1010
+#: Settings.py:1300
+msgid "Display Settings"
+msgstr "Display Settings"
+
+#: Settings.py:1010
+#: Settings.py:1300
+msgid "Theme, neck, resolution, etc."
+msgstr "Chủ đề, cổ, độ phân giải, vv"
+
+#: Settings.py:1011
+#: Settings.py:1301
+msgid "Audio Settings"
+msgstr "Cài đặt âm thanh"
+
+#: Settings.py:1011
+#: Settings.py:1301
+msgid "Volume controls, etc."
+msgstr "Khối lượng kiểm soát, vv"
+
+#: Settings.py:1012
+#: Settings.py:1302
+msgid "Setlist Settings"
+msgstr "Setlist Settings"
+
+#: Settings.py:1012
+#: Settings.py:1302
+msgid "Settings that affect the setlist."
+msgstr "Thiết lập mà ảnh hưởng đến setlist."
+
+#: Settings.py:1013
+msgid "Advanced Settings"
+msgstr "Cài đặt Nâng cao"
+
+#: Settings.py:1013
+msgid "Settings that probably don't need to be changed."
+msgstr "Cài đặt mà có lẽ không cần phải được thay đổi."
+
+#: Settings.py:1014
+#: Settings.py:1303
+msgid "Mods, Cheats, AI"
+msgstr "Mods, cheats, AI"
+
+#: Settings.py:1014
+#: Settings.py:1303
+msgid "Set Jurgen to play for you, or other cheats."
+msgstr "Đặt Jurgen để chơi cho bạn, hoặc cheats khác."
+
+#: Settings.py:1015
+#: Settings.py:1304
+#, python-format
+msgid "%s Credits"
+msgstr "%s Tín"
+
+#: Settings.py:1015
+#: Settings.py:1304
+msgid "See who made this game."
+msgstr "Xem những người làm game này."
+
+#: Settings.py:1016
+#: Settings.py:1305
+msgid "Quickset"
+msgstr "Hàng rào cây"
+
+#: Settings.py:1016
+#: Settings.py:1305
+msgid "A quick way to set many advanced settings."
+msgstr "Một cách nhanh chóng để thiết lập nhiều thiết lập nâng cao."
+
+#: Settings.py:1017
+msgid "Hide Advanced Options"
+msgstr "Hide Advanced Options"
+
+#: Settings.py:1047
+#: Settings.py:1320
+msgid "FoFiX needs to restart to apply setting changes."
+msgstr "FoFiX cần phải khởi động lại để áp dụng thay đổi thiết lập."
+
+#: Settings.py:1066
+#: Settings.py:1328
+msgid "Test Controls"
+msgstr "Test Controls"
+
+#: Settings.py:1066
+#: Settings.py:1328
+msgid "Go here to test your controllers."
+msgstr "Về đây để thử nghiệm điều khiển của bạn."
+
+#: Settings.py:1071
+#: Settings.py:1333
+msgid "New Controller"
+msgstr "New Controller"
+
+#: Settings.py:1071
+#: Settings.py:1333
+msgid "Create a new controller to use."
+msgstr "Tạo một bộ điều khiển mới để sử dụng."
+
+#: Settings.py:1072
+#: Settings.py:1334
+msgid "Edit Controller"
+msgstr "Chỉnh sửa Controller"
+
+#: Settings.py:1072
+#: Settings.py:1334
+msgid "Edit a controller you have created."
+msgstr "Chỉnh sửa một bộ điều khiển mà bạn đã tạo."
+
+#: Settings.py:1073
+#: Settings.py:1335
+msgid "Delete Controller"
+msgstr "Delete Controller"
+
+#: Settings.py:1073
+#: Settings.py:1335
+msgid "Delete a controller you have created."
+msgstr "Xóa một bộ điều khiển mà bạn đã tạo."
+
+#: Settings.py:1089
+#: Settings.py:1366
+msgid "You must specify a controller for slot 1!"
+msgstr "Bạn phải chỉ định một bộ điều khiển cho khe 1!"
+
+#: Settings.py:1095
+#: Settings.py:1372
+#, python-format
+msgid "Controllers in slots %d and %d conflict. Setting %d to None."
+msgstr "Điều khiển trong khe %d và %d cuộc xung đột. Thiết %d đến None."
+
+#: Settings.py:1104
+#: Settings.py:1381
+#, python-format
+msgid "%d more conflicts."
+msgstr "Hơn %d cuộc xung đột."
+
+#: Settings.py:1149
+#: Settings.py:1411
+msgid "Choose a new songs directory."
+msgstr "Chọn một thư mục bài hát mới."
+
+#: Settings.py:1306
+msgid "See Advanced Options"
+msgstr "Xem Advanced Options"
+
+#: Settings.py:1600
+msgid "Cheats"
+msgstr "Cheats"
+
+#: Song.py:132
+msgid "Guitar"
+msgstr "Guitar"
+
+#: Song.py:133
+msgid "Rhythm"
+msgstr "Rhythm"
+
+#: Song.py:134
+msgid "Bass"
+msgstr "Bass"
+
+#: Song.py:135
+msgid "Lead"
+msgstr "Chì"
+
+#: Song.py:136
+msgid "Drums"
+msgstr "Trống"
+
+#: Song.py:137
+msgid "Vocals"
+msgstr "Giọng hát"
+
+#: Song.py:162
+msgid "Easy"
+msgstr "Dễ dàng"
+
+#: Song.py:163
+msgid "Medium"
+msgstr "Trung bình"
+
+#: Song.py:164
+msgid "Hard"
+msgstr "Hard"
+
+#: Song.py:165
+msgid "Expert"
+msgstr "Chuyên viên"
+
+#: Song.py:227
+msgid "NoName"
+msgstr "NoName"
+
+#: Song.py:960
+msgid "This song is locked."
+msgstr "Bài hát này đã bị khoá."
+
+#: Song.py:1166
+msgid "Reset Career"
+msgstr "Thiết lập lại Hướng nghiệp"
+
+#: Song.py:1213
+msgid "   (Random Song)"
+msgstr "(Random Song)"
+
+#: Song.py:4171
+msgid "End of Career"
+msgstr "Cuối Hướng nghiệp"
+
+#: Song.py:4434
+#: Song.py:4437
+msgid "Checking song database..."
+msgstr "Kiểm tra cơ sở dữ liệu bài hát ..."
+
+#: Song.py:4444
+#, python-format
+msgid "Enumerating song folders... (%d so far)"
+msgstr "Liệt kê các thư mục bài hát ... (%d cho đến nay)"
+
+#: Song.py:4448
+msgid "Caching song data..."
+msgstr "Bài hát trong bộ nhớ đệm dữ liệu ..."
+
+#: Song.py:4448
+#, python-format
+msgid "(folder %d of %d; %d%% of this folder)"
+msgstr "(Thư mục của %d %d; %d%% của thư mục này)"
+
+#: Song.py:4449
+msgid "Pruning leftover entries..."
+msgstr "Tỉa còn lại của mục ..."
+
+#: SongChoosingScene.py:104
+msgid "Initializing Setlist..."
+msgstr "Khởi tạo Setlist ..."
+
+#: SongChoosingScene.py:106
+msgid "Checking Command-Line Settings..."
+msgstr "Kiểm tra Command-Line Settings ..."
+
+#: SongChoosingScene.py:108
+msgid "Checking Setlist Settings..."
+msgstr "Kiểm tra Cài đặt Setlist ..."
+
+#: SongChoosingScene.py:265
+#: SongChoosingScene.py:267
+#: SongChoosingScene.py:277
+msgid "Browsing Collection..."
+msgstr "Đang duyệt Bộ sưu tập ..."
+
+#: SongChoosingScene.py:327
+#: SongChoosingScene.py:337
+msgid "No songs in this setlist are available to play!"
+msgstr "Không có bài hát trong setlist này có sẵn để chơi!"
+
+#: SongChoosingScene.py:329
+#: SongChoosingScene.py:339
+msgid "Make sure you have a working career pack!"
+msgstr "Hãy chắc chắn rằng bạn có một gói nghiệp làm việc!"
+
+#: SongChoosingScene.py:389
+#: SongChoosingScene.py:496
+msgid "Loading Album Artwork..."
+msgstr "Loading ... Album Ảnh minh họa"
+
+#: SongChoosingScene.py:423
+#: SongChoosingScene.py:634
+msgid "There are no drum parts in this song. Change your controllers to play."
+msgstr "Không có trống phần trong bài hát này. Thay đổi điều khiển của bạn để chơi."
+
+#: SongChoosingScene.py:431
+#: SongChoosingScene.py:637
+msgid "There are no guitar parts in this song. Change your controllers to play."
+msgstr "Không có phần guitar trong bài hát này. Thay đổi điều khiển của bạn để chơi."
+
+#: SongChoosingScene.py:439
+#: SongChoosingScene.py:640
+msgid "There are no vocal parts in this song. Change your controllers to play."
+msgstr "Không có phần thanh nhạc trong bài hát này. Thay đổi điều khiển của bạn để chơi."
+
+#: SongChoosingScene.py:457
+#, python-format
+msgid "%s Choose a difficulty:"
+msgstr "%s Chọn một khó khăn:"
+
+#: Theme.py:1001
+#: Theme.py:1126
+#: Theme.py:1209
+#: Theme.py:1319
+#: Theme.py:1482
+#: Theme.py:1605
+#: Theme.py:2114
+msgid "-- Locked --"
+msgstr "- Đã hóa -"
+
+#: Theme.py:1047
+#: Theme.py:1070
+#: Theme.py:1086
+#: Theme.py:1103
+#: Theme.py:1236
+#: Theme.py:1260
+#: Theme.py:1276
+#: Theme.py:1280
+#: Theme.py:1365
+#: Theme.py:1388
+#: Theme.py:1404
+#: Theme.py:1417
+#: Theme.py:1631
+#: Theme.py:1655
+#: Theme.py:1671
+#: Theme.py:1674
+msgid "Nil"
+msgstr "Hư không"
+
+#: Theme.py:1432
+#: Theme.py:2055
+#: Theme.py:2060
+#: Theme.py:2096
+msgid "Loading Preview..."
+msgstr "Xem trước Loading ..."
+
+#: Theme.py:1440
+#: Theme.py:1549
+msgid "Play To Advance"
+msgstr "Play Để nâng cao"
+
+#: Theme.py:1446
+#: Theme.py:1555
+msgid "Played Once"
+msgstr "Sau khi chơi"
+
+#: Theme.py:1448
+#: Theme.py:1557
+#, python-format
+msgid "Played %d times."
+msgstr "Phát %d lần."
+
+#: Theme.py:1455
+#: Theme.py:1571
+msgid "There Is 1 Song In This Setlist."
+msgstr "Hiện là 1 Song Trong Setlist này."
+
+#: Theme.py:1457
+#: Theme.py:1573
+#, python-format
+msgid "There Are %d Songs In This Setlist."
+msgstr "Hiện có %d bài hát Trong Setlist này."
+
+#: Theme.py:1461
+#: Theme.py:1577
+msgid "Tier"
+msgstr "Bậc"
+
+#: Theme.py:1465
+#: Theme.py:1588
+msgid "Random Song"
+msgstr "Song ngẫu nhiên"
+
+#: Theme.py:2016
+msgid "DIFFICULTY"
+msgstr "Khó khăn"
+
+#: Theme.py:2018
+msgid "BAND"
+msgstr "BAND"
+
+#: Theme.py:2020
+msgid "GUITAR"
+msgstr "Guitar"
+
+#: Theme.py:2022
+msgid "DRUM"
+msgstr "Phuy"
+
+#: Theme.py:2024
+msgid "BASS"
+msgstr "BASS"
+
+#: Theme.py:2026
+msgid "VOCALS"
+msgstr "Giọng hát"
+
+#: Theme.py:2032
+msgid "SORTING:"
+msgstr "Phân loại:"
+
+#: Theme.py:2034
+msgid "ALPHABETICALLY BY TITLE"
+msgstr "Theo thứ tự TITLE"
+
+#: Theme.py:2036
+msgid "ALPHABETICALLY BY ARTIST"
+msgstr "Theo bảng chữ cái của nghệ sĩ"
+
+#: Theme.py:2038
+msgid "BY PLAY COUNT"
+msgstr "BY PLAY COUNT"
+
+#: Theme.py:2040
+msgid "ALPHABETICALLY BY ALBUM"
+msgstr "Theo thứ tự album"
+
+#: Theme.py:2042
+msgid "ALPHABETICALLY BY GENRE"
+msgstr "Theo thứ tự abc theo thể loại"
+
+#: Theme.py:2044
+msgid "BY YEAR"
+msgstr "BY NĂM"
+
+#: Theme.py:2046
+msgid "BY BAND DIFFICULTY"
+msgstr "BY BAND khó khăn"
+
+#: Theme.py:2048
+msgid "BY INSTRUMENT DIFFICULTY"
+msgstr "Khó khăn của các nhạc cụ"
+
+#: Theme.py:2050
+msgid "BY SONG COLLECTION"
+msgstr "SONG BY THU"
+
+#: Theme.py:2145
+#, python-format
+msgid "Played %d time"
+msgstr "%d thời gian chơi"
+
+#: Theme.py:2147
+#, python-format
+msgid "Played %d times"
+msgstr "Phát %d lần"
+
+#: Theme.py:2152
+#: Theme.py:2159
+msgid "Play To Advance."
+msgstr "Play Để nâng cao."
+
+#: Theme.py:2155
+msgid "Never Played"
+msgstr "Không bao giờ chơi"
+
+#: Theme.py:2219
+msgid "One Song In This Setlist"
+msgstr "Một Song Trong Setlist này"
+
+#: Theme.py:2221
+#, python-format
+msgid "%d Songs In This Setlist"
+msgstr "%d bài hát Trong Setlist này"
+
+#: Theme.py:2230
+msgid "(Random Song)"
+msgstr "(Random Song)"
+
+#: Theme.py:2428
+msgid "No Album"
+msgstr "Không có Album"
+
+#: Theme.py:2433
+msgid "No Genre"
+msgstr "Không Thể loại nhạc"
+
+#: Video.py:151
+msgid "Video setup failed with your resolution settings, and so were reset to defaults."
+msgstr "Video thiết lập độ phân giải không thành công với các thiết lập của bạn, và như vậy đã được thiết lập lại để mặc định."
+
+#: Vocalist.py:120
+msgid "Amazing!"
+msgstr "Tuyệt vời!"
+
+#: Vocalist.py:120
+msgid "Great!"
+msgstr "Tuyệt vời!"
+
+#: Vocalist.py:120
+msgid "Decent"
+msgstr "Phong nha"
+
+#: Vocalist.py:120
+msgid "Average"
+msgstr "Trung bình"
+
+#: Vocalist.py:120
+msgid "Meh"
+msgstr "MEH"
+
+#: Vocalist.py:120
+msgid "Bad"
+msgstr "Bad"
+
+#: Vocalist.py:120
+msgid "Terrible..."
+msgstr "Khủng khiếp ..."
+
+#: Vocalist.py:449
+msgid "Tap!"
+msgstr "Tập!"
+
+#: World.py:60
+msgid "FoFiX Co-Op Mode"
+msgstr "FoFiX Co-Op Mode"
+
+#: World.py:62
+msgid "RB Co-Op Mode"
+msgstr "RB Co-Op Mode"
+
+#: World.py:64
+msgid "GH Co-Op Mode"
+msgstr "GH Co-Op Mode"
+
+#: World.py:66
+msgid "Battle Mode"
+msgstr "Trận Mode"
+
+#: World.py:73
+msgid "Career Mode"
+msgstr "Hướng Mode"
+

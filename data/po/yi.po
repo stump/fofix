@@ -1,0 +1,5011 @@
+# -*- coding: utf-8 -*-
+#####################################################################
+#                                                                   #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
+#                                                                   #
+# This program is free software; you can redistribute it and/or     #
+# modify it under the terms of the GNU General Public License       #
+# as published by the Free Software Foundation; either version 2    #
+# of the License, or (at your option) any later version.            #
+#                                                                   #
+# This program is distributed in the hope that it will be useful,   #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of    #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the     #
+# GNU General Public License for more details.                      #
+#                                                                   #
+# You should have received a copy of the GNU General Public License #
+# along with this program; if not, write to the Free Software       #
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,        #
+# MA  02110-1301, USA.                                              #
+#####################################################################
+
+msgid ""
+msgstr ""
+"Project-Id-Version: FoFiX 4 Development\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-19 11:47-0600\n"
+"PO-Revision-Date: 2010-09-19 11:48-0600\n"
+"Last-Translator: Google Translator\n"
+"Language-Team: FoFiX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: Credits.py:125
+msgid "This mod was built on Alarian's mod,"
+msgstr "דאס מאָד איז געווען געבויט אויף אַלאַריאַן ס מאָד,"
+
+#: Credits.py:126
+msgid "which was built on UltimateCoffee's Ultimate mod,"
+msgstr "וואָס איז געווען געבויט אויף ולטימאַטעקאָפפעע ס ולטימאַטע מאָד,"
+
+#: Credits.py:127
+msgid "which was built on RogueF's RF_mod 4.15,"
+msgstr "וואָס איז געווען געבויט אויף ראָגועף ס רפ_מאָד 4.15,"
+
+#: Credits.py:128
+msgid "which was, of course, built on Frets on Fire 1.2.451,"
+msgstr "וואָס איז געווען, פון קורס, געבויט אויף פרעץ אויף פייער 1.2.451,"
+
+#: Credits.py:129
+msgid "which was created by Unreal Voodoo"
+msgstr "וואָס איז געווען באשאפן דורך ונרעאַל וואָאָדאָאָ"
+
+#: Credits.py:130
+msgid "No Particular Order"
+msgstr "ניט קיין פּאַרטיקולאַר כּדי"
+
+#: Credits.py:131
+msgid "Active Coders:"
+msgstr "אַקטיוו קאָדערס:"
+
+#: Credits.py:132
+msgid "Past Coders:"
+msgstr "פאַרגאַנגענהייַט קאָדערס:"
+
+#: Credits.py:133
+msgid "Main Graphic Contributors:"
+msgstr "הויפּט גראַפיק קאָנטריבוטאָרס:"
+
+#: Credits.py:134
+msgid "Translators:"
+msgstr "טראַנסלאַטאָרס:"
+
+#: Credits.py:135
+msgid "Team Hero:"
+msgstr "מאַנשאַפֿט העראָ:"
+
+#: Credits.py:136
+msgid "Creators of Career Mode"
+msgstr "קרעאַטאָרס פון קאַרעער מאָדע"
+
+#: Credits.py:137
+msgid "Honorary Credits to:"
+msgstr "האָנאָראַרי קרעדיץ צו:"
+
+#: Credits.py:138
+msgid "Donations to MFH"
+msgstr "דאָנאַטיאָנס צו מפה"
+
+#: Credits.py:139
+msgid "Donations to akedrou"
+msgstr "דאָנאַטיאָנס צו אַקעדראָו"
+
+#: Credits.py:140
+msgid "Major Donations:"
+msgstr "הויפּט דאָנאַטיאָנס:"
+
+#: Credits.py:141
+msgid "Other Donations:"
+msgstr "אנדערע דאָנאַטיאָנס:"
+
+#: Credits.py:142
+msgid "Other Credits:"
+msgstr "אנדערע קרעדיץ:"
+
+#: Credits.py:143
+msgid "Jurgen FoF tutorial inspired by adam02"
+msgstr "דזשורגען פאָף טוטאָריאַל ינספּייערד דורך אַדאַמ02"
+
+#: Credits.py:144
+msgid "Drum test song tutorial by Heka"
+msgstr "פּויק פּרובירן ליד טוטאָריאַל דורך העקאַ"
+
+#: Credits.py:145
+msgid "Bang Bang Mystery Man song tutorial is from the original FoF"
+msgstr "קלאַפּ באַנג מיסטערי מאַן ליד טוטאָריאַל איז פון די אָריגינעל פאָף"
+
+#: Credits.py:146
+msgid "Drum Rolls practice tutorial by venom426"
+msgstr "פּויק ראָללס פיר טוטאָריאַל דורך ווענאָמ426"
+
+#: Credits.py:147
+msgid "If you see your work included in this game and you aren't"
+msgstr "אויב איר זען אייער אַרבעט אַרייַנגערעכנט אין דעם שפּיל און איר זענט ניט"
+
+#: Credits.py:148
+msgid "in the credits, please leave a polite post stating what you"
+msgstr "אין די קרעדיץ, ביטע לאָזן אַ יידל פּאָסטן סטייטינג וואָס איר"
+
+#: Credits.py:149
+msgid "did and when, as specific as possible."
+msgstr "האט און ווען, ווי ספּעציפיש ווי מעגלעך."
+
+#: Credits.py:150
+msgid "If you can, please provide a link to your original posting"
+msgstr "אויב איר קענען, ביטע צושטעלן אַ לינק צו דיין אָריגינעל פּאָסטינג"
+
+#: Credits.py:151
+msgid "of the work in question."
+msgstr "פון די אַרבעט אין פֿראַגע."
+
+#: Credits.py:152
+msgid "Then we can properly credit you."
+msgstr "און מיר קענען רעכט קרעדיט איר."
+
+#: Credits.py:153
+msgid "Thank you for your contribution."
+msgstr "דאַנקען דיר פֿאַר אייער צושטייַער."
+
+#: Credits.py:154
+msgid "Please keep in mind that it is not easy to trace down and"
+msgstr "ביטע האַלטן אין מיינונג אַז עס איז ניט גרינג צו שפּור אַראָפּ און"
+
+#: Credits.py:155
+msgid "credit every single person who contributed; if your name is"
+msgstr "קרעדיט יעדער איין מענטש וואס קאַנטריביוטיד, אויב דיין נאָמען איז"
+
+#: Credits.py:156
+msgid "not included, it was not meant to slight you."
+msgstr "ניט אַרייַנגערעכנט, עס איז ניט מענט צו קליין איר."
+
+#: Credits.py:157
+msgid "It was an oversight."
+msgstr "עס איז געווען אַ פאַרזע."
+
+#: Credits.py:159
+#, python-format
+msgid "%s theme credits:"
+msgstr "%s טעמע קרעדיץ:"
+
+#: Credits.py:160
+#, python-format
+msgid "%s theme specific thanks:"
+msgstr "%s טעמע ספּעציפיש דאַנק:"
+
+#: Credits.py:162
+msgid "French"
+msgstr "פראנצויזיש"
+
+#: Credits.py:163
+msgid "French (reform 1990)"
+msgstr "פראנצויזיש (רעפאָרם 1990)"
+
+#: Credits.py:164
+msgid "German"
+msgstr "דייַטש"
+
+#: Credits.py:165
+msgid "Italian"
+msgstr "איטאַליעניש"
+
+#: Credits.py:166
+msgid "Pig Latin"
+msgstr "חזיר לאַטייַן"
+
+#: Credits.py:167
+msgid "Portuguese (Brazilian)"
+msgstr "פּאָרטוגעזיש (בראַזיליאַן)"
+
+#: Credits.py:168
+msgid "Russian"
+msgstr "רוסיש"
+
+#: Credits.py:169
+msgid "Spanish"
+msgstr "שפּאַניש"
+
+#: Credits.py:170
+msgid "Swedish"
+msgstr "שוועדיש"
+
+#: Credits.py:223
+msgid "Made with:"
+msgstr "געמאכט מיט:"
+
+#: Credits.py:246
+msgid "Source Code available under the GNU General Public License"
+msgstr "מקור קאָד בנימצא אונטער דעם GNU אַלגעמיינע פובליק License"
+
+#: Credits.py:250
+msgid "Copyright 2006, 2007 by Unreal Voodoo"
+msgstr "קאַפּירייט 2006, 2007 דורך ונרעאַל וואָאָדאָאָ"
+
+#: Credits.py:251
+msgid "Copyright 2008-2010 by Team FoFiX"
+msgstr "קאַפּירייט 2008-2010 דורך מאַנשאַפֿט פאָפיקס"
+
+#: Dialogs.py:489
+msgid "<OK>"
+msgstr "<OK>"
+
+#: Dialogs.py:576
+msgid "[Parent Folder]"
+msgstr "[פּאַרענט פאָלדער]"
+
+#: Dialogs.py:580
+msgid "[Accept Folder]"
+msgstr "[אַקסעפּט פאָלדער]"
+
+#: Dialogs.py:582
+#, python-format
+msgid "%s [Folder]"
+msgstr "%s [פאָלדער]"
+
+#: Dialogs.py:707
+msgid "Yellow (#3) / Blue (#4) to change, Green (#1) to confirm:"
+msgstr "געלע (# 3) / בלו (# 4) צו טוישן, גרין (# 1) צו באַשטעטיקן:"
+
+#: Dialogs.py:719
+msgid "Loading necks..."
+msgstr "לאָודינג נעקס ..."
+
+#: Dialogs.py:784
+#: GameEngine.py:97
+msgid "Neck"
+msgstr "האַלדז"
+
+#: Dialogs.py:983
+msgid "Loading avatars..."
+msgstr "לאָודינג אַוואַטאַרס ..."
+
+#: Dialogs.py:1092
+msgid "Select Your Avatar:"
+msgstr "סעלעקטירן דיין אַוואַטאַר:"
+
+#: Dialogs.py:1572
+msgid "Press Start to Begin!"
+msgstr "פּרעסע אָנהייב אָנגעהויבן!"
+
+#: Dialogs.py:1573
+msgid "Use the keyboard to select or just play some notes!"
+msgstr "נוצן די קלאַוויאַטור צו סעלעקטירן אָדער נאָר שפּילן עטלעכע הערות!"
+
+#: Dialogs.py:1584
+msgid "No Controller"
+msgstr "ניט קיין קאָנטראָללער"
+
+#: Dialogs.py:1588
+msgid "Disabled Controller"
+msgstr "פאַרקריפּלט קאָנטראָללער"
+
+#: Dialogs.py:1592
+msgid "Default Guitar"
+msgstr "ניט ויסצאָלן גיטאַרע"
+
+#: Dialogs.py:1594
+msgid "Default Drums"
+msgstr "ניט ויסצאָלן דרומס"
+
+#: Dialogs.py:1596
+msgid "Default Microphone"
+msgstr "ניט ויסצאָלן מייקראַפאָון"
+
+#: Dialogs.py:1657
+msgid "controller"
+msgstr "קאַנטראָולער"
+
+#: Dialogs.py:1659
+msgid "controllers"
+msgstr "קאַנטראָולערז"
+
+#: Dialogs.py:1660
+#, python-format
+msgid "You only have %d %s defined. You need at least %d for this mode."
+msgstr "איר נאָר האָבן %d %s דיפיינד. איר דאַרפֿן בייַ מינדסטער %d פֿאַר דעם מאָדע."
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+#: GameEngine.py:212
+msgid "Left"
+msgstr "לינקס"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+#: GameEngine.py:212
+msgid "Right"
+msgstr "רעכט"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Up"
+msgstr "אַרויף"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Down"
+msgstr "אַראָפּ"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Start"
+msgstr "אָנהייבן"
+
+#: Dialogs.py:1917
+#: Dialogs.py:1925
+#: Dialogs.py:1930
+#: Dialogs.py:1938
+msgid "Select"
+msgstr "קלייַבן"
+
+#: Dialogs.py:1917
+msgid "Fret #1"
+msgstr "פרעט # 1"
+
+#: Dialogs.py:1917
+msgid "Solo #1"
+msgstr "סאָלאָ # 1"
+
+#: Dialogs.py:1917
+msgid "Fret #2"
+msgstr "פרעט # 2"
+
+#: Dialogs.py:1917
+msgid "Solo #2"
+msgstr "סאָלאָ # 2"
+
+#: Dialogs.py:1918
+msgid "Fret #3"
+msgstr "פרעט # 3"
+
+#: Dialogs.py:1918
+msgid "Solo #3"
+msgstr "סאָלאָ # 3"
+
+#: Dialogs.py:1918
+msgid "Fret #4"
+msgstr "פרעט # 4"
+
+#: Dialogs.py:1918
+msgid "Solo #4"
+msgstr "סאָלאָ # 4"
+
+#: Dialogs.py:1918
+msgid "Fret #5"
+msgstr "פרעט # 5"
+
+#: Dialogs.py:1919
+msgid "Solo #5"
+msgstr "סאָלאָ # 5"
+
+#: Dialogs.py:1919
+msgid "Pick!"
+msgstr "ביינדל!"
+
+#: Dialogs.py:1919
+#: Dialogs.py:1927
+#: Dialogs.py:1932
+#: Dialogs.py:1940
+msgid "Starpower!"
+msgstr "סטאַרפּאָווער!"
+
+#: Dialogs.py:1919
+#: GameEngine.py:278
+msgid "Whammy"
+msgstr "ווהאַממי"
+
+#: Dialogs.py:1925
+#: Dialogs.py:1938
+msgid "Drum #1"
+msgstr "פּויק # 1"
+
+#: Dialogs.py:1925
+msgid "Drum #2"
+msgstr "פּויק # 2"
+
+#: Dialogs.py:1926
+#: Dialogs.py:1939
+msgid "Drum #3"
+msgstr "פּויק # 3"
+
+#: Dialogs.py:1926
+msgid "Drum #4"
+msgstr "פּויק # 4"
+
+#: Dialogs.py:1927
+#: Dialogs.py:1940
+msgid "Bass Drum"
+msgstr "באַס דרום"
+
+#: Dialogs.py:1927
+#: Dialogs.py:1940
+#: Dialogs.py:2268
+#: GameEngine.py:89
+#: GameEngine.py:155
+#: GameEngine.py:190
+#: GameEngine.py:691
+#: GameResultsScene.py:250
+msgid "None"
+msgstr "גאָרניט"
+
+#: Dialogs.py:1938
+msgid "Cymbal #2"
+msgstr "סימבאַל # 2"
+
+#: Dialogs.py:1939
+msgid "Cymbal #4"
+msgstr "סימבאַל # 4"
+
+#: Dialogs.py:1939
+msgid "Drum #5"
+msgstr "פּויק # 5"
+
+#: Dialogs.py:1942
+msgid "Fret"
+msgstr "פרעט"
+
+#: Dialogs.py:1943
+msgid "Solo"
+msgstr "סאָלאָ"
+
+#: Dialogs.py:1944
+msgid "Drum"
+msgstr "פּויק"
+
+#: Dialogs.py:1945
+msgid "Slide~"
+msgstr "גליטש ~"
+
+#: Dialogs.py:2248
+msgid "Level:"
+msgstr "הייך:"
+
+#: Dialogs.py:2249
+msgid "Note:"
+msgstr "באַמערקונג:"
+
+#: Dialogs.py:2263
+msgid "Tap"
+msgstr "צאַפּן"
+
+#: Dialogs.py:2359
+msgid "Choose a File"
+msgstr "אויסקלייַבן אַ טעקע"
+
+#: Dialogs.py:2435
+msgid "Play with the keys and press Escape when you're done."
+msgstr "שפּיל מיט די שליסלען און פּרעסע עסקאַפּע ווען איר רע געטאן."
+
+#: Dialogs.py:2448
+#: Dialogs.py:2554
+#: Dialogs.py:2560
+msgid "Loading..."
+msgstr "לאָודינג ..."
+
+#: FoFiX.py:179
+#, python-format
+msgid "Song directory provided ('%s') is not a valid song directory. Starting up FoFiX in standard mode."
+msgstr "ליד וועגווייַזער צוגעשטעלט ('%s ') איז ניט אַ גילטיק ליד וועגווייַזער. סטאַרטינג זיך פאָפיקס אין נאָרמאַל מאָדע."
+
+#: FoFiX.py:301
+msgid "Terminating due to unhandled exception:"
+msgstr "טערמינאַטינג רעכט צו ונהאַנדלעד אויסנאַם:"
+
+#: FoFiX.py:303
+msgid "If you make a bug report about this error, please include the contents of the following log file:"
+msgstr "אויב איר מאַכן אַ זשוק באַריכט וועגן דעם טעות, ביטע אַרייַן די אינהאַלט פון די דאָזיקע קלאָץ טעקע:"
+
+#: FoFiX.py:305
+msgid "The log file already includes the traceback given above."
+msgstr "דער קלאָץ טעקע שוין ינקלודז די טראַסעבאַקק געגעבן אויבן."
+
+#: FoFiX.py:310
+msgid "Open the logfile now?"
+msgstr "עפענען די לאָגפילע איצט?"
+
+#: GameEngine.py:86
+msgid "FPS Limiter"
+msgstr "פפּס לימיטער"
+
+#: GameEngine.py:86
+msgid "On (Set Below)"
+msgstr "אויף (באַשטעטיק בעלאָוו)"
+
+#: GameEngine.py:86
+msgid "Off (Auto Max FPS)"
+msgstr "אויסגעלאשן (אַוטאָ מאַקס פפּס)"
+
+#: GameEngine.py:86
+msgid "Use this to enable or disable the FPS Limiter. If off, the game will render as many frames as possible. (This is affected by the 'Performance' quickset)"
+msgstr "ניץ דאָס צו געבן אָדער דיסייבאַל די פפּס לימיטער. אויב אַוועק, דער שפּיל וועט ופפירן ווי פילע ראָמען ווי מעגלעך. (דאס איז אַפעקטאַד דורך די 'פֿאָרשטעלונג' קוויקקסעט)"
+
+#: GameEngine.py:88
+msgid "Fullscreen Mode"
+msgstr "פוללסקרעען מאָדע"
+
+#: GameEngine.py:88
+#: GameEngine.py:90
+#: GameEngine.py:93
+#: GameEngine.py:96
+#: GameEngine.py:105
+#: GameEngine.py:107
+#: GameEngine.py:112
+#: GameEngine.py:145
+#: GameEngine.py:146
+#: GameEngine.py:172
+#: GameEngine.py:175
+#: GameEngine.py:176
+#: GameEngine.py:177
+#: GameEngine.py:178
+#: GameEngine.py:181
+#: GameEngine.py:182
+#: GameEngine.py:196
+#: GameEngine.py:199
+#: GameEngine.py:201
+#: GameEngine.py:202
+#: GameEngine.py:216
+#: GameEngine.py:219
+#: GameEngine.py:225
+#: GameEngine.py:245
+#: GameEngine.py:246
+#: GameEngine.py:247
+#: GameEngine.py:259
+#: GameEngine.py:260
+#: GameEngine.py:261
+#: GameEngine.py:262
+#: GameEngine.py:263
+#: GameEngine.py:264
+#: GameEngine.py:265
+#: GameEngine.py:266
+#: GameEngine.py:267
+#: GameEngine.py:268
+#: GameEngine.py:269
+#: GameEngine.py:300
+#: GameEngine.py:301
+#: GameEngine.py:304
+#: GameEngine.py:312
+#: GameEngine.py:315
+#: GameEngine.py:318
+#: GameEngine.py:321
+#: GameEngine.py:371
+#: GameEngine.py:410
+msgid "No"
+msgstr "קיין"
+
+#: GameEngine.py:88
+#: GameEngine.py:90
+#: GameEngine.py:93
+#: GameEngine.py:96
+#: GameEngine.py:105
+#: GameEngine.py:107
+#: GameEngine.py:112
+#: GameEngine.py:145
+#: GameEngine.py:146
+#: GameEngine.py:172
+#: GameEngine.py:175
+#: GameEngine.py:176
+#: GameEngine.py:177
+#: GameEngine.py:178
+#: GameEngine.py:181
+#: GameEngine.py:182
+#: GameEngine.py:196
+#: GameEngine.py:199
+#: GameEngine.py:216
+#: GameEngine.py:219
+#: GameEngine.py:225
+#: GameEngine.py:245
+#: GameEngine.py:246
+#: GameEngine.py:247
+#: GameEngine.py:259
+#: GameEngine.py:260
+#: GameEngine.py:261
+#: GameEngine.py:262
+#: GameEngine.py:263
+#: GameEngine.py:264
+#: GameEngine.py:265
+#: GameEngine.py:266
+#: GameEngine.py:267
+#: GameEngine.py:268
+#: GameEngine.py:300
+#: GameEngine.py:301
+#: GameEngine.py:304
+#: GameEngine.py:312
+#: GameEngine.py:315
+#: GameEngine.py:318
+#: GameEngine.py:321
+#: GameEngine.py:371
+#: GameEngine.py:410
+msgid "Yes"
+msgstr "יאָ"
+
+#: GameEngine.py:88
+msgid "Play either in fullscreen ('Yes') or windowed ('No') mode."
+msgstr "שפּיל אָדער אין פוללסקרעען ('יא') אָדער ווינדאָוד ('ניין') מאָדע."
+
+#: GameEngine.py:89
+msgid "Antialiasing Quality"
+msgstr "אַנטיאַליאַסינג קוואַליטי"
+
+#: GameEngine.py:89
+msgid "Sets the antialiasing quality of openGL rendering. Higher values reduce jaggediness, but could affect performance. (This is affected by the 'Performance' quickset)"
+msgstr "שטעלט די אַנטיאַליאַסינג קוואַליטעט פון אָפּענגל רענדערינג. העכער וואַלועס פֿאַרקלענערן דזשאַגגעדינעסס, אָבער קען ווירקן פאָרשטעלונג. (דאס איז אַפעקטאַד דורך די 'פֿאָרשטעלונג' קוויקקסעט)"
+
+#: GameEngine.py:90
+msgid "Show Fret Glow Effect"
+msgstr "ווייַזן פרעט גלאָוו אַפעקט"
+
+#: GameEngine.py:90
+msgid "Turn on or off the glow that appears around a fret when you press it."
+msgstr "ווענדן אויף אָדער אַוועק די שייַנען אַז אויס אַרום אַ פרעט ווען איר דריקן עס."
+
+#: GameEngine.py:92
+msgid "Frames per Second"
+msgstr "ראָמען פּער צווייטע"
+
+#: GameEngine.py:92
+msgid "Set the number of frames to render per second. Higher values are better, but your computer may not be able to keep up. You probably can leave this alone. (This is affected by the 'Performance' quickset)"
+msgstr "באַשטעטיק די נומער פון ראָמען צו ופפירן פּער רגע. העכער וואַלועס זענען בעסער, אָבער דיין קאָמפּיוטער זאל ניט קענען צו האַלטן זיך. איר מסתּמא קענען לאָזן דעם אַליין. (דאס איז אַפעקטאַד דורך די 'פֿאָרשטעלונג' קוויקקסעט)"
+
+#: GameEngine.py:93
+msgid "Print Frames per Second"
+msgstr "דרוק פראַמעס פּער צווייטע"
+
+#: GameEngine.py:93
+msgid "This will display your FPS on some screens, and if running from sources will print your FPS there every two seconds."
+msgstr "דאס וועט אַרויסווייַזן דיין פפּס אויף עטלעכע סקרינז, און אויב פליסנדיק פון מקורים וועט דרוקן דיין פפּס דאָרט יעדער צוויי סעקונדעס."
+
+#: GameEngine.py:94
+msgid "Fret Glow Color"
+msgstr "פרעט גלאָוו קאָליר"
+
+#: GameEngine.py:94
+msgid "Same as Fret"
+msgstr "זעלביקער ווי פרעט"
+
+#: GameEngine.py:94
+msgid "Actual Color"
+msgstr "פאַקטיש קאָליר"
+
+#: GameEngine.py:94
+msgid "Sets whether or not the fret glow image will be color-masked with the theme-determined fret color."
+msgstr "שטעלט צי אָדער ניט די פרעט שייַנען בילד וועט זייַן פֿאַרב-מאַסקט מיט דער טעמע-באשלאסן פרעט פֿאַרב."
+
+#: GameEngine.py:96
+msgid "Use Shaders"
+msgstr "נוצן שאַדערס"
+
+#: GameEngine.py:96
+msgid "Enable or disable the use of shaders. Shaders are visual effects. This must be set to 'Yes' to use the settings below. 'By Theme' leaves it to the theme creator."
+msgstr "געבן אָדער דיסייבאַל די נוצן פון שאַדערס. שאַדערס זענען וויסואַל יפעקס. דאס דארף זייַן שטעלן צו 'יא' צו נוצן די סעטטינגס אונטן. 'דורך טים' בלעטער עס צו די טעמע שאַפֿער."
+
+#: GameEngine.py:97
+#: GameEngine.py:98
+#: GameEngine.py:99
+#: GameEngine.py:101
+#: GameEngine.py:102
+#: GameEngine.py:118
+#: GameEngine.py:322
+#: GameEngine.py:351
+msgid "Disabled"
+msgstr "פאַרקריפּלט"
+
+#: GameEngine.py:97
+msgid "Flashing"
+msgstr "פלאַשינג"
+
+#: GameEngine.py:97
+#: GameEngine.py:98
+#: GameEngine.py:99
+#: GameEngine.py:100
+#: GameEngine.py:101
+#: GameEngine.py:102
+#: GameEngine.py:190
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:213
+#: GameEngine.py:228
+#: GameEngine.py:232
+#: GameEngine.py:291
+#: GameEngine.py:298
+msgid "By Theme"
+msgstr "דורך טים"
+
+#: GameEngine.py:97
+msgid "A bright flash along your fretboard reflecting the notes you've hit. 'By Theme' leaves it to the theme creator."
+msgstr "א ליכטיק בליצן צוזאמען דיין פרעטבאָאַרד ריפלעקטינג די הערות איר ווע שלאָגן. 'דורך טים' בלעטער עס צו די טעמע שאַפֿער."
+
+#: GameEngine.py:98
+msgid "Stage"
+msgstr "בינע"
+
+#: GameEngine.py:98
+msgid "EQ Lightning"
+msgstr "עק לייטנינג"
+
+#: GameEngine.py:98
+msgid "A visual waveform centered above you fretboard. 'By Theme' leaves it to the theme creator."
+msgstr "א וויסואַל וואַוועפאָרם סענטערד אויבן איר פרעטבאָאַרד. 'דורך טים' בלעטער עס צו די טעמע שאַפֿער."
+
+#: GameEngine.py:99
+msgid "Solo and SP"
+msgstr "סאָלאָ און ספּ"
+
+#: GameEngine.py:99
+#: GameEngine.py:100
+msgid "Lightnings"
+msgstr "בליצן"
+
+#: GameEngine.py:99
+msgid "Enables lightning along the side of your fretboard when you are in solos or use SP. 'By Theme' leaves it to the theme creator."
+msgstr "ינייבאַלז בליץ צוזאמען די זייַט פון דיין פרעטבאָאַרד ווען איר זענט אין סאָלאָס אָדער נוצן ספּ. 'דורך טים' בלעטער עס צו די טעמע שאַפֿער."
+
+#: GameEngine.py:100
+msgid "Tails"
+msgstr "עקן"
+
+#: GameEngine.py:100
+msgid "Classic"
+msgstr "קלאַסיש"
+
+#: GameEngine.py:100
+#: GameEngine.py:210
+#: GameEngine.py:298
+msgid "RB2"
+msgstr "רב2"
+
+#: GameEngine.py:100
+msgid "Sets the tail effect. Choose from classic tails, lightning, or RB2 style. 'By Theme' leaves it to the theme creator."
+msgstr "שטעלט די עק ווירקונג. אויסקלייַבן פון קלאַסיש עקן, בליץ, אָדער רב2 נוסח. 'דורך טים' בלעטער עס צו די טעמע שאַפֿער."
+
+#: GameEngine.py:101
+msgid "Notes"
+msgstr "נאָטעס"
+
+#: GameEngine.py:101
+msgid "Metal"
+msgstr "מעטאַל"
+
+#: GameEngine.py:101
+msgid "Gives your notes a metallic sheen. 'By Theme' leaves it to the theme creator."
+msgstr "גיט אייערע הערות אַ מאַטאַליק שין. 'דורך טים' בלעטער עס צו די טעמע שאַפֿער."
+
+#: GameEngine.py:102
+#: GameEngine.py:298
+msgid "CDs"
+msgstr "קאָמפּאַקטלעך"
+
+#: GameEngine.py:102
+msgid "White"
+msgstr "ווייַס"
+
+#: GameEngine.py:102
+msgid "Adds a soft lighting effect to CD labels in CD setlist mode."
+msgstr "אַדדס אַ ווייך לייטינג ווירקונג צו סי לאַבעלס אין סי סעטליסט מאָדע."
+
+#: GameEngine.py:105
+msgid "Disable Screensaver"
+msgstr "דיסייבאַל סקרעענסאַווער"
+
+#: GameEngine.py:105
+msgid "Set whether the game disables the screensaver while it is running.  Does not necessarily work on all platforms."
+msgstr "שטעלן צי די שפּיל דיסייבאַלז די סקרעענסאַווער בשעת עס איז פליסנדיק. קען ניט דאַווקע אַרבעט אויף אַלע פּלאַטפאָרמס."
+
+#: GameEngine.py:107
+msgid "Animated Star Notes"
+msgstr "אַנימאַטעד שטערן נאָטעס"
+
+#: GameEngine.py:107
+msgid "This will animate star notes as they come towards you, if that is included in your theme. This can have a hit on performance. (This is affected by the 'Performance' quickset)"
+msgstr "דאס וועט ופלעבן שטערן הערות ווי זיי קומען צו איר, אויב וואָס איז אַרייַנגערעכנט אין דיין טעמע. דאס קענען האָבן אַ זעץ אויף פאָרשטעלונג. (דאס איז אַפעקטאַד דורך די 'פֿאָרשטעלונג' קוויקקסעט)"
+
+#: GameEngine.py:108
+msgid "Sample Frequency"
+msgstr "מוסטער פרעקווענסי"
+
+#: GameEngine.py:108
+msgid "Set the sample frequency for the audio in the game. You almost certainly want to leave this at 44100 Hz unless you really know what you're doing."
+msgstr "באַשטעטיק די מוסטער אָפטקייַט פֿאַר די אַודיאָ אין דער שפּיל. איר כּמעט זיכער ווילן צו לאָזן דעם בייַ 44100 הז סייַדן איר טאַקע וויסן וואָס איר 'רע טאן."
+
+#: GameEngine.py:109
+msgid "Sample Bits"
+msgstr "מוסטער ביטן"
+
+#: GameEngine.py:109
+msgid "Set the sample bits for the audio in the game. You almost certainly want to leave this at 16-bit unless you really know what you're doing."
+msgstr "באַשטעטיק די מוסטער באַטרעף פֿאַר די אַודיאָ אין דער שפּיל. איר כּמעט זיכער ווילן צו לאָזן דעם בייַ 16-ביסל סייַדן איר טאַקע וויסן וואָס איר 'רע טאן."
+
+#: GameEngine.py:112
+msgid "Upload Highscores"
+msgstr "צופֿעליקער היגהסקאָרעס"
+
+#: GameEngine.py:112
+msgid "If enabled, your high scores will be sent to the server to rank you against other players."
+msgstr "אויב ענייבאַלד, דיין הויך סקאָרז וועט ווערן געשיקט צו דעם סערווירער צו ריי איר קעגן אנדערע שפילער."
+
+#: GameEngine.py:118
+msgid "Song Queue System"
+msgstr "ליד קיו סיסטעם"
+
+#: GameEngine.py:118
+#: GameEngine.py:188
+msgid "Automatic"
+msgstr "אָטאַמאַטיק"
+
+#: GameEngine.py:118
+msgid "Enables or disables creating multi-song sets in the setlist."
+msgstr "ינייבאַלז אָדער דיסייבאַלז שאַפֿן Multi-ליד שטעלט אין די סעטליסט."
+
+#: GameEngine.py:119
+msgid "Song Queue Order"
+msgstr "ליד קיו באַשטעלט"
+
+#: GameEngine.py:119
+#: GameEngine.py:167
+#: GameEngine.py:168
+msgid "In Order"
+msgstr "כּדי"
+
+#: GameEngine.py:119
+#: GameEngine.py:167
+#: GameEngine.py:168
+#: GameEngine.py:169
+#: GameEngine.py:676
+msgid "Random"
+msgstr "טראַפ -"
+
+#: GameEngine.py:119
+msgid "Sets the order in which songs added to the queue will be played."
+msgstr "שטעלט דער סדר אין וואָס לידער צוגעלייגט צו דער ריי וועט זייַן געשפילט."
+
+#: GameEngine.py:120
+msgid "Song Queue Parts"
+msgstr "ליד קיו פּאַרץ"
+
+#: GameEngine.py:120
+msgid "Closest Available"
+msgstr "קלאָסעסט באַקומען"
+
+#: GameEngine.py:120
+#: GameEngine.py:121
+msgid "Always Ask"
+msgstr "שטענדיק בעט"
+
+#: GameEngine.py:120
+msgid "Choose the behavior when the chosen part is not available in all queued songs. 'Closest Available' will match lead parts to guitar and bass to rhythm, or guitar if no rhythm parts are available. 'Always Ask' brings up the part select screen."
+msgstr "אויסקלייַבן די נאַטור ווען די אויסדערוויילט טייל איז ניט בנימצא אין אַלע קוועועד לידער. 'קלאָסעסט באַקומען' וועט גלייַכן פירן טיילן צו גיטאַרע און באַס צו ריטם, אָדער גיטאַרע אויב קיין ריטם טיילן זענען בנימצא. 'אַלווייַס בעט' ברענגט אַרויף די טייל אויסקלייַבן פאַרשטעלן."
+
+#: GameEngine.py:121
+msgid "Song Queue Difficulty"
+msgstr "ליד קיו דיפפיקולטי"
+
+#: GameEngine.py:121
+msgid "Closest Down"
+msgstr "קלאָסעסט אַראָפּ"
+
+#: GameEngine.py:121
+msgid "Closest Up"
+msgstr "קלאָסעסט אַרויף"
+
+#: GameEngine.py:121
+msgid "Choose the behavior when the chosen difficulty is not available in all queued songs. 'Closest Up' will prefer a harder difficulty, while 'Closest Down' will prefer an easier one. 'Always Ask' brings up the difficulty select screen."
+msgstr "אויסקלייַבן די נאַטור ווען די אויסדערוויילט שוועריקייט איז ניט בנימצא אין אַלע קוועועד לידער. 'קלאָסעסט אַרויף' וועט בעסער וועלן אַ האַרדער שוועריקייט, בשעת 'קלאָסעסט אַראָפּ' וועט בעסער וועלן אַן גרינגער איינער. 'אַלווייַס בעט' ברענגט אַרויף די שוועריקייט אויסקלייַבן פאַרשטעלן."
+
+#: GameEngine.py:134
+msgid "Buffer Size"
+msgstr "קאָפּצעטל גרייס"
+
+#: GameEngine.py:134
+msgid "Set your audio buffer size. Higher values will reduce audio popping, but increase game lag. Only change this if you are having audio quality issues, and use the lowest value that sounds right."
+msgstr "שטעלן דיין אַודיאָ קאָפּצעטל גרייס. העכער וואַלועס וועט מינערן אַודיאָ פּאַפּינג, אָבער פאַרגרעסערן שפּיל אָפּשטיי. בלויז טוישן דעם אויב איר זענט בעת אַודיאָ קוואַליטעט ענינים, און נוצן די לאָואַסט ווערט אַז סאָונדס רעכט."
+
+#: GameEngine.py:135
+msgid "A/V Delay"
+msgstr "א / V דיליי"
+
+#: GameEngine.py:135
+msgid "Set your A/V delay. Unfortunately for now you have to use trial and error."
+msgstr "שטעלן דיין א / V פאַרהאַלטן. מע פֿאַר איצט איר האָבן צו נוצן פּראָצעס און טעות."
+
+#: GameEngine.py:136
+msgid "Screw-Up Sounds"
+msgstr "שרויף-אַרויף סאָונדס"
+
+#: GameEngine.py:136
+#: GameEngine.py:152
+#: GameEngine.py:156
+#: GameEngine.py:158
+#: GameEngine.py:159
+#: GameEngine.py:167
+#: GameEngine.py:168
+#: GameEngine.py:170
+#: GameEngine.py:171
+#: GameEngine.py:173
+#: GameEngine.py:179
+#: GameEngine.py:187
+#: GameEngine.py:189
+#: GameEngine.py:193
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:200
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:206
+#: GameEngine.py:207
+#: GameEngine.py:208
+#: GameEngine.py:213
+#: GameEngine.py:215
+#: GameEngine.py:218
+#: GameEngine.py:220
+#: GameEngine.py:222
+#: GameEngine.py:223
+#: GameEngine.py:227
+#: GameEngine.py:229
+#: GameEngine.py:231
+#: GameEngine.py:232
+#: GameEngine.py:239
+#: GameEngine.py:248
+#: GameEngine.py:249
+#: GameEngine.py:251
+#: GameEngine.py:274
+#: GameEngine.py:278
+#: GameEngine.py:279
+#: GameEngine.py:280
+#: GameEngine.py:281
+#: GameEngine.py:282
+#: GameEngine.py:283
+#: GameEngine.py:284
+#: GameEngine.py:285
+#: GameEngine.py:286
+#: GameEngine.py:289
+#: GameEngine.py:290
+#: GameEngine.py:291
+#: GameEngine.py:293
+#: GameEngine.py:294
+#: GameEngine.py:303
+#: GameEngine.py:326
+#: GameEngine.py:330
+#: GameEngine.py:334
+#: GameEngine.py:338
+#: GameEngine.py:405
+msgid "Off"
+msgstr "אַוועק"
+
+#: GameEngine.py:136
+msgid "Quiet"
+msgstr "רויק"
+
+#: GameEngine.py:136
+msgid "Loud"
+msgstr "הויך"
+
+#: GameEngine.py:136
+msgid "Painful"
+msgstr "ווייטיקדיק"
+
+#: GameEngine.py:136
+msgid "How loud should the sound of your screwing up be? Very."
+msgstr "ווי הויך זאָל דער געזונט פון אייער סקרוינג אַרויף זייַן? זייער."
+
+#: GameEngine.py:140
+msgid "Active Track Volume"
+msgstr "אַקטיוו שפּירט באנד"
+
+#: GameEngine.py:140
+msgid "Volume of the parts you are playing."
+msgstr "באנד פון די טיילן איר זענט פּלייַינג."
+
+#: GameEngine.py:141
+msgid "Background Volume"
+msgstr "ונטערשלאַק באנד"
+
+#: GameEngine.py:141
+msgid "Volume of the parts you are not playing."
+msgstr "באנד פון די טיילן איר זענט ניט פּלייַינג."
+
+#: GameEngine.py:144
+msgid "Process Priority"
+msgstr "פּראָצעס פּריאָריטי"
+
+#: GameEngine.py:144
+msgid "Idle"
+msgstr "ליידיק"
+
+#: GameEngine.py:144
+msgid "Low"
+msgstr "נידעריק"
+
+#: GameEngine.py:144
+#: GameEngine.py:157
+#: GameEngine.py:179
+#: GameEngine.py:299
+#: GameResultsScene.py:276
+msgid "Normal"
+msgstr "נאָרמאַל"
+
+#: GameEngine.py:144
+msgid "Above Normal"
+msgstr "אויבן נאָרמאַל"
+
+#: GameEngine.py:144
+msgid "High"
+msgstr "הויך"
+
+#: GameEngine.py:144
+msgid "Realtime"
+msgstr "רעאַלטימע"
+
+#: GameEngine.py:144
+msgid "Change this to increase the priority of the FoFiX process. Don't change this unless you know what you're doing. DO NOT set this to Realtime. Ever."
+msgstr "ענדערן דעם צו פאַרגרעסערן די בילכערקייַט פון די פאָפיקס פּראָצעס. צי ניט ענדערן דעם סייַדן איר וויסן וואָס איר 'רע טאן. טאָן נישט שטעלן דעם צו רעאַלטימע. טאָמיד."
+
+#: GameEngine.py:145
+msgid "Restrict to First Core (Win32 Only)"
+msgstr "באַגרענעצן צו דער ערשטער קאָר (ווינ32 בלויז)"
+
+#: GameEngine.py:145
+msgid "Choose whether to restrict the game to running on only the first processor core on the system. Only has an effect under Windows."
+msgstr "אויסקלייַבן צי צו באַגרענעצן די שפּיל צו פליסנדיק אויף בלויז דער ערשטער פּראָצעסירער האַרץ אויף די סיסטעם. בלויז האט אַ ווירקונג אונטער Windows."
+
+#: GameEngine.py:146
+msgid "Use Psyco"
+msgstr "נוצן פּסיקאָ"
+
+#: GameEngine.py:146
+msgid "Enable or disable the Psyco specializing compiler. Tests have indicated the game runs faster with it off."
+msgstr "געבן אָדער דיסייבאַל די פּסיקאָ ספּעציאַליזירט קאַמפּיילער. טעסץ האָבן איבערגעגעבן דעם שפּיל לויפט פאַסטער מיט עס אַוועק."
+
+#: GameEngine.py:147
+msgid "Missed Notes"
+msgstr "מיסט נאָטעס"
+
+#: GameEngine.py:147
+msgid "Disappear"
+msgstr "פאַרשווינדן"
+
+#: GameEngine.py:147
+msgid "Keep on going"
+msgstr "האַלטן אויף גאָוינג"
+
+#: GameEngine.py:147
+msgid "When you miss a note, this sets whether they disappear from the fretboard or scroll off the bottom of the screen."
+msgstr "ווען איר פאַרפירן אַ טאָן, דעם שטעלט צי זיי פאַרשווינדן פון דער פרעטבאָאַרד אָדער מעגילע אַוועק די דנאָ פון דער פאַרשטעלן."
+
+#: GameEngine.py:150
+msgid "Performance"
+msgstr "פאָרשטעלונג"
+
+#: GameEngine.py:150
+#: GameEngine.py:151
+msgid "Manual"
+msgstr "מאַנואַל"
+
+#: GameEngine.py:150
+msgid "Pure Speed"
+msgstr "ריין ספּיד"
+
+#: GameEngine.py:150
+msgid "Fast"
+msgstr "פעסט"
+
+#: GameEngine.py:150
+msgid "Quality (Recommended)"
+msgstr "קוואַליטעט (רעקאַמענדיד)"
+
+#: GameEngine.py:150
+msgid "Max Quality (Slow)"
+msgstr "מאַקס קוואַליטי (סלאָו)"
+
+#: GameEngine.py:150
+msgid "Set the performance of your game. You can fine-tune in the advanced menus."
+msgstr "באַשטעטיק די פאָרשטעלונג פון דיין שפּיל. איר קענען פייַן, ניגן אין די אַוואַנסירטע מעניוז."
+
+#: GameEngine.py:151
+msgid "Gameplay"
+msgstr "גאַמעפּלייַ"
+
+#: GameEngine.py:151
+msgid "Theme-Based"
+msgstr "טעמע-באַזירט"
+
+#: GameEngine.py:151
+msgid "MIDI Based"
+msgstr "מידי באַזירט"
+
+#: GameEngine.py:151
+msgid "RB Style"
+msgstr "רב סטייל"
+
+#: GameEngine.py:151
+msgid "GH Style"
+msgstr "גה סטייל"
+
+#: GameEngine.py:151
+msgid "WT Style"
+msgstr "ווט סטייל"
+
+#: GameEngine.py:151
+msgid "Sets how the game 'feels' to play. Theme-Based lets the theme creator decide. MIDI Based lets the fretter decide."
+msgstr "שטעלט ווי די שפּיל 'פילז' צו שפּילן. טעמע-באַזירט לעץ די טעמע שאַפֿער באַשליסן. מידי באַזירט לעץ די פרעטער באַשליסן."
+
+#: GameEngine.py:152
+msgid "Pause on Loss of Focus"
+msgstr "יבעררייַס אויף לאָס פון פאָקוס"
+
+#: GameEngine.py:152
+#: GameEngine.py:156
+#: GameEngine.py:158
+#: GameEngine.py:170
+#: GameEngine.py:173
+#: GameEngine.py:187
+#: GameEngine.py:189
+#: GameEngine.py:193
+#: GameEngine.py:200
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:206
+#: GameEngine.py:207
+#: GameEngine.py:213
+#: GameEngine.py:218
+#: GameEngine.py:220
+#: GameEngine.py:222
+#: GameEngine.py:223
+#: GameEngine.py:227
+#: GameEngine.py:232
+#: GameEngine.py:239
+#: GameEngine.py:248
+#: GameEngine.py:249
+#: GameEngine.py:251
+#: GameEngine.py:274
+#: GameEngine.py:278
+#: GameEngine.py:279
+#: GameEngine.py:280
+#: GameEngine.py:281
+#: GameEngine.py:282
+#: GameEngine.py:283
+#: GameEngine.py:284
+#: GameEngine.py:285
+#: GameEngine.py:286
+#: GameEngine.py:289
+#: GameEngine.py:290
+#: GameEngine.py:291
+#: GameEngine.py:293
+#: GameEngine.py:303
+#: GameEngine.py:326
+#: GameEngine.py:330
+#: GameEngine.py:334
+#: GameEngine.py:338
+#: GameEngine.py:405
+msgid "On"
+msgstr "אויף"
+
+#: GameEngine.py:152
+msgid "Set whether the game automatically pauses when another application steals input focus."
+msgstr "שטעלן צי די שפּיל אויטאָמאַטיש פּאָזאַז ווען אנדערן אַפּלאַקיישאַן סטילז אַרייַנשרייַב פאָקוס."
+
+#: GameEngine.py:155
+msgid "HO/PO System"
+msgstr "ער / פּאָ סיסטעם"
+
+#: GameEngine.py:155
+#: GameResultsScene.py:252
+msgid "RF-Mod"
+msgstr "רף-מאָד"
+
+#: GameEngine.py:155
+#: GameResultsScene.py:254
+msgid "GH2 Strict"
+msgstr "גה2 שטרענגע"
+
+#: GameEngine.py:155
+#: GameEngine.py:319
+#: GameResultsScene.py:256
+msgid "GH2"
+msgstr "גה2"
+
+#: GameEngine.py:155
+msgid "Set the system used for marking hammer-ons and pull-offs (HO/PO). You can either disable them altogether, use the RF-Mod method, or the GH2 system."
+msgstr "באַשטעטיק די סיסטעם געניצט פֿאַר מאַרקינג האַמער-אָנס און ציען-אָפס (ער / פּאָ). איר קענען אָדער דיסייבאַל זיי גאנצן, נוצן די רף-מאָד אופֿן, אָדער די גה2 סיסטעם."
+
+#: GameEngine.py:156
+msgid "GH2 Sloppy Mode"
+msgstr "גה2 סלאַפּי מאָדע"
+
+#: GameEngine.py:156
+msgid "Sloppy mode allows you to hold higher frets while tapping lower frets during HO/PO sections. This will lower your score by 25%."
+msgstr "סלאַפּי מאָדע אַלאַוז איר צו האַלטן העכער פרעץ בשעת טאַפּינג נידעריקער פרעץ בעשאַס ער / פּאָ סעקשאַנז. דאס וועט נידעריקער דיין כעזשבן דורך 25%."
+
+#: GameEngine.py:157
+msgid "HO/PO Frequency"
+msgstr "ער / פּאָ פרעקווענסי"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:272
+msgid "Least"
+msgstr "קלענסטער"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:274
+msgid "Less"
+msgstr "ווייניקער"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:278
+msgid "More"
+msgstr "מער"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:280
+msgid "Even More"
+msgstr "נאך מער"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:282
+msgid "Most"
+msgstr "מערסט"
+
+#: GameEngine.py:157
+msgid "Sets the window used to determine HO/PO notes. Increasing the frequency will reduce your score, and lower settings will give you a tiny bonus."
+msgstr "שטעלט די פֿענצטער געניצט צו באַשטימען ער / פּאָ הערות. ינקרעאַסינג די אָפטקייַט וועט פאַרמינערן דיין כעזשבן, און נידעריקער סעטטינגס וועט געבן איר אַ קליינטשיק באָנוס."
+
+#: GameEngine.py:158
+msgid "HO/PO After Chord"
+msgstr "ער / פּאָ נאך קאָרד"
+
+#: GameEngine.py:158
+msgid "This will determine whether or not HO/PO notes can follow a chord. This only applies to the GH2 systems."
+msgstr "דאס וועט באַשליסן צי אָדער ניט ער / פּאָ הערות קענען נאָכגיין אַ קאָרד. דאס בלויז אַפּלייז צו די גה2 סיסטעמען."
+
+#: GameEngine.py:159
+msgid "Show Hit Accuracy"
+msgstr "ווייַזן היט אַקקוראַסי"
+
+#: GameEngine.py:159
+msgid "Numeric"
+msgstr "נומעריק"
+
+#: GameEngine.py:159
+msgid "Friendly"
+msgstr "פרייַנדלעך"
+
+#: GameEngine.py:159
+msgid "Both"
+msgstr "ביידע"
+
+#: GameEngine.py:159
+msgid "Shows how accurate your note hits are. Numeric will give a time in milliseconds, and Friendly will use English to inform you. Both will show, well, both. Useful for determining your A/V delay."
+msgstr "ווייזט ווי פּינטלעך דיין טאָן היץ זענען. נומעריק וועט געבן אַ צייַט אין מיליסעקאַנדז, און פרענדלי וועט נוצן ענגליש צו מיטטיילן איר. ביידע וועט ווייַזן, נו, ביידע. נוציק פֿאַר דיטערמאַנינג דיין א / V פאַרהאַלטן."
+
+#: GameEngine.py:160
+msgid "Hit Accuracy Pos"
+msgstr "היט אַקקוראַסי פּאָס"
+
+#: GameEngine.py:160
+#: GameEngine.py:212
+msgid "Center"
+msgstr "צענטער"
+
+#: GameEngine.py:160
+msgid "Top-Right Corner"
+msgstr "Top-רעכט קאָרנער"
+
+#: GameEngine.py:160
+msgid "Bottom-Left Corner"
+msgstr "דנאָ-לינקס קאָרנער"
+
+#: GameEngine.py:160
+msgid "Center-Bottom"
+msgstr "צענטער-באָטטאָם"
+
+#: GameEngine.py:160
+msgid "Sets where the accuracy information will be displayed, if enabled."
+msgstr "שטעלט ווו די אַקיעראַסי אינפֿאָרמאַציע וועט זייַן געוויזן, אויב ענייבאַלד."
+
+#: GameEngine.py:162
+msgid "Max Players"
+msgstr "מאַקס פּלייַערס"
+
+#: GameEngine.py:162
+msgid "Set the maximum number of players in Co-Op modes. Be aware that higher numbers are associated with a significant drop in performance."
+msgstr "באַשטעטיק דעם העכסטן נומער פון פּלייַערס אין קאָ-אָפּ מאָדעס. זייַן וויסנד אַז העכער נומערן זענען פארבונדן מיט אַ באַטייַטיק פאַלן אין אויפֿפֿירונג."
+
+#: GameEngine.py:165
+msgid "Slideshow Delay"
+msgstr "סלידעשאָוו דיליי"
+
+#: GameEngine.py:165
+msgid "Sets how long, in milliseconds, to wait between each frame in a stage slideshow."
+msgstr "שטעלט ווי לאַנג, אין מיליסעקאַנדז, צו וואַרטן צווישן יעדער ראַם אין אַ בינע סלידעשאָוו."
+
+#: GameEngine.py:166
+msgid "Animation Delay"
+msgstr "אַנימאַציע דיליי"
+
+#: GameEngine.py:166
+msgid "Sets how long, in milliseconds, to wait between each frame in a stage animation."
+msgstr "שטעלט ווי לאַנג, אין מיליסעקאַנדז, צו וואַרטן צווישן יעדער ראַם אין אַ בינע אַנימאַציע."
+
+#: GameEngine.py:167
+msgid "Stage Slideshow"
+msgstr "בינע סלידעשאָוו"
+
+#: GameEngine.py:167
+#: GameEngine.py:168
+msgid "BackNForth"
+msgstr "באַקקנפאָרטה"
+
+#: GameEngine.py:167
+msgid "Sets the method used to rotate frames in a stage slideshow."
+msgstr "שטעלט דעם אופֿן געניצט צו דרייען ראָמען אין אַ בינע סלידעשאָוו."
+
+#: GameEngine.py:168
+msgid "Stage Animation"
+msgstr "בינע אַנאַמיישאַן"
+
+#: GameEngine.py:168
+msgid "Sets the method used to rotate frames in a stage animation."
+msgstr "שטעלט דעם אופֿן געניצט צו דרייען ראָמען אין אַ בינע אַנימאַציע."
+
+#: GameEngine.py:169
+msgid "Stage Selection"
+msgstr "בינע סעלעקציע"
+
+#: GameEngine.py:169
+msgid "Default"
+msgstr "ניט ויסצאָלן"
+
+#: GameEngine.py:169
+msgid "Blank"
+msgstr "ליידיק"
+
+#: GameEngine.py:169
+msgid "Video"
+msgstr "ווידעא"
+
+#: GameEngine.py:169
+msgid "Set the background for your stage. Default will use the default background, and Blank puts you in a dark room. Probably a lot like the one you're in now."
+msgstr "באַשטעטיק די הינטערגרונט פֿאַר דיין בינע. ניט ויסצאָלן וועט נוצן די ויסצאָלן אָפּשטאַם, און בלאַנק לייגט איר אין אַ טונקל פּלאַץ. מסתּמא אַ פּלאַץ ווי דער איינער איר רע אין איצט."
+
+#: GameEngine.py:170
+msgid "Song Stage"
+msgstr "ליד בינע"
+
+#: GameEngine.py:170
+msgid "Fretters can include a stage to be used with their songs. If this is enabled, you can see it."
+msgstr "פרעטטערס קענען אַרייַננעמען אַ בינע צו זייַן געוויינט מיט זייער לידער. אויב דאָס איז ענייבאַלד, איר קענען זען עס."
+
+#: GameEngine.py:171
+msgid "Script Lyric Display"
+msgstr "שריפט ליריק ווייַז"
+
+#: GameEngine.py:171
+msgid "By Song"
+msgstr "דורך סאָנג"
+
+#: GameEngine.py:171
+#: GameEngine.py:190
+#: GameEngine.py:201
+#: GameEngine.py:202
+#: GameEngine.py:214
+#: GameEngine.py:228
+#: GameEngine.py:269
+#: GameEngine.py:297
+msgid "Always"
+msgstr "שטענדיק"
+
+#: GameEngine.py:171
+msgid "Dual Lyric Prevention"
+msgstr "דואַל ליריק פּרעווענטיאָן"
+
+#: GameEngine.py:171
+msgid "Sets whether lyrics from a script.txt file are displayed. 'By Song' lets the fretter decide. 'Always' always displays script lyrics, if available, and 'Dual Lyric Prevention' will disable script lyrics if there are MIDI lyrics. (This is affected by the 'Performance' quickset)"
+msgstr "שטעלט צי ליריקס פון אַ סקריפּט.טקסט טעקע זענען געוויזן. 'דורך סאָנג' לעץ די פרעטער באַשליסן. 'אַלווייַס' שטענדיק דיספּלייז שריפט ליריקס, אויב פאַראַנען, און 'דואַל ליריק פּרעווענטיאָן' וועט דיסייבאַל שריפט ליריקס אויב עס זענען מידי ליריקס. (דאס איז אַפעקטאַד דורך די 'פֿאָרשטעלונג' קוויקקסעט)"
+
+#: GameEngine.py:172
+msgid "Frets Under Notes"
+msgstr "פרעץ אונטער נאָטעס"
+
+#: GameEngine.py:172
+msgid "Sets whether the notes slide under the frets or over them."
+msgstr "שטעלט צי די הערות רוק אונטער די פרעץ אָדער איבער זיי."
+
+#: GameEngine.py:173
+msgid "Drum Navigation"
+msgstr "פּויק נאַוויגאַציע"
+
+#: GameEngine.py:173
+msgid "If enabled, drum keys will be allowed to navigate menus. If not, only guitar keys and keyboard master keys will."
+msgstr "אויב ענייבאַלד, פּויק קיז וועט זייַן ערלויבט צו נאַוויגירן מעניוז. אויב ניט, נאָר גיטאַרע קיז און קלאַוויאַטור בעל קיז וועט."
+
+#: GameEngine.py:175
+msgid "Ignore Open Strums"
+msgstr "איגנאָרירן Open סטרומס"
+
+#: GameEngine.py:175
+msgid "If enabled, strumming without holding any frets down won't be counted."
+msgstr "אויב ענייבאַלד, סטראַמינג אָן האלטן קיין פרעץ אַראָפּ וועט ניט זייַן פאררעכנט."
+
+#: GameEngine.py:176
+msgid "Static Strings"
+msgstr "סטאַטיק סטרינגס"
+
+#: GameEngine.py:176
+msgid "If enabled, the 'strings' on your fretboard will not scroll."
+msgstr "אויב ענייבאַלד, דער 'סטרינגס' אויף דיין פרעטבאָאַרד וועט ניט מעגילע."
+
+#: GameEngine.py:177
+msgid "Effects Save SP"
+msgstr "עפפעקץ היט ספּ"
+
+#: GameEngine.py:177
+msgid "If enabled, whammying while in SP will slow down its decrease. And your score will be handicapped by 5%."
+msgstr "אויב ענייבאַלד, ווהאַממיינג בעת אין ספּ וועט פּאַמעלעך אַראָפּ זייַן פאַרקלענערן. און דיין כעזשבן וועט זייַן כאַנדיקאַפּט דורך 5%."
+
+#: GameEngine.py:178
+msgid "Show HO/PO Indicator"
+msgstr "ווייַזן ער / פּאָ ינדיקאַטאָר"
+
+#: GameEngine.py:178
+msgid "If enabled, 'HOPO' will appear in game. When there are HOPO notes active, it will turn white."
+msgstr "אויב ענייבאַלד, 'האָפּאָ' וועט דערשייַנען אין שפּיל. ווען עס זענען האָפּאָ הערות אַקטיוו, עס וועט קער ווייַס."
+
+#: GameEngine.py:179
+msgid "Use Tiers in Quickplay"
+msgstr "נוצן טיערס אין קוויקקפּלייַ"
+
+#: GameEngine.py:179
+msgid "Sorting"
+msgstr "סאָרטינג"
+
+#: GameEngine.py:179
+msgid "Sets whether to mark tiers in quickplay mode. 'Normal' will use the career tiers and 'Sorting' will insert tiers based on the current sort order."
+msgstr "שטעלט צי צו צייכן טיערס אין קוויקקפּלייַ מאָדע. 'נאָרמאַל' וועט נוצן די קאַריערע טיערס און 'סאָרטינג' וועט אַרייַנלייגן טיערס באזירט אויף די א סאָרט סדר."
+
+#: GameEngine.py:180
+msgid "Star Updates"
+msgstr "שטערן ופּדאַטעס"
+
+#: GameEngine.py:180
+msgid "On Hit"
+msgstr "אויף היט"
+
+#: GameEngine.py:180
+msgid "Score Change"
+msgstr "כעזשבן בייַט"
+
+#: GameEngine.py:180
+msgid "If set to 'On Hit', your star score will only be checked when you hit a note. If set to 'Score Change', your star score will constantly update. (This is affected by the 'Performance' quickset)"
+msgstr "אויב שטעלן צו 'און היט', דיין שטערן כעזשבן וועט נאָר זייַן אָפּגעשטעלט ווען איר שלאָגן אַ טאָן. אויב שטעלן צו 'סקאָר בייַט', דיין שטערן כעזשבן וועט קעסיידער דערהייַנטיקן. (דאס איז אַפעקטאַד דורך די 'פֿאָרשטעלונג' קוויקקסעט)"
+
+#: GameEngine.py:181
+msgid "Partial Star Continuous Fillup"
+msgstr "פּאַרטיייש שטערן קאָנטינואָוס פיללופּ"
+
+#: GameEngine.py:181
+msgid "Sets whether your partial stars will fill up gradually ('Yes') or in chunks. (This is affected by the 'Performance' quickset)"
+msgstr "שטעלט צי דיין פּאַרטיייש שטערן וועט ממלא זיך ביסלעכווייַז ('יא') אָדער אין שטיקער. (דאס איז אַפעקטאַד דורך די 'פֿאָרשטעלונג' קוויקקסעט)"
+
+#: GameEngine.py:182
+msgid "Countdown on Resume"
+msgstr "קאָונטדאָוון אויף רעסומע"
+
+#: GameEngine.py:182
+msgid "If enabled, there will be a three second countdown when you unpause."
+msgstr "אויב ענייבאַלד, דאָרט וועט זייַן אַ דרייַ רגע קאָונטדאָוון ווען איר ונפּאַוסע."
+
+#: GameEngine.py:184
+msgid "Script Lyric Position"
+msgstr "שריפט ליריק פּאַזישאַן"
+
+#: GameEngine.py:184
+msgid "Bottom"
+msgstr "דנאָ"
+
+#: GameEngine.py:184
+msgid "Top"
+msgstr "שפּיץ"
+
+#: GameEngine.py:184
+msgid "Display script lyrics at either the bottom or top of the screen."
+msgstr "ווייַז שריפט ליריקס בייַ אָדער די דנאָ אָדער שפּיץ פון דער פאַרשטעלן."
+
+#: GameEngine.py:187
+msgid "Starpower Claps"
+msgstr "סטאַרפּאָווער קלאַפּס"
+
+#: GameEngine.py:187
+msgid "Enables a clapping sound effect to be used on the beats in Starpower."
+msgstr "ינייבאַלז אַ קלאַפּינג געזונט ווירקונג צו זייַן געניצט אויף די ביץ אין סטאַרפּאָווער."
+
+#: GameEngine.py:188
+msgid "Song Previews"
+msgstr "ליד פּרעוויעווס"
+
+#: GameEngine.py:188
+msgid "Yellow Fret (#3)"
+msgstr "געלע פרעט (# 3)"
+
+#: GameEngine.py:188
+msgid "If set to 'Automatic', songs will automatically start previewing when you select them. Otherwise you must press the third fret."
+msgstr "אויב שטעלן צו 'אָטאַמאַטיק', לידער וועט אויטאָמאַטיש אָנהייב פּריוויוינג ווען דיר אויסקלייַבן זיי. אַנדערש איר מוזן דריקן די דריט פרעט."
+
+#: GameEngine.py:189
+msgid "RB SP Neck Glow"
+msgstr "רב ספּ נעק גלאָוו"
+
+#: GameEngine.py:189
+msgid "Sets a neck glow effect during SP in RB-type themes."
+msgstr "שטעלט אַ האַלדז שייַנען ווירקונג בעשאַס ספּ אין רב-טיפּ טעמעס."
+
+#: GameEngine.py:190
+msgid "SP Refill Mode"
+msgstr "ספּ ריפיל מאָדע"
+
+#: GameEngine.py:190
+msgid "By MIDI Type"
+msgstr "דורך מידי טיפּ"
+
+#: GameEngine.py:190
+msgid "Sets whether you can earn more starpower while using it. In 'By MIDI Type', only MIDIs that mark RB-style sections will use this. (This is set by the 'Gameplay' quickset)"
+msgstr "שטעלט צי איר קענען פאַרדינען מער סטאַרפּאָווער בשעת ניצן עס. אין 'דורך מידי טיפּע', בלויז מידיס אַז צייכן רב-נוסח סעקשאַנז וועט נוצן דעם. (דאס איז באַשטימט דורך די 'גאַמעפּלייַ' קוויקקסעט)"
+
+#: GameEngine.py:193
+msgid "Effects Debug"
+msgstr "עפפעקץ דעבוג"
+
+#: GameEngine.py:193
+msgid "If enabled, will show on-screen the raw data of your killswitch/whammy."
+msgstr "אויב ענייבאַלד, וועט ווייַזן אויף-פאַרשטעלן די רוי דאַטן פון דיין קיללסוויטטש / כוואַמי."
+
+#: GameEngine.py:195
+msgid "Drum SP"
+msgstr "פּויק ספּ"
+
+#: GameEngine.py:195
+msgid "Auto / Fills"
+msgstr "אַוטאָ / פילז"
+
+#: GameEngine.py:195
+msgid "Manual / Fills"
+msgstr "מאַנואַל / פילז"
+
+#: GameEngine.py:195
+msgid "Determines how drum starpower is activated when there are no drum fills. Auto will automatically activate when available, and Manual will wait for the 'Starpower' button to be pressed."
+msgstr "דעטערמינעס ווי פּויק סטאַרפּאָווער איז אַקטיווייטיד ווען עס זענען קיין פּויק זאַט. אַוטאָ וועט אויטאָמאַטיש אַקטאַווייט ווען פאַראַנען, און מאַנואַל וועט וואַרטן פֿאַר די 'סטאַרפּאָווער' קנעפּל צו ווערן געדריקט."
+
+#: GameEngine.py:196
+msgid "Large Drum Neck"
+msgstr "גרויס דרום נעק"
+
+#: GameEngine.py:196
+msgid "If enabled, will show a larger neck when playing drums."
+msgstr "אויב ענייבאַלד, וועט ווייַזן אַ גרעסערע האַלדז ווען פּלייַינג דראַמז."
+
+#: GameEngine.py:197
+#: GameEngine.py:235
+msgid "Bass Groove Neck"
+msgstr "באַס גראָאָווע נעק"
+
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:307
+msgid "Replace"
+msgstr "פאַרבייַטן"
+
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:307
+msgid "Overlay"
+msgstr "אָווערלייַ"
+
+#: GameEngine.py:197
+msgid "Sets the style of the Bass Groove neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "שטעלט די נוסח פון די באַס גראָאָווע האַלדז. 'רעפּלאַסע' נעמט דיין האַלדז מיט די ספעציעלע האַלדז, בשעת 'אָווערלייַ' לייז די האַלדז איבער שפּיץ."
+
+#: GameEngine.py:198
+msgid "Guitar Solo Neck"
+msgstr "גיטאַרע סאָלאָ נעק"
+
+#: GameEngine.py:198
+msgid "Sets the style of the Guitar Solo neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "שטעלט די נוסח פון די גיטאַרע סאָלאָ האַלדז. 'רעפּלאַסע' נעמט דיין האַלדז מיט די ספעציעלע האַלדז, בשעת 'אָווערלייַ' לייז די האַלדז איבער שפּיץ."
+
+#: GameEngine.py:199
+msgid "Show Unused Events"
+msgstr "ווייַזן ונוסעד עווענץ"
+
+#: GameEngine.py:199
+msgid "If enabled, various MIDI events not used by the game will be shown on-screen."
+msgstr "אויב ענייבאַלד, פאַרשידן מידי געשעענישן ניט געוויינט דורך דער שפּיל וועט זייַן שאָון אויף-פאַרשטעלן."
+
+#: GameEngine.py:200
+msgid "Kick Bass Sound"
+msgstr "קאָפּע באַס בערגער"
+
+#: GameEngine.py:200
+msgid "If enabled, you'll hear a kick bass sound when you use the kick pedal."
+msgstr "אויב ענייבאַלד, איר וועט הערן אַ קאָפּע באַס געזונט ווען איר נוצן דעם בריק טרעטלען."
+
+#: GameEngine.py:201
+msgid "Show Lyrics in All Modes"
+msgstr "ווייַזן ליריקס אין אַלע מאָדעס"
+
+#: GameEngine.py:201
+#: GameEngine.py:202
+msgid "Single Player"
+msgstr "סינגלע פּלייַער"
+
+#: GameEngine.py:201
+msgid "Sets whether or not MIDI lyrics will be displayed in modes without a vocalist. 'Single Player' will only show lyrics when in Solo modes."
+msgstr "שטעלט צי אָדער ניט מידי ליריקס וועט זייַן געוויזן אין מאָדעס אָן אַ וואָקאַליסט. 'סינגלע פּלייַער' וועט נאָר ווייַזן ליריקס ווען אין סאָלאָ מאָדעס."
+
+#: GameEngine.py:202
+msgid "Show MIDI Sections"
+msgstr "ווייַזן מידי סעקשאַנז"
+
+#: GameEngine.py:202
+msgid "Sets whether or not to scroll the names of sections as marked in the MIDI files."
+msgstr "שטעלט צי אָדער ניט צו מעגילע די נעמען פון סעקשאַנז ווי אָפּגעמערקט אין דער מידי טעקעס."
+
+#: GameEngine.py:203
+msgid "Key Conflicts"
+msgstr "שליסל קאָנפליקץ"
+
+#: GameEngine.py:203
+msgid "Don't check"
+msgstr "צי ניט קאָנטראָלירן"
+
+#: GameEngine.py:203
+msgid "Notify"
+msgstr "געבנ צו וויסן"
+
+#: GameEngine.py:203
+msgid "Enforce"
+msgstr "דורכפירן"
+
+#: GameEngine.py:203
+msgid "Sets how the game handles key conflicts. 'Don't check' doesn't check, but conflicts will affect play. 'Notify' will inform you, but allow you to continue, and 'Enforce' will not allow you to exit the menu until all key conflicts have been resolved."
+msgstr "שטעלט ווי די שפּיל כאַנדאַלז שליסל קאנפליקטן. 'דו זאלסט ניט קאָנטראָלירן' טוט ניט טשעק, אָבער קאנפליקטן וועט ווירקן שפּיל. 'נאָטיפי' וועט מיטטיילן איר, אָבער לאָזן איר צו פאָרזעצן, און 'ענפאָרסע' וועט ניט לאָזן איר צו אַרויסגאַנג די מעניו ביז אַלע שליסל קאנפליקטן האָבן שוין ריזאַלווד."
+
+#: GameEngine.py:204
+msgid "Show In-Game Stats"
+msgstr "ווייַז אין-שפיל סטאַץ"
+
+#: GameEngine.py:204
+msgid "Sets whether or not to show detailed stats as you play. 'By Theme' leaves it to the theme creator."
+msgstr "שטעלט צי אָדער ניט צו ווייַזן דיטיילד סטאַץ ווי איר שפּיל. 'דורך טים' בלעטער עס צו די טעמע שאַפֿער."
+
+#: GameEngine.py:205
+msgid "Show Stars In-Game"
+msgstr "ווייַזן סטאַרס אין-שפיל"
+
+#: GameEngine.py:205
+msgid "Sets whether or not to show your star score as you play. 'By Theme' leaves it to the theme creator."
+msgstr "שטעלט צי אָדער ניט צו ווייַזן דיין שטערן כעזשבן ווי איר שפּיל. 'דורך טים' בלעטער עס צו די טעמע שאַפֿער."
+
+#: GameEngine.py:206
+msgid "Show Partial Stars"
+msgstr "ווייַזן פּאַרטיאַל סטאַרס"
+
+#: GameEngine.py:206
+msgid "Sets whether or not to show partial stars, if available"
+msgstr "שטעלט צי אָדער ניט צו ווייַזן פּאַרטיייש שטערן, אויב בנימצא"
+
+#: GameEngine.py:207
+msgid "HO/PO Debug"
+msgstr "ער / פּאָ דעבוג"
+
+#: GameEngine.py:207
+msgid "If enabled, various log messages will be recorded regarding the HO/PO system. Please leave this disabled if submitting logs for bug reports unless you are certain it is necessary."
+msgstr "אויב ענייבאַלד, פאַרשידן קלאָץ אַרטיקלען וועט זייַן רעקאָרדירט וועגן דעם ער / פּאָ סיסטעם. ביטע לאָזן דעם פאַרקריפּלט אויב סאַבמיטינג לאָגס פֿאַר זשוק גיט סייַדן איר זענט זיכער עס איז נייטיק."
+
+#: GameEngine.py:208
+msgid "Show Solo Stats"
+msgstr "ווייַזן סאָלאָ סטאַץ"
+
+#: GameEngine.py:208
+msgid "Percent"
+msgstr "פּראָצענט"
+
+#: GameEngine.py:208
+msgid "Detail"
+msgstr "דעטאַל"
+
+#: GameEngine.py:208
+msgid "Sets whether to show your solo results when you finish a solo. 'Percent' will only show the percentage, while 'Detail' includes additional information."
+msgstr "שטעלט צי צו ווייַזן דיין סאָלאָ רעזולטאַטן ווען איר סאָף אַ סאָלאָ. 'פּערסענט' וועט נאָר ווייַזן די פּראָצענט, בשעת 'חומש' ינקלודז נאך אינפֿאָרמאַציע."
+
+#: GameEngine.py:209
+msgid "Stat Decimal Places"
+msgstr "סטאַט דעסימאַל פּלייסאַז"
+
+#: GameEngine.py:209
+msgid "Determines how many decimal places will be noted in displaying stats."
+msgstr "דעטערמינעס ווי פילע דעצימאַל ערטער וועט זייַן אנגעוויזן אין ווייַזנדיק סטאַץ."
+
+#: GameEngine.py:210
+msgid "Star Scoring Style"
+msgstr "שטערן סקאָרינג סטייל"
+
+#: GameEngine.py:210
+msgid "Accuracy"
+msgstr "אַקקוראַסי"
+
+#: GameEngine.py:210
+msgid "GH"
+msgstr "גה"
+
+#: GameEngine.py:210
+msgid "RB"
+msgstr "רב"
+
+#: GameEngine.py:210
+msgid "RB+GH"
+msgstr "רב + גה"
+
+#: GameEngine.py:210
+msgid "Sets which system to use to calculate your star score."
+msgstr "שטעלט וואָס סיסטעם צו נוצן צו רעכענען דיין שטערן כעזשבן."
+
+#: GameEngine.py:211
+msgid "Career Mode Advance"
+msgstr "קאַריערע מאָדע אַדוואַנסע"
+
+#: GameEngine.py:211
+msgid "0 (Song Finish)"
+msgstr "0 (סאָנג ענדיגט)"
+
+#: GameEngine.py:211
+msgid "1 Star"
+msgstr "1 שטערן"
+
+#: GameEngine.py:211
+msgid "2 Stars"
+msgstr "2 סטאַרס"
+
+#: GameEngine.py:211
+msgid "3 Stars"
+msgstr "3 סטאַרס"
+
+#: GameEngine.py:211
+msgid "4 Stars"
+msgstr "4 סטאַרס"
+
+#: GameEngine.py:211
+msgid "5 Stars"
+msgstr "5 סטאַרס"
+
+#: GameEngine.py:211
+msgid "6 (Gold Stars)"
+msgstr "6 (גאָלד סטאַרס)"
+
+#: GameEngine.py:211
+msgid "7 (Full Combo)"
+msgstr "7 (גאַנץ קאָמבאָ)"
+
+#: GameEngine.py:211
+msgid "Determine how many stars are needed on a song before it is unlocked in career mode."
+msgstr "באַשליסן ווי פילע שטערן זענען געדארפט אויף אַ ליד איידער עס איז אַנלאַקט אין קאַריערע מאָדע."
+
+#: GameEngine.py:212
+msgid "Solo Stat Positioning"
+msgstr "סאָלאָ סטאַט פּאָסיטיאָנינג"
+
+#: GameEngine.py:212
+#: GameEngine.py:319
+msgid "Rock Band"
+msgstr "ראַק באַנד"
+
+#: GameEngine.py:212
+msgid "Sets where your solo result stats will be displayed."
+msgstr "שטעלט ווו דיין סאָלאָ רעזולטאַט סטאַץ וועט זייַן געוויזן."
+
+#: GameEngine.py:213
+msgid "Bass Groove"
+msgstr "באַס גראָאָווע"
+
+#: GameEngine.py:213
+msgid "By MIDI"
+msgstr "דורך מידי"
+
+#: GameEngine.py:213
+msgid "Enable or disable bass groove (additional score multiplier for bass)"
+msgstr "געבן אָדער דיסייבאַל באַס נאָרע (נאך כעזשבן מאַלטאַפּלייער פֿאַר באַס)"
+
+#: GameEngine.py:214
+msgid "Drum Miss Penalty"
+msgstr "פּויק מיס פּענאַלטי"
+
+#: GameEngine.py:214
+msgid "Song Start"
+msgstr "ליד אָנהייב"
+
+#: GameEngine.py:214
+msgid "First Note"
+msgstr "ערשטער באַמערקונג"
+
+#: GameEngine.py:214
+msgid "Determines when drum hits count as misses: When the song begins, after the first note, or always."
+msgstr "דעטערמינעס ווען פּויק היץ רעכענען ווי מיסאַז: ווען די ליד הייבט, נאָך דער ערשטער טאָן, אָדער שטענדיק."
+
+#: GameEngine.py:215
+msgid "Time Display Format"
+msgstr "צייט ווייַז פֿאָרמאַטירונג"
+
+#: GameEngine.py:215
+#: GameEngine.py:306
+msgid "Countdown"
+msgstr "קאָונטדאָוון"
+
+#: GameEngine.py:215
+msgid "Elapsed"
+msgstr "עלאַפּסעד"
+
+#: GameEngine.py:215
+msgid "Sets whether the song time is displayed as time elapsed, time remaining, or not at all"
+msgstr "שטעלט צי די ליד צייַט איז געוויזן ווי צייַט ילאַפּסט, צייַט רוען, אָדער ניט בייַ אַלע"
+
+#: GameEngine.py:216
+msgid "Show Theme Version Tag"
+msgstr "ווייַזן טים ווערסיע טאַג"
+
+#: GameEngine.py:216
+msgid "Places the theme's version tag over menus and dialogs."
+msgstr "ערטער די טעמע ס ווערסיע קוויטל איבער מעניוז און דיאַלאָגס."
+
+#: GameEngine.py:217
+msgid "Menu Navigation"
+msgstr "מעניו נאַוויגאַציע"
+
+#: GameEngine.py:217
+msgid "P1 Only"
+msgstr "פּ1 בלויז"
+
+#: GameEngine.py:217
+msgid "All Players"
+msgstr "כל פּלייַערס"
+
+#: GameEngine.py:217
+msgid "Sets whether all players can navigate the menu, or only the controller set as Player 1 and the master keys."
+msgstr "שטעלט צי אַלע שפילער קענען נאַוויגירן די מעניו, אָדער בלויז די קאַנטראָולער שטעלן ווי פּלייַער 1 און דער בעל קיז."
+
+#: GameEngine.py:218
+msgid "In-Game Font Shadow"
+msgstr "אין-שפיל פאָנט שאַדאָו"
+
+#: GameEngine.py:218
+msgid "Sets whether or not a shadowed font will be used, if available."
+msgstr "שטעלט צי אָדער ניט אַ שאַדאָוד שריפֿט וועט זייַן געוויינט, אויב בנימצא."
+
+#: GameEngine.py:219
+msgid "Mute Last Second"
+msgstr "שטום לעצטע צווייטע"
+
+#: GameEngine.py:219
+msgid "Cuts the volume with one second remaining to prevent any pops when the song ends."
+msgstr "קאַץ דער באַנד מיט איין רגע רוען צו פאַרמייַדן קיין פּאַפּס ווען די ליד ענדס."
+
+#: GameEngine.py:220
+msgid "Results Cheer Loop"
+msgstr "רעזולטאַטן טשעער לופּ"
+
+#: GameEngine.py:220
+#: GameEngine.py:319
+#: GameEngine.py:399
+msgid "Theme"
+msgstr "טעמע"
+
+#: GameEngine.py:220
+msgid "Sets whether the cheering sound heard on the result screen will loop. 'Theme' leaves it to the theme creator."
+msgstr "שטעלט צי די טשירינג געזונט געהערט אויף דעם רעזולטאַט פאַרשטעלן וועט שלייף. 'טים' בלעטער עס צו די טעמע שאַפֿער."
+
+#: GameEngine.py:221
+msgid "Cheer Loop Delay"
+msgstr "דערפרייען לופּ דיליי"
+
+#: GameEngine.py:221
+msgid "Sets the time, in milliseconds, to wait before playing the result cheer again (if looping is enabled)."
+msgstr "שטעלט די צייַט, אין מיליסעקאַנדז, צו וואַרטן פֿאַר פּלייַינג די רעזולטאַט דערפרייען ווידער (אויב לופּינג איז ענייבאַלד)."
+
+#: GameEngine.py:222
+msgid "Miss Pauses Anim"
+msgstr "פאַרפירן פּאַוסעס אַנים"
+
+#: GameEngine.py:222
+msgid "When enabled, missing a note will pause the stage animation."
+msgstr "ווען ענייבאַלד, פעלנדיק אַ צעטל וועט יבעררייַס דער בינע אַנימאַציע."
+
+#: GameEngine.py:223
+msgid "Song HO/PO Freq"
+msgstr "ליד ער / פּאָ פרעק"
+
+#: GameEngine.py:223
+msgid "Sets whether or not to use the HO/PO Frequency setting determined by the fretter, if available."
+msgstr "שטעלט צי אָדער ניט צו נוצן דעם ער / פּאָ פרעקווענסי באַשטעטיקן באשלאסן דורך די פרעטער, אויב בנימצא."
+
+#: GameEngine.py:225
+msgid "Mute Drum Track During Fills"
+msgstr "שטום דרום שפּירט בעת פילז"
+
+#: GameEngine.py:225
+msgid "Sets whether or not the drum track will be muted during drum fills (so you can hear yourself have at it!)"
+msgstr "שטעלט צי אָדער ניט די פּויק שפּור וועט זייַן מיוטיד בעשאַס פּויק זאַט (אַזוי איר קענט הערן זיך האָבן בייַ אים!)"
+
+#: GameEngine.py:226
+msgid "Sustain Muting"
+msgstr "ונטערהאַלטן מוטינג"
+
+#: GameEngine.py:226
+msgid "Never Mute"
+msgstr "קיינמאָל מוטע"
+
+#: GameEngine.py:226
+msgid "Very Early"
+msgstr "זייער ערלי"
+
+#: GameEngine.py:226
+msgid "Early"
+msgstr "פרי"
+
+#: GameEngine.py:226
+#: GameEngine.py:309
+#: GameResultsScene.py:293
+msgid "Standard"
+msgstr "נאָרמאַל"
+
+#: GameEngine.py:226
+msgid "Always Mute"
+msgstr "שטענדיק מוטע"
+
+#: GameEngine.py:226
+msgid "Sets the window used to determine whether or not to mute a dropped sustain note. 'Early' means it will only mute when you drop the sustain relatively early."
+msgstr "שטעלט די פֿענצטער געניצט צו באַשליסן צי אָדער ניט צו שטום אַ דראַפּט ונטערהאַלטן טאָן. 'ערלי' מיטל עס וועט בלויז שטום ווען איר קאַפּ די ונטערהאַלטן לעפיערעך פרי."
+
+#: GameEngine.py:227
+msgid "Show Solo Frame"
+msgstr "ווייַזן סאָלאָ פריים"
+
+#: GameEngine.py:227
+msgid "Sets whether to show a frame around the solo stats, if available."
+msgstr "שטעלט צי צו ווייַזן אַ ראַם אַרום די סאָלאָ סטאַץ, אויב בנימצא."
+
+#: GameEngine.py:228
+msgid "Enable Guitar Solos"
+msgstr "געבן גיטאַרע סאָלאָס"
+
+#: GameEngine.py:228
+#: GameEngine.py:297
+msgid "Never"
+msgstr "קיינ מאָל ניט"
+
+#: GameEngine.py:228
+msgid "MIDI Only"
+msgstr "מידי בלויז"
+
+#: GameEngine.py:228
+msgid "Sets the logic used to mark solos. 'Always' will mark solos in sections if available. 'By Theme' leaves it to the theme creator. 'MIDI Only' only enables solos marked with the MIDI marker note."
+msgstr "שטעלט די לאָגיק געניצט צו צייכן סאָלאָס. 'אַלווייַס' וועט צייכן סאָלאָס אין סעקשאַנז אויב בנימצא. 'דורך טים' בלעטער עס צו די טעמע שאַפֿער. 'מידי בלויז' בלויז ינייבאַלז סאָלאָס אָפּגעמערקט מיט די מידי מאַרקער טאָן."
+
+#: GameEngine.py:229
+msgid "SP Mode"
+msgstr "ספּ מאָדע"
+
+#: GameEngine.py:229
+#: GameEngine.py:319
+msgid "FoF"
+msgstr "פאָף"
+
+#: GameEngine.py:229
+msgid "Auto MIDI"
+msgstr "אַוטאָ מידי"
+
+#: GameEngine.py:229
+msgid "Sets the logic used to determine starpower phrases. 'FoF' will generate paths based on the number of notes. 'Auto MIDI' will use MIDI markers to determine the paths, and fall back on the FoF mode if none are available."
+msgstr "שטעלט די לאָגיק געניצט צו באַשטימען סטאַרפּאָווער פראַסעס. 'פאָף' וועט דזשענערייט פּאַטס באזירט אויף די נומער פון הערות. 'אַוטאָ מידי' וועט נוצן מידי מאַרקערס צו באַשטימען די פּאַטס, און פאַלן צוריק אויף די פאָף מאָדע אויב גאָרניט זענען בנימצא."
+
+#: GameEngine.py:231
+msgid "Inc. Neck Mode"
+msgstr "ינק. נעק מאָדע"
+
+#: GameEngine.py:231
+msgid "Start Only"
+msgstr "אָנהייב בלויז"
+
+#: GameEngine.py:231
+msgid "Start & End"
+msgstr "אָנהייב & סוף"
+
+#: GameEngine.py:231
+msgid "Sets how and whether to render incoming solo necks. 'Start Only' will scroll it in but not out, while 'Start & End' does both."
+msgstr "שטעלט ווי און צי צו ופפירן ינקאַמינג סאָלאָ נעקס. 'אָנהייב נאר' וועט מעגילע עס אין אָבער ניט אויס, בשעת 'אָנהייב & סוף' טוט ביידע."
+
+#: GameEngine.py:232
+msgid "Big Rock Endings"
+msgstr "גרויס ראַק ענדינגס"
+
+#: GameEngine.py:232
+msgid "Enable or disable big rock endings. 'By Theme' leaves it to the theme creator."
+msgstr "געבן אָדער דיסייבאַל גרויס שטיין ענדינגס. 'דורך טים' בלעטער עס צו די טעמע שאַפֿער."
+
+#: GameEngine.py:233
+msgid "Main Neck"
+msgstr "הויפּט נעק"
+
+#: GameEngine.py:233
+#, python-format
+msgid "Set the transparency of the main neck. 100% is fully visible."
+msgstr "באַשטעטיק די דורכזעיקייַט פון די הויפּט האַלדז. 100% איז גאָר קענטיק."
+
+#: GameEngine.py:234
+msgid "Solo Neck"
+msgstr "סאָלאָ נעק"
+
+#: GameEngine.py:234
+#, python-format
+msgid "Set the transparency of the solo neck. 100% is fully visible."
+msgstr "באַשטעטיק די דורכזעיקייַט פון די סאָלאָ האַלדז. 100% איז גאָר קענטיק."
+
+#: GameEngine.py:235
+#, python-format
+msgid "Set the transparency of the bass groove neck. 100% is fully visible."
+msgstr "באַשטעטיק די דורכזעיקייַט פון די באַס נאָרע האַלדז. 100% איז גאָר קענטיק."
+
+#: GameEngine.py:236
+msgid "Fail Neck"
+msgstr "דורכפאַל נעק"
+
+#: GameEngine.py:236
+#, python-format
+msgid "Set the transparency of the failing neck. 100% is fully visible."
+msgstr "באַשטעטיק די דורכזעיקייַט פון די פיילינג האַלדז. 100% איז גאָר קענטיק."
+
+#: GameEngine.py:237
+msgid "Overlay Neck"
+msgstr "אָווערלייַ נעק"
+
+#: GameEngine.py:237
+#, python-format
+msgid "Set the transparency of neck overlays. 100% is fully visible."
+msgstr "באַשטעטיק די דורכזעיקייַט פון האַלדז אָוווערלייז. 100% איז גאָר קענטיק."
+
+#: GameEngine.py:238
+msgid "All Necks"
+msgstr "כל נעקס"
+
+#: GameEngine.py:238
+#, python-format
+msgid "Set the master transparency of all necks. 100% is fully visible."
+msgstr "באַשטעטיק דעם בעל דורכזעיקייַט פון אַלע נעקס. 100% איז גאָר קענטיק."
+
+#: GameEngine.py:239
+msgid "Show Any Available Score"
+msgstr "ווייַזן אַני באַקומען סקאָר"
+
+#: GameEngine.py:239
+msgid "When set to 'On', this will look for any available score on the currently selected instrument for setlist score display, if one is not available at the chosen difficulty."
+msgstr "ווען שטעלן צו 'און', דעם וועט קוקן פֿאַר קיין בנימצא כעזשבן אויף דער איצטיקער אויסגעקליבן קיילע פֿאַר סעטליסט כעזשבן ווייַז, אויב איינער איז ניט בנימצא אין דער אויסדערוויילט שוועריקייט."
+
+#: GameEngine.py:241
+msgid "Scroll Delay"
+msgstr "מעגילע דיליי"
+
+#: GameEngine.py:241
+msgid "Sets how long, in milliseconds, to wait before beginning to scroll."
+msgstr "שטעלט ווי לאַנג, אין מיליסעקאַנדז, צו וואַרטן פֿאַר אָנהייב צו מעגילע."
+
+#: GameEngine.py:242
+msgid "Scroll Rate"
+msgstr "מעגילע ראַטע"
+
+#: GameEngine.py:242
+msgid "Sets how quickly menus will scroll."
+msgstr "שטעלט ווי געשווינד מעניוז וועט מעגילע."
+
+#: GameEngine.py:245
+msgid "Use (notes-unedited.mid)"
+msgstr "ניץ (הערות-ונעדיטעד.מיד)"
+
+#: GameEngine.py:245
+msgid "Sets whether to look for (and use) a 'notes-unedited.mid' before 'notes.mid'. There's no reason to change this."
+msgstr "שטעלט צי צו קוקן פֿאַר (און נוצן) אַ 'הערות-ונעדיטעד.מיד' פֿאַר 'נאָטעס.מיד'. עס ס קיין סיבה צו טוישן דעם."
+
+#: GameEngine.py:246
+msgid "Show Fill Status"
+msgstr "ווייַזן פיל סטאטוס"
+
+#: GameEngine.py:246
+msgid "When enabled, whether or not you are in a drum fill/freestyle ending will be displayed in text on the screen."
+msgstr "ווען ענייבאַלד, צי אָדער ניט איר זענט אין אַ פּויק פּלאָמבירן / פרעעסטילע סאָף וועט זייַן געוויזן אין טעקסט אויף דעם פאַרשטעלן."
+
+#: GameEngine.py:247
+msgid "Show BPM"
+msgstr "ווייַזן בפּם"
+
+#: GameEngine.py:247
+msgid "When enabled, the current song BPM will be shown on screen."
+msgstr "ווען ענייבאַלד, דעם איצטיקן ליד בפּם וועט זייַן שאָון אויף פאַרשטעלן."
+
+#: GameEngine.py:248
+msgid "New BPM Logic"
+msgstr "ניו בפּם לאָגיק"
+
+#: GameEngine.py:248
+msgid "If enabled, the game will attempt to use the new BPM logic. This is not a finished feature. Use at your own risk."
+msgstr "אויב ענייבאַלד, דער שפּיל וועט פּרווון צו נוצן די ניו בפּם לאָגיק. דאס איז ניט אַ פאַרטיק שטריך. תּנאָים בייַ דיין אייגענע ריזיקירן."
+
+#: GameEngine.py:249
+msgid "New Song Database Code"
+msgstr "ניו סאָנג דאַטאַבאַסע קאָד"
+
+#: GameEngine.py:249
+msgid "Activates the new, incomplete song database code."
+msgstr "אַקטיוואַטעס די ניו, האַלב ליד דאַטאַבאַסע קאָד."
+
+#: GameEngine.py:251
+msgid "Show Raw Vocal Data"
+msgstr "ווייַזן ראַ וואָקאַל דאַטאַ"
+
+#: GameEngine.py:251
+msgid "If enabled, various information about the microphone input will be show in text on screen. Probably only needed for vocal debugging."
+msgstr "אויב ענייבאַלד, פאַרשידן אינפֿאָרמאַציע וועגן דעם מיקראָפאָן אַרייַנשרייַב וועט זייַן ווייַזן אין טעקסט אויף פאַרשטעלן. מסתּמא בלויז געדארפט פֿאַר שטים דיבאַגינג."
+
+#: GameEngine.py:253
+msgid "Speed Factor"
+msgstr "גיכקייַט פאַקטאָר"
+
+#: GameEngine.py:253
+msgid "1.00x"
+msgstr "1.00קס"
+
+#: GameEngine.py:253
+msgid "0.75x"
+msgstr "0.75קס"
+
+#: GameEngine.py:253
+msgid "0.50x"
+msgstr "0.50קס"
+
+#: GameEngine.py:253
+msgid "0.25x"
+msgstr "0.25קס"
+
+#: GameEngine.py:253
+msgid "Sets the speed to play the audio at. Your score will be severely penalized if you slow the music down."
+msgstr "שטעלט די גיכקייַט צו שפּילן די אַודיאָ בייַ. אייער כעזשבן וועט זייַן סאַווירלי פּינאַלייזד אויב איר פּאַמעלעך די מוזיק אַראָפּ."
+
+#: GameEngine.py:255
+msgid "Effects Mode"
+msgstr "עפפעקץ מאָדע"
+
+#: GameEngine.py:255
+msgid "Killswitch"
+msgstr "קיללסוויטטש"
+
+#: GameEngine.py:255
+msgid "Pitchbend"
+msgstr "פּיטטשבענד"
+
+#: GameEngine.py:255
+msgid "Sets whether to use a killswitch or pitchbend as the effect on your whammy."
+msgstr "שטעלט צי צו נוצן אַ קיללסוויטטש אָדער פּיטטשבענד ווי די ווירקונג אויף דיין כוואַמי."
+
+#: GameEngine.py:259
+msgid "Log INI Reads"
+msgstr "אַרייַנלאָגירן יני רעאַדס"
+
+#: GameEngine.py:259
+msgid "Logs any read to an INI file. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "לאָגס קיין לייענען צו אַן יני טעקע. דאס איז ומנייטיק אינפֿאָרמאַציע אין זשוק ריפּאָרץ, ביטע לאָזן עס פאַרקריפּלט סייַדן איר זענט זיכער עס איז באַטייַטיק."
+
+#: GameEngine.py:260
+msgid "Log Class Inits"
+msgstr "אַרייַנלאָגירן קלאַס יניץ"
+
+#: GameEngine.py:260
+msgid "Logs most class initializations in '__init__'. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "לאָגס מערסט סאָרט יניטיאַליזאַטיאָנס אין '__יניט__'. דאס איז ומנייטיק אינפֿאָרמאַציע אין זשוק ריפּאָרץ, ביטע לאָזן עס פאַרקריפּלט סייַדן איר זענט זיכער עס איז באַטייַטיק."
+
+#: GameEngine.py:261
+msgid "Log Loadings"
+msgstr "אַרייַנלאָגירן לאָאַדינגס"
+
+#: GameEngine.py:261
+msgid "Logs resource loads. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "לאָגס מיטל לאָודז. דאס איז ומנייטיק אינפֿאָרמאַציע אין זשוק ריפּאָרץ, ביטע לאָזן עס פאַרקריפּלט סייַדן איר זענט זיכער עס איז באַטייַטיק."
+
+#: GameEngine.py:262
+msgid "Log MIDI Sections"
+msgstr "אַרייַנלאָגירן מידי סעקשאַנז"
+
+#: GameEngine.py:262
+msgid "Logs MIDI sections. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "לאָגס מידי סעקשאַנז. דאס איז ומנייטיק אינפֿאָרמאַציע אין זשוק ריפּאָרץ, ביטע לאָזן עס פאַרקריפּלט סייַדן איר זענט זיכער עס איז באַטייַטיק."
+
+#: GameEngine.py:263
+msgid "Log Undefined GETs"
+msgstr "אַרייַנלאָגירן ונדעפינעד געץ"
+
+#: GameEngine.py:263
+msgid "Logs attempts to read an undefined config key. This is unnecessary information."
+msgstr "לאָגס פרווון צו לייענען אַ אַנדיפיינד קאָנפיג שליסל. דאס איז ומנייטיק אינפֿאָרמאַציע."
+
+#: GameEngine.py:264
+msgid "Log Marker Notes"
+msgstr "אַרייַנלאָגירן מאַרקער נאָטעס"
+
+#: GameEngine.py:264
+msgid "Logs MIDI marker notes (solo, SP, etc). This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "לאָגס מידי מאַרקער הערות (סאָלאָ, ספּ, עטק). דאס איז ומנייטיק אינפֿאָרמאַציע אין זשוק ריפּאָרץ, ביטע לאָזן עס פאַרקריפּלט סייַדן איר זענט זיכער עס איז באַטייַטיק."
+
+#: GameEngine.py:265
+msgid "Log SP Misses"
+msgstr "אַרייַנלאָגירן ספּ מיססעס"
+
+#: GameEngine.py:265
+msgid "Logs SP phrase misses. This is unnecessary information."
+msgstr "לאָגס ספּ פֿראַזע מיסאַז. דאס איז ומנייטיק אינפֿאָרמאַציע."
+
+#: GameEngine.py:266
+msgid "Log Unedited MIDIs"
+msgstr "אַרייַנלאָגירן ונעדיטעד מידיס"
+
+#: GameEngine.py:266
+msgid "Logs when notes-unedited.mid is used. This is unnecessary information."
+msgstr "לאָגס ווען הערות-ונעדיטעד.מיד איז געניצט. דאס איז ומנייטיק אינפֿאָרמאַציע."
+
+#: GameEngine.py:267
+msgid "Log Lyric Events"
+msgstr "אַרייַנלאָגירן ליריק עווענץ"
+
+#: GameEngine.py:267
+msgid "Logs MIDI lyric events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "לאָגס מידי ליריק געשעענישן. דאס איז ומנייטיק אינפֿאָרמאַציע אין זשוק ריפּאָרץ, ביטע לאָזן עס פאַרקריפּלט סייַדן איר זענט זיכער עס איז באַטייַטיק."
+
+#: GameEngine.py:268
+msgid "Log Tempo Events"
+msgstr "אַרייַנלאָגירן טעמפּאָ עווענץ"
+
+#: GameEngine.py:268
+msgid "Logs MIDI tempo events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "לאָגס מידי טעמפּאָ געשעענישן. דאס איז ומנייטיק אינפֿאָרמאַציע אין זשוק ריפּאָרץ, ביטע לאָזן עס פאַרקריפּלט סייַדן איר זענט זיכער עס איז באַטייַטיק."
+
+#: GameEngine.py:269
+msgid "Log Missing Images"
+msgstr "אַרייַנלאָגירן מיססינג בילדער"
+
+#: GameEngine.py:269
+msgid "Only on single images"
+msgstr "נאָר אויף איין בילדער"
+
+#: GameEngine.py:269
+msgid "Logs when files loaded are not found. 'Only on single images' skips logging when directories are loaded."
+msgstr "לאָגס ווען טעקעס לאָודיד זענען ניט געפונען. 'נאר אויף איין בילדער' סקיפּס לאָגינג ווען דיירעקטעריז זענען לאָודיד."
+
+#: GameEngine.py:274
+msgid "Practice Beat Claps"
+msgstr "פיר ביט קלאַפּס"
+
+#: GameEngine.py:274
+msgid "Enables clap sound effects on every beat in practice mode."
+msgstr "ינייבאַלז פּאַטשן געזונט יפעקס אויף יעדער שלאָגן אין פיר מאָדע."
+
+#: GameEngine.py:275
+msgid "Change Score Display"
+msgstr "ענדערן סקאָר ווייַז"
+
+#: GameEngine.py:275
+#: GameEngine.py:311
+msgid "Auto"
+msgstr "אַוטאָ"
+
+#: GameEngine.py:275
+msgid "Blue Fret (#4)"
+msgstr "בלוי פרעט (# 4)"
+
+#: GameEngine.py:275
+msgid "Sets whether to change the setlist high score difficulty automatically or with the fourth fret."
+msgstr "שטעלט צי צו טוישן די סעטליסט הויך כעזשבן שוועריקייט אויטאָמאַטיש אָדער מיט דער פערט פרעט."
+
+#: GameEngine.py:278
+msgid "Makes opponent miss notes until the whammy bar is pushed a few times"
+msgstr "מאכט קעגנער פאַרפירן הערות ביז די כוואַמי באַר איז פּושט אַ ביסל מאָל"
+
+#: GameEngine.py:279
+msgid "Difficulty Up"
+msgstr "שוועריקייט אַרויף"
+
+#: GameEngine.py:279
+msgid "Ups opponent's difficulty for a while (if not playing on Expert)"
+msgstr "אַפּס קעגנער ס שוועריקייט פֿאַר אַ בשעת (אויב ניט פּלייַינג אויף עקספּערט)"
+
+#: GameEngine.py:280
+msgid "String Break"
+msgstr "שטריקל סוף"
+
+#: GameEngine.py:280
+msgid "Breaks a string, causing your opponent to miss notes on that fret until they push the fret button several times."
+msgstr "ברעאַקס אַ שטריקל, קאַזינג דיין קעגנער צו פאַרפירן הערות אויף אַז פרעט ביז זיי שטופּן די פרעט קנעפּל עטלעכע מאָל."
+
+#: GameEngine.py:281
+msgid "Double Notes"
+msgstr "טאָפּל נאָטעס"
+
+#: GameEngine.py:281
+msgid "Makes single notes into chords, and chords into even bigger ones."
+msgstr "מאכט איין הערות אין קאָרדז, און קאָרדז אין אַפֿילו ביגער אָנעס."
+
+#: GameEngine.py:282
+msgid "Death Drain"
+msgstr "טויט דריין"
+
+#: GameEngine.py:282
+msgid "Sudden Death Only"
+msgstr "פּלוצעמדיקער טויט בלויז"
+
+#: GameEngine.py:282
+msgid "Drains your opponents life until they die. 'Sudden Death Only' keeps this from appearing until you reach sudden death mode."
+msgstr "דראַינס דיין קעגנערס לעבן ביז זיי שטאַרבן. 'פּלוצעמדיקער טויט בלויז' האלט דאָס פון אנטפלעקונג ביז איר דערגרייכן פּלוצעמדיק טויט מאָדע."
+
+#: GameEngine.py:283
+msgid "Amp Overload"
+msgstr "אַמפּ אָווערלאָאַד"
+
+#: GameEngine.py:283
+msgid "Makes opponent's amp flip out, making notes disappear and reappear randomly."
+msgstr "מאכט קעגנער ס אַמפּ פליפּ אויס, מאכן הערות פאַרשווינדן און ריאַפּיר ראַנדאַמלי."
+
+#: GameEngine.py:284
+msgid "Switch Controls"
+msgstr "ויסבייַטן קאָנטראָלס"
+
+#: GameEngine.py:284
+msgid "Switches opponent to (or from) lefty mode for a bit!"
+msgstr "סוויטטשעס קעגנער צו (אָדער פון) לעפטי מאָדע פֿאַר אַ ביסל!"
+
+#: GameEngine.py:285
+msgid "Steal Object"
+msgstr "גנבענען אָבדזשעקט"
+
+#: GameEngine.py:285
+msgid "Steals an object your opponent has."
+msgstr "סטעאַלס אַן כייפעץ דיין קעגנער האט."
+
+#: GameEngine.py:286
+msgid "Guitar Tune"
+msgstr "גיטאַרע טון"
+
+#: GameEngine.py:286
+msgid "Makes opponent miss all notes until they play a scale."
+msgstr "מאכט קעגנער פאַרפירן אַלע הערות ביז זיי שפּילן אַ וואָג."
+
+#: GameEngine.py:289
+msgid "Score SFX"
+msgstr "כעזשבן ספקס"
+
+#: GameEngine.py:289
+msgid "Sets whether or not to have Jurgen taunt (or, I suppose, congratulate) you at the end of a song."
+msgstr "שטעלט צי אָדער ניט צו האָבן דזשורגען יעקן (אָדער, איך רעכן, גראַטולירן) איר בייַ די עק פון אַ ליד."
+
+#: GameEngine.py:290
+msgid "GH SP Lights"
+msgstr "גה ספּ ליגהץ"
+
+#: GameEngine.py:290
+msgid "Sets whether to fade images over the starpower bulbs in GH themes when fully lit."
+msgstr "שטעלט צי צו וועלקן בילדער איבער די סטאַרפּאָווער באַלבז אין גה טעמעס ווען גאָר ליט."
+
+#: GameEngine.py:291
+msgid "RB Small 1x Multiplier"
+msgstr "רב קליינע 1קס מולטיפּליער"
+
+#: GameEngine.py:291
+msgid "When enabled, RB-type themes will have a smaller mult image when the multiplier is at 1x. 'By Theme' leaves it to the theme creator."
+msgstr "ווען ענייבאַלד, רב-טיפּ טעמעס וועט האָבן אַ קלענערע מולט בילד ווען די מאַלטאַפּלייער איז בייַ 1קס. 'דורך טים' בלעטער עס צו די טעמע שאַפֿער."
+
+#: GameEngine.py:292
+msgid "Board Speed Mode"
+msgstr "באָרד ספּיד מאָדע"
+
+#: GameEngine.py:292
+#: GameEngine.py:344
+msgid "BPM"
+msgstr "בפּם"
+
+#: GameEngine.py:292
+#: GameEngine.py:317
+#: GameEngine.py:344
+msgid "Difficulty"
+msgstr "מעניע"
+
+#: GameEngine.py:292
+#: GameEngine.py:344
+msgid "BPM & Diff"
+msgstr "בפּם & דיף"
+
+#: GameEngine.py:292
+msgid "Percentage"
+msgstr "פּראָצענט"
+
+#: GameEngine.py:292
+msgid "Sets what determines the speed of the scrolling notes."
+msgstr "שטעלט וואָס דאַטערמאַנז די גיכקייַט פון די סקראָללינג הערות."
+
+#: GameEngine.py:293
+msgid "Loading Phrases"
+msgstr "לאָודינג פראַסעס"
+
+#: GameEngine.py:293
+msgid "Sets whether or not to use loading phrases while loading a song"
+msgstr "שטעלט צי אָדער ניט צו נוצן אַרייַנשטעל פראַסעס בשעת אַרייַנשטעלן אַ ליד"
+
+#: GameEngine.py:294
+msgid "Effects Display Mode"
+msgstr "עפפעקץ ווייַז מאָדע"
+
+#: GameEngine.py:294
+msgid "Static"
+msgstr "סטאַטיק"
+
+#: GameEngine.py:294
+msgid "Animated"
+msgstr "אַנימאַטעד"
+
+#: GameEngine.py:294
+msgid "Sets whether or not the whammy effect is animated. (This is affected by the 'Performance' quickset)"
+msgstr "שטעלט צי אָדער ניט די כוואַמי ווירקונג איז אַנימאַטעד. (דאס איז אַפעקטאַד דורך די 'פֿאָרשטעלונג' קוויקקסעט)"
+
+#: GameEngine.py:295
+msgid "Show Filepath"
+msgstr "ווייַזן פילעפּאַטה"
+
+#: GameEngine.py:295
+msgid "Show"
+msgstr "ווייַזן"
+
+#: GameEngine.py:295
+msgid "Hide"
+msgstr "באַהאַלטן"
+
+#: GameEngine.py:295
+msgid "Sets whether or not to show the filepath of the song."
+msgstr "שטעלט צי אָדער ניט צו ווייַזן די פילעפּאַטה פון דעם ליד."
+
+#: GameEngine.py:296
+msgid "3D Note Rotation"
+msgstr "3 ד באַמערקונג ראָטאַטיאָן"
+
+#: GameEngine.py:296
+msgid "Old"
+msgstr "אַלט"
+
+#: GameEngine.py:296
+msgid "New"
+msgstr "נייַ"
+
+#: GameEngine.py:296
+msgid "Sets the manner of 3D Note Rotation."
+msgstr "שטעלט דעם שטייגער פון 3 ד באַמערקונג ראָטאַטיאָן."
+
+#: GameEngine.py:297
+msgid "Show In-Game Text"
+msgstr "ווייַז אין-שפיל טעקסט"
+
+#: GameEngine.py:297
+msgid "Only Note Streaks"
+msgstr "בלויז באַמערקונג סטריקס"
+
+#: GameEngine.py:297
+msgid "Sets whether or not to show text in-game. This includes note streaks and 'Starpower Ready'. (This is affected by the 'Performance' quickset)"
+msgstr "שטעלט צי אָדער ניט צו ווייַזן טעקסט אין-שפּיל. דאס ינקלודז טאָן סטריקס און 'סטאַרפּאָווער רעדי'. (דאס איז אַפעקטאַד דורך די 'פֿאָרשטעלונג' קוויקקסעט)"
+
+#: GameEngine.py:298
+msgid "Setlist Display Mode"
+msgstr "סעטליסט ווייַז מאָדע"
+
+#: GameEngine.py:298
+msgid "List"
+msgstr "רעשימע"
+
+#: GameEngine.py:298
+msgid "List/CD"
+msgstr "רשימה / סי"
+
+#: GameEngine.py:298
+msgid "Sets the setlist display mode. 'By Theme' lets the theme creator decide."
+msgstr "שטעלט די סעטליסט ווייַז מאָדע. 'דורך טים' לעץ די טעמע שאַפֿער באַשליסן."
+
+#: GameEngine.py:299
+msgid "Use Subfolders"
+msgstr "נוצן סובפאָלדערס"
+
+#: GameEngine.py:299
+msgid "List All"
+msgstr "רשימה אַלע"
+
+#: GameEngine.py:299
+msgid "'Normal' allows you to navigate folders. 'List All' places all songs into a single setlist."
+msgstr "'נאָרמאַל' אַלאַוז איר צו נאַוויגירן פאָלדערס. 'רשימה אַלע' ערטער אַלע לידער אין אַ איין סעטליסט."
+
+#: GameEngine.py:300
+msgid "Show Song Type Icons"
+msgstr "ווייַזן סאָנג טיפּע יקאָנס"
+
+#: GameEngine.py:300
+msgid "Sets whether or not to show icons indicating the song 'type'"
+msgstr "שטעלט צי אָדער ניט צו ווייַזן יקאָנס ינדאַקייטינג דער ליד 'טיפּ'"
+
+#: GameEngine.py:301
+msgid "Preload Song Labels"
+msgstr "פּרעלאָאַד סאָנג לאַבעלס"
+
+#: GameEngine.py:301
+msgid "Sets whether to preload all song labels on load. With large setlists, this option is extremely slow."
+msgstr "שטעלט צי צו פּרעלאָאַד אַלע ליד לאַבעלס אויף מאַסע. מיט גרויס סעטליסץ, דעם אָפּציע איז זייער פּאַמעלעך."
+
+#: GameEngine.py:302
+msgid "Label Type"
+msgstr "פירמע טיפּע"
+
+#: GameEngine.py:302
+msgid "CD Labels"
+msgstr "סי לאַבעלס"
+
+#: GameEngine.py:302
+msgid "Album Covers"
+msgstr "אלבאם קאָווערס"
+
+#: GameEngine.py:302
+msgid "Sets whether to show CD labels or album covers as the art."
+msgstr "שטעלט צי צו ווייַזן סי לאַבעלס אָדער אלבאם קאָווערס ווי די קונסט."
+
+#: GameEngine.py:303
+msgid "Rotating CDs"
+msgstr "ראָטאַטינג קאָמפּאַקטלעך"
+
+#: GameEngine.py:303
+msgid "Sets whether or not CDs rotate."
+msgstr "שטעלט צי אָדער ניט קאָמפּאַקטלעך דרייען."
+
+#: GameEngine.py:304
+msgid "Remember Play Count"
+msgstr "געדענק פּלייַ גראף"
+
+#: GameEngine.py:304
+msgid "Keeps track of how many times you've played each song."
+msgstr "האלט שפּור פון ווי פילע מאָל איר ווע געשפילט יעדער ליד."
+
+#: GameEngine.py:306
+msgid "Show at Song Start"
+msgstr "ווייַז אין סאָנג אָנהייב"
+
+#: GameEngine.py:306
+msgid "Part"
+msgstr "טייל"
+
+#: GameEngine.py:306
+msgid "Sets whether to show a countdown or your name and part at the song's start."
+msgstr "שטעלט צי צו ווייַזן אַ קאָונטדאָוון אָדער דיין נאָמען און טייל אין דער ליד ס אָנהייב."
+
+#: GameEngine.py:307
+msgid "Overdrive Neck"
+msgstr "אָווערדריווע נעק"
+
+#: GameEngine.py:307
+msgid "Sets the style of the Overdrive neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "שטעלט די נוסח פון די אָווערדריווע האַלדז. 'רעפּלאַסע' נעמט דיין האַלדז מיט די ספעציעלע האַלדז, בשעת 'אָווערלייַ' לייז די האַלדז איבער שפּיץ."
+
+#: GameEngine.py:309
+msgid "Note Hit Window"
+msgstr "באַמערקונג היט ווינדאָו"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:285
+msgid "Tightest"
+msgstr "טיגהטעסט"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:287
+msgid "Tight"
+msgstr "ענג"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:289
+msgid "Wide"
+msgstr "ברייט"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:291
+msgid "Widest"
+msgstr "ווידעסט"
+
+#: GameEngine.py:309
+msgid "Sets how accurate you need to be while playing."
+msgstr "שטעלט ווי פּינטלעך איר דאַרפֿן צו זייַן בשעת פּלייַינג."
+
+#: GameEngine.py:311
+msgid "Early Hit Window"
+msgstr "פרי היט ווינדאָו"
+
+#: GameEngine.py:311
+msgid "None (RB2)"
+msgstr "קיינער (רב2)"
+
+#: GameEngine.py:311
+msgid "Half (GH2)"
+msgstr "העלפט (גה2)"
+
+#: GameEngine.py:311
+msgid "Full (FoF)"
+msgstr "גאַנץ (פאָף)"
+
+#: GameEngine.py:311
+msgid "Sets how much time before the note is part of the hit window. 'Auto' uses the MIDI to determine."
+msgstr "שטעלט ווי פיל צייַט פֿאַר די טאָן איז טייל פון די שלאָגן פֿענצטער. 'אַוטאָ' ניצט די מידי צו באַשטימען."
+
+#: GameEngine.py:312
+msgid "Show Detailed Handicap"
+msgstr "ווייַזן דעטאַילעד האַנדיקאַפּ"
+
+#: GameEngine.py:312
+msgid "Shows the handicaps individually on the result screen."
+msgstr "ווייזט די כאַנדיקאַפּס ינדיווידזשואַלי אויף דעם רעזולטאַט פאַרשטעלן."
+
+#: GameEngine.py:315
+msgid "Disable Variable BPM"
+msgstr "דיסייבאַל וואַריאַבלע בפּם"
+
+#: GameEngine.py:315
+msgid "This will disable the use of the Variable BPM logic."
+msgstr "דאס וועט דיסייבאַל די נוצן פון די וואַריאַבלע בפּם לאָגיק."
+
+#: GameEngine.py:316
+msgid "Sort Direction"
+msgstr "סאָרט דירעקטיאָן"
+
+#: GameEngine.py:316
+msgid "Ascending"
+msgstr "אַסענדינג"
+
+#: GameEngine.py:316
+msgid "Descending"
+msgstr "דעססענדינג"
+
+#: GameEngine.py:316
+msgid "Choose whether to sort in ascending (A-Z) or descending (Z-A) order."
+msgstr "אויסקלייַבן צי צו סאָרט אין אַסענדינג (אַז) אָדער אראפנידערן (זאַ) סדר."
+
+#: GameEngine.py:317
+msgid "Sort Setlist By"
+msgstr "סאָרט סעטליסט דורך"
+
+#: GameEngine.py:317
+msgid "Title"
+msgstr "טיטל"
+
+#: GameEngine.py:317
+msgid "Artist"
+msgstr "קינסטלער"
+
+#: GameEngine.py:317
+msgid "Times played"
+msgstr "Times געשפילט"
+
+#: GameEngine.py:317
+msgid "Album"
+msgstr "אלבאם"
+
+#: GameEngine.py:317
+msgid "Genre"
+msgstr "זשאַנער"
+
+#: GameEngine.py:317
+msgid "Year"
+msgstr "יאָר"
+
+#: GameEngine.py:317
+msgid "Band Difficulty"
+msgstr "באַנד דיפפיקולטי"
+
+#: GameEngine.py:317
+msgid "Song Collection"
+msgstr "ליד קאַלעקשאַן"
+
+#: GameEngine.py:317
+msgid "Choose how to sort the setlist by default."
+msgstr "אויסקלייַבן ווי צו סאָרט די סעטליסט דורך ניט ויסצאָלן."
+
+#: GameEngine.py:318
+msgid "Whammy Changes Sort Order"
+msgstr "ווהאַממי ענדערונגען סאָרט באַשטעלט"
+
+#: GameEngine.py:318
+msgid "When enabled, pressing the whammy bar will change the sort order in the setlist."
+msgstr "ווען ענייבאַלד, דרינגלעך די כוואַמי באַר וועט ענדערן די סאָרט סדר אין די סעטליסט."
+
+#: GameEngine.py:319
+msgid "Point Of View"
+msgstr "פונט אָף View"
+
+#: GameEngine.py:319
+msgid "GH3"
+msgstr "גה3"
+
+#: GameEngine.py:319
+msgid "Rock Rev"
+msgstr "ראַק רעוו"
+
+#: GameEngine.py:319
+msgid "Sets the camera's point of view. Set it to any game, or set it to 'Theme' to leave it to the theme creator."
+msgstr "שטעלט די אַפּאַראַט ס פונט פון מיינונג. שטעלן אים צו קיין שפּיל, אָדער שטעלן אים צו 'טים' צו לאָזן עס צו די טעמע שאַפֿער."
+
+#: GameEngine.py:320
+msgid "Party Mode Timer"
+msgstr "פארטיי מאָדע טימער"
+
+#: GameEngine.py:320
+msgid "Sets the timer in Party Mode."
+msgstr "שטעלט די טייַמער אין פארטיי מאָדע."
+
+#: GameEngine.py:321
+msgid "Show Setlist Size"
+msgstr "ווייַזן סעטליסט גרייס"
+
+#: GameEngine.py:321
+msgid "Show the number of songs inside of each setlist."
+msgstr "ווייַזן די נומער פון לידער ין פון יעדער סעטליסט."
+
+#: GameEngine.py:322
+msgid "CD Mode Y-Rotation"
+msgstr "סי מאָדע גוט-ראָטאַטיאָן"
+
+#: GameEngine.py:322
+#: GameEngine.py:351
+msgid "Enabled"
+msgstr "ענייבאַלד"
+
+#: GameEngine.py:322
+msgid "Sets whether or not CDs in the setlist rotate about the Y axis."
+msgstr "שטעלט צי אָדער ניט קאָמפּאַקטלעך אין די סעטליסט דרייען וועגן די גוט אַקס."
+
+#: GameEngine.py:326
+msgid "P1 AI"
+msgstr "פּ1 יי"
+
+#: GameEngine.py:326
+msgid "Enable or disable the player 1 AI"
+msgstr "געבן אָדער דיסייבאַל די שפּילער 1 יי"
+
+#: GameEngine.py:327
+msgid "P1 AI Personality"
+msgstr "פּ1 אַי פּערסאָנאַליטי"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "1. KiD"
+msgstr "1. קינד"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "2. Stump"
+msgstr "2. קאָרטש"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "3. akedRobot"
+msgstr "3. אַקעדראָבאָט"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "4. Q"
+msgstr "4. ק"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "5. MFH"
+msgstr "5. מפה"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "6. Jurgen"
+msgstr "6. דזשורגען"
+
+#: GameEngine.py:327
+msgid "Set the personality of the player 1 AI. The numbers correspond with their skill."
+msgstr "באַשטעטיק די פּערזענלעכקייט פון די שפּילער 1 אַי. די נומערן שטימען מיט זייער בקיעס."
+
+#: GameEngine.py:328
+msgid "P1 AI Logic"
+msgstr "פּ1 אַי לאָגיק"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "Original"
+msgstr "אָריגינעל"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-Early"
+msgstr "מפה-ערלי"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-OnTime1"
+msgstr "מפה-אָנטימע1"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-OnTime2"
+msgstr "מפה-אָנטימע2"
+
+#: GameEngine.py:328
+msgid "Set the logic used for the player 1 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "באַשטעטיק די לאָגיק געניצט פֿאַר די שפּילער 1 אַי. 'אָריגינעל' קענען ניט שעפּן פעסט סעקשאַנז. 'מפה-ערלי' פרווון צו שלאָגן הערות ווי זיי אַרייַן די שלאָגן פֿענצטער. 'מפה-אָנטימע' זענען ימפּלעמענטאַטיאָנס אַז פּרווון צו שלאָגן די הערות ווי זיי פּאַסירן, ווי אַ פאַקטיש שפּילער."
+
+#: GameEngine.py:330
+msgid "P2 AI"
+msgstr "פּ2 יי"
+
+#: GameEngine.py:330
+msgid "Enable or disable the player 2 AI"
+msgstr "געבן אָדער דיסייבאַל די שפּילער 2 יי"
+
+#: GameEngine.py:331
+msgid "P2 AI Personality"
+msgstr "פּ2 אַי פּערסאָנאַליטי"
+
+#: GameEngine.py:331
+msgid "Set the personality of the player 2 AI. The numbers correspond with their skill."
+msgstr "באַשטעטיק די פּערזענלעכקייט פון די שפּילער 2 אַי. די נומערן שטימען מיט זייער בקיעס."
+
+#: GameEngine.py:332
+msgid "P2 AI Logic"
+msgstr "פּ2 אַי לאָגיק"
+
+#: GameEngine.py:332
+msgid "Set the logic used for the player 2 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "באַשטעטיק די לאָגיק געניצט פֿאַר די שפּילער 2 אַי. 'אָריגינעל' קענען ניט שעפּן פעסט סעקשאַנז. 'מפה-ערלי' פרווון צו שלאָגן הערות ווי זיי אַרייַן די שלאָגן פֿענצטער. 'מפה-אָנטימע' זענען ימפּלעמענטאַטיאָנס אַז פּרווון צו שלאָגן די הערות ווי זיי פּאַסירן, ווי אַ פאַקטיש שפּילער."
+
+#: GameEngine.py:334
+msgid "P3 AI"
+msgstr "פּ3 יי"
+
+#: GameEngine.py:334
+msgid "Enable or disable the player 3 AI"
+msgstr "געבן אָדער דיסייבאַל די שפּילער 3 יי"
+
+#: GameEngine.py:335
+msgid "P3 AI Personality"
+msgstr "פּ3 אַי פּערסאָנאַליטי"
+
+#: GameEngine.py:335
+msgid "Set the personality of the player 3 AI. The numbers correspond with their skill."
+msgstr "באַשטעטיק די פּערזענלעכקייט פון די שפּילער 3 אַי. די נומערן שטימען מיט זייער בקיעס."
+
+#: GameEngine.py:336
+msgid "P3 AI Logic"
+msgstr "פּ3 אַי לאָגיק"
+
+#: GameEngine.py:336
+msgid "Set the logic used for the player 3 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "באַשטעטיק די לאָגיק געניצט פֿאַר די שפּילער 3 אַי. 'אָריגינעל' קענען ניט שעפּן פעסט סעקשאַנז. 'מפה-ערלי' פרווון צו שלאָגן הערות ווי זיי אַרייַן די שלאָגן פֿענצטער. 'מפה-אָנטימע' זענען ימפּלעמענטאַטיאָנס אַז פּרווון צו שלאָגן די הערות ווי זיי פּאַסירן, ווי אַ פאַקטיש שפּילער."
+
+#: GameEngine.py:338
+msgid "P4 AI"
+msgstr "פּ4 יי"
+
+#: GameEngine.py:338
+msgid "Enable or disable the player 4 AI"
+msgstr "געבן אָדער דיסייבאַל די שפּילער 4 יי"
+
+#: GameEngine.py:339
+msgid "P4 AI Personality"
+msgstr "פּ4 אַי פּערסאָנאַליטי"
+
+#: GameEngine.py:339
+msgid "Set the personality of the player 4 AI. The numbers correspond with their skill."
+msgstr "באַשטעטיק די פּערזענלעכקייט פון די שפּילער 4 יי. די נומערן שטימען מיט זייער בקיעס."
+
+#: GameEngine.py:340
+msgid "P4 AI Logic"
+msgstr "פּ4 אַי לאָגיק"
+
+#: GameEngine.py:340
+msgid "Set the logic used for the player 4 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "באַשטעטיק די לאָגיק געניצט פֿאַר די שפּילער 4 יי. 'אָריגינעל' קענען ניט שעפּן פעסט סעקשאַנז. 'מפה-ערלי' פרווון צו שלאָגן הערות ווי זיי אַרייַן די שלאָגן פֿענצטער. 'מפה-אָנטימע' זענען ימפּלעמענטאַטיאָנס אַז פּרווון צו שלאָגן די הערות ווי זיי פּאַסירן, ווי אַ פאַקטיש שפּילער."
+
+#: GameEngine.py:343
+msgid "Lyric Display Mode"
+msgstr "ליריק ווייַז מאָדע"
+
+#: GameEngine.py:343
+msgid "Scrolling"
+msgstr "סקראָללינג"
+
+#: GameEngine.py:343
+msgid "Simple Lines"
+msgstr "פּשוט לינעס"
+
+#: GameEngine.py:343
+msgid "2-Line"
+msgstr "2-ליניע"
+
+#: GameEngine.py:343
+msgid "Sets the display mode for MIDI lyrics. Both 'Simple Lines' and '2-Line' will show as single phrases when playing the vocal part."
+msgstr "שטעלט דער ווייַז מאָדע פֿאַר מידי ליריקס. אי 'פּשוט לינעס' און '2-ליניע 'וועט ווייַזן ווי איין פראַסעס ווען פּלייַינג די שטים טייל."
+
+#: GameEngine.py:344
+msgid "Lyric Speed Mode"
+msgstr "ליריק ספּיד מאָדע"
+
+#: GameEngine.py:344
+msgid "Sets what determines the speed of the scrolling lyrics."
+msgstr "שטעלט וואָס דאַטערמאַנז די גיכקייַט פון די סקראָללינג ליריקס."
+
+#: GameEngine.py:345
+msgid "Lyric Speed Percent"
+msgstr "ליריק ספּיד פּערסענט"
+
+#: GameEngine.py:345
+msgid "Sets how quickly lyrics will scroll."
+msgstr "שטעלט ווי געשווינד ליריקס וועט מעגילע."
+
+#: GameEngine.py:351
+msgid "Graphical Submenus"
+msgstr "גראַפיקאַל סובמענוס"
+
+#: GameEngine.py:351
+msgid "Enable or disable the use of graphical submenus."
+msgstr "געבן אָדער דיסייבאַל די נוצן פון גראַפיקאַל סובמענוס."
+
+#: GameEngine.py:354
+msgid "Crowd Cheers"
+msgstr "מאַסע טשעערס"
+
+#: GameEngine.py:354
+msgid "Off (Disabled)"
+msgstr "אויסגעלאשן (דיסאַבלעד)"
+
+#: GameEngine.py:354
+msgid "During SP Only"
+msgstr "בעת ספּ בלויז"
+
+#: GameEngine.py:354
+msgid "During SP & Green"
+msgstr "בעת ספּ & גרין"
+
+#: GameEngine.py:354
+msgid "Always On"
+msgstr "שטענדיק אָן"
+
+#: GameEngine.py:354
+msgid "Sets when the crowd will cheer for you (if a crowd.ogg is present). 'During SP' will have them sing along in star power, and 'During SP & Green' will have them cheering both in SP and when your rock meter is above 2/3"
+msgstr "שטעלט ווען די מאַסע וועט אַפּלאָדירן פֿאַר איר (אויב אַ קראָווד.אָגג איז געשאַנק). 'בעת ספּ' וועט האָבן זיי זינגען צוזאמען אין שטערן מאַכט, און 'בעת ספּ & גרין' וועט האָבן זיי טשירינג ביידע אין ספּ און ווען דיין שטיין מעטער איז אויבן 2 / 3"
+
+#: GameEngine.py:357
+msgid "Miss Volume"
+msgstr "פאַרפירן באנד"
+
+#: GameEngine.py:357
+msgid "Set the volume of the active track when you miss a note."
+msgstr "באַשטעטיק דעם באַנד פון די אַקטיוו שפּור ווען איר פאַרפירן אַ טאָן."
+
+#: GameEngine.py:358
+msgid "Single Track Miss"
+msgstr "סינגלע שפּירט מיס"
+
+#: GameEngine.py:358
+msgid "When playing a song with only a single track, this sets the volume of the track when you miss a note."
+msgstr "ווען פּלייַינג אַ ליד מיט בלויז אַ איין שפּור, דעם שטעלט דעם באַנד פון די שפּור ווען איר פאַרפירן אַ טאָן."
+
+#: GameEngine.py:359
+msgid "Menu Volume"
+msgstr "מעניו באנד"
+
+#: GameEngine.py:359
+msgid "Set the volume of the background menu music."
+msgstr "באַשטעטיק דעם באַנד פון די הינטערגרונט מעניו מוזיק."
+
+#: GameEngine.py:361
+msgid "Crowd Volume"
+msgstr "מאַסע באנד"
+
+#: GameEngine.py:361
+msgid "Set the volume of the crowd."
+msgstr "באַשטעטיק דעם באַנד פון דער מאַסע."
+
+#: GameEngine.py:363
+msgid "Kill Volume"
+msgstr "טייטן באנד"
+
+#: GameEngine.py:363
+msgid "Sets the volume when using the killswitch."
+msgstr "שטעלט דעם באַנד ווען ניצן די קיללסוויטטש."
+
+#: GameEngine.py:364
+msgid "SFX Volume"
+msgstr "ספקס באנד"
+
+#: GameEngine.py:364
+msgid "Sets the volume of various sound effects."
+msgstr "שטעלט דעם באַנד פון פאַרשידן געזונט יפעקס."
+
+#: GameEngine.py:371
+msgid "Cache Song Metadata"
+msgstr "קאַש סאָנג מעטאַדאַטאַ"
+
+#: GameEngine.py:371
+msgid "This will allow information about the songs to be stored for quick access later at the cost of a slow first time loading."
+msgstr "דאס וועט לאָזן אינפֿאָרמאַציע וועגן די לידער צו זייַן סטאָרד פֿאַר שנעל צוטריט שפּעטער אין די פּרייַז פון אַ פּאַמעלעך ערשטער צייַט אַרייַנשטעלן."
+
+#: GameEngine.py:399
+msgid "Sets the overall graphical feel of the game. You can find and download many more at fretsonfire.net"
+msgstr "שטעלט די קוילעלדיק גראַפיקאַל פילן פון די שפּיל. איר קענען געפֿינען און אראפקאפיע פילע מער בייַ fretsonfire.net"
+
+#: GameEngine.py:404
+msgid "Board Speed Percent"
+msgstr "באָרד ספּיד פּערסענט"
+
+#: GameEngine.py:404
+msgid "Sets how quickly note will scroll"
+msgstr "שטעלט ווי געשווינד טאָן וועט מעגילע"
+
+#: GameEngine.py:405
+msgid "No Fail"
+msgstr "ניט קיין פייל"
+
+#: GameEngine.py:405
+msgid "Sets whether or not you can fail out of a song."
+msgstr "שטעלט צי אָדער ניט איר קענען פאַרלאָזן זיך פון אַ ליד."
+
+#: GameEngine.py:409
+msgid "Difficulty (Setlist Score)"
+msgstr "שוועריקייט (סעטליסט סקאָר)"
+
+#: GameEngine.py:409
+msgid "Sets the default difficulty displayed in the setlist score."
+msgstr "שטעלט די ויסצאָלן שוועריקייט געוויזן אין די סעטליסט כעזשבן."
+
+#: GameEngine.py:410
+msgid "Show Additional Stats"
+msgstr "ווייַזן אַדדיטיאָנאַל סטאַץ"
+
+#: GameEngine.py:410
+msgid "If enabled, additional score information (longest streak, percentage) is displayed on the setlist."
+msgstr "אויב ענייבאַלד, נאך כעזשבן אינפֿאָרמאַציע (לאָנגעסט סטריק, פּראָצענט) איז געוויזן אויף די סעטליסט."
+
+#: GameEngine.py:412
+msgid "Instrument (Setlist Score)"
+msgstr "קיילע (סעטליסט סקאָר)"
+
+#: GameEngine.py:412
+msgid "Sets the default part displayed in the setlist score."
+msgstr "שטעלט די ויסצאָלן טייל געוויזן אין די סעטליסט כעזשבן."
+
+#: GameEngine.py:674
+msgid "Slideshow"
+msgstr "סלידעשאָוו"
+
+#: GameEngine.py:677
+#: GameEngine.py:691
+msgid "Animated Stage"
+msgstr "אַנימאַטעד בינע"
+
+#: GameResultsScene.py:121
+#: GameResultsScene.py:122
+msgid "Co-Op Mode"
+msgstr "קאָ-אָפּ מאָדע"
+
+#: GameResultsScene.py:124
+msgid "settings"
+msgstr "סעטטינגס"
+
+#: GameResultsScene.py:125
+msgid "HOPOs"
+msgstr "האָפּאָס"
+
+#: GameResultsScene.py:126
+msgid "Hit Window"
+msgstr "היט ווינדאָו"
+
+#: GameResultsScene.py:127
+msgid "Adjusted Score Multiplier:"
+msgstr "אַדדזשוסטעד סקאָר מולטיפּליער:"
+
+#: GameResultsScene.py:128
+msgid "Original Score:"
+msgstr "אָריגינעל סקאָר:"
+
+#: GameResultsScene.py:133
+#: GameResultsScene.py:140
+#: GameResultsScene.py:147
+msgid "Continue"
+msgstr "געדויערן"
+
+#: GameResultsScene.py:134
+msgid "Replay Setlist"
+msgstr "רעפּלייַ סעטליסט"
+
+#: GameResultsScene.py:136
+#: GameResultsScene.py:143
+#: GameResultsScene.py:150
+msgid "Quit"
+msgstr "פאַרלאָזן"
+
+#: GameResultsScene.py:141
+msgid "Replay"
+msgstr "רעפּלייַ"
+
+#: GameResultsScene.py:148
+msgid "End Setlist"
+msgstr "סוף סעטליסט"
+
+#: GameResultsScene.py:165
+msgid "Relax, it was an excellent show."
+msgstr "אָפּרוען, עס איז געווען אַ גלענצנדיקער ווייַזן."
+
+#: GameResultsScene.py:167
+msgid "Truly Amazing!"
+msgstr "באמת אַמייזינג!"
+
+#: GameResultsScene.py:169
+msgid "Thanks for playing!"
+msgstr "דאַנקען פֿאַר פּלייַינג!"
+
+#: GameResultsScene.py:171
+msgid "One more song can't hurt!"
+msgstr "איינער מער ליד קענען ניט שאַטן!"
+
+#: GameResultsScene.py:173
+msgid "What an amazing performance!"
+msgstr "וואס אַן אַמייזינג פאָרשטעלונג!"
+
+#: GameResultsScene.py:175
+msgid "That's how it's done!"
+msgstr "אַז ס ווי עס ס געטאן!"
+
+#: GameResultsScene.py:248
+msgid "GH2 Sloppy"
+msgstr "גה2 סלאַפּי"
+
+#: GameResultsScene.py:258
+msgid "New System"
+msgstr "ניו סיסטעם"
+
+#: GameResultsScene.py:573
+#, python-format
+msgid "%d points is a new high score! Enter your name:"
+msgstr "%d ווייזט איז אַ נייַ הויך כעזשבן! שרייַבט אַרייַן דיין נאָמען:"
+
+#: GameResultsScene.py:1297
+#, python-format
+msgid "%s High Scores for %s"
+msgstr "%s הויך סקאָרעס פֿאַר %s"
+
+#: GameResultsScene.py:1299
+#, python-format
+msgid "%s High Scores"
+msgstr "%s הויך סקאָרעס"
+
+#: GameResultsScene.py:1305
+#, python-format
+msgid "Difficulty: %s"
+msgstr "שוועריקייט: %s"
+
+#: GameResultsScene.py:1367
+msgid "Uploading Scores..."
+msgstr "ופּלאָאַדינג סקאָרעס ..."
+
+#: GameResultsScene.py:1372
+msgid "Scores uploaded!"
+msgstr "סקאָרעס ופּלאָאַדעד!"
+
+#: GameResultsScene.py:1376
+msgid "Your highscore ranks"
+msgstr "אייער היגהסקאָרע רייען"
+
+#: GameResultsScene.py:1377
+msgid "on the world starpower chart!"
+msgstr "אויף דער וועלט סטאַרפּאָווער טשאַרט!"
+
+#: GameResultsScene.py:1380
+msgid "but your rank is unknown."
+msgstr "אָבער דיין ריי איז אומבאַקאַנט."
+
+#: GameResultsScene.py:1383
+msgid "but there was no new highscore."
+msgstr "אָבער עס איז קיין ניו היגהסקאָרע."
+
+#: GameResultsScene.py:1386
+msgid "Score upload failed!  World charts may be down."
+msgstr "כעזשבן צופֿעליקער ניט אַנדערש! וועלט טאַבעלעך זאל זייַן אַראָפּ."
+
+#: GuitarScene.py:82
+#: GuitarScene.py:83
+msgid "Initializing..."
+msgstr "יניטיאַליזינג ..."
+
+#: GuitarScene.py:497
+msgid "KiD"
+msgstr "קינד"
+
+#: GuitarScene.py:497
+msgid "Stump"
+msgstr "קאָרטש"
+
+#: GuitarScene.py:497
+msgid "AkedRobot"
+msgstr "אַקעדראָבאָט"
+
+#: GuitarScene.py:497
+msgid "Q"
+msgstr "ק"
+
+#: GuitarScene.py:497
+msgid "MFH"
+msgstr "מפה"
+
+#: GuitarScene.py:497
+msgid "Jurgen"
+msgstr "דזשורגען"
+
+#: GuitarScene.py:504
+msgid "Broken String"
+msgstr "איבערגעבליבענע סטרינג"
+
+#: GuitarScene.py:506
+msgid "Powerup Steal"
+msgstr "פּאָווערופּ סטיל"
+
+#: GuitarScene.py:510
+#, python-format
+msgid "%d Note Streak"
+msgstr "%d באַמערקונג סטריק"
+
+#: GuitarScene.py:511
+#, python-format
+msgid "%d Phrase Streak"
+msgstr "%d פרייז סטריק"
+
+#: GuitarScene.py:512
+#, python-format
+msgid "%s Ready"
+msgstr "%s רעדי"
+
+#: GuitarScene.py:513
+#, python-format
+msgid "Activate %s!"
+msgstr "אַקטיוואַטע %s!"
+
+#: GuitarScene.py:514
+msgid "You Failed"
+msgstr "איר דורכפֿאַל"
+
+#: GuitarScene.py:515
+#, python-format
+msgid "%s is here"
+msgstr "%s איז דאָ"
+
+#: GuitarScene.py:516
+#, python-format
+msgid "%s was here"
+msgstr "%s איז דאָ"
+
+#: GuitarScene.py:517
+msgid "% Complete"
+msgstr "% גאַנץ"
+
+#: GuitarScene.py:518
+#: GuitarScene.py:5839
+msgid "HOPO"
+msgstr "האָפּאָ"
+
+#: GuitarScene.py:519
+#: GuitarScene.py:5809
+#: GuitarScene.py:5818
+msgid "COMPLETED"
+msgstr "געענדיקט"
+
+#: GuitarScene.py:520
+#: GuitarScene.py:5811
+#: GuitarScene.py:5827
+msgid " % ON "
+msgstr "% אויף"
+
+#: GuitarScene.py:521
+msgid "BASS GROOVE"
+msgstr "באַס נאָרע"
+
+#: GuitarScene.py:522
+msgid "Bass Groove:"
+msgstr "באַס גראָאָווע:"
+
+#: GuitarScene.py:523
+msgid "Handicap"
+msgstr "האַנדיקאַפּ"
+
+#: GuitarScene.py:524
+msgid "Avg"
+msgstr "אַווג"
+
+#: GuitarScene.py:525
+msgid "Very Late"
+msgstr "זייער לייט"
+
+#: GuitarScene.py:526
+msgid "Late"
+msgstr "שפּעט"
+
+#: GuitarScene.py:527
+msgid "Slightly Late"
+msgstr "אַ ביסל לייט"
+
+#: GuitarScene.py:528
+msgid "-Excellent!"
+msgstr "-עקססעללענט!"
+
+#: GuitarScene.py:529
+msgid "Perfect!!"
+msgstr "שליימעסדיק!!"
+
+#: GuitarScene.py:530
+msgid "+Excellent!"
+msgstr "+ עקססעללענט!"
+
+#: GuitarScene.py:531
+msgid "Slightly Early"
+msgstr "אַ ביסל ערלי"
+
+#: GuitarScene.py:534
+msgid "ms"
+msgstr "ענדערונגען"
+
+#: GuitarScene.py:535
+msgid "Solo!"
+msgstr "סאָלאָ!"
+
+#: GuitarScene.py:536
+msgid "Perfect Solo!"
+msgstr "שליימעסדיק סאָלאָ!"
+
+#: GuitarScene.py:537
+msgid "Awesome Solo!"
+msgstr "אַסאַם סאָלאָ!"
+
+#: GuitarScene.py:538
+msgid "Great Solo!"
+msgstr "גרויס סאָלאָ!"
+
+#: GuitarScene.py:539
+msgid "Good Solo!"
+msgstr "גוט סאָלאָ!"
+
+#: GuitarScene.py:540
+msgid "Solid Solo!"
+msgstr "האַרט סאָלאָ!"
+
+#: GuitarScene.py:541
+msgid "Okay Solo"
+msgstr "אָוקיי סאָלאָ"
+
+#: GuitarScene.py:542
+msgid "Messy Solo"
+msgstr "מעסי סאָלאָ"
+
+#: GuitarScene.py:543
+msgid "pts"
+msgstr "פּץ"
+
+#: GuitarScene.py:544
+msgid "Get Ready to Rock"
+msgstr "אָנגרייטנ זיך צו שטיין"
+
+#: GuitarScene.py:545
+msgid "as made famous by"
+msgstr "ווי געמאכט באַרימט דורך"
+
+#: GuitarScene.py:546
+msgid "by "
+msgstr "דורך"
+
+#: GuitarScene.py:547
+msgid " fretted by "
+msgstr "פרעטיד דורך"
+
+#: GuitarScene.py:890
+msgid "Loading Song..."
+msgstr "לאָודינג סאָנג ..."
+
+#: GuitarScene.py:900
+msgid "Preparing Note Phrases..."
+msgstr "פּרעפּאַרינג באַמערקונג פראַסעס ..."
+
+#: GuitarScene.py:1401
+msgid "Loading Graphics..."
+msgstr "לאָודינג גראַפיקס ..."
+
+#: GuitarScene.py:1615
+msgid "         RESUME"
+msgstr "נעמענ זיכ ווידער"
+
+#: GuitarScene.py:1616
+msgid "        RESTART"
+msgstr "ריסטאַרט"
+
+#: GuitarScene.py:1618
+msgid "       PRACTICE"
+msgstr "פיר"
+
+#: GuitarScene.py:1619
+msgid "        OPTIONS"
+msgstr "אָפּציעס"
+
+#: GuitarScene.py:1620
+#: GuitarScene.py:1629
+msgid "           QUIT"
+msgstr "פאַרלאָזן"
+
+#: GuitarScene.py:1624
+msgid "        RESUME"
+msgstr "נעמענ זיכ ווידער"
+
+#: GuitarScene.py:1625
+msgid "       RESTART"
+msgstr "ריסטאַרט"
+
+#: GuitarScene.py:1627
+msgid "      END SONG"
+msgstr "סוף ליד"
+
+#: GuitarScene.py:1628
+msgid "       OPTIONS"
+msgstr "אָפּציעס"
+
+#: GuitarScene.py:1634
+#: GuitarScene.py:1641
+msgid "RETRY SONG"
+msgstr "ריטריי ליד"
+
+#: GuitarScene.py:1635
+msgid "  PRACTICE"
+msgstr "פיר"
+
+#: GuitarScene.py:1636
+#: GuitarScene.py:1642
+#: GuitarScene.py:1706
+#: GuitarScene.py:1713
+msgid " NEW SONG"
+msgstr "ניו ליד"
+
+#: GuitarScene.py:1637
+#: GuitarScene.py:1643
+msgid "     QUIT"
+msgstr "פאַרלאָזן"
+
+#: GuitarScene.py:1650
+#: GuitarScene.py:1659
+msgid "  Resume"
+msgstr "נעמענ זיכ ווידער"
+
+#: GuitarScene.py:1651
+#: GuitarScene.py:1660
+msgid "  Start Over"
+msgstr "אָנהייב במשך"
+
+#: GuitarScene.py:1652
+#: GuitarScene.py:1661
+msgid "  Change Song"
+msgstr "ענדערן סאָנג"
+
+#: GuitarScene.py:1653
+msgid "  Practice"
+msgstr "פיר"
+
+#: GuitarScene.py:1654
+#: GuitarScene.py:1663
+msgid "  Settings"
+msgstr "סעטטינגס"
+
+#: GuitarScene.py:1655
+#: GuitarScene.py:1664
+msgid "  Quit to Main Menu"
+msgstr "פאַרלאָזן צו הויפט מעניו"
+
+#: GuitarScene.py:1662
+msgid "  End Song"
+msgstr "סוף סאָנג"
+
+#: GuitarScene.py:1669
+#: GuitarScene.py:1676
+msgid " Try Again?"
+msgstr "פּרוּוו?"
+
+#: GuitarScene.py:1670
+#: GuitarScene.py:1677
+msgid "  Give Up?"
+msgstr "געבן אַרויף?"
+
+#: GuitarScene.py:1671
+msgid "  Practice?"
+msgstr "פיר?"
+
+#: GuitarScene.py:1672
+#: GuitarScene.py:1678
+msgid "Quit to Main"
+msgstr "פאַרלאָזן צו הויפט"
+
+#: GuitarScene.py:1686
+#: GuitarScene.py:1695
+msgid "   RESUME"
+msgstr "נעמענ זיכ ווידער"
+
+#: GuitarScene.py:1687
+#: GuitarScene.py:1696
+msgid "   RESTART"
+msgstr "ריסטאַרט"
+
+#: GuitarScene.py:1688
+#: GuitarScene.py:1697
+msgid "   CHANGE SONG"
+msgstr "ענדערן ליד"
+
+#: GuitarScene.py:1689
+msgid "   PRACTICE"
+msgstr "פיר"
+
+#: GuitarScene.py:1690
+#: GuitarScene.py:1699
+msgid "   SETTINGS"
+msgstr "סעטטינגס"
+
+#: GuitarScene.py:1691
+#: GuitarScene.py:1700
+msgid "   QUIT"
+msgstr "פאַרלאָזן"
+
+#: GuitarScene.py:1698
+msgid "   END SONG"
+msgstr "סוף ליד"
+
+#: GuitarScene.py:1705
+#: GuitarScene.py:1712
+msgid " RETRY"
+msgstr "ריטריי"
+
+#: GuitarScene.py:1707
+msgid " PRACTICE"
+msgstr "פיר"
+
+#: GuitarScene.py:1708
+#: GuitarScene.py:1714
+msgid " QUIT"
+msgstr "פאַרלאָזן"
+
+#: GuitarScene.py:6488
+#, python-format
+msgid "FPS: %.2f"
+msgstr "פפּס: %.2f"
+
+#: Language.py:62
+msgid "Language"
+msgstr "שפּראַך"
+
+#: Language.py:62
+msgid "Change the game language!"
+msgstr "ענדערן דעם שפּיל שפּראַך!"
+
+#: Lobby.py:39
+#: MainMenu.py:294
+msgid "Your controls are not properly set up for this mode. Please check your settings."
+msgstr "אייער קאָנטראָלס זענען ניט רעכט שטעלן זיך פֿאַר דעם מאָדע. ביטע טשעק דיין סעטטינגס."
+
+#: Lobby.py:43
+msgid "World error. Please try again."
+msgstr "וועלט טעות. ביטע פרובירט נאכאמאל."
+
+#: Lobby.py:167
+msgid "Choose Your Character"
+msgstr "אויסקלייַבן אייער שריפֿטצייכן"
+
+#: Lobby.py:168
+#: Lobby.py:750
+#, python-format
+msgid "Player %d"
+msgstr "פּלייַער %d"
+
+#: Lobby.py:170
+msgid "Regular Drums"
+msgstr "רעגולער דרומס"
+
+#: Lobby.py:170
+msgid "Flipped Drums"
+msgstr "פליפּט דרומס"
+
+#: Lobby.py:171
+msgid "Pedal-Using"
+msgstr "טרעטלען-וסינג"
+
+#: Lobby.py:171
+msgid "Footless"
+msgstr "פאָאָטלעסס"
+
+#: Lobby.py:172
+msgid "Assist Mode Off"
+msgstr "אַרוישעלפן מאָדע אויסגעלאשן"
+
+#: Lobby.py:172
+#: Lobby.py:503
+#: Player.py:211
+msgid "Easy Assist"
+msgstr "גרינג אַסיסט"
+
+#: Lobby.py:172
+#: Lobby.py:503
+#: Player.py:211
+msgid "Medium Assist"
+msgstr "מיטל אַסיסט"
+
+#: Lobby.py:173
+msgid "Chordmaster"
+msgstr "טשאָרדמאַסטער"
+
+#: Lobby.py:173
+msgid "Two Notes Max"
+msgstr "צוויי נאָטעס מאַקס"
+
+#: Lobby.py:174
+msgid "Information:"
+msgstr "אינפֿאָרמאַציע:"
+
+#: Lobby.py:188
+msgid "Create New Player"
+msgstr "שאַפֿן ניו פּלייַער"
+
+#: Lobby.py:188
+msgid "Saved Characters"
+msgstr "ניצול טשאַראַקטערס"
+
+#: Lobby.py:502
+#: Player.py:207
+msgid "Default Neck"
+msgstr "ניט ויסצאָלן נעק"
+
+#: Lobby.py:502
+#: Player.py:207
+msgid "Theme Neck"
+msgstr "טעמע נעק"
+
+#: Lobby.py:502
+msgid "Select a Neck"
+msgstr "אויסקלייַבן אַ נעק"
+
+#: Lobby.py:504
+msgid "Name"
+msgstr "נאָמען"
+
+#: Lobby.py:504
+msgid "Name your character!"
+msgstr "נאָמען דיין כאַראַקטער!"
+
+#: Lobby.py:505
+#: Player.py:208
+msgid "Lefty Mode"
+msgstr "לעפטי מאָדע"
+
+#: Lobby.py:505
+msgid "Flip the guitar frets for left-handed playing!"
+msgstr "פליפּ די גיטאַרע פרעץ פֿאַר געלינקט פּלייַינג!"
+
+#: Lobby.py:506
+#: Player.py:209
+msgid "Drum Flip"
+msgstr "פּויק פליפּ"
+
+#: Lobby.py:506
+msgid "Flip the drum sounds - snare becomes crash, and so on"
+msgstr "פליפּ די פּויק סאָונדס - נעץ ווערט אַראָפּפאַלן, און אַזוי אויף"
+
+#: Lobby.py:507
+msgid "Auto-Kick Bass"
+msgstr "אַוטאָ-קיק באַס"
+
+#: Lobby.py:507
+msgid "Feet uncooperative? Broke your pedal? Not to worry!"
+msgstr "פֿיס אַנקאָואַפּעראַטיוו? צעבראכן דיין טרעטלען? ניט צו זאָרג!"
+
+#: Lobby.py:508
+#: Player.py:211
+msgid "Assist Mode"
+msgstr "אַרוישעלפן מאָדע"
+
+#: Lobby.py:508
+msgid "Play hard and expert, even when you're not that good!"
+msgstr "שפּיל שווער און מבֿין, אַפֿילו ווען איר רע ניט אַז גוט!"
+
+#: Lobby.py:509
+#: Player.py:190
+#: Player.py:210
+msgid "Two-Chord Max"
+msgstr "צוויי-קאָרד מאַקס"
+
+#: Lobby.py:509
+msgid "For those still playing with uncooperative keyboards."
+msgstr "פֿאַר יענע נאָך פּלייַינג מיט אַנקאָואַפּעראַטיוו קיבאָרדז."
+
+#: Lobby.py:510
+msgid "Give the endless procession of notes a bit of flair!"
+msgstr "געבן דער סאָף פּראָצעסיע פון הערות אַ ביסל פון פלער!"
+
+#: Lobby.py:511
+msgid "Upload Name"
+msgstr "צופֿעליקער נאמען"
+
+#: Lobby.py:511
+msgid "To the internet, you are GUITARGOD23047124!"
+msgstr "צו די אינטערנעט, איר זענט גויטאַרגאָד23047124!"
+
+#: Lobby.py:512
+msgid "Choose Avatar"
+msgstr "אויסקלייַבן אַוואַטאַר"
+
+#: Lobby.py:512
+msgid "A 256x256 window into your soul."
+msgstr "א 256קס256 פֿענצטער אין דיין נשמה."
+
+#: Lobby.py:513
+msgid "Delete Character"
+msgstr "ויסמעקן שריפֿטצייכן"
+
+#: Lobby.py:513
+msgid "Quitter."
+msgstr "קוויטטער."
+
+#: Lobby.py:514
+msgid "Done"
+msgstr "געטאן"
+
+#: Lobby.py:514
+msgid "All finished? Let's do this thing!"
+msgstr "כל פאַרטיק? זאל ס טאָן דעם זאַך!"
+
+#: Lobby.py:549
+msgid "Are you sure you want to delete this player?"
+msgstr "זענט איר זיכער איר ווילן צו ויסמעקן דעם שפּילער?"
+
+#: Lobby.py:560
+msgid "That is a terrible name. Choose something not 'default'"
+msgstr "וואָס איז אַ געפערלעך נאָמען. אויסקלייַבן עפּעס ניט 'ויסצאָלן'"
+
+#: Lobby.py:575
+msgid "That name already exists!"
+msgstr "אַז נאָמען שוין עקזיסטירט!"
+
+#: Lobby.py:577
+msgid "Please enter a name!"
+msgstr "ביטע אַרייַן אַ נאָמען!"
+
+#: MainMenu.py:150
+msgid "Tutorials"
+msgstr "טוטאָריאַלס"
+
+#: MainMenu.py:151
+msgid "Practice"
+msgstr "פיר"
+
+#: MainMenu.py:165
+msgid "Face-Off"
+msgstr "פּנים-אויסגעלאשן"
+
+#: MainMenu.py:166
+msgid "Pro Face-Off"
+msgstr "פּראָ פאַסע-אויסגעלאשן"
+
+#: MainMenu.py:167
+msgid "Party Mode"
+msgstr "פארטיי מאָדע"
+
+#: MainMenu.py:168
+msgid "FoFiX Co-Op"
+msgstr "פאָפיקס קאָ-אָפּ"
+
+#: MainMenu.py:169
+msgid "RB Co-Op"
+msgstr "רב קאָ-אָפּ"
+
+#: MainMenu.py:170
+msgid "GH Co-Op"
+msgstr "גה קאָ-אָפּ"
+
+#: MainMenu.py:171
+msgid "GH Battle"
+msgstr "גה באַטטלע"
+
+#: MainMenu.py:188
+msgid "Solo Tour"
+msgstr "סאָלאָ טור"
+
+#: MainMenu.py:189
+msgid "Quickplay"
+msgstr "קוויקקפּלייַ"
+
+#: MainMenu.py:236
+#, python-format
+msgid "This binary release is being run from a %(currentVcs)s working copy. This is not the correct way to run FoFiX from %(currentVcs)s. Please see one of the following web pages to set your %(currentVcs)s working copy up correctly:"
+msgstr "דאס ביינערי מעלדונג איז זייַענדיק לויפן פון אַ %(currentVcs)s ארבעטן קאָפּיע. דאס איז ניט די ריכטיק וועג צו לויפן פאָפיקס פון %(currentVcs)s. ביטע זען איינער פון די פאלגענדע וועב זייַטלעך צו שטעלן דיין %(currentVcs)s ארבעטן קאָפּיע זיך ריכטיק:"
+
+#: MainMenu.py:240
+#, python-format
+msgid "This binary was built from a %(buildVcs)s working copy but is not running from one. The FoFiX Team will not provide any support whatsoever for this binary. Please see the following site for official binary releases:"
+msgstr "דאס ביינערי איז געווען געבויט פון אַ %(buildVcs)s ארבעטן קאָפּיע אָבער איז ניט פליסנדיק פון איין. די פאָפיקס מאַנשאַפֿט וועט ניט צושטעלן קיין שטיצן וואַצאָועווער פֿאַר דעם ביינערי. ביטע זען די פאלגענדע פּלאַץ פֿאַר באַאַמטער ביינערי רעלעאַסעס:"
+
+#: MainMenu.py:312
+msgid "No tutorials found!"
+msgstr "ניט קיין טוטאָריאַלז געפונען!"
+
+#: Microphone.py:50
+msgid "[Default Microphone]"
+msgstr "[דיפאָלט מייקראַפאָון]"
+
+#: Microphone.py:183
+msgid "[Microphones not supported]"
+msgstr "[מיקראָפאָנעס ניט געשטיצט]"
+
+#: Player.py:169
+msgid "Name your controller."
+msgstr "נאָמען דיין קאַנטראָולער."
+
+#: Player.py:170
+msgid "Move left"
+msgstr "מאַך לינקס"
+
+#: Player.py:171
+msgid "Move right"
+msgstr "מאַך רעכט"
+
+#: Player.py:172
+msgid "Move up"
+msgstr "באַוועגן זיך"
+
+#: Player.py:173
+msgid "Move down"
+msgstr "מאַך אַראָפּ"
+
+#: Player.py:174
+msgid "Pick"
+msgstr "ביינדל"
+
+#: Player.py:175
+msgid "Secondary Pick"
+msgstr "צווייטיק פּיק"
+
+#: Player.py:175
+msgid "Bass Drum 2"
+msgstr "באַס דרום 2"
+
+#: Player.py:181
+msgid "Solo Fret #1"
+msgstr "סאָלאָ פרעט # 1"
+
+#: Player.py:181
+msgid "Solo Key"
+msgstr "סאָלאָ דורכפֿאַל"
+
+#: Player.py:181
+#: Player.py:196
+msgid "Analog Slider"
+msgstr "אַנאַלאָג סליידער"
+
+#: Player.py:182
+msgid "Solo Fret #2"
+msgstr "סאָלאָ פרעט # 2"
+
+#: Player.py:183
+msgid "Solo Fret #3"
+msgstr "סאָלאָ פרעט # 3"
+
+#: Player.py:184
+msgid "Solo Fret #4"
+msgstr "סאָלאָ פרעט # 4"
+
+#: Player.py:185
+msgid "Solo Fret #5"
+msgstr "סאָלאָ פרעט # 5"
+
+#: Player.py:186
+msgid "Cancel"
+msgstr "באָטל מאַכן"
+
+#: Player.py:187
+msgid "StarPower"
+msgstr "סטאַרפּאָווער"
+
+#: Player.py:190
+msgid "When enabled, the highest notes in large note chords are auto-played."
+msgstr "ווען ענייבאַלד, די העכסטע הערות אין גרויס טאָן קאָרדז זענען אַוטאָ-געשפילט."
+
+#: Player.py:191
+msgid "Controller Type"
+msgstr "קאָנטראָללער טיפּ"
+
+#: Player.py:191
+msgid "Standard Guitar"
+msgstr "נאָרמאַל גיטאַרע"
+
+#: Player.py:191
+msgid "Solo Shift Guitar"
+msgstr "סאָלאָ שיפט גיטאַרע"
+
+#: Player.py:191
+msgid "Drum Set (4-Drum)"
+msgstr "פּויק באַשטעטיק (4-דרום)"
+
+#: Player.py:191
+msgid "Analog Slide Guitar"
+msgstr "אַנאַלאָג סלייד גיטאַרע"
+
+#: Player.py:191
+msgid "Microphone"
+msgstr "מיקראָפאָן"
+
+#: Player.py:191
+msgid "'Standard Guitar' is for keyboards and pre-WT GH-series guitars. 'Solo Shift Guitar' is for RB-series guitars and keyboards who want to use a shift key for solo frets. 'Analog Slide Guitar' is for guitars with an analog slider bar."
+msgstr "'סטאַנדאַרד גיטאַרע' איז פֿאַר קיבאָרדז און פאַר - ווט גה-סעריע גיטאַרז. 'סאָלאָ שיפט גיטאַרע' איז פֿאַר רב-סעריע גיטאַרז און קיבאָרדז וואס ווילן צו נוצן אַ איבערשטעלן קלאַוויש פֿאַר סאָלאָ פרעץ. 'אַנאַלאָג סלייד גיטאַרע' איז פֿאַר גיטאַרז מיט אַן אַנאַלאָג סליידער באַר."
+
+#: Player.py:192
+msgid "Analog SP"
+msgstr "אַנאַלאָג ספּ"
+
+#: Player.py:192
+msgid "Enables analog SP (as in the XBOX Xplorer controller.)"
+msgstr "ינייבאַלז אַנאַלאָג ספּ (ווי אין די קסבאָקס קספּלאָרער קאַנטראָולער.)"
+
+#: Player.py:193
+msgid "Analog SP Threshold"
+msgstr "אַנאַלאָג ספּ טהרעשאָלד"
+
+#: Player.py:193
+msgid "Sets a threshold level for activating SP in analog mode."
+msgstr "שטעלט אַ שוועל מדרגה פֿאַר אַקטאַווייטינג ספּ אין אַנאַלאָג מאָדע."
+
+#: Player.py:194
+msgid "Analog SP Sensitivity"
+msgstr "אַנאַלאָג ספּ סענסיטיוויטי"
+
+#: Player.py:194
+msgid "Sets the sensitivity for activating SP in analog mode."
+msgstr "שטעלט די סענסיטיוויטי פֿאַר אַקטאַווייטינג ספּ אין אַנאַלאָג מאָדע."
+
+#: Player.py:195
+msgid "Analog Drums"
+msgstr "אַנאַלאָג דרומס"
+
+#: Player.py:195
+#: Player.py:197
+msgid "PS2/PS3/Wii"
+msgstr "פּס2/פּס3/וויי"
+
+#: Player.py:195
+#: Player.py:197
+msgid "XBOX"
+msgstr "קסבאָקס"
+
+#: Player.py:195
+#: Player.py:197
+msgid "XBOX Inv."
+msgstr "קסבאָקס ינוו."
+
+#: Player.py:195
+msgid "Enables analog drums as in RB2 and GH drumsets."
+msgstr "ינייבאַלז אַנאַלאָג דראַמז ווי אין רב2 און גה דרומסעץ."
+
+#: Player.py:196
+msgid "Inverted"
+msgstr "ינווערטעד"
+
+#: Player.py:196
+msgid "Experimental testing for the analog slide mode."
+msgstr "עקספּערימענטאַל טעסטינג פֿאַר דער אַנאַלאָג רוק מאָדע."
+
+#: Player.py:197
+msgid "Analog Effects"
+msgstr "אַנאַלאָג עפפעקץ"
+
+#: Player.py:197
+msgid "Enables analog whammy bar. Set to the system your controller was designed for."
+msgstr "ינייבאַלז אַנאַלאָג כוואַמי באַר. שטעלן צו די סיסטעם דיין קאַנטראָולער איז דיזיינד פֿאַר."
+
+#: Player.py:198
+msgid "Sound FX Switch"
+msgstr "געזונט פקס סוויטש"
+
+#: Player.py:198
+msgid "Switch"
+msgstr "ויסבייַטן"
+
+#: Player.py:198
+msgid "Cycle"
+msgstr "ציקלען"
+
+#: Player.py:199
+msgid "Microphone Device"
+msgstr "מיקראָפאָן דיווייס"
+
+#: Player.py:200
+msgid "Tap Sensitivity"
+msgstr "צאַפּן סענסיטיוויטי"
+
+#: Player.py:200
+msgid "Sets how sensitive the microphone is to being tapped."
+msgstr "שטעלט ווי שפּירעוודיק דער מיקראָפאָן איז צו זייַענדיק טאַפּט."
+
+#: Player.py:201
+msgid "Passthrough Volume"
+msgstr "פּאַססטהראָוגה באנד"
+
+#: Player.py:201
+msgid "Sets how loud you hear yourself singing."
+msgstr "שטעלט ווי הויך איר הערן זיך געזאַנג."
+
+#: Player.py:207
+msgid "Neck Type"
+msgstr "האַלדז טיפּ"
+
+#: Player.py:207
+msgid "Specific Neck"
+msgstr "ספּעציפיש נעק"
+
+#: Player.py:212
+msgid "Auto Kick"
+msgstr "אַוטאָ קיק"
+
+#: Player.py:385
+msgid "Default Drum"
+msgstr "ניט ויסצאָלן דרום"
+
+#: Player.py:390
+#, python-format
+msgid "Controller %d"
+msgstr "קאָנטראָללער %d"
+
+#: Player.py:391
+#, python-format
+msgid "Select the controller for slot %d"
+msgstr "סעלעקטירן דעם קאַנטראָולער פֿאַר שפּעלטל %d"
+
+#: Player.py:754
+#, python-format
+msgid "%s conflicts with %s"
+msgstr "%s קאנפליקטן מיט %s"
+
+#: Player.py:842
+#, python-format
+msgid "This key conflicts with the following keys: %s"
+msgstr "דעם שליסל קאנפליקטן מיט די פאלגענדע קיז: %s"
+
+#: Scorekeeper.py:30
+msgid "Auto Kick Bass"
+msgstr "אַוטאָ קיק באַס"
+
+#: Scorekeeper.py:30
+msgid "Medium Assist Mode"
+msgstr "מיטל אַסיסט מאָדע"
+
+#: Scorekeeper.py:30
+msgid "Easy Assist Mode"
+msgstr "גרינג אַסיסט מאָדע"
+
+#: Scorekeeper.py:30
+msgid "Jurgen Played!"
+msgstr "דזשורגען פּלייד!"
+
+#: Scorekeeper.py:31
+msgid "Effects Saved SP"
+msgstr "עפפעקץ סאַוועד ספּ"
+
+#: Scorekeeper.py:31
+msgid "All Tapping"
+msgstr "כל טאַפּינג"
+
+#: Scorekeeper.py:31
+msgid "HOPO Frequency: Most"
+msgstr "האָפּאָ פרעקווענסי: מערסט"
+
+#: Scorekeeper.py:31
+msgid "HOPO Frequency: Even More"
+msgstr "האָפּאָ פרעקווענסי: אפילו נאָך"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: More"
+msgstr "האָפּאָ פרעקווענסי: מער"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: Less"
+msgstr "האָפּאָ פרעקווענסי: לעס"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: Least"
+msgstr "האָפּאָ פרעקווענסי: ליסט"
+
+#: Scorekeeper.py:32
+msgid "HOPO Disabled!"
+msgstr "האָפּאָ דיסאַבלעד!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Tightest!"
+msgstr "היט ווינדאָו: טיגהטעסט!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Tight!"
+msgstr "היט ווינדאָו: טייט!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Wider"
+msgstr "היט ווינדאָו: ווידער"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Widest"
+msgstr "היט ווינדאָו: ווידעסט"
+
+#: Scorekeeper.py:34
+msgid "Two Note Chords"
+msgstr "צוויי באַמערקונג טשאָרדס"
+
+#: Scorekeeper.py:34
+msgid "No Fail Mode"
+msgstr "ניט קיין פייל מאָדע"
+
+#: Scorekeeper.py:34
+msgid "Sloppy Mode!"
+msgstr "סלאַפּי מאָדע!"
+
+#: Scorekeeper.py:35
+msgid "Song Slowdown"
+msgstr "ליד סלאָוודאָוון"
+
+#: Scorekeeper.py:35
+msgid "Early Hit Window Adjustment"
+msgstr "פרי היט ווינדאָו אַדדזשוסטמענט"
+
+#: Settings.py:250
+#, python-format
+msgid "Press a key for '%s' or hold Escape to disable."
+msgstr "פּרעסע אַ שליסל פֿאַר '%s 'אָדער האַלטן עסקאַפּע צו דיסייבאַל."
+
+#: Settings.py:252
+#, python-format
+msgid "Press a key for '%s' or hold Escape to cancel."
+msgstr "פּרעסע אַ שליסל פֿאַר '%s 'אָדער האַלטן עסקאַפּע צו באָטל מאַכן."
+
+#: Settings.py:302
+msgid "No Controllers Found."
+msgstr "ניט קיין קאָנטראָללערס געפֿונען."
+
+#: Settings.py:350
+msgid "Are you sure you want to delete this controller?"
+msgstr "זענט איר זיכער איר ווילן צו ויסמעקן דעם קאַנטראָולער?"
+
+#: Settings.py:374
+msgid "Please name your controller"
+msgstr "ביטע נאָמען דיין קאַנטראָולער"
+
+#: Settings.py:376
+#: Settings.py:626
+msgid "That name is already taken."
+msgstr "אַז נאָמען איז שוין גענומען."
+
+#: Settings.py:378
+#: Settings.py:628
+msgid "Canceled."
+msgstr "קאַנסעלעד."
+
+#: Settings.py:450
+#: Settings.py:487
+#: Settings.py:517
+#: Settings.py:546
+#: Settings.py:584
+#: Settings.py:612
+msgid "Rename Controller"
+msgstr "רענאַמע קאָנטראָללער"
+
+#: Settings.py:473
+msgid "Press the solo shift key. Be sure to assign the frets first! Hold Escape to cancel."
+msgstr "פּרעסע די סאָלאָ איבערשטעלן שליסל. זייט זיכער צו באַשטימען די פרעץ ערשטער! האַלטן עסקאַפּע צו באָטל מאַכן."
+
+#: Settings.py:569
+msgid "Press the highest fret on the slider. Hold Escape to cancel."
+msgstr "פּרעסע די העכסטע פרעט אויף די סליידער. האַלטן עסקאַפּע צו באָטל מאַכן."
+
+#: Settings.py:624
+msgid "Please rename your controller"
+msgstr "ביטע רענאַמע דיין קאַנטראָולער"
+
+#: Settings.py:752
+msgid "Battle Objects"
+msgstr "שלאַכט אָבדזשעקץ"
+
+#: Settings.py:752
+msgid "Set which objects can appear in Battle Mode"
+msgstr "קאָמפּלעקט וואָס אַבדזשעקץ קענען דערשייַנען אין באַטטלע מאָדע"
+
+#: Settings.py:767
+msgid "Advanced Gameplay Settings"
+msgstr "אַוואַנסירטע גאַמעפּלייַ סעטטינגס"
+
+#: Settings.py:767
+msgid "Set advanced gameplay settings that affect the game rules."
+msgstr "קאָמפּלעקט אַוואַנסירטע גאַמעפּלייַ סעטטינגס אַז ווירקן די שפּיל כּללים."
+
+#: Settings.py:768
+msgid "Vocal Mode Settings"
+msgstr "שטים מאָדע סעטטינגס"
+
+#: Settings.py:768
+msgid "Change settings that affect lyrics and in-game vocals."
+msgstr "טוישן סעטטינגס אַז ווירקן ליריקס און אין-שפּיל וואָקאַלס."
+
+#: Settings.py:769
+msgid "HO/PO Settings"
+msgstr "ער / פּאָ סעטטינגס"
+
+#: Settings.py:769
+msgid "Change settings that affect hammer-ons and pull-offs (HO/PO)."
+msgstr "טוישן סעטטינגס אַז ווירקן האַמער-אָנס און ציען-אָפס (ער / פּאָ)."
+
+#: Settings.py:770
+msgid "Battle Settings"
+msgstr "שלאַכט סעטטינגס"
+
+#: Settings.py:770
+msgid "Change settings that affect battle mode."
+msgstr "טוישן סעטטינגס אַז ווירקן שלאַכט מאָדע."
+
+#: Settings.py:776
+#: Settings.py:1218
+msgid "Test Controller 1"
+msgstr "פּרובירן קאָנטראָללער 1"
+
+#: Settings.py:776
+#: Settings.py:1218
+msgid "Test the controller configured for slot 1."
+msgstr "פּרובירן די קאַנטראָולער קאַנפיגיערד פֿאַר שפּעלטל 1."
+
+#: Settings.py:777
+#: Settings.py:1219
+msgid "Test Controller 2"
+msgstr "פּרובירן קאָנטראָללער 2"
+
+#: Settings.py:777
+#: Settings.py:1219
+msgid "Test the controller configured for slot 2."
+msgstr "פּרובירן די קאַנטראָולער קאַנפיגיערד פֿאַר שפּעלטל 2."
+
+#: Settings.py:778
+#: Settings.py:1220
+msgid "Test Controller 3"
+msgstr "פּרובירן קאָנטראָללער 3"
+
+#: Settings.py:778
+#: Settings.py:1220
+msgid "Test the controller configured for slot 3."
+msgstr "פּרובירן די קאַנטראָולער קאַנפיגיערד פֿאַר שפּעלטל 3."
+
+#: Settings.py:779
+#: Settings.py:1221
+msgid "Test Controller 4"
+msgstr "פּרובירן קאָנטראָללער 4"
+
+#: Settings.py:779
+#: Settings.py:1221
+msgid "Test the controller configured for slot 4."
+msgstr "פּרובירן די קאַנטראָולער קאַנפיגיערד פֿאַר שפּעלטל 4."
+
+#: Settings.py:818
+msgid "More Effects"
+msgstr "מער עפפעקץ"
+
+#: Settings.py:818
+msgid "Change the settings of the shader system."
+msgstr "ענדערן די סעטטינגס פון דער שיידער סיסטעם."
+
+#: Settings.py:834
+msgid "Change Neck Transparency"
+msgstr "ענדערן נעק טראַנספּאַרענסי"
+
+#: Settings.py:834
+msgid "Change the transparency of the various in-game necks."
+msgstr "ענדערן די דורכזעיקייַט פון די פאַרשידן אין-שפּיל נעקס."
+
+#: Settings.py:847
+msgid "Theme Display Settings"
+msgstr "טעמע ווייַז סעטטינגס"
+
+#: Settings.py:847
+msgid "Change settings that only affect certain theme types."
+msgstr "טוישן סעטטינגס אַז בלויז ווירקן זיכער טעמע טייפּס."
+
+#: Settings.py:866
+#: Settings.py:1239
+msgid "Video Resolution"
+msgstr "ווידעא רעסאָלוטיאָן"
+
+#: Settings.py:866
+#: Settings.py:1239
+msgid "Set the resolution of the game. In windowed mode, higher values mean a larger screen."
+msgstr "באַשטעטיק די האַכלאָטע פון די שפּיל. אין ווינדאָוד מאָדע, העכער וואַלועס מיינען אַ גרעסערע פאַרשטעלן."
+
+#: Settings.py:873
+msgid "Stages Options"
+msgstr "סטאַגעס אָפּציעס"
+
+#: Settings.py:873
+msgid "Change settings related to the in-game background."
+msgstr "טוישן סעטטינגס שייַכות צו דעם אין-שפּיל אָפּשטאַם."
+
+#: Settings.py:874
+#: Settings.py:1246
+msgid "Choose Default Neck >"
+msgstr "אויסקלייַבן דיפאָלט נעק>"
+
+#: Settings.py:874
+#: Settings.py:1246
+msgid "Choose your default neck. You still have to choose which neck you use for your character in the character select screen."
+msgstr "אויסקלייַבן דיין ניט ויסצאָלן האַלדז. איר נאָך האָבן צו קלייַבן וואָס האַלדז איר נוצן פֿאַר דיין כאַראַקטער אין דער שריפֿטצייכן אויסקלייַבן פאַרשטעלן."
+
+#: Settings.py:875
+msgid "Fretboard Settings"
+msgstr "פרעטבאָאַרד סעטטינגס"
+
+#: Settings.py:875
+msgid "Change settings related to the fretboard."
+msgstr "טוישן סעטטינגס שייַכות צו דער פרעטבאָאַרד."
+
+#: Settings.py:876
+#: Settings.py:1247
+msgid "In-Game Display Settings"
+msgstr "אין-שפיל ווייַז סעטטינגס"
+
+#: Settings.py:876
+#: Settings.py:1247
+msgid "Change what and where things appear in-game."
+msgstr "בייַט וואָס און ווו זאכן דערשייַנען אין-שפּיל."
+
+#: Settings.py:877
+msgid "Advanced Video Settings"
+msgstr "אַוואַנסירטע ווידעא סעטטינגס"
+
+#: Settings.py:877
+msgid "Change advanced video settings."
+msgstr "ענדערן אַוואַנסירטע ווידעא סעטטינגס."
+
+#: Settings.py:905
+#: Settings.py:1266
+msgid "Volume Settings"
+msgstr "באנד סעטטינגס"
+
+#: Settings.py:905
+#: Settings.py:1266
+msgid "Change the volume of game sounds."
+msgstr "ענדערן דעם באַנד פון שפּיל סאָונדס."
+
+#: Settings.py:914
+msgid "Advanced Audio Settings"
+msgstr "אַוואַנסירטע אַודיאָ סעטטינגס"
+
+#: Settings.py:914
+msgid "Change advanced audio settings."
+msgstr "ענדערן אַוואַנסירטע אַודיאָ סעטטינגס."
+
+#: Settings.py:956
+#: Settings.py:1281
+msgid "Change Setlist Path >"
+msgstr "ענדערן סעטליסט פּאַט>"
+
+#: Settings.py:956
+#: Settings.py:1281
+msgid "Set the path to a folder named 'songs' that contains your songs."
+msgstr "באַשטעטיק דעם דרך צו אַ טעקע מיטן נאמען 'לידער' אַז כּולל דיין לידער."
+
+#: Settings.py:988
+msgid "Debug Settings"
+msgstr "דעבוג סעטטינגס"
+
+#: Settings.py:988
+msgid "Settings for coders to debug. Probably not worth changing."
+msgstr "סעטטינגס פֿאַר קאָדערס צו דיבאַג. מסתּמא ניט ווערט טשאַנגינג."
+
+#: Settings.py:989
+msgid "Log Settings"
+msgstr "אַרייַנלאָגירן סעטטינגס"
+
+#: Settings.py:989
+msgid "Adds junk information to the logfile. Probably not useful in bug reports."
+msgstr "אַדדס אָפּפאַל אינפֿאָרמאַציע צו די לאָגפילע. מסתּמא ניט נוצלעך אין זשוק גיט."
+
+#: Settings.py:994
+msgid "AI Settings"
+msgstr "אַי סעטטינגס"
+
+#: Settings.py:994
+msgid "Change the settings of the AI"
+msgstr "ענדערן די סעטטינגס פון די יי"
+
+#: Settings.py:1003
+#: Settings.py:1356
+msgid "Mod settings"
+msgstr "מאָד סעטטינגס"
+
+#: Settings.py:1003
+#: Settings.py:1356
+msgid "Enable or disable any mods you have installed."
+msgstr "געבן אָדער דיסייבאַל קיין מאָדס איר האָט אינסטאַלירן."
+
+#: Settings.py:1008
+#: Settings.py:1298
+msgid "Gameplay Settings"
+msgstr "גאַמעפּלייַ סעטטינגס"
+
+#: Settings.py:1008
+#: Settings.py:1298
+msgid "Settings that affect the rules of the game."
+msgstr "סעטטינגס אַז ווירקן די כּללים פון די שפּיל."
+
+#: Settings.py:1009
+#: Settings.py:1299
+msgid "Control Settings"
+msgstr "קאָנטראָל סעטטינגס"
+
+#: Settings.py:1009
+#: Settings.py:1299
+msgid "Create, delete, and edit your controls."
+msgstr "שאַפֿן, ויסמעקן, און רעדאַגירן דיין קאָנטראָלס."
+
+#: Settings.py:1010
+#: Settings.py:1300
+msgid "Display Settings"
+msgstr "ווייַז סעטטינגס"
+
+#: Settings.py:1010
+#: Settings.py:1300
+msgid "Theme, neck, resolution, etc."
+msgstr "טעמע, האַלדז, האַכלאָטע, עטק"
+
+#: Settings.py:1011
+#: Settings.py:1301
+msgid "Audio Settings"
+msgstr "אַודיאָ סעטטינגס"
+
+#: Settings.py:1011
+#: Settings.py:1301
+msgid "Volume controls, etc."
+msgstr "באנד קאָנטראָלס, עטק"
+
+#: Settings.py:1012
+#: Settings.py:1302
+msgid "Setlist Settings"
+msgstr "סעטליסט סעטטינגס"
+
+#: Settings.py:1012
+#: Settings.py:1302
+msgid "Settings that affect the setlist."
+msgstr "סעטטינגס אַז ווירקן די סעטליסט."
+
+#: Settings.py:1013
+msgid "Advanced Settings"
+msgstr "אַוואַנסירטע סעטטינגס"
+
+#: Settings.py:1013
+msgid "Settings that probably don't need to be changed."
+msgstr "סעטטינגס אַז מסתּמא טאָן ניט דאַרפֿן צו זייַן פארענדערט."
+
+#: Settings.py:1014
+#: Settings.py:1303
+msgid "Mods, Cheats, AI"
+msgstr "מאָדס, טשעאַץ, אַי"
+
+#: Settings.py:1014
+#: Settings.py:1303
+msgid "Set Jurgen to play for you, or other cheats."
+msgstr "קאָמפּלעקט דזשורגען צו שפּילן פֿאַר איר, אָדער אנדערע טשיץ."
+
+#: Settings.py:1015
+#: Settings.py:1304
+#, python-format
+msgid "%s Credits"
+msgstr "%s קרעדיץ"
+
+#: Settings.py:1015
+#: Settings.py:1304
+msgid "See who made this game."
+msgstr "זען וואס געמאכט דעם שפּיל."
+
+#: Settings.py:1016
+#: Settings.py:1305
+msgid "Quickset"
+msgstr "קוויקקסעט"
+
+#: Settings.py:1016
+#: Settings.py:1305
+msgid "A quick way to set many advanced settings."
+msgstr "א שנעל וועג צו שטעלן פילע אַוואַנסירטע סעטטינגס."
+
+#: Settings.py:1017
+msgid "Hide Advanced Options"
+msgstr "באַהאַלט אַוואַנסירטע אָפּציעס"
+
+#: Settings.py:1047
+#: Settings.py:1320
+msgid "FoFiX needs to restart to apply setting changes."
+msgstr "פאָפיקס דאַרף צו ריסטאַרט צו צולייגן באַשטעטיקן ענדערונגען."
+
+#: Settings.py:1066
+#: Settings.py:1328
+msgid "Test Controls"
+msgstr "פּרובירן קאָנטראָלס"
+
+#: Settings.py:1066
+#: Settings.py:1328
+msgid "Go here to test your controllers."
+msgstr "גיי דאָ צו פּרובירן דיין קאַנטראָולערז."
+
+#: Settings.py:1071
+#: Settings.py:1333
+msgid "New Controller"
+msgstr "ניו קאָנטראָללער"
+
+#: Settings.py:1071
+#: Settings.py:1333
+msgid "Create a new controller to use."
+msgstr "שאַפֿן אַ נייַ קאַנטראָולער צו נוצן."
+
+#: Settings.py:1072
+#: Settings.py:1334
+msgid "Edit Controller"
+msgstr "רעדאַקטירן קאָנטראָללער"
+
+#: Settings.py:1072
+#: Settings.py:1334
+msgid "Edit a controller you have created."
+msgstr "רעדאַקטירן אַ קאַנטראָולער איר האָט באשאפן."
+
+#: Settings.py:1073
+#: Settings.py:1335
+msgid "Delete Controller"
+msgstr "ויסמעקן קאָנטראָללער"
+
+#: Settings.py:1073
+#: Settings.py:1335
+msgid "Delete a controller you have created."
+msgstr "ויסמעקן אַ קאַנטראָולער איר האָט באשאפן."
+
+#: Settings.py:1089
+#: Settings.py:1366
+msgid "You must specify a controller for slot 1!"
+msgstr "איר מוזן ספּעציפיצירן אַ קאַנטראָולער פֿאַר שפּעלטל 1!"
+
+#: Settings.py:1095
+#: Settings.py:1372
+#, python-format
+msgid "Controllers in slots %d and %d conflict. Setting %d to None."
+msgstr "קאָנטראָללערס אין סלאָץ %d און %d געראַנגל. באַשטעטיקן %d צו קיינער."
+
+#: Settings.py:1104
+#: Settings.py:1381
+#, python-format
+msgid "%d more conflicts."
+msgstr "%d מער קאנפליקטן."
+
+#: Settings.py:1149
+#: Settings.py:1411
+msgid "Choose a new songs directory."
+msgstr "אויסקלייַבן אַ נייַ לידער וועגווייַזער."
+
+#: Settings.py:1306
+msgid "See Advanced Options"
+msgstr "זען אַוואַנסירטע אָפּציעס"
+
+#: Settings.py:1600
+msgid "Cheats"
+msgstr "טשעאַץ"
+
+#: Song.py:132
+msgid "Guitar"
+msgstr "גיטאַרע"
+
+#: Song.py:133
+msgid "Rhythm"
+msgstr "ריטם"
+
+#: Song.py:134
+msgid "Bass"
+msgstr "באַס"
+
+#: Song.py:135
+msgid "Lead"
+msgstr "פירן"
+
+#: Song.py:136
+msgid "Drums"
+msgstr "דרומס"
+
+#: Song.py:137
+msgid "Vocals"
+msgstr "וואָקאַלס"
+
+#: Song.py:162
+msgid "Easy"
+msgstr "גרינג"
+
+#: Song.py:163
+msgid "Medium"
+msgstr "מיטל"
+
+#: Song.py:164
+msgid "Hard"
+msgstr "שווער"
+
+#: Song.py:165
+msgid "Expert"
+msgstr "מייוון"
+
+#: Song.py:227
+msgid "NoName"
+msgstr "נאָנאַמע"
+
+#: Song.py:960
+msgid "This song is locked."
+msgstr "דאס ליד איז פארשפארט."
+
+#: Song.py:1166
+msgid "Reset Career"
+msgstr "באַשטעטיק קאַרעער"
+
+#: Song.py:1213
+msgid "   (Random Song)"
+msgstr "(ראַנדאָם סאָנג)"
+
+#: Song.py:4171
+msgid "End of Career"
+msgstr "סוף פון קאַרעער"
+
+#: Song.py:4434
+#: Song.py:4437
+msgid "Checking song database..."
+msgstr "קאָנטראָלירונג ליד דאַטאַבאַסע ..."
+
+#: Song.py:4444
+#, python-format
+msgid "Enumerating song folders... (%d so far)"
+msgstr "ענומעראַטינג ליד פאָלדערס ... (%d אַזוי ווייַט)"
+
+#: Song.py:4448
+msgid "Caching song data..."
+msgstr "קאַטשינג ליד דאַטן ..."
+
+#: Song.py:4448
+#, python-format
+msgid "(folder %d of %d; %d%% of this folder)"
+msgstr "(טעקע %d פון %d, %d%% פון דעם טעקע)"
+
+#: Song.py:4449
+msgid "Pruning leftover entries..."
+msgstr "פּרונינג לעפטאָוווער ערטער ..."
+
+#: SongChoosingScene.py:104
+msgid "Initializing Setlist..."
+msgstr "יניטיאַליזינג סעטליסט ..."
+
+#: SongChoosingScene.py:106
+msgid "Checking Command-Line Settings..."
+msgstr "קאָנטראָלירונג קאַמאַנד-ליניע סעטטינגס ..."
+
+#: SongChoosingScene.py:108
+msgid "Checking Setlist Settings..."
+msgstr "קאָנטראָלירונג סעטליסט סעטטינגס ..."
+
+#: SongChoosingScene.py:265
+#: SongChoosingScene.py:267
+#: SongChoosingScene.py:277
+msgid "Browsing Collection..."
+msgstr "בראַוזינג קאַלעקשאַן ..."
+
+#: SongChoosingScene.py:327
+#: SongChoosingScene.py:337
+msgid "No songs in this setlist are available to play!"
+msgstr "ניט קיין לידער אין דעם סעטליסט זענען פאַראַנען צו שפּילן!"
+
+#: SongChoosingScene.py:329
+#: SongChoosingScene.py:339
+msgid "Make sure you have a working career pack!"
+msgstr "מאכט זיכער איר האָט אַ ארבעטן קאַריערע פּאַטש!"
+
+#: SongChoosingScene.py:389
+#: SongChoosingScene.py:496
+msgid "Loading Album Artwork..."
+msgstr "לאָודינג אַלבום אַרטוואָרק ..."
+
+#: SongChoosingScene.py:423
+#: SongChoosingScene.py:634
+msgid "There are no drum parts in this song. Change your controllers to play."
+msgstr "עס זענען קיין פּויק טיילן אין דעם ליד. בייַט דיין קאַנטראָולערז צו שפּילן."
+
+#: SongChoosingScene.py:431
+#: SongChoosingScene.py:637
+msgid "There are no guitar parts in this song. Change your controllers to play."
+msgstr "עס זענען קיין גיטאַרע טיילן אין דעם ליד. בייַט דיין קאַנטראָולערז צו שפּילן."
+
+#: SongChoosingScene.py:439
+#: SongChoosingScene.py:640
+msgid "There are no vocal parts in this song. Change your controllers to play."
+msgstr "עס זענען קיין שטים טיילן אין דעם ליד. בייַט דיין קאַנטראָולערז צו שפּילן."
+
+#: SongChoosingScene.py:457
+#, python-format
+msgid "%s Choose a difficulty:"
+msgstr "%s אויסקלייַבן אַ שוועריקייט:"
+
+#: Theme.py:1001
+#: Theme.py:1126
+#: Theme.py:1209
+#: Theme.py:1319
+#: Theme.py:1482
+#: Theme.py:1605
+#: Theme.py:2114
+msgid "-- Locked --"
+msgstr "- לאַקט -"
+
+#: Theme.py:1047
+#: Theme.py:1070
+#: Theme.py:1086
+#: Theme.py:1103
+#: Theme.py:1236
+#: Theme.py:1260
+#: Theme.py:1276
+#: Theme.py:1280
+#: Theme.py:1365
+#: Theme.py:1388
+#: Theme.py:1404
+#: Theme.py:1417
+#: Theme.py:1631
+#: Theme.py:1655
+#: Theme.py:1671
+#: Theme.py:1674
+msgid "Nil"
+msgstr "נול"
+
+#: Theme.py:1432
+#: Theme.py:2055
+#: Theme.py:2060
+#: Theme.py:2096
+msgid "Loading Preview..."
+msgstr "לאָודינג פּריוויו ..."
+
+#: Theme.py:1440
+#: Theme.py:1549
+msgid "Play To Advance"
+msgstr "שפּיל צו אַדוואַנסע"
+
+#: Theme.py:1446
+#: Theme.py:1555
+msgid "Played Once"
+msgstr "געשפילט וואַנס"
+
+#: Theme.py:1448
+#: Theme.py:1557
+#, python-format
+msgid "Played %d times."
+msgstr "געשפילט %d מאָל."
+
+#: Theme.py:1455
+#: Theme.py:1571
+msgid "There Is 1 Song In This Setlist."
+msgstr "עס איז 1 סאָנג אין דעם סעטליסט."
+
+#: Theme.py:1457
+#: Theme.py:1573
+#, python-format
+msgid "There Are %d Songs In This Setlist."
+msgstr "עס זיינען פאראן %d לידער אין דעם סעטליסט."
+
+#: Theme.py:1461
+#: Theme.py:1577
+msgid "Tier"
+msgstr "ריי"
+
+#: Theme.py:1465
+#: Theme.py:1588
+msgid "Random Song"
+msgstr "טראַפ - סאָנג"
+
+#: Theme.py:2016
+msgid "DIFFICULTY"
+msgstr "מעניע"
+
+#: Theme.py:2018
+msgid "BAND"
+msgstr "באַנד"
+
+#: Theme.py:2020
+msgid "GUITAR"
+msgstr "גיטאַרע"
+
+#: Theme.py:2022
+msgid "DRUM"
+msgstr "פּויק"
+
+#: Theme.py:2024
+msgid "BASS"
+msgstr "באַס"
+
+#: Theme.py:2026
+msgid "VOCALS"
+msgstr "וואָקאַלס"
+
+#: Theme.py:2032
+msgid "SORTING:"
+msgstr "סאָרטינג:"
+
+#: Theme.py:2034
+msgid "ALPHABETICALLY BY TITLE"
+msgstr "אַלפאַבעטיקלי דורך טיטל"
+
+#: Theme.py:2036
+msgid "ALPHABETICALLY BY ARTIST"
+msgstr "אַלפאַבעטיקלי דורך קינסטלער"
+
+#: Theme.py:2038
+msgid "BY PLAY COUNT"
+msgstr "דורך שפּיל רעכענען"
+
+#: Theme.py:2040
+msgid "ALPHABETICALLY BY ALBUM"
+msgstr "אַלפאַבעטיקלי דורך אלבאם"
+
+#: Theme.py:2042
+msgid "ALPHABETICALLY BY GENRE"
+msgstr "אַלפאַבעטיקלי דורך זשאַנער"
+
+#: Theme.py:2044
+msgid "BY YEAR"
+msgstr "דורך יאָר"
+
+#: Theme.py:2046
+msgid "BY BAND DIFFICULTY"
+msgstr "דורך באַנד שוועריקייט"
+
+#: Theme.py:2048
+msgid "BY INSTRUMENT DIFFICULTY"
+msgstr "דורך קיילע שוועריקייט"
+
+#: Theme.py:2050
+msgid "BY SONG COLLECTION"
+msgstr "דורך ליד זאַמלונג"
+
+#: Theme.py:2145
+#, python-format
+msgid "Played %d time"
+msgstr "געשפילט %d צייַט"
+
+#: Theme.py:2147
+#, python-format
+msgid "Played %d times"
+msgstr "געשפילט %d מאָל"
+
+#: Theme.py:2152
+#: Theme.py:2159
+msgid "Play To Advance."
+msgstr "שפּיל צו אַדוואַנסע."
+
+#: Theme.py:2155
+msgid "Never Played"
+msgstr "קיינמאָל פּלייד"
+
+#: Theme.py:2219
+msgid "One Song In This Setlist"
+msgstr "איינער סאָנג אין דעם סעטליסט"
+
+#: Theme.py:2221
+#, python-format
+msgid "%d Songs In This Setlist"
+msgstr "%d לידער אין דעם סעטליסט"
+
+#: Theme.py:2230
+msgid "(Random Song)"
+msgstr "(ראַנדאָם סאָנג)"
+
+#: Theme.py:2428
+msgid "No Album"
+msgstr "ניט קיין אַלבום"
+
+#: Theme.py:2433
+msgid "No Genre"
+msgstr "ניט קיין גענרע"
+
+#: Video.py:151
+msgid "Video setup failed with your resolution settings, and so were reset to defaults."
+msgstr "ווידעא סעטאַפּ דורכפֿאַל מיט דיין האַכלאָטע סעטטינגס, און אַזוי האבן באַשטעטיק צו דיפאָלץ."
+
+#: Vocalist.py:120
+msgid "Amazing!"
+msgstr "אַמייזינג!"
+
+#: Vocalist.py:120
+msgid "Great!"
+msgstr "גרויס!"
+
+#: Vocalist.py:120
+msgid "Decent"
+msgstr "לייַטיש"
+
+#: Vocalist.py:120
+msgid "Average"
+msgstr "דורכשניטלעך"
+
+#: Vocalist.py:120
+msgid "Meh"
+msgstr "מעה"
+
+#: Vocalist.py:120
+msgid "Bad"
+msgstr "שלעכט"
+
+#: Vocalist.py:120
+msgid "Terrible..."
+msgstr "געפערלעך ..."
+
+#: Vocalist.py:449
+msgid "Tap!"
+msgstr "צאַפּן!"
+
+#: World.py:60
+msgid "FoFiX Co-Op Mode"
+msgstr "פאָפיקס קאָ-אָפּ מאָדע"
+
+#: World.py:62
+msgid "RB Co-Op Mode"
+msgstr "רב קאָ-אָפּ מאָדע"
+
+#: World.py:64
+msgid "GH Co-Op Mode"
+msgstr "גה קאָ-אָפּ מאָדע"
+
+#: World.py:66
+msgid "Battle Mode"
+msgstr "שלאַכט מאָדע"
+
+#: World.py:73
+msgid "Career Mode"
+msgstr "קאַריערע מאָדע"
+

@@ -1,0 +1,5011 @@
+# -*- coding: utf-8 -*-
+#####################################################################
+#                                                                   #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
+#                                                                   #
+# This program is free software; you can redistribute it and/or     #
+# modify it under the terms of the GNU General Public License       #
+# as published by the Free Software Foundation; either version 2    #
+# of the License, or (at your option) any later version.            #
+#                                                                   #
+# This program is distributed in the hope that it will be useful,   #
+# but WITHOUT ANY WARRANTY; without even the implied warranty of    #
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the     #
+# GNU General Public License for more details.                      #
+#                                                                   #
+# You should have received a copy of the GNU General Public License #
+# along with this program; if not, write to the Free Software       #
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,        #
+# MA  02110-1301, USA.                                              #
+#####################################################################
+
+msgid ""
+msgstr ""
+"Project-Id-Version: FoFiX 4 Development\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-19 11:47-0600\n"
+"PO-Revision-Date: 2010-09-19 11:48-0600\n"
+"Last-Translator: Google Translator\n"
+"Language-Team: FoFiX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: Credits.py:125
+msgid "This mod was built on Alarian's mod,"
+msgstr "وزارت دفاع وزارت دفاع در این Alarian ساخته بود ،"
+
+#: Credits.py:126
+msgid "which was built on UltimateCoffee's Ultimate mod,"
+msgstr "که در وزارت دفاع UltimateCoffee را نهایی ساخته شده بود ،"
+
+#: Credits.py:127
+msgid "which was built on RogueF's RF_mod 4.15,"
+msgstr "که در تاریخ RF_mod RogueF 's4.15 ساخته شده بود ،"
+
+#: Credits.py:128
+msgid "which was, of course, built on Frets on Fire 1.2.451,"
+msgstr "که البته بود ، ساخته شده بر روی Frets در آتش 1.2.451 ،"
+
+#: Credits.py:129
+msgid "which was created by Unreal Voodoo"
+msgstr "که توسط غیرواقعی وودو ایجاد شد"
+
+#: Credits.py:130
+msgid "No Particular Order"
+msgstr "شماره سفارش خاص"
+
+#: Credits.py:131
+msgid "Active Coders:"
+msgstr "Coders فعال :"
+
+#: Credits.py:132
+msgid "Past Coders:"
+msgstr "Coders گذشته :"
+
+#: Credits.py:133
+msgid "Main Graphic Contributors:"
+msgstr "گرافیک همکاران اصلی :"
+
+#: Credits.py:134
+msgid "Translators:"
+msgstr "ترجمه :"
+
+#: Credits.py:135
+msgid "Team Hero:"
+msgstr "تیم قهرمان :"
+
+#: Credits.py:136
+msgid "Creators of Career Mode"
+msgstr "آفریننده نحوه اشتغال"
+
+#: Credits.py:137
+msgid "Honorary Credits to:"
+msgstr "تاریخ عضویت افتخاری به :"
+
+#: Credits.py:138
+msgid "Donations to MFH"
+msgstr "کمک مالی به MFH"
+
+#: Credits.py:139
+msgid "Donations to akedrou"
+msgstr "کمک مالی به akedrou"
+
+#: Credits.py:140
+msgid "Major Donations:"
+msgstr "کمک مالی عمده :"
+
+#: Credits.py:141
+msgid "Other Donations:"
+msgstr "کمک مالی دیگر :"
+
+#: Credits.py:142
+msgid "Other Credits:"
+msgstr "معارفه ها دیگر :"
+
+#: Credits.py:143
+msgid "Jurgen FoF tutorial inspired by adam02"
+msgstr "یورگن FoF خودآموز الهام گرفته شده توسط adam02"
+
+#: Credits.py:144
+msgid "Drum test song tutorial by Heka"
+msgstr "طبل آهنگ خودآموز آزمون توسط Heka"
+
+#: Credits.py:145
+msgid "Bang Bang Mystery Man song tutorial is from the original FoF"
+msgstr "بنگ بنگ ترانه مرد آموزش رمز و راز از FoF اصلی"
+
+#: Credits.py:146
+msgid "Drum Rolls practice tutorial by venom426"
+msgstr "طبل عمل رولز آموزش توسط venom426"
+
+#: Credits.py:147
+msgid "If you see your work included in this game and you aren't"
+msgstr "اگر شما کار خود را که در این بازی من و تو نیست"
+
+#: Credits.py:148
+msgid "in the credits, please leave a polite post stating what you"
+msgstr "در اعتبارات ، لطفا با ترک پست مودبانه بیان آنچه شما"
+
+#: Credits.py:149
+msgid "did and when, as specific as possible."
+msgstr "بود و هنگامی که به عنوان خاص که ممکن است."
+
+#: Credits.py:150
+msgid "If you can, please provide a link to your original posting"
+msgstr "اگر می توانید ، لطفا پیوند به اصلی خود را ارسال"
+
+#: Credits.py:151
+msgid "of the work in question."
+msgstr "از کار در سوال."
+
+#: Credits.py:152
+msgid "Then we can properly credit you."
+msgstr "سپس ما به خوبی می تواند به شما اعتباری."
+
+#: Credits.py:153
+msgid "Thank you for your contribution."
+msgstr "با تشکر از همکاری شما."
+
+#: Credits.py:154
+msgid "Please keep in mind that it is not easy to trace down and"
+msgstr "لطفا به خاطر داشته باشید که آن را به آسانی ردیابی پایین و نه"
+
+#: Credits.py:155
+msgid "credit every single person who contributed; if your name is"
+msgstr "اعتبار هر فرد که به کمک ؛ اگر نام شما"
+
+#: Credits.py:156
+msgid "not included, it was not meant to slight you."
+msgstr "شامل نشده بود ، در نه به معنای کم شما خواهد شد."
+
+#: Credits.py:157
+msgid "It was an oversight."
+msgstr "این نظارت است."
+
+#: Credits.py:159
+#, python-format
+msgid "%s theme credits:"
+msgstr "تم %s اعتبار :"
+
+#: Credits.py:160
+#, python-format
+msgid "%s theme specific thanks:"
+msgstr "%s تشکر موضوع خاص :"
+
+#: Credits.py:162
+msgid "French"
+msgstr "فرانسوی"
+
+#: Credits.py:163
+msgid "French (reform 1990)"
+msgstr "فرانسوی (اصلاحات 1990)"
+
+#: Credits.py:164
+msgid "German"
+msgstr "آلمانی"
+
+#: Credits.py:165
+msgid "Italian"
+msgstr "ایتالیایی"
+
+#: Credits.py:166
+msgid "Pig Latin"
+msgstr "خوک لاتین"
+
+#: Credits.py:167
+msgid "Portuguese (Brazilian)"
+msgstr "پرتغالی (برزیل)"
+
+#: Credits.py:168
+msgid "Russian"
+msgstr "روسی"
+
+#: Credits.py:169
+msgid "Spanish"
+msgstr "اسپانیایی"
+
+#: Credits.py:170
+msgid "Swedish"
+msgstr "سوئد"
+
+#: Credits.py:223
+msgid "Made with:"
+msgstr "ساخته شده با :"
+
+#: Credits.py:246
+msgid "Source Code available under the GNU General Public License"
+msgstr "کد منبع تحت مجوز عمومی همگانی گنو"
+
+#: Credits.py:250
+msgid "Copyright 2006, 2007 by Unreal Voodoo"
+msgstr "کپی رایت 2006 ، 2007 توسط وودو غیرواقعی"
+
+#: Credits.py:251
+msgid "Copyright 2008-2010 by Team FoFiX"
+msgstr "کپی رایت 2008-2010 توسط تیم FoFiX"
+
+#: Dialogs.py:489
+msgid "<OK>"
+msgstr "<OK>"
+
+#: Dialogs.py:576
+msgid "[Parent Folder]"
+msgstr "[والد] پوشه"
+
+#: Dialogs.py:580
+msgid "[Accept Folder]"
+msgstr "[پذیرش] پوشه"
+
+#: Dialogs.py:582
+#, python-format
+msgid "%s [Folder]"
+msgstr "%s] پوشه ["
+
+#: Dialogs.py:707
+msgid "Yellow (#3) / Blue (#4) to change, Green (#1) to confirm:"
+msgstr "زرد (# 3) / آبی (# 4) برای تغییر ، سبز (# 1) برای تائید :"
+
+#: Dialogs.py:719
+msgid "Loading necks..."
+msgstr "در حال بارگذاری... گردن"
+
+#: Dialogs.py:784
+#: GameEngine.py:97
+msgid "Neck"
+msgstr "گردن"
+
+#: Dialogs.py:983
+msgid "Loading avatars..."
+msgstr "در حال بارگذاری... آواتار"
+
+#: Dialogs.py:1092
+msgid "Select Your Avatar:"
+msgstr "انتخاب آواتار شما :"
+
+#: Dialogs.py:1572
+msgid "Press Start to Begin!"
+msgstr "شروع به مطبوعات شد!"
+
+#: Dialogs.py:1573
+msgid "Use the keyboard to select or just play some notes!"
+msgstr "استفاده از صفحه کلید برای بازی را انتخاب کنید و یا فقط بعضی از یادداشت های!"
+
+#: Dialogs.py:1584
+msgid "No Controller"
+msgstr "بدون کنترل"
+
+#: Dialogs.py:1588
+msgid "Disabled Controller"
+msgstr "کنترل غیر فعال"
+
+#: Dialogs.py:1592
+msgid "Default Guitar"
+msgstr "پیش فرض گیتار"
+
+#: Dialogs.py:1594
+msgid "Default Drums"
+msgstr "پیش فرض درام"
+
+#: Dialogs.py:1596
+msgid "Default Microphone"
+msgstr "پیش فرض میکروفن"
+
+#: Dialogs.py:1657
+msgid "controller"
+msgstr "کنترل کننده"
+
+#: Dialogs.py:1659
+msgid "controllers"
+msgstr "کنترل"
+
+#: Dialogs.py:1660
+#, python-format
+msgid "You only have %d %s defined. You need at least %d for this mode."
+msgstr "شما فقط باید %d %s تعریف شده است. شما نیاز به حداقل %d برای این حالت."
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+#: GameEngine.py:212
+msgid "Left"
+msgstr "چپ"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+#: GameEngine.py:212
+msgid "Right"
+msgstr "حق"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Up"
+msgstr "بالا"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Down"
+msgstr "پایین"
+
+#: Dialogs.py:1916
+#: Dialogs.py:1924
+#: Dialogs.py:1929
+#: Dialogs.py:1937
+msgid "Start"
+msgstr "شروع"
+
+#: Dialogs.py:1917
+#: Dialogs.py:1925
+#: Dialogs.py:1930
+#: Dialogs.py:1938
+msgid "Select"
+msgstr "انتخاب"
+
+#: Dialogs.py:1917
+msgid "Fret #1"
+msgstr "اخم # 1"
+
+#: Dialogs.py:1917
+msgid "Solo #1"
+msgstr "سولو # 1"
+
+#: Dialogs.py:1917
+msgid "Fret #2"
+msgstr "اخم # 2"
+
+#: Dialogs.py:1917
+msgid "Solo #2"
+msgstr "سولو # 2"
+
+#: Dialogs.py:1918
+msgid "Fret #3"
+msgstr "اخم # 3"
+
+#: Dialogs.py:1918
+msgid "Solo #3"
+msgstr "انفرادی # 3"
+
+#: Dialogs.py:1918
+msgid "Fret #4"
+msgstr "اخم # 4"
+
+#: Dialogs.py:1918
+msgid "Solo #4"
+msgstr "سولو # 4"
+
+#: Dialogs.py:1918
+msgid "Fret #5"
+msgstr "اخم # 5"
+
+#: Dialogs.py:1919
+msgid "Solo #5"
+msgstr "سولو # 5"
+
+#: Dialogs.py:1919
+msgid "Pick!"
+msgstr "انتخاب!"
+
+#: Dialogs.py:1919
+#: Dialogs.py:1927
+#: Dialogs.py:1932
+#: Dialogs.py:1940
+msgid "Starpower!"
+msgstr "Starpower!"
+
+#: Dialogs.py:1919
+#: GameEngine.py:278
+msgid "Whammy"
+msgstr "Whammy"
+
+#: Dialogs.py:1925
+#: Dialogs.py:1938
+msgid "Drum #1"
+msgstr "طبل # 1"
+
+#: Dialogs.py:1925
+msgid "Drum #2"
+msgstr "طبل # 2"
+
+#: Dialogs.py:1926
+#: Dialogs.py:1939
+msgid "Drum #3"
+msgstr "طبل # 3"
+
+#: Dialogs.py:1926
+msgid "Drum #4"
+msgstr "درام # 4"
+
+#: Dialogs.py:1927
+#: Dialogs.py:1940
+msgid "Bass Drum"
+msgstr "طبل بزرگ"
+
+#: Dialogs.py:1927
+#: Dialogs.py:1940
+#: Dialogs.py:2268
+#: GameEngine.py:89
+#: GameEngine.py:155
+#: GameEngine.py:190
+#: GameEngine.py:691
+#: GameResultsScene.py:250
+msgid "None"
+msgstr "هیچ کدام"
+
+#: Dialogs.py:1938
+msgid "Cymbal #2"
+msgstr "سنج # 2"
+
+#: Dialogs.py:1939
+msgid "Cymbal #4"
+msgstr "سنج # 4"
+
+#: Dialogs.py:1939
+msgid "Drum #5"
+msgstr "طبل # 5"
+
+#: Dialogs.py:1942
+msgid "Fret"
+msgstr "اخم"
+
+#: Dialogs.py:1943
+msgid "Solo"
+msgstr "تک نوازی"
+
+#: Dialogs.py:1944
+msgid "Drum"
+msgstr "طبل"
+
+#: Dialogs.py:1945
+msgid "Slide~"
+msgstr "اسلاید ~"
+
+#: Dialogs.py:2248
+msgid "Level:"
+msgstr "صعود به سطح :"
+
+#: Dialogs.py:2249
+msgid "Note:"
+msgstr "توجه :"
+
+#: Dialogs.py:2263
+msgid "Tap"
+msgstr "شیر"
+
+#: Dialogs.py:2359
+msgid "Choose a File"
+msgstr "فایل را انتخاب کنید"
+
+#: Dialogs.py:2435
+msgid "Play with the keys and press Escape when you're done."
+msgstr "بازی با کلید های فشار و فرار زمانی که می خواهید انجام می شود."
+
+#: Dialogs.py:2448
+#: Dialogs.py:2554
+#: Dialogs.py:2560
+msgid "Loading..."
+msgstr "در حال بارگذاری..."
+
+#: FoFiX.py:179
+#, python-format
+msgid "Song directory provided ('%s') is not a valid song directory. Starting up FoFiX in standard mode."
+msgstr "دایرکتوری آهنگ ارائه شده ('%s') است دایرکتوری آهنگ معتبر نیست. راه اندازی FoFiX در حالت استاندارد."
+
+#: FoFiX.py:301
+msgid "Terminating due to unhandled exception:"
+msgstr "فسخ به علت استثنا unhandled :"
+
+#: FoFiX.py:303
+msgid "If you make a bug report about this error, please include the contents of the following log file:"
+msgstr "اگر شما گزارش اشکال در مورد این خطا است ، لطفا شامل مطالب زیر وارد شوید پرونده :"
+
+#: FoFiX.py:305
+msgid "The log file already includes the traceback given above."
+msgstr "فایل ثبت در حال حاضر شامل traceback داده شده در بالا."
+
+#: FoFiX.py:310
+msgid "Open the logfile now?"
+msgstr "باز logfile در حال حاضر؟"
+
+#: GameEngine.py:86
+msgid "FPS Limiter"
+msgstr "فریم در ثانیه محدود"
+
+#: GameEngine.py:86
+msgid "On (Set Below)"
+msgstr "در (زیر مجموعه)"
+
+#: GameEngine.py:86
+msgid "Off (Auto Max FPS)"
+msgstr "خاموش (خودکار فریم در ثانیه حداکثر)"
+
+#: GameEngine.py:86
+msgid "Use this to enable or disable the FPS Limiter. If off, the game will render as many frames as possible. (This is affected by the 'Performance' quickset)"
+msgstr "با استفاده از این برای فعال یا غیر فعال کردن فریم در ثانیه محدود. اگر خاموش ، بازی خواهد کرد بارگزاری صفحه به عنوان فریم های بسیاری به عنوان امکان پذیر است. (این کار توسط 'ولیک عملکرد' تحت تاثیر قرار"
+
+#: GameEngine.py:88
+msgid "Fullscreen Mode"
+msgstr "حالت تمامصفحه"
+
+#: GameEngine.py:88
+#: GameEngine.py:90
+#: GameEngine.py:93
+#: GameEngine.py:96
+#: GameEngine.py:105
+#: GameEngine.py:107
+#: GameEngine.py:112
+#: GameEngine.py:145
+#: GameEngine.py:146
+#: GameEngine.py:172
+#: GameEngine.py:175
+#: GameEngine.py:176
+#: GameEngine.py:177
+#: GameEngine.py:178
+#: GameEngine.py:181
+#: GameEngine.py:182
+#: GameEngine.py:196
+#: GameEngine.py:199
+#: GameEngine.py:201
+#: GameEngine.py:202
+#: GameEngine.py:216
+#: GameEngine.py:219
+#: GameEngine.py:225
+#: GameEngine.py:245
+#: GameEngine.py:246
+#: GameEngine.py:247
+#: GameEngine.py:259
+#: GameEngine.py:260
+#: GameEngine.py:261
+#: GameEngine.py:262
+#: GameEngine.py:263
+#: GameEngine.py:264
+#: GameEngine.py:265
+#: GameEngine.py:266
+#: GameEngine.py:267
+#: GameEngine.py:268
+#: GameEngine.py:269
+#: GameEngine.py:300
+#: GameEngine.py:301
+#: GameEngine.py:304
+#: GameEngine.py:312
+#: GameEngine.py:315
+#: GameEngine.py:318
+#: GameEngine.py:321
+#: GameEngine.py:371
+#: GameEngine.py:410
+msgid "No"
+msgstr "ندارد"
+
+#: GameEngine.py:88
+#: GameEngine.py:90
+#: GameEngine.py:93
+#: GameEngine.py:96
+#: GameEngine.py:105
+#: GameEngine.py:107
+#: GameEngine.py:112
+#: GameEngine.py:145
+#: GameEngine.py:146
+#: GameEngine.py:172
+#: GameEngine.py:175
+#: GameEngine.py:176
+#: GameEngine.py:177
+#: GameEngine.py:178
+#: GameEngine.py:181
+#: GameEngine.py:182
+#: GameEngine.py:196
+#: GameEngine.py:199
+#: GameEngine.py:216
+#: GameEngine.py:219
+#: GameEngine.py:225
+#: GameEngine.py:245
+#: GameEngine.py:246
+#: GameEngine.py:247
+#: GameEngine.py:259
+#: GameEngine.py:260
+#: GameEngine.py:261
+#: GameEngine.py:262
+#: GameEngine.py:263
+#: GameEngine.py:264
+#: GameEngine.py:265
+#: GameEngine.py:266
+#: GameEngine.py:267
+#: GameEngine.py:268
+#: GameEngine.py:300
+#: GameEngine.py:301
+#: GameEngine.py:304
+#: GameEngine.py:312
+#: GameEngine.py:315
+#: GameEngine.py:318
+#: GameEngine.py:321
+#: GameEngine.py:371
+#: GameEngine.py:410
+msgid "Yes"
+msgstr "بله"
+
+#: GameEngine.py:88
+msgid "Play either in fullscreen ('Yes') or windowed ('No') mode."
+msgstr "بازی یا در تمام صفحه ('بله') و یا پنجرهدار ('نه') حالت."
+
+#: GameEngine.py:89
+msgid "Antialiasing Quality"
+msgstr "Antialiasing کیفیت"
+
+#: GameEngine.py:89
+msgid "Sets the antialiasing quality of openGL rendering. Higher values reduce jaggediness, but could affect performance. (This is affected by the 'Performance' quickset)"
+msgstr "مجموعه های با کیفیت رندر شده اپنجیال antialiasing. عالی کاهش ارزش jaggediness ، اما می تواند عملکرد تاثیر می گذارد. (این کار توسط 'ولیک عملکرد' تحت تاثیر قرار"
+
+#: GameEngine.py:90
+msgid "Show Fret Glow Effect"
+msgstr "نمایش اخم اثر براق"
+
+#: GameEngine.py:90
+msgid "Turn on or off the glow that appears around a fret when you press it."
+msgstr "روشن یا خاموش که به نظر می رسد درخشش اطراف اخم زمانی که شما آن را فشار دهید."
+
+#: GameEngine.py:92
+msgid "Frames per Second"
+msgstr "فریم در ثانیه"
+
+#: GameEngine.py:92
+msgid "Set the number of frames to render per second. Higher values are better, but your computer may not be able to keep up. You probably can leave this alone. (This is affected by the 'Performance' quickset)"
+msgstr "تنظیم تعداد فریم در هر ثانیه به رندر. ارزش های عالی هستند بهتر است ، اما رایانه شما ممکن است قادر به نگه داشتن. شما احتمالا می تواند به تنهایی این ترک. (این کار توسط 'ولیک عملکرد' تحت تاثیر قرار"
+
+#: GameEngine.py:93
+msgid "Print Frames per Second"
+msgstr "قابهای نسخه قابل چاپ دوم در هر"
+
+#: GameEngine.py:93
+msgid "This will display your FPS on some screens, and if running from sources will print your FPS there every two seconds."
+msgstr "با این کار فریم در ثانیه خود را در برخی از صفحات ، صفحه نمایش و اگر در حال اجرا را از منابع خواهد فریم در ثانیه خود را در آنجا چاپ هر 2 ثانیه صورت گرفت."
+
+#: GameEngine.py:94
+msgid "Fret Glow Color"
+msgstr "اخم رنگ براق"
+
+#: GameEngine.py:94
+msgid "Same as Fret"
+msgstr "همان اخم"
+
+#: GameEngine.py:94
+msgid "Actual Color"
+msgstr "رنگ واقعی"
+
+#: GameEngine.py:94
+msgid "Sets whether or not the fret glow image will be color-masked with the theme-determined fret color."
+msgstr "دستگاه یا نه اخم تصویر درخشش خواهد رنگ پوشانده با موضوع تعیین اخم رنگی."
+
+#: GameEngine.py:96
+msgid "Use Shaders"
+msgstr "Shaders استفاده"
+
+#: GameEngine.py:96
+msgid "Enable or disable the use of shaders. Shaders are visual effects. This must be set to 'Yes' to use the settings below. 'By Theme' leaves it to the theme creator."
+msgstr "فعال یا غیر فعال کردن استفاده از shaders. Shaders هستند اثرات بصری. این موضوع باید در مجموعه ای به 'بله' به استفاده از تنظیمات زیر وارد نمایید. 'با تم' برگ آن را به سازنده تم."
+
+#: GameEngine.py:97
+#: GameEngine.py:98
+#: GameEngine.py:99
+#: GameEngine.py:101
+#: GameEngine.py:102
+#: GameEngine.py:118
+#: GameEngine.py:322
+#: GameEngine.py:351
+msgid "Disabled"
+msgstr "غیر فعال"
+
+#: GameEngine.py:97
+msgid "Flashing"
+msgstr "فلش"
+
+#: GameEngine.py:97
+#: GameEngine.py:98
+#: GameEngine.py:99
+#: GameEngine.py:100
+#: GameEngine.py:101
+#: GameEngine.py:102
+#: GameEngine.py:190
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:213
+#: GameEngine.py:228
+#: GameEngine.py:232
+#: GameEngine.py:291
+#: GameEngine.py:298
+msgid "By Theme"
+msgstr "با تم"
+
+#: GameEngine.py:97
+msgid "A bright flash along your fretboard reflecting the notes you've hit. 'By Theme' leaves it to the theme creator."
+msgstr "فلاش روشن همراه fretboard خود را منعکس یادداشت کرده اید رسید. 'با تم' برگ آن را به سازنده تم."
+
+#: GameEngine.py:98
+msgid "Stage"
+msgstr "مرحله"
+
+#: GameEngine.py:98
+msgid "EQ Lightning"
+msgstr "اکولایزر آذرخش"
+
+#: GameEngine.py:98
+msgid "A visual waveform centered above you fretboard. 'By Theme' leaves it to the theme creator."
+msgstr "شکل موج بصری محور فوق به شما fretboard. 'با تم' برگ آن را به سازنده تم."
+
+#: GameEngine.py:99
+msgid "Solo and SP"
+msgstr "سولو و SP"
+
+#: GameEngine.py:99
+#: GameEngine.py:100
+msgid "Lightnings"
+msgstr "Lightnings"
+
+#: GameEngine.py:99
+msgid "Enables lightning along the side of your fretboard when you are in solos or use SP. 'By Theme' leaves it to the theme creator."
+msgstr "رعد و برق را قادر میسازد در کنار fretboard خود را هنگامی که شما در solos هستند و یا استفاده از SP. 'با تم' برگ آن را به سازنده تم."
+
+#: GameEngine.py:100
+msgid "Tails"
+msgstr "خط"
+
+#: GameEngine.py:100
+msgid "Classic"
+msgstr "کلاسیک"
+
+#: GameEngine.py:100
+#: GameEngine.py:210
+#: GameEngine.py:298
+msgid "RB2"
+msgstr "RB2"
+
+#: GameEngine.py:100
+msgid "Sets the tail effect. Choose from classic tails, lightning, or RB2 style. 'By Theme' leaves it to the theme creator."
+msgstr "تعیین اثر دم. گزینش از میان دم کلاسیک ، رعد و برق ، یا سبک RB2. 'با تم' برگ آن را به سازنده تم."
+
+#: GameEngine.py:101
+msgid "Notes"
+msgstr "یادداشت ها"
+
+#: GameEngine.py:101
+msgid "Metal"
+msgstr "فلز"
+
+#: GameEngine.py:101
+msgid "Gives your notes a metallic sheen. 'By Theme' leaves it to the theme creator."
+msgstr "یادداشت خود را می دهد برق فلزی. 'با تم' برگ آن را به سازنده تم."
+
+#: GameEngine.py:102
+#: GameEngine.py:298
+msgid "CDs"
+msgstr "سی دی"
+
+#: GameEngine.py:102
+msgid "White"
+msgstr "سفید"
+
+#: GameEngine.py:102
+msgid "Adds a soft lighting effect to CD labels in CD setlist mode."
+msgstr "می افزاید : اثر نور به نرم برچسب سی دی در حالت setlist سی دی."
+
+#: GameEngine.py:105
+msgid "Disable Screensaver"
+msgstr "غیر فعال کردن محافظ صفحه نمایش"
+
+#: GameEngine.py:105
+msgid "Set whether the game disables the screensaver while it is running.  Does not necessarily work on all platforms."
+msgstr "ست که آیا بازی را غیرفعال محافظ صفحه نمایش در حالی که در حال اجرا است. لزوما به کار بر روی تمام سیستم عامل."
+
+#: GameEngine.py:107
+msgid "Animated Star Notes"
+msgstr "یادداشت های ستاره متحرک"
+
+#: GameEngine.py:107
+msgid "This will animate star notes as they come towards you, if that is included in your theme. This can have a hit on performance. (This is affected by the 'Performance' quickset)"
+msgstr "این یادداشت ها به عنوان ستاره را به سمت شما آمده است تحریک و تشجیع کردن ، اگر که در تم شما گنجانده شده است. این می تواند ضربه بر عملکرد داشته باشد. (این کار توسط 'ولیک عملکرد' تحت تاثیر قرار"
+
+#: GameEngine.py:108
+msgid "Sample Frequency"
+msgstr "فرکانس نمونه"
+
+#: GameEngine.py:108
+msgid "Set the sample frequency for the audio in the game. You almost certainly want to leave this at 44100 Hz unless you really know what you're doing."
+msgstr "تنظیم فرکانس نمونه برای صدا در بازی ها. شما مسلما می خواهید به ترک این در 44،100 هرتز مگر اینکه شما واقعا می دانیم چه شما انجام."
+
+#: GameEngine.py:109
+msgid "Sample Bits"
+msgstr "بیت نمونه"
+
+#: GameEngine.py:109
+msgid "Set the sample bits for the audio in the game. You almost certainly want to leave this at 16-bit unless you really know what you're doing."
+msgstr "آماده سازی نمونه برای بیت های صوتی در بازی. شما مسلما می خواهید به ترک این در 16 بیتی مگر اینکه شما واقعا می دانم آنچه شما انجام."
+
+#: GameEngine.py:112
+msgid "Upload Highscores"
+msgstr "رکورد ارسال"
+
+#: GameEngine.py:112
+msgid "If enabled, your high scores will be sent to the server to rank you against other players."
+msgstr "در صورت فعال بودن ، نمره بالا شما به سرور فرستاده شده برای شما در مقابل دیگر بازیکنان رتبه."
+
+#: GameEngine.py:118
+msgid "Song Queue System"
+msgstr "آهنگ سیستم صف"
+
+#: GameEngine.py:118
+#: GameEngine.py:188
+msgid "Automatic"
+msgstr "اتوماتیک"
+
+#: GameEngine.py:118
+msgid "Enables or disables creating multi-song sets in the setlist."
+msgstr "فعال یا غیر فعال ساختن مجموعه چند آهنگ setlist."
+
+#: GameEngine.py:119
+msgid "Song Queue Order"
+msgstr "آهنگ سفارش صف"
+
+#: GameEngine.py:119
+#: GameEngine.py:167
+#: GameEngine.py:168
+msgid "In Order"
+msgstr "در سفارش"
+
+#: GameEngine.py:119
+#: GameEngine.py:167
+#: GameEngine.py:168
+#: GameEngine.py:169
+#: GameEngine.py:676
+msgid "Random"
+msgstr "تصادفی"
+
+#: GameEngine.py:119
+msgid "Sets the order in which songs added to the queue will be played."
+msgstr "تعیین جهت که در آن ترانه های اضافه شده به صف خواهند ایفا کرده است."
+
+#: GameEngine.py:120
+msgid "Song Queue Parts"
+msgstr "ترانه قطعات صف"
+
+#: GameEngine.py:120
+msgid "Closest Available"
+msgstr "نزدیک ترین شد"
+
+#: GameEngine.py:120
+#: GameEngine.py:121
+msgid "Always Ask"
+msgstr "همیشه بپرسید"
+
+#: GameEngine.py:120
+msgid "Choose the behavior when the chosen part is not available in all queued songs. 'Closest Available' will match lead parts to guitar and bass to rhythm, or guitar if no rhythm parts are available. 'Always Ask' brings up the part select screen."
+msgstr "را انتخاب کنید هنگامی که رفتار بخشی انتخاب شده است در تمام ترانه های صفی در دسترس نیست. «نزدیک ترین شد خواهند منجر به قطعات گیتار ریتم و باس به ، و یا در صورت عدم مطابقت گیتار ریتم قطعات در دسترس هستند. 'همیشه بپرسید' به ارمغان می آورد تا بخشی از صفحه نمایش را انتخاب کنید."
+
+#: GameEngine.py:121
+msgid "Song Queue Difficulty"
+msgstr "آهنگ دشواری صف"
+
+#: GameEngine.py:121
+msgid "Closest Down"
+msgstr "نزدیک ترین داون"
+
+#: GameEngine.py:121
+msgid "Closest Up"
+msgstr "نزدیک ترین نام"
+
+#: GameEngine.py:121
+msgid "Choose the behavior when the chosen difficulty is not available in all queued songs. 'Closest Up' will prefer a harder difficulty, while 'Closest Down' will prefer an easier one. 'Always Ask' brings up the difficulty select screen."
+msgstr "را انتخاب کنید هنگامی که رفتار مشکل انتخاب شده است در تمام ترانه های صفی در دسترس نیست. «نزدیک ترین به بالا' خواهد شد مشکل سخت تر ، ترجیح می دهند در حالی که «نزدیک ترین پایین' 1 آسان تر خواهد شد ترجیح می دهم. 'همیشه بپرسید' به ارمغان می آورد تا مشکل صفحه نمایش را انتخاب کنید."
+
+#: GameEngine.py:134
+msgid "Buffer Size"
+msgstr "حجم بافر"
+
+#: GameEngine.py:134
+msgid "Set your audio buffer size. Higher values will reduce audio popping, but increase game lag. Only change this if you are having audio quality issues, and use the lowest value that sounds right."
+msgstr "تنظیم اندازه بافر صوتی شما. عالی ارزش های کاهش خواهد popping های صوتی ، اما افزایش تاخیر بازی ها. فقط این اگر شما با مسائل کیفیت صدا و ویرایش ، و استفاده از کمترین مقدار برای تلفن های موبایل که درست است."
+
+#: GameEngine.py:135
+msgid "A/V Delay"
+msgstr "/ تاخیر پنجم"
+
+#: GameEngine.py:135
+msgid "Set your A/V delay. Unfortunately for now you have to use trial and error."
+msgstr "آماده سازی خود را / تاخیر پنجم. متاسفانه در حال حاضر شما مجبور به استفاده از آزمون و خطا."
+
+#: GameEngine.py:136
+msgid "Screw-Up Sounds"
+msgstr "پیچ کردن صداها"
+
+#: GameEngine.py:136
+#: GameEngine.py:152
+#: GameEngine.py:156
+#: GameEngine.py:158
+#: GameEngine.py:159
+#: GameEngine.py:167
+#: GameEngine.py:168
+#: GameEngine.py:170
+#: GameEngine.py:171
+#: GameEngine.py:173
+#: GameEngine.py:179
+#: GameEngine.py:187
+#: GameEngine.py:189
+#: GameEngine.py:193
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:200
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:206
+#: GameEngine.py:207
+#: GameEngine.py:208
+#: GameEngine.py:213
+#: GameEngine.py:215
+#: GameEngine.py:218
+#: GameEngine.py:220
+#: GameEngine.py:222
+#: GameEngine.py:223
+#: GameEngine.py:227
+#: GameEngine.py:229
+#: GameEngine.py:231
+#: GameEngine.py:232
+#: GameEngine.py:239
+#: GameEngine.py:248
+#: GameEngine.py:249
+#: GameEngine.py:251
+#: GameEngine.py:274
+#: GameEngine.py:278
+#: GameEngine.py:279
+#: GameEngine.py:280
+#: GameEngine.py:281
+#: GameEngine.py:282
+#: GameEngine.py:283
+#: GameEngine.py:284
+#: GameEngine.py:285
+#: GameEngine.py:286
+#: GameEngine.py:289
+#: GameEngine.py:290
+#: GameEngine.py:291
+#: GameEngine.py:293
+#: GameEngine.py:294
+#: GameEngine.py:303
+#: GameEngine.py:326
+#: GameEngine.py:330
+#: GameEngine.py:334
+#: GameEngine.py:338
+#: GameEngine.py:405
+msgid "Off"
+msgstr "خاموش"
+
+#: GameEngine.py:136
+msgid "Quiet"
+msgstr "ساکت"
+
+#: GameEngine.py:136
+msgid "Loud"
+msgstr "با صدای بلند"
+
+#: GameEngine.py:136
+msgid "Painful"
+msgstr "دردناک"
+
+#: GameEngine.py:136
+msgid "How loud should the sound of your screwing up be? Very."
+msgstr "چگونه با صدای بلند باید صدای خود را تا screwing باشد؟ خیلی."
+
+#: GameEngine.py:140
+msgid "Active Track Volume"
+msgstr "جلد آهنگ فعال"
+
+#: GameEngine.py:140
+msgid "Volume of the parts you are playing."
+msgstr "جلد از قطعات شما بازی."
+
+#: GameEngine.py:141
+msgid "Background Volume"
+msgstr "سابقه و هدف دوره"
+
+#: GameEngine.py:141
+msgid "Volume of the parts you are not playing."
+msgstr "جلد از قطعات شما بازی نیست."
+
+#: GameEngine.py:144
+msgid "Process Priority"
+msgstr "فرایند اولویت"
+
+#: GameEngine.py:144
+msgid "Idle"
+msgstr "تنبل"
+
+#: GameEngine.py:144
+msgid "Low"
+msgstr "کم"
+
+#: GameEngine.py:144
+#: GameEngine.py:157
+#: GameEngine.py:179
+#: GameEngine.py:299
+#: GameResultsScene.py:276
+msgid "Normal"
+msgstr "عادی"
+
+#: GameEngine.py:144
+msgid "Above Normal"
+msgstr "بالاتر از نرمال"
+
+#: GameEngine.py:144
+msgid "High"
+msgstr "عالی"
+
+#: GameEngine.py:144
+msgid "Realtime"
+msgstr "بیدرنگ"
+
+#: GameEngine.py:144
+msgid "Change this to increase the priority of the FoFiX process. Don't change this unless you know what you're doing. DO NOT set this to Realtime. Ever."
+msgstr "این تغییر به افزایش اولویت فرایند FoFiX. آیا این تغییر نیست مگر اینکه شما می دانید آنچه شما انجام. نکنید این مجموعه به بیدرنگ. همیشه."
+
+#: GameEngine.py:145
+msgid "Restrict to First Core (Win32 Only)"
+msgstr "محدود کردن به پایه اول (فقط Win32)"
+
+#: GameEngine.py:145
+msgid "Choose whether to restrict the game to running on only the first processor core on the system. Only has an effect under Windows."
+msgstr "را انتخاب کنید که آیا برای محدود کردن یک بازی را بر روی تنها هسته پردازنده برای اولین بار در سیستم. فقط تا اثر تحت ویندوز."
+
+#: GameEngine.py:146
+msgid "Use Psyco"
+msgstr "استفاده از Psyco"
+
+#: GameEngine.py:146
+msgid "Enable or disable the Psyco specializing compiler. Tests have indicated the game runs faster with it off."
+msgstr "فعال یا غیر فعال کردن Psyco کامپایلر متخصص. آزمایشات نشان میدهد که بازی را اجرا می کند سریع تر با آن را خاموش."
+
+#: GameEngine.py:147
+msgid "Missed Notes"
+msgstr "یادداشت های فراموش شده"
+
+#: GameEngine.py:147
+msgid "Disappear"
+msgstr "ناپدید شدن"
+
+#: GameEngine.py:147
+msgid "Keep on going"
+msgstr "را در رفتن"
+
+#: GameEngine.py:147
+msgid "When you miss a note, this sets whether they disappear from the fretboard or scroll off the bottom of the screen."
+msgstr "وقتی دلم برات تنگ شده توجه داشته باشید ، این مجموعه که آیا آنها از fretboard ناپدید می شوند و یا حرکت کردن از پایین صفحه نمایش."
+
+#: GameEngine.py:150
+msgid "Performance"
+msgstr "کارایی"
+
+#: GameEngine.py:150
+#: GameEngine.py:151
+msgid "Manual"
+msgstr "دستی"
+
+#: GameEngine.py:150
+msgid "Pure Speed"
+msgstr "سرعت خالص"
+
+#: GameEngine.py:150
+msgid "Fast"
+msgstr "سریع"
+
+#: GameEngine.py:150
+msgid "Quality (Recommended)"
+msgstr "کیفیت (توصیه شده)"
+
+#: GameEngine.py:150
+msgid "Max Quality (Slow)"
+msgstr "کیفیت مکس (آهسته)"
+
+#: GameEngine.py:150
+msgid "Set the performance of your game. You can fine-tune in the advanced menus."
+msgstr "مجموعه عملکرد بازی کنید. شما می توانید ریز لحن در منوهای پیشرفته."
+
+#: GameEngine.py:151
+msgid "Gameplay"
+msgstr "داستان"
+
+#: GameEngine.py:151
+msgid "Theme-Based"
+msgstr "تم مبتنی بر"
+
+#: GameEngine.py:151
+msgid "MIDI Based"
+msgstr "بر اساس MIDI"
+
+#: GameEngine.py:151
+msgid "RB Style"
+msgstr "بنیاعتماد سبک"
+
+#: GameEngine.py:151
+msgid "GH Style"
+msgstr "هورمون رشد سبک"
+
+#: GameEngine.py:151
+msgid "WT Style"
+msgstr "دبلیو سبک"
+
+#: GameEngine.py:151
+msgid "Sets how the game 'feels' to play. Theme-Based lets the theme creator decide. MIDI Based lets the fretter decide."
+msgstr "تعیین چگونگی بازی احساس 'بازی کند. تم مبتنی بر اجازه می دهد تا خالق موضوع تصمیم می گیرند. MIDI امکان می دهد بر اساس fretter تصمیم می گیرند."
+
+#: GameEngine.py:152
+msgid "Pause on Loss of Focus"
+msgstr "مکث در از دست دادن تمرکز"
+
+#: GameEngine.py:152
+#: GameEngine.py:156
+#: GameEngine.py:158
+#: GameEngine.py:170
+#: GameEngine.py:173
+#: GameEngine.py:187
+#: GameEngine.py:189
+#: GameEngine.py:193
+#: GameEngine.py:200
+#: GameEngine.py:204
+#: GameEngine.py:205
+#: GameEngine.py:206
+#: GameEngine.py:207
+#: GameEngine.py:213
+#: GameEngine.py:218
+#: GameEngine.py:220
+#: GameEngine.py:222
+#: GameEngine.py:223
+#: GameEngine.py:227
+#: GameEngine.py:232
+#: GameEngine.py:239
+#: GameEngine.py:248
+#: GameEngine.py:249
+#: GameEngine.py:251
+#: GameEngine.py:274
+#: GameEngine.py:278
+#: GameEngine.py:279
+#: GameEngine.py:280
+#: GameEngine.py:281
+#: GameEngine.py:282
+#: GameEngine.py:283
+#: GameEngine.py:284
+#: GameEngine.py:285
+#: GameEngine.py:286
+#: GameEngine.py:289
+#: GameEngine.py:290
+#: GameEngine.py:291
+#: GameEngine.py:293
+#: GameEngine.py:303
+#: GameEngine.py:326
+#: GameEngine.py:330
+#: GameEngine.py:334
+#: GameEngine.py:338
+#: GameEngine.py:405
+msgid "On"
+msgstr "بر"
+
+#: GameEngine.py:152
+msgid "Set whether the game automatically pauses when another application steals input focus."
+msgstr "ست که آیا بازی به طور خودکار زمانی که برنامه دیگری مکث دزد تمرکز ورودی."
+
+#: GameEngine.py:155
+msgid "HO/PO System"
+msgstr "هو / سیستم صندوق"
+
+#: GameEngine.py:155
+#: GameResultsScene.py:252
+msgid "RF-Mod"
+msgstr "رادیویی ، وزارت دفاع"
+
+#: GameEngine.py:155
+#: GameResultsScene.py:254
+msgid "GH2 Strict"
+msgstr "GH2 اکید"
+
+#: GameEngine.py:155
+#: GameEngine.py:319
+#: GameResultsScene.py:256
+msgid "GH2"
+msgstr "GH2"
+
+#: GameEngine.py:155
+msgid "Set the system used for marking hammer-ons and pull-offs (HO/PO). You can either disable them altogether, use the RF-Mod method, or the GH2 system."
+msgstr "تنظیم سیستم برای مارک چکش فایرفاکس و کشیدن - آف (مورد استفاده هو / صندوق). شما یا می توانید آنها را کاملا غیر فعال رادیویی ، وزارت دفاع به روش یا سیستم GH2 ، استفاده کنید."
+
+#: GameEngine.py:156
+msgid "GH2 Sloppy Mode"
+msgstr "GH2 نحوه درهم و برهم"
+
+#: GameEngine.py:156
+msgid "Sloppy mode allows you to hold higher frets while tapping lower frets during HO/PO sections. This will lower your score by 25%."
+msgstr "حالت نا مرتب شما اجازه می دهد برای برگزاری بالاتر frets در حالی که در طول بهره برداری پایین تر frets هو / صندوق بخش بود. این نمره خود را با 25 ٪ پایین تر است."
+
+#: GameEngine.py:157
+msgid "HO/PO Frequency"
+msgstr "هو / فرکانس صندوق"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:272
+msgid "Least"
+msgstr "کمترین"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:274
+msgid "Less"
+msgstr "کمتر"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:278
+msgid "More"
+msgstr "بیشتر"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:280
+msgid "Even More"
+msgstr "حتی بیشتر"
+
+#: GameEngine.py:157
+#: GameResultsScene.py:282
+msgid "Most"
+msgstr "بیشترین"
+
+#: GameEngine.py:157
+msgid "Sets the window used to determine HO/PO notes. Increasing the frequency will reduce your score, and lower settings will give you a tiny bonus."
+msgstr "مجموعه های پنجره استفاده می شود برای تعیین هو / یادداشت صندوق. افزایش فرکانس خواهد نمره شما را کاهش خواهد داد ، و پایین تنظیمات به شما پاداش کوچکی به من بدهید."
+
+#: GameEngine.py:158
+msgid "HO/PO After Chord"
+msgstr "هو / صندوق پس از زه"
+
+#: GameEngine.py:158
+msgid "This will determine whether or not HO/PO notes can follow a chord. This only applies to the GH2 systems."
+msgstr "این هو یا نه / یادداشت صندوق می تواند سیم را دنبال تعیین کنید. این تنها به سیستم های GH2 صدق می کند."
+
+#: GameEngine.py:159
+msgid "Show Hit Accuracy"
+msgstr "نمایش آمار دقت"
+
+#: GameEngine.py:159
+msgid "Numeric"
+msgstr "عددی"
+
+#: GameEngine.py:159
+msgid "Friendly"
+msgstr "دوستانه"
+
+#: GameEngine.py:159
+msgid "Both"
+msgstr "هر دو"
+
+#: GameEngine.py:159
+msgid "Shows how accurate your note hits are. Numeric will give a time in milliseconds, and Friendly will use English to inform you. Both will show, well, both. Useful for determining your A/V delay."
+msgstr "نشان میدهد که چگونه خود توجه داشته باشید بازدید دقیق قرار دارند. عددی را هم در میلی ثانیه ، بدهد و این مطلب را انگلیسی به اطلاع شما استفاده کنید. هر دو را نشان می دهد ، خوب ، هر دو است. مفید برای تعیین شما / تاخیر پنجم."
+
+#: GameEngine.py:160
+msgid "Hit Accuracy Pos"
+msgstr "آمار سلامتی دقت"
+
+#: GameEngine.py:160
+#: GameEngine.py:212
+msgid "Center"
+msgstr "مرکز"
+
+#: GameEngine.py:160
+msgid "Top-Right Corner"
+msgstr "بالا راست گوشه"
+
+#: GameEngine.py:160
+msgid "Bottom-Left Corner"
+msgstr "از پایین به سمت چپ گوشه"
+
+#: GameEngine.py:160
+msgid "Center-Bottom"
+msgstr "مرکز پایین"
+
+#: GameEngine.py:160
+msgid "Sets where the accuracy information will be displayed, if enabled."
+msgstr "دستگاه که در آن اطلاعات دقت نمایش داده خواهد شد ، اگر خود فعال کنید."
+
+#: GameEngine.py:162
+msgid "Max Players"
+msgstr "بازی مکس"
+
+#: GameEngine.py:162
+msgid "Set the maximum number of players in Co-Op modes. Be aware that higher numbers are associated with a significant drop in performance."
+msgstr "تنظیم حداکثر تعداد بازیکنان در عملیات مشترک حالت. آگاه باشید که اعداد بالاتر با کاهش قابل توجهی در عملکرد همراه است."
+
+#: GameEngine.py:165
+msgid "Slideshow Delay"
+msgstr "تاخیر نمایش به صورت اسلاید"
+
+#: GameEngine.py:165
+msgid "Sets how long, in milliseconds, to wait between each frame in a stage slideshow."
+msgstr "دستگاه چه مدت در میلی ثانیه ، بین هر فریم را در نمایش به صورت اسلاید مرحله صبر کنید."
+
+#: GameEngine.py:166
+msgid "Animation Delay"
+msgstr "انیمیشن تاخیر"
+
+#: GameEngine.py:166
+msgid "Sets how long, in milliseconds, to wait between each frame in a stage animation."
+msgstr "دستگاه چه مدت در میلی ثانیه ، بین هر فریم در انیمیشن مرحله صبر کنید."
+
+#: GameEngine.py:167
+msgid "Stage Slideshow"
+msgstr "صحنه نمایش به صورت اسلاید"
+
+#: GameEngine.py:167
+#: GameEngine.py:168
+msgid "BackNForth"
+msgstr "BackNForth"
+
+#: GameEngine.py:167
+msgid "Sets the method used to rotate frames in a stage slideshow."
+msgstr "تعیین روش مورد استفاده برای چرخاندن قاب در صحنه نمایش به صورت اسلاید."
+
+#: GameEngine.py:168
+msgid "Stage Animation"
+msgstr "مرحله پویانمایی"
+
+#: GameEngine.py:168
+msgid "Sets the method used to rotate frames in a stage animation."
+msgstr "تعیین روش مورد استفاده برای چرخش فریم در انیمیشن مرحله."
+
+#: GameEngine.py:169
+msgid "Stage Selection"
+msgstr "مرحله انتخاب"
+
+#: GameEngine.py:169
+msgid "Default"
+msgstr "پیش فرض"
+
+#: GameEngine.py:169
+msgid "Blank"
+msgstr "سفید"
+
+#: GameEngine.py:169
+msgid "Video"
+msgstr "تصویری"
+
+#: GameEngine.py:169
+msgid "Set the background for your stage. Default will use the default background, and Blank puts you in a dark room. Probably a lot like the one you're in now."
+msgstr "آماده سازی زمینه برای مرحله شما. پیش فرض پس زمینه پیش فرض ، استفاده و خالی شما قرار میدهد در یک اتاق تاریک. احتمالا بسیاری مانند شما در حال حاضر 1 هستید."
+
+#: GameEngine.py:170
+msgid "Song Stage"
+msgstr "مرحله آهنگ"
+
+#: GameEngine.py:170
+msgid "Fretters can include a stage to be used with their songs. If this is enabled, you can see it."
+msgstr "Fretters می توانید به مرحله با ترانه های خود مورد استفاده قرار گیرد عبارتند از. اگر این قسمت فعال باشد ، شما می توانید آن را ببینید."
+
+#: GameEngine.py:171
+msgid "Script Lyric Display"
+msgstr "اسکریپت نمایش شعر"
+
+#: GameEngine.py:171
+msgid "By Song"
+msgstr "با آواز"
+
+#: GameEngine.py:171
+#: GameEngine.py:190
+#: GameEngine.py:201
+#: GameEngine.py:202
+#: GameEngine.py:214
+#: GameEngine.py:228
+#: GameEngine.py:269
+#: GameEngine.py:297
+msgid "Always"
+msgstr "همیشه"
+
+#: GameEngine.py:171
+msgid "Dual Lyric Prevention"
+msgstr "پیشگیری از شعر دوگانه"
+
+#: GameEngine.py:171
+msgid "Sets whether lyrics from a script.txt file are displayed. 'By Song' lets the fretter decide. 'Always' always displays script lyrics, if available, and 'Dual Lyric Prevention' will disable script lyrics if there are MIDI lyrics. (This is affected by the 'Performance' quickset)"
+msgstr "تعیین اینکه آیا از اشعار فایل script.txt هستند نمایش داده میشوند. 'با آهنگ' امکان می دهد fretter تصمیم می گیرند. 'همیشه' همیشه نمایش اشعار فیلمنامه ، اگر موجود باشد ، و خواهند دوگانه شعر پیشگیری 'اشعار اسکریپت غیر فعال کردن اگر اشعار MIDI وجود دارد. (این کار توسط 'ولیک عملکرد' تحت تاثیر قرار"
+
+#: GameEngine.py:172
+msgid "Frets Under Notes"
+msgstr "Frets تحت یادداشت"
+
+#: GameEngine.py:172
+msgid "Sets whether the notes slide under the frets or over them."
+msgstr "تعیین اینکه آیا یادداشت های کشویی زیر frets و یا بر آنها."
+
+#: GameEngine.py:173
+msgid "Drum Navigation"
+msgstr "طبل ناوبری"
+
+#: GameEngine.py:173
+msgid "If enabled, drum keys will be allowed to navigate menus. If not, only guitar keys and keyboard master keys will."
+msgstr "در صورت فعال بودن ، درام کلیدهای اجازه خواهد داشت برای حرکت به منوها. اگر نه ، تنها گیتار کلید های صفحه کلید و کلید های استاد خواهد شد."
+
+#: GameEngine.py:175
+msgid "Ignore Open Strums"
+msgstr ""
+
+#: GameEngine.py:175
+msgid "If enabled, strumming without holding any frets down won't be counted."
+msgstr "در صورت فعال بودن ، strumming بدون برگزاری هیچ frets پایین خواهد بود ، محاسبه نمیشود."
+
+#: GameEngine.py:176
+msgid "Static Strings"
+msgstr "استاتیک رشته"
+
+#: GameEngine.py:176
+msgid "If enabled, the 'strings' on your fretboard will not scroll."
+msgstr "در صورت فعال بودن ، رشته 'در تاریخ fretboard شما نمی رفته."
+
+#: GameEngine.py:177
+msgid "Effects Save SP"
+msgstr "بررسی اثر ذخیره SP"
+
+#: GameEngine.py:177
+msgid "If enabled, whammying while in SP will slow down its decrease. And your score will be handicapped by 5%."
+msgstr "در صورت فعال بودن ، در حالی که در whammying SP باعث کاستن از سرعت کاهش آن است. و نمره شما شده توسط 5 ٪ معلول."
+
+#: GameEngine.py:178
+msgid "Show HO/PO Indicator"
+msgstr "نمایش هو / شاخص صندوق"
+
+#: GameEngine.py:178
+msgid "If enabled, 'HOPO' will appear in game. When there are HOPO notes active, it will turn white."
+msgstr "در صورت فعال بودن ، 'HOPO' در بازی ظاهر می شود. هنگامی یادداشت HOPO فعال وجود دارد ، آن نوبت سفید."
+
+#: GameEngine.py:179
+msgid "Use Tiers in Quickplay"
+msgstr "ردیف استفاده در Quickplay"
+
+#: GameEngine.py:179
+msgid "Sorting"
+msgstr "طبقه بندی"
+
+#: GameEngine.py:179
+msgid "Sets whether to mark tiers in quickplay mode. 'Normal' will use the career tiers and 'Sorting' will insert tiers based on the current sort order."
+msgstr "تعیین اینکه آیا علامت به ردیف در حالت quickplay. 'عادی' خواهد شد ردیف های شغلی و استفاده از 'مرتب' به ردیف قرار دادن بر اساس ترتیب فعلی."
+
+#: GameEngine.py:180
+msgid "Star Updates"
+msgstr "ستاره و بههنگامسازیها"
+
+#: GameEngine.py:180
+msgid "On Hit"
+msgstr "در آمار"
+
+#: GameEngine.py:180
+msgid "Score Change"
+msgstr "امتیاز تغییر"
+
+#: GameEngine.py:180
+msgid "If set to 'On Hit', your star score will only be checked when you hit a note. If set to 'Score Change', your star score will constantly update. (This is affected by the 'Performance' quickset)"
+msgstr "اگر به 'مجموعه در آمار' ، نمره ستاره خود را فقط زمانی که شما چک می شود ضربه توجه داشته باشید. اگر به 'مجموعه ای امتیاز تغییر' ، نمره ستاره خود را دائما بروز رسانی خواهد شد. (این کار توسط 'ولیک عملکرد' تحت تاثیر قرار"
+
+#: GameEngine.py:181
+msgid "Partial Star Continuous Fillup"
+msgstr "Fillup ستاره با مشتقات جزئی پیوسته"
+
+#: GameEngine.py:181
+msgid "Sets whether your partial stars will fill up gradually ('Yes') or in chunks. (This is affected by the 'Performance' quickset)"
+msgstr "تعیین اینکه آیا ستاره جزئی شما را پر کنید تا به تدریج ('بله') و یا تکه. (این کار توسط 'ولیک عملکرد' تحت تاثیر قرار"
+
+#: GameEngine.py:182
+msgid "Countdown on Resume"
+msgstr "شمارش معکوس در رزومه"
+
+#: GameEngine.py:182
+msgid "If enabled, there will be a three second countdown when you unpause."
+msgstr "در صورت فعال بودن ، وجود خواهد داشت شمارش معکوس 3 2 وقتی unpause."
+
+#: GameEngine.py:184
+msgid "Script Lyric Position"
+msgstr "فیلمنامه و موقعیت شعر"
+
+#: GameEngine.py:184
+msgid "Bottom"
+msgstr "پایین"
+
+#: GameEngine.py:184
+msgid "Top"
+msgstr "بالا"
+
+#: GameEngine.py:184
+msgid "Display script lyrics at either the bottom or top of the screen."
+msgstr "اشعار اسکریپت نمایش در هر دو پایین یا بالای صفحه نمایش."
+
+#: GameEngine.py:187
+msgid "Starpower Claps"
+msgstr "Starpower Claps"
+
+#: GameEngine.py:187
+msgid "Enables a clapping sound effect to be used on the beats in Starpower."
+msgstr "را قادر میسازد اثر صدای کف زدن به در ضربه در Starpower استفاده می شود."
+
+#: GameEngine.py:188
+msgid "Song Previews"
+msgstr "پیشنمایشهای آهنگ"
+
+#: GameEngine.py:188
+msgid "Yellow Fret (#3)"
+msgstr "زرد اخم (# 3)"
+
+#: GameEngine.py:188
+msgid "If set to 'Automatic', songs will automatically start previewing when you select them. Otherwise you must press the third fret."
+msgstr "اگر به 'تنظیم خودکار' ، آهنگ به طور خودکار شروع به بررسی زمانی که شما آنها را انتخاب کنید. در غیر این صورت شما باید 3 پرس اخم."
+
+#: GameEngine.py:189
+msgid "RB SP Neck Glow"
+msgstr "بنیاعتماد گردن SP براق"
+
+#: GameEngine.py:189
+msgid "Sets a neck glow effect during SP in RB-type themes."
+msgstr "مجموعه های گردن در اثر تابش SP - بنیاعتماد در تم ها را تایپ کنید."
+
+#: GameEngine.py:190
+msgid "SP Refill Mode"
+msgstr "SP نحوه تعویض"
+
+#: GameEngine.py:190
+msgid "By MIDI Type"
+msgstr "با نوع MIDI"
+
+#: GameEngine.py:190
+msgid "Sets whether you can earn more starpower while using it. In 'By MIDI Type', only MIDIs that mark RB-style sections will use this. (This is set by the 'Gameplay' quickset)"
+msgstr "تعیین اینکه آیا شما می توانید starpower بیشتری کسب در حالی که استفاده از آن. با MIDI در نوع '' ، فقط MIDIs که مارک بخش بنیاعتماد به سبک از این استفاده کنید. (این کار توسط 'ولیک داستان' مجموعه)"
+
+#: GameEngine.py:193
+msgid "Effects Debug"
+msgstr "اثرات اشکالزدایی"
+
+#: GameEngine.py:193
+msgid "If enabled, will show on-screen the raw data of your killswitch/whammy."
+msgstr "در صورت فعال بودن ، شما بر روی صفحه نمایش داده خام از killswitch شما / whammy نشان می دهد."
+
+#: GameEngine.py:195
+msgid "Drum SP"
+msgstr "طبل SP"
+
+#: GameEngine.py:195
+msgid "Auto / Fills"
+msgstr "خودکار / پر نمودن"
+
+#: GameEngine.py:195
+msgid "Manual / Fills"
+msgstr "کتابچه راهنمای / پر نمودن"
+
+#: GameEngine.py:195
+msgid "Determines how drum starpower is activated when there are no drum fills. Auto will automatically activate when available, and Manual will wait for the 'Starpower' button to be pressed."
+msgstr "تعیین چگونگی درام starpower فعال که هیچ درام پر وجود دارد. خودکار وقتی که به طور خودکار فعال می کند و کتابچه راهنمای برای صبر کلید Starpower به زده شود."
+
+#: GameEngine.py:196
+msgid "Large Drum Neck"
+msgstr "طبل بزرگ گردن"
+
+#: GameEngine.py:196
+msgid "If enabled, will show a larger neck when playing drums."
+msgstr "در صورت فعال بودن ، به گردن بزرگتر نشان می دهد که بازی (درامز)."
+
+#: GameEngine.py:197
+#: GameEngine.py:235
+msgid "Bass Groove Neck"
+msgstr "گردن باس شیار"
+
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:307
+msgid "Replace"
+msgstr "جایگزین کردن"
+
+#: GameEngine.py:197
+#: GameEngine.py:198
+#: GameEngine.py:307
+msgid "Overlay"
+msgstr "رویهم قرار دادن"
+
+#: GameEngine.py:197
+msgid "Sets the style of the Bass Groove neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "مجموعه های سبک باس گردن شیار. 'به جای' جایگزین گردن خود را با گردن های ویژه ، در حالی که 'روکش' میسازد گردن در طول بالا."
+
+#: GameEngine.py:198
+msgid "Guitar Solo Neck"
+msgstr "گیتار سولو گردن"
+
+#: GameEngine.py:198
+msgid "Sets the style of the Guitar Solo neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "مجموعه های سبک گیتار سولو گردن. 'به جای' جایگزین گردن خود را با گردن های ویژه ، در حالی که 'روکش' میسازد گردن در طول بالا."
+
+#: GameEngine.py:199
+msgid "Show Unused Events"
+msgstr "رویدادها نمایش استفاده نشده"
+
+#: GameEngine.py:199
+msgid "If enabled, various MIDI events not used by the game will be shown on-screen."
+msgstr "در صورت فعال بودن ، حوادث MIDI گوناگون بازی استفاده نمی شود نشان داده خواهد شد بر روی صفحه نمایش."
+
+#: GameEngine.py:200
+msgid "Kick Bass Sound"
+msgstr "لگد صدای باس"
+
+#: GameEngine.py:200
+msgid "If enabled, you'll hear a kick bass sound when you use the kick pedal."
+msgstr "در صورت فعال بودن ، شما یک لگد صدای بم هنگام استفاده از پدال پا زدن را بشنود."
+
+#: GameEngine.py:201
+msgid "Show Lyrics in All Modes"
+msgstr "نمایش آهنگ ها در همه حالت"
+
+#: GameEngine.py:201
+#: GameEngine.py:202
+msgid "Single Player"
+msgstr "تنها بازیکن"
+
+#: GameEngine.py:201
+msgid "Sets whether or not MIDI lyrics will be displayed in modes without a vocalist. 'Single Player' will only show lyrics when in Solo modes."
+msgstr "دستگاه یا نه شعر MIDI خواهد شد در حالت بدون خواننده نمایش داده میشوند. 'تکنفره' فقط شعر نشان می دهد ، زمانی که در حالت انفرادی."
+
+#: GameEngine.py:202
+msgid "Show MIDI Sections"
+msgstr "نمایش بخش های MIDI"
+
+#: GameEngine.py:202
+msgid "Sets whether or not to scroll the names of sections as marked in the MIDI files."
+msgstr "دستگاه یا نه به طومار نام بخش همانطور که در فایلهای مشخص شده اند."
+
+#: GameEngine.py:203
+msgid "Key Conflicts"
+msgstr "مناقشات کلیدی"
+
+#: GameEngine.py:203
+msgid "Don't check"
+msgstr "آیا بررسی نمی"
+
+#: GameEngine.py:203
+msgid "Notify"
+msgstr "اعلام کردن"
+
+#: GameEngine.py:203
+msgid "Enforce"
+msgstr "اجرا"
+
+#: GameEngine.py:203
+msgid "Sets how the game handles key conflicts. 'Don't check' doesn't check, but conflicts will affect play. 'Notify' will inform you, but allow you to continue, and 'Enforce' will not allow you to exit the menu until all key conflicts have been resolved."
+msgstr "دستگاه چگونه دسته بازی درگیری های کلیدی است. 'آیا بررسی' بررسی نمی کند ، بلکه تضاد خواهد بازی تاثیر می گذارد. 'آگاه' شما ، به اطلاع شما اجازه می دهد اما برای ادامه و 'اعمال' اجازه نخواهد داد به منو شما تا زمانی که همه اختلافات حل و فصل شده اند کلید خارج شوید."
+
+#: GameEngine.py:204
+msgid "Show In-Game Stats"
+msgstr "نمایش بازی در آمار"
+
+#: GameEngine.py:204
+msgid "Sets whether or not to show detailed stats as you play. 'By Theme' leaves it to the theme creator."
+msgstr "دستگاه یا نه برای نشان دادن آمار دقیق به عنوان بازی شما. 'با تم' برگ آن را به سازنده تم."
+
+#: GameEngine.py:205
+msgid "Show Stars In-Game"
+msgstr "نمایش ستاره ها در بازی"
+
+#: GameEngine.py:205
+msgid "Sets whether or not to show your star score as you play. 'By Theme' leaves it to the theme creator."
+msgstr "دستگاه یا نه برای نشان دادن امتیاز ستاره شما را بازی کند. 'با تم' برگ آن را به سازنده تم."
+
+#: GameEngine.py:206
+msgid "Show Partial Stars"
+msgstr "ستاره نمایش با مشتقات جزئی"
+
+#: GameEngine.py:206
+msgid "Sets whether or not to show partial stars, if available"
+msgstr "دستگاه یا نه برای نشان دادن ستاره جزئی ، اگر موجود باشد"
+
+#: GameEngine.py:207
+msgid "HO/PO Debug"
+msgstr "هو / صندوق اشکالزدایی"
+
+#: GameEngine.py:207
+msgid "If enabled, various log messages will be recorded regarding the HO/PO system. Please leave this disabled if submitting logs for bug reports unless you are certain it is necessary."
+msgstr "در صورت فعال بودن ، پیامهای مختلف وارد خواهد شد در خصوص هو / سیستم پستی ثبت شده است. لطفا اگر این غیر فعال سیاهههای مربوط به ارسال گزارش مشکلات را مگر اینکه شما بعضی از آن ضروری است."
+
+#: GameEngine.py:208
+msgid "Show Solo Stats"
+msgstr "آمار نمایش انفرادی"
+
+#: GameEngine.py:208
+msgid "Percent"
+msgstr "در صد"
+
+#: GameEngine.py:208
+msgid "Detail"
+msgstr "جزئیات"
+
+#: GameEngine.py:208
+msgid "Sets whether to show your solo results when you finish a solo. 'Percent' will only show the percentage, while 'Detail' includes additional information."
+msgstr "تعیین اینکه آیا برای نشان دادن نتایج انفرادی خود را هنگامی که شما همه مراحل انفرادی. 'درصد' فقط درصد ، نشان می دهد در حالی که 'جزئیات' شامل اطلاعات اضافی."
+
+#: GameEngine.py:209
+msgid "Stat Decimal Places"
+msgstr "اماکن آمار دهدهی"
+
+#: GameEngine.py:209
+msgid "Determines how many decimal places will be noted in displaying stats."
+msgstr "تعیین چند رقم اعشار خواهد بود در نشان دادن آمار ذکر شده باشد."
+
+#: GameEngine.py:210
+msgid "Star Scoring Style"
+msgstr "ستاره گل زدن به سبک"
+
+#: GameEngine.py:210
+msgid "Accuracy"
+msgstr "دقت"
+
+#: GameEngine.py:210
+msgid "GH"
+msgstr "هورمون رشد"
+
+#: GameEngine.py:210
+msgid "RB"
+msgstr "بنیاعتماد"
+
+#: GameEngine.py:210
+msgid "RB+GH"
+msgstr "بنیاعتماد هورمون رشد +"
+
+#: GameEngine.py:210
+msgid "Sets which system to use to calculate your star score."
+msgstr "دستگاه که سیستم به استفاده از ستاره خود را به نمره محاسبه کند."
+
+#: GameEngine.py:211
+msgid "Career Mode Advance"
+msgstr "نحوه اشتغال پیشرفته"
+
+#: GameEngine.py:211
+msgid "0 (Song Finish)"
+msgstr "0 (پایان آهنگ)"
+
+#: GameEngine.py:211
+msgid "1 Star"
+msgstr "1 ستاره"
+
+#: GameEngine.py:211
+msgid "2 Stars"
+msgstr "2 ستاره"
+
+#: GameEngine.py:211
+msgid "3 Stars"
+msgstr "3 ستاره"
+
+#: GameEngine.py:211
+msgid "4 Stars"
+msgstr "4 ستاره"
+
+#: GameEngine.py:211
+msgid "5 Stars"
+msgstr "5 ستاره"
+
+#: GameEngine.py:211
+msgid "6 (Gold Stars)"
+msgstr "6 (ستاره طلایی)"
+
+#: GameEngine.py:211
+msgid "7 (Full Combo)"
+msgstr "7 (کشویی برگزینید کامل)"
+
+#: GameEngine.py:211
+msgid "Determine how many stars are needed on a song before it is unlocked in career mode."
+msgstr "تعیین کنید چه تعداد ستاره ها در آهنگ مورد نیاز قبل از اینکه باز در حالت حرفه ای."
+
+#: GameEngine.py:212
+msgid "Solo Stat Positioning"
+msgstr "موقعیت انفرادی آمار"
+
+#: GameEngine.py:212
+#: GameEngine.py:319
+msgid "Rock Band"
+msgstr "راک"
+
+#: GameEngine.py:212
+msgid "Sets where your solo result stats will be displayed."
+msgstr "دستگاه خود را که در آن تکنوازی آمار نتیجه نمایش داده خواهد شد."
+
+#: GameEngine.py:213
+msgid "Bass Groove"
+msgstr "باس شیار"
+
+#: GameEngine.py:213
+msgid "By MIDI"
+msgstr "با MIDI"
+
+#: GameEngine.py:213
+msgid "Enable or disable bass groove (additional score multiplier for bass)"
+msgstr "فعال یا غیر فعال کردن شیار باس (امتیاز اضافی برای چند برابر باس)"
+
+#: GameEngine.py:214
+msgid "Drum Miss Penalty"
+msgstr "طبل دوشیزه مجازات"
+
+#: GameEngine.py:214
+msgid "Song Start"
+msgstr "آهنگ شروع"
+
+#: GameEngine.py:214
+msgid "First Note"
+msgstr "اول توجه داشته باشید"
+
+#: GameEngine.py:214
+msgid "Determines when drum hits count as misses: When the song begins, after the first note, or always."
+msgstr "تعیین زمانی به عنوان درام تعداد بازدید نتواند : هنگامی که این ترانه آغاز می شود ، پس توجه کنید 1 یا همیشه."
+
+#: GameEngine.py:215
+msgid "Time Display Format"
+msgstr "فرمت زمان نمایش"
+
+#: GameEngine.py:215
+#: GameEngine.py:306
+msgid "Countdown"
+msgstr "شمارش معکوس"
+
+#: GameEngine.py:215
+msgid "Elapsed"
+msgstr "سپری شده"
+
+#: GameEngine.py:215
+msgid "Sets whether the song time is displayed as time elapsed, time remaining, or not at all"
+msgstr "تعیین اینکه آیا زمان آهنگ نمایش داده شده به عنوان زمان سپری شده ، زمان باقی مانده ، یا نه در تمام"
+
+#: GameEngine.py:216
+msgid "Show Theme Version Tag"
+msgstr "نمایش قالب برچسب نسخههای"
+
+#: GameEngine.py:216
+msgid "Places the theme's version tag over menus and dialogs."
+msgstr "اماکن برچسب نسخه تم بر منوها و تبادل نظر."
+
+#: GameEngine.py:217
+msgid "Menu Navigation"
+msgstr "منوی ناوبری"
+
+#: GameEngine.py:217
+msgid "P1 Only"
+msgstr "فقط P1"
+
+#: GameEngine.py:217
+msgid "All Players"
+msgstr "همه بازیکنان"
+
+#: GameEngine.py:217
+msgid "Sets whether all players can navigate the menu, or only the controller set as Player 1 and the master keys."
+msgstr "تعیین اینکه آیا همه بازیکنان میتوانند از منو ، یا فقط به عنوان بازیکن کنترل کننده مجموعه 1 و کلید های حرکت به استاد."
+
+#: GameEngine.py:218
+msgid "In-Game Font Shadow"
+msgstr "در بازی سایه قلم"
+
+#: GameEngine.py:218
+msgid "Sets whether or not a shadowed font will be used, if available."
+msgstr "دستگاه یا نه قلم سایه استفاده خواهد شد ، اگر در دسترس است."
+
+#: GameEngine.py:219
+msgid "Mute Last Second"
+msgstr "تاریخ و زمان آخرین بیصدا دوم"
+
+#: GameEngine.py:219
+msgid "Cuts the volume with one second remaining to prevent any pops when the song ends."
+msgstr "برشهای با حجم 1 2 باقی مانده برای جلوگیری از هر گونه میآید وقتی آهنگ به پایان می رسد."
+
+#: GameEngine.py:220
+msgid "Results Cheer Loop"
+msgstr "نتایج حلقه تشویق"
+
+#: GameEngine.py:220
+#: GameEngine.py:319
+#: GameEngine.py:399
+msgid "Theme"
+msgstr "موضوع"
+
+#: GameEngine.py:220
+msgid "Sets whether the cheering sound heard on the result screen will loop. 'Theme' leaves it to the theme creator."
+msgstr "تعیین اینکه آیا صدای تشویق روی صفحه نتیجه شنیده خواهد شد حلقه. 'تم' آن را برگ به خالق تم."
+
+#: GameEngine.py:221
+msgid "Cheer Loop Delay"
+msgstr "تشویق تاخیر حلقه"
+
+#: GameEngine.py:221
+msgid "Sets the time, in milliseconds, to wait before playing the result cheer again (if looping is enabled)."
+msgstr "تعیین زمان ، در میلی ثانیه ، به صبر قبل از بازی تشویق نتیجه مجددا (در صورت حلقه زنی است فعال باشد)."
+
+#: GameEngine.py:222
+msgid "Miss Pauses Anim"
+msgstr "دوشیزه مکث Anim"
+
+#: GameEngine.py:222
+msgid "When enabled, missing a note will pause the stage animation."
+msgstr "هنگامی که فعال باشد ، گم خواهد شد توجه داشته باشید انیمیشن مرحله قابل تامل است."
+
+#: GameEngine.py:223
+msgid "Song HO/PO Freq"
+msgstr "آهنگ هو / صندوق Freq"
+
+#: GameEngine.py:223
+msgid "Sets whether or not to use the HO/PO Frequency setting determined by the fretter, if available."
+msgstr "دستگاه یا نه برای استفاده از هو / صندوق فرکانس تنظیمات تعیین شده fretter ، اگر در دسترس است."
+
+#: GameEngine.py:225
+msgid "Mute Drum Track During Fills"
+msgstr "قطع کردن صدای طبل در پر نمودن آهنگ"
+
+#: GameEngine.py:225
+msgid "Sets whether or not the drum track will be muted during drum fills (so you can hear yourself have at it!)"
+msgstr "تعیین مسیر یا نه درام خواهد خاموش در درام پر (بنابراین شما میتوانید صدای خودتان را در آن داشته باشد!)"
+
+#: GameEngine.py:226
+msgid "Sustain Muting"
+msgstr "حفظ Muting"
+
+#: GameEngine.py:226
+msgid "Never Mute"
+msgstr "هرگز بیصدا"
+
+#: GameEngine.py:226
+msgid "Very Early"
+msgstr "خیلی زود"
+
+#: GameEngine.py:226
+msgid "Early"
+msgstr "در اوایل"
+
+#: GameEngine.py:226
+#: GameEngine.py:309
+#: GameResultsScene.py:293
+msgid "Standard"
+msgstr "استاندارد"
+
+#: GameEngine.py:226
+msgid "Always Mute"
+msgstr "همیشه بیصدا"
+
+#: GameEngine.py:226
+msgid "Sets the window used to determine whether or not to mute a dropped sustain note. 'Early' means it will only mute when you drop the sustain relatively early."
+msgstr "مجموعه های پنجره استفاده می شود برای تعیین اینکه آیا یا نه به قطع کاهش یافته است حفظ توجه داشته باشید. 'زود' بدان معنی است که فقط زمانی که شما قطع قطره حفظ نسبتا زود."
+
+#: GameEngine.py:227
+msgid "Show Solo Frame"
+msgstr "نمایش قاب سولو"
+
+#: GameEngine.py:227
+msgid "Sets whether to show a frame around the solo stats, if available."
+msgstr "تعیین اینکه آیا برای نشان دادن قاب دور آمار انفرادی ، اگر در دسترس است."
+
+#: GameEngine.py:228
+msgid "Enable Guitar Solos"
+msgstr "Solos گیتار فعال"
+
+#: GameEngine.py:228
+#: GameEngine.py:297
+msgid "Never"
+msgstr "هرگز"
+
+#: GameEngine.py:228
+msgid "MIDI Only"
+msgstr "فقط MIDI"
+
+#: GameEngine.py:228
+msgid "Sets the logic used to mark solos. 'Always' will mark solos in sections if available. 'By Theme' leaves it to the theme creator. 'MIDI Only' only enables solos marked with the MIDI marker note."
+msgstr "مجموعه های منطق استفاده از علامت solos. 'همیشه' solos خواهد شد در صورت وجود در بخش های خوانده شده را علامت. 'با تم' برگ آن را به سازنده تم. 'MIDI فقط' solos تنها قادر می سازد با توجه نشانگر MIDI مشخص شده اند."
+
+#: GameEngine.py:229
+msgid "SP Mode"
+msgstr "نحوه SP"
+
+#: GameEngine.py:229
+#: GameEngine.py:319
+msgid "FoF"
+msgstr "FoF"
+
+#: GameEngine.py:229
+msgid "Auto MIDI"
+msgstr "خودکار MIDI"
+
+#: GameEngine.py:229
+msgid "Sets the logic used to determine starpower phrases. 'FoF' will generate paths based on the number of notes. 'Auto MIDI' will use MIDI markers to determine the paths, and fall back on the FoF mode if none are available."
+msgstr "مجموعه های منطق برای تعیین عبارت starpower. 'FoF خواهند مسیرهای بر اساس تعداد یادداشت ها تولید کند. 'خودکار MIDI خواهند نشانگر MIDI برای تعیین مسیر استفاده ، سقوط و بازگشت به حالت FoF اگر هیچ کدام موجود می باشند."
+
+#: GameEngine.py:231
+msgid "Inc. Neck Mode"
+msgstr "شرکت نحوه گردن"
+
+#: GameEngine.py:231
+msgid "Start Only"
+msgstr "فقط شروع"
+
+#: GameEngine.py:231
+msgid "Start & End"
+msgstr "شروع و پایان"
+
+#: GameEngine.py:231
+msgid "Sets how and whether to render incoming solo necks. 'Start Only' will scroll it in but not out, while 'Start & End' does both."
+msgstr "تعیین چگونگی و اینکه آیا به ارائه گردن انفرادی وارده. 'فقط شروع خواهند آن را در رفته اما نه از ، در حالی که' شروع و پایان 'آیا هر دو است."
+
+#: GameEngine.py:232
+msgid "Big Rock Endings"
+msgstr "انتهای بزرگ راک"
+
+#: GameEngine.py:232
+msgid "Enable or disable big rock endings. 'By Theme' leaves it to the theme creator."
+msgstr "فعال یا غیر فعال از انتهای سنگ بزرگ است. 'با تم' برگ آن را به سازنده تم."
+
+#: GameEngine.py:233
+msgid "Main Neck"
+msgstr "صفحه اصلی گردن"
+
+#: GameEngine.py:233
+#, python-format
+msgid "Set the transparency of the main neck. 100% is fully visible."
+msgstr "تنظیم شفافیت گردن اصلی. 100 ٪ به طور کامل قابل مشاهده است."
+
+#: GameEngine.py:234
+msgid "Solo Neck"
+msgstr "سولو گردن"
+
+#: GameEngine.py:234
+#, python-format
+msgid "Set the transparency of the solo neck. 100% is fully visible."
+msgstr "تنظیم شفافیت گردن انفرادی. 100 ٪ به طور کامل قابل مشاهده است."
+
+#: GameEngine.py:235
+#, python-format
+msgid "Set the transparency of the bass groove neck. 100% is fully visible."
+msgstr "تنظیم شفافیت باس گردن شیار. 100 ٪ به طور کامل قابل مشاهده است."
+
+#: GameEngine.py:236
+msgid "Fail Neck"
+msgstr "عدم موفقیت گردن"
+
+#: GameEngine.py:236
+#, python-format
+msgid "Set the transparency of the failing neck. 100% is fully visible."
+msgstr "تنظیم شفافیت گردن شکست. 100 ٪ به طور کامل قابل مشاهده است."
+
+#: GameEngine.py:237
+msgid "Overlay Neck"
+msgstr "روکش گردن"
+
+#: GameEngine.py:237
+#, python-format
+msgid "Set the transparency of neck overlays. 100% is fully visible."
+msgstr "تنظیم شفافیت گردن overlays. 100 ٪ به طور کامل قابل مشاهده است."
+
+#: GameEngine.py:238
+msgid "All Necks"
+msgstr "همه گردن"
+
+#: GameEngine.py:238
+#, python-format
+msgid "Set the master transparency of all necks. 100% is fully visible."
+msgstr "تنظیم شفافیت استاد تمام گردن. 100 ٪ به طور کامل قابل مشاهده است."
+
+#: GameEngine.py:239
+msgid "Show Any Available Score"
+msgstr "نمایش هر گونه امتیاز می کند"
+
+#: GameEngine.py:239
+msgid "When set to 'On', this will look for any available score on the currently selected instrument for setlist score display, if one is not available at the chosen difficulty."
+msgstr "هنگامی که به 'مجموعه بر روی' ، این کار برای هر نمره در دسترس ساز در حال حاضر انتخاب شده برای نشان دادن نمره setlist نگاه کنید ، اگر کسی در سختی انتخاب در دسترس نیست."
+
+#: GameEngine.py:241
+msgid "Scroll Delay"
+msgstr "اسکرول تاخیر"
+
+#: GameEngine.py:241
+msgid "Sets how long, in milliseconds, to wait before beginning to scroll."
+msgstr "دستگاه چه مدت در میلی ثانیه ، قبل از شروع به اسکرول صبر کنید."
+
+#: GameEngine.py:242
+msgid "Scroll Rate"
+msgstr "اسکرول ارزش گذاری"
+
+#: GameEngine.py:242
+msgid "Sets how quickly menus will scroll."
+msgstr "تعیین سرعت منوها را رفته."
+
+#: GameEngine.py:245
+msgid "Use (notes-unedited.mid)"
+msgstr "استفاده از (یادداشت - unedited.mid)"
+
+#: GameEngine.py:245
+msgid "Sets whether to look for (and use) a 'notes-unedited.mid' before 'notes.mid'. There's no reason to change this."
+msgstr "تعیین اینکه آیا برای نگاه (و استفاده) 'notes.mid یادداشت - unedited.mid' قبل از '. هیچ دلیلی برای این تغییر وجود دارد."
+
+#: GameEngine.py:246
+msgid "Show Fill Status"
+msgstr "نمایش وضعیت را پر کنید"
+
+#: GameEngine.py:246
+msgid "When enabled, whether or not you are in a drum fill/freestyle ending will be displayed in text on the screen."
+msgstr "هنگامی که فعال باشد ، یا نه شما را در استوانه پر هستند / آزاد در پایان دادن به متن در صفحه نمایش داده شود."
+
+#: GameEngine.py:247
+msgid "Show BPM"
+msgstr "نمایش ضربان"
+
+#: GameEngine.py:247
+msgid "When enabled, the current song BPM will be shown on screen."
+msgstr "هنگامی که فعال باشد ، ضربان آهنگ فعلی خواهد شد در صفحه نمایش نشان داده شده است."
+
+#: GameEngine.py:248
+msgid "New BPM Logic"
+msgstr "ضربان در منطق جدید"
+
+#: GameEngine.py:248
+msgid "If enabled, the game will attempt to use the new BPM logic. This is not a finished feature. Use at your own risk."
+msgstr "در صورت فعال بودن ، بازی خواهد کرد تلاش ضربان در منطق جدید استفاده کنید. این ویژگی تمام شده است. استفاده از در معرض خطر خود تغییر دهید."
+
+#: GameEngine.py:249
+msgid "New Song Database Code"
+msgstr "آهنگ جدید کد بانک اطلاعات"
+
+#: GameEngine.py:249
+msgid "Activates the new, incomplete song database code."
+msgstr "فعال جدید ، آهنگ کد ناقص پایگاه داده باشد."
+
+#: GameEngine.py:251
+msgid "Show Raw Vocal Data"
+msgstr "نمایش داده خام آوازی"
+
+#: GameEngine.py:251
+msgid "If enabled, various information about the microphone input will be show in text on screen. Probably only needed for vocal debugging."
+msgstr "در صورت فعال بودن ، اطلاعات مختلف در مورد ورودی میکروفون خواهد شد نشان می دهد در متن در صفحه نمایش. احتمالا فقط برای اشکال زدائی آوازی مورد نیاز است."
+
+#: GameEngine.py:253
+msgid "Speed Factor"
+msgstr "سرعت عامل"
+
+#: GameEngine.py:253
+msgid "1.00x"
+msgstr "1.00x"
+
+#: GameEngine.py:253
+msgid "0.75x"
+msgstr "0.75x"
+
+#: GameEngine.py:253
+msgid "0.50x"
+msgstr "0.50x"
+
+#: GameEngine.py:253
+msgid "0.25x"
+msgstr "0.25x"
+
+#: GameEngine.py:253
+msgid "Sets the speed to play the audio at. Your score will be severely penalized if you slow the music down."
+msgstr "تعیین سرعت بازی به صدا در. نمره شما به شدت تنبیه اگر موسیقی شما همیشه کند باشد."
+
+#: GameEngine.py:255
+msgid "Effects Mode"
+msgstr "نحوه اثر"
+
+#: GameEngine.py:255
+msgid "Killswitch"
+msgstr "Killswitch"
+
+#: GameEngine.py:255
+msgid "Pitchbend"
+msgstr "Pitchbend"
+
+#: GameEngine.py:255
+msgid "Sets whether to use a killswitch or pitchbend as the effect on your whammy."
+msgstr "تعیین اینکه آیا برای استفاده از killswitch یا pitchbend به عنوان اثر خود را در whammy."
+
+#: GameEngine.py:259
+msgid "Log INI Reads"
+msgstr "INI ورود بار مطالعه شده است"
+
+#: GameEngine.py:259
+msgid "Logs any read to an INI file. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "سیاههها هر خواندن به فایل INI. این اطلاعات غیر ضروری در گزارش های اشکال است ، لطفا ترک آن را غیر فعال مگر اینکه شما هم مطمئن آن است مرتبط است."
+
+#: GameEngine.py:260
+msgid "Log Class Inits"
+msgstr "ورود به سیستم Inits کلاس"
+
+#: GameEngine.py:260
+msgid "Logs most class initializations in '__init__'. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "سیاههها ترین کلاس initializations در '__init__'. این اطلاعات غیر ضروری در گزارش های اشکال است ، لطفا ترک آن را غیر فعال مگر اینکه شما هم مطمئن آن است مرتبط است."
+
+#: GameEngine.py:261
+msgid "Log Loadings"
+msgstr "ورود به سیستم اضافه"
+
+#: GameEngine.py:261
+msgid "Logs resource loads. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "منابع بارهای سیاههها. این اطلاعات غیر ضروری در گزارش های اشکال است ، لطفا ترک آن را غیر فعال مگر اینکه شما هم مطمئن آن است مرتبط است."
+
+#: GameEngine.py:262
+msgid "Log MIDI Sections"
+msgstr "ورود به بخش های MIDI"
+
+#: GameEngine.py:262
+msgid "Logs MIDI sections. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "سیاههها بخش دانلود. رایگان این اطلاعات غیر ضروری در گزارش های اشکال است ، لطفا ترک آن را غیر فعال مگر اینکه شما هم مطمئن آن است مرتبط است."
+
+#: GameEngine.py:263
+msgid "Log Undefined GETs"
+msgstr "ورود به سیستم تعریف نشده میشود"
+
+#: GameEngine.py:263
+msgid "Logs attempts to read an undefined config key. This is unnecessary information."
+msgstr "سیاههها تلاش برای خواندن یک کلید پیکربندی تعریف نشده. این اطلاعات غیر ضروری می باشد."
+
+#: GameEngine.py:264
+msgid "Log Marker Notes"
+msgstr "ورود به سیستم یادداشت های مارکر"
+
+#: GameEngine.py:264
+msgid "Logs MIDI marker notes (solo, SP, etc). This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "سیاههها یادداشت MIDI نشانگر (انفرادی ، SP ، و غیره). این اطلاعات غیر ضروری در گزارش های اشکال است ، لطفا ترک آن را غیر فعال مگر اینکه شما هم مطمئن آن است مرتبط است."
+
+#: GameEngine.py:265
+msgid "Log SP Misses"
+msgstr "ورود به سیستم نتواند SP"
+
+#: GameEngine.py:265
+msgid "Logs SP phrase misses. This is unnecessary information."
+msgstr "سیاههها عبارت SP نتواند. این اطلاعات غیر ضروری می باشد."
+
+#: GameEngine.py:266
+msgid "Log Unedited MIDIs"
+msgstr "ورود به سیستم MIDIs Unedited"
+
+#: GameEngine.py:266
+msgid "Logs when notes-unedited.mid is used. This is unnecessary information."
+msgstr "سیاههها زمانی که یادداشت ها - unedited.mid استفاده شده است. این اطلاعات غیر ضروری می باشد."
+
+#: GameEngine.py:267
+msgid "Log Lyric Events"
+msgstr "ورود و رویدادها شعر"
+
+#: GameEngine.py:267
+msgid "Logs MIDI lyric events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "سیاههها حوادث MIDI باد. این اطلاعات غیر ضروری در گزارش های اشکال است ، لطفا ترک آن را غیر فعال مگر اینکه شما هم مطمئن آن است مرتبط است."
+
+#: GameEngine.py:268
+msgid "Log Tempo Events"
+msgstr "ورود و رویدادها تمپو"
+
+#: GameEngine.py:268
+msgid "Logs MIDI tempo events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."
+msgstr "سیاههها حوادث MIDI سرعت. این اطلاعات غیر ضروری در گزارش های اشکال است ، لطفا ترک آن را غیر فعال مگر اینکه شما هم مطمئن آن است مرتبط است."
+
+#: GameEngine.py:269
+msgid "Log Missing Images"
+msgstr "ورود به سیستم تصاویر گم شده"
+
+#: GameEngine.py:269
+msgid "Only on single images"
+msgstr "فقط روی عکس مجرد"
+
+#: GameEngine.py:269
+msgid "Logs when files loaded are not found. 'Only on single images' skips logging when directories are loaded."
+msgstr "سیاههها وقتی فایل لود شده هستند یافت نشد. 'فقط بر روی تک تصویر' skips ورود به سیستم وقتی که راهنماهای میشوند."
+
+#: GameEngine.py:274
+msgid "Practice Beat Claps"
+msgstr "تمرین بیت Claps"
+
+#: GameEngine.py:274
+msgid "Enables clap sound effects on every beat in practice mode."
+msgstr "جلوه های صوتی صدای دست زدن را قادر میسازد در هر ضربان در حالت را تمرین کن."
+
+#: GameEngine.py:275
+msgid "Change Score Display"
+msgstr "تغییر نمایش امتیاز"
+
+#: GameEngine.py:275
+#: GameEngine.py:311
+msgid "Auto"
+msgstr "خودکار"
+
+#: GameEngine.py:275
+msgid "Blue Fret (#4)"
+msgstr "اخم آبی (# 4)"
+
+#: GameEngine.py:275
+msgid "Sets whether to change the setlist high score difficulty automatically or with the fourth fret."
+msgstr "تعیین اینکه آیا به تغییر setlist مشکل نمره بالا به صورت خودکار و یا با اخم 4."
+
+#: GameEngine.py:278
+msgid "Makes opponent miss notes until the whammy bar is pushed a few times"
+msgstr "حریف را از دست یادداشت ها تا نوار whammy رانده است چند بار"
+
+#: GameEngine.py:279
+msgid "Difficulty Up"
+msgstr "دشواری نام"
+
+#: GameEngine.py:279
+msgid "Ups opponent's difficulty for a while (if not playing on Expert)"
+msgstr "حریف دشواری برای یو پی اس در حالی که (در صورتی که کارشناس در بازی نمی شود)"
+
+#: GameEngine.py:280
+msgid "String Break"
+msgstr "عبارات شکستن"
+
+#: GameEngine.py:280
+msgid "Breaks a string, causing your opponent to miss notes on that fret until they push the fret button several times."
+msgstr "معافیت های رشته ای ، و باعث حریف خود را از دست یادداشت ها در تاریخ است که تا زمانی که فشار اخم اخم دکمه چند بار."
+
+#: GameEngine.py:281
+msgid "Double Notes"
+msgstr "دو یادداشت"
+
+#: GameEngine.py:281
+msgid "Makes single notes into chords, and chords into even bigger ones."
+msgstr "یادداشت ها را تک به آکورد ، آکورد و به آنهایی که حتی بزرگتر."
+
+#: GameEngine.py:282
+msgid "Death Drain"
+msgstr "مرگ درن"
+
+#: GameEngine.py:282
+msgid "Sudden Death Only"
+msgstr "مرگ ناگهانی فقط"
+
+#: GameEngine.py:282
+msgid "Drains your opponents life until they die. 'Sudden Death Only' keeps this from appearing until you reach sudden death mode."
+msgstr "درن به زندگی شما وارد مخالفان تا زمانی که مرد. 'مرگ ناگهانی فقط' نگه می دارد تا زمانی که این از ظاهر شما رسیدن به حالت مرگ ناگهانی."
+
+#: GameEngine.py:283
+msgid "Amp Overload"
+msgstr "آمپر اضافه بار"
+
+#: GameEngine.py:283
+msgid "Makes opponent's amp flip out, making notes disappear and reappear randomly."
+msgstr "آمپر حریف را خارج تلنگر ، ساختن یادداشت ها ناپدید می شوند و ظهور به طور تصادفی."
+
+#: GameEngine.py:284
+msgid "Switch Controls"
+msgstr "سوئیچ کنترل"
+
+#: GameEngine.py:284
+msgid "Switches opponent to (or from) lefty mode for a bit!"
+msgstr "طرف مقابل به سوئیچ (یا از) حالت lefty برای بیت!"
+
+#: GameEngine.py:285
+msgid "Steal Object"
+msgstr "سرقت شیء"
+
+#: GameEngine.py:285
+msgid "Steals an object your opponent has."
+msgstr "دزد جسم حریف خود را دارد."
+
+#: GameEngine.py:286
+msgid "Guitar Tune"
+msgstr "گیتار اتصال"
+
+#: GameEngine.py:286
+msgid "Makes opponent miss all notes until they play a scale."
+msgstr "حریف را از دست تمام یادداشت ها تا زمانی که بازی در مقیاس."
+
+#: GameEngine.py:289
+msgid "Score SFX"
+msgstr "امتیاز SFX"
+
+#: GameEngine.py:289
+msgid "Sets whether or not to have Jurgen taunt (or, I suppose, congratulate) you at the end of a song."
+msgstr "دستگاه یا نه به دست انداختن و متلک گفتن Jürgen (یا ، من فرض کنید ، تبریک می گویم) شما را در پایان آهنگ."
+
+#: GameEngine.py:290
+msgid "GH SP Lights"
+msgstr "چراغ هورمون رشد SP"
+
+#: GameEngine.py:290
+msgid "Sets whether to fade images over the starpower bulbs in GH themes when fully lit."
+msgstr "تعیین اینکه آیا به محو شدن تصاویر بر لامپ های starpower تم هورمون رشد در هنگامی که به طور کامل روشن."
+
+#: GameEngine.py:291
+msgid "RB Small 1x Multiplier"
+msgstr "1x بنیاعتماد کوچک ضرب"
+
+#: GameEngine.py:291
+msgid "When enabled, RB-type themes will have a smaller mult image when the multiplier is at 1x. 'By Theme' leaves it to the theme creator."
+msgstr "هنگامی که فعال باشد ، بنیاعتماد از نوع تم ها خواهد mult تصویر کوچک هنگامی که چند برابر شده است در 1x داشته باشد. 'با تم' برگ آن را به سازنده تم."
+
+#: GameEngine.py:292
+msgid "Board Speed Mode"
+msgstr "صفحه اول نحوه سرعت"
+
+#: GameEngine.py:292
+#: GameEngine.py:344
+msgid "BPM"
+msgstr "ضربان"
+
+#: GameEngine.py:292
+#: GameEngine.py:317
+#: GameEngine.py:344
+msgid "Difficulty"
+msgstr "مشکل"
+
+#: GameEngine.py:292
+#: GameEngine.py:344
+msgid "BPM & Diff"
+msgstr "ضربان و تفاوت"
+
+#: GameEngine.py:292
+msgid "Percentage"
+msgstr "در صد"
+
+#: GameEngine.py:292
+msgid "Sets what determines the speed of the scrolling notes."
+msgstr "تعیین آنچه تعیین کننده سرعت پیمایش یادداشت ها."
+
+#: GameEngine.py:293
+msgid "Loading Phrases"
+msgstr "در حال بارگذاری اصطلاحات"
+
+#: GameEngine.py:293
+msgid "Sets whether or not to use loading phrases while loading a song"
+msgstr "دستگاه یا به استفاده از عبارت بارگیری در حالی که بارگیری ترانه"
+
+#: GameEngine.py:294
+msgid "Effects Display Mode"
+msgstr "اثر نحوه نمایش"
+
+#: GameEngine.py:294
+msgid "Static"
+msgstr "ایستا"
+
+#: GameEngine.py:294
+msgid "Animated"
+msgstr "متحرک"
+
+#: GameEngine.py:294
+msgid "Sets whether or not the whammy effect is animated. (This is affected by the 'Performance' quickset)"
+msgstr "دستگاه یا نه اثر whammy متحرک است. (این کار توسط 'ولیک عملکرد' تحت تاثیر قرار"
+
+#: GameEngine.py:295
+msgid "Show Filepath"
+msgstr "نمایش Filepath"
+
+#: GameEngine.py:295
+msgid "Show"
+msgstr "نشان"
+
+#: GameEngine.py:295
+msgid "Hide"
+msgstr "مخفی کردن"
+
+#: GameEngine.py:295
+msgid "Sets whether or not to show the filepath of the song."
+msgstr "دستگاه یا نه برای نشان دادن filepath از آهنگ."
+
+#: GameEngine.py:296
+msgid "3D Note Rotation"
+msgstr "3D توجه چرخش"
+
+#: GameEngine.py:296
+msgid "Old"
+msgstr "قدیمی"
+
+#: GameEngine.py:296
+msgid "New"
+msgstr "جدید"
+
+#: GameEngine.py:296
+msgid "Sets the manner of 3D Note Rotation."
+msgstr "تعیین نحوه چرخش 3D توجه داشته باشید."
+
+#: GameEngine.py:297
+msgid "Show In-Game Text"
+msgstr "نمایش بازی در متن"
+
+#: GameEngine.py:297
+msgid "Only Note Streaks"
+msgstr "فقط توجه داشته باشید رگه"
+
+#: GameEngine.py:297
+msgid "Sets whether or not to show text in-game. This includes note streaks and 'Starpower Ready'. (This is affected by the 'Performance' quickset)"
+msgstr "دستگاه یا نه برای نمایش متن را در بازی. این شامل رگه توجه داشته باشید و 'Starpower آماده. (این کار توسط 'ولیک عملکرد' تحت تاثیر قرار"
+
+#: GameEngine.py:298
+msgid "Setlist Display Mode"
+msgstr "Setlist نحوه نمایش"
+
+#: GameEngine.py:298
+msgid "List"
+msgstr "فهرست"
+
+#: GameEngine.py:298
+msgid "List/CD"
+msgstr "فهرست / سی دی"
+
+#: GameEngine.py:298
+msgid "Sets the setlist display mode. 'By Theme' lets the theme creator decide."
+msgstr "تعیین حالت نمایش setlist. 'با تم' اجازه می دهد تا خالق موضوع تصمیم می گیرند."
+
+#: GameEngine.py:299
+msgid "Use Subfolders"
+msgstr "استفاده از زیرپوشهها"
+
+#: GameEngine.py:299
+msgid "List All"
+msgstr "لیست همه"
+
+#: GameEngine.py:299
+msgid "'Normal' allows you to navigate folders. 'List All' places all songs into a single setlist."
+msgstr "'عادی' شما اجازه می دهد تا حرکت به پوشه ها. 'لیست شده' اماکن تمام آهنگ به setlist تک."
+
+#: GameEngine.py:300
+msgid "Show Song Type Icons"
+msgstr "نمایش آیکن ها نوع آهنگ"
+
+#: GameEngine.py:300
+msgid "Sets whether or not to show icons indicating the song 'type'"
+msgstr "دستگاه یا نه برای نشان دادن آیکون نشان دهنده آهنگ 'نوع'"
+
+#: GameEngine.py:301
+msgid "Preload Song Labels"
+msgstr "آهنگ Preload برچسبها"
+
+#: GameEngine.py:301
+msgid "Sets whether to preload all song labels on load. With large setlists, this option is extremely slow."
+msgstr "تعیین اینکه آیا به preload تمام برچسب ترانه در باز شود. با setlists بزرگ ، این گزینه بسیار آرام است."
+
+#: GameEngine.py:302
+msgid "Label Type"
+msgstr "برچسب نوع"
+
+#: GameEngine.py:302
+msgid "CD Labels"
+msgstr "برچسب سی دی"
+
+#: GameEngine.py:302
+msgid "Album Covers"
+msgstr "آلبوم محافظ"
+
+#: GameEngine.py:302
+msgid "Sets whether to show CD labels or album covers as the art."
+msgstr "تعیین اینکه آیا برای نشان دادن برچسب های سی دی و یا آلبوم را پوشش می دهد به عنوان هنر است."
+
+#: GameEngine.py:303
+msgid "Rotating CDs"
+msgstr "سی دی های دوار"
+
+#: GameEngine.py:303
+msgid "Sets whether or not CDs rotate."
+msgstr "دستگاه یا نه تعداد چرخش."
+
+#: GameEngine.py:304
+msgid "Remember Play Count"
+msgstr "به یاد داشته باشید تعداد بازی"
+
+#: GameEngine.py:304
+msgid "Keeps track of how many times you've played each song."
+msgstr "حفظ می کند از چند بار که شما با بازی هر آهنگ می نماید."
+
+#: GameEngine.py:306
+msgid "Show at Song Start"
+msgstr "نمایش در آواز شروع"
+
+#: GameEngine.py:306
+msgid "Part"
+msgstr "بخش"
+
+#: GameEngine.py:306
+msgid "Sets whether to show a countdown or your name and part at the song's start."
+msgstr "تعیین اینکه آیا شمارش معکوس برای نشان دادن و یا نام خود و بخشی در شروع آهنگ است."
+
+#: GameEngine.py:307
+msgid "Overdrive Neck"
+msgstr "اوردرایو گردن"
+
+#: GameEngine.py:307
+msgid "Sets the style of the Overdrive neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."
+msgstr "مجموعه های سبک گردن اوردرایو. 'به جای' جایگزین گردن خود را با گردن های ویژه ، در حالی که 'روکش' میسازد گردن در طول بالا."
+
+#: GameEngine.py:309
+msgid "Note Hit Window"
+msgstr "توجه داشته باشید آمار پنجره"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:285
+msgid "Tightest"
+msgstr "Tightest"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:287
+msgid "Tight"
+msgstr "تنگ"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:289
+msgid "Wide"
+msgstr "وسیع"
+
+#: GameEngine.py:309
+#: GameResultsScene.py:291
+msgid "Widest"
+msgstr "بهپهنترین"
+
+#: GameEngine.py:309
+msgid "Sets how accurate you need to be while playing."
+msgstr "چگونه تعیین دقیق شما باید در حالی که بازی کردم."
+
+#: GameEngine.py:311
+msgid "Early Hit Window"
+msgstr "در اوایل آمار پنجره"
+
+#: GameEngine.py:311
+msgid "None (RB2)"
+msgstr "هیچ کدام (RB2)"
+
+#: GameEngine.py:311
+msgid "Half (GH2)"
+msgstr "شاهزاده (GH2)"
+
+#: GameEngine.py:311
+msgid "Full (FoF)"
+msgstr "کامل (FoF)"
+
+#: GameEngine.py:311
+msgid "Sets how much time before the note is part of the hit window. 'Auto' uses the MIDI to determine."
+msgstr "دستگاه چه مدت قبل از توجه داشته باشید بخشی از پنجره رسید. 'خودرو' MIDI استفاده می کند تا تعیین کنید."
+
+#: GameEngine.py:312
+msgid "Show Detailed Handicap"
+msgstr "نقص نمایش تفسیر"
+
+#: GameEngine.py:312
+msgid "Shows the handicaps individually on the result screen."
+msgstr "نشان می دهد که معلولیت به صورت جداگانه بر روی صفحه نمایش نتیجه."
+
+#: GameEngine.py:315
+msgid "Disable Variable BPM"
+msgstr "غیر فعال کردن ضربان متغیر"
+
+#: GameEngine.py:315
+msgid "This will disable the use of the Variable BPM logic."
+msgstr "این کار باعث استفاده از منطق ضربان متغیر غیر فعال نمایید."
+
+#: GameEngine.py:316
+msgid "Sort Direction"
+msgstr "مرتب کردن بر اساس جهت"
+
+#: GameEngine.py:316
+msgid "Ascending"
+msgstr "صعودی"
+
+#: GameEngine.py:316
+msgid "Descending"
+msgstr "نزولی"
+
+#: GameEngine.py:316
+msgid "Choose whether to sort in ascending (A-Z) or descending (Z-A) order."
+msgstr "را انتخاب کنید که آیا در صعودی مرتب سازی (الف) یا نزولی (ZA) سفارش بدهند."
+
+#: GameEngine.py:317
+msgid "Sort Setlist By"
+msgstr "Setlist مرتب سازی"
+
+#: GameEngine.py:317
+msgid "Title"
+msgstr "عنوان"
+
+#: GameEngine.py:317
+msgid "Artist"
+msgstr "هنرمند"
+
+#: GameEngine.py:317
+msgid "Times played"
+msgstr "دفعات بازی شده"
+
+#: GameEngine.py:317
+msgid "Album"
+msgstr "البوم"
+
+#: GameEngine.py:317
+msgid "Genre"
+msgstr "نوع"
+
+#: GameEngine.py:317
+msgid "Year"
+msgstr "سال"
+
+#: GameEngine.py:317
+msgid "Band Difficulty"
+msgstr "گروه دشواری"
+
+#: GameEngine.py:317
+msgid "Song Collection"
+msgstr "مجموعه آهنگ"
+
+#: GameEngine.py:317
+msgid "Choose how to sort the setlist by default."
+msgstr "انتخاب نحوه مرتب سازی بر اساس setlist به طور پیش فرض."
+
+#: GameEngine.py:318
+msgid "Whammy Changes Sort Order"
+msgstr "Whammy تغییرهای مرتب کردن بر اساس سفارش"
+
+#: GameEngine.py:318
+msgid "When enabled, pressing the whammy bar will change the sort order in the setlist."
+msgstr "هنگامی که فعال باشد ، با فشار دادن میله whammy خواهد ترتیب در setlist را تغییر دهید."
+
+#: GameEngine.py:319
+msgid "Point Of View"
+msgstr "نقطه نظر"
+
+#: GameEngine.py:319
+msgid "GH3"
+msgstr "GH3"
+
+#: GameEngine.py:319
+msgid "Rock Rev"
+msgstr "راک برگرد"
+
+#: GameEngine.py:319
+msgid "Sets the camera's point of view. Set it to any game, or set it to 'Theme' to leave it to the theme creator."
+msgstr "تعیین نقطه دوربین دید. تنظیم آن را به هر بازی ، مجموعه و یا آن را به 'تم' آن را ترک کند به خالق تم."
+
+#: GameEngine.py:320
+msgid "Party Mode Timer"
+msgstr "حزب تایمر نحوه"
+
+#: GameEngine.py:320
+msgid "Sets the timer in Party Mode."
+msgstr "دستگاه شمارنده حزب در حالت."
+
+#: GameEngine.py:321
+msgid "Show Setlist Size"
+msgstr "نمایش حجم Setlist"
+
+#: GameEngine.py:321
+msgid "Show the number of songs inside of each setlist."
+msgstr "نمایش تعدادی از آهنگ های داخل هر setlist."
+
+#: GameEngine.py:322
+msgid "CD Mode Y-Rotation"
+msgstr "سی دی نحوه چرخش Y -"
+
+#: GameEngine.py:322
+#: GameEngine.py:351
+msgid "Enabled"
+msgstr "کوکی ها"
+
+#: GameEngine.py:322
+msgid "Sets whether or not CDs in the setlist rotate about the Y axis."
+msgstr "دستگاه یا نه سی دی در setlist چرخش در مورد محور Y."
+
+#: GameEngine.py:326
+msgid "P1 AI"
+msgstr "P1 هوش مصنوعی"
+
+#: GameEngine.py:326
+msgid "Enable or disable the player 1 AI"
+msgstr "فعال یا غیر فعال کردن هوش مصنوعی 1 بازیکن"
+
+#: GameEngine.py:327
+msgid "P1 AI Personality"
+msgstr "P1 شخصیت هوش مصنوعی"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "1. KiD"
+msgstr "1. بچه"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "2. Stump"
+msgstr "2. صدای افتادن چیز سنگین"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "3. akedRobot"
+msgstr "3. akedRobot"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "4. Q"
+msgstr "4. س"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "5. MFH"
+msgstr "5. MFH"
+
+#: GameEngine.py:327
+#: GameEngine.py:331
+#: GameEngine.py:335
+#: GameEngine.py:339
+msgid "6. Jurgen"
+msgstr "6. Jürgen"
+
+#: GameEngine.py:327
+msgid "Set the personality of the player 1 AI. The numbers correspond with their skill."
+msgstr "مجموعه شخصیت بازیکن 1 هوش مصنوعی. اعداد متناظر با مهارت خود را."
+
+#: GameEngine.py:328
+msgid "P1 AI Logic"
+msgstr "P1 منطق هوش مصنوعی"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "Original"
+msgstr "اصلی"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-Early"
+msgstr "MFH - زودرس"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-OnTime1"
+msgstr "MFH - OnTime1"
+
+#: GameEngine.py:328
+#: GameEngine.py:332
+#: GameEngine.py:336
+#: GameEngine.py:340
+msgid "MFH-OnTime2"
+msgstr "MFH - OnTime2"
+
+#: GameEngine.py:328
+msgid "Set the logic used for the player 1 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "تنظیم منطق مورد استفاده در هوش مصنوعی بازیکن 1. 'پژوهشی' می تواند سریع بخش کنترل نیست. تلاش 'MFH - زودهنگام' ضربه یادداشت ها آنها را وارد کنید پنجره رسید. هستند 'MFH - OnTime' پیاده سازی شده است که تلاش برای ضربه یادداشت ها به عنوان آنها رخ می دهد ، مانند یک بازیکن واقعی است."
+
+#: GameEngine.py:330
+msgid "P2 AI"
+msgstr "P2 هوش مصنوعی"
+
+#: GameEngine.py:330
+msgid "Enable or disable the player 2 AI"
+msgstr "فعال یا غیر فعال کردن پخش 2 هوش مصنوعی"
+
+#: GameEngine.py:331
+msgid "P2 AI Personality"
+msgstr "P2 شخصیت هوش مصنوعی"
+
+#: GameEngine.py:331
+msgid "Set the personality of the player 2 AI. The numbers correspond with their skill."
+msgstr "مجموعه شخصیت بازیکن 2 هوش مصنوعی. اعداد متناظر با مهارت خود را."
+
+#: GameEngine.py:332
+msgid "P2 AI Logic"
+msgstr "P2 منطق هوش مصنوعی"
+
+#: GameEngine.py:332
+msgid "Set the logic used for the player 2 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "تنظیم منطق مورد استفاده برای پخش 2 هوش مصنوعی. 'پژوهشی' می تواند سریع بخش کنترل نیست. تلاش 'MFH - زودهنگام' ضربه یادداشت ها آنها را وارد کنید پنجره رسید. هستند 'MFH - OnTime' پیاده سازی شده است که تلاش برای ضربه یادداشت ها به عنوان آنها رخ می دهد ، مانند یک بازیکن واقعی است."
+
+#: GameEngine.py:334
+msgid "P3 AI"
+msgstr "P3 هوش مصنوعی"
+
+#: GameEngine.py:334
+msgid "Enable or disable the player 3 AI"
+msgstr "فعال یا غیر فعال کردن پخش 3 هوش مصنوعی"
+
+#: GameEngine.py:335
+msgid "P3 AI Personality"
+msgstr "P3 شخصیت هوش مصنوعی"
+
+#: GameEngine.py:335
+msgid "Set the personality of the player 3 AI. The numbers correspond with their skill."
+msgstr "مجموعه شخصیت بازیکن 3 هوش مصنوعی. اعداد متناظر با مهارت خود را."
+
+#: GameEngine.py:336
+msgid "P3 AI Logic"
+msgstr "P3 منطق هوش مصنوعی"
+
+#: GameEngine.py:336
+msgid "Set the logic used for the player 3 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "تنظیم منطق مورد استفاده برای پخش 3 هوش مصنوعی. 'پژوهشی' می تواند سریع بخش کنترل نیست. تلاش 'MFH - زودهنگام' ضربه یادداشت ها آنها را وارد کنید پنجره رسید. هستند 'MFH - OnTime' پیاده سازی شده است که تلاش برای ضربه یادداشت ها به عنوان آنها رخ می دهد ، مانند یک بازیکن واقعی است."
+
+#: GameEngine.py:338
+msgid "P4 AI"
+msgstr "P4 هوش مصنوعی"
+
+#: GameEngine.py:338
+msgid "Enable or disable the player 4 AI"
+msgstr "فعال یا غیر فعال کردن پخش 4 هوش مصنوعی"
+
+#: GameEngine.py:339
+msgid "P4 AI Personality"
+msgstr "P4 هوش مصنوعی شخصیت"
+
+#: GameEngine.py:339
+msgid "Set the personality of the player 4 AI. The numbers correspond with their skill."
+msgstr "مجموعه شخصیت بازیکن هوش مصنوعی 4. اعداد متناظر با مهارت خود را."
+
+#: GameEngine.py:340
+msgid "P4 AI Logic"
+msgstr "P4 هوش مصنوعی منطق"
+
+#: GameEngine.py:340
+msgid "Set the logic used for the player 4 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."
+msgstr "تنظیم منطق مورد استفاده در هوش مصنوعی 4 بازیکن. 'پژوهشی' می تواند سریع بخش کنترل نیست. تلاش 'MFH - زودهنگام' ضربه یادداشت ها آنها را وارد کنید پنجره رسید. هستند 'MFH - OnTime' پیاده سازی شده است که تلاش برای ضربه یادداشت ها به عنوان آنها رخ می دهد ، مانند یک بازیکن واقعی است."
+
+#: GameEngine.py:343
+msgid "Lyric Display Mode"
+msgstr "شعر حالت نمایش"
+
+#: GameEngine.py:343
+msgid "Scrolling"
+msgstr "لغزاندن"
+
+#: GameEngine.py:343
+msgid "Simple Lines"
+msgstr "خطوط ساده"
+
+#: GameEngine.py:343
+msgid "2-Line"
+msgstr "2 خط"
+
+#: GameEngine.py:343
+msgid "Sets the display mode for MIDI lyrics. Both 'Simple Lines' and '2-Line' will show as single phrases when playing the vocal part."
+msgstr "تعیین حالت نمایش برای شعر دانلود. رایگان هر دو 'ساده خطوط و خط'2 'به عنوان عبارت تنها زمانی که بازی بخش آوازی نشان می دهد."
+
+#: GameEngine.py:344
+msgid "Lyric Speed Mode"
+msgstr "شعر نحوه سرعت"
+
+#: GameEngine.py:344
+msgid "Sets what determines the speed of the scrolling lyrics."
+msgstr "تعیین آنچه تعیین کننده سرعت پیمایش اشعار."
+
+#: GameEngine.py:345
+msgid "Lyric Speed Percent"
+msgstr "شعر درصد سرعت"
+
+#: GameEngine.py:345
+msgid "Sets how quickly lyrics will scroll."
+msgstr "مجموعه های شعر به چه سرعت حرکت خواهد کرد."
+
+#: GameEngine.py:351
+msgid "Graphical Submenus"
+msgstr "گرافیکی Submenus"
+
+#: GameEngine.py:351
+msgid "Enable or disable the use of graphical submenus."
+msgstr "فعال یا غیر فعال کردن استفاده از submenus گرافیکی."
+
+#: GameEngine.py:354
+msgid "Crowd Cheers"
+msgstr "جمعیت به سلامتی"
+
+#: GameEngine.py:354
+msgid "Off (Disabled)"
+msgstr "خاموش (غیر فعال)"
+
+#: GameEngine.py:354
+msgid "During SP Only"
+msgstr "در طول فقط SP"
+
+#: GameEngine.py:354
+msgid "During SP & Green"
+msgstr "در طول SP و سبز"
+
+#: GameEngine.py:354
+msgid "Always On"
+msgstr "همیشه در"
+
+#: GameEngine.py:354
+msgid "Sets when the crowd will cheer for you (if a crowd.ogg is present). 'During SP' will have them sing along in star power, and 'During SP & Green' will have them cheering both in SP and when your rock meter is above 2/3"
+msgstr "تعیین زمانی که جمعیت زیادی را برای شما (در صورت crowd.ogg وجود داشته باشد) و کف بزند. 'در SP خواهند آنها را می خوانم ستاره همراه در قدرت ، و« در طول SP و سبز آنها را تشویق خواهد کرد در هر دو SP متر و هنگامی که سنگ خود را بالاتر از 2 / 3"
+
+#: GameEngine.py:357
+msgid "Miss Volume"
+msgstr "جلد دوشیزه"
+
+#: GameEngine.py:357
+msgid "Set the volume of the active track when you miss a note."
+msgstr "تنظیم حجم آهنگ وقتی شما فعال نشده توجه داشته باشید."
+
+#: GameEngine.py:358
+msgid "Single Track Miss"
+msgstr "آهنگ تنها دوشیزه"
+
+#: GameEngine.py:358
+msgid "When playing a song with only a single track, this sets the volume of the track when you miss a note."
+msgstr "هنگام بازی آهنگ با فقط تک آهنگ ، این مجموعه حجم آهنگ وقتی دلم برات تنگ شده توجه کنید."
+
+#: GameEngine.py:359
+msgid "Menu Volume"
+msgstr "جلد منو"
+
+#: GameEngine.py:359
+msgid "Set the volume of the background menu music."
+msgstr "تنظیم حجم موسیقی پس زمینه منو."
+
+#: GameEngine.py:361
+msgid "Crowd Volume"
+msgstr "دوره جمعیت"
+
+#: GameEngine.py:361
+msgid "Set the volume of the crowd."
+msgstr "تنظیم حجم جمعیت."
+
+#: GameEngine.py:363
+msgid "Kill Volume"
+msgstr "دوره کشتار"
+
+#: GameEngine.py:363
+msgid "Sets the volume when using the killswitch."
+msgstr "تعیین حجم در هنگام استفاده از killswitch."
+
+#: GameEngine.py:364
+msgid "SFX Volume"
+msgstr "جلد SFX"
+
+#: GameEngine.py:364
+msgid "Sets the volume of various sound effects."
+msgstr "تعیین حجم اثرات مختلف صدا."
+
+#: GameEngine.py:371
+msgid "Cache Song Metadata"
+msgstr "کش فراداده آهنگ"
+
+#: GameEngine.py:371
+msgid "This will allow information about the songs to be stored for quick access later at the cost of a slow first time loading."
+msgstr "این اجازه خواهد داد که اطلاعات مربوط به آهنگ برای دسترسی سریع می شود بعد در هزینه های اجرا کند اولین بار ذخیره شده است."
+
+#: GameEngine.py:399
+msgid "Sets the overall graphical feel of the game. You can find and download many more at fretsonfire.net"
+msgstr "مجموعه های گرافیکی کلی احساس از بازی ها. شما می توانید پیدا کردن و دانلود از ادامه در fretsonfire.net"
+
+#: GameEngine.py:404
+msgid "Board Speed Percent"
+msgstr "صفحه اول درصد سرعت"
+
+#: GameEngine.py:404
+msgid "Sets how quickly note will scroll"
+msgstr "تعیین خواهد شد توجه داشته باشید که چگونه به سرعت حرکت"
+
+#: GameEngine.py:405
+msgid "No Fail"
+msgstr "بدون عدم موفقیت"
+
+#: GameEngine.py:405
+msgid "Sets whether or not you can fail out of a song."
+msgstr "یا دستگاه شما نمی توانید از آهنگ شکست بخورد."
+
+#: GameEngine.py:409
+msgid "Difficulty (Setlist Score)"
+msgstr "اشکال (امتیاز Setlist)"
+
+#: GameEngine.py:409
+msgid "Sets the default difficulty displayed in the setlist score."
+msgstr "دستگاه سختی پیش فرض نمایش داده شده در نمره setlist."
+
+#: GameEngine.py:410
+msgid "Show Additional Stats"
+msgstr "آمار نمایش اضافی"
+
+#: GameEngine.py:410
+msgid "If enabled, additional score information (longest streak, percentage) is displayed on the setlist."
+msgstr "در صورت فعال بودن ، اطلاعات اضافی در خصوص نمرات (طولانی ترین خط ، درصد) در setlist نمایش داده میشوند."
+
+#: GameEngine.py:412
+msgid "Instrument (Setlist Score)"
+msgstr "ابزار (امتیاز Setlist)"
+
+#: GameEngine.py:412
+msgid "Sets the default part displayed in the setlist score."
+msgstr "دستگاه به طور پیش فرض نمایش داده شده در قسمت نمره setlist."
+
+#: GameEngine.py:674
+msgid "Slideshow"
+msgstr "نمایش به صورت اسلاید"
+
+#: GameEngine.py:677
+#: GameEngine.py:691
+msgid "Animated Stage"
+msgstr "مرحله متحرک"
+
+#: GameResultsScene.py:121
+#: GameResultsScene.py:122
+msgid "Co-Op Mode"
+msgstr "نحوه همکاری عملیات"
+
+#: GameResultsScene.py:124
+msgid "settings"
+msgstr "تنظیمات"
+
+#: GameResultsScene.py:125
+msgid "HOPOs"
+msgstr "HOPOs"
+
+#: GameResultsScene.py:126
+msgid "Hit Window"
+msgstr "آمار پنجره"
+
+#: GameResultsScene.py:127
+msgid "Adjusted Score Multiplier:"
+msgstr "امتیاز تعدیل ضرب :"
+
+#: GameResultsScene.py:128
+msgid "Original Score:"
+msgstr "امتیاز اصلی :"
+
+#: GameResultsScene.py:133
+#: GameResultsScene.py:140
+#: GameResultsScene.py:147
+msgid "Continue"
+msgstr "ادامه"
+
+#: GameResultsScene.py:134
+msgid "Replay Setlist"
+msgstr "پخش Setlist"
+
+#: GameResultsScene.py:136
+#: GameResultsScene.py:143
+#: GameResultsScene.py:150
+msgid "Quit"
+msgstr "ترک"
+
+#: GameResultsScene.py:141
+msgid "Replay"
+msgstr "پخش"
+
+#: GameResultsScene.py:148
+msgid "End Setlist"
+msgstr "پایان Setlist"
+
+#: GameResultsScene.py:165
+msgid "Relax, it was an excellent show."
+msgstr "آرامش ، آن را نشان می دهد عالی بود."
+
+#: GameResultsScene.py:167
+msgid "Truly Amazing!"
+msgstr "به راستی شگفت انگیز!"
+
+#: GameResultsScene.py:169
+msgid "Thanks for playing!"
+msgstr "با تشکر برای بازی!"
+
+#: GameResultsScene.py:171
+msgid "One more song can't hurt!"
+msgstr "یکی دیگر ترانه نمی تواند صدمه دیده!"
+
+#: GameResultsScene.py:173
+msgid "What an amazing performance!"
+msgstr "چه شگفت انگیز عملکرد!"
+
+#: GameResultsScene.py:175
+msgid "That's how it's done!"
+msgstr "که چگونه آن را انجام داده!"
+
+#: GameResultsScene.py:248
+msgid "GH2 Sloppy"
+msgstr "GH2 درهم و برهم"
+
+#: GameResultsScene.py:258
+msgid "New System"
+msgstr "سیستم جدید"
+
+#: GameResultsScene.py:573
+#, python-format
+msgid "%d points is a new high score! Enter your name:"
+msgstr "%d امتیاز نمره بالا جدید است! نام خود را وارد کنید :"
+
+#: GameResultsScene.py:1297
+#, python-format
+msgid "%s High Scores for %s"
+msgstr "%s بالاترین امتیاز برای %s"
+
+#: GameResultsScene.py:1299
+#, python-format
+msgid "%s High Scores"
+msgstr "%s بالاترین امتیاز"
+
+#: GameResultsScene.py:1305
+#, python-format
+msgid "Difficulty: %s"
+msgstr "دشواری : %s"
+
+#: GameResultsScene.py:1367
+msgid "Uploading Scores..."
+msgstr "آپلود امتیاز..."
+
+#: GameResultsScene.py:1372
+msgid "Scores uploaded!"
+msgstr "بیشترین امتیاز ها ارسال شده!"
+
+#: GameResultsScene.py:1376
+msgid "Your highscore ranks"
+msgstr "بالاترین رتبه شما"
+
+#: GameResultsScene.py:1377
+msgid "on the world starpower chart!"
+msgstr "در تاریخ جهان جدول starpower!"
+
+#: GameResultsScene.py:1380
+msgid "but your rank is unknown."
+msgstr "اما رتبه شما معلوم نیست."
+
+#: GameResultsScene.py:1383
+msgid "but there was no new highscore."
+msgstr "اما بالاترین جدید وجود دارد."
+
+#: GameResultsScene.py:1386
+msgid "Score upload failed!  World charts may be down."
+msgstr "امتیاز ارسال نشد! نمودار جهانی ممکن است پایین."
+
+#: GuitarScene.py:82
+#: GuitarScene.py:83
+msgid "Initializing..."
+msgstr "راه اندازی..."
+
+#: GuitarScene.py:497
+msgid "KiD"
+msgstr "بچه"
+
+#: GuitarScene.py:497
+msgid "Stump"
+msgstr "صدای افتادن چیز سنگین"
+
+#: GuitarScene.py:497
+msgid "AkedRobot"
+msgstr "AkedRobot"
+
+#: GuitarScene.py:497
+msgid "Q"
+msgstr "س"
+
+#: GuitarScene.py:497
+msgid "MFH"
+msgstr "MFH"
+
+#: GuitarScene.py:497
+msgid "Jurgen"
+msgstr "Jürgen"
+
+#: GuitarScene.py:504
+msgid "Broken String"
+msgstr "شکسته رشته"
+
+#: GuitarScene.py:506
+msgid "Powerup Steal"
+msgstr "Powerup سرقت"
+
+#: GuitarScene.py:510
+#, python-format
+msgid "%d Note Streak"
+msgstr "%d توجه رگه"
+
+#: GuitarScene.py:511
+#, python-format
+msgid "%d Phrase Streak"
+msgstr "%d عبارت رگه"
+
+#: GuitarScene.py:512
+#, python-format
+msgid "%s Ready"
+msgstr "%s آماده"
+
+#: GuitarScene.py:513
+#, python-format
+msgid "Activate %s!"
+msgstr "%s فعال کردن!"
+
+#: GuitarScene.py:514
+msgid "You Failed"
+msgstr "شما شکست خورد"
+
+#: GuitarScene.py:515
+#, python-format
+msgid "%s is here"
+msgstr "%s اینجا"
+
+#: GuitarScene.py:516
+#, python-format
+msgid "%s was here"
+msgstr "%s اینجا بود"
+
+#: GuitarScene.py:517
+msgid "% Complete"
+msgstr "٪ کامل"
+
+#: GuitarScene.py:518
+#: GuitarScene.py:5839
+msgid "HOPO"
+msgstr "HOPO"
+
+#: GuitarScene.py:519
+#: GuitarScene.py:5809
+#: GuitarScene.py:5818
+msgid "COMPLETED"
+msgstr "تکمیل شده"
+
+#: GuitarScene.py:520
+#: GuitarScene.py:5811
+#: GuitarScene.py:5827
+msgid " % ON "
+msgstr "درصد"
+
+#: GuitarScene.py:521
+msgid "BASS GROOVE"
+msgstr "باس شیار"
+
+#: GuitarScene.py:522
+msgid "Bass Groove:"
+msgstr "باس شیار :"
+
+#: GuitarScene.py:523
+msgid "Handicap"
+msgstr "نقص"
+
+#: GuitarScene.py:524
+msgid "Avg"
+msgstr "میانگین"
+
+#: GuitarScene.py:525
+msgid "Very Late"
+msgstr "خیلی دیر"
+
+#: GuitarScene.py:526
+msgid "Late"
+msgstr "دیر"
+
+#: GuitarScene.py:527
+msgid "Slightly Late"
+msgstr "کمی دیر"
+
+#: GuitarScene.py:528
+msgid "-Excellent!"
+msgstr "- عالی!"
+
+#: GuitarScene.py:529
+msgid "Perfect!!"
+msgstr "عالی!"
+
+#: GuitarScene.py:530
+msgid "+Excellent!"
+msgstr "+ عالی!"
+
+#: GuitarScene.py:531
+msgid "Slightly Early"
+msgstr "کمی زود هنگام"
+
+#: GuitarScene.py:534
+msgid "ms"
+msgstr "خانم"
+
+#: GuitarScene.py:535
+msgid "Solo!"
+msgstr "انفرادی!"
+
+#: GuitarScene.py:536
+msgid "Perfect Solo!"
+msgstr "سولو کامل!"
+
+#: GuitarScene.py:537
+msgid "Awesome Solo!"
+msgstr "سولو بسیار معروف!"
+
+#: GuitarScene.py:538
+msgid "Great Solo!"
+msgstr "سولو بزرگ!"
+
+#: GuitarScene.py:539
+msgid "Good Solo!"
+msgstr "خوب انفرادی!"
+
+#: GuitarScene.py:540
+msgid "Solid Solo!"
+msgstr "سولو های حالت جامد!"
+
+#: GuitarScene.py:541
+msgid "Okay Solo"
+msgstr "سولو خیلی خوب"
+
+#: GuitarScene.py:542
+msgid "Messy Solo"
+msgstr "کثیف سولو"
+
+#: GuitarScene.py:543
+msgid "pts"
+msgstr "امتیاز"
+
+#: GuitarScene.py:544
+msgid "Get Ready to Rock"
+msgstr "آماده به موسیقی راک"
+
+#: GuitarScene.py:545
+msgid "as made famous by"
+msgstr "به عنوان معروف ساخته شده توسط"
+
+#: GuitarScene.py:546
+msgid "by "
+msgstr "توسط"
+
+#: GuitarScene.py:547
+msgid " fretted by "
+msgstr "مضطرب شده توسط"
+
+#: GuitarScene.py:890
+msgid "Loading Song..."
+msgstr "در حال بارگذاری... آهنگ"
+
+#: GuitarScene.py:900
+msgid "Preparing Note Phrases..."
+msgstr "عبارات آماده سازی توجه داشته باشید..."
+
+#: GuitarScene.py:1401
+msgid "Loading Graphics..."
+msgstr "در حال بارگذاری... گرافیک"
+
+#: GuitarScene.py:1615
+msgid "         RESUME"
+msgstr "رزومه کاری"
+
+#: GuitarScene.py:1616
+msgid "        RESTART"
+msgstr "راه اندازی مجدد"
+
+#: GuitarScene.py:1618
+msgid "       PRACTICE"
+msgstr "عمل"
+
+#: GuitarScene.py:1619
+msgid "        OPTIONS"
+msgstr "گزینهها"
+
+#: GuitarScene.py:1620
+#: GuitarScene.py:1629
+msgid "           QUIT"
+msgstr "ترک"
+
+#: GuitarScene.py:1624
+msgid "        RESUME"
+msgstr "رزومه کاری"
+
+#: GuitarScene.py:1625
+msgid "       RESTART"
+msgstr "راه اندازی مجدد"
+
+#: GuitarScene.py:1627
+msgid "      END SONG"
+msgstr "پایان ترانه"
+
+#: GuitarScene.py:1628
+msgid "       OPTIONS"
+msgstr "گزینهها"
+
+#: GuitarScene.py:1634
+#: GuitarScene.py:1641
+msgid "RETRY SONG"
+msgstr "سعیمجدد ترانه"
+
+#: GuitarScene.py:1635
+msgid "  PRACTICE"
+msgstr "عمل"
+
+#: GuitarScene.py:1636
+#: GuitarScene.py:1642
+#: GuitarScene.py:1706
+#: GuitarScene.py:1713
+msgid " NEW SONG"
+msgstr "آهنگ جدید"
+
+#: GuitarScene.py:1637
+#: GuitarScene.py:1643
+msgid "     QUIT"
+msgstr "ترک"
+
+#: GuitarScene.py:1650
+#: GuitarScene.py:1659
+msgid "  Resume"
+msgstr "خلاصه"
+
+#: GuitarScene.py:1651
+#: GuitarScene.py:1660
+msgid "  Start Over"
+msgstr "شروع بیش از"
+
+#: GuitarScene.py:1652
+#: GuitarScene.py:1661
+msgid "  Change Song"
+msgstr "آهنگ تغییر"
+
+#: GuitarScene.py:1653
+msgid "  Practice"
+msgstr "عمل"
+
+#: GuitarScene.py:1654
+#: GuitarScene.py:1663
+msgid "  Settings"
+msgstr "تنظیمات"
+
+#: GuitarScene.py:1655
+#: GuitarScene.py:1664
+msgid "  Quit to Main Menu"
+msgstr "ترک به منو اصلی"
+
+#: GuitarScene.py:1662
+msgid "  End Song"
+msgstr "آهنگ پایان"
+
+#: GuitarScene.py:1669
+#: GuitarScene.py:1676
+msgid " Try Again?"
+msgstr "سعی کنید باز هم؟"
+
+#: GuitarScene.py:1670
+#: GuitarScene.py:1677
+msgid "  Give Up?"
+msgstr "رها؟"
+
+#: GuitarScene.py:1671
+msgid "  Practice?"
+msgstr "در چیست؟"
+
+#: GuitarScene.py:1672
+#: GuitarScene.py:1678
+msgid "Quit to Main"
+msgstr "ترک به صفحه اصلی"
+
+#: GuitarScene.py:1686
+#: GuitarScene.py:1695
+msgid "   RESUME"
+msgstr "رزومه کاری"
+
+#: GuitarScene.py:1687
+#: GuitarScene.py:1696
+msgid "   RESTART"
+msgstr "راه اندازی مجدد"
+
+#: GuitarScene.py:1688
+#: GuitarScene.py:1697
+msgid "   CHANGE SONG"
+msgstr "تغییر ترانه"
+
+#: GuitarScene.py:1689
+msgid "   PRACTICE"
+msgstr "عمل"
+
+#: GuitarScene.py:1690
+#: GuitarScene.py:1699
+msgid "   SETTINGS"
+msgstr "تنظیمات"
+
+#: GuitarScene.py:1691
+#: GuitarScene.py:1700
+msgid "   QUIT"
+msgstr "ترک"
+
+#: GuitarScene.py:1698
+msgid "   END SONG"
+msgstr "پایان ترانه"
+
+#: GuitarScene.py:1705
+#: GuitarScene.py:1712
+msgid " RETRY"
+msgstr "سعیمجدد"
+
+#: GuitarScene.py:1707
+msgid " PRACTICE"
+msgstr "عمل"
+
+#: GuitarScene.py:1708
+#: GuitarScene.py:1714
+msgid " QUIT"
+msgstr "ترک"
+
+#: GuitarScene.py:6488
+#, python-format
+msgid "FPS: %.2f"
+msgstr "FPS: %.2f"
+
+#: Language.py:62
+msgid "Language"
+msgstr "زبان"
+
+#: Language.py:62
+msgid "Change the game language!"
+msgstr "تغییر زبان بازی!"
+
+#: Lobby.py:39
+#: MainMenu.py:294
+msgid "Your controls are not properly set up for this mode. Please check your settings."
+msgstr "کنترل خود را هم درست نیست برای این حالت تنظیم. لطفا تنظیمات خود را."
+
+#: Lobby.py:43
+msgid "World error. Please try again."
+msgstr "خطا جهانی. لطفا دوباره سعی کنید."
+
+#: Lobby.py:167
+msgid "Choose Your Character"
+msgstr "شخصیت خود را انتخاب کنید"
+
+#: Lobby.py:168
+#: Lobby.py:750
+#, python-format
+msgid "Player %d"
+msgstr "بازیکن %d"
+
+#: Lobby.py:170
+msgid "Regular Drums"
+msgstr "درام منظم"
+
+#: Lobby.py:170
+msgid "Flipped Drums"
+msgstr "Flipped درام"
+
+#: Lobby.py:171
+msgid "Pedal-Using"
+msgstr "با استفاده از پدال -"
+
+#: Lobby.py:171
+msgid "Footless"
+msgstr "بی پا"
+
+#: Lobby.py:172
+msgid "Assist Mode Off"
+msgstr "نحوه کمک به خاموش"
+
+#: Lobby.py:172
+#: Lobby.py:503
+#: Player.py:211
+msgid "Easy Assist"
+msgstr "کمک به آسان"
+
+#: Lobby.py:172
+#: Lobby.py:503
+#: Player.py:211
+msgid "Medium Assist"
+msgstr "متوسط کمک"
+
+#: Lobby.py:173
+msgid "Chordmaster"
+msgstr "Chordmaster"
+
+#: Lobby.py:173
+msgid "Two Notes Max"
+msgstr "دو یادداشت های مکس"
+
+#: Lobby.py:174
+msgid "Information:"
+msgstr "اطلاعات :"
+
+#: Lobby.py:188
+msgid "Create New Player"
+msgstr "پلیر جدید ایجاد کنید"
+
+#: Lobby.py:188
+msgid "Saved Characters"
+msgstr "شخصیت های ذخیره شده"
+
+#: Lobby.py:502
+#: Player.py:207
+msgid "Default Neck"
+msgstr "پیش فرض گردن"
+
+#: Lobby.py:502
+#: Player.py:207
+msgid "Theme Neck"
+msgstr "تم گردن"
+
+#: Lobby.py:502
+msgid "Select a Neck"
+msgstr "انتخاب گردن"
+
+#: Lobby.py:504
+msgid "Name"
+msgstr "نام"
+
+#: Lobby.py:504
+msgid "Name your character!"
+msgstr "نام و نام خانوادگی شخصیت خود را!"
+
+#: Lobby.py:505
+#: Player.py:208
+msgid "Lefty Mode"
+msgstr "Lefty نحوه"
+
+#: Lobby.py:505
+msgid "Flip the guitar frets for left-handed playing!"
+msgstr "فلیپ گیتار برای بازی frets چپ دست!"
+
+#: Lobby.py:506
+#: Player.py:209
+msgid "Drum Flip"
+msgstr "طبل تلنگر"
+
+#: Lobby.py:506
+msgid "Flip the drum sounds - snare becomes crash, and so on"
+msgstr "فلیپ درام برای تلفن های موبایل -- دام می شود سقوط و غیره"
+
+#: Lobby.py:507
+msgid "Auto-Kick Bass"
+msgstr "خودکار لگد باس"
+
+#: Lobby.py:507
+msgid "Feet uncooperative? Broke your pedal? Not to worry!"
+msgstr "غیر همکار پا؟ شکست شما پدال؟ نه برای غصه خوردن!"
+
+#: Lobby.py:508
+#: Player.py:211
+msgid "Assist Mode"
+msgstr "نحوه کمک"
+
+#: Lobby.py:508
+msgid "Play hard and expert, even when you're not that good!"
+msgstr "بازی سخت و متخصص ، حتی وقتی که خوب نیست!"
+
+#: Lobby.py:509
+#: Player.py:190
+#: Player.py:210
+msgid "Two-Chord Max"
+msgstr "دو وتر مکس"
+
+#: Lobby.py:509
+msgid "For those still playing with uncooperative keyboards."
+msgstr "برای کسانی که هنوز بازی با صفحه کلید غیر همکار."
+
+#: Lobby.py:510
+msgid "Give the endless procession of notes a bit of flair!"
+msgstr "را در صفوف منظم از یادداشت های بی پایان کمی استعداد!"
+
+#: Lobby.py:511
+msgid "Upload Name"
+msgstr "نام و نام خانوادگی ارسال"
+
+#: Lobby.py:511
+msgid "To the internet, you are GUITARGOD23047124!"
+msgstr "برای اینترنت ، شما GUITARGOD23047124!"
+
+#: Lobby.py:512
+msgid "Choose Avatar"
+msgstr "انتخاب کنید"
+
+#: Lobby.py:512
+msgid "A 256x256 window into your soul."
+msgstr "پنجره 256x256 به روح شما."
+
+#: Lobby.py:513
+msgid "Delete Character"
+msgstr "حذف علامت"
+
+#: Lobby.py:513
+msgid "Quitter."
+msgstr "ادم ترسو و بی اثر."
+
+#: Lobby.py:514
+msgid "Done"
+msgstr "انجام شده"
+
+#: Lobby.py:514
+msgid "All finished? Let's do this thing!"
+msgstr "همه به پایان رسید؟ اجازه دهید این کار چیزی!"
+
+#: Lobby.py:549
+msgid "Are you sure you want to delete this player?"
+msgstr "آیا مطمئن هستید که می خواهید پاک کنید این بازیکن؟"
+
+#: Lobby.py:560
+msgid "That is a terrible name. Choose something not 'default'"
+msgstr "که نام وحشتناک است. چیزی را انتخاب نمی کند به طور پیش فرض '"
+
+#: Lobby.py:575
+msgid "That name already exists!"
+msgstr "این نام از قبل وجود داشته باشد!"
+
+#: Lobby.py:577
+msgid "Please enter a name!"
+msgstr "لطفا نام دارد!"
+
+#: MainMenu.py:150
+msgid "Tutorials"
+msgstr "خودآموزها"
+
+#: MainMenu.py:151
+msgid "Practice"
+msgstr "عمل"
+
+#: MainMenu.py:165
+msgid "Face-Off"
+msgstr "رو غیر فعال"
+
+#: MainMenu.py:166
+msgid "Pro Face-Off"
+msgstr "طرفدار رو خاموش"
+
+#: MainMenu.py:167
+msgid "Party Mode"
+msgstr "نحوه حزب"
+
+#: MainMenu.py:168
+msgid "FoFiX Co-Op"
+msgstr "FoFiX مشترک عملیات"
+
+#: MainMenu.py:169
+msgid "RB Co-Op"
+msgstr "بنیاعتماد همکاری عملیات"
+
+#: MainMenu.py:170
+msgid "GH Co-Op"
+msgstr "هورمون رشد ، شرکت عملیات"
+
+#: MainMenu.py:171
+msgid "GH Battle"
+msgstr "هورمون رشد نبرد"
+
+#: MainMenu.py:188
+msgid "Solo Tour"
+msgstr "تور سولو"
+
+#: MainMenu.py:189
+msgid "Quickplay"
+msgstr "Quickplay"
+
+#: MainMenu.py:236
+#, python-format
+msgid "This binary release is being run from a %(currentVcs)s working copy. This is not the correct way to run FoFiX from %(currentVcs)s. Please see one of the following web pages to set your %(currentVcs)s working copy up correctly:"
+msgstr "این نسخه باینری است که از %(currentVcs)s کار کپی اجرا کنید. این راه درست برای اجرای FoFiX از %(currentVcs)s است. لطفا یکی از صفحات وب خود را زیر %(currentVcs)s کار کپی را در تعیین صحیح :"
+
+#: MainMenu.py:240
+#, python-format
+msgid "This binary was built from a %(buildVcs)s working copy but is not running from one. The FoFiX Team will not provide any support whatsoever for this binary. Please see the following site for official binary releases:"
+msgstr "این دوتایی از %(buildVcs)sکپی کار ساخته شده بود اما از یک در حال اجرا نیست. تیم FoFiX هر گونه پشتیبانی را به عهده نمی آنچه برای این دودویی. لطفا به سایت زیر را برای انتشار رسمی دودویی :"
+
+#: MainMenu.py:312
+msgid "No tutorials found!"
+msgstr "بدون آموزش پیدا نشد!"
+
+#: Microphone.py:50
+msgid "[Default Microphone]"
+msgstr "[پیش فرض] میکروفون"
+
+#: Microphone.py:183
+msgid "[Microphones not supported]"
+msgstr "[میکروفون] قابل استفاده نمی باشد"
+
+#: Player.py:169
+msgid "Name your controller."
+msgstr "نام و نام خانوادگی کنترل کنید."
+
+#: Player.py:170
+msgid "Move left"
+msgstr "حرکت چپ"
+
+#: Player.py:171
+msgid "Move right"
+msgstr "انتقال حق"
+
+#: Player.py:172
+msgid "Move up"
+msgstr "حرکتبهبالا"
+
+#: Player.py:173
+msgid "Move down"
+msgstr "حرکتبهپایین"
+
+#: Player.py:174
+msgid "Pick"
+msgstr "چیدن"
+
+#: Player.py:175
+msgid "Secondary Pick"
+msgstr "متوسطه انتخاب"
+
+#: Player.py:175
+msgid "Bass Drum 2"
+msgstr "طبل باس 2"
+
+#: Player.py:181
+msgid "Solo Fret #1"
+msgstr "سولو اخم # 1"
+
+#: Player.py:181
+msgid "Solo Key"
+msgstr "سولو های کلیدی"
+
+#: Player.py:181
+#: Player.py:196
+msgid "Analog Slider"
+msgstr "آنالوگ لغزان"
+
+#: Player.py:182
+msgid "Solo Fret #2"
+msgstr "سولو اخم # 2"
+
+#: Player.py:183
+msgid "Solo Fret #3"
+msgstr "سولو اخم # 3"
+
+#: Player.py:184
+msgid "Solo Fret #4"
+msgstr "سولو اخم # 4"
+
+#: Player.py:185
+msgid "Solo Fret #5"
+msgstr "سولو اخم # 5"
+
+#: Player.py:186
+msgid "Cancel"
+msgstr "انصراف"
+
+#: Player.py:187
+msgid "StarPower"
+msgstr "StarPower"
+
+#: Player.py:190
+msgid "When enabled, the highest notes in large note chords are auto-played."
+msgstr "هنگامی که فعال شود ، بالاترین یادداشت را در آکورد نت بزرگ اتوماتیک انجام میشود."
+
+#: Player.py:191
+msgid "Controller Type"
+msgstr "نوع کنترل"
+
+#: Player.py:191
+msgid "Standard Guitar"
+msgstr "استاندارد گیتار"
+
+#: Player.py:191
+msgid "Solo Shift Guitar"
+msgstr "سولو گیتار شیفت"
+
+#: Player.py:191
+msgid "Drum Set (4-Drum)"
+msgstr "مجموعه طبل (4 کاسه)"
+
+#: Player.py:191
+msgid "Analog Slide Guitar"
+msgstr "اسلاید آنالوگ گیتار"
+
+#: Player.py:191
+msgid "Microphone"
+msgstr "میکروفن"
+
+#: Player.py:191
+msgid "'Standard Guitar' is for keyboards and pre-WT GH-series guitars. 'Solo Shift Guitar' is for RB-series guitars and keyboards who want to use a shift key for solo frets. 'Analog Slide Guitar' is for guitars with an analog slider bar."
+msgstr "'گیتار استاندارد است برای کیبورد و قبل از هورمون رشد دبلیو سری گیتار. است 'گیتار سولو شیفت برای بنیاعتماد سری گیتار و کیبورد که مایل به استفاده از کلید شیفت را برای تکنوازی frets. 'گیتار اسلاید آنالوگ است برای گیتار با نوار لغزنده آنالوگ."
+
+#: Player.py:192
+msgid "Analog SP"
+msgstr "آنالوگ SP"
+
+#: Player.py:192
+msgid "Enables analog SP (as in the XBOX Xplorer controller.)"
+msgstr "فعال SP آنالوگ (مانند ایکس باکس کنترل Xplorer.)"
+
+#: Player.py:193
+msgid "Analog SP Threshold"
+msgstr "آنالوگ آستانه SP"
+
+#: Player.py:193
+msgid "Sets a threshold level for activating SP in analog mode."
+msgstr "تعیین سطح آستانه برای فعال شدن در حالت SP آنالوگ."
+
+#: Player.py:194
+msgid "Analog SP Sensitivity"
+msgstr "آنالوگ حساسیت SP"
+
+#: Player.py:194
+msgid "Sets the sensitivity for activating SP in analog mode."
+msgstr "تعیین حساسیت برای فعال شدن در حالت SP آنالوگ."
+
+#: Player.py:195
+msgid "Analog Drums"
+msgstr "آنالوگ درام"
+
+#: Player.py:195
+#: Player.py:197
+msgid "PS2/PS3/Wii"
+msgstr "PS2/PS3/Wii"
+
+#: Player.py:195
+#: Player.py:197
+msgid "XBOX"
+msgstr "ایکس باکس"
+
+#: Player.py:195
+#: Player.py:197
+msgid "XBOX Inv."
+msgstr "ایکس باکس Inv."
+
+#: Player.py:195
+msgid "Enables analog drums as in RB2 and GH drumsets."
+msgstr "طبل را قادر میسازد به عنوان آنالوگ در RB2 drumsets و هورمون رشد."
+
+#: Player.py:196
+msgid "Inverted"
+msgstr "معکوس"
+
+#: Player.py:196
+msgid "Experimental testing for the analog slide mode."
+msgstr "آزمایش تجربی برای حالت اسلاید آنالوگ."
+
+#: Player.py:197
+msgid "Analog Effects"
+msgstr "اثرات آنالوگ"
+
+#: Player.py:197
+msgid "Enables analog whammy bar. Set to the system your controller was designed for."
+msgstr "را قادر میسازد نوار whammy آنالوگ. آماده سازی به سیستم کنترل کننده خود را برای طراحی شده است."
+
+#: Player.py:198
+msgid "Sound FX Switch"
+msgstr "تغییر جلوه های صوتی"
+
+#: Player.py:198
+msgid "Switch"
+msgstr "گزینه"
+
+#: Player.py:198
+msgid "Cycle"
+msgstr "چرخه"
+
+#: Player.py:199
+msgid "Microphone Device"
+msgstr "دستگاه میکروفن"
+
+#: Player.py:200
+msgid "Tap Sensitivity"
+msgstr "شیر حساسیت"
+
+#: Player.py:200
+msgid "Sets how sensitive the microphone is to being tapped."
+msgstr "مجموعه های حساس چگونه است که میکروفون ها شنود گذاشته بودن."
+
+#: Player.py:201
+msgid "Passthrough Volume"
+msgstr "جلد Passthrough"
+
+#: Player.py:201
+msgid "Sets how loud you hear yourself singing."
+msgstr "چگونه تعیین می شنوید با صدای بلند آواز خواندن خودتان."
+
+#: Player.py:207
+msgid "Neck Type"
+msgstr "گردن نوع"
+
+#: Player.py:207
+msgid "Specific Neck"
+msgstr "ویژه گردن"
+
+#: Player.py:212
+msgid "Auto Kick"
+msgstr "خودکار لگد"
+
+#: Player.py:385
+msgid "Default Drum"
+msgstr "پیش فرض طبل"
+
+#: Player.py:390
+#, python-format
+msgid "Controller %d"
+msgstr "کنترل %d"
+
+#: Player.py:391
+#, python-format
+msgid "Select the controller for slot %d"
+msgstr "انتخاب کنترلر حافظه برای %d"
+
+#: Player.py:754
+#, python-format
+msgid "%s conflicts with %s"
+msgstr "%s درگیری با %s"
+
+#: Player.py:842
+#, python-format
+msgid "This key conflicts with the following keys: %s"
+msgstr "این کلید درگیری با کلید های زیر است : %s"
+
+#: Scorekeeper.py:30
+msgid "Auto Kick Bass"
+msgstr "خودکار باس لگد"
+
+#: Scorekeeper.py:30
+msgid "Medium Assist Mode"
+msgstr "متوسط کمک نحوه"
+
+#: Scorekeeper.py:30
+msgid "Easy Assist Mode"
+msgstr "نحوه کمک به آسان"
+
+#: Scorekeeper.py:30
+msgid "Jurgen Played!"
+msgstr "یورگن بازی می کردیم!"
+
+#: Scorekeeper.py:31
+msgid "Effects Saved SP"
+msgstr "بررسی اثر ذخیره SP"
+
+#: Scorekeeper.py:31
+msgid "All Tapping"
+msgstr "بهره برداری همه"
+
+#: Scorekeeper.py:31
+msgid "HOPO Frequency: Most"
+msgstr "فرکانس HOPO : بیشتر"
+
+#: Scorekeeper.py:31
+msgid "HOPO Frequency: Even More"
+msgstr "فرکانس HOPO : حتی بیشتر"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: More"
+msgstr "فرکانس HOPO : بیشتر"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: Less"
+msgstr "فرکانس HOPO : کمتر"
+
+#: Scorekeeper.py:32
+msgid "HOPO Frequency: Least"
+msgstr "فرکانس HOPO : حداقل"
+
+#: Scorekeeper.py:32
+msgid "HOPO Disabled!"
+msgstr "HOPO غیر فعال است!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Tightest!"
+msgstr "آمار پنجره : Tightest!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Tight!"
+msgstr "آمار پنجره : فشرده!"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Wider"
+msgstr "آمار پنجره : وسیعتر"
+
+#: Scorekeeper.py:33
+msgid "Hit Window: Widest"
+msgstr "آمار پنجره : بهپهنترین"
+
+#: Scorekeeper.py:34
+msgid "Two Note Chords"
+msgstr "توجه داشته باشید دو آکورد"
+
+#: Scorekeeper.py:34
+msgid "No Fail Mode"
+msgstr "نحوه عدم موفقیت هیچ"
+
+#: Scorekeeper.py:34
+msgid "Sloppy Mode!"
+msgstr "نحوه درهم و برهم!"
+
+#: Scorekeeper.py:35
+msgid "Song Slowdown"
+msgstr "کاهش سرعت آهنگ"
+
+#: Scorekeeper.py:35
+msgid "Early Hit Window Adjustment"
+msgstr "آمار اولیه تنظیم پنجره"
+
+#: Settings.py:250
+#, python-format
+msgid "Press a key for '%s' or hold Escape to disable."
+msgstr "مطبوعات کلیدی برای '%s' یا نگه فرار به غیر فعال نمایید."
+
+#: Settings.py:252
+#, python-format
+msgid "Press a key for '%s' or hold Escape to cancel."
+msgstr "مطبوعات کلیدی برای '%s' یا نگه فرار را باطل کنم."
+
+#: Settings.py:302
+msgid "No Controllers Found."
+msgstr "بدون کنترل از یافت شد."
+
+#: Settings.py:350
+msgid "Are you sure you want to delete this controller?"
+msgstr "آیا مطمئن هستید که می خواهید پاک کنید این کنترل کننده؟"
+
+#: Settings.py:374
+msgid "Please name your controller"
+msgstr "لطفا نام خود را کنترل"
+
+#: Settings.py:376
+#: Settings.py:626
+msgid "That name is already taken."
+msgstr "این نام قبلا گرفته شده است."
+
+#: Settings.py:378
+#: Settings.py:628
+msgid "Canceled."
+msgstr "لغو شد."
+
+#: Settings.py:450
+#: Settings.py:487
+#: Settings.py:517
+#: Settings.py:546
+#: Settings.py:584
+#: Settings.py:612
+msgid "Rename Controller"
+msgstr "تغییر نام کنترل"
+
+#: Settings.py:473
+msgid "Press the solo shift key. Be sure to assign the frets first! Hold Escape to cancel."
+msgstr "مطبوعات انفرادی کلید شیفت. مطمئن باشید که اختصاص دادن frets 1! برگزاری فرار را باطل کنم."
+
+#: Settings.py:569
+msgid "Press the highest fret on the slider. Hold Escape to cancel."
+msgstr "مطبوعات بالاترین در نوار لغزنده اخم. برگزاری فرار را باطل کنم."
+
+#: Settings.py:624
+msgid "Please rename your controller"
+msgstr "لطفا خود را تغییر نام کنترل"
+
+#: Settings.py:752
+msgid "Battle Objects"
+msgstr "اشیاء نبرد"
+
+#: Settings.py:752
+msgid "Set which objects can appear in Battle Mode"
+msgstr "آماده سازی است که اشیاء می تواند در نبرد نحوه ظاهر"
+
+#: Settings.py:767
+msgid "Advanced Gameplay Settings"
+msgstr "تنظیمات پیشرفته داستان"
+
+#: Settings.py:767
+msgid "Set advanced gameplay settings that affect the game rules."
+msgstr "مجموعه تنظیمات پیشرفته گیم پلی که بر قوانین بازی."
+
+#: Settings.py:768
+msgid "Vocal Mode Settings"
+msgstr "تنظیمات حالت آوازی"
+
+#: Settings.py:768
+msgid "Change settings that affect lyrics and in-game vocals."
+msgstr "تغییر تنظیمات که بر شعر و در بازی وکال."
+
+#: Settings.py:769
+msgid "HO/PO Settings"
+msgstr "هو / تنظیمات صندوق"
+
+#: Settings.py:769
+msgid "Change settings that affect hammer-ons and pull-offs (HO/PO)."
+msgstr "تغییر تنظیمات چکش که بر فایرفاکس و کشیدن - آف (هو / صندوق)."
+
+#: Settings.py:770
+msgid "Battle Settings"
+msgstr "نبرد تنظیمات"
+
+#: Settings.py:770
+msgid "Change settings that affect battle mode."
+msgstr "تغییر تنظیمات که بر حالت جنگ."
+
+#: Settings.py:776
+#: Settings.py:1218
+msgid "Test Controller 1"
+msgstr "کنترل تست 1"
+
+#: Settings.py:776
+#: Settings.py:1218
+msgid "Test the controller configured for slot 1."
+msgstr "تست کنترل پیکربندی برای اسلات 1."
+
+#: Settings.py:777
+#: Settings.py:1219
+msgid "Test Controller 2"
+msgstr "کنترل تست 2"
+
+#: Settings.py:777
+#: Settings.py:1219
+msgid "Test the controller configured for slot 2."
+msgstr "تست کنترل پیکربندی شده برای حافظه 2."
+
+#: Settings.py:778
+#: Settings.py:1220
+msgid "Test Controller 3"
+msgstr "کنترل تست 3"
+
+#: Settings.py:778
+#: Settings.py:1220
+msgid "Test the controller configured for slot 3."
+msgstr "تست کنترل پیکربندی شده برای حافظه 3."
+
+#: Settings.py:779
+#: Settings.py:1221
+msgid "Test Controller 4"
+msgstr "کنترل تست 4"
+
+#: Settings.py:779
+#: Settings.py:1221
+msgid "Test the controller configured for slot 4."
+msgstr "تست کنترل پیکربندی شده برای حافظه 4."
+
+#: Settings.py:818
+msgid "More Effects"
+msgstr "بیشتر اثرات"
+
+#: Settings.py:818
+msgid "Change the settings of the shader system."
+msgstr "تغییر تنظیمات سیستم سایه زن."
+
+#: Settings.py:834
+msgid "Change Neck Transparency"
+msgstr "تغییر شفافیت گردن"
+
+#: Settings.py:834
+msgid "Change the transparency of the various in-game necks."
+msgstr "تغییر شفافیت در بازی های مختلف گردن."
+
+#: Settings.py:847
+msgid "Theme Display Settings"
+msgstr "تم تنظیمات نمایش"
+
+#: Settings.py:847
+msgid "Change settings that only affect certain theme types."
+msgstr "تغییر تنظیمات که تنها بر انواع تم خاص."
+
+#: Settings.py:866
+#: Settings.py:1239
+msgid "Video Resolution"
+msgstr "فیلم قطعنامه"
+
+#: Settings.py:866
+#: Settings.py:1239
+msgid "Set the resolution of the game. In windowed mode, higher values mean a larger screen."
+msgstr "تنظیم قطعنامه از بازی ها. در حالت پنجرهدار ، میانگین مقادیر بالاتر روی صفحه نمایش بزرگتر."
+
+#: Settings.py:873
+msgid "Stages Options"
+msgstr "تنظیمات مراحل"
+
+#: Settings.py:873
+msgid "Change settings related to the in-game background."
+msgstr "تغییر تنظیمات مربوط به پس زمینه در بازی."
+
+#: Settings.py:874
+#: Settings.py:1246
+msgid "Choose Default Neck >"
+msgstr "پیش فرض را انتخاب کنید> گردن"
+
+#: Settings.py:874
+#: Settings.py:1246
+msgid "Choose your default neck. You still have to choose which neck you use for your character in the character select screen."
+msgstr "را انتخاب کنید گردن خود را به طور پیش فرض. شما هنوز برای انتخاب که گردن شما را برای شخصیت خود را در روی صفحه نمایش را انتخاب کنید کاراکتر استفاده کنید."
+
+#: Settings.py:875
+msgid "Fretboard Settings"
+msgstr "Fretboard تنظیمات"
+
+#: Settings.py:875
+msgid "Change settings related to the fretboard."
+msgstr "تغییر تنظیمات مربوط به fretboard."
+
+#: Settings.py:876
+#: Settings.py:1247
+msgid "In-Game Display Settings"
+msgstr "در بازی تنظیمات نمایش"
+
+#: Settings.py:876
+#: Settings.py:1247
+msgid "Change what and where things appear in-game."
+msgstr "تغییر و چه چیزها که در بازی ظاهر می شود."
+
+#: Settings.py:877
+msgid "Advanced Video Settings"
+msgstr "تنظیمات پیشرفته ویدیو"
+
+#: Settings.py:877
+msgid "Change advanced video settings."
+msgstr "تغییر تنظیمات پیشرفته ویدیو."
+
+#: Settings.py:905
+#: Settings.py:1266
+msgid "Volume Settings"
+msgstr "دوره تنظیمات"
+
+#: Settings.py:905
+#: Settings.py:1266
+msgid "Change the volume of game sounds."
+msgstr "تغییر حجم برای تلفن های موبایل بازی ها."
+
+#: Settings.py:914
+msgid "Advanced Audio Settings"
+msgstr "تنظیمات پیشرفته صوتی"
+
+#: Settings.py:914
+msgid "Change advanced audio settings."
+msgstr "تغییر تنظیمات پیشرفته صوتی."
+
+#: Settings.py:956
+#: Settings.py:1281
+msgid "Change Setlist Path >"
+msgstr "تغییر مسیر Setlist>"
+
+#: Settings.py:956
+#: Settings.py:1281
+msgid "Set the path to a folder named 'songs' that contains your songs."
+msgstr "تنظیم مسیر پوشه به نام 'آهنگ' که حاوی ترانه های شما."
+
+#: Settings.py:988
+msgid "Debug Settings"
+msgstr "تنظیمات اشکالزدایی"
+
+#: Settings.py:988
+msgid "Settings for coders to debug. Probably not worth changing."
+msgstr "تنظیمات برای coders برای اشکالزدایی. احتمالا ارزشی ندارد حال تغییر است."
+
+#: Settings.py:989
+msgid "Log Settings"
+msgstr "تنظیمات ورود به سیستم"
+
+#: Settings.py:989
+msgid "Adds junk information to the logfile. Probably not useful in bug reports."
+msgstr "اطلاعات آشغال می افزاید به logfile. احتمالا در گزارش مشکلات را کاربردی نخواهد بود"
+
+#: Settings.py:994
+msgid "AI Settings"
+msgstr "هوش مصنوعی تنظیمات"
+
+#: Settings.py:994
+msgid "Change the settings of the AI"
+msgstr "تغییر تنظیمات از هوش مصنوعی"
+
+#: Settings.py:1003
+#: Settings.py:1356
+msgid "Mod settings"
+msgstr "تنظیمات وزارت دفاع"
+
+#: Settings.py:1003
+#: Settings.py:1356
+msgid "Enable or disable any mods you have installed."
+msgstr "فعال یا غیر فعال کردن هر گونه مدها شما نصب شده است."
+
+#: Settings.py:1008
+#: Settings.py:1298
+msgid "Gameplay Settings"
+msgstr "داستان تنظیمات"
+
+#: Settings.py:1008
+#: Settings.py:1298
+msgid "Settings that affect the rules of the game."
+msgstr "تنظیمات که بر قواعد بازی است."
+
+#: Settings.py:1009
+#: Settings.py:1299
+msgid "Control Settings"
+msgstr "کنترل تنظیمات"
+
+#: Settings.py:1009
+#: Settings.py:1299
+msgid "Create, delete, and edit your controls."
+msgstr "ایجاد ، حذف ، کنترل و ویرایش کنید."
+
+#: Settings.py:1010
+#: Settings.py:1300
+msgid "Display Settings"
+msgstr "تنظیمات نمایش"
+
+#: Settings.py:1010
+#: Settings.py:1300
+msgid "Theme, neck, resolution, etc."
+msgstr "تم ، گردن ، رزولوشن و غیره"
+
+#: Settings.py:1011
+#: Settings.py:1301
+msgid "Audio Settings"
+msgstr "تنظیمات صوتی"
+
+#: Settings.py:1011
+#: Settings.py:1301
+msgid "Volume controls, etc."
+msgstr "کنترل صدا ، و غیره."
+
+#: Settings.py:1012
+#: Settings.py:1302
+msgid "Setlist Settings"
+msgstr "Setlist تنظیمات"
+
+#: Settings.py:1012
+#: Settings.py:1302
+msgid "Settings that affect the setlist."
+msgstr "تنظیمات که بر setlist."
+
+#: Settings.py:1013
+msgid "Advanced Settings"
+msgstr "تنظیمات پیشرفته"
+
+#: Settings.py:1013
+msgid "Settings that probably don't need to be changed."
+msgstr "تنظیمات که احتمالا نیازی نیست که باید تغییر یافتهاست."
+
+#: Settings.py:1014
+#: Settings.py:1303
+msgid "Mods, Cheats, AI"
+msgstr "هک ، بازی ، هوش مصنوعی"
+
+#: Settings.py:1014
+#: Settings.py:1303
+msgid "Set Jurgen to play for you, or other cheats."
+msgstr "تنظیم یورگن برای بازی با شما یا دیگر بازی."
+
+#: Settings.py:1015
+#: Settings.py:1304
+#, python-format
+msgid "%s Credits"
+msgstr "%s نوشته ها"
+
+#: Settings.py:1015
+#: Settings.py:1304
+msgid "See who made this game."
+msgstr "ببینید که چه کسی این بازی ساخته شده."
+
+#: Settings.py:1016
+#: Settings.py:1305
+msgid "Quickset"
+msgstr "ولیک"
+
+#: Settings.py:1016
+#: Settings.py:1305
+msgid "A quick way to set many advanced settings."
+msgstr "راه سریع برای تعیین تنظیمات پیشرفته زیادی دارند."
+
+#: Settings.py:1017
+msgid "Hide Advanced Options"
+msgstr "ویرایشهای پیشرفته"
+
+#: Settings.py:1047
+#: Settings.py:1320
+msgid "FoFiX needs to restart to apply setting changes."
+msgstr "FoFiX نیاز به راه اندازی مجدد برای اعمال تغییرات تنظیم می باشد."
+
+#: Settings.py:1066
+#: Settings.py:1328
+msgid "Test Controls"
+msgstr "تست کنترل"
+
+#: Settings.py:1066
+#: Settings.py:1328
+msgid "Go here to test your controllers."
+msgstr "برو اینجا برای آزمایش کنترل کنید."
+
+#: Settings.py:1071
+#: Settings.py:1333
+msgid "New Controller"
+msgstr "کنترل جدید"
+
+#: Settings.py:1071
+#: Settings.py:1333
+msgid "Create a new controller to use."
+msgstr "ایجاد یک کنترل جدید استفاده کنید."
+
+#: Settings.py:1072
+#: Settings.py:1334
+msgid "Edit Controller"
+msgstr "ویرایش کنترل"
+
+#: Settings.py:1072
+#: Settings.py:1334
+msgid "Edit a controller you have created."
+msgstr "ویرایش کنترلر شما را خلق کرده اند."
+
+#: Settings.py:1073
+#: Settings.py:1335
+msgid "Delete Controller"
+msgstr "حذف کنترل کننده"
+
+#: Settings.py:1073
+#: Settings.py:1335
+msgid "Delete a controller you have created."
+msgstr "حذف کنترلر شما خلق کرده اند."
+
+#: Settings.py:1089
+#: Settings.py:1366
+msgid "You must specify a controller for slot 1!"
+msgstr "شما باید برای کنترل کننده حافظه 1 مشخص کنید!"
+
+#: Settings.py:1095
+#: Settings.py:1372
+#, python-format
+msgid "Controllers in slots %d and %d conflict. Setting %d to None."
+msgstr "کنترل را در اسلات %d و %d درگیری. تنظیم به %d ندارد."
+
+#: Settings.py:1104
+#: Settings.py:1381
+#, python-format
+msgid "%d more conflicts."
+msgstr "%d درگیری های بیشتر."
+
+#: Settings.py:1149
+#: Settings.py:1411
+msgid "Choose a new songs directory."
+msgstr "انتخاب شاخه جدید آهنگ."
+
+#: Settings.py:1306
+msgid "See Advanced Options"
+msgstr "را مشاهده کنید جستجوی پیشرفته"
+
+#: Settings.py:1600
+msgid "Cheats"
+msgstr "بازی"
+
+#: Song.py:132
+msgid "Guitar"
+msgstr "گیتار"
+
+#: Song.py:133
+msgid "Rhythm"
+msgstr "ریتم"
+
+#: Song.py:134
+msgid "Bass"
+msgstr "بم"
+
+#: Song.py:135
+msgid "Lead"
+msgstr "سرب"
+
+#: Song.py:136
+msgid "Drums"
+msgstr "درام"
+
+#: Song.py:137
+msgid "Vocals"
+msgstr "خواننده"
+
+#: Song.py:162
+msgid "Easy"
+msgstr "ساده"
+
+#: Song.py:163
+msgid "Medium"
+msgstr "متوسط"
+
+#: Song.py:164
+msgid "Hard"
+msgstr "سخت"
+
+#: Song.py:165
+msgid "Expert"
+msgstr "کارشناس"
+
+#: Song.py:227
+msgid "NoName"
+msgstr "NoName"
+
+#: Song.py:960
+msgid "This song is locked."
+msgstr "این ترانه قفل شده است."
+
+#: Song.py:1166
+msgid "Reset Career"
+msgstr "تنظیم مجدد اشتغال"
+
+#: Song.py:1213
+msgid "   (Random Song)"
+msgstr "(بازدید تصادفی یک ترانه)"
+
+#: Song.py:4171
+msgid "End of Career"
+msgstr "پایان اشتغال"
+
+#: Song.py:4434
+#: Song.py:4437
+msgid "Checking song database..."
+msgstr "چک کردن پایگاه داده ترانه..."
+
+#: Song.py:4444
+#, python-format
+msgid "Enumerating song folders... (%d so far)"
+msgstr "پوشه ها شمارش ترانه... (%d تا کنون)"
+
+#: Song.py:4448
+msgid "Caching song data..."
+msgstr "ذخیره داده ها ترانه..."
+
+#: Song.py:4448
+#, python-format
+msgid "(folder %d of %d; %d%% of this folder)"
+msgstr "(پوشه %d از %d ؛ %d ٪ این پوشه)"
+
+#: Song.py:4449
+msgid "Pruning leftover entries..."
+msgstr "هرس مدخل پس مانده..."
+
+#: SongChoosingScene.py:104
+msgid "Initializing Setlist..."
+msgstr "راه اندازی Setlist..."
+
+#: SongChoosingScene.py:106
+msgid "Checking Command-Line Settings..."
+msgstr "چک کردن خط فرمان تنظیمات..."
+
+#: SongChoosingScene.py:108
+msgid "Checking Setlist Settings..."
+msgstr "چک کردن تنظیمات Setlist..."
+
+#: SongChoosingScene.py:265
+#: SongChoosingScene.py:267
+#: SongChoosingScene.py:277
+msgid "Browsing Collection..."
+msgstr "مرور مجموعه..."
+
+#: SongChoosingScene.py:327
+#: SongChoosingScene.py:337
+msgid "No songs in this setlist are available to play!"
+msgstr "بدون آهنگ در این setlist در دسترس هستند برای شروع بازی!"
+
+#: SongChoosingScene.py:329
+#: SongChoosingScene.py:339
+msgid "Make sure you have a working career pack!"
+msgstr "اطمینان حاصل کنید که شما کار بسته حرفه ای!"
+
+#: SongChoosingScene.py:389
+#: SongChoosingScene.py:496
+msgid "Loading Album Artwork..."
+msgstr "در حال بارگذاری هنرمندان آلبوم..."
+
+#: SongChoosingScene.py:423
+#: SongChoosingScene.py:634
+msgid "There are no drum parts in this song. Change your controllers to play."
+msgstr "هیچ درام قطعات در این آهنگ وجود دارد. کنترل خود را تغییر دهید به بازی کند."
+
+#: SongChoosingScene.py:431
+#: SongChoosingScene.py:637
+msgid "There are no guitar parts in this song. Change your controllers to play."
+msgstr "هیچ بخش گیتار در این آهنگ وجود دارد. کنترل خود را تغییر دهید به بازی کند."
+
+#: SongChoosingScene.py:439
+#: SongChoosingScene.py:640
+msgid "There are no vocal parts in this song. Change your controllers to play."
+msgstr "هیچ بخش های آوازی در این آهنگ وجود دارد. کنترل خود را تغییر دهید به بازی کند."
+
+#: SongChoosingScene.py:457
+#, python-format
+msgid "%s Choose a difficulty:"
+msgstr "%s دشواری را انتخاب کنید :"
+
+#: Theme.py:1001
+#: Theme.py:1126
+#: Theme.py:1209
+#: Theme.py:1319
+#: Theme.py:1482
+#: Theme.py:1605
+#: Theme.py:2114
+msgid "-- Locked --"
+msgstr "-- موضوع قفل شده --"
+
+#: Theme.py:1047
+#: Theme.py:1070
+#: Theme.py:1086
+#: Theme.py:1103
+#: Theme.py:1236
+#: Theme.py:1260
+#: Theme.py:1276
+#: Theme.py:1280
+#: Theme.py:1365
+#: Theme.py:1388
+#: Theme.py:1404
+#: Theme.py:1417
+#: Theme.py:1631
+#: Theme.py:1655
+#: Theme.py:1671
+#: Theme.py:1674
+msgid "Nil"
+msgstr "صفر"
+
+#: Theme.py:1432
+#: Theme.py:2055
+#: Theme.py:2060
+#: Theme.py:2096
+msgid "Loading Preview..."
+msgstr "در حال بارگذاری... پیشنمایش"
+
+#: Theme.py:1440
+#: Theme.py:1549
+msgid "Play To Advance"
+msgstr "بازی برای پیشبرد"
+
+#: Theme.py:1446
+#: Theme.py:1555
+msgid "Played Once"
+msgstr "پس از بازی"
+
+#: Theme.py:1448
+#: Theme.py:1557
+#, python-format
+msgid "Played %d times."
+msgstr "بازی شده %d بار."
+
+#: Theme.py:1455
+#: Theme.py:1571
+msgid "There Is 1 Song In This Setlist."
+msgstr "1 آیا در این آهنگ وجود دارد Setlist."
+
+#: Theme.py:1457
+#: Theme.py:1573
+#, python-format
+msgid "There Are %d Songs In This Setlist."
+msgstr "آیا %d آهنگ ها در این Setlist وجود دارد."
+
+#: Theme.py:1461
+#: Theme.py:1577
+msgid "Tier"
+msgstr "ردیف"
+
+#: Theme.py:1465
+#: Theme.py:1588
+msgid "Random Song"
+msgstr "آهنگ تصادفی"
+
+#: Theme.py:2016
+msgid "DIFFICULTY"
+msgstr "مشکل"
+
+#: Theme.py:2018
+msgid "BAND"
+msgstr "باند"
+
+#: Theme.py:2020
+msgid "GUITAR"
+msgstr "گیتار"
+
+#: Theme.py:2022
+msgid "DRUM"
+msgstr "طبل"
+
+#: Theme.py:2024
+msgid "BASS"
+msgstr "بم"
+
+#: Theme.py:2026
+msgid "VOCALS"
+msgstr "خواننده"
+
+#: Theme.py:2032
+msgid "SORTING:"
+msgstr "طبقه بندی :"
+
+#: Theme.py:2034
+msgid "ALPHABETICALLY BY TITLE"
+msgstr "حروف الفبا بر اساس عنوان"
+
+#: Theme.py:2036
+msgid "ALPHABETICALLY BY ARTIST"
+msgstr "حروف الفبا توسط هنرمند"
+
+#: Theme.py:2038
+msgid "BY PLAY COUNT"
+msgstr "تعداد دفعات مشاهده شده توسط پخش"
+
+#: Theme.py:2040
+msgid "ALPHABETICALLY BY ALBUM"
+msgstr "حروف الفبا توسط آلبوم"
+
+#: Theme.py:2042
+msgid "ALPHABETICALLY BY GENRE"
+msgstr "حروف الفبا توسط سبک"
+
+#: Theme.py:2044
+msgid "BY YEAR"
+msgstr "پایه سال"
+
+#: Theme.py:2046
+msgid "BY BAND DIFFICULTY"
+msgstr "توسط گروه موسیقی مشکل"
+
+#: Theme.py:2048
+msgid "BY INSTRUMENT DIFFICULTY"
+msgstr "با مشکل ساز"
+
+#: Theme.py:2050
+msgid "BY SONG COLLECTION"
+msgstr "با آواز مجموعه"
+
+#: Theme.py:2145
+#, python-format
+msgid "Played %d time"
+msgstr "بازی %d ساعت"
+
+#: Theme.py:2147
+#, python-format
+msgid "Played %d times"
+msgstr "بازی شده %d بار"
+
+#: Theme.py:2152
+#: Theme.py:2159
+msgid "Play To Advance."
+msgstr "برای پیشبرد بازی."
+
+#: Theme.py:2155
+msgid "Never Played"
+msgstr "هرگز بازی"
+
+#: Theme.py:2219
+msgid "One Song In This Setlist"
+msgstr "یک آهنگ در این Setlist"
+
+#: Theme.py:2221
+#, python-format
+msgid "%d Songs In This Setlist"
+msgstr "%d آهنگ در این Setlist"
+
+#: Theme.py:2230
+msgid "(Random Song)"
+msgstr "(بازدید تصادفی یک ترانه)"
+
+#: Theme.py:2428
+msgid "No Album"
+msgstr "بدون آلبوم"
+
+#: Theme.py:2433
+msgid "No Genre"
+msgstr "بدون ژانر"
+
+#: Video.py:151
+msgid "Video setup failed with your resolution settings, and so were reset to defaults."
+msgstr "تنظیم های شکست خورده خود را با تنظیمات رزولوشن و غیره را به صورت پیش فرض تنظیم مجدد شدند."
+
+#: Vocalist.py:120
+msgid "Amazing!"
+msgstr "شگفت انگیز!"
+
+#: Vocalist.py:120
+msgid "Great!"
+msgstr "بزرگ!"
+
+#: Vocalist.py:120
+msgid "Decent"
+msgstr "نجیب"
+
+#: Vocalist.py:120
+msgid "Average"
+msgstr "متوسط"
+
+#: Vocalist.py:120
+msgid "Meh"
+msgstr "Meh"
+
+#: Vocalist.py:120
+msgid "Bad"
+msgstr "بد"
+
+#: Vocalist.py:120
+msgid "Terrible..."
+msgstr "خیلی بد..."
+
+#: Vocalist.py:449
+msgid "Tap!"
+msgstr "شیر!"
+
+#: World.py:60
+msgid "FoFiX Co-Op Mode"
+msgstr "FoFiX همکاری نحوه عملیات"
+
+#: World.py:62
+msgid "RB Co-Op Mode"
+msgstr "بنیاعتماد همکاری نحوه عملیات"
+
+#: World.py:64
+msgid "GH Co-Op Mode"
+msgstr "هورمون رشد شرکت ، نحوه عملیات"
+
+#: World.py:66
+msgid "Battle Mode"
+msgstr "نحوه نبرد"
+
+#: World.py:73
+msgid "Career Mode"
+msgstr "نحوه اشتغال"
+
