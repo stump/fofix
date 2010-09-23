@@ -3,10 +3,47 @@ copyright 2006, 2007 by Sami Kyöstilä, Tommi Inkilä, Joonas Kerttula
 copyright 2008-2010 by Team FoFiX
 except:
 
-  * Fonts data/*.ttf
-          data/themes/UberLight/*.ttf
-          data/themes/MegaLight/*.ttf
-          data/themes/MegaLight GH3/*.ttf are (c) Red Hat, Inc. (see below).
+  * Fonts 
+        data/themes/UberLight/*.ttf
+        data/themes/MegaLight/*.ttf
+        data/themes/MegaLight GH3/*.ttf are (c) Red Hat, Inc. (see below).
+
+        data/fonts/default.ttf contains portions of the following fonts:
+
+            DroidSans:
+            Copyright (C) 2008 The Android Open Source Project
+            -------------------------------------------------------------------------
+            Licensed under the Apache License, Version 2.0 (the "License");
+            you may not use this file except in compliance with the License.
+            You may obtain a copy of the License at
+              
+                 http://www.apache.org/licenses/LICENSE-2.0
+              
+            Unless required by applicable law or agreed to in writing, software
+            distributed under the License is distributed on an "AS IS" BASIS,
+            WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+            See the License for the specific language governing permissions and
+            limitations under the License.
+            -------------------------------------------------------------------------
+                
+            WenQuanYi MicroHei Light:
+            Copyright 2008-2009 WenQuanYi Board of Trustees 
+            (http://wenq.org/) and Qianqian Fang
+            
+            Damase v.2:
+            Public Domain 2005
+            
+            Lohit Hindi:
+            Copyright 2006 Modular Infotech Pvt Ltd.
+            Copyright 2009 Red Hat, Inc.
+            
+            Ezra SIL Hebrew Unicode:
+            copyright 1997-2007, SIL International 
+                
+        data/fonts/iw.ttf and data/fonts/yi.ttf:
+
+            Miriam font family is copyright 2004-2010 by Maxim Iorsh
+            (iorsh@users.sourceforge.net). All rights reserved.
 
 Distribution, modification or commercial usage of the songs is not allowed.
 
