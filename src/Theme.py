@@ -1,11 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
 # Frets on Fire X (FoFiX)                                           #
-# Copyright (C) 2006 Sami Kyöstilä                                  #
-#               2008 myfingershurt                                  #
-#               2008 Blazingamer                                    #
-#               2008 evilynux <evilynux@gmail.com>                  #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -544,14 +542,14 @@ class Theme(Task):
       
       self.threeDspin  = get("threeDspin", bool, False)
       
-      self.noterot     = [get("noterot"+str(i+1),     float, 0) for i in range(5)]
-      self.keyrot      = [get("keyrot"+str(i+1),      float, 0) for i in range(5)]
-      self.drumnoterot = [get("drumnoterot"+str(i+1), float, 0) for i in range(5)]
-      self.drumkeyrot  = [get("drumkeyrot"+str(i+1),  float, 0) for i in range(5)]
-      self.notepos     = [get("notepos"+str(i+1),     float, 0) for i in range(5)]
-      self.keypos      = [get("keypos"+str(i+1),      float, 0) for i in range(5)]
-      self.drumnotepos = [get("drumnotepos"+str(i+1), float, 0) for i in range(5)]
-      self.drumkeypos  = [get("drumkeypos"+str(i+1),  float, 0) for i in range(5)]
+      self.noterot     = [get("noterot"+unicode(i+1),     float, 0) for i in range(5)]
+      self.keyrot      = [get("keyrot"+unicode(i+1),      float, 0) for i in range(5)]
+      self.drumnoterot = [get("drumnoterot"+unicode(i+1), float, 0) for i in range(5)]
+      self.drumkeyrot  = [get("drumkeyrot"+unicode(i+1),  float, 0) for i in range(5)]
+      self.notepos     = [get("notepos"+unicode(i+1),     float, 0) for i in range(5)]
+      self.keypos      = [get("keypos"+unicode(i+1),      float, 0) for i in range(5)]
+      self.drumnotepos = [get("drumnotepos"+unicode(i+1), float, 0) for i in range(5)]
+      self.drumkeypos  = [get("drumkeypos"+unicode(i+1),  float, 0) for i in range(5)]
       
       self.shaderSolocolor = get("shaderSoloColor", "color", "#0000FF")
       
@@ -561,6 +559,7 @@ class Theme(Task):
       self.hopoIndicatorActiveColor = get("hopo_indicator_active_color", "color", "#FFFFFF")
       self.hopoIndicatorInactiveColor = get("hopo_indicator_inactive_color", "color", "#666666")
       self.markSolos = get("mark_solo_sections", int, 2)
+      self.ingame_stats_colorVar = get("ingame_stats_color", "color", "#FFFFFF")
       
       #Game results scene
       self.result_score = get("result_score", str, ".5,.11,0.0025,None,None").split(",")
@@ -872,7 +871,7 @@ class ThemeParts:
             glColor3f(*self.theme.partDiffSelectedColor)
           else:
             glColor3f(*self.theme.partDiffOptionColor)
-          font.render(str(dialog.parts[i][p]), (.2*.5+x,.8*.46+y+.04*p), scale = .001, align = 1, new = True)
+          font.render(unicode(dialog.parts[i][p]), (.2*.5+x,.8*.46+y+.04*p), scale = .001, align = 1, new = True)
       elif dialog.mode[i] == 1:
         self.drawPartImage(dialog, dialog.players[i].part.id, scale = (self.theme.partDiffPartScale, -self.theme.partDiffPartScale), coord = (wP*self.theme.partDiffPartPos[0]+w*x, hP*self.theme.partDiffPartPos[1]+h*y))
         for d in range(len(dialog.info.partDifficulties[dialog.players[i].part.id])):
@@ -882,7 +881,7 @@ class ThemeParts:
             glColor3f(*self.theme.partDiffSelectedColor)
           else:
             glColor3f(*self.theme.partDiffOptionColor)
-          font.render(str(dialog.info.partDifficulties[dialog.players[i].part.id][d]), (.2*.5+x,.8*.46+y+.04*d), scale = .001, align = 1, new = True)
+          font.render(unicode(dialog.info.partDifficulties[dialog.players[i].part.id][d]), (.2*.5+x,.8*.46+y+.04*d), scale = .001, align = 1, new = True)
         if i in dialog.readyPlayers:
           if dialog.img_ready:
             dialog.drawImage(dialog.img_ready, scale = (.5, -.5), coord = (wP*.5+w*x,hP*(.75*.46)+h*y))
@@ -1102,11 +1101,11 @@ class Setlist:
         c1,c2,c3 = self.songlist_score_color
         glColor3f(c1,c2,c3)
         # evilynux - hit% and note streak only if enabled
-        if score is not _("Nil") and score > 0 and notesTotal != 0:
+        if score != _("Nil") and score > 0 and notesTotal != 0:
           text = "%.1f%% (%d)" % ((float(notesHit) / notesTotal) * 100.0, noteStreak)
           lfont.render(text, (self.song_listscore_xpos+.1, .0925*(n+1)-.015), scale=scale, align = 2)
 
-        text = str(score)
+        text = unicode(score)
         lfont.render(text, (self.song_listscore_xpos+.1, .0925*(n+1)+.0125), scale=scale*1.28, align = 2)
     
     elif self.setlist_type == 2: #old list/cd
@@ -1279,11 +1278,11 @@ class Setlist:
 
           #evilynux - hit% and note streak if enabled
           scale = 0.0009
-          if score is not _("Nil") and score > 0 and notesTotal != 0:
+          if score != _("Nil") and score > 0 and notesTotal != 0:
             text = "%.1f%% (%d)" % ((float(notesHit) / notesTotal) * 100.0, noteStreak)
             font.render(text, (.92, .0413*(n+1)+.163), scale=scale, align = 2)
                 
-          text = str(score)
+          text = unicode(score)
           
           font.render(text, (.92, .0413*(n+1)+.15), scale=scale, align = 2)
 
@@ -1416,11 +1415,11 @@ class Setlist:
         c1,c2,c3 = self.songlist_score_color
         glColor3f(c1,c2,c3)
         # evilynux - hit% and note streak only if enabled
-        if score is not _("Nil") and score > 0 and notesTotal != 0:
+        if score != _("Nil") and score > 0 and notesTotal != 0:
           text = "%.1f%% (%d)" % ((float(notesHit) / notesTotal) * 100.0, noteStreak)
           lfont.render(text, (self.song_listscore_xpos+.1, .0925*(n+1)-.015), scale=scale, align = 2)
 
-        text = str(score)
+        text = unicode(score)
         lfont.render(text, (self.song_listscore_xpos+.1, .0925*(n+1)+.0125), scale=scale*1.28, align = 2)
     elif self.setlist_type == 2:
       y = h*(.87-(.1*n))
@@ -1673,12 +1672,12 @@ class Setlist:
               score, stars, name = _("Nil"), 0, "---"
 
           scale = 0.0009
-          if score is not _("Nil") and score > 0 and notesTotal != 0:
+          if score != _("Nil") and score > 0 and notesTotal != 0:
             text = "%.1f%% (%d)" % ((float(notesHit) / notesTotal) * 100.0, noteStreak)
             w, h = font.getStringSize(text, scale=scale)
             font.render(text, (.92, .0413*(n+1)+.163), scale=scale, align = 2)
           
-          text = str(score)
+          text = unicode(score)
           
           font.render(text, (.92, .0413*(n+1)+.15), scale=scale, align = 2)
 
@@ -2372,9 +2371,9 @@ class Setlist:
               font.render("N/A", (.18, .5585 + i*.025), scale = 0.0014)
             elif diff == 6:
               glColor3f(1, 1, 0)  
-              font.render(str("*" * (diff -1)), (.18, 0.5685 + i*.025), scale = 0.003)
+              font.render(unicode("*" * (diff -1)), (.18, 0.5685 + i*.025), scale = 0.003)
             else:
-              font.render(str("*" * diff + " " * (5 - diff)), (.18, 0.5685 + i*.025), scale = 0.003)
+              font.render(unicode("*" * diff + " " * (5 - diff)), (.18, 0.5685 + i*.025), scale = 0.003)
           else:
             if diff == -1:
               font.render("N/A", (.18, .5585 + i*.025), scale = 0.0014)

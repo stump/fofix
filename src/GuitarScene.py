@@ -1,18 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2006 Sami Kyöstil?                                  #
-#               2008 Alarian                                        #
-#               2008 myfingershurt                                  #
-#               2008 Capo                                           #
-#               2008 Spikehead777                                   #
-#               2008 Glorandwarf                                    #
-#               2008 ShiekOdaSandz                                  #
-#               2008 QQStarS                                        #
-#               2008 .liquid.                                       #
-#               2008 Blazingamer                                    #
-#               2008 evilynux <evilynux@gmail.com>                  #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -234,8 +225,8 @@ class GuitarScene(Scene):
         self.soloShifts.append([])
 
     self.guitars = self.instruments #for compatibility - I'll try to fix this...
-    #Log.debug("GuitarScene keysList: " + str(self.keysList))
-    Log.debug("GuitarScene keysList: %s" % str(self.keysList))
+    #Log.debug("GuitarScene keysList: " + unicode(self.keysList))
+    Log.debug("GuitarScene keysList: %s" % unicode(self.keysList))
 
     #for number formatting with commas for Rock Band:
     locale.setlocale(locale.LC_ALL, '')   #more compatible
@@ -383,7 +374,7 @@ class GuitarScene(Scene):
     self.customPOV        = False
     self.ending           = False
     
-    povList = [str(self.targetX), str(self.targetY), str(self.targetZ), str(self.originX), str(self.originY), str(self.originZ)]
+    povList = [unicode(self.targetX), unicode(self.targetY), unicode(self.targetZ), unicode(self.originX), unicode(self.originY), unicode(self.originZ)]
     if "None" not in povList:
       self.customPOV = True
       Log.debug("All theme POV set. Using custom camera POV.")
@@ -1197,7 +1188,7 @@ class GuitarScene(Scene):
             lastDrumNoteEvent = event
       if instrument.isDrum:
         self.lastDrumNoteTime = lastDrumNoteTime
-        Log.debug("Last drum note located at time = " + str(self.lastDrumNoteTime) )
+        Log.debug("Last drum note located at time = " + unicode(self.lastDrumNoteTime) )
         #self.lastDrumNoteEvent = lastDrumNoteEvent
         self.scoring[i].totalStreakNotes = len([1 for time, event in self.song.track[i].getEvents(self.playerList[i].startPos,self.lastEvent) if isinstance(event, Note)])
       elif instrument.isVocal:
@@ -1275,7 +1266,7 @@ class GuitarScene(Scene):
                 endTime = time + event.length
                 guitarSoloNoteCount = len([1 for Gtime, Gevent in self.song.track[i].getEvents(startTime, endTime) if isinstance(Gevent, Note)])
                 self.guitarSolos[i].append(guitarSoloNoteCount - 1)
-                Log.debug("P" + str(i+1) + " MIDI " + self.playerList[i].part.text + " Solo found from: " + str(startTime) + " to: " + str(endTime) + ", containing " + str(guitarSoloNoteCount) + " notes." )
+                Log.debug("P" + unicode(i+1) + " MIDI " + self.playerList[i].part.text + " Solo found from: " + unicode(startTime) + " to: " + unicode(endTime) + ", containing " + unicode(guitarSoloNoteCount) + " notes." )
         
         elif instrument.markSolos == 1:   #mark using the old text-based system
       
@@ -1291,7 +1282,7 @@ class GuitarScene(Scene):
                 isGuitarSoloNow = False
                 guitarSoloNoteCount = len([1 for Gtime, Gevent in self.song.track[i].getEvents(guitarSoloStartTime, time) if isinstance(Gevent, Note)])
                 self.guitarSolos[i].append(guitarSoloNoteCount - 1)
-                Log.debug("GuitarScene: Guitar Solo found: " + str(guitarSoloStartTime) + "-" + str(time) + " = " + str(guitarSoloNoteCount) )
+                Log.debug("GuitarScene: Guitar Solo found: " + unicode(guitarSoloStartTime) + "-" + unicode(time) + " = " + unicode(guitarSoloNoteCount) )
           if isGuitarSoloNow:   #open solo until end - needs end event!
             isGuitarSoloNow = False
             #guitarSoloNoteCount = len([1 for Gtime, Gevent in self.song.track[i].getEvents(guitarSoloStartTime, time) if isinstance(Gevent, Note)])
@@ -1306,7 +1297,7 @@ class GuitarScene(Scene):
             newEvent = TextEvent("GSOLO OFF", 100.0)
             #self.song.eventTracks[Song.TK_GUITAR_SOLOS].addEvent(time - soloSlop,newEvent) #adding the missing GSOLO OFF event
             self.song.eventTracks[Song.TK_GUITAR_SOLOS].addEvent(Ntime, newEvent) #adding the missing GSOLO OFF event
-            Log.debug("GuitarScene: Guitar Solo until end of song found - (guitarSoloStartTime - Ntime = guitarSoloNoteCount): " + str(guitarSoloStartTime) + "-" + str(Ntime) + " = " + str(guitarSoloNoteCount) )
+            Log.debug("GuitarScene: Guitar Solo until end of song found - (guitarSoloStartTime - Ntime = guitarSoloNoteCount): " + unicode(guitarSoloStartTime) + "-" + unicode(Ntime) + " = " + unicode(guitarSoloNoteCount) )
     
 
 
@@ -1324,8 +1315,8 @@ class GuitarScene(Scene):
           for j in range(len(self.spTimes)):
             if self.unisonConfirm[i] in self.spTimes[j]:
               self.unisonPlayers[i].append(j)
-        Log.debug("Unisons confirmed: " + str(self.unisonConfirm))
-        Log.debug("Unisons between: " + str(self.unisonPlayers))
+        Log.debug("Unisons confirmed: " + unicode(self.unisonConfirm))
+        Log.debug("Unisons between: " + unicode(self.unisonPlayers))
         
         
     #MFH - handle gathering / sizing / grouping line-by-line lyric display here, during initialization:
@@ -1379,11 +1370,11 @@ class GuitarScene(Scene):
         for lyricTuple in midiLyricSubList:
           time, event = lyricTuple
           if self.logLyricEvents == 1:
-            Log.debug("MIDI Line-by-line lyric unpack test - time, event = " + str(time) + ", " + event.text )
+            Log.debug("MIDI Line-by-line lyric unpack test - time, event = " + unicode(time) + ", " + event.text )
               
       for lineStartTime, midiLyricSimpleLineText in self.midiLyricLines:
         if self.logLyricEvents == 1:
-          Log.debug("MIDI Line-by-line simple lyric line starting at time: " + str(lineStartTime) + ", " + midiLyricSimpleLineText)
+          Log.debug("MIDI Line-by-line simple lyric line starting at time: " + unicode(lineStartTime) + ", " + midiLyricSimpleLineText)
 
     self.numMidiLyricLines = len(self.midiLyricLines)
 
@@ -1589,7 +1580,7 @@ class GuitarScene(Scene):
 
 
     #MFH - new theme.ini color options:
-
+    self.ingame_stats_color = self.engine.theme.ingame_stats_colorVar
     self.pause_text_color = self.engine.theme.hexToColor(self.engine.theme.pause_text_colorVar)
     self.pause_selected_color = self.engine.theme.hexToColor(self.engine.theme.pause_selected_colorVar)
     self.fail_text_color = self.engine.theme.hexToColor(self.engine.theme.fail_text_colorVar)
@@ -1601,7 +1592,7 @@ class GuitarScene(Scene):
     settingsMenu.fadeScreen = False
     careerSettingsMenu.fadeScreen = False    
     
-    Log.debug("Pause text / selected colors: " + str(self.pause_text_color) + " / " + str(self.pause_selected_color))
+    Log.debug("Pause text / selected colors: " + unicode(self.pause_text_color) + " / " + unicode(self.pause_selected_color))
 
 
 
@@ -2535,11 +2526,11 @@ class GuitarScene(Scene):
     if self.coOpType:
       self.coOpScoreCard.score += soloBonusScore
     trimmedSoloNoteAcc = self.roundDecimalForDisplay(self.guitarSoloAccuracy[i])
-    #self.soloReviewText[i] = [soloDesc,str(trimmedSoloNoteAcc) + "% = " + str(soloBonusScore) + _(" pts")]
+    #self.soloReviewText[i] = [soloDesc,unicode(trimmedSoloNoteAcc) + "% = " + unicode(soloBonusScore) + _(" pts")]
     #ptsText = _("pts")
     self.soloReviewText[i] = [soloDesc, 
       "%(soloNoteAcc)s%% = %(soloBonus)d %(pts)s" % \
-      {'soloNoteAcc': str(trimmedSoloNoteAcc), 'soloBonus': soloBonusScore, 'pts': self.tsPtsLabel} ]
+      {'soloNoteAcc': unicode(trimmedSoloNoteAcc), 'soloBonus': soloBonusScore, 'pts': self.tsPtsLabel} ]
     self.dispSoloReview[i] = True
     self.soloReviewCountdown[i] = 0
     #reset for next solo
@@ -2564,12 +2555,12 @@ class GuitarScene(Scene):
           tempSoloAccuracy = (float(self.instruments[i].currentGuitarSoloHitNotes)/float(self.currentGuitarSoloTotalNotes[i]) * 100.0)
           trimmedIntSoloNoteAcc = self.roundDecimalForDisplay(tempSoloAccuracy)
           if self.guitarSoloAccuracyDisplayMode == 1:   #percentage only
-            #soloText = str(trimmedIntSoloNoteAcc) + "%"
-            self.solo_soloText[i] = "%s%%" % str(trimmedIntSoloNoteAcc)
+            #soloText = unicode(trimmedIntSoloNoteAcc) + "%"
+            self.solo_soloText[i] = "%s%%" % unicode(trimmedIntSoloNoteAcc)
           elif self.guitarSoloAccuracyDisplayMode == 2:   #detailed
-            #soloText = str(self.guitars[i].currentGuitarSoloHitNotes) + "/" + str(self.currentGuitarSoloTotalNotes[i]) + ": " + str(trimmedIntSoloNoteAcc) + "%"
+            #soloText = unicode(self.guitars[i].currentGuitarSoloHitNotes) + "/" + unicode(self.currentGuitarSoloTotalNotes[i]) + ": " + unicode(trimmedIntSoloNoteAcc) + "%"
             self.solo_soloText[i] = "%(hitSoloNotes)d/ %(totalSoloNotes)d: %(soloAcc)s%%" % \
-              {'hitSoloNotes': self.instruments[i].currentGuitarSoloHitNotes, 'totalSoloNotes': self.currentGuitarSoloTotalNotes[i], 'soloAcc': str(trimmedIntSoloNoteAcc)}
+              {'hitSoloNotes': self.instruments[i].currentGuitarSoloHitNotes, 'totalSoloNotes': self.currentGuitarSoloTotalNotes[i], 'soloAcc': unicode(trimmedIntSoloNoteAcc)}
           self.solo_soloText[i] = self.solo_soloText[i].replace("0","O")
   
 
@@ -3431,7 +3422,7 @@ class GuitarScene(Scene):
         self.rock[i] = self.rockMax
       if self.minusRock[i] > self.minBase:
         self.minusRock[i] -= self.minGain/2.0*self.multi[i]
-      #Log.debug(str((self.rock[i]-(self.plusRock[i]*self.multi[i]))/self.rockMax) % "AND" % str(self.rock[i]/self.rockMax))
+      #Log.debug(unicode((self.rock[i]-(self.plusRock[i]*self.multi[i]))/self.rockMax) % "AND" % unicode(self.rock[i]/self.rockMax))
       if (self.rock[i]/self.rockMax > 0.667) and ((self.rock[i]-(self.plusRock[i]*self.multi[i]))/self.rockMax <= 0.667):
         self.playersInGreen += 1
         if self.engine.data.cheerSoundFound > 0: #haven't decided whether or not to cut crowdSound with crowdsEnabled = 0, but would have to do it at solos too...
@@ -3564,7 +3555,7 @@ class GuitarScene(Scene):
           if guitar.battleBeingUsed[0] == 0 and guitar.battleBeingUsed[1] != 0:
             guitar.battleBeingUsed[0] = guitar.battleBeingUsed[1]
             guitar.battleBeingUsed[1] = 0
-          #Log.debug("Battle Being Used: %s" % str(guitar.battleBeingUsed))
+          #Log.debug("Battle Being Used: %s" % unicode(guitar.battleBeingUsed))
           time = self.getSongPosition()
           
           
@@ -3758,9 +3749,9 @@ class GuitarScene(Scene):
             self.scoring[playerNum].endingStreakBroken = True   #MFH
             if self.hopoDebugDisp == 1:
               missedNoteNums = [noat.number for time, noat in missedNotes]
-              #Log.debug("Miss: run(), found missed note(s)... %s" % str(missedNoteNums) + ", Time left=" + str(self.timeLeft))
+              #Log.debug("Miss: run(), found missed note(s)... %s" % unicode(missedNoteNums) + ", Time left=" + unicode(self.timeLeft))
               Log.debug("Miss: run(), found missed note(s)... %(missedNotes)s, Song time=%(songTime)s" % \
-                {'missedNotes': str(missedNoteNums), 'songTime': str(self.timeLeft)})
+                {'missedNotes': unicode(missedNoteNums), 'songTime': unicode(self.timeLeft)})
   
             guitar.hopoActive = 0
             guitar.wasLastNoteHopod = False
@@ -3899,7 +3890,7 @@ class GuitarScene(Scene):
             #self.displayText[i] = "You Failed!!!!"
             #self.newScalingText(i, _("You Failed!!!!") )
             self.newScalingText(i, self.tsYouFailedBattle )
-            #self.streakFlag = str(i)   #QQstarS:Set [0] to [i] #if player0 streak50, set the flag to 1. 
+            #self.streakFlag = unicode(i)   #QQstarS:Set [0] to [i] #if player0 streak50, set the flag to 1. 
             guitar.actions = [0,0,0]
       if self.coOpRB: #RB co-op meter is just an average until someone dies.
         if self.numDeadPlayers == 0:
@@ -4665,9 +4656,9 @@ class GuitarScene(Scene):
       
       if self.hopoDebugDisp == 1:
         missedNoteNums = [noat.number for time, noat in missedNotes]
-        #Log.debug("Miss: dopick3gh2(), found missed note(s).... %s" % str(missedNoteNums) + ", Time left=" + str(self.timeLeft))
+        #Log.debug("Miss: dopick3gh2(), found missed note(s).... %s" % unicode(missedNoteNums) + ", Time left=" + unicode(self.timeLeft))
         Log.debug("Miss: dopick3gh2(), found missed note(s)... %(missedNotes)s, Song time=%(songTime)s" % \
-          {'missedNotes': str(missedNoteNums), 'songTime': str(self.timeLeft)})
+          {'missedNotes': unicode(missedNoteNums), 'songTime': unicode(self.timeLeft)})
 
       if hopo == True:
         return
@@ -4711,12 +4702,12 @@ class GuitarScene(Scene):
           if self.instruments[num].hopoActive < 0:
             self.instruments[num].wasLastNoteHopod = False
             #if self.hopoDebugDisp == 1:
-            #  Log.debug("HOPO Strum ignored: Standard HOPO strum (hopoActive < 0).  Time left=" + str(self.timeLeft))
+            #  Log.debug("HOPO Strum ignored: Standard HOPO strum (hopoActive < 0).  Time left=" + unicode(self.timeLeft))
             return
           elif self.instruments[num].hopoActive > 0:  #make sure it's hopoActive!
             self.instruments[num].wasLastNoteHopod = False
             #if self.hopoDebugDisp == 1:
-            #  Log.debug("HOPO Strum ignored: Standard HOPO strum (hopoActive not < 0).  Time left=" + str(self.timeLeft))
+            #  Log.debug("HOPO Strum ignored: Standard HOPO strum (hopoActive not < 0).  Time left=" + unicode(self.timeLeft))
             return
 
     #MFH - here, just check to see if we can release the expectation for an acceptable overstrum:
@@ -4732,11 +4723,11 @@ class GuitarScene(Scene):
       if len(self.instruments[num].missedNotes) > 0:
 
         if self.hopoDebugDisp == 1  and not self.instruments[num].isDrum:
-          #Log.debug("Skipped note(s) detected in startpick3: " + str(self.instruments[num].missedNoteNums))
+          #Log.debug("Skipped note(s) detected in startpick3: " + unicode(self.instruments[num].missedNoteNums))
           problemNoteMatchingList = [(int(tym), noat.number, noat.played) for tym, noat in self.instruments[num].matchingNotes]
-          #Log.debug("Skipped note(s) detected in startpick3: " + str(self.instruments[num].missedNoteNums) + ", problemMatchingNotes: " + str(problemNoteMatchingList) + ", activeKeys= " + str(activeKeyList) + ", Time left=" + str(self.timeLeft))
+          #Log.debug("Skipped note(s) detected in startpick3: " + unicode(self.instruments[num].missedNoteNums) + ", problemMatchingNotes: " + unicode(problemNoteMatchingList) + ", activeKeys= " + unicode(activeKeyList) + ", Time left=" + unicode(self.timeLeft))
           Log.debug("Skipped note(s) detected in startpick3: %(missedNotes)s, notesToMatch: %(matchNotes)s, activeFrets: %(activeFrets)s, Song time=%(songTime)s" % \
-            {'missedNotes': str(self.instruments[num].missedNoteNums), 'matchNotes': str(problemNoteMatchingList), 'activeFrets': str(activeKeyList), 'songTime': str(self.timeLeft)})
+            {'missedNotes': unicode(self.instruments[num].missedNoteNums), 'matchNotes': unicode(problemNoteMatchingList), 'activeFrets': unicode(activeKeyList), 'songTime': unicode(self.timeLeft)})
       
         scoreCard.streak = 0
         if self.coOpType:
@@ -4868,9 +4859,9 @@ class GuitarScene(Scene):
         self.stage.triggerMiss(pos)
         if self.hopoDebugDisp == 1 and not self.instruments[num].isDrum:
           problemNoteMatchingList = [(int(tym), noat.number, noat.played) for tym, noat in self.instruments[num].matchingNotes]  
-          #Log.debug("Miss: dopick3gh2(), fail-startpick3()...HigherFretsHeld: " + str(HigherFretsHeld) + ", LastHopoFretHeld: " + str(LastHopoFretStillHeld) + ", lastStrumWasChord: " + str(lastStrumWasChordWas) + ", sameNoteHopoStringFlag: " + str(sameNoteHopoFlagWas) + ", problemNoteMatchingList: " + str(problemNoteMatchingList) + ", activeKeys= " + str(activeKeyList) + ", Time left=" + str(self.timeLeft))
+          #Log.debug("Miss: dopick3gh2(), fail-startpick3()...HigherFretsHeld: " + unicode(HigherFretsHeld) + ", LastHopoFretHeld: " + unicode(LastHopoFretStillHeld) + ", lastStrumWasChord: " + unicode(lastStrumWasChordWas) + ", sameNoteHopoStringFlag: " + unicode(sameNoteHopoFlagWas) + ", problemNoteMatchingList: " + unicode(problemNoteMatchingList) + ", activeKeys= " + unicode(activeKeyList) + ", Time left=" + unicode(self.timeLeft))
           Log.debug("Miss: dopick3gh2(), fail-startpick3()...HigherFretsHeld: %(higherFrets)s, LastHopoFretHeld: %(lastHopoFret)s, lastStrumWasChord: %(lastStrumChord)s, sameNoteHopoStringFlag: %(sameNoteHopoFlag)s, notesToMatch: %(matchNotes)s, activeFrets: %(activeFrets)s, Song time=%(songTime)s" % \
-            {'higherFrets': str(HigherFretsHeld), 'lastHopoFret': str(LastHopoFretStillHeld), 'lastStrumChord': str(lastStrumWasChordWas), 'sameNoteHopoFlag': str(sameNoteHopoFlagWas), 'matchNotes': str(problemNoteMatchingList), 'activeFrets': str(activeKeyList), 'songTime': str(self.timeLeft)})
+            {'higherFrets': unicode(HigherFretsHeld), 'lastHopoFret': unicode(LastHopoFretStillHeld), 'lastStrumChord': unicode(lastStrumWasChordWas), 'sameNoteHopoFlag': unicode(sameNoteHopoFlagWas), 'matchNotes': unicode(problemNoteMatchingList), 'activeFrets': unicode(activeKeyList), 'songTime': unicode(self.timeLeft)})
           
         self.notesMissed[num] = True #QQstarS:Set [0] to [i]
 
@@ -4953,11 +4944,11 @@ class GuitarScene(Scene):
           self.battleTextTimer[num] = 0
           self.battleJustUsed[num] = time
           
-          #Log.debug("Battle Object used, Objects left %s" % str(self.instruments[num].battleObjects))
+          #Log.debug("Battle Object used, Objects left %s" % unicode(self.instruments[num].battleObjects))
     elif self.coOpGH: #akedrou also says don't let vocal players in GH Co-Op.
       if self.coOpStarPower >= (50 * self.numOfPlayers) and self.instruments[num].starPowerActive == False:
         time = self.getSongPosition()
-        Log.debug("Star Power Activated at: " + str(time))
+        Log.debug("Star Power Activated at: " + unicode(time))
         self.coOpStarPowerActive[num] = time
         if time - min(self.coOpStarPowerActive) < 300.0 and not self.instruments[i].starPowerActive:
           self.engine.data.starActivateSound.play()
@@ -4969,7 +4960,7 @@ class GuitarScene(Scene):
         else:
           if time - self.coOpStarPowerTimer > 1000.0:
             for i in range(self.numOfPlayers):
-              Log.debug(str(time - self.coOpStarPowerActive[i]))
+              Log.debug(unicode(time - self.coOpStarPowerActive[i]))
               if time - self.coOpStarPowerActive[i] < 300.0:
                 continue
               if self.instruments[i].isDrum and self.autoDrumStarpowerActivate == 0 and self.numDrumFills < 2:
@@ -5811,12 +5802,12 @@ class GuitarScene(Scene):
   
                 #now = self.getSongPosition()
   
-                diff = str(self.playerList[0].difficulty)
+                diff = unicode(self.playerList[0].difficulty)
                 # compute initial position
                 pctComplete = min(100, int(now/self.lastEvent*100))
                 
                 curxpos = font.getStringSize(_("COMPLETED")+" ", scale = 0.0015)[0]
-                curxpos += font.getStringSize(str(pctComplete), scale = 0.003)[0]
+                curxpos += font.getStringSize(unicode(pctComplete), scale = 0.003)[0]
                 curxpos += font.getStringSize( _(" % ON "), scale = 0.0015)[0]
                 curxpos += font.getStringSize(diff, scale = 0.003)[0]
                 curxpos = .5-curxpos/2.0
@@ -5828,7 +5819,7 @@ class GuitarScene(Scene):
                 size = font.getStringSize(text, scale = 0.0015)
                 # evilynux - Again, for this very font, the "real" height value is 75% of returned value
                 font.render(text, (curxpos, .37+(font.getStringSize(text, scale = 0.003)[1]-size[1])*.75), scale = 0.0015)
-                text = str(pctComplete)
+                text = unicode(pctComplete)
                 curxpos += size[0]
   
                 size = font.getStringSize(text, scale = 0.003)
@@ -5901,9 +5892,9 @@ class GuitarScene(Scene):
                 sAvMult = self.scoring[i].avMult
                 sEfHand = self.scoring[i].handicapValue
               trimmedTotalNoteAcc = self.roundDecimalForDisplay(sHitAcc)
-              #text = str(self.playerList[i].notesHit) + "/" + str(self.playerList[i].totalStreakNotes) + ": " + str(trimmedTotalNoteAcc) + "%"
+              #text = unicode(self.playerList[i].notesHit) + "/" + unicode(self.playerList[i].totalStreakNotes) + ": " + unicode(trimmedTotalNoteAcc) + "%"
               text = "%(notesHit)s/%(totalNotes)s: %(hitAcc)s%%" % \
-                {'notesHit': str(sNotesHit), 'totalNotes': str(sTotalNotes), 'hitAcc': str(trimmedTotalNoteAcc)}
+                {'notesHit': unicode(sNotesHit), 'totalNotes': unicode(sTotalNotes), 'hitAcc': unicode(trimmedTotalNoteAcc)}
               c1,c2,c3 = self.ingame_stats_color
               glColor3f(c1, c2, c3)  #wht
               w, h = font.getStringSize(text,0.00160)
@@ -5925,11 +5916,11 @@ class GuitarScene(Scene):
                   accDispX = 0.110
               font.render(text, (accDispX - w/2, accDispYac),(1, 0, 0),0.00140)     #top-centered by streak under score
               trimmedAvMult = self.roundDecimalForDisplay(sAvMult)
-              #text = _("Avg: ") + str(trimmedAvMult) + "x"
+              #text = _("Avg: ") + unicode(trimmedAvMult) + "x"
 
               #avgLabel = _("Avg")
               text = "%(avLab)s: %(avMult)sx" % \
-                {'avLab': self.tsAvgLabel, 'avMult': str(trimmedAvMult)}
+                {'avLab': self.tsAvgLabel, 'avMult': unicode(trimmedAvMult)}
               glColor3f(c1, c2, c3)
               w, h = font.getStringSize(text,0.00160)
               font.render(text, (accDispX - w/2, accDispYam),(1, 0, 0),0.00140)     #top-centered by streak under score
@@ -5994,9 +5985,9 @@ class GuitarScene(Scene):
                   else:
                     self.lastTapText = "tapp: %d" % (self.instruments[i].playedNotes[0][1].tappable)
 
-                  #self.lastTapText = "tapp: " + str(self.instruments[i].playedNotes[0][1].tappable)
+                  #self.lastTapText = "tapp: " + unicode(self.instruments[i].playedNotes[0][1].tappable)
                   #if len(self.instruments[i].playedNotes) > 1:
-                  # self.lastTapText += ", " + str(self.instruments[i].playedNotes[1][1].tappable)
+                  # self.lastTapText += ", " + unicode(self.instruments[i].playedNotes[1][1].tappable)
                    
                  
                 w, h = font.getStringSize(self.lastTapText,0.00170)
@@ -6028,8 +6019,8 @@ class GuitarScene(Scene):
                 else:
                   glColor3f(0.5, 0.5, 0.5)  #gry
             
-                #text = "HOflag: " + str(self.instruments[i].sameNoteHopoString)
-                text = "HOflag: %s" % str(self.instruments[i].sameNoteHopoString)
+                #text = "HOflag: " + unicode(self.instruments[i].sameNoteHopoString)
+                text = "HOflag: %s" % unicode(self.instruments[i].sameNoteHopoString)
             
                 w, h = font.getStringSize(text,0.00175)
                 font.render(text, (.750 - w / 2, .385),(1, 0, 0),0.00170)     #off to the right slightly above fretboard
@@ -6037,7 +6028,7 @@ class GuitarScene(Scene):
               
               ##MFH: HOPO intention determination flag problematic note list debug
               ##glColor3f(1, 1, 1)  #whitey
-              #text = "pNotes: " + str(self.problemNotesP1)
+              #text = "pNotes: " + unicode(self.problemNotesP1)
               #w, h = font.getStringSize(text,0.00175)
               #font.render(text, (.750 - w / 2, .355),(1, 0, 0),0.00170)     #off to the right slightly above fretboard
               ##glColor3f(1, 1, 1)  #whitey
@@ -6045,7 +6036,7 @@ class GuitarScene(Scene):
               
               
                 #MFH: guitarSoloNoteCount list debug
-                text = str(self.guitarSolos[i])
+                text = unicode(self.guitarSolos[i])
                 glColor3f(0.9, 0.9, 0.9)  #offwhite
                 w, h = font.getStringSize(text,0.00110)
                 font.render(text, (.900 - w / 2, .540),(1, 0, 0),0.00110)     #off to the right slightly above fretboard
@@ -6070,7 +6061,7 @@ class GuitarScene(Scene):
                         glColor3f(1, 1, 0)  #yel
                       else:
                         glColor3f(0.5, 0.5, 0.5)  #gry
-                    text = str(self.roundDecimalForDisplay(self.actualWhammyVol[i]))
+                    text = unicode(self.roundDecimalForDisplay(self.actualWhammyVol[i]))
                     w, h = font.getStringSize(text,killTsize)
                     font.render(text, (killXpos - w / 2, killYpos),(1, 0, 0),killTsize)     #off to the right slightly above fretboard
                   else:
@@ -6078,7 +6069,7 @@ class GuitarScene(Scene):
                       glColor3f(1, 1, 0)  #yel
                     else:
                       glColor3f(0.5, 0.5, 0.5)  #gry
-                    text = str(self.killswitchEngaged[i])
+                    text = unicode(self.killswitchEngaged[i])
                     w, h = font.getStringSize(text,killTsize)
                     font.render(text, (killXpos - w / 2, killYpos),(1, 0, 0),killTsize)     #off to the right slightly above fretboard
               glColor3f(1, 1, 1)  #whitey reset (cracka cracka)
@@ -6086,9 +6077,9 @@ class GuitarScene(Scene):
               #MFH - freestyle active status debug display
               if self.showFreestyleActive == 1 and not self.pause and not self.failed:    #MFH - shows when freestyle is active
                 if self.instruments[i].isDrum:    #also show the active status of drum fills
-                  text = "BRE: %s, Fill: %s" % ( str(self.instruments[i].freestyleActive), str(self.instruments[i].drumFillsActive) )
+                  text = "BRE: %s, Fill: %s" % ( unicode(self.instruments[i].freestyleActive), unicode(self.instruments[i].drumFillsActive) )
                 else:
-                  text = "BRE: %s" % str(self.instruments[i].freestyleActive)
+                  text = "BRE: %s" % unicode(self.instruments[i].freestyleActive)
                 freeX = .685
                 freeY = .510
                 freeTsize = 0.00150
@@ -6124,8 +6115,8 @@ class GuitarScene(Scene):
                 if self.showAccuracy == 1:    #numeric mode
                 
                   #MFH string concatenation -> modulo formatting
-                  #text = str(trimmedAccuracy) + " ms"
-                  text = "%s %s" % (str(trimmedAccuracy), self.msLabel)
+                  #text = unicode(trimmedAccuracy) + " ms"
+                  text = "%s %s" % (unicode(trimmedAccuracy), self.msLabel)
 
                 elif self.showAccuracy >= 2:    #friendly / descriptive mode
     
@@ -6160,9 +6151,9 @@ class GuitarScene(Scene):
                     glColor3f(1, 0, 0)
                   else:
                     #bug catch - show the problematic number:            
-                    #text = str(trimmedAccuracy) + _(" ms")
+                    #text = unicode(trimmedAccuracy) + _(" ms")
                     text = "%(acc)s %(ms)s" % \
-                      {'acc': str(trimmedAccuracy), 'ms': self.msLabel}
+                      {'acc': unicode(trimmedAccuracy), 'ms': self.msLabel}
                     glColor3f(1, 0, 0)
     
                 w, h = font.getStringSize(text,0.00175)
@@ -6195,11 +6186,11 @@ class GuitarScene(Scene):
 
     
                 if self.showAccuracy == 3:    #for displaying numerical below descriptive
-                  #text = str(self.accuracy)
-                  #text = str(trimmedAccuracy) + " ms"
+                  #text = unicode(self.accuracy)
+                  #text = unicode(trimmedAccuracy) + " ms"
                   #msText = _("ms")
                   text = "%(acc)s %(ms)s" % \
-                    {'acc': str(trimmedAccuracy), 'ms': self.msLabel}
+                    {'acc': unicode(trimmedAccuracy), 'ms': self.msLabel}
                   w, h = font.getStringSize(text,0.00140)
                   font.render(text, (posX - w / 2, posY - h / 2 + .030),(1, 0, 0),0.00140) 
                   
