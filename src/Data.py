@@ -1,11 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2006 Sami Kyöstilä                                  #
-#               2008 myfingershurt                                  #
-#               2008 Glorandwarf                                    #
-#               2008 evilynux <evilynux@gmail.com>                  #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -178,11 +176,28 @@ class Data(object):
 
     if asciiOnly:
       font    = resource.fileName(os.path.join("themes",themename,"default.ttf"))
-      bigFont = resource.fileName("title.ttf")
+      bigFont = resource.fileName(os.path.join("fonts","default.ttf"))
     else:
-      Log.debug("Main font International.ttf used!")
+      Log.debug("Default international font used!")
       font    = \
-      bigFont = resource.fileName("international.ttf")
+      bigFont = resource.fileName(os.path.join("fonts","default.ttf"))
+
+    # Use language specific fonts if they exist.
+    forceFont = None
+    lang = Config.get("game", "language")
+    useLangFont = os.path.exists(os.path.join(Version.dataPath(), "fonts", lang + ".ttf"))
+    if lang == '' or lang == 'en':
+      pass
+    elif useLangFont == True:
+      Log.debug("Language specific font used!")
+      font = resource.fileName(os.path.join("fonts", lang + ".ttf"))
+      bigFont = font
+      forceFont = font
+    else :
+      Log.debug("Default international font used!")
+      font = resource.fileName(os.path.join("fonts","default.ttf"))
+      bigFont = font
+      forceFont = font
 
     # load fonts
     w, h = [int(s) for s in Config.get("video", "resolution").split("x")]
@@ -273,6 +288,17 @@ class Data(object):
         streakFont2 = menuFont
       else:
         streakFont2 = font
+      
+      if forceFont:
+        menuFont = forceFont
+        pauseFont = forceFont
+        scoreFont = forceFont
+        streakFont = forceFont
+        songFont = forceFont
+        loadingFont = forceFont
+        songListFont = forceFont
+        shadowfont = forceFont
+        streakFont2 = forceFont
 
       #blazingamer:Reorganized
       if self.theme == 0:
@@ -547,7 +573,7 @@ class Data(object):
     return soundNum-1
 
   def getSoundObjectList(self, soundPath, soundPrefix, numSounds, soundExtension = ".ogg"):   #MFH
-    Log.debug( str(numSounds) + " " + soundPrefix + " sounds found in " + soundPath + ": " + soundPrefix + "1" + soundExtension + " - " + soundPrefix + str(numSounds) + soundExtension )
+    Log.debug( unicode(numSounds) + " " + soundPrefix + " sounds found in " + soundPath + ": " + soundPrefix + "1" + soundExtension + " - " + soundPrefix + unicode(numSounds) + soundExtension )
     return [Sound(self.resource.fileName(os.path.join(soundPath,"%s%d%s" % (soundPrefix, i, soundExtension) ))) for i in range(1, numSounds+1)]
 
   def loadBackSounds(self):   #MFH - adding optional support for random choice between two back sounds
