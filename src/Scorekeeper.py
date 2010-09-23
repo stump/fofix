@@ -1,17 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2006 Sami Kyöstilä                                  #
-#               2008 Alarian                                        #
-#               2008 myfingershurt                                  #
-#               2008 Glorandwarf                                    #
-#               2008 Spikehead777                                   #
-#               2008 QQStarS                                        #
-#               2008 Blazingamer                                    #
-#               2008 evilynux <evilynux@gmail.com>                  #
-#               2008 fablaculp                                      #
-#               2009 akedrou                                        #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #

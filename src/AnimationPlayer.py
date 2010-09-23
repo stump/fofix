@@ -1,8 +1,9 @@
-#!/usr/bin/env python
-# -*- coding: iso-8859-1 -*-
+# -*- coding: utf-8 -*-
 #####################################################################
-# Animation Layer for FoFiX                                         #
-# Copyright (C) 2009 Pascal Giard <evilynux@gmail.com>              #
+#                                                                   #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
