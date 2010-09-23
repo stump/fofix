@@ -1,9 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2006 Sami Kyöstilä                                  #
-#               2008 myfingershurt                                  #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -70,7 +70,7 @@ class Audio:
       Log.warn("Audio setup failed. Trying with default configuration.")
       pygame.mixer.init()
 
-    Log.debug("Audio configuration: %s" % str(pygame.mixer.get_init()))
+    Log.debug("Audio configuration: %s" % unicode(pygame.mixer.get_init()))
 
     #myfingershurt: ensuring we have enough audio channels!
     pygame.mixer.set_num_channels(10)

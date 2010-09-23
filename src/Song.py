@@ -1,10 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2006 Sami Kyöstilä                                  #
-#               2008 myfingershurt                                  #
-#               2009 Pascal Giard                                   #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -551,7 +550,7 @@ class SongInfo(object):
     if type(value) == unicode:
       value = value.encode(Config.encoding)
     else:
-      value = str(value)
+      value = unicode(value)
     self.info.set("song", attr, value)
     
   def getObfuscatedScores(self, part = parts[GUITAR_PART]):
@@ -805,19 +804,19 @@ class SongInfo(object):
   def video_end_time(self):
     return self._get("video_end_time", int, -1)
 
-  def getHighscoresWithPartString(self, difficulty, part = str(parts[GUITAR_PART]) ):
-    if part == str(parts[GUITAR_PART]):
+  def getHighscoresWithPartString(self, difficulty, part = unicode(parts[GUITAR_PART]) ):
+    if part == unicode(parts[GUITAR_PART]):
       highScores = self.highScores
-    elif part == str(parts[RHYTHM_PART]):
+    elif part == unicode(parts[RHYTHM_PART]):
       highScores = self.highScoresRhythm
-    elif part == str(parts[BASS_PART]):
+    elif part == unicode(parts[BASS_PART]):
       highScores = self.highScoresBass
-    elif part == str(parts[LEAD_PART]):
+    elif part == unicode(parts[LEAD_PART]):
       highScores = self.highScoresLead
     #myfingershurt: drums :)
-    elif part == str(parts[DRUM_PART]):
+    elif part == unicode(parts[DRUM_PART]):
       highScores = self.highScoresDrum
-    elif part == str(parts[VOCAL_PART]): #akedrou - vocals!
+    elif part == unicode(parts[VOCAL_PART]): #akedrou - vocals!
       highScores = self.highScoresVocal
     else:
       highScores = self.highScores
@@ -935,14 +934,14 @@ class SongInfo(object):
         #MFH - only log if enabled
         Log.warn("Song.py: Using auto-generated note count sections...")
         if self.logSections == 1:
-          Log.debug("Practice sections: " + str(self._sections))
+          Log.debug("Practice sections: " + unicode(self._sections))
             
       else:
         self._sections.insert(0,["0:00 -> Start", 0.0])
 
         #MFH - only log if enabled
         if self.logSections == 1:
-          Log.debug("Practice sections: " + str(self._sections))
+          Log.debug("Practice sections: " + unicode(self._sections))
 
     except Exception, e:
       Log.warn("Song.py: Unable to retrieve section names for practice mode selection: %s" % e)
@@ -1043,7 +1042,7 @@ class LibraryInfo(object):
     if type(value) == unicode:
       value = value.encode(Config.encoding)
     else:
-      value = str(value)
+      value = unicode(value)
     self.info.set("library", attr, value)
     
   def save(self):
@@ -1098,7 +1097,7 @@ class BlankSpaceInfo(object): #MFH
     if type(value) == unicode:
       value = value.encode(Config.encoding)
     else:
-      value = str(value)
+      value = unicode(value)
     self.info.set(self.section, attr, value)
     
   def _get(self, attr, type = None, default = ""):
@@ -1150,7 +1149,7 @@ class CareerResetterInfo(object): #MFH
     if type(value) == unicode:
       value = value.encode(Config.encoding)
     else:
-      value = str(value)
+      value = unicode(value)
     self.info.set(self.section, attr, value)
     
   def _get(self, attr, type = None, default = ""):
@@ -1197,7 +1196,7 @@ class RandomSongInfo(object): #MFH
     if type(value) == unicode:
       value = value.encode(Config.encoding)
     else:
-      value = str(value)
+      value = unicode(value)
     self.info.set(self.section, attr, value)
     
   def _get(self, attr, type = None, default = ""):
@@ -1244,7 +1243,7 @@ class TitleInfo(object):
     if type(value) == unicode:
       value = value.encode(Config.encoding)
     else:
-      value = str(value)
+      value = unicode(value)
     self.info.set(self.section, attr, value)
     
   def _get(self, attr, type = None, default = ""):
@@ -1292,7 +1291,7 @@ class SortTitleInfo(object):
     if type(value) == unicode:
       value = value.encode(Config.encoding)
     else:
-      value = str(value)
+      value = unicode(value)
     self.info.set(self.section, attr, value)
     
   def _get(self, attr, type = None, default = ""):
@@ -1534,7 +1533,7 @@ class VocalTrack(Track):
       if isinstance(event, Tempo):
         self.allEvents.remove((time, event))
         if self.logTempoEvents == 1:
-          Log.debug("Tempo event removed from VocalTrack during cleanup: " + str(event.bpm) + "bpm")
+          Log.debug("Tempo event removed from VocalTrack during cleanup: " + unicode(event.bpm) + "bpm")
   
   def markPhrases(self):
     phraseId = 0
@@ -1681,7 +1680,7 @@ class NoteTrack(Track):   #MFH - special Track type for note events, with markin
       if isinstance(event, Tempo):
         self.allEvents.remove((time, event))
         if self.logTempoEvents == 1:
-          Log.debug("Tempo event removed from NoteTrack during cleanup: " + str(event.bpm) + "bpm")
+          Log.debug("Tempo event removed from NoteTrack during cleanup: " + unicode(event.bpm) + "bpm")
 
   def flipDrums(self):
     for time, event in self.allEvents:
@@ -1707,7 +1706,7 @@ class NoteTrack(Track):   #MFH - special Track type for note events, with markin
 
     #dtb file says 170 ticks
     hopoDelta = 170
-    if str(eighthNH) == "1":
+    if unicode(eighthNH) == "1":
         hopoDelta = 250
     else:
         hopoDelta = 170
@@ -1945,7 +1944,7 @@ class NoteTrack(Track):   #MFH - special Track type for note events, with markin
 
     #dtb file says 170 ticks
     hopoDelta = 170
-    if str(eighthNH) == "1":
+    if unicode(eighthNH) == "1":
         hopoDelta = 250
     else:
         hopoDelta = 170
@@ -2634,7 +2633,7 @@ class Song(object):
       if not (self.music == None and self.guitarTrack == None and self.rhythmTrack == None and self.drumTrack == None):
         self.singleTrackSong = True
         self.missVolume = self.engine.config.get("audio", "single_track_miss_volume")   #MFH - force single-track miss volume setting instead
-        Log.debug("Song with only a single audio track identified - single-track miss volume applied: " + str(self.missVolume))
+        Log.debug("Song with only a single audio track identified - single-track miss volume applied: " + unicode(self.missVolume))
 
 
     # load the notes   
@@ -3094,7 +3093,7 @@ class MidiReader(midi.MidiOutStream):
     #add tempo events to the universal tempo track
     self.song.tempoEventTrack.addEvent(time, event)
     if self.logTempoEvents == 1:
-      Log.debug("Tempo event added to Tempo track: " + str(time) + " - " + str(event.bpm) + "BPM" )
+      Log.debug("Tempo event added to Tempo track: " + unicode(time) + " - " + unicode(event.bpm) + "BPM" )
 
   def addSpecialMidiEvent(self, track, event, time = None):    #MFH
     if self.partnumber == -1:
@@ -3291,7 +3290,7 @@ class MidiReader(midi.MidiOutStream):
   #to find these markers and count the notes and add a new text event containing each solo's note count
   def text(self, text):
     if text.find("GNMIDI") < 0:   #to filter out the midi class illegal usage / trial timeout messages
-      #Log.debug(str(self.abs_time()) + "-MIDI Text: " + text)
+      #Log.debug(unicode(self.abs_time()) + "-MIDI Text: " + text)
       if self.readTextAndLyricEvents > 0:
 
         #MFH - if sequence name is PART VOCALS then look for text event lyrics
@@ -3323,7 +3322,7 @@ class MidiReader(midi.MidiOutStream):
             event = TextEvent(text, 250.0)
             if text.lower().find("big rock ending") >= 0:
               curTime = self.abs_time()
-              Log.debug("Big Rock Ending section event marker found at " + str(curTime) )
+              Log.debug("Big Rock Ending section event marker found at " + unicode(curTime) )
               self.song.breMarkerTime = curTime
           
             if text.lower().find("solo") >= 0 and text.lower().find("drum") < 0 and text.lower().find("outro") < 0 and text.lower().find("organ") < 0 and text.lower().find("synth") < 0 and text.lower().find("bass") < 0 and text.lower().find("harmonica") < 0:
@@ -3371,7 +3370,7 @@ class MidiReader(midi.MidiOutStream):
               if not self.guitarSoloActive:
                 self.guitarSoloActive = True
                 soloEvent = TextEvent("GSOLO ON", 250.0)
-                Log.debug("GSOLO ON event " + event.text + " found at time " + str(self.abs_time()) )
+                Log.debug("GSOLO ON event " + event.text + " found at time " + unicode(self.abs_time()) )
                 self.song.eventTracks[TK_GUITAR_SOLOS].addEvent(self.abs_time(), soloEvent)  #MFH - add an event to the guitar solos track
             else: #this is the cue to end solos...
               if self.guitarSoloActive:
@@ -3380,7 +3379,7 @@ class MidiReader(midi.MidiOutStream):
                 if self.song.eventTracks[TK_GUITAR_SOLOS][-1][0] < curTime:
                   self.guitarSoloActive = False
                   soloEvent = TextEvent("GSOLO OFF", 250.0)
-                  Log.debug("GSOLO OFF event " + event.text + " found at time " + str(curTime) )
+                  Log.debug("GSOLO OFF event " + event.text + " found at time " + unicode(curTime) )
                   self.guitarSoloIndex += 1
                   self.song.eventTracks[TK_GUITAR_SOLOS].addEvent(curTime, soloEvent)  #MFH - add an event to the guitar solos track
       
@@ -3404,7 +3403,7 @@ class MidiReader(midi.MidiOutStream):
   #myfingershurt: adding MIDI lyric event access
   def lyric(self, text):
     if text.find("GNMIDI") < 0:   #to filter out the midi class illegal usage / trial timeout messages
-      #Log.debug(str(self.abs_time()) + "-MIDI Lyric: " + text)
+      #Log.debug(unicode(self.abs_time()) + "-MIDI Lyric: " + text)
       if self.readTextAndLyricEvents > 0:
         #event = TextEvent("LYR: " + text, 400.0)
         event = TextEvent(text, 400.0)
@@ -3469,18 +3468,18 @@ class MidiSectionReader(midi.MidiOutStream):
   def note_on(self, channel, note, velocity):
     pos = float(midi.MidiOutStream.abs_time(self))
     if (pos / 60000) >= self.nextSectionMinute:
-      text = "%d:%02d -> " % (pos / 60000, (pos % 60000) / 1000) + "Section " + str(round(self.nextSectionMinute,2))
+      text = "%d:%02d -> " % (pos / 60000, (pos % 60000) / 1000) + "Section " + unicode(round(self.nextSectionMinute,2))
       self.nextSectionMinute += 0.25
       
       #MFH - only log if enabled
       if self.logSections == 1:
-        Log.debug("Found potential default practice section: " + str(pos) + " - " + text)
+        Log.debug("Found potential default practice section: " + unicode(pos) + " - " + text)
 
       self.noteCountSections.append([text,pos])
 
   def lyric(self, text):  #filter lyric events
     if text.find("GNMIDI") < 0:   #to filter out the midi class illegal usage / trial timeout messages
-      #Log.debug(str(self.abs_time()) + "-MIDI Lyric: " + text)
+      #Log.debug(unicode(self.abs_time()) + "-MIDI Lyric: " + text)
       text = ""
 
   #MFH - adding text event / section retrieval here 
@@ -3504,7 +3503,7 @@ class MidiSectionReader(midi.MidiOutStream):
 
         #MFH - only log if enabled
         if self.logSections == 1:
-          Log.debug("Found <section> potential RB-style practice section: " + str(pos) + " - " + text)
+          Log.debug("Found <section> potential RB-style practice section: " + unicode(pos) + " - " + text)
 
         text = "%d:%02d -> " % (pos / 60000, (pos % 60000) / 1000) + text
         self.sections.append([text,pos])
@@ -3514,7 +3513,7 @@ class MidiSectionReader(midi.MidiOutStream):
 
         #MFH - only log if enabled
         if self.logSections == 1:
-          Log.debug("Found potential GH1-style practice section: " + str(pos) + " - " + text)
+          Log.debug("Found potential GH1-style practice section: " + unicode(pos) + " - " + text)
 
         text = "%d:%02d -> " % (pos / 60000, (pos % 60000) / 1000) + text
         self.sections.append([text,pos])
@@ -3522,7 +3521,7 @@ class MidiSectionReader(midi.MidiOutStream):
 
         #MFH - only log if enabled
         if self.logSections == 1:
-          Log.debug("Found potential GH1-style practice section: " + str(pos) + " - " + text)
+          Log.debug("Found potential GH1-style practice section: " + unicode(pos) + " - " + text)
 
         text = "%d:%02d -> " % (pos / 60000, (pos % 60000) / 1000) + text
         self.sections.append([text,pos])
@@ -3532,7 +3531,7 @@ class MidiSectionReader(midi.MidiOutStream):
 
         #MFH - only log if enabled
         if self.logSections == 1:
-          Log.debug("Found potential GH1-style practice section: " + str(pos) + " - " + text)
+          Log.debug("Found potential GH1-style practice section: " + unicode(pos) + " - " + text)
 
         text = "%d:%02d -> " % (pos / 60000, (pos % 60000) / 1000) + text
         self.sections.append([text,pos])
@@ -3540,7 +3539,7 @@ class MidiSectionReader(midi.MidiOutStream):
 
         #MFH - only log if enabled
         if self.logSections == 1:
-          Log.debug("Found potential GH1-style practice section: " + str(pos) + " - " + text)
+          Log.debug("Found potential GH1-style practice section: " + unicode(pos) + " - " + text)
 
         text = "%d:%02d -> " % (pos / 60000, (pos % 60000) / 1000) + text
         self.sections.append([text,pos])
@@ -3934,7 +3933,7 @@ def getDefaultLibrary(engine):
   return LibraryInfo(DEFAULT_LIBRARY, engine.resource.fileName(DEFAULT_LIBRARY, "library.ini"))
 
 def getAvailableLibraries(engine, library = DEFAULT_LIBRARY):
-  Log.debug("Song.getAvailableLibraries function call...library = " + str(library) )
+  Log.debug("Song.getAvailableLibraries function call...library = " + unicode(library) )
   # Search for libraries in both the read-write and read-only directories
   songRoots    = [engine.resource.fileName(library),
                   engine.resource.fileName(library, writable = True)]
@@ -3958,7 +3957,7 @@ def getAvailableLibraries(engine, library = DEFAULT_LIBRARY):
       libName = library + os.path.join(libraryRoot.replace(songRoot, ""))
       
       libraries.append(LibraryInfo(libName, os.path.join(libraryRoot, "library.ini")))
-      #Log.debug("Library added: " + str(libraries) )
+      #Log.debug("Library added: " + unicode(libraries) )
       continue # why were these here? we must filter out empty libraries - coolguy567
                 #MFH - I'll tell you why -- so that empty ("tiered" / organizational) folders are displayed, granting access to songs in subfolders...
       
@@ -3968,7 +3967,7 @@ def getAvailableLibraries(engine, library = DEFAULT_LIBRARY):
           if not libraryRoot in libraryRoots:
             libName = library + os.path.join(libraryRoot.replace(songRoot, ""))
             libraries.append(LibraryInfo(libName, os.path.join(libraryRoot, "library.ini")))
-            #Log.debug("Library added: " + str(libraries) )
+            #Log.debug("Library added: " + unicode(libraries) )
             libraryRoots.append(libraryRoot)
    
   libraries.sort(lambda a, b: cmp(a.name.lower(), b.name.lower()))
@@ -4031,7 +4030,7 @@ def getAvailableSongs(engine, library = DEFAULT_LIBRARY, includeTutorials = Fals
     if order == 1:
       songs.sort(lambda a, b: cmp(a.artist.lower(), b.artist.lower()))
     elif order == 2:
-      songs.sort(lambda a, b: cmp(int(b.count+str(0)), int(a.count+str(0))))
+      songs.sort(lambda a, b: cmp(int(b.count+unicode(0)), int(a.count+unicode(0))))
     elif order == 0:
       songs.sort(lambda a, b: cmp(a.name.lower(), b.name.lower()))
     elif order == 3:
@@ -4050,7 +4049,7 @@ def getAvailableSongs(engine, library = DEFAULT_LIBRARY, includeTutorials = Fals
     if order == 1:
       songs.sort(lambda a, b: cmp(b.artist.lower(), a.artist.lower()))
     elif order == 2:
-      songs.sort(lambda a, b: cmp(int(a.count+str(0)), int(b.count+str(0))))
+      songs.sort(lambda a, b: cmp(int(a.count+unicode(0)), int(b.count+unicode(0))))
     elif order == 0:
       songs.sort(lambda a, b: cmp(b.name.lower(), a.name.lower()))
     elif order == 3:
@@ -4133,13 +4132,13 @@ def getSortingTitles(engine, songList = []):
         titles.index(songItem.diffSong)
       except ValueError:
         titles.append(songItem.diffSong)
-        sortTitles.append(SortTitleInfo(str(songItem.diffSong)))
+        sortTitles.append(SortTitleInfo(unicode(songItem.diffSong)))
     elif sortOrder == 7:
       try:
         titles.index(theInstrumentDiff(songItem))
       except ValueError:
         titles.append(theInstrumentDiff(songItem))
-        sortTitles.append(SortTitleInfo(str(theInstrumentDiff(songItem))))
+        sortTitles.append(SortTitleInfo(unicode(theInstrumentDiff(songItem))))
     elif sortOrder == 8:
       try:
         titles.index(songItem.icon.lower())
@@ -4243,7 +4242,7 @@ def compareSongsAndTitles(engine, a, b, career):
       # if order == 1:
         # return cmp(a.artist.lower(), b.artist.lower())
       # elif order == 2:
-        # return cmp(int(b.count+str(0)), int(a.count+str(0)))
+        # return cmp(int(b.count+unicode(0)), int(a.count+unicode(0)))
       # elif order == 0:
         # return cmp(removeSongOrderPrefixFromName(a.name).lower(), removeSongOrderPrefixFromName(b.name).lower())
       # elif order == 3:
@@ -4262,7 +4261,7 @@ def compareSongsAndTitles(engine, a, b, career):
       # if order == 1:
         # return cmp(b.artist.lower(), a.artist.lower())
       # elif order == 2:
-        # return cmp(int(a.count+str(0)), int(b.count+str(0)))
+        # return cmp(int(a.count+unicode(0)), int(b.count+unicode(0)))
       # elif order == 0:
         # return cmp(removeSongOrderPrefixFromName(b.name).lower(), removeSongOrderPrefixFromName(a.name).lower())
       # elif order == 3:
@@ -4290,7 +4289,7 @@ def compareSongsAndTitles(engine, a, b, career):
       elif order == 1:
         Aval = a.artist.lower()
       elif order == 2:
-        Aval = int(a.count+str(0))
+        Aval = int(a.count+unicode(0))
         if Aval == "":
           Aval = "0"
       elif order == 3:
@@ -4307,7 +4306,7 @@ def compareSongsAndTitles(engine, a, b, career):
         Aval = a.icon.lower()
     elif isinstance(a, SortTitleInfo):
       if order == 2:
-        Aval = int(a.name+str(0))
+        Aval = int(a.name+unicode(0))
       elif order == 6 or order == 7:
         Aval = int(a.name)
       else:
@@ -4323,7 +4322,7 @@ def compareSongsAndTitles(engine, a, b, career):
       elif order == 1:
         Bval = b.artist.lower()
       elif order == 2:
-        Bval = int(b.count+str(0))
+        Bval = int(b.count+unicode(0))
         if Bval == "":
           Bval = "0"
       elif order == 3:
@@ -4340,7 +4339,7 @@ def compareSongsAndTitles(engine, a, b, career):
         Bval = b.icon.lower()
     elif isinstance(b, SortTitleInfo):
       if order == 2:
-        Bval = int(b.name+str(0))
+        Bval = int(b.name+unicode(0))
       elif order == 6 or order == 7:
         Bval = int(b.name)
       else:
@@ -4360,7 +4359,7 @@ def compareSongsAndTitles(engine, a, b, career):
     else:
       return cmp(a.name, b.name)
   else:
-    #Log.debug("Unlock IDs found, a=" + str(a.getUnlockID()) + ", b=" + str(b.getUnlockID()) )
+    #Log.debug("Unlock IDs found, a=" + unicode(a.getUnlockID()) + ", b=" + unicode(b.getUnlockID()) )
     if a.getUnlockID() == "" and b.getUnlockID() != "":   #MFH - a is a bonus song, b is involved in career mode
       return 1
     elif b.getUnlockID() == "" and a.getUnlockID() != "":   #MFH - b is a bonus song, a is involved in career mode - this is fine.
@@ -4376,7 +4375,7 @@ def compareSongsAndTitles(engine, a, b, career):
           if order == 1:
             return cmp(a.artist.lower(), b.artist.lower())
           elif order == 2:
-            return cmp(int(b.count+str(0)), int(a.count+str(0)))
+            return cmp(int(b.count+unicode(0)), int(a.count+unicode(0)))
           elif order == 0:
             return cmp(removeSongOrderPrefixFromName(a.name).lower(), removeSongOrderPrefixFromName(b.name).lower())
           elif order == 3:
@@ -4395,7 +4394,7 @@ def compareSongsAndTitles(engine, a, b, career):
           if order == 1:
             return cmp(b.artist.lower(), a.artist.lower())
           elif order == 2:
-            return cmp(int(a.count+str(0)), int(b.count+str(0)))
+            return cmp(int(a.count+unicode(0)), int(b.count+unicode(0)))
           elif order == 0:
             return cmp(removeSongOrderPrefixFromName(b.name).lower(), removeSongOrderPrefixFromName(a.name).lower())
           elif order == 3:

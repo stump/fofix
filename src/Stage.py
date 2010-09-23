@@ -1,11 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2006 Sami Kyöstilä                                  #
-#               2008 myfingershurt                                  #
-#               2008 Blazingamer                                    #
-#               2008 evilynux <evilynux@gmail.com>                  #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -203,7 +201,7 @@ class Stage(object):
         allfiles = os.listdir(self.pathfull)
         for name in allfiles:
           if os.path.splitext(name)[0].lower() != "practice" and os.path.splitext(name)[0].lower() != "practicedrum" and os.path.splitext(name)[0].lower() != "practicebass" and name != ".svn":
-            Log.debug("Valid background found, index (" + str(fileIndex) + "): " + name)
+            Log.debug("Valid background found, index (" + unicode(fileIndex) + "): " + name)
             files.append(name)
             fileIndex += 1
           else:
@@ -244,7 +242,7 @@ class Stage(object):
 
           if os.path.splitext(name)[1].lower() == ".png" or os.path.splitext(name)[1].lower() == ".jpg" or os.path.splitext(name)[1].lower() == ".jpeg":
             if os.path.splitext(name)[0].lower() != "practice" and os.path.splitext(name)[0].lower() != "practicedrum" and os.path.splitext(name)[0].lower() != "practicebass":
-              Log.debug("Valid background found, index (" + str(fileIndex) + "): " + name)
+              Log.debug("Valid background found, index (" + unicode(fileIndex) + "): " + name)
               files.append(name)
               fileIndex += 1
             else:

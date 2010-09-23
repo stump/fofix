@@ -1,9 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2009 Blazingamer <n_hydock@comcast.net>             #
-#                                                                   #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -202,9 +202,9 @@ class FontLayer(Layer):
     if self.useComma:
       self.text = locale.format("%d", self.text, grouping=True)
     else:
-      self.text = str(self.text)
+      self.text = unicode(self.text)
 
-    wid, hgt = self.font.getStringSize(str(self.text))
+    wid, hgt = self.font.getStringSize(unicode(self.text))
 
     self.position  = [eval(self.get("xpos", str, "0.0")),    eval(self.get("ypos", str, "0.0"))]
     self.scale     = [eval(self.get("xscale", str, "1.0")),  eval(self.get("yscale", str, "1.0"))]

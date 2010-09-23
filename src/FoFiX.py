@@ -1,11 +1,10 @@
 #!/usr/bin/python
-# -*- coding: iso-8859-1 -*-
+# -*- coding: utf-8 -*-
 #####################################################################
+#                                                                   #
 # Frets on Fire X (FoFiX)                                           #
-# Copyright (C) 2006 Sami Kyöstilä                                  #
-#               2008 evilynux <evilynux@gmail.com>                  #
-#               2009 FoFiX Team                                     #
-#               2009 akedrou                                        #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -27,13 +26,9 @@
 Main game executable.
 '''
 
-# Register the latin-1 encoding
 import codecs
-import encodings.iso8859_1
 import encodings.utf_8
-codecs.register(lambda encoding: encodings.iso8859_1.getregentry())
 codecs.register(lambda encoding: encodings.utf_8.getregentry())
-assert codecs.lookup("iso-8859-1")
 assert codecs.lookup("utf-8")
 
 #stump: pygst eats --help, so process the command line before that.
@@ -87,7 +82,7 @@ One-shot mode options (ignored unless in one-shot mode):
 try:
   opts, args = getopt.getopt(sys.argv[1:], "hvc:f:r:t:s:p:l:d:m:n:", ["help", "verbose", "config=", "fullscreen=", "resolution=", "theme=", "song=", "part=", "diff=", "mode=", "nbrplayers=", "opengl-error-checking"])
 except getopt.GetoptError, e:
-  _usage(str(e))  # str(e): error message from getopt, e.g. "option --some-invalid-option not recognized"
+  _usage(unicode(e))  # unicode(e): error message from getopt, e.g. "option --some-invalid-option not recognized"
 if ('-h', '') in opts or ('--help', '') in opts:
   _usage()
 

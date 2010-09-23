@@ -1,9 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2006 Sami Kyöstilä                                  #
-#               2008 QQStarS                                        #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -36,7 +36,7 @@ class Layer(Task):
     if name.startswith("img_"): #rather than try-except, just expect None on no image.
       return None
     else:
-      e = str(self.__class__).split(".")[1] + " has no attribute '%s'" % name
+      e = unicode(self.__class__).split(".")[1] + " has no attribute '%s'" % name
       raise AttributeError(e)
   
   def render(self, visibility, topMost):
@@ -255,6 +255,6 @@ class View(Task):
     glScissor (*viewport)
     
   def render(self):
-    #print [(str(m.__class__), v) for m, v in self.visibility.items()]
+    #print [(unicode(m.__class__), v) for m, v in self.visibility.items()]
     for layer in self.layers:
       layer.render(self.visibility[layer], layer == self.layers[-1])

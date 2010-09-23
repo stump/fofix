@@ -1,8 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2009 Blazingamer                                    #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -133,7 +134,7 @@ class Instrument:
     #if self.engine.config.get("game", "battle_Tune") == 1:
     #  self.battleObjectsEnabled.append(9)
 
-    Log.debug("Battle Objects Enabled: "+str(self.battleObjectsEnabled))
+    Log.debug("Battle Objects Enabled: "+unicode(self.battleObjectsEnabled))
     self.battleNextObject   = 0
     self.battleObjects      = [0] * 3
     self.battleBeingUsed    = [0] * 2

@@ -1,11 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2006 Sami Kyöstilä                                  #
-#               2008 myfingershurt                                  #
-#               2008 Capo                                           #
-#               2008 Glorandwarf                                    #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -28,7 +26,7 @@ import Log
 import Resource
 import os
 
-encoding  = "iso-8859-1"
+encoding  = "utf-8"
 config    = None
 prototype = {}
 
@@ -44,7 +42,7 @@ class MyConfigParser(RawConfigParser):
       if self._defaults:
         fp.write("[%s]\n" % DEFAULTSECT)
         for (key, value) in self._defaults.items():
-          fp.write("%s = %s\n" % (key, str(value).replace('\n', '\n\t')))
+          fp.write("%s = %s\n" % (key, unicode(value).replace('\n', '\n\t')))
         fp.write("\n")
       sections = sorted(self._sections)
       for section in sections:
@@ -59,14 +57,14 @@ class MyConfigParser(RawConfigParser):
         sectList.sort()
         for key, value in sectList:
           if key != "__name__":
-            fp.write("%s = %s\n" % (key, str(value).replace('\n', '\n\t')))
+            fp.write("%s = %s\n" % (key, unicode(value).replace('\n', '\n\t')))
         fp.write("\n")
         
   def writeTheme(self, fp):
       if self._defaults:
         fp.write("[%s]\n" % DEFAULTSECT)
         for (key, value) in self._defaults.items():
-          fp.write("%s = %s\n" % (key, str(value).replace('\n', '\n\t')))
+          fp.write("%s = %s\n" % (key, unicode(value).replace('\n', '\n\t')))
         fp.write("\n")
       sections = sorted(self._sections)
       for section in sections:
@@ -77,14 +75,14 @@ class MyConfigParser(RawConfigParser):
         sectList.sort()
         for key, value in sectList:
           if key != "__name__":
-            fp.write("%s = %s\n" % (key, str(value).replace('\n', '\n\t')))
+            fp.write("%s = %s\n" % (key, unicode(value).replace('\n', '\n\t')))
         fp.write("\n")
   
   def writeController(self, fp):
       if self._defaults:
         fp.write("[%s]\n" % DEFAULTSECT)
         for (key, value) in self._defaults.items():
-          fp.write("%s = %s\n" % (key, str(value).replace('\n', '\n\t')))
+          fp.write("%s = %s\n" % (key, unicode(value).replace('\n', '\n\t')))
         fp.write("\n")
       sections = sorted(self._sections)
       for section in sections:
@@ -95,14 +93,14 @@ class MyConfigParser(RawConfigParser):
         sectList.sort()
         for key, value in sectList:
           if key != "__name__":
-            fp.write("%s = %s\n" % (key, str(value).replace('\n', '\n\t')))
+            fp.write("%s = %s\n" % (key, unicode(value).replace('\n', '\n\t')))
         fp.write("\n")
   
   def writePlayer(self, fp):
       if self._defaults:
         fp.write("[%s]\n" % DEFAULTSECT)
         for (key, value) in self._defaults.items():
-          fp.write("%s = %s\n" % (key, str(value).replace('\n', '\n\t')))
+          fp.write("%s = %s\n" % (key, unicode(value).replace('\n', '\n\t')))
         fp.write("\n")
       sections = sorted(self._sections)
       for section in sections:
@@ -113,7 +111,7 @@ class MyConfigParser(RawConfigParser):
         sectList.sort()
         for key, value in sectList:
           if key != "__name__":
-            fp.write("%s = %s\n" % (key, str(value).replace('\n', '\n\t')))
+            fp.write("%s = %s\n" % (key, unicode(value).replace('\n', '\n\t')))
         fp.write("\n")
         
 class Option:
@@ -187,7 +185,7 @@ class Config:
         type    = options[option].type
         default = options[option].default
         if not self.config.has_option(section, option):
-          self.config.set(section, option, str(default))
+          self.config.set(section, option, unicode(default))
     
   def get(self, section, option):
     """
@@ -210,7 +208,7 @@ class Config:
   
     value = self.config.has_option(section, option) and self.config.get(section, option) or default
     if type == bool:
-      value = str(value).lower()
+      value = unicode(value).lower()
       if value in ("1", "true", "yes", "on"):
         value = True
       elif value in ("none", ""):
@@ -254,7 +252,7 @@ class Config:
       for i in range(len(options)):
         value = keys[i]
         if type == bool:
-          value = str(value).lower()
+          value = unicode(value).lower()
           if value in ("1", "true", "yes", "on"):
             value = True
           else:
@@ -268,7 +266,7 @@ class Config:
       
     #myfingershurt: verbose log output
     if logIniReads == 1:
-      Log.debug("Config.getOptions: %s.%s = %s" % (section, option, str(optionList)))
+      Log.debug("Config.getOptions: %s.%s = %s" % (section, option, unicode(optionList)))
     return optionList, options
   
   def getTipText(self, section, option):
@@ -317,7 +315,7 @@ class Config:
   
     value = default
     if type == bool:
-      value = str(value).lower()
+      value = unicode(value).lower()
       if value in ("1", "true", "yes", "on"):
         value = True
       else:
@@ -357,7 +355,7 @@ class Config:
     if type(value) == unicode:
       value = value.encode(encoding)
     else:
-      value = str(value)
+      value = unicode(value)
 
     self.config.set(section, option, value)
     

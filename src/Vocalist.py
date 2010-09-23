@@ -1,9 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
 # Frets on Fire X (FoFiX)                                           #
-# Copyright (C) 2009 Team FoFiX                                     #
-#               2009 akedrou                                        #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -414,7 +414,7 @@ class Vocalist:
     self.coOpRestart = True #initializes Restart Timer
     self.coOpRescueTime  = 3000
     self.starPower  = 0
-    Log.debug("Rescued at " + str(pos))
+    Log.debug("Rescued at " + unicode(pos))
 
   def render(self, visibility, song, pos, players):
     font = self.engine.data.font
@@ -439,7 +439,7 @@ class Vocalist:
       else:
         if abs(self.currentNote) < .5 and not self.tapPhraseActive:
           glColor3f(0,1,0)
-        font.render(str(self.currentNote), (.55, .25))
+        font.render(unicode(self.currentNote), (.55, .25))
       if self.requiredNote is None:
         font.render(_('None'), (.25, .25))
       else:

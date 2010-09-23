@@ -1,10 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2006 Sami Kyöstilä                                  #
-#               2008 myfingershurt                                  #
-#               2008 evilynux <evilynux@gmail.com>                  #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -144,17 +143,17 @@ class Menu(Layer, KeyListener):
         self.menuy = self.engine.theme.submenuY[self.gfxText]
         self.menuScale = self.engine.theme.submenuScale[self.gfxText]
         self.vSpace = self.engine.theme.submenuVSpace[self.gfxText]
-        if str(self.menux) != "None" and str(self.menuy) != "None":
+        if unicode(self.menux) != "None" and unicode(self.menuy) != "None":
           self.menux = float(self.menux)
           self.menuy = float(self.menuy)
         else:
           self.menux = .4
           self.menuy = .4
-        if str(self.menuScale) != "None":
+        if unicode(self.menuScale) != "None":
           self.menuScale = float(self.menuScale)
         else:
           self.menuScale = .5
-        if str(self.vSpace) != "None":
+        if unicode(self.vSpace) != "None":
           self.vSpace = float(self.vSpace)
         else:
           self.vSpace = .08

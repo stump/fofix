@@ -1,16 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2006 Sami Kyöstilä                                  #
-#               2008 Alarian                                        #
-#               2008 myfingershurt                                  #
-#               2008 Glorandwarf                                    #
-#               2008 Spikehead777                                   #
-#               2008 QQStarS                                        #
-#               2008 Blazingamer                                    #
-#               2008 evilynux <evilynux@gmail.com>                  #
-#               2008 fablaculp                                      #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -403,7 +396,7 @@ if defaultTheme is None:
   defaultTheme = themes[0]    #myfingershurt
 
 #myfingershurt: default theme must be an existing one!
-Config.define("coffee", "themename",           str,   defaultTheme,      text = _("Theme"),                options = dict([(str(themes[n]),themes[n]) for n in range(0, i)]), tipText = _("Sets the overall graphical feel of the game. You can find and download many more at fretsonfire.net"))
+Config.define("coffee", "themename",           str,   defaultTheme,      text = _("Theme"),                options = dict([(unicode(themes[n]),themes[n]) for n in range(0, i)]), tipText = _("Sets the overall graphical feel of the game. You can find and download many more at fretsonfire.net"))
 
 ##Alarian: End Get unlimited themes by foldername
 Player.loadControls()
@@ -482,7 +475,7 @@ class GameEngine(object):
     self.dataPath = Version.dataPath()
     Log.debug(self.versionString + " starting up...")
     Log.debug("Python version: " + sys.version.split(' ')[0])
-    Log.debug("Pygame version: " + str(pygame.version.ver) )
+    Log.debug("Pygame version: " + unicode(pygame.version.ver) )
     Log.debug("PyOpenGL version: " + OpenGLVersion)
     Log.debug("Numpy version: " + numpy.__version__)
     Log.debug("PIL version: " + Image.VERSION)
@@ -661,7 +654,7 @@ class GameEngine(object):
         try:
           aniStageFolderListing = os.listdir(os.path.join(stagespath,name))
         except Exception, e:
-          #Log.debug(name + " is not a folder, cannot list contents: " + str(e))
+          #Log.debug(name + " is not a folder, cannot list contents: " + unicode(e))
           thisIsAnAnimatedStageFolder = False
         for aniFile in aniStageFolderListing:
           if os.path.splitext(aniFile)[1] == ".png" or os.path.splitext(aniFile)[1] ==  ".jpg" or os.path.splitext(aniFile)[1] == ".jpeg":  #we've found at least one .png file here, chances are this is a valid animated stage folder
@@ -673,11 +666,11 @@ class GameEngine(object):
       #stageFolders.append("Standard")  #MFH: Standard selects the base Stages folder for stage rotation, instead of one of it's subfolders
       i = len(self.stageFolders)
       if i > 0: #only set default to first animated subfolder if one exists - otherwise use Normal!
-        defaultAniStage = str(self.stageFolders[0])
+        defaultAniStage = unicode(self.stageFolders[0])
       else:
         defaultAniStage = "Normal"
       Log.debug("Default animated stage for " + currentTheme + " theme = " + defaultAniStage)
-      aniStageOptions = dict([(str(self.stageFolders[n]),self.stageFolders[n]) for n in range(0, i)])
+      aniStageOptions = dict([(unicode(self.stageFolders[n]),self.stageFolders[n]) for n in range(0, i)])
       aniStageOptions.update({"Normal":_("Slideshow")})
       if i > 1:   #only add Random setting if more than one animated stage exists
         aniStageOptions.update({"Random":_("Random")})
@@ -742,7 +735,7 @@ class GameEngine(object):
         self.audio.open(frequency = int(self.frequency*factor), bits = self.bits, stereo = self.stereo, bufferSize = self.bufferSize)
         self.audioSpeedFactor = factor
         pygame.init()
-        Log.debug("Initializing pygame.mixer & audio system at " + str(self.frequency*factor) + " Hz." )
+        Log.debug("Initializing pygame.mixer & audio system at " + unicode(self.frequency*factor) + " Hz." )
       except Exception, e:
         Log.error("Failed to initialize or re-initialize pygame.mixer & audio system - crash imminent!")
   

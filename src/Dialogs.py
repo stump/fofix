@@ -1,14 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2006 Sami Kyöstilä                                  #
-#               2008 myfingershurt                                  #
-#               2008 Glorandwarf                                    #
-#               2008 ShiekOdaSandz                                  #
-#               2008 QQStarS                                        #
-#               2008 Blazingamer                                    #
-#               2008 evilynux <evilynux@gmail.com>                  #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -750,7 +745,7 @@ class NeckChooser(Layer, KeyListener):
         randomNeck = i
         exists = 1
 
-        neckImage = engine.loadImgDrawing(self, "neck"+str(i), os.path.join("necks",str(i)))
+        neckImage = engine.loadImgDrawing(self, "neck"+unicode(i), os.path.join("necks",unicode(i)))
         if not neckImage:
           # evilynux - Warning, Thumbs.db won't fail at engine.loadImgDrawing
           exists = 0
@@ -759,20 +754,20 @@ class NeckChooser(Layer, KeyListener):
           exists = 1
   
         if exists == 1:
-          self.neck.append(str(i)[:-4]) # evilynux - filename w/o extension
+          self.neck.append(unicode(i)[:-4]) # evilynux - filename w/o extension
           self.necks.append(neckImage)
           break
 
     for i in neckfiles:
       # evilynux - Special cases, ignore these...
-      #if( str(i) == "overdriveneck.png" or str(i)[-4:] != ".png" ):
+      #if( unicode(i) == "overdriveneck.png" or unicode(i)[-4:] != ".png" ):
       #exists = 1
-      #if( str(i) == "overdriveneck.png" or not i.endswith(".png") ):
+      #if( unicode(i) == "overdriveneck.png" or not i.endswith(".png") ):
       if( os.path.splitext(i)[0] == "randomneck" or os.path.splitext(i)[0] == "overdriveneck" ):    #MFH 
         exists = 0
         continue
 
-      neckImage = engine.loadImgDrawing(self, "neck"+str(i), os.path.join("necks",str(i)))
+      neckImage = engine.loadImgDrawing(self, "neck"+unicode(i), os.path.join("necks",unicode(i)))
       if not neckImage:
         # evilynux - Warning, Thumbs.db won't fail at engine.loadImgDrawing
         exists = 0
@@ -781,7 +776,7 @@ class NeckChooser(Layer, KeyListener):
         exists = 1
 
       if exists == 1:
-        self.neck.append(str(i)[:-4]) # evilynux - filename w/o extension
+        self.neck.append(unicode(i)[:-4]) # evilynux - filename w/o extension
         self.necks.append(neckImage)
         self.maxNeck += 1
 
@@ -1016,7 +1011,7 @@ class AvatarChooser(Layer, KeyListener):
       themeavatarfiles.sort()
 
     for i in themeavatarfiles:
-      image = engine.loadImgDrawing(self, "av"+str(i), os.path.join("themes",self.themename,"avatars",str(i)))
+      image = engine.loadImgDrawing(self, "av"+unicode(i), os.path.join("themes",self.themename,"avatars",unicode(i)))
       if not image:
         exists = 0
         continue
@@ -1024,13 +1019,13 @@ class AvatarChooser(Layer, KeyListener):
         exists = 1
 
       if exists == 1:
-        self.avatar.append(str(i)[:-4]) # evilynux - filename w/o extension
+        self.avatar.append(unicode(i)[:-4]) # evilynux - filename w/o extension
         self.avatars.append(image)
         self.maxAv += 1
     self.themeAvs = len(self.avatars)
 
     for i in avatarfiles:
-      image = engine.loadImgDrawing(self, "av"+str(i), os.path.join("avatars",str(i)))
+      image = engine.loadImgDrawing(self, "av"+unicode(i), os.path.join("avatars",unicode(i)))
       if not image:
         exists = 0
         continue
@@ -1038,7 +1033,7 @@ class AvatarChooser(Layer, KeyListener):
         exists = 1
 
       if exists == 1:
-        self.avatar.append(str(i)[:-4]) # evilynux - filename w/o extension
+        self.avatar.append(unicode(i)[:-4]) # evilynux - filename w/o extension
         self.avatars.append(image)
         self.maxAv += 1
 

@@ -1,11 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire X                                                   #
-# Copyright (C) 2006 Sami Kyöstilä                                  #
-#               2008 rchiav                                         #
-#               2009 Team FoFiX                                     #
-#               2009 akedrou                                        #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -316,7 +314,7 @@ class Lobby(Layer, KeyListener):
           # self.panelOrder = self.oldOrder
           # self.engine.input.activeGameControls = self.panelOrder
           # self.engine.input.pluginControls()
-          # print "Panel order cancelled: %s" % str(self.panelOrder)
+          # print "Panel order cancelled: %s" % unicode(self.panelOrder)
     if c in Player.cancels + self.no or key == pygame.K_ESCAPE:
       if self.playerList[i] is None and (key==pygame.K_ESCAPE or self.engine.input.p2Nav or i == 0):
         self.engine.data.cancelSound.play()

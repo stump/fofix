@@ -1,15 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2006 Sami Kyostila                                  #
-#               2008 Alarian                                        #
-#               2008 myfingershurt                                  #
-#               2008 Capo                                           #
-#               2008 Glorandwarf                                    #
-#               2008 QQStarS                                        #
-#               2008 Blazingamer                                    #
-#               2008 evilynux <evilynux@gmail.com>                  #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -140,16 +134,16 @@ class Guitar(Instrument):
     self.simpleTails = False
 
     for i in range(0,7):
-      if not engine.loadImgDrawing(self, "tail"+str(i), os.path.join("themes",themename,"tails","tail"+str(i)+".png"),  textureSize = (128, 128)):
+      if not engine.loadImgDrawing(self, "tail"+unicode(i), os.path.join("themes",themename,"tails","tail"+unicode(i)+".png"),  textureSize = (128, 128)):
         self.simpleTails = True
         break
-      if not engine.loadImgDrawing(self, "taile"+str(i), os.path.join("themes",themename,"tails","taile"+str(i)+".png"),  textureSize = (128, 128)):
+      if not engine.loadImgDrawing(self, "taile"+unicode(i), os.path.join("themes",themename,"tails","taile"+unicode(i)+".png"),  textureSize = (128, 128)):
         self.simpleTails = True
         break
-      if not engine.loadImgDrawing(self, "btail"+str(i), os.path.join("themes",themename,"tails","btail"+str(i)+".png"),  textureSize = (128, 128)):
+      if not engine.loadImgDrawing(self, "btail"+unicode(i), os.path.join("themes",themename,"tails","btail"+unicode(i)+".png"),  textureSize = (128, 128)):
         self.simpleTails = True
         break
-      if not engine.loadImgDrawing(self, "btaile"+str(i), os.path.join("themes",themename,"tails","btaile"+str(i)+".png"),  textureSize = (128, 128)):
+      if not engine.loadImgDrawing(self, "btaile"+unicode(i), os.path.join("themes",themename,"tails","btaile"+unicode(i)+".png"),  textureSize = (128, 128)):
         self.simpleTails = True
         break
     
@@ -839,7 +833,7 @@ class Guitar(Instrument):
                 self.battleObjects = [self.battleObjectsEnabled[random.randint(0,len(self.battleObjectsEnabled)-1)]] + self.battleObjects[:2]
               self.battleGetTime = pos
               self.battleObjectGained = True
-              Log.debug("Battle Object Gained, Objects %s" % str(self.battleObjects))
+              Log.debug("Battle Object Gained, Objects %s" % unicode(self.battleObjects))
             else:
               if self.starPower < 100:
                 self.starPower += 25
@@ -1006,7 +1000,7 @@ class Guitar(Instrument):
                 self.battleObjects = [self.battleObjectsEnabled[random.randint(0,len(self.battleObjectsEnabled)-1)]] + self.battleObjects[:2]
               self.battleGetTime = pos
               self.battleObjectGained = True
-              Log.debug("Battle Object Gained, Objects %s" % str(self.battleObjects))
+              Log.debug("Battle Object Gained, Objects %s" % unicode(self.battleObjects))
             else:
               if self.starPower < 100:
                 self.starPower += 25
@@ -2388,7 +2382,7 @@ class Guitar(Instrument):
     self.coOpRestart = True #initializes Restart Timer
     self.coOpRescueTime  = pos
     self.starPower  = 0
-    Log.debug("Rescued at " + str(pos))
+    Log.debug("Rescued at " + unicode(pos))
   
   def run(self, ticks, pos, controls):
   

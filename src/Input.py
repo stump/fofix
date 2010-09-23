@@ -1,10 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2006 Sami Kyöstilä                                  #
-#               2008 myfingershurt                                  #
-#               2008 Glorandwarf                                    #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -43,13 +42,13 @@ if haveMidi:
   try:
     midiin = rtmidi.RtMidiIn()
     portCount = midiin.getPortCount()
-    #Log.debug("MIDI port count = " + str(portCount) )
+    #Log.debug("MIDI port count = " + unicode(portCount) )
     if portCount > 0:
       ports = range(portCount)
       for x in ports:
         midi.append( rtmidi.RtMidiIn() )
   except Exception, e:
-    Log.error(str(e))
+    Log.error(unicode(e))
     ports = None
 
 
@@ -157,7 +156,7 @@ class Input(Task):
           for i in ports:
             midi[i].openPort(i, False)
         except Exception, e:
-          Log.error("Error opening MIDI port %d: %s" % (i,str(e)) )
+          Log.error("Error opening MIDI port %d: %s" % (i,unicode(e)) )
       else:
         Log.warn("No MIDI input ports found.")
 

@@ -1,12 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2006 Sami Kyöstilä                                  #
-#               2008 Alarian                                        #
-#               2008 myfingershurt                                  #
-#               2008 Glorandwarf                                    #
-#               2008 QQStarS                                        #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -311,34 +308,34 @@ def loadPlayers():
 def savePlayers():
   for pref in _playerDB.execute('SELECT * FROM `players` WHERE `changed` = 1').fetchall():
     try:
-      c = Config.load(VFS.resolveWrite(_makePlayerIniName(str(pref[0]))), type = 2)
+      c = Config.load(VFS.resolveWrite(_makePlayerIniName(unicode(pref[0]))), type = 2)
       c.set("player","leftymode",int(pref[1]))
       c.set("player","drumflip",int(pref[2]))
       c.set("player","auto_kick",int(pref[3]))
       c.set("player","assist_mode",int(pref[4]))
       c.set("player","two_chord_max",int(pref[5]))
       c.set("player","necktype",int(pref[6]))
-      c.set("player","neck",str(pref[7]))
+      c.set("player","neck",unicode(pref[7]))
       c.set("player","part",int(pref[8]))
       c.set("player","difficulty",int(pref[9]))
-      c.set("player","name",str(pref[10]))
+      c.set("player","name",unicode(pref[10]))
       c.set("player","controller",int(pref[11]))
       del c
       _playerDB.execute('UPDATE `players` SET `changed` = 0 WHERE `name` = ?', [pref[0]])
     except:
-      c = VFS.open(_makePlayerIniName(str(pref[0])), "w")
+      c = VFS.open(_makePlayerIniName(unicode(pref[0])), "w")
       c.close()
-      c = Config.load(VFS.resolveWrite(_makePlayerIniName(str(pref[0]))), type = 2)
+      c = Config.load(VFS.resolveWrite(_makePlayerIniName(unicode(pref[0]))), type = 2)
       c.set("player","leftymode",int(pref[1]))
       c.set("player","drumflip",int(pref[2]))
       c.set("player","auto_kick",int(pref[3]))
       c.set("player","assist_mode",int(pref[4]))
       c.set("player","two_chord_max",int(pref[5]))
       c.set("player","necktype",int(pref[6]))
-      c.set("player","neck",str(pref[7]))
+      c.set("player","neck",unicode(pref[7]))
       c.set("player","part",int(pref[8]))
       c.set("player","difficulty",int(pref[9]))
-      c.set("player","name",str(pref[10]))
+      c.set("player","name",unicode(pref[10]))
       c.set("player","controller",int(pref[11]))
       del c
       _playerDB.execute('UPDATE `players` SET `changed` = 0 WHERE `name` = ?', [pref[0]])
@@ -383,7 +380,7 @@ def loadControls():
       controllers.append(name[0:len(name)-4])
 
   i = len(controllers)
-  controllerDict = dict([(str(controllers[n]),controllers[n]) for n in range(0, i)])
+  controllerDict = dict([(unicode(controllers[n]),controllers[n]) for n in range(0, i)])
   controllerDict["defaultg"] = _("Default Guitar")
   controllerDict["defaultd"] = _("Default Drum")
   defMic = None
@@ -842,7 +839,7 @@ def setNewKeyMapping(engine, config, section, option, key):
   b = isKeyMappingOK(config, option)
   if b != 0:
     if keyCheckerMode > 0:
-      Dialogs.showMessage(engine, _("This key conflicts with the following keys: %s") % str(b))
+      Dialogs.showMessage(engine, _("This key conflicts with the following keys: %s") % unicode(b))
     if keyCheckerMode == 2:   #enforce no conflicts!
       config.set(section, option, oldKey)
     return False

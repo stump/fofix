@@ -1,10 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2006 Sami Kyöstilä                                  #
-#               2008 myfingershurt                                  #
-#               2008 evilynux <evilynux@gmail.com>                  #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -762,9 +761,9 @@ class SongChoosingScene(Scene):
               elif self.sortOrder == 4:
                 sort = item.genre.lower()
               elif self.sortOrder == 6:
-                sort = str(item.diffSong)
+                sort = unicode(item.diffSong)
               elif self.sortOrder == 7:
-                sort = str(instrumentDiff[self.scorePart.id](item))
+                sort = unicode(instrumentDiff[self.scorePart.id](item))
               elif self.sortOrder == 8:
                 sort = item.icon.lower()
               else:
@@ -814,7 +813,7 @@ class SongChoosingScene(Scene):
       if isinstance(self.selectedItem, Song.LibraryInfo):
         self.library = self.selectedItem.libraryName
         self.startingSelected = None
-        Log.debug("New library selected: " + str(self.library) )
+        Log.debug("New library selected: " + self.library )
         self.loadLibrary()
       elif isinstance(self.selectedItem, Song.SongInfo) and not self.selectedItem.getLocked():
         if self.listingMode == 1 and not self.careerMode:

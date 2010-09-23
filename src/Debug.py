@@ -1,10 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
 # Frets on Fire X (FoFiX)                                           #
-# Copyright (C) 2006 Sami Kyöstilä                                  #
-# Copyright (C) 2009 FoFiX Team                                     #
-# Copyright (C) 2009 akedrou                                        #                                     
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #                               
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -36,7 +35,7 @@ class DebugLayer(Layer):
     #gc.set_debug(gc.DEBUG_LEAK)
 
   def className(self, instance):
-    return str(instance.__class__).split(".")[1]
+    return unicode(instance.__class__).split(".")[1]
   
   def render(self, visibility, topMost):
     self.engine.view.setOrthogonalProjection(normalize = True)
@@ -87,7 +86,7 @@ class DebugLayer(Layer):
       x, y = (.5, .4)
       font.render("Loaders:", (x, y), scale = scale)
       for loader in self.engine.resource.loaders:
-        font.render(str(loader), (x + .1, y), scale = scale)
+        font.render(unicode(loader), (x + .1, y), scale = scale)
         y += h
         
       x, y = (.5, .55)

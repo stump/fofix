@@ -1,8 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
 # Frets on Fire X (FoFiX)                                           #
-# Copyright (C) 2009-2010 John Stumpo                               #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -232,7 +233,7 @@ class StatResult(object):
 
   # Show our contents when repr()'d.
   def __repr__(self):
-    return str(tuple(self))
+    return unicode(tuple(self))
 
 
 def stat(path):

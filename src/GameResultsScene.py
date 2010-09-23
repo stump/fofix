@@ -1,15 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2006 Sami Kyöstilä                                  #
-#               2008 Alarian                                        #
-#               2008 myfingershurt                                  #
-#               2008 Glorandwarf                                    #
-#               2008 ShiekOdaSandz                                  #
-#               2008 Blazingamer                                    #
-#               2008 evilynux <evilynux@gmail.com>                  #
-#               2009 akedrou                                        #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -552,11 +546,11 @@ class GameResultsScene(Scene):
       scores     = {}
       scores_ext = {}
       upname = self.playerList[i].upname
-      # evilynux - the str() around the upname is not there for fun,
+      # evilynux - the unicode() around the upname is not there for fun,
       #            it's used to convert the unicode string so the server 
       #            scripts accept it. 
-      scoreHash = hashlib.sha1("%d%d%d%s" % (player.getDifficultyInt(), self.finalScore[i], self.scoring[i].stars, str(upname))).hexdigest()
-      scores[player.getDifficultyInt()]     = [(self.finalScore[i], self.scoring[i].stars, str(upname), scoreHash)]
+      scoreHash = hashlib.sha1("%d%d%d%s" % (player.getDifficultyInt(), self.finalScore[i], self.scoring[i].stars, unicode(upname))).hexdigest()
+      scores[player.getDifficultyInt()]     = [(self.finalScore[i], self.scoring[i].stars, unicode(upname), scoreHash)]
       scores_ext[player.getDifficultyInt()] = [(scoreHash, self.scoring[i].stars) + scoreExt]
       d["scores"] = binascii.hexlify(Cerealizer.dumps(scores))
       d["scores_ext"] = binascii.hexlify(Cerealizer.dumps(scores_ext))
@@ -1373,7 +1367,7 @@ class GameResultsScene(Scene):
           upScoreText = _("Uploading Scores...")
           font.render("P%d (%s) %s" % (j+1, player.upname, upScoreText), (.05, sYPos + v), scale = sScale)
         else:
-          result = str(self.uploadResponse[j]).split(";")
+          result = unicode(self.uploadResponse[j]).split(";")
           if len(result) > 0:
             upScoreText1 = _("Scores uploaded!")
             if result[0] == "True":

@@ -1,17 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2006 Sami Kyöstilä                                  #
-#               2008 Alarian                                        #
-#               2008 myfingershurt                                  #
-#               2008 Spikehead777                                   #
-#               2008 Glorandwarf                                    #
-#               2008 ShiekOdaSandz                                  #
-#               2008 QQStarS                                        #
-#               2008 Blazingamer                                    #
-#               2008 evilynux <evilynux@gmail.com>                  #
-#               2008 fablaculp                                      #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -408,24 +400,24 @@ class ControlCreator(BackgroundLayer, KeyListener):
     type = self.config.get("controller", "type")
     
     if type != 5:
-      if str(self.config.get("controller", "key_1")) == "None":
+      if unicode(self.config.get("controller", "key_1")) == "None":
         self.config.set("controller", "key_1", self.config.getDefault("controller", "key_1"))
-      if str(self.config.get("controller", "key_2")) == "None":
+      if unicode(self.config.get("controller", "key_2")) == "None":
         self.config.set("controller", "key_2", self.config.getDefault("controller", "key_2"))
-      if str(self.config.get("controller", "key_3")) == "None":
+      if unicode(self.config.get("controller", "key_3")) == "None":
         self.config.set("controller", "key_3", self.config.getDefault("controller", "key_3"))
-      if str(self.config.get("controller", "key_4")) == "None":
+      if unicode(self.config.get("controller", "key_4")) == "None":
         self.config.set("controller", "key_4", self.config.getDefault("controller", "key_4"))
-      if str(self.config.get("controller", "key_action1")) == "None":
+      if unicode(self.config.get("controller", "key_action1")) == "None":
         self.config.set("controller", "key_action1", self.config.getDefault("controller", "key_action1"))
-      if str(self.config.get("controller", "key_action2")) == "None":
+      if unicode(self.config.get("controller", "key_action2")) == "None":
         self.config.set("controller", "key_action2", self.config.getDefault("controller", "key_action2"))
     
     if type == 0:
       self.config.set("controller", "key_1a", None)
-      if str(self.config.get("controller", "key_5")) == "None":
+      if unicode(self.config.get("controller", "key_5")) == "None":
         self.config.set("controller", "key_5", self.config.getDefault("controller", "key_5"))
-      if str(self.config.get("controller", "key_kill")) == "None":
+      if unicode(self.config.get("controller", "key_kill")) == "None":
         self.config.set("controller", "key_kill", self.config.getDefault("controller", "key_kill"))
       controlKeys = [
         ActiveConfigChoice(self.engine, self.config, "controller", "type", self.changeType),
@@ -462,11 +454,11 @@ class ControlCreator(BackgroundLayer, KeyListener):
       self.config.set("controller", "key_3a", None)
       self.config.set("controller", "key_4a", None)
       self.config.set("controller", "key_5a", None)
-      if str(self.config.get("controller", "key_5")) == "None":
+      if unicode(self.config.get("controller", "key_5")) == "None":
         self.config.set("controller", "key_5", self.config.getDefault("controller", "key_5"))
-      if str(self.config.get("controller", "key_1a")) == "None":
+      if unicode(self.config.get("controller", "key_1a")) == "None":
         self.config.set("controller", "key_1a", self.config.getDefault("controller", "key_1a"))
-      if str(self.config.get("controller", "key_kill")) == "None":
+      if unicode(self.config.get("controller", "key_kill")) == "None":
         self.config.set("controller", "key_kill", self.config.getDefault("controller", "key_kill"))
       
       controlKeys = [
@@ -558,11 +550,11 @@ class ControlCreator(BackgroundLayer, KeyListener):
       self.config.set("controller", "key_3a", None)
       self.config.set("controller", "key_4a", None)
       self.config.set("controller", "key_5a", None)
-      if str(self.config.get("controller", "key_5")) == "None":
+      if unicode(self.config.get("controller", "key_5")) == "None":
         self.config.set("controller", "key_5", self.config.getDefault("controller", "key_5"))
-      if str(self.config.get("controller", "key_1a")) == "None":
+      if unicode(self.config.get("controller", "key_1a")) == "None":
         self.config.set("controller", "key_1a", self.config.getDefault("controller", "key_1a"))
-      if str(self.config.get("controller", "key_kill")) == "None":
+      if unicode(self.config.get("controller", "key_kill")) == "None":
         self.config.set("controller", "key_kill", self.config.getDefault("controller", "key_kill"))
       
       controlKeys = [
@@ -1093,13 +1085,13 @@ class SettingsMenu(Menu.Menu):
   def controlCheck(self):
     control = [self.engine.config.get("game", "control0")]
     self.keyCheckerMode = Config.get("game", "key_checker_mode")
-    if str(control[0]) == "None":
+    if unicode(control[0]) == "None":
       Dialogs.showMessage(self.engine, _("You must specify a controller for slot 1!"))
       self.engine.view.pushLayer(self.keySettingsMenu)
     else:
       for i in range(1,4):
         c = self.engine.config.get("game", "control%d" % i)
-        if c in control and str(c) != "None":
+        if c in control and unicode(c) != "None":
           Dialogs.showMessage(self.engine, _("Controllers in slots %d and %d conflict. Setting %d to None.") % (control.index(c)+1, i+1, i+1))
           self.engine.config.set("game", "control%d" % i, None)
         else:
@@ -1127,7 +1119,7 @@ class SettingsMenu(Menu.Menu):
       self.applySettings()
 
   def keyTest(self, controller):
-    if str(self.engine.input.controls.controls[controller]) == "None":
+    if unicode(self.engine.input.controls.controls[controller]) == "None":
       Dialogs.showMessage(self.engine, "No controller set for slot %d" % (controller+1))
     else:
       Dialogs.testKeys(self.engine, controller)
@@ -1370,13 +1362,13 @@ class BasicSettingsMenu(Menu.Menu):
   def controlCheck(self):
     control = [self.engine.config.get("game", "control0")]
     self.keyCheckerMode = Config.get("game", "key_checker_mode")
-    if str(control[0]) == "None":
+    if unicode(control[0]) == "None":
       Dialogs.showMessage(self.engine, _("You must specify a controller for slot 1!"))
       self.engine.view.pushLayer(self.keySettingsMenu)
     else:
       for i in range(1,4):
         c = self.engine.config.get("game", "control%d" % i)
-        if c in control and str(c) != "None":
+        if c in control and unicode(c) != "None":
           Dialogs.showMessage(self.engine, _("Controllers in slots %d and %d conflict. Setting %d to None.") % (control.index(c)+1, i+1, i+1))
           self.engine.config.set("game", "control%d" % i, None)
         else:
@@ -1403,7 +1395,7 @@ class BasicSettingsMenu(Menu.Menu):
       self.applySettings()
   
   def keyTest(self, controller):
-    if str(self.engine.input.controls.controls[controller]) == "None":
+    if unicode(self.engine.input.controls.controls[controller]) == "None":
       Dialogs.showMessage(self.engine, "No controller set for slot %d" % (controller+1))
     else:
       Dialogs.testKeys(self.engine, controller)

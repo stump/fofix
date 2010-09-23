@@ -1,14 +1,9 @@
+# -*- coding: utf-8 -*-
 #####################################################################
-# -*- coding: iso-8859-1 -*-                                        #
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2006 Sami Kyostila                                  #
-#               2008 Alarian                                        #
-#               2008 myfingershurt                                  #
-#               2008 Glorandwarf                                    #
-#               2008 Capo                                           #
-#               2008 Blazingamer                                    #
-#               2008 evilynux <evilynux@gmail.com>                  #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -2072,7 +2067,7 @@ class Drum(Instrument):
     self.coOpRestart = True #initializes Restart Timer
     self.coOpRescueTime  = pos
     self.starPower  = 0
-    Log.debug("Rescued at " + str(pos))
+    Log.debug("Rescued at " + unicode(pos))
 
   def run(self, ticks, pos, controls):
     if not self.paused:

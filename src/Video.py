@@ -1,8 +1,9 @@
-##################################################################
-# -*- coding: iso-8859-1 -*-                                        #
+# -*- coding: utf-8 -*-
+#####################################################################
 #                                                                   #
-# Frets on Fire                                                     #
-# Copyright (C) 2006 Sami Kyöstilä                                  #
+# Frets on Fire X (FoFiX)                                           #
+# Copyright (C) 2009-2010 FoFiX Team                                #
+# See CREDITS for a full list of contributors                       #
 #                                                                   #
 # This program is free software; you can redistribute it and/or     #
 # modify it under the terms of the GNU General Public License       #
@@ -75,7 +76,7 @@ class Video:
     try:
       self.screen = pygame.display.set_mode(resolution, flags)
     except Exception, e:
-      errortype = str(e)
+      errortype = unicode(e)
       if "video mode" in errortype:
         self.resolutionReset()
       else: # "Couldn't find matching GLX visual"
@@ -168,7 +169,7 @@ class Video:
     try:
       self.screen = pygame.display.set_mode(resolution, self.flags)
     except Exception, e:
-      if "video mode" in str(e):
+      if "video mode" in unicode(e):
         self.resolutionReset()
       else:
         self.screenError()
