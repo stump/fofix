@@ -40,6 +40,9 @@ from Texture import Texture
 
 import Log    #MFH
 
+import sys 
+sysencoding = sys.getfilesystemencoding()
+
 PRACTICE = 1
 CAREER = 2
 
@@ -820,8 +823,8 @@ class SongChoosingScene(Scene):
           self.library = self.selectedItem.libraryNam #TODO: SongDB
         self.libraryName = self.selectedItem.libraryNam
         self.songName = self.selectedItem.songName
-        self.engine.config.set("setlist", "selected_library", self.libraryName)
-        self.engine.config.set("setlist", "selected_song",    self.songName)
+        self.engine.config.set("setlist", "selected_library", self.libraryName.decode(sysencoding))
+        self.engine.config.set("setlist", "selected_song",    self.songName.decode(sysencoding))
         if self.checkParts():
           if self.queueFormat == 0:
             self.engine.world.songQueue.addSong(self.songName, self.libraryName)

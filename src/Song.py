@@ -41,6 +41,9 @@ import time
 from Language import _
 import VFS
 
+import sys 
+sysencoding = sys.getfilesystemencoding()
+
 DEFAULT_BPM = 120.0
 DEFAULT_LIBRARY         = "songs"
 
@@ -515,21 +518,21 @@ class SongInfo(object):
       try:    #MFH - it crashes here on previews!
         result = _songDB.execute('SELECT `info` FROM `songinfo` WHERE `hash` = ?', [songhash]).fetchone()
         if result is None:
-          Log.debug('Song %s was not found in the cache.' % infoFileName)
+          Log.debug('Song %s was not found in the cache.' % infoFileName.decode(sysencoding))
       except Exception, e:
-        Log.error('Cache retrieval failed for %s: ' % infoFileName)
+        Log.error('Cache retrieval failed for %s: ' % infoFileName.decode(sysencoding))
         result = None
 
       if result is not None:
         try:
           self.__dict__.update(cPickle.loads(str(result[0])))
           _songDB.execute('UPDATE `songinfo` SET `seen` = 1 WHERE `hash` = ?', [songhash])
-          Log.debug('Song %s successfully loaded from cache.' % infoFileName)
+          Log.debug('Song %s successfully loaded from cache.' % infoFileName.decode(sysencoding))
           return
         except:
           # The entry is there but could not be loaded.
           # Nuke it and let it be rebuilt.
-          Log.error('Song %s has invalid cache data (will rebuild): ' % infoFileName)
+          Log.error('Song %s has invalid cache data (will rebuild): ' % infoFileName.decode(sysencoding))
           _songDB.execute('DELETE FROM `songinfo` WHERE `hash` = ?', [songhash])
 
       #stump: preload this stuff...
@@ -2638,7 +2641,7 @@ class Song(object):
 
     # load the notes   
     if noteFileName:
-      Log.debug("Retrieving notes from: " + noteFileName)
+      Log.debug(u"Retrieving notes from: " + noteFileName.decode(sysencoding))
       midiIn = midi.MidiInFile(MidiReader(self), noteFileName)
       midiIn.read()
       

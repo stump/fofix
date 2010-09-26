@@ -57,7 +57,7 @@ class MyConfigParser(RawConfigParser):
         sectList.sort()
         for key, value in sectList:
           if key != "__name__":
-            fp.write("%s = %s\n" % (key, unicode(value).replace('\n', '\n\t')))
+            fp.write("%s = %s\n" % (key, str(value).replace('\n', '\n\t')))
         fp.write("\n")
         
   def writeTheme(self, fp):
