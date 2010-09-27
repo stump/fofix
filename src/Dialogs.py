@@ -745,7 +745,7 @@ class NeckChooser(Layer, KeyListener):
         randomNeck = i
         exists = 1
 
-        neckImage = engine.loadImgDrawing(self, "neck"+unicode(i), os.path.join("necks",unicode(i)))
+        neckImage = engine.loadImgDrawing(self, "neck"+str(i), os.path.join("necks",str(i)))
         if not neckImage:
           # evilynux - Warning, Thumbs.db won't fail at engine.loadImgDrawing
           exists = 0
@@ -754,20 +754,20 @@ class NeckChooser(Layer, KeyListener):
           exists = 1
   
         if exists == 1:
-          self.neck.append(unicode(i)[:-4]) # evilynux - filename w/o extension
+          self.neck.append(str(i)[:-4]) # evilynux - filename w/o extension
           self.necks.append(neckImage)
           break
 
     for i in neckfiles:
       # evilynux - Special cases, ignore these...
-      #if( unicode(i) == "overdriveneck.png" or unicode(i)[-4:] != ".png" ):
+      #if( str(i) == "overdriveneck.png" or str(i)[-4:] != ".png" ):
       #exists = 1
-      #if( unicode(i) == "overdriveneck.png" or not i.endswith(".png") ):
+      #if( str(i) == "overdriveneck.png" or not i.endswith(".png") ):
       if( os.path.splitext(i)[0] == "randomneck" or os.path.splitext(i)[0] == "overdriveneck" ):    #MFH 
         exists = 0
         continue
 
-      neckImage = engine.loadImgDrawing(self, "neck"+unicode(i), os.path.join("necks",unicode(i)))
+      neckImage = engine.loadImgDrawing(self, "neck"+str(i), os.path.join("necks",str(i)))
       if not neckImage:
         # evilynux - Warning, Thumbs.db won't fail at engine.loadImgDrawing
         exists = 0
@@ -776,7 +776,7 @@ class NeckChooser(Layer, KeyListener):
         exists = 1
 
       if exists == 1:
-        self.neck.append(unicode(i)[:-4]) # evilynux - filename w/o extension
+        self.neck.append(str(i)[:-4]) # evilynux - filename w/o extension
         self.necks.append(neckImage)
         self.maxNeck += 1
 
