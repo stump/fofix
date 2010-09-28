@@ -1,0 +1,59 @@
+How to translate FoFiX to another language
+==========================================
+
+Translate This Document
+-----------------------
+[<img src="http://github.com/stump/fofix/raw/i18n_unicode/doc/flags/zh_CN.png" alt="zh_CN" />](http://www.microsofttranslator.com/bv.aspx?from=en&to=zh-CHS&a=http%3A%2F%2Fgithub.com%2Fstump%2Ffofix%2Fblob%2Fi18n_unicode%2Fdoc%2FTranslatingFoFiX.mkd)[<img src="http://github.com/stump/fofix/raw/i18n_unicode/doc/flags/fr.png" alt="fr" />](http://www.microsofttranslator.com/bv.aspx?from=en&to=fr&a=http%3A%2F%2Fgithub.com%2Fstump%2Ffofix%2Fblob%2Fi18n_unicode%2Fdoc%2FTranslatingFoFiX.mkd)[<img src="http://github.com/stump/fofix/raw/i18n_unicode/doc/flags/de.png" alt="de" />](http://www.microsofttranslator.com/bv.aspx?from=en&to=de&a=http%3A%2F%2Fgithub.com%2Fstump%2Ffofix%2Fblob%2Fi18n_unicode%2Fdoc%2FTranslatingFoFiX.mkd)[<img src="http://github.com/stump/fofix/raw/i18n_unicode/doc/flags/es.png" alt="es" />](http://www.microsofttranslator.com/bv.aspx?from=en&to=es&a=http%3A%2F%2Fgithub.com%2Fstump%2Ffofix%2Fblob%2Fi18n_unicode%2Fdoc%2FTranslatingFoFiX.mkd))[<img src="http://github.com/stump/fofix/raw/i18n_unicode/doc/flags/it.png" alt="it" />](http://www.microsofttranslator.com/bv.aspx?from=en&to=it&a=http%3A%2F%2Fgithub.com%2Fstump%2Ffofix%2Fblob%2Fi18n_unicode%2Fdoc%2FTranslatingFoFiX.mkd))[<img src="http://github.com/stump/fofix/raw/i18n_unicode/doc/flags/ja.png" alt="ja" />](http://www.microsofttranslator.com/bv.aspx?from=en&to=ja&a=http%3A%2F%2Fgithub.com%2Fstump%2Ffofix%2Fblob%2Fi18n_unicode%2Fdoc%2FTranslatingFoFiX.mkd))[<img src="http://github.com/stump/fofix/raw/i18n_unicode/doc/flags/ko.png" alt="ko" />](http://www.microsofttranslator.com/bv.aspx?from=en&to=ko&a=http%3A%2F%2Fgithub.com%2Fstump%2Ffofix%2Fblob%2Fi18n_unicode%2Fdoc%2FTranslatingFoFiX.mkd))[<img src="http://github.com/stump/fofix/raw/i18n_unicode/doc/flags/ru.png" alt="ru" />](http://www.microsofttranslator.com/bv.aspx?from=en&to=ru&a=http%3A%2F%2Fgithub.com%2Fstump%2Ffofix%2Fblob%2Fi18n_unicode%2Fdoc%2FTranslatingFoFiX.mkd))
+
+
+Table of Contents
+-----------------
+1. [Instructions](#Instructions)
+2. [Standards](#Standards)
+3. [Example](#Example)
+4. [Advice](#Advice)
+
+<a name="Instructions"></a>
+Instructions
+------------
+
+1. Download the latest version of FoFiX i18n_unicode branch via git or zipball.
+    * [FoFiX Git Instructions](http://github.com/stump/fofix/blob/master/doc/RunningFromSource.mkd#Checking-out-the-latest-code)
+    * [Zipball (alternative)](http://github.com/stump/fofix/zipball/i18n_unicode)
+    * [Helpful Git Reference](http://gitref.org/)
+2. Find the language file you would like to edit under data/po/xx.po
+    * Any text editor will do but using a ".po" editor such as [poedit](http://www.poedit.net/) is recommended and the editor's translated interface may prove useful.
+    * The current translations were created using Google Translator and need review.
+3. Review each "msgstr" for inaccuracies such as grammar, and spelling.
+4. Convert your ".po" file into a ".mo" file using your editor (poedit does this automatically by default) or [gettext](http://www.gnu.org/software/gettext/).
+5. Copy your ".mo" file to the "data/translations" folder of FoFiX.
+6. Review your updated translation in-game to ensure correctness.
+7. Submit your updated ".po" to the following as attachments:
+
+<a name="Standards"></a>
+Standards
+---------
+
+FoFiX uses the following translation standards:
+1. Ensure your ".po" remains UTF-8 encoded.
+2. Use proper accents and other language specific characters.
+3. Please keep your translations professional and accurate.
+
+<a name="Example"></a>
+Example
+-------
+
+#Before
+`msgid "%d points is a new high score! Enter your name:"`
+`msgstr ""`
+
+#After
+`msgid "%d points is a new high score! Enter your name:"`
+`msgstr "%d Punkte ist ein neuer Highscore! Bitte Namen eingeben :"`
+
+
+<a name="Advice"></a>
+Advice
+------
+  * Test often.
+  * Make frequent backups.
