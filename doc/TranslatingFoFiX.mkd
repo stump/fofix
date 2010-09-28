@@ -35,6 +35,7 @@ Standards
 ---------
 
 FoFiX uses the following translation standards:
+
 1. Ensure your ".po" remains UTF-8 encoded.
 2. Use proper accents and other language specific characters.
 3. Please keep your translations professional and accurate.
