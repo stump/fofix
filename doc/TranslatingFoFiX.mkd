@@ -19,7 +19,6 @@ Instructions
 
 1. Download the latest version of FoFiX i18n_unicode branch via git or zipball.
     * [FoFiX Git Instructions](http://github.com/stump/fofix/blob/master/doc/RunningFromSource.mkd#Checking-out-the-latest-code)
-    * [Zipball (alternative)](http://github.com/stump/fofix/zipball/i18n_unicode)
     * [Helpful Git Reference](http://gitref.org/)
 2. Find the language file you would like to edit under data/po/xx.po
     * Any text editor will do but using a ".po" editor such as [poedit](http://www.poedit.net/) is recommended and the editor's translated interface may prove useful.
