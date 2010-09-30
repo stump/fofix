@@ -192,6 +192,7 @@ class Neck:
           self.neck = "defaultneck"
           engine.loadImgDrawing(self, "neckDrawing", os.path.join("necks",self.neck+".png"),  textureSize = (256, 256))
       else:
+        self.neck = str(self.neck)
         # evilynux - first assume the self.neck contains the full filename
         if not engine.loadImgDrawing(self, "neckDrawing", os.path.join("necks",self.neck+".png"),  textureSize = (256, 256)):
           if not engine.loadImgDrawing(self, "neckDrawing", os.path.join("necks","Neck_"+self.neck+".png"),  textureSize = (256, 256)):
