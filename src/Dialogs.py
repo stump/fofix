@@ -1011,7 +1011,7 @@ class AvatarChooser(Layer, KeyListener):
       themeavatarfiles.sort()
 
     for i in themeavatarfiles:
-      image = engine.loadImgDrawing(self, "av"+unicode(i), os.path.join("themes",self.themename,"avatars",unicode(i)))
+      image = engine.loadImgDrawing(self, "av"+str(i), os.path.join("themes",self.themename,"avatars",str(i)))
       if not image:
         exists = 0
         continue
@@ -1019,13 +1019,13 @@ class AvatarChooser(Layer, KeyListener):
         exists = 1
 
       if exists == 1:
-        self.avatar.append(unicode(i)[:-4]) # evilynux - filename w/o extension
+        self.avatar.append(str(i)[:-4]) # evilynux - filename w/o extension
         self.avatars.append(image)
         self.maxAv += 1
     self.themeAvs = len(self.avatars)
 
     for i in avatarfiles:
-      image = engine.loadImgDrawing(self, "av"+unicode(i), os.path.join("avatars",unicode(i)))
+      image = engine.loadImgDrawing(self, "av"+str(i), os.path.join("avatars",str(i)))
       if not image:
         exists = 0
         continue
@@ -1033,7 +1033,7 @@ class AvatarChooser(Layer, KeyListener):
         exists = 1
 
       if exists == 1:
-        self.avatar.append(unicode(i)[:-4]) # evilynux - filename w/o extension
+        self.avatar.append(str(i)[:-4]) # evilynux - filename w/o extension
         self.avatars.append(image)
         self.maxAv += 1
 
