@@ -159,7 +159,7 @@ class Neck:
       neckfiles = [ f for f in os.listdir(themeNeckPath) if os.path.isfile(os.path.join(themeNeckPath, f)) ] 
       neckfiles.sort()
       for i in neckfiles:
-        themeNeck.append(unicode(i))
+        themeNeck.append(str(i))
       if len(themeNeck) > 0:
         i = random.randint(0,len(themeNeck)-1)
         if engine.loadImgDrawing(self, "neckDrawing", os.path.join("themes", themename, "necks", themeNeck[i]), textureSize = (256, 256)):
@@ -182,7 +182,7 @@ class Neck:
           if( os.path.splitext(i)[0] == "randomneck" or os.path.splitext(i)[0] == "overdriveneck" ):
             continue
           else:
-            self.neck.append(unicode(i)[:-4]) # evilynux - filename w/o extension
+            self.neck.append(str(i)[:-4]) # evilynux - filename w/o extension
 
         i = random.randint(0,len(self.neck)-1)
         if engine.loadImgDrawing(self, "neckDrawing", os.path.join("necks",self.neck[i]+".png"),  textureSize = (256, 256)):
