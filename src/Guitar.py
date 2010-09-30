@@ -134,16 +134,16 @@ class Guitar(Instrument):
     self.simpleTails = False
 
     for i in range(0,7):
-      if not engine.loadImgDrawing(self, "tail"+unicode(i), os.path.join("themes",themename,"tails","tail"+unicode(i)+".png"),  textureSize = (128, 128)):
+      if not engine.loadImgDrawing(self, "tail"+str(i), os.path.join("themes",themename,"tails","tail"+str(i)+".png"),  textureSize = (128, 128)):
         self.simpleTails = True
         break
-      if not engine.loadImgDrawing(self, "taile"+unicode(i), os.path.join("themes",themename,"tails","taile"+unicode(i)+".png"),  textureSize = (128, 128)):
+      if not engine.loadImgDrawing(self, "taile"+str(i), os.path.join("themes",themename,"tails","taile"+str(i)+".png"),  textureSize = (128, 128)):
         self.simpleTails = True
         break
-      if not engine.loadImgDrawing(self, "btail"+unicode(i), os.path.join("themes",themename,"tails","btail"+unicode(i)+".png"),  textureSize = (128, 128)):
+      if not engine.loadImgDrawing(self, "btail"+str(i), os.path.join("themes",themename,"tails","btail"+str(i)+".png"),  textureSize = (128, 128)):
         self.simpleTails = True
         break
-      if not engine.loadImgDrawing(self, "btaile"+unicode(i), os.path.join("themes",themename,"tails","btaile"+unicode(i)+".png"),  textureSize = (128, 128)):
+      if not engine.loadImgDrawing(self, "btaile"+str(i), os.path.join("themes",themename,"tails","btaile"+str(i)+".png"),  textureSize = (128, 128)):
         self.simpleTails = True
         break
     
