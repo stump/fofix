@@ -38,7 +38,7 @@ class MyConfigParser(RawConfigParser):
     fp.write("[%s]\n" % sectionName)
     for key, value in sorted(sectionItems):
       if key != "__name__":
-        fp.write("%s = %s\n" % (key, str(value).replace('\n', '\n\t')))
+        fp.write("%s = %s\n" % (key, unicode(value).replace('\n', '\n\t')))
     fp.write("\n")
 
   def write(self, fp, type = 0):
