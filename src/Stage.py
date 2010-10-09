@@ -21,6 +21,8 @@
 # MA  02110-1301, USA.                                              #
 #####################################################################
 
+from __future__ import with_statement
+
 import Config
 from OpenGL.GL import *
 import Log
@@ -340,12 +342,9 @@ class Stage(object):
     self.averageNotes = self.averageNotes[-4:] + self.averageNotes[-1:]
 
   def renderLayers(self, layers, visibility):
-    self.engine.view.setOrthogonalProjection(normalize = True)
-    try:
+    with self.engine.view.orthogonalProjection(normalize = True):
       for layer in layers:
         layer.render(visibility)
-    finally:
-      self.engine.view.resetProjection()
 
   def run(self, pos, period):
     self.pos        = pos

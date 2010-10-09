@@ -21,6 +21,8 @@
 # MA  02110-1301, USA.                                              #
 #####################################################################
 
+from __future__ import with_statement
+
 from OpenGL.GL import *
 from View import Layer
 
@@ -38,9 +40,7 @@ class DebugLayer(Layer):
     return unicode(instance.__class__).split(".")[1]
   
   def render(self, visibility, topMost):
-    self.engine.view.setOrthogonalProjection(normalize = True)
-    
-    try:
+    with self.engine.view.orthogonalProjection(normalize = True):
       font = self.engine.data.font
       scale = 0.0008
       glColor3f(.25, 1, .25)
@@ -111,9 +111,6 @@ class DebugLayer(Layer):
       #font.render("%d gc objects" % len(gc.get_objects()), (x + .1, y), scale = scale)
       #y += h
       #font.render("%d collected" % gc.collect(), (x + .1, y), scale = scale)
-
-    finally:
-      self.engine.view.resetProjection()
 
   def gcDump(self):
     before = len(gc.get_objects())

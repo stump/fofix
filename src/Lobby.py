@@ -21,6 +21,8 @@
 # MA  02110-1301, USA.                                              #
 #####################################################################
 
+from __future__ import with_statement
+
 import pygame
 from OpenGL.GL import *
 import os
@@ -449,21 +451,18 @@ class Lobby(Layer, KeyListener):
     self.done   = True
     if self.playerNum >= self.maxPlayers:
       return
-    self.engine.view.setOrthogonalProjection(normalize = True)
-    try:
-      font = self.engine.data.fontDict[self.engine.theme.lobbySelectFont]
-      titleFont = self.engine.data.fontDict[self.engine.theme.lobbyTitleFont]
-    except KeyError:
-      font = self.engine.data.font
-      titleFont = self.engine.data.loadingFont
-    v = ((1 - visibility) **2)
-    w, h = self.fullView
-    try:
+    with self.engine.view.orthogonalProjection(normalize = True):
+      try:
+        font = self.engine.data.fontDict[self.engine.theme.lobbySelectFont]
+        titleFont = self.engine.data.fontDict[self.engine.theme.lobbyTitleFont]
+      except KeyError:
+        font = self.engine.data.font
+        titleFont = self.engine.data.loadingFont
+      v = ((1 - visibility) **2)
+      w, h = self.fullView
       if self.img_background:
         self.engine.drawImage(self.img_background, scale = (1.0, -1.0), coord = (w/2,h/2), stretched = 3)
       self.engine.theme.themeLobby.renderPanels(self)
-    finally:
-      self.engine.view.resetProjection()
 
 class CreateCharacter(Layer, KeyListener):
   def __init__(self, engine):
@@ -737,10 +736,9 @@ class CreateCharacter(Layer, KeyListener):
     except KeyError:
       font = self.engine.data.font
       helpFont = self.engine.data.loadingFont
-    self.engine.view.setOrthogonalProjection(normalize = True)
-    v = ((1 - visibility) **2)
-    w, h = self.fullView
-    try:
+    with self.engine.view.orthogonalProjection(normalize = True):
+      v = ((1 - visibility) **2)
+      w, h = self.fullView
       if self.img_creator:
         self.engine.drawImage(self.img_creator, scale = (1.0, -1.0), coord = (w/2,h/2), stretched = 3)
       helpFont.render(_("Player %d") % (self.playerNum + 1), pos = (.5, .1), scale = self.engine.theme.characterCreateScale, align = 1)
@@ -773,5 +771,3 @@ class CreateCharacter(Layer, KeyListener):
           font.render(str, (self.engine.theme.characterCreateOptionX-wText, self.engine.theme.characterCreateY+self.engine.theme.characterCreateSpace*i), scale = self.engine.theme.characterCreateScale)
       if self.img_creator_top:
          self.engine.drawImage(self.img_creator_top, scale = (1.0, -1.0), coord = (w/2,h/2), stretched = 3)
-    finally:
-      self.engine.view.resetProjection()
