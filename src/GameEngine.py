@@ -23,9 +23,8 @@
 
 from OpenGL.GL import *
 from OpenGL import __version__ as OpenGLVersion
-import numpy
+import numpy as np
 from PIL import Image
-from numpy import array, float32
 import pygame
 import gc
 import os
@@ -54,7 +53,7 @@ import Player
 from Shader import shaders
 from Song import difficulties, parts
 
-from cmgl import *
+import cmgl
 
 class ConfigOption:
   def __init__(self, id, text):
@@ -140,7 +139,6 @@ Config.define("audio",  "screwupvol", float,   0.25,  text = _("Screw-Up Sounds"
 #akedrou - these are 1-10 (not 0-10) because a setting of 0 will trigger the "miss volume"
 Config.define("audio",  "guitarvol",  float,    1.0,  text = _("Active Track Volume"),   options = dict([(n / 100.0, "%02d/10" % (n / 10)) for n in range(10, 110, 10)]), tipText = _("Volume of the parts you are playing."))
 Config.define("audio",  "songvol",    float,    0.8,  text = _("Background Volume"),     options = dict([(n / 100.0, "%02d/10" % (n / 10)) for n in range(10, 110, 10)]), tipText = _("Volume of the parts you are not playing."))
-#Config.define("audio",  "rhythmvol",  float,    1.0,  text = ("Rhythm Volume"),   options = dict([(n / 100.0, "%02d/10" % (n / 10)) for n in range(0, 110, 10)]), tipText = ("Bass, rhythm guitar, and drum volume."))
 
 Config.define("performance", "game_priority",       int,   2,      text = _("Process Priority"), options = sortOptionsByKey({0: _("Idle"), 1: _("Low"), 2: _("Normal"), 3:_("Above Normal"), 4:_("High"), 5:_("Realtime")}), tipText = _("Change this to increase the priority of the FoFiX process. Don't change this unless you know what you're doing. DO NOT set this to Realtime. Ever."))
 Config.define("performance", "restrict_to_first_processor", bool, False, text=_("Restrict to First Core (Win32 Only)"), options={False: _("No"), True: _("Yes")}, tipText=_("Choose whether to restrict the game to running on only the first processor core on the system. Only has an effect under Windows."))  #stump
@@ -192,7 +190,6 @@ Config.define("game",   "sp_notes_while_active",  int,  2,  text = _("SP Refill 
 
 #MFH wuz here.  Yeah.
 Config.define("game", "kill_debug",      bool, False,  text = _("Effects Debug"), options = {False: _("Off"), True: _("On")}, tipText = _("If enabled, will show on-screen the raw data of your killswitch/whammy."))
-#Config.define("game", "auto_drum_sp",      bool, False,  text = _("Auto Drum SP"), options = {False: _("No"), True: _("Yes")})
 Config.define("game", "drum_sp_mode",      int, 0,  text = _("Drum SP"), options = {0: _("Auto / Fills"), 1: _("Manual / Fills")}, tipText = _("Determines how drum starpower is activated when there are no drum fills. Auto will automatically activate when available, and Manual will wait for the 'Starpower' button to be pressed."))
 Config.define("game", "large_drum_neck",      bool, False,  text = _("Large Drum Neck"), options = {False: _("No"), True: _("Yes")}, tipText = _("If enabled, will show a larger neck when playing drums."))
 Config.define("game", "bass_groove_neck",      int, 2,  text = _("Bass Groove Neck"), options = {0: _("Off"), 1: _("Replace"), 2: _("Overlay")}, tipText = _("Sets the style of the Bass Groove neck. 'Replace' replaces your neck with the special neck, while 'Overlay' lays the neck over top."))
@@ -222,13 +219,11 @@ Config.define("game", "result_cheer_loop",       int, 2,     text = _("Results C
 Config.define("game",  "cheer_loop_delay",        int,   550,   text = _("Cheer Loop Delay"), options = dict([(n, n) for n in range(0, 10, 1)] + [(n, n) for n in range(10, 50, 10)] + [(n, n) for n in range(50, 2001, 50)]), tipText = _("Sets the time, in milliseconds, to wait before playing the result cheer again (if looping is enabled)."))
 Config.define("game", "miss_pauses_anim",       int, 0,     text = _("Miss Pauses Anim"), options = {0: _("Off"), 1: _("On")}, tipText = _("When enabled, missing a note will pause the stage animation.")) #MFH
 Config.define("game", "song_hopo_freq",       int, 1,     text = _("Song HO/PO Freq"), options = {0: _("Off"), 1: _("On")}, tipText = _("Sets whether or not to use the HO/PO Frequency setting determined by the fretter, if available.")) #MFH
-#Config.define("game",   "mute_sustain_releases",          bool, False,  text = "Mute sustain releases", options = {False: "No", True: "Yes"})
 Config.define("game",   "mute_drum_fill",           int, 1,    text = _("Mute Drum Track During Fills"), options = {0: _("No"), 1:_("Yes")}, tipText = _("Sets whether or not the drum track will be muted during drum fills (so you can hear yourself have at it!)"))
 Config.define("game",   "sustain_muting",          int, 1,    text = _("Sustain Muting"), options = sortOptionsByKey({0: _("Never Mute"), 1: _("Very Early"), 2: _("Early"), 3: _("Standard"), 4: _("Always Mute")}), tipText = _("Sets the window used to determine whether or not to mute a dropped sustain note. 'Early' means it will only mute when you drop the sustain relatively early."))
 Config.define("game",   "solo_frame",          int, 1,    text = _("Show Solo Frame"), options = {0: _("Off"), 1: _("On")}, tipText = _("Sets whether to show a frame around the solo stats, if available."))
 Config.define("game",   "mark_solo_sections",  int, 1,    text = _("Enable Guitar Solos"), options = sortOptionsByKey({0: _("Never"), 1: _("Always"), 2: _("By Theme"), 3: _("MIDI Only")}), tipText = _("Sets the logic used to mark solos. 'Always' will mark solos in sections if available. 'By Theme' leaves it to the theme creator. 'MIDI Only' only enables solos marked with the MIDI marker note."))
 Config.define("game",   "starpower_mode",          int, 2,    text = _("SP Mode"), options = {0: _("Off"), 1: _("FoF"), 2: _("Auto MIDI")}, tipText = _("Sets the logic used to determine starpower phrases. 'FoF' will generate paths based on the number of notes. 'Auto MIDI' will use MIDI markers to determine the paths, and fall back on the FoF mode if none are available."))
-#Config.define("game",   "font_rendering_mode",          int, 0,    text = "Font Mode", options = {0: "oGL Hack", 1: "Lamina Screen", 2: "Lamina Frames"})
 Config.define("game",   "incoming_neck_mode",          int, 2,    text = _("Inc. Neck Mode"), options = sortOptionsByKey({0: _("Off"), 1: _("Start Only"), 2: _("Start & End")}), tipText = _("Sets how and whether to render incoming solo necks. 'Start Only' will scroll it in but not out, while 'Start & End' does both."))
 Config.define("game", "big_rock_endings",           int,  2,   text = _("Big Rock Endings"), options = sortOptionsByKey({0: _("Off"), 1: _("By Theme"), 2: _("On")}), tipText = _("Enable or disable big rock endings. 'By Theme' leaves it to the theme creator."))
 Config.define("game",  "neck_alpha",  float,    1.0,  text = _("Main Neck"),   options = dict([(n / 100.0, "%3d%s" % (n,"%")) for n in range(0, 110, 10)]), tipText = _("Set the transparency of the main neck. 100% is fully visible."))
@@ -269,9 +264,6 @@ Config.define("log",   "log_lyric_events",          int, 0,    text = _("Log Lyr
 Config.define("log",   "log_tempo_events",          int, 0,    text = _("Log Tempo Events"), options = {0: _("No"), 1: _("Yes")}, tipText = _("Logs MIDI tempo events. This is unnecessary information in bug reports; please leave it disabled unless you are certain it is relevant."))
 Config.define("log",   "log_image_not_found",       int, 0,    text = _("Log Missing Images"), options = {0: _("No"), 1:_("Only on single images"), 2:_("Always")}, tipText = _("Logs when files loaded are not found. 'Only on single images' skips logging when directories are loaded."))
 
-
-#racer
-#Config.define("game", "rbnote",      int,   0,   text = _("RB Graphic Mode"),    options = {0: _("Regular"), 1: _("Beta")}) #racer
 Config.define("game", "beat_claps",          bool, False,  text = _("Practice Beat Claps"), options = {False: _("Off"), True: _("On")}, tipText = _("Enables clap sound effects on every beat in practice mode.")) #racer
 Config.define("game", "HSMovement",      int,   1,   text = _("Change Score Display"),    options = {0: _("Auto"), 1: _("Blue Fret (#4)")}, tipText = _("Sets whether to change the setlist high score difficulty automatically or with the fourth fret.")) #racer
 
@@ -296,12 +288,8 @@ Config.define("performance", "killfx",       int, 0,     text = _("Effects Displ
 Config.define("coffee", "songfilepath",       bool, True,     text = _("Show Filepath"),             options = {True: _("Show"), False: _("Hide")}, tipText = _("Sets whether or not to show the filepath of the song."))
 Config.define("coffee", "noterotate",       bool, False,     text = _("3D Note Rotation"),             options = {True: _("Old"), False: _("New")}, tipText = _("Sets the manner of 3D Note Rotation."))
 Config.define("coffee", "game_phrases",       int, 2,     text = _("Show In-Game Text"),             options = {0: _("Never"), 1: _("Only Note Streaks"), 2: _("Always")}, tipText = _("Sets whether or not to show text in-game. This includes note streaks and 'Starpower Ready'. (This is affected by the 'Performance' quickset)"))
-Config.define("coffee", "song_display_mode",       int, 4,     text = _("Setlist Display Mode"),             options = sortOptionsByKey({0: _("CDs"), 1: _("List"), 2: _("List/CD"), 3: _("RB2"), 4: _("By Theme")}), tipText = _("Sets the setlist display mode. 'By Theme' lets the theme creator decide."))
-Config.define("game", "song_listing_mode",        int, 0,     text = _("Use Subfolders"),            options = {0: _("Normal"), 1: _("List All")}, tipText = _("'Normal' allows you to navigate folders. 'List All' places all songs into a single setlist."))
-Config.define("game", "song_icons",          bool, True,     text = _("Show Song Type Icons"),     options = {True: _("Yes"), False: _("No")}, tipText = _("Sets whether or not to show icons indicating the song 'type'"))
 Config.define("game", "preload_labels",          bool, False,     text = _("Preload Song Labels"),     options = {True: _("Yes"), False: _("No")}, tipText = _("Sets whether to preload all song labels on load. With large setlists, this option is extremely slow."))
 Config.define("game", "songcovertype",        bool, False,     text = _("Label Type"),      options = {True: _("CD Labels"), False: _("Album Covers")}, tipText = _("Sets whether to show CD labels or album covers as the art."))
-Config.define("game", "songlistrotation",     bool, True,     text = _("Rotating CDs"),           options = {True: _("On"), False: _("Off")}, tipText = _("Sets whether or not CDs rotate."))
 Config.define("game", "keep_play_count", int, 1, text = _("Remember Play Count"), options = {0: _("No"), 1: _("Yes")}, tipText = _("Keeps track of how many times you've played each song."))
 Config.define("game", "tut",       bool, False) #-tutorial
 Config.define("video", "counting",       bool, False,     text = _("Show at Song Start"),             options = {True: _("Part"), False: _("Countdown")}, tipText = _("Sets whether to show a countdown or your name and part at the song's start."))
@@ -320,10 +308,7 @@ Config.define("game",   "whammy_changes_sort_order", bool, True, text = _("Whamm
 Config.define("fretboard",   "point_of_view",                 int,   5,      text = _("Point Of View"), options = sortOptionsByKey({0: _("FoF"), 1: _("GH3"), 2: _("Rock Band"), 3: _("GH2"), 4: _("Rock Rev"), 5: _("Theme")}), tipText = _("Sets the camera's point of view. Set it to any game, or set it to 'Theme' to leave it to the theme creator.")) #Racer, Blazingamer
 Config.define("game",   "party_time",          int,   30,     text = _("Party Mode Timer"), options = dict([(n, n) for n in range(1, 99)]), tipText = _("Sets the timer in Party Mode."))
 Config.define("performance",   "disable_libcount",    bool,  True,  text = _("Show Setlist Size"),    options = {False: _("Yes"), True: _("No")}, tipText = _("Show the number of songs inside of each setlist."))
-Config.define("performance",   "disable_librotation", bool,  True,  text = _("CD Mode Y-Rotation"),    options = {False: _("Enabled"), True: _("Disabled")}, tipText = _("Sets whether or not CDs in the setlist rotate about the Y axis."))
 
-#Spikehead777
-#Config.define("game",   "jurgdef",             bool,  False,  text = _("Enable Jurgen"),    options = {False: _("No"), True: _("Yes")})
 Config.define("game",   "jurg_p0",             bool, False,   text = _("P1 AI"), options = {True: _("On"), False: _("Off")}, tipText = _("Enable or disable the player 1 AI"))
 Config.define("game",   "jurg_skill_p0",        int, 5,   text = _("P1 AI Personality"), options = {0: _("1. KiD"), 1: _("2. Stump"), 2: _("3. akedRobot"), 3: _("4. Q"), 4: _("5. MFH"), 5: _("6. Jurgen")}, tipText = _("Set the personality of the player 1 AI. The numbers correspond with their skill."))
 Config.define("game",   "jurg_logic_p0",            int,   1,      text = _("P1 AI Logic"), options = sortOptionsByKey({0: _("Original"), 1: _("MFH-Early"), 2: _("MFH-OnTime1"), 3: _("MFH-OnTime2")}), tipText = _("Set the logic used for the player 1 AI. 'Original' cannot handle fast sections. 'MFH-Early' attempts to hit notes as they enter the hit window. 'MFH-OnTime' are implementations that attempt to hit the notes as they happen, like a real player."))
@@ -345,16 +330,9 @@ Config.define("game",   "midi_lyric_mode",     int, 2,     text = _("Lyric Displ
 Config.define("game",   "vocal_scroll",        int, 2,     text = _("Lyric Speed Mode"),    options = sortOptionsByKey({0: _("BPM"), 1: _("Difficulty"), 2: _("BPM & Diff")}), tipText = _("Sets what determines the speed of the scrolling lyrics."))
 Config.define("game",   "vocal_speed",         int, 100,   text = _("Lyric Speed Percent"), options = dict([(n, n) for n in range(10, 410, 10)]), tipText = _("Sets how quickly lyrics will scroll."))
 
-#MFH
-#Config.define("game",   "jurglogic",            int,   1,      text = _("Jurgen Logic"), options = {0: _("Original"), 1: _("MFH-Early"), 2: _("MFH-OnTime1"), 3: _("MFH-OnTime2")}  )
-#Config.define("game",   "jurgtext",            int,   1,      text = _("Jurgen Text Size"), options = {0: _("Big"), 1: _("Small")})
-
 Config.define("game", "use_graphical_submenu", int,   1,      text = _("Graphical Submenus"), options = {0: _("Disabled"), 1: _("Enabled")}, tipText = _("Enable or disable the use of graphical submenus."))
 
-
 Config.define("audio",  "enable_crowd_tracks", int,  1,      text = _("Crowd Cheers"), options = sortOptionsByKey({0: _("Off (Disabled)"), 1: _("During SP Only"), 2: _("During SP & Green"), 3: _("Always On")}), tipText = _("Sets when the crowd will cheer for you (if a crowd.ogg is present). 'During SP' will have them sing along in star power, and 'During SP & Green' will have them cheering both in SP and when your rock meter is above 2/3")) #akedrou
-#Config.define("audio",  "miss_volume",         float, 0.2,    text = _("Miss Volume"), options = dict([(n / 100.0, "%d%%" % n) for n in range(0, 100, 10)]))
-#Config.define("audio",  "single_track_miss_volume",         float, 0.9,    text = _("Single Track Miss"), options = dict([(n / 100.0, "%d%%" % n) for n in range(0, 100, 10)]))
 Config.define("audio",  "miss_volume",         float, 0.2,    text = _("Miss Volume"), options = dict([(n / 100.0, "%02d/10" % (n / 10)) for n in range(0, 110, 10)]), tipText = _("Set the volume of the active track when you miss a note."))  #MFH
 Config.define("audio",  "single_track_miss_volume",         float, 0.9,    text = _("Single Track Miss"), options = dict([(n / 100.0, "%02d/10" % (n / 10)) for n in range(0, 110, 10)]), tipText = _("When playing a song with only a single track, this sets the volume of the track when you miss a note."))  #MFH
 Config.define("audio",  "menu_volume",         float, 0.6,    text = _("Menu Volume"), options = dict([(n / 100.0, "%02d/10" % (n / 10)) for n in range(0, 110, 10)]), tipText = _("Set the volume of the background menu music.")) #akedrou
@@ -363,10 +341,6 @@ Config.define("audio",  "crowd_volume",       float, 0.8,    text = _("Crowd Vol
 
 Config.define("audio",  "kill_volume",         float, 0.0,    text = _("Kill Volume"), options = dict([(n / 100.0, "%02d/10" % (n / 10)) for n in range(0, 110, 10)]), tipText = _("Sets the volume when using the killswitch."))  #MFH
 Config.define("audio",  "SFX_volume",         float, 0.7,    text = _("SFX Volume"), options = dict([(n / 100.0, "%02d/10" % (n / 10)) for n in range(0, 110, 10)]), tipText = _("Sets the volume of various sound effects."))  #MFH
-
-
-# evilynux - Preload glyph cache may require more VRAM. Disable it if you're low on VRAM e.g. less than 64MB
-#Config.define("performance","preload_glyph_cache", bool,  True,  text = "Preload Glyph Cache", options = {False: "No", True: "Yes"})
 
 #stump: allow metadata caching to be turned off
 Config.define("performance", "cache_song_metadata", bool, True, text=_("Cache Song Metadata"), options={False: _("No"), True: _("Yes")}, tipText = _("This will allow information about the songs to be stored for quick access later at the cost of a slow first time loading."))
@@ -408,7 +382,6 @@ Config.define("coffee", "failingEnabled",       bool, True,     text = _("No Fai
 # evilynux - configurable default highscores difficulty display.
 # Index assigned following same standard as command line argument.
 Config.define("game", "songlist_difficulty", int, 0, text = _("Difficulty (Setlist Score)"), options = difficulties, tipText = _("Sets the default difficulty displayed in the setlist score."))
-Config.define("game", "songlist_extra_stats", bool, True, text = _("Show Additional Stats"), options = {True: _("Yes"), False: _("No")}, tipText = _("If enabled, additional score information (longest streak, percentage) is displayed on the setlist."))
 
 Config.define("game", "songlist_instrument", int, 0, text = _("Instrument (Setlist Score)"), options = parts, tipText = _("Sets the default part displayed in the setlist score."))  #MFH
 
@@ -461,9 +434,6 @@ class GameEngine(object):
   """The main game engine."""
   def __init__(self, config = None):
 
-    #self.logClassInits = Config.get("game", "log_class_inits")
-    #if self.logClassInits == 1:
-    #  Log.debug("GameEngine class init (GameEngine.py)...")
     Log.debug("GameEngine class init (GameEngine.py)...")
     self.mainMenu = None    #placeholder for main menu object - to prevent reinstantiation
     
@@ -478,7 +448,7 @@ class GameEngine(object):
     Log.debug("Python version: " + sys.version.split(' ')[0])
     Log.debug("Pygame version: " + unicode(pygame.version.ver) )
     Log.debug("PyOpenGL version: " + OpenGLVersion)
-    Log.debug("Numpy version: " + numpy.__version__)
+    Log.debug("Numpy version: " + np.__version__)
     Log.debug("PIL version: " + Image.VERSION)
     Log.debug("sys.argv: " + repr(sys.argv))
     Log.debug("os.name: " + os.name)
@@ -528,8 +498,6 @@ class GameEngine(object):
     if self.config.get("video", "disable_screensaver"):
       self.video.disableScreensaver()
 
-    #self.config.set("game",   "font_rendering_mode", 0) #force oGL mode
-
     self.audio             = Audio()
     self.frames            = 0
     self.fpsEstimate       = 0
@@ -563,13 +531,7 @@ class GameEngine(object):
     self.gameStarted       = False
     self.world             = None
 
-    #self.audio.pre_open(frequency = frequency, bits = bits, stereo = stereo, bufferSize = bufferSize)
-    #self.audio.open(frequency = frequency, bits = bits, stereo = stereo, bufferSize = bufferSize)
-    #pygame.init()
-    
     #MFH - TODO - Audio speed divisor needs to be changed to audio speed factor, so can support 0.75x (3/4 speed)
-    
-    
     self.audioSpeedFactor = 0
     self.setSpeedFactor(1)   #MFH - handles initialization at full speed    
     
@@ -592,7 +554,6 @@ class GameEngine(object):
     # Enable the high priority timer if configured
     if self.priority:
       Log.debug("Enabling high priority timer.")
-      #self.timer.highPriority = True
       self.fps = 0 # High priority
 
     # evilynux - This was generating an error on the first pass (at least under
@@ -625,17 +586,11 @@ class GameEngine(object):
     Mod.init(self)
     self.addTask(self.input, synchronized = False)
     
-    #self.addTask(self.view)
     self.addTask(self.view, synchronized = False)
     
     self.addTask(self.resource, synchronized = False)
 
     self.data = Data(self.resource, self.svg)
-
-
-    #self.setSpeedFactor(2)    #MFH - this is just a hack - try if you'd like, doesn't work right yet...
-
-
 
     ##MFH: Animated stage folder selection option
     #<themename>\Stages still contains the backgrounds for when stage rotation is off, and practice.png
@@ -655,7 +610,6 @@ class GameEngine(object):
         try:
           aniStageFolderListing = os.listdir(os.path.join(stagespath,name))
         except Exception, e:
-          #Log.debug(name + " is not a folder, cannot list contents: " + unicode(e))
           thisIsAnAnimatedStageFolder = False
         for aniFile in aniStageFolderListing:
           if os.path.splitext(aniFile)[1] == ".png" or os.path.splitext(aniFile)[1] ==  ".jpg" or os.path.splitext(aniFile)[1] == ".jpeg":  #we've found at least one .png file here, chances are this is a valid animated stage folder
@@ -664,7 +618,6 @@ class GameEngine(object):
           self.stageFolders.append(name)
 
 
-      #stageFolders.append("Standard")  #MFH: Standard selects the base Stages folder for stage rotation, instead of one of it's subfolders
       i = len(self.stageFolders)
       if i > 0: #only set default to first animated subfolder if one exists - otherwise use Normal!
         defaultAniStage = unicode(self.stageFolders[0])
@@ -722,13 +675,11 @@ class GameEngine(object):
     Log.debug("Ready.")
     
 
-  def setSpeedFactor(self, factor):     #MFH - allows for slowing down streaming audio tracks
-    #MFH - test to see if re-initializing the mixer here at 22050 Hz after loading the sounds at 44100 Hz results in half speed playback
-    #try:
-    #  self.audio.close()
-    #except:
-    #  pass
-    
+  def setSpeedFactor(self, factor):
+    '''
+    allows for slowing down streaming audio tracks
+    @param factor:
+    '''
     if self.audioSpeedFactor != factor:   #MFH - don't re-init to the same divisor.
       try:
         self.audio.close()    #MFH - ensure no audio is playing during the switch!
@@ -916,7 +867,7 @@ class GameEngine(object):
       height = height / image.pixelSize[1] * self.view.geometry[3]
 
     if fit == 1: #y is on top (not center)
-      y = Y - ((image.pixelSize[1] * abs(scale[1]))*.5*(self.view.geometry[3]/480.0))
+      y = y - ((image.pixelSize[1] * abs(scale[1]))*.5*(self.view.geometry[3]/480.0))
     elif fit == 2: #y is on bottom
       y = y + ((image.pixelSize[1] * abs(scale[1]))*.5*(self.view.geometry[3]/480.0))
 
@@ -928,62 +879,50 @@ class GameEngine(object):
     image.setColor(color)
     image.draw()
 
-  #blazingamer - simplifies tex rendering
+  #blazingamer
   def draw3Dtex(self, image, vertex, texcoord, coord = None, scale = None, rot = None, color = (1,1,1), multiples = False, alpha = False, depth = False, vertscale = 0):
+    '''
+    Simplifies tex rendering
+    
+    @param image: self.xxx - tells the system which image/resource should be mapped to the plane
+    @param vertex: (Left, Top, Right, Bottom) - sets the points that define where the plane will be drawn
+    @param texcoord: (Left, Top, Right, Bottom) - sets where the texture should be drawn on the plane
+    @param coord: (x,y,z) - where on the screen the plane will be rendered within the 3d field
+    @param scale: (x,y,z) - scales an glplane how far in each direction
 
-#####how to set items#####
-  
+    @param rot: (degrees, x-axis, y-axis, z-axis)
+    a digit in the axis is how many times you want to rotate degrees around that axis
+    
+    @param color: (r,g,b) - sets the color of the image when rendered 
+    0 = No Color, 1 = Full color
 
-##    tex = self.xxx
-##    tells the system which image/resource should be mapped to the plane
-##  
-##    rot = (degrees, x-axis, y-axis, z-axis)
-##    a digit in the axis is how many times you want to rotate degrees around that axis
-##
-##    scale = (x,y,z)
-##    scales an glplane how far in each direction
-##
-##    coord = (x,y,z)
-##    where on the screen the plane will be rendered within the 3d field
-##
-##    vertex = (Left, Top, Right, Bottom)
-##    sets the points that define where the plane will be drawn
-##
-##    texcoord = (Left, Top, Right, Bottom)
-##    sets where the texture should be drawn on the plane
-##
-##    multiples = True/False
-##    defines whether or not there should be multiples of the plane drawn at the same time
-##    only really used with the rendering of the notes, keys, and flames
-##
-##    alpha = True/False
-##    defines whether or not the image should have black turned into transparent
-##    only really used with hitglows and flames
-##
-##    color = (r,g,b)
-##    sets the color of the image when rendered 0 = No Color, 1 = Full color
-##
-##    depth = True/False
-##    sets the depth by which the object is rendered
-##    only really used by keys and notes
-##      
-##    vertscale = #
-##    changes the yscale when setting vertex points
-##    only really used by notes
+    @param multiples: True/False
+    defines whether or not there should be multiples of the plane drawn at the same time
+    only really used with the rendering of the notes, keys, and flames
+
+    @param alpha: True/False - defines whether or not the image should have black turned into transparent
+    only really used with hitglows and flames
+    
+    @param depth: True/False - sets the depth by which the object is rendered
+    only really used by keys and notes
+    
+    @param vertscale: # - changes the yscale when setting vertex points
+    only really used by notes
+    '''
 
     if alpha == True:
       glBlendFunc(GL_SRC_ALPHA, GL_ONE)
 
     if len(color) == 4:
-      col_array  = array([[color[0],color[1],color[2], color[3]],
+      col_array  = np.array([[color[0],color[1],color[2], color[3]],
                          [color[0],color[1],color[2], color[3]],
                          [color[0],color[1],color[2], color[3]],
-                         [color[0],color[1],color[2], color[3]]], dtype=float32)
+                         [color[0],color[1],color[2], color[3]]], dtype=np.float32)
     else:
-      col_array  = array([[color[0],color[1],color[2], 1],
+      col_array  = np.array([[color[0],color[1],color[2], 1],
                          [color[0],color[1],color[2], 1],
                          [color[0],color[1],color[2], 1],
-                         [color[0],color[1],color[2], 1]], dtype=float32)
+                         [color[0],color[1],color[2], 1]], dtype=np.float32)
     
     glEnable(GL_TEXTURE_2D)  
     image.texture.bind()
@@ -1001,19 +940,19 @@ class GameEngine(object):
     if depth == True:
       glDepthMask(1)
 
-    triangVtx = array(
+    triangVtx = np.array(
         [[ vertex[0],  vertscale, vertex[1]],
          [ vertex[2],  vertscale, vertex[1]],
          [ vertex[0], -vertscale, vertex[3]],
-         [ vertex[2], -vertscale, vertex[3]]], dtype=float32)
+         [ vertex[2], -vertscale, vertex[3]]], dtype=np.float32)
 
-    textriangVtx = array(
+    textriangVtx = np.array(
         [[texcoord[0], texcoord[1]],
          [texcoord[2], texcoord[1]],
          [texcoord[0], texcoord[3]],
-         [texcoord[2], texcoord[3]]], dtype=float32)
+         [texcoord[2], texcoord[3]]], dtype=np.float32)
 
-    cmglDrawArrays(GL_TRIANGLE_STRIP, vertices=triangVtx, colors=col_array, texcoords=textriangVtx)
+    cmgl.drawArrays(GL_TRIANGLE_STRIP, vertices=triangVtx, colors=col_array, texcoords=textriangVtx)
     
     if depth == True:
       glDepthMask(0)

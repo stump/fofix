@@ -21,22 +21,15 @@
 # MA  02110-1301, USA.                                              #
 #####################################################################
 
-from Song import Note, Tempo
 from Mesh import Mesh
 from Neck import Neck
 import random
 from copy import deepcopy
 from Shader import shaders
 
-from OpenGL.GL import *
-import math
-
-#myfingershurt: needed for multi-OS file fetching
-import os
-import Log
-import Song   #need the base song defines as well
-
 from Instrument import *
+from OpenGL.GL import *
+import Song
 
 class Guitar(Instrument):
   def __init__(self, engine, playerObj, editorMode = False, player = 0, bass = False):
@@ -60,18 +53,12 @@ class Guitar(Instrument):
     if self.logClassInits == 1:
       Log.debug("Guitar class init...")
     
-    #death_au: fixed neck size
-    #if self.engine.theme.twoDnote == False or self.engine.theme.twoDkeys == False:
-      #self.boardWidth     = 3.6
-      #self.boardLength    = 9.0  
-    
     self.lastPlayedNotes = []   #MFH - for reverting when game discovers it implied incorrectly
     
     self.missedNotes    = []
     self.missedNoteNums = []
     self.editorMode     = editorMode
 
-    #########For Animations
     self.Animspeed      = 30#Lower value = Faster animations
     #For Animated Starnotes
     self.indexCount     = 0
@@ -129,7 +116,7 @@ class Guitar(Instrument):
             break
     
                                                            
-    #inkk: loading theme-dependant tail images
+    #inkk: loading theme-dependent tail images
     #myfingershurt: must ensure the new tails don't affect the Rock Band mod...
     self.simpleTails = False
 
@@ -393,7 +380,6 @@ class Guitar(Instrument):
           tex1 = self.freestyle1
           tex2 = self.freestyle2
           if freestyleTail == 1:
-            #glColor4f(*color)
             c1, c2, c3, c4 = color
             tailGlow = 1 - (pos - self.freestyleLastFretHitTime[fret] ) / self.freestylePeriod
             if tailGlow < 0:
@@ -447,7 +433,7 @@ class Guitar(Instrument):
           notecol = (.1,.1,.1)
         else:
           notecol = (1,1,1)
-      tailOnly == True
+      tailOnly = True
 
       if self.theme < 2:
         if self.starspin:
@@ -665,14 +651,12 @@ class Guitar(Instrument):
       return
 
 
-    #boardWindowMin = pos - self.currentPeriod * 2
     boardWindowMax = pos + self.currentPeriod * self.beatsPerBoard
     track = song.midiEventTrack[self.player]
 
     #MFH - render 5 freestyle tails when Song.freestyleMarkingNote comes up
     if self.freestyleEnabled:
       freestyleActive = False
-      #for time, event in track.getEvents(boardWindowMin, boardWindowMax):
       for time, event in track.getEvents(pos - self.freestyleOffset , boardWindowMax + self.freestyleOffset):
         if isinstance(event, Song.MarkerNote):
           if event.number == Song.freestyleMarkingNote:
@@ -726,7 +710,6 @@ class Guitar(Instrument):
 
     # Update dynamic period
     self.currentPeriod = self.neckSpeed
-    #self.targetPeriod  = self.neckSpeed
 
     self.killPoints = False
 
@@ -738,7 +721,6 @@ class Guitar(Instrument):
     starEventsInView = False
     renderedNotes = reversed(self.getRequiredNotesForRender(song,pos))
     for time, event in renderedNotes:
-    #for time, event in reversed(track.getEvents(pos - self.currentPeriod * 2, pos + self.currentPeriod * self.beatsPerBoard)):    #MFH - reverse order of note rendering
       if isinstance(event, Tempo):
         self.tempoBpm = event.bpm
         if self.lastBpmChange > 0 and self.disableVBPM == True:
@@ -749,7 +731,6 @@ class Guitar(Instrument):
           self.lastBpmChange      = time
           self.neck.lastBpmChange = time
           self.neck.baseBeat      = self.baseBeat
-        #  self.setBPM(self.targetBpm) # glorandwarf: was setDynamicBPM(self.targetBpm)
         continue
       
       if not isinstance(event, Note):
@@ -812,7 +793,6 @@ class Guitar(Instrument):
 
 
       if event.star:
-        #self.isStarPhrase = True
         starEventsInView = True
       if event.finalStar:
         self.finalStarSeen = True
@@ -850,7 +830,6 @@ class Guitar(Instrument):
       # Clip the played notes to the origin
       #myfingershurt: this should be loaded once at init, not every render...
       if self.notedisappear == True:#Notes keep on going when missed
-        ###Capo###
         if event.played or event.hopod:
           tailOnly = True
           length += z
@@ -860,7 +839,6 @@ class Guitar(Instrument):
         if z < 0 and not (event.played or event.hopod): 
           color = (.6, .6, .6, .5 * visibility * f)
           flat  = False 
-        ###endCapo###
       else:#Notes disappear when missed
         if z < 0:
           if event.played or event.hopod:
@@ -880,7 +858,7 @@ class Guitar(Instrument):
           big = True
           self.bigMax += 1
 
-      #MFH - filter out this tail whitening when starpower notes have been disbled from a screwup
+      #MFH - filter out this tail whitening when starpower notes have been disabled from a screwup
       if self.spEnabled and killswitch:
         if event.star or event.finalStar:
           if big == True and tailOnly == True:
@@ -927,7 +905,6 @@ class Guitar(Instrument):
 
     # Update dynamic period
     self.currentPeriod = self.neckSpeed
-    #self.targetPeriod  = self.neckSpeed
 
     self.killPoints = False
 
@@ -939,7 +916,6 @@ class Guitar(Instrument):
     enable = True
     renderedNotes = self.getRequiredNotesForRender(song,pos)
     for time, event in renderedNotes:
-    #for time, event in track.getEvents(pos - self.currentPeriod * 2, pos + self.currentPeriod * self.beatsPerBoard):
       if isinstance(event, Tempo):
         self.tempoBpm = event.bpm
         continue
@@ -1018,7 +994,6 @@ class Guitar(Instrument):
       # Clip the played notes to the origin
       #myfingershurt: this should be loaded once at init, not every render...
       if self.notedisappear == True:#Notes keep on going when missed
-        ###Capo###
         if event.played or event.hopod:
           tailOnly = True
           length += z
@@ -1028,7 +1003,6 @@ class Guitar(Instrument):
         if z < 0 and not (event.played or event.hopod): 
           color = (.6, .6, .6, .5 * visibility * f)
           flat  = False 
-        ###endCapo###
       else:#Notes disappear when missed
         if z < 0:
           if event.played or event.hopod:
@@ -1212,18 +1186,11 @@ class Guitar(Instrument):
           elif n == 4: #orange fret button
             glRotate(self.engine.theme.keyrot[4], 0, 1, 0), glTranslatef(0, 0, self.engine.theme.keypos[4])
 
-
           #Mesh - Main fret
           #Key_001 - Top of fret (key_color)
           #Key_002 - Bottom of fret (key2_color)
           #Glow_001 - Only rendered when a note is hit along with the glow.svg
 
-          #if self.complexkey == True:
-          #  glColor4f(.1 + .8 * c[0], .1 + .8 * c[1], .1 + .8 * c[2], visibility)
-          #  if self.battleStatus[4]:
-          #    glTranslatef(x, y + self.battleWhammyNow * .15, 0)
-          #  else:
-          #    glTranslatef(x, y, 0)
           if self.keytex == True:
             glColor4f(1,1,1,visibility)
             if self.battleStatus[4]:
@@ -1271,7 +1238,6 @@ class Guitar(Instrument):
           glPopMatrix()
 
 
-      ######################
       f = self.fretActivity[n]
 
       if f and self.disableFretSFX != True:
@@ -1322,7 +1288,6 @@ class Guitar(Instrument):
                               texcoord = (0.0, 0.0, 1.0, 1.0), vertex = (-size[0] * f, -size[1] * f, size[0] * f, size[1] * f),
                               multiples = True, alpha = True, color = glowcol)
 
-      #self.hit[n] = False  #MFH -- why?  This prevents frets from being rendered under / before the notes...
     glDisable(GL_DEPTH_TEST)
 
   def renderFreestyleFlames(self, visibility, controls):
@@ -1330,7 +1295,6 @@ class Guitar(Instrument):
       return
 
     w = self.boardWidth / self.strings
-    #track = song.track[self.player]
 
     size = (.22, .22)
     v = 1.0 - visibility
@@ -1352,14 +1316,10 @@ class Guitar(Instrument):
           if self.theme == 2:
             y -= 0.5
           
-          #flameSize = self.flameSizes[self.scoreMultiplier - 1][fretNum]
           flameSize = self.flameSizes[self.cappedScoreMult - 1][fretNum]
           if self.theme == 0 or self.theme == 1: #THIS SETS UP GH3 COLOR, ELSE ROCKBAND(which is DEFAULT in Theme.py)
             flameColor = self.gh3flameColor
           else: #MFH - fixing crash!
-            #try:
-            #  flameColor = self.flameColors[self.scoreMultiplier - 1][fretNum]
-            #except IndexError:
             flameColor = self.fretColors[fretNum]
           if flameColor[0] == -2:
             flameColor = self.fretColors[fretNum]
@@ -1414,239 +1374,6 @@ class Guitar(Instrument):
         else:   #MFH - flame count is done - reset it!
           self.freestyleHitFlameCounts[fretNum] = 0    #MFH
 
-
-  def renderFlames(self, visibility, song, pos, controls):
-    if not song or self.flameColors[0][0][0] == -1:
-      return
-
-    w = self.boardWidth / self.strings
-    track = song.track[self.player]
-
-    size = (.22, .22)
-    v = 1.0 - visibility
-
-    if (self.HCountAni == True and self.HCount2 > 12):
-      for n in range(self.strings):
-        f = self.fretWeight[n]
-        c = self.fretColors[n]
-        if f and (controls.getState(self.actions[0]) or controls.getState(self.actions[1])):
-          f += 0.25      
-        y = v + f / 6
-        x = (self.strings / 2 - n) * w
-        f = self.fretActivity[n]
-
-        if f:
-          ms = math.sin(self.time) * .25 + 1
-          ff = f
-          ff += 1.2
-          
-          
-          #myfingershurt: need to cap flameSizes use of scoreMultiplier to 4x, the 5x and 6x bass groove mults cause crash:
-          self.cappedScoreMult = min(self.scoreMultiplier,4)
-
-          flameSize = self.flameSizes[self.cappedScoreMult - 1][n]
-          if self.theme == 0 or self.theme == 1: #THIS SETS UP GH3 COLOR, ELSE ROCKBAND(which is DEFAULT in Theme.py)
-            flameColor = self.gh3flameColor
-          else:
-            flameColor = self.flameColors[self.cappedScoreMult - 1][n]
-
-          flameColorMod = (1.19, 1.97, 10.59)
-          flamecol = tuple([flameColor[ifc]*flameColorMod[ifc] for ifc in range(3)])
-
-          if self.starPowerActive:
-            if self.theme == 0 or self.theme == 1: #GH3 starcolor
-              flamecol = self.spColor
-            else: #Default starcolor (Rockband)
-              flamecol = (.9,.9,.9)
-              
-          if self.Hitanim != True and self.disableFlameSFX != True:
-            self.engine.draw3Dtex(self.hitglowDrawing, coord = (x, y + .125, 0), rot = (90, 1, 0, 0),
-                                  scale = (0.5 + .6 * ms * ff, 1.5 + .6 * ms * ff, 1 + .6 * ms * ff),
-                                  vertex = (-flameSize * ff,-flameSize * ff,flameSize * ff,flameSize * ff),
-                                  texcoord = (0.0,0.0,1.0,1.0), multiples = True, alpha = True, color = flamecol)
-            #Alarian: Animated hitflames
-          else:
-            self.HCount = self.HCount + 1
-            if self.HCount > self.Animspeed-1:
-              self.HCount = 0
-            HIndex = (self.HCount * 16 - (self.HCount * 16) % self.Animspeed) / self.Animspeed
-            if HIndex > 15:
-              HIndex = 0
-            texX = (HIndex*(1/16.0), HIndex*(1/16.0)+(1/16.0))
-            if self.disableFlameSFX != True:
-              self.engine.draw3Dtex(self.hitglowAnim, coord = (x, y + .225, 0), rot = (90, 1, 0, 0), scale = (2.4, 1, 3.3),
-                                    vertex = (-flameSize * ff,-flameSize * ff,flameSize * ff,flameSize * ff),
-                                    texcoord = (texX[0],0.0,texX[1],1.0), multiples = True, alpha = True, color = (1,1,1))
-
-          ff += .3
-          
-          flameColorMod = (1.19, 1.78, 12.22)
-          flamecol = tuple([flameColor[ifc]*flameColorMod[ifc] for ifc in range(3)])
-
-          if self.starPowerActive:
-            if self.theme == 0 or self.theme == 1: #GH3 starcolor
-              flamecol = self.spColor
-            else: #Default starcolor (Rockband)
-              flamecol = (.8,.8,.8)
-
-          if self.Hitanim != True and self.disableFlameSFX != True:
-            self.engine.draw3Dtex(self.hitglow2Drawing, coord = (x, y + .25, .05), rot = (90, 1, 0, 0),
-                                  scale = (.40 + .6 * ms * ff, 1.5 + .6 * ms * ff, 1 + .6 * ms * ff),
-                                  vertex = (-flameSize * ff,-flameSize * ff,flameSize * ff,flameSize * ff),
-                                  texcoord = (0.0,0.0,1.0,1.0), multiples = True, alpha = True, color = flamecol)
-
-    
-    flameLimit = 10.0
-    flameLimitHalf = round(flameLimit/2.0)
-    renderedNotes = self.getRequiredNotesForRender(song,pos)
-    for time, event in renderedNotes:
-      if isinstance(event, Tempo):
-        continue
-      
-      if not isinstance(event, Note):
-        continue
-      
-      if (event.played or event.hopod) and event.flameCount < flameLimit:
-        ms = math.sin(self.time) * .25 + 1
-        x  = (self.strings / 2 - event.number) * w
-        xlightning = (self.strings / 2 - event.number)*2.2*w
-        ff = 1 + 0.25       
-        y = v + ff / 6
-
-        if self.theme == 2:
-          y -= 0.5
-        
-        flameSize = self.flameSizes[self.cappedScoreMult - 1][event.number]
-        if self.theme == 0 or self.theme == 1: #THIS SETS UP GH3 COLOR, ELSE ROCKBAND(which is DEFAULT in Theme.py)
-          flameColor = self.gh3flameColor
-        else:
-          flameColor = self.flameColors[self.cappedScoreMult - 1][event.number]
-        if flameColor[0] == -2:
-          flameColor = self.fretColors[event.number]
-        
-        ff += 1.5 #ff first time is 2.75 after this
-
-        if self.Hitanim2 == True:
-          self.HCount2 = self.HCount2 + 1
-          self.HCountAni = False
-          if self.HCount2 > 12:
-            if not event.length > (1.4 * (60000.0 / event.noteBpm) / 4):
-              self.HCount2 = 0
-            else:
-              self.HCountAni = True
-          if event.flameCount < flameLimitHalf:
-
-                
-              HIndex = (self.HCount2 * 13 - (self.HCount2 * 13) % 13) / 13
-              if HIndex > 12 and self.HCountAni != True:
-                HIndex = 0
-                
-              texX = (HIndex*(1/13.0), HIndex*(1/13.0)+(1/13.0))
-              if self.disableFlameSFX != True:
-                self.engine.draw3Dtex(self.hitflamesAnim, coord = (x, y + .665, 0), rot = (90, 1, 0, 0), scale = (1.6, 1.6, 4.9),
-                                      vertex = (-flameSize * ff,-flameSize * ff,flameSize * ff,flameSize * ff),
-                                      texcoord = (texX[0],0.0,texX[1],1.0), multiples = True, alpha = True, color = (1,1,1))
-
-          else:
-            flameColorMod = 0.1 * (flameLimit - event.flameCount)
-            flamecol = tuple([ifc*flameColorMod for ifc in flameColor])
-            scaleChange = (3.0,2.5,2.0,1.7)
-            yOffset = (.35, .405, .355, .355)
-            vtx = flameSize * ff
-            scaleMod = .6 * ms * ff
-
-            for step in range(4):
-              #draw lightning in GH themes on SP gain
-              if step == 0 and self.theme != 2 and event.finalStar and self.spEnabled and self.disableFlameSFX != True:
-                self.engine.draw3Dtex(self.hitlightning, coord = (xlightning, y, 3.3), rot = (90, 1, 0, 0),
-                                      scale = (.15 + .5 * ms * ff, event.flameCount / 3.0 + .6 * ms * ff, 2), vertex = (.4,-2,-.4,2),
-                                      texcoord = (0.0,0.0,1.0,1.0), multiples = True, alpha = True, color = (1,1,1))
-                continue
-            
-              if step == 0:
-                yzscaleMod = event.flameCount/ scaleChange[step]
-              else:
-                yzscaleMod = (event.flameCount + 1)/ scaleChange[step]
-                
-              if self.starPowerActive:
-                if self.theme == 0 or self.theme == 1: 
-                  spcolmod = .7+step*.1
-                  flamecol = tuple([isp*spcolmod for isp in self.spColor])
-                else:
-                  flamecol = (.4+step*.1,)*3#Default starcolor (Rockband)
-              
-              if self.hitFlamesPresent == True and self.disableFlameSFX != True:
-                self.engine.draw3Dtex(self.hitflames1Drawing, coord = (x - .005, y + yOffset[step], 0), rot = (90, 1, 0, 0),
-                              scale = (.25 + step*.05 + scaleMod, yzscaleMod + scaleMod, yzscaleMod + scaleMod),
-                              vertex = (-vtx,-vtx,vtx,vtx), texcoord = (0.0,0.0,1.0,1.0),
-                              multiples = True, alpha = True, color = flamecol)
-                                  
-        elif self.hitFlamesPresent == True and self.Hitanim2 == False:
-          self.HCount2 = 13
-          self.HCountAni = True
-          if event.flameCount < flameLimitHalf:
-          
-            flamecol = flameColor
-            if self.starPowerActive:
-              if self.theme == 0 or self.theme == 1: #GH3 starcolor
-                spcolmod = .3
-                flamecol = tuple([isp*spcolmod for isp in self.spColor])
-              else: #Default starcolor (Rockband)
-                flamecol = (.1,.1,.1)
-            if self.disableFlameSFX != True:  
-              self.engine.draw3Dtex(self.hitflames2Drawing, coord = (x, y + .20, 0), rot = (90, 1, 0, 0),
-                                      scale = (.25 + .6 * ms * ff, event.flameCount/6.0 + .6 * ms * ff, event.flameCount / 6.0 + .6 * ms * ff),
-                                      vertex = (-flameSize * ff,-flameSize * ff,flameSize * ff,flameSize * ff), texcoord = (0.0,0.0,1.0,1.0),
-                                      multiples = True, alpha = True, color = flamecol)
-            
-                 
-            for i in range(3):
-              if self.starPowerActive:
-                if self.theme == 0 or self.theme == 1: #GH3 starcolor
-                  spcolmod = 0.4+i*0.1
-                  flamecol = tuple([isp*spcolmod for isp in self.spColor])
-                else: #Default starcolor (Rockband)
-                  flamecol = (0.1+i*0.1,)*3
-              if self.disableFlameSFX != True:
-                self.engine.draw3Dtex(self.hitflames2Drawing, coord = (x-.005, y + .255, 0), rot = (90, 1, 0, 0),
-                                      scale = (.30 + i*0.05 + .6 * ms * ff, event.flameCount/(5.5 - i*0.4) + .6 * ms * ff, event.flameCount / (5.5 - i*0.4) + .6 * ms * ff),
-                                      vertex = (-flameSize * ff,-flameSize * ff,flameSize * ff,flameSize * ff), texcoord = (0.0,0.0,1.0,1.0),
-                                      multiples = True, alpha = True, color = flamecol)
-
-          else:
-            flameColorMod = 0.1 * (flameLimit - event.flameCount)
-            flamecol = tuple([ifc*flameColorMod for ifc in flameColor])
-            scaleChange = (3.0,2.5,2.0,1.7)
-            yOffset = (.35, .405, .355, .355)
-            vtx = flameSize * ff
-            scaleMod = .6 * ms * ff
-
-            for step in range(4):
-              #draw lightning in GH themes on SP gain
-              if step == 0 and self.theme != 2 and event.finalStar and self.spEnabled:
-                self.engine.draw3Dtex(self.hitlightning, coord = (xlightning, y, 3.3), rot = (90, 1, 0, 0),
-                                    scale = (.15 + .5 * ms * ff, event.flameCount / 3.0 + .6 * ms * ff, 2), vertex = (.4,-2,-.4,2),
-                                    texcoord = (0.0,0.0,1.0,1.0), multiples = True, alpha = True, color = (1,1,1))
-                continue
-            
-              if step == 0:
-                yzscaleMod = event.flameCount/ scaleChange[step]
-              else:
-                yzscaleMod = (event.flameCount + 1)/ scaleChange[step]
-                
-              if self.starPowerActive:
-                if self.theme == 0 or self.theme == 1: 
-                  spcolmod = .7+step*.1
-                  flamecol = tuple([isp*spcolmod for isp in self.spColor])
-                else:
-                  flamecol = (.4+step*.1,)*3#Default starcolor (Rockband)
-              if self.disableFlameSFX != True:
-                self.engine.draw3Dtex(self.hitflames1Drawing, coord = (x - .005, y + yOffset[step], 0), rot = (90, 1, 0, 0),
-                                scale = (.25 + step*.05 + scaleMod, yzscaleMod + scaleMod, yzscaleMod + scaleMod),
-                                vertex = (-vtx,-vtx,vtx,vtx), texcoord = (0.0,0.0,1.0,1.0),
-                                multiples = True, alpha = True, color = flamecol)
-        event.flameCount += 1
-      
   def render(self, visibility, song, pos, controls, killswitch):
   
     if shaders.turnon:
@@ -1696,8 +1423,6 @@ class Guitar(Instrument):
           if time == q:
             event.star = True
         for q in self.maxStars:
-          #if time == q and not event.finalStar:
-          #  event.star = True
           if time == q:   #MFH - no need to mark only the final SP phrase note as the finalStar as in drums, they will be hit simultaneously here.
             event.finalStar = True
       self.starNotesSet = True
@@ -1713,8 +1438,6 @@ class Guitar(Instrument):
         glScalef(-1, 1, 1)
 
       if self.freestyleActive:
-        self.renderTails(visibility, song, pos, killswitch)
-        self.renderNotes(visibility, song, pos, killswitch)
         self.renderFreestyleLanes(visibility, song, pos) #MFH - render the lanes on top of the notes.
         self.renderFrets(visibility, song, controls)
 
@@ -1738,6 +1461,7 @@ class Guitar(Instrument):
 
         
         if self.hitFlamesPresent:   #MFH - only if present!
+          self.renderHitTrails(visibility, song, pos, controls)
           self.renderFlames(visibility, song, pos, controls)    #MFH - only when freestyle inactive!
         
       if self.leftyMode:
@@ -1746,10 +1470,7 @@ class Guitar(Instrument):
       elif self.battleStatus[6]:
         glScalef(-1, 1, 1)
 
-    #return notes
-
   #MFH - corrected and optimized:
-  #def getRequiredNotesMFH(self, song, pos):
   def getRequiredNotesMFH(self, song, pos, hopoTroubleCheck = False):
     if self.battleStatus[2] and self.difficulty != 0:
       if pos < self.battleStartTimes[2] + self.currentPeriod * self.beatsPerBoard or pos > self.battleStartTimes[2] - self.currentPeriod * self.beatsPerBoard + self.battleDiffUpLength:
@@ -1896,7 +1617,6 @@ class Guitar(Instrument):
       track0 = None
       track1 = None
       notes = sorted(notes, key=lambda x: x[0])
-      #Log.debug(notes)
     else:
       track   = song.track[self.player]
       notes = [(time, event) for time, event in track.getEvents(pos - self.currentPeriod * 2, pos + self.currentPeriod * self.beatsPerBoard)]
@@ -1983,7 +1703,6 @@ class Guitar(Instrument):
     chords = {}
     for time, note in notes:
       if note.hopod == True and (controls.getState(self.keys[note.number]) or controls.getState(self.keys[note.number + 5])):
-      #if hopo == True and controls.getState(self.keys[note.number]):
         self.playedNotes = []
         return True
       if not time in chords:
@@ -2045,7 +1764,6 @@ class Guitar(Instrument):
     chords = {}
     for time, note in notes:
       if note.hopod == True and (controls.getState(self.keys[note.number]) or controls.getState(self.keys[note.number + 5])):
-      #if hopo == True and controls.getState(self.keys[note.number]):
         self.playedNotes = []
         return True
       if not time in chords:
@@ -2054,7 +1772,6 @@ class Guitar(Instrument):
 
     #Make sure the notes are in the right time order
     chordlist = chords.values()
-    #chordlist.sort(lambda a, b: cmp(a[0][0], b[0][0]))
     chordlist.sort(key=lambda a: a[0][0])
 
     self.missedNotes = []
@@ -2291,7 +2008,6 @@ class Guitar(Instrument):
         note.hopod        = True
       else:
         note.played       = True
-        #self.wasLastNoteHopod = False
       if note.tappable == 1 or note.tappable == 2:
         self.hopoActive = time
         self.wasLastNoteHopod = True
@@ -2318,7 +2034,6 @@ class Guitar(Instrument):
         if isinstance(lastPlayedNote, Note):
           if note.tappable == 1 and lastPlayedNote.tappable == 1:
             self.LastStrumWasChord = True
-            #self.sameNoteHopoString = False
           else:
             self.LastStrumWasChord = False
         lastPlayedNote = note
@@ -2408,7 +2123,6 @@ class Guitar(Instrument):
         self.starPowerActive = False
         #MFH - call to play star power deactivation sound, if it exists (if not play nothing)
         if self.engine.data.starDeActivateSoundFound:
-          #self.engine.data.starDeActivateSound.setVolume(self.sfxVolume)
           self.engine.data.starDeActivateSound.play()
 
     

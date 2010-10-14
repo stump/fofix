@@ -24,7 +24,7 @@
 import Log
 import Audio
 import math
-import numpy
+import numpy as np
 
 try:
   import pyaudio
@@ -119,7 +119,7 @@ if supported:
             raise
         if self.passthroughStream is not None:
           self.passthroughQueue.append(chunk)
-        self.analyzer.input(numpy.frombuffer(chunk, dtype=numpy.float32))
+        self.analyzer.input(np.frombuffer(chunk, dtype=np.float32))
         self.analyzer.process()
         pk = self.analyzer.getPeak()
         if self.detectTaps:
@@ -153,7 +153,6 @@ if supported:
       tone = self.analyzer.findTone()
       if tone is None:
         return tone
-      #print tone
       return int(round((math.log(tone.freq) - LN_440) * 12.0 / LN_2) % 12)
 
     # Work out how accurately the note (passed in as a MIDI note number) is being

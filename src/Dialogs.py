@@ -27,7 +27,6 @@ from __future__ import with_statement
 
 import pygame
 from OpenGL.GL import *
-from OpenGL.GLU import *
 import math
 import os
 import fnmatch
@@ -64,15 +63,11 @@ def wrapCenteredText(font, pos, text, rightMargin = 1.0, scale = 0.002, visibili
   x, y = pos
 
   #MFH: rewriting WrapCenteredText function to properly wrap lines in a centered fashion around a defined centerline (x)
-  #space = font.getStringSize(" ", scale = scale)[0]
-  #startXpos = x - (rightMargin-x) #for a symmetrical text wrapping
-  #x = startXpos
   sentence = ""
   for n, word in enumerate(text.split(" ")):
     w, h = font.getStringSize(sentence + " " + word, scale = scale)
     if x + (w/2) > rightMargin or word == "\n":
       w, h = font.getStringSize(sentence, scale = scale)
-      #x = startXpos
       glPushMatrix()
       glRotate(visibility * (n + 1) * -45, 0, 0, 1)
       if allowshadowoffset == True:
@@ -97,29 +92,8 @@ def wrapCenteredText(font, pos, text, rightMargin = 1.0, scale = 0.002, visibili
       font.render(sentence, (x - (w/2), y + visibility * n), scale = scale)
     glPopMatrix()
     y += h * linespace
-  
-    #if word == "\n":
-    #  continue
-    #x += w + space
+
   return (x, y)
-
-  #space = font.getStringSize(" ", scale = scale)[0]
-  #startXpos = x - (rightMargin-x) #for a symmetrical text wrapping
-  #x = startXpos
-  #for n, word in enumerate(text.split(" ")):
-  #  w, h = font.getStringSize(word, scale = scale)
-  #  if x + w > rightMargin*1.11 or word == "\n":
-  #    x = startXpos
-  #    y += h*.5 # Worldrave - Modified spacing between lines
-  #  if word == "\n":
-  #    continue
-  #  glPushMatrix()
-  #  glRotate(visibility * (n + 1) * -45, 0, 0, 1)
-  #  font.render(word, (x, y + visibility * n), scale = scale)
-  #  glPopMatrix()
-  #  x += w + space
-  #return (x - space, y)
-
 
 def wrapText(font, pos, text, rightMargin = 0.9, scale = 0.002, visibility = 0.0):
   """
@@ -220,9 +194,6 @@ class GetText(Layer, KeyListener):
   def keyPressed(self, key, unicode):
     self.time = 0
     c = self.engine.input.controls.getMapping(key)
-    
-    #if (c in Player.KEY1S or key == pygame.K_RETURN) and not self.accepted:
-    #if (c in Player.KEY1S or key == pygame.K_RETURN or c in Player.DRUM4S) and not self.accepted:   #MFH - adding support for green drum "OK"
     if key == pygame.K_BACKSPACE and not self.accepted:
       self.text = self.text[:-1]
     elif unicode and ord(unicode) > 31 and not self.accepted:
@@ -435,7 +406,6 @@ class LoadingScreen(Layer, KeyListener):
   
   def render(self, visibility, topMost):
     self.engine.view.setViewport(1,0)
-    #font = self.engine.data.font
     font = self.engine.data.loadingFont
 
     if not font:
@@ -681,10 +651,11 @@ class FileChooser(BackgroundLayer, KeyListener):
       self.engine.theme.setBaseColor(1 - v)
       wrapText(font, (.1, .05 - v), self.prompt)
 
-#==============================================================
-#MFH - on-demand Neck Select menu
 class NeckChooser(Layer, KeyListener):
-  """Item menu layer."""
+  """
+  Item menu layer.
+  on-demand Neck Select menu
+  """
   def __init__(self, engine, selected = None, prompt = _("Yellow (#3) / Blue (#4) to change, Green (#1) to confirm:"), player = "default", owner = None):
     self.prompt   = prompt
     self.prompt_x = engine.theme.neck_prompt_x
@@ -741,9 +712,6 @@ class NeckChooser(Layer, KeyListener):
 
     for i in neckfiles:
       # evilynux - Special cases, ignore these...
-      #if( str(i) == "overdriveneck.png" or str(i)[-4:] != ".png" ):
-      #exists = 1
-      #if( str(i) == "overdriveneck.png" or not i.endswith(".png") ):
       if( os.path.splitext(i)[0] == "randomneck" or os.path.splitext(i)[0] == "overdriveneck" ):    #MFH 
         exists = 0
         continue
@@ -786,7 +754,7 @@ class NeckChooser(Layer, KeyListener):
     self.themename = self.engine.data.themeLabel
     self.theme = self.engine.data.theme
 
-   #MFH - added simple black background to place in front of Options background, behind Neck BG, for transparent neck displays
+    #MFH - added simple black background to place in front of Options background, behind Neck BG, for transparent neck displays
     if not self.engine.loadImgDrawing(self, "neckBlackBack", ("neckblackback.png")):
       self.neckBlackBack = None
 
@@ -806,7 +774,6 @@ class NeckChooser(Layer, KeyListener):
     self.engine.input.removeKeyListener(self)
     
   def chooseNeck(self):
-    #self.selectedNeck = neck
     if self.player == "default":
       self.engine.config.set("game","default_neck",self.neck[self.selectedNeck])
     if self.owner: #rather hard-coded...
@@ -1120,7 +1087,6 @@ class AvatarChooser(Layer, KeyListener):
   
   def getAvatar(self):
     if self.accepted:
-      #t = self.selectedAv < self.themeAvs and os.path.join("themes",self.themename,"avatars",self.avatar[self.selectedAv]+".123") or os.path.join("avatars",self.avatar[self.selectedAv]+".123")
       t = self.selectedAv < self.themeAvs and self.avatars[self.selectedAv].filename
       return t
     else:
@@ -1422,9 +1388,6 @@ class ItemChooser(BackgroundLayer, KeyListener):
       self.songSelectSubmenuOffsetSpaces = self.engine.theme.songSelectSubmenuOffsetSpaces
       self.posX, self.posY = pos
       wrapX, wrapY = wrapText(self.font, (self.posX, self.posY), self.prompt, scale = self.promptScale)
-      #self.posY += self.promptHeight*2
-      #self.posX -= self.promptWidth/2
-      #self.menu = Menu(self.engine, choices = [(c, self._callbackForItem(c)) for c in items], onClose = self.close, onCancel = self.cancel, font = self.engine.data.streakFont2, pos = (self.posX + widthOfSpace*2, wrapY + self.promptHeight*2) )
       self.menu = Menu(self.engine, choices = [(c, self._callbackForItem(c)) for c in items], onClose = self.close, onCancel = self.cancel, font = self.engine.data.streakFont2, pos = (self.posX + widthOfSpace*(self.songSelectSubmenuOffsetSpaces+1), wrapY + self.promptHeight*(self.songSelectSubmenuOffsetLines+1)) )
     else:
       self.posX = .1    #MFH - default
@@ -1484,370 +1447,7 @@ class ItemChooser(BackgroundLayer, KeyListener):
       glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA)
       glEnable(GL_COLOR_MATERIAL)
       self.engine.theme.setBaseColor(1 - v)
-      #wrapText(self.font, (.1, .05 - v), self.prompt)
       wrapText(self.font, (self.posX, self.posY - v), self.prompt, scale = self.promptScale)
-
-class ControlActivator(Layer, KeyListener):
-  def __init__(self, engine, players, maxplayers = None, allowGuitar = True, allowDrum = True, allowMic = False):
-    self.engine     = engine
-    self.minPlayers = players
-    if maxplayers:
-      maxallowed = self.engine.config.get("performance", "max_players")
-      if maxplayers > maxallowed or maxplayers == -1:
-        self.maxPlayers = maxallowed
-      else:
-        self.maxPlayers = maxplayers
-    else:
-      self.maxPlayers = players
-    self.time       = 0.0
-    self.controls   = self.engine.input.controls.controls[:] #make a copy
-    self.ready      = False
-    
-    if self.engine.cmdPlay == 2:
-      if self.engine.cmdPart is not None:
-        if self.engine.cmdPart == 4:
-          allowGuitar = False
-          allowMic    = False
-        elif self.engine.cmdPart == 5:
-          allowGuitar = False
-          allowDrum   = False
-        else:
-          allowDrum   = False
-          allowMic    = False
-    
-    self.selectedItems  = []
-    self.blockedItems   = []
-    self.selectedIndex  = 0
-    self.playerNum      = 0
-    self.confirmPlayers = 0
-    self.delay          = 0
-    self.delayedIndex   = 0
-    self.fader          = 0
-    self.fadeDir        = True
-    self.allowed        = [True for i in self.controls]
-    
-    for i, control in enumerate(self.engine.input.controls.controls):
-      if self.engine.input.controls.type[i] in GUITARTYPES and not allowGuitar:
-        self.allowed[i] = False
-      elif self.engine.input.controls.type[i] in DRUMTYPES and not allowDrum:
-        self.allowed[i] = False
-      elif self.engine.input.controls.type[i] in MICTYPES and not allowMic:
-        self.allowed[i] = False
-    
-    self.tsReady = _("Press Start to Begin!")
-    self.tsInfo  = _("Use the keyboard to select or just play some notes!")
-    
-    sfxVolume = self.engine.config.get("audio", "SFX_volume")
-    self.engine.data.selectSound.setVolume(sfxVolume)
-    self.engine.data.acceptSound.setVolume(sfxVolume)  #MFH
-    self.engine.data.cancelSound.setVolume(sfxVolume)
-    
-    self.controlNum = 0
-    for i, control in enumerate(self.engine.input.controls.controls):
-      self.controlNum += 1
-      if control == "None":
-        self.controls[i] = _("No Controller")
-        self.blockedItems.append(i)
-        self.controlNum -= 1
-      elif self.allowed[i] == False:
-        self.controls[i] = _("Disabled Controller")
-        self.blockedItems.append(i)
-        self.controlNum -= 1
-      elif control == "defaultg":
-        self.controls[i] = _("Default Guitar")
-      elif control == "defaultd":
-        self.controls[i] = _("Default Drums")
-      elif control == "defaultm":
-        self.controls[i] = _("Default Microphone")
-    
-    themename = self.engine.data.themeLabel
-    while self.selectedIndex in self.blockedItems:
-      self.selectedIndex += 1
-      if self.selectedIndex > 3:
-        self.selectedIndex = 0
-        break
-
-    if not self.engine.loadImgDrawing(self, "background", os.path.join("themes", themename, "lobby", "controlbg.png")):
-      self.background = None
-
-    if not self.engine.loadImgDrawing(self, "readyImage", os.path.join("themes", themename, "lobby", "ready.png")):
-      self.readyImage = None
-
-    if not self.engine.loadImgDrawing(self, "selected", os.path.join("themes", themename, "lobby", "select.png")):
-      self.selected = None
-    
-    self.selectX = self.engine.theme.controlActivateSelectX
-    self.controlSelectX = self.engine.theme.controlActivateX
-    self.controlPartX   = self.engine.theme.controlActivatePartX
-    self.selectY = self.engine.theme.controlActivateY
-    self.selectScale = self.engine.theme.controlActivateScale
-    self.selectSpace = self.engine.theme.controlActivateSpace
-    self.partBig = self.engine.theme.controlCheckPartMult
-    self.checkX = self.engine.theme.controlCheckX
-    self.checkY = self.engine.theme.controlCheckY
-    self.checkYText = self.engine.theme.controlCheckTextY
-    self.checkScale = self.engine.theme.controlCheckScale
-    self.checkSpace = self.engine.theme.controlCheckSpace
-    
-    self.partSize = self.engine.theme.controlActivatePartSize
-
-    if self.engine.loadImgDrawing(self, "guitar", os.path.join("themes", themename, "guitar")):
-      self.guitarScale = self.partSize/self.guitar.width1()
-    else:
-      self.engine.loadImgDrawing(self, "guitar", "guitar.png")
-      self.guitarScale = self.partSize/self.guitar.width1()
-
-    if self.engine.loadImgDrawing(self, "bass", os.path.join("themes", themename, "bass.png")):
-      self.bassScale = self.partSize/self.bass.width1()
-    else:
-      self.engine.loadImgDrawing(self, "bass", "bass.png")
-      self.bassScale = self.partSize/self.bass.width1()
-
-    if self.engine.loadImgDrawing(self, "drum", os.path.join("themes", themename, "drum.png")):
-      self.drumScale = self.partSize/self.drum.width1()
-    else:
-      self.engine.loadImgDrawing(self, "drum", "drum.png")
-      self.drumScale = self.partSize/self.drum.width1()
-
-    if self.engine.loadImgDrawing(self, "mic", os.path.join("themes", themename, "mic.png")):
-      self.micScale = self.partSize/self.mic.width1()
-    else:
-      self.engine.loadImgDrawing(self, "mic", "mic.png")
-      self.micScale = self.partSize/self.mic.width1()
-  
-  def shown(self):
-    if self.controlNum < self.minPlayers:
-      self.confirmPlayers = 0
-      if self.controlNum == 1:
-        plural = _("controller")
-      else:
-        plural = _("controllers")
-      showMessage(self.engine, _("You only have %d %s defined. You need at least %d for this mode.") % (self.controlNum, plural, self.minPlayers))
-      self.engine.view.popLayer(self)
-    else:
-      self.engine.input.addKeyListener(self, priority = True)
-  
-  def hidden(self):
-    self.engine.input.removeKeyListener(self)
-  
-  def confirm(self):
-    self.engine.data.acceptSound.play()
-    self.engine.input.activeGameControls = self.selectedItems
-    self.engine.input.pluginControls()
-    self.confirmPlayers = self.playerNum
-    self.engine.view.popLayer(self)
-    self.engine.input.removeKeyListener(self)
-  
-  def getPlayers(self):
-    return self.confirmPlayers
-  
-  def delaySelect(self, num):
-    if self.engine.input.controls.type[num] == 5:
-      return
-    self.engine.data.selectSound.play()
-    self.delay = 500
-    self.delayedIndex  = num
-    self.selectedIndex = num
-  
-  def selectControl(self, num):
-    if num in self.selectedItems or self.playerNum >= self.maxPlayers:
-      return
-    self.engine.data.acceptSound.play()
-    self.playerNum += 1
-    self.selectedItems.append(num)
-    self.blockedItems.append(num)
-    self.blockedItems.sort()
-    if self.playerNum >= self.minPlayers:
-      self.ready = True
-    self.selectedIndex += 1
-    self.delay = 0
-    catch = 0
-    while self.selectedIndex in self.blockedItems:
-      self.selectedIndex += 1
-      catch += 1
-      if self.selectedIndex > 3:
-        self.selectedIndex = 0
-      if catch > 4:
-        self.confirm()
-        break
-    else:
-      if self.selectedIndex > 3:
-        for i in range(4):
-          if i in self.blockedItems:
-            continue
-          self.selectedIndex = i
-          break
-  
-  def keyPressed(self, key, unicode):
-    c = self.engine.input.controls.getMapping(key)
-    if key == pygame.K_RETURN:
-      if (self.ready and self.playerNum >= self.maxPlayers) or (self.playerNum >= self.minPlayers and self.blockedItems == [0,1,2,3]):
-        self.confirm()
-      else:
-        self.delay = 0
-        self.selectControl(self.selectedIndex)
-      return True
-    if c in Player.menuYes and self.ready:
-      self.confirm()
-      return True
-    if c in Player.menuNo or key == pygame.K_ESCAPE:
-      self.engine.data.cancelSound.play()
-      if len(self.selectedItems) > 0:
-        self.delay = 0
-        self.selectedIndex = 0
-        self.blockedItems.remove(self.selectedItems.pop())
-        self.playerNum = len(self.selectedItems)
-        if self.playerNum < self.minPlayers and self.ready:
-          self.ready = False
-      else:
-        self.playerNum = 0
-        self.engine.view.popLayer(self)
-        self.engine.input.removeKeyListener(self)
-      return True
-    elif c in Player.ups + Player.rights or key == pygame.K_UP or key == pygame.K_RIGHT:
-      self.engine.data.selectSound.play()
-      self.selectedIndex -= 1
-      self.delay = 0
-      catch = 0
-      while self.selectedIndex in self.blockedItems:
-        self.selectedIndex -= 1
-        catch += 1
-        if self.selectedIndex < 0:
-          self.selectedIndex = 3
-        if catch > 4:
-          self.confirm()
-          break
-      else:
-        if self.selectedIndex < 0:
-          a = range(4)
-          a.reverse()
-          for i in a:
-            if i in self.blockedItems:
-              continue
-            self.selectedIndex = i
-            break
-    elif c in Player.downs + Player.lefts or key == pygame.K_DOWN or key == pygame.K_LEFT:
-      self.engine.data.selectSound.play()
-      self.selectedIndex += 1
-      self.delay = 0
-      catch = 0
-      while self.selectedIndex in self.blockedItems:
-        self.selectedIndex += 1
-        catch += 1
-        if self.selectedIndex > 3:
-          self.selectedIndex = 0
-        if catch > 4:
-          break
-      else:
-        if self.selectedIndex > 3:
-          for i in range(4):
-            if i in self.blockedItems:
-              continue
-            self.selectedIndex = i
-            break
-    if c in Player.ups + Player.downs + Player.lefts + Player.rights + Player.cancels + Player.stars + [None]:
-      pass
-    elif c in Player.starts or key == pygame.K_LCTRL or ((c in Player.key1s or key == pygame.K_RETURN) and self.ready):
-      if self.ready:
-        self.confirm()
-        return True
-    elif c in Player.CONTROL1:
-      if not 0 in self.selectedItems:
-        self.delaySelect(0)
-        return True
-    elif c in Player.CONTROL2:
-      if not 1 in self.selectedItems:
-        self.delaySelect(1)
-        return True
-    elif c in Player.CONTROL3:
-      if not 2 in self.selectedItems:
-        self.delaySelect(2)
-        return True
-    elif c in Player.CONTROL4:
-      if not 3 in self.selectedItems:
-        self.delaySelect(3)
-        return True
-    return True
-  
-  def keyReleased(self, key):
-    pass
-  
-  def run(self, ticks):
-    self.time += ticks/50.0
-    if self.delay > 0:
-      self.delay -= ticks
-      if self.delay <= 0:
-        self.selectControl(self.selectedIndex)
-    if self.ready and self.fadeDir:
-      self.fader += ticks/1000.0
-      if self.fader > 1:
-        self.fader = 1
-        self.fadeDir = False
-    elif self.ready:
-      self.fader -= ticks/1000.0
-      if self.fader < 0.2:
-        self.fader = 0.2
-        self.fadeDir = True
-  
-  def render(self, visibility, topMost):
-    try:
-      font = self.engine.data.fontDict[self.engine.theme.controlActivateFont]
-      descFont = self.engine.data.fontDict[self.engine.theme.controlDescriptionFont]
-      checkFont = self.engine.data.fontDict[self.engine.theme.controlCheckFont]
-    except KeyError:
-      font = self.engine.data.loadingFont
-      descFont = self.engine.data.font
-      checkFont = self.engine.data.font
-    bigFont = self.engine.data.bigFont
-    w, h = self.engine.view.geometry[2:4]
-    v = (1-visibility)**2
-    with self.engine.view.orthogonalProjection(normalize = True):
-      if self.background:
-        self.engine.drawImage(self.background, scale = (1.0,-1.0), coord = (w/2,h/2), stretched = 3)
-      self.engine.theme.setBaseColor(1-v)
-      wText, hText = descFont.getStringSize(self.tsInfo, scale = self.engine.theme.controlDescriptionScale)
-      descFont.render(self.tsInfo, (self.engine.theme.controlDescriptionX-wText/2, self.engine.theme.controlDescriptionY), scale = self.engine.theme.controlDescriptionScale)
-      for i, control in enumerate(self.controls):
-        if self.selectedIndex == i:
-          if self.selected:
-            self.engine.theme.setBaseColor(1-v)
-            self.engine.drawImage(self.selected, scale = (.5,-.5), coord = (w*self.selectX,h*(1-(self.selectY+self.selectSpace*i)/self.engine.data.fontScreenBottom)))
-          else:
-            self.engine.theme.setSelectedColor(1-v)
-        elif i in self.blockedItems:
-          glColor3f(.3, .3, .3)
-        else:
-          self.engine.theme.setBaseColor(1-v)
-        wText, hText = font.getStringSize(control, scale = self.selectScale)
-        font.render(control, (self.controlSelectX-wText, self.selectY-(hText/2)+self.selectSpace*i), scale = self.selectScale)
-        color = (1, 1, 1, 1)
-        if i in self.blockedItems:
-          color = (.3, .3, .3, 1)
-        if self.engine.input.controls.type[i] in GUITARTYPES:
-          self.engine.drawImage(self.guitar, scale = (self.guitarScale, -self.guitarScale), coord = (w*self.controlPartX-(self.partSize*1.1), h*(1-(self.selectY+self.selectSpace*i)/self.engine.data.fontScreenBottom)), color = color)
-          self.engine.drawImage(self.bass, scale = (self.bassScale, -self.bassScale), coord = (w*self.controlPartX+(self.partSize*1.1), h*(1-(self.selectY+self.selectSpace*i)/self.engine.data.fontScreenBottom)), color = color)
-        elif self.engine.input.controls.type[i] in DRUMTYPES:
-          self.engine.drawImage(self.drum, scale = (self.drumScale, -self.drumScale), coord = (w*self.controlPartX, h*(1-(self.selectY+self.selectSpace*i)/self.engine.data.fontScreenBottom)), color = color)
-        elif self.engine.input.controls.type[i] in MICTYPES:
-          self.engine.drawImage(self.mic, scale = (self.micScale, -self.micScale), coord = (w*self.controlPartX, h*(1-(self.selectY+self.selectSpace*i)/self.engine.data.fontScreenBottom)), color = color)
-      self.engine.theme.setBaseColor(1-v)
-      for j, i in enumerate(self.selectedItems):
-        if self.engine.input.controls.type[i] in GUITARTYPES:
-          self.engine.drawImage(self.guitar, scale = (self.guitarScale*self.partBig, -self.guitarScale*self.partBig), coord = (w*(self.checkX+self.checkSpace*j)-(self.partSize*self.partBig*1.1), h*self.checkY))
-          self.engine.drawImage(self.bass, scale = (self.bassScale*self.partBig, -self.bassScale*self.partBig), coord = (w*(self.checkX+self.checkSpace*j)+(self.partSize*self.partBig*1.1), h*self.checkY))
-        elif self.engine.input.controls.type[i] in DRUMTYPES:
-          self.engine.drawImage(self.drum, scale = (self.drumScale*self.partBig, -self.drumScale*self.partBig), coord = (w*(self.checkX+self.checkSpace*j), h*self.checkY))
-        elif self.engine.input.controls.type[i] in MICTYPES:
-          self.engine.drawImage(self.mic, scale = (self.micScale*self.partBig, -self.micScale*self.partBig), coord = (w*(self.checkX+self.checkSpace*j), h*self.checkY))
-        wText, hText = checkFont.getStringSize(self.controls[i], scale = self.checkScale)
-        checkFont.render(self.controls[i], ((self.checkX+self.checkSpace*j)-wText/2, self.checkYText*self.engine.data.fontScreenBottom), scale = self.checkScale)
-      if self.ready:
-        if self.readyImage:
-          self.engine.drawImage(self.readyImage, scale = (1.0, 1.0), coord = (w*.5, h*.5), color = (1, 1, 1, self.fader))
-        else:
-          self.engine.theme.setBaseColor(self.fader)
-          wText, hText = bigFont.getStringSize(self.tsReady, scale = .001)
-          bigFont.render(self.tsReady, (.5-wText/2, .3), scale = .001)
 
 class KeyTester(Layer, KeyListener):
   """Keyboard configuration testing layer."""
@@ -1870,7 +1470,7 @@ class KeyTester(Layer, KeyListener):
     self.analogSPMode   = self.controls.analogSP[control]
     self.analogSPThresh = self.controls.analogSPThresh[control]
     self.analogSPSense  = self.controls.analogSPSense[control]
-    self.analogDrumMode = self.controls.analogDrum[control]
+    self.analogDrumMode = self.controls.analogDrum[control] #FIXME: Analog Drum
     self.analogSlideMode = self.controls.analogSlide[control]
     
     if self.type < 2 or self.type == 4:
@@ -2341,18 +1941,6 @@ def chooseItem(engine, items, prompt = "", selected = None, pos = None):   #MFH
   _runDialog(engine, d)
   return d.getSelectedItem()
 
-def activateControllers(engine, players = 1, maxplayers = None, allowGuitar = True, allowDrum = True, allowMic = False):
-  """
-  Ask the user to select the active controllers for the game session.
-  
-  @param engine:    Game engine
-  @type players:    int
-  @param players:   The maximum number of players.
-  """
-  d = ControlActivator(engine, players, maxplayers, allowGuitar, allowDrum, allowMic)
-  _runDialog(engine, d)
-  return d.getPlayers()
-
 #MFH - on-demand Neck Chooser
 def chooseNeck(engine, player = "default"):
   """
@@ -2385,7 +1973,7 @@ def choosePartDiffs(engine, parts, info, players):
   _runDialog(engine, d)
   return d.retVal
 
-# evilynux - Show creadits
+# evilynux - Show credits
 def showCredits(engine):
   d = Credits(engine)
   _runDialog(engine, d)
@@ -2412,7 +2000,7 @@ def showLoadingScreen(engine, condition, text = _("Loading..."), allowCancel = F
   @param text:        Text shown to the user
   @type  allowCancel: bool
   @param allowCancel: Can the loading be canceled
-  @return:            True if the condition was met, Fales if the loading was canceled.
+  @return:            True if the condition was met, False if the loading was canceled.
   """
   
   # poll the condition first for some time
@@ -2438,9 +2026,7 @@ def showMessage(engine, text):
   d = MessageScreen(engine, text)
   _runDialog(engine, d)
 
-#=======================================================================
 # glorandwarf: added derived class LoadingSplashScreen
-
 class LoadingSplashScreen(Layer, KeyListener):
   """Loading splash screen layer"""
   def __init__(self, engine, text):

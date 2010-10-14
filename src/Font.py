@@ -23,10 +23,10 @@
 from __future__ import with_statement
 import pygame
 from OpenGL.GL import *
-from cmgl import *
+import cmgl
 import sys
 from Texture import Texture
-from numpy import zeros, float32
+import numpy as np
 
 DEFAULT_SCALE = 0.002
 
@@ -89,8 +89,8 @@ class Font:
     self.font.set_italic(italic)
     self.font.set_underline(underline)
     self.stringsCache = Cache(256)
-    self.square_prim = zeros((4,2), dtype=float32)
-    self.square_tex  = zeros((4,2), dtype=float32)
+    self.square_prim = np.zeros((4,2), dtype=np.float32)
+    self.square_tex  = np.zeros((4,2), dtype=np.float32)
 
   def getStringSize(self, s, scale = DEFAULT_SCALE):
     """
@@ -124,7 +124,7 @@ class Font:
     return self.font.get_height() * self.scale
 
   def getLineSpacing(self, scale = DEFAULT_SCALE):
-    """@return: Recommanded line spacing of this font"""
+    """@return: Recommended line spacing of this font"""
     return self.font.get_linesize() * self.scale * scale
 
   #MFH - needed to find the centerline of text
@@ -166,7 +166,7 @@ class Font:
         self.square_prim[2,1] = self.square_prim[3,1] = h
         self.square_tex[0,1] = self.square_tex[1,1] = th
         self.square_tex[1,0] = self.square_tex[3,0] = tw
-        cmglDrawArrays(GL_TRIANGLE_STRIP, vertices=self.square_prim, texcoords=self.square_tex)
+        cmgl.drawArrays(GL_TRIANGLE_STRIP, vertices=self.square_prim, texcoords=self.square_tex)
 
     if not text:
         return
@@ -193,7 +193,7 @@ class Font:
     y -= (h/2)
     tw,th = t.size
     glEnable(GL_TEXTURE_2D)
-    with cmglPushedMatrix():
+    with cmgl.PushedMatrix():
       if rotate:
         if not isinstance(rotate, tuple):
           glRotatef(rotate, 0, 0, 1.0)
@@ -202,20 +202,20 @@ class Font:
       glTranslatef(x,y,0)
       t.bind()
       if self.outline:
-        with cmglPushedAttrib(GL_CURRENT_BIT):
+        with cmgl.PushedAttrib(GL_CURRENT_BIT):
           glColor4f(0, 0, 0, .25 * glGetDoublev(GL_CURRENT_COLOR)[3])
 
           blur = 2 * DEFAULT_SCALE
           for offset in [(-.7, -.7), (0, -1), (.7, -.7), (-1, 0),
                          (1, 0), (-.7, .7), (0, 1), (.7, .7)]:
-            with cmglPushedMatrix():
+            with cmgl.PushedMatrix():
               glTranslatef(blur * offset[0], blur * offset[1], 0)
               drawSquare(w,h,tw,th)
 
       if self.shadow:
-        with cmglPushedAttrib(GL_CURRENT_BIT):
+        with cmgl.PushedAttrib(GL_CURRENT_BIT):
           glColor4f(0, 0, 0, 1)
-          with cmglPushedMatrix():
+          with cmgl.PushedMatrix():
             glTranslatef(shadowoffset[0], shadowoffset[1], 0)
             drawSquare(w,h,tw,th)
 

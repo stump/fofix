@@ -23,7 +23,6 @@
 
 from __future__ import division
 from OpenGL.GL import *
-from OpenGL.GLU import *
 from contextlib import contextmanager
 
 import numpy as np
@@ -119,7 +118,7 @@ class View(Task):
           screenArray[screen][0] = int(self.geometry[0]+(screen*self.geometry[2]/screens))
           screenArray[screen][2] = int(self.geometry[2]/screens) 
           screenArray[screen][1] = int(self.geometry[1])#+(geometry[3]/screens*2/3)) #QQstarS
-          screenArray[screen][3] = int((self.geometry[3]/screens)*1.5) #QQstarS: make the Y postion smaller
+          screenArray[screen][3] = int((self.geometry[3]/screens)*1.5) #QQstarS: make the Y position smaller
         screensArray[screens-1][screen][:] = screenArray[screen]
 
     self.geometryAllHalf = screensArray
@@ -173,7 +172,6 @@ class View(Task):
 
     topLayer = self.layers[-1]
     
-    #t = ticks / self.transitionTime
     t = self.engine.clock.get_time() / self.transitionTime
     
     for layer in list(self.layers):
@@ -259,6 +257,5 @@ class View(Task):
     glScissor (*viewport)
     
   def render(self):
-    #print [(unicode(m.__class__), v) for m, v in self.visibility.items()]
     for layer in self.layers:
       layer.render(self.visibility[layer], layer == self.layers[-1])

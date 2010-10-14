@@ -24,9 +24,7 @@
 from __future__ import with_statement
 
 import pygame
-import OpenGL
-from OpenGL.GL import *
-from OpenGL.GLU import *
+from OpenGL.GL import OpenGL, glColor4f, glTranslatef
 #evilynux: needed for multi-OS file fetching
 import os
 
@@ -232,9 +230,6 @@ class Credits(Layer, KeyListener):
       Text(nf, ns, c2, "right",  "PyOpenGL " + OpenGL.__version__), #evilynux: the version that's actually in use
       Text(nf, bs, c2, "right",  "http://pyopengl.sourceforge.net"),
       space,
-      #Text(nf, ns, c2, "right",  "Amanith Framework"),
-      #Text(nf, bs, c2, "right",  "http://www.amanith.org"),
-      #space,
       Text(nf, ns, c2, "right",  "Illusoft Collada module 0.3.159"),
       Text(nf, bs, c2, "right",  "http://colladablender.illusoft.com"),
       space,
@@ -255,7 +250,7 @@ class Credits(Layer, KeyListener):
       space
     ])
 
-  # evilynux - Text parsing method. Provides some style functionnalities.
+  # evilynux - Text parsing method. Provides some style functionalities.
   def parseText(self, filename):
     nf = self.engine.data.font
     bf = self.engine.data.bigFont
@@ -364,7 +359,6 @@ class Credits(Layer, KeyListener):
     self.offset -= (ticks / self.speedDiv) * self.speedDir #akedrou - some credits fun.
 
     # evilynux - approximating the end of the list from the (mostly used font size * lines)
-    #if self.offset < -( self.text_size * len(self.credits) ):
     if self.offset < -( self.text_size * len(self.credits) ) or self.offset > 1.5:    #(MFH - adding 5% to estimated font height) undone: using larger scale for estimation.
       self.quit()
     if len(self.credits) == len(self.doneList): #akedrou - goofy workaround for string size glitch.

@@ -24,9 +24,7 @@
 from Font import Font
 from Svg import ImgDrawing
 from Audio import Sound
-from Language import _
 import random
-import Language
 import Config
 import Version
 #myfingershurt: needed for multi-OS file fetching
@@ -36,7 +34,7 @@ import Player
 import Log
 
 # these constants define a few customized letters in the default font
-#MFH - with the new simplified Font.py, no more custom glpyhs... let's do a simple replacement here for now...
+#MFH - with the new simplified Font.py, no more custom glyphs... let's do a simple replacement here for now...
 STAR1 = ' '
 STAR2 = '*'
 LEFT  = '<'
@@ -76,7 +74,7 @@ class Data(object):
     self.players = None
     self.players = Player.loadPlayers()
 
-    #myfingershurt: check for existance of theme path
+    #myfingershurt: check for existence of theme path
     themepath = os.path.join(Version.dataPath(), "themes")
     self.themepath = themepath
     self.path = Version.dataPath()
@@ -139,17 +137,12 @@ class Data(object):
       self.maskStars = True
       self.perfectStars = False
 
-    #self.perfectStars = False
     if self.perfectStars:
       if self.loadImgDrawing(self, "starFC",   os.path.join("themes",themename,"starfc.png"), textureSize = (128, 128)):
         self.fcStars   = True
       else:
-        #self.starFC = None
         self.starFC = self.starPerfect
         self.fcStars = False
-      
-    #self.loadImgDrawing(self, "left",    "left.png",  textureSize = (128, 128))
-    #self.loadImgDrawing(self, "right",   "right.png", textureSize = (128, 128))
 
     # load misc images
     self.loadImgDrawing(self, "loadingImage", os.path.join("themes",themename,"loadingbg.png"), textureSize = (256,256))
@@ -460,7 +453,6 @@ class Data(object):
       self.loadSoundEffect(self, "battleUsedSound", os.path.join("themes",themename,"sounds","starpower.ogg"))
       Log.warn(themename + "/sounds/battleused.ogg not found -- using starpower.ogg instead.")
 
-
     if self.fileExists(os.path.join("themes",themename,"sounds","stardeactivate.ogg")):
       self.loadSoundEffect(self, "starDeActivateSound", os.path.join("themes",themename,"sounds","stardeactivate.ogg"))
       self.starDeActivateSoundFound = True
@@ -490,20 +482,11 @@ class Data(object):
       self.loadSoundEffect(self, "coOpFailSound",os.path.join("themes",themename,"sounds","back1.ogg"))
       Log.warn(themename + "/sounds/coopfail.ogg not found -- using back1.ogg instead")
 
-
-
     #myfingershurt: adding You Rock sound effect
     if self.fileExists(os.path.join("themes",themename,"sounds","rocksound.ogg")):
       self.loadSoundEffect(self, "rockSound", os.path.join("themes",themename,"sounds","rocksound.ogg"))
     else:
       self.loadSoundEffect(self, "rockSound", os.path.join("sounds","rocksound.ogg"))
-    
-    #if self.theme == 0 or self.theme == 1:#GH2 or GH3
-    #  #self.loadSoundEffect(self, "acceptSound",  os.path.join("themes",themename,"sounds","in.ogg"))
-    #  self.loadSoundEffect(self, "cancelSounds",  os.path.join("themes",themename,"sounds","out.ogg"))
-    #elif self.theme == 2:
-    #  #self.loadSoundEffect(self, "acceptSound",  os.path.join("themes",themename,"sounds","action.ogg"))
-    #  self.loadSoundEffect(self, "cancelSounds",  os.path.join("themes",themename,"sounds","out.ogg"))
 
   def loadPartImages(self):
     self.partImages = []
@@ -538,7 +521,6 @@ class Data(object):
       s.setVolume(volume)
     for s in self.cancelSounds:
       s.setVolume(volume)
-    #self.cancelSounds.setVolume(volume)
     self.rockSound.setVolume(volume)
     self.starDeActivateSound.setVolume(volume)
     self.starActivateSound.setVolume(volume)

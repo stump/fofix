@@ -49,7 +49,6 @@ class Loader(Thread):
     self.canceled    = False
 
     #myfingershurt: the following should be global and done ONCE:
-    #self.game_priority = Config.get("performance", "game_priority")
     self.logLoadings = Config.get("game", "log_loadings")
 
     if target and name:
@@ -63,15 +62,7 @@ class Loader(Thread):
       # evilynux - Beware, os.nice _decreases_ priority, hence the reverse logic
       os.nice(5 - game_priority)
     elif os.name == "nt":
-      #myfingershurt: the following should be global and done ONCE:
-      #self.setPriority(priority = self.game_priority)
-
-      #...or maybe not at all...
       self.setPriority(priority = game_priority)
-      
-      #wont work without ctypes
-      #self.enableScreenSaver(0)
-
     self.load()
     self.semaphore.release()
     self.resultQueue.put(self)
@@ -98,11 +89,6 @@ class Loader(Thread):
     win32process.SetPriorityClass(handle, priorityClasses[priority])
     if Config.get('performance', 'restrict_to_first_processor'):
       win32process.SetProcessAffinityMask(handle, 1)
-
-#  def enableScreenSaver(self, on):
-#    import ctypes
-#    SPI_SETSCREENSAVEACTIVE = 17
-#    ctypes.windll.user32.SystemParametersInfoA(SPI_SETSCREENSAVEACTIVE, on, None, 0)
     
   def cancel(self):
     self.canceled = True
@@ -179,10 +165,6 @@ class Resource(Task):
   def fileName(self, *name, **args):
     
     #myfingershurt: the following should be global, and only done at startup.  Not every damn time a file is loaded.
-    #songPath = []
-    #baseLibrary = Config.get("game", "base_library")
-    #if baseLibrary and os.path.isdir(baseLibrary):
-    #  songPath = [baseLibrary]
     baseLibrary = self.baseLibrary
     songPath = self.songPath
       
@@ -211,7 +193,6 @@ class Resource(Task):
           # If the original file does not exist, see if we can write to its directory
           if not os.path.isfile(readOnlyPath) and os.access(os.path.dirname(readOnlyPath), os.W_OK):
             pass
-            #return readOnlyPath
         except:
           raise
         # If the resource exists in the read-only path, make a copy to the

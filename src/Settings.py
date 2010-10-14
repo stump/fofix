@@ -222,7 +222,7 @@ class KeyConfigChoice(Menu.Choice):
 
     if isinstance(o.options, dict):
       for k, v in o.options.items():
-        if v == value:
+        if v == value: #FIXME: value?
           value = k
           break
     if isinstance(o.text, tuple):
@@ -252,24 +252,6 @@ class KeyConfigChoice(Menu.Choice):
         key = Dialogs.getKey(self.engine, _("Press a key for '%s' or hold Escape to cancel.") % text)
     
     if key:
-      #------------------------------------------
-      
-      #myfingershurt: key conflict checker operation mode
-      #if self.keyCheckerMode == 2:    #enforce; do not allow conflicting key assignments, force reversion
-        # glorandwarf: sets the new key mapping and checks for a conflict
-        #if self.engine.input.setNewKeyMapping(self.section, self.option, key) == False:
-          # key mapping would conflict, warn the user
-          #Dialogs.showMessage(self.engine, _("That key is already in use. Please choose another."))
-        #self.engine.input.reloadControls()
-
-      #elif self.keyCheckerMode == 1:    #just notify, but allow the change
-        # glorandwarf: sets the new key mapping and checks for a conflict
-        #if self.engine.input.setNewKeyMapping(self.section, self.option, key) == False:
-          # key mapping would conflict, warn the user
-          #Dialogs.showMessage(self.engine, _("A key conflict exists somewhere. You should fix it."))
-        #self.engine.input.reloadControls()
-      
-      #else:   #don't even check.
       temp = Player.setNewKeyMapping(self.engine, self.config, self.section, self.option, key)
       if self.name in self.engine.input.controls.controlList:
         self.engine.input.reloadControls()
@@ -278,9 +260,6 @@ class KeyConfigChoice(Menu.Choice):
         temp = Player.setNewKeyMapping(self.engine, self.config, self.section, self.option, "None")
         if self.name in self.engine.input.controls.controlList:
           self.engine.input.reloadControls()
-      
-      
-      #------------------------------------------
 
   def apply(self):
     pass
@@ -445,7 +424,7 @@ class ControlCreator(BackgroundLayer, KeyListener):
         ConfigChoice(   self.engine, self.config, "controller", "analog_sp", autoApply = True),
         ConfigChoice(   self.engine, self.config, "controller", "analog_sp_threshold", autoApply = True),
         ConfigChoice(   self.engine, self.config, "controller", "analog_sp_sensitivity", autoApply = True),
-        #ConfigChoice(   self.engine, self.config, "controller", "analog_fx", autoApply = True),
+        #ConfigChoice(   self.engine, self.config, "controller", "analog_fx", autoApply = True), #FIXME: Analog FX
         ConfigChoice(   self.engine, self.config, "controller", "two_chord_max", autoApply = True),
         (_("Rename Controller"), self.renameController),
       ]
@@ -483,7 +462,7 @@ class ControlCreator(BackgroundLayer, KeyListener):
         ConfigChoice(   self.engine, self.config, "controller", "analog_sp", autoApply = True),
         ConfigChoice(   self.engine, self.config, "controller", "analog_sp_threshold", autoApply = True),
         ConfigChoice(   self.engine, self.config, "controller", "analog_sp_sensitivity", autoApply = True),
-        #ConfigChoice(   self.engine, self.config, "controller", "analog_fx", autoApply = True),
+        #ConfigChoice(   self.engine, self.config, "controller", "analog_fx", autoApply = True), #FIXME: Analog FX
         (_("Rename Controller"), self.renameController),
       ]
     elif type == 2:
@@ -513,7 +492,7 @@ class ControlCreator(BackgroundLayer, KeyListener):
         ConfigChoice(   self.engine, self.config, "controller", "analog_sp", autoApply = True),
         ConfigChoice(   self.engine, self.config, "controller", "analog_sp_threshold", autoApply = True),
         ConfigChoice(   self.engine, self.config, "controller", "analog_sp_sensitivity", autoApply = True),
-        #ConfigChoice(   self.engine, self.config, "controller", "analog_drum", autoApply = True),
+        #ConfigChoice(   self.engine, self.config, "controller", "analog_drum", autoApply = True), #FIXME: Analog Drum
         (_("Rename Controller"), self.renameController),
       ]
     elif type == 3:
@@ -542,7 +521,7 @@ class ControlCreator(BackgroundLayer, KeyListener):
         ConfigChoice(   self.engine, self.config, "controller", "analog_sp", autoApply = True),
         ConfigChoice(   self.engine, self.config, "controller", "analog_sp_threshold", autoApply = True),
         ConfigChoice(   self.engine, self.config, "controller", "analog_sp_sensitivity", autoApply = True),
-        #ConfigChoice(   self.engine, self.config, "controller", "analog_drum", autoApply = True),
+        #ConfigChoice(   self.engine, self.config, "controller", "analog_drum", autoApply = True), #FIXME: Analog Drum
         (_("Rename Controller"), self.renameController),
       ]
     elif type == 4:
@@ -580,7 +559,7 @@ class ControlCreator(BackgroundLayer, KeyListener):
         ConfigChoice(   self.engine, self.config, "controller", "analog_sp", autoApply = True),
         ConfigChoice(   self.engine, self.config, "controller", "analog_sp_threshold", autoApply = True),
         ConfigChoice(   self.engine, self.config, "controller", "analog_sp_sensitivity", autoApply = True),
-        #ConfigChoice(   self.engine, self.config, "controller", "analog_fx", autoApply = True),
+        #ConfigChoice(   self.engine, self.config, "controller", "analog_fx", autoApply = True), #FIXME: Analog FX
         (_("Rename Controller"), self.renameController),
       ]
     elif type == 5:
@@ -938,7 +917,6 @@ class SettingsMenu(Menu.Menu):
       ConfigChoice(engine, engine.config, "game", "hopo_debug_disp", autoApply = True),#myfingershurt
       ConfigChoice(engine, engine.config, "game", "show_unused_text_events", autoApply = True),#myfingershurt
       ConfigChoice(engine, engine.config, "debug",   "use_unedited_midis", autoApply = True),#myfingershurt
-      #ConfigChoice(engine.config, "game", "font_rendering_mode", autoApply = True),#myfingershurt
       ConfigChoice(engine, engine.config, "debug", "show_raw_vocal_data", autoApply = True), #akedrou
       ConfigChoice(engine, engine.config, "debug",   "show_freestyle_active", autoApply = True),#myfingershurt
       ConfigChoice(engine, engine.config, "debug",   "show_bpm", autoApply = True),#myfingershurt
@@ -955,17 +933,12 @@ class SettingsMenu(Menu.Menu):
 
     self.listSettings = [
       (_("Change Setlist Path >"), self.baseLibrarySelect, _("Set the path to a folder named 'songs' that contains your songs.")),
-      #ConfigChoice(engine, engine.config, "coffee", "song_display_mode", autoApply = True),
       ConfigChoice(engine, engine.config, "game",  "sort_order", autoApply = True),
       ConfigChoice(engine, engine.config, "game", "sort_direction", autoApply = True),
-      #ConfigChoice(engine, engine.config, "game", "song_listing_mode", autoApply = True, isQuickset = 2),
       ConfigChoice(engine, engine.config, "game", "quickplay_tiers", autoApply = True),  #myfingershurt
       ConfigChoice(engine, engine.config, "coffee", "songfilepath", autoApply = True),
       #(_("Select List All Folder >"), self.listAllFolderSelect), #- Not Working Yet - Qstick
       ConfigChoice(engine, engine.config, "game", "songcovertype", autoApply = True),
-      #ConfigChoice(engine, engine.config, "game", "songlistrotation", autoApply = True, isQuickset = 1),
-      #ConfigChoice(engine, engine.config, "performance", "disable_librotation", autoApply = True),
-      #ConfigChoice(engine, engine.config, "game", "song_icons", autoApply = True),
       ConfigChoice(engine, engine.config, "game", "queue_parts", autoApply = True),
       ConfigChoice(engine, engine.config, "game", "queue_diff", autoApply = True),
       ConfigChoice(engine, engine.config, "game", "preload_labels", autoApply = True),
@@ -973,7 +946,6 @@ class SettingsMenu(Menu.Menu):
       ConfigChoice(engine, engine.config, "game", "songlist_instrument", autoApply = True), #MFH
       ConfigChoice(engine, engine.config, "game", "songlist_difficulty", autoApply = True), #evilynux
       ConfigChoice(engine, engine.config, "game",  "whammy_changes_sort_order", autoApply = True), #stump
-      #ConfigChoice(engine, engine.config, "game", "songlist_extra_stats", autoApply = True), #evilynux
       ConfigChoice(engine, engine.config, "game", "HSMovement", autoApply = True), #racer
       ConfigChoice(engine, engine.config, "performance", "disable_libcount", autoApply = True, isQuickset = 1), 
       ConfigChoice(engine, engine.config, "performance", "cache_song_metadata", autoApply = True, isQuickset = 1), #stump
@@ -1028,17 +1000,6 @@ class SettingsMenu(Menu.Menu):
                            self.debugSettings + \
                            self.quickSettings + \
                            self.modSettings
-
-#-    self.settingsToApply = settings + \
-#-                           videoSettings + \
-#-                           AdvancedAudioSettings + \
-#-                           volumeSettings + \
-#-                           keySettings + \
-#-                           AdvancedVideoSettings + \
-#-                           FoFiXBasicSettings + \11/26/2008 11:10:30 PM
-#-                           perfSettings + \
-#-                           listSettings + \
-#-                           modSettings
 
     Menu.Menu.__init__(self, engine, settings, name = "advsettings", onCancel = self.applySettings, pos = (self.opt_text_x, self.opt_text_y), textColor = self.opt_text_color, selectedColor = self.opt_selected_color)   #MFH - add position to this so we can move it
 
@@ -1134,16 +1095,6 @@ class SettingsMenu(Menu.Menu):
     if self.engine.config.get("game", "language") != "":
       self.engine.config.set("game", "language", "")
       self.engine.restart()
-
-
-  #def listAllFolderSelect(self):
-  #  Log.debug("settings.baseLibrarySelect function call...")
-  #  newPath = Dialogs.chooseFile(self.engine, masks = ["*/*"], prompt = _("Choose a New List All directory."), dirSelect = True)
-  #  if newPath != None:
-  #    Config.set("game", "listall_folder", os.path.dirname(newPath))
-  #    Log.debug(newPath)
-  #    Log.debug(os.path.dirname(newPath))
-  #    self.engine.resource.refreshBaseLib()   #myfingershurt - to let user continue with new songpath without restart
       
   def baseLibrarySelect(self):
     Log.debug("settings.baseLibrarySelect function call...")
@@ -1280,13 +1231,10 @@ class BasicSettingsMenu(Menu.Menu):
 
     listSettings = [
       (_("Change Setlist Path >"), self.baseLibrarySelect, _("Set the path to a folder named 'songs' that contains your songs.")),
-      #ConfigChoice(engine, engine.config, "coffee", "song_display_mode", autoApply = True),
       ConfigChoice(engine, engine.config, "game",  "sort_order", autoApply = True),
       ConfigChoice(engine, engine.config, "game", "sort_direction", autoApply = True),
-      #ConfigChoice(engine, engine.config, "game", "song_listing_mode", autoApply = True, isQuickset = 2),
       ConfigChoice(engine, engine.config, "game", "quickplay_tiers", autoApply = True),  #myfingershurt
       ConfigChoice(engine, engine.config, "game", "songcovertype", autoApply = True),
-      #ConfigChoice(engine, engine.config, "game", "song_icons", autoApply = True),
       ConfigChoice(engine, engine.config, "game", "songlist_instrument", autoApply = True), #MFH
       ConfigChoice(engine, engine.config, "game", "songlist_difficulty", autoApply = True), #evilynux
     ]
@@ -1426,7 +1374,6 @@ def quickset(config):
     config.set("game", "bass_groove_enable", 1)
     config.set("game", "big_rock_endings", 1)
     config.set("game", "in_game_stars", 1)
-    config.set("coffee", "song_display_mode", 4)
     config.set("game", "mark_solo_sections", 2)
     Log.debug("Quickset Gameplay - Theme-Based")
     
@@ -1451,7 +1398,6 @@ def quickset(config):
     config.set("game", "bass_groove_enable", 0)
     config.set("game", "big_rock_endings", 0)
     config.set("game", "in_game_stars", 0)
-    config.set("coffee", "song_display_mode", 1)
     config.set("game", "counting", False)
     config.set("game", "mark_solo_sections", 0)
     Log.debug("Quickset Gameplay - GH style")
@@ -1461,7 +1407,6 @@ def quickset(config):
     config.set("game", "bass_groove_enable", 0)
     config.set("game", "big_rock_endings", 0)
     config.set("game", "in_game_stars", 0)
-    config.set("coffee", "song_display_mode", 1)
     config.set("game", "counting", True)
     config.set("game", "mark_solo_sections", 1)
     Log.debug("Quickset Gameplay - WT style")
@@ -1485,9 +1430,6 @@ def quickset(config):
     config.set("video", "use_shaders", False)
     config.set("coffee", "game_phrases", 0)
     config.set("game", "partial_stars", 0)
-    config.set("game", "songlistrotation", False)
-    config.set("game", "song_listing_mode", 0)
-    config.set("game", "song_display_mode", 1)
     config.set("game", "stage_animate", 0)
     config.set("game", "lyric_mode", 0)
     config.set("game", "use_graphical_submenu", 0)
@@ -1513,8 +1455,6 @@ def quickset(config):
     config.set("video", "multisamples", 2)
     config.set("coffee", "game_phrases", 1)
     config.set("game", "partial_stars", 1)
-    config.set("game", "songlistrotation", False)
-    config.set("game", "song_listing_mode", 0)
     config.set("game", "stage_animate", 0)
     config.set("game", "lyric_mode", 2)
     config.set("game", "use_graphical_submenu", 0)
@@ -1540,7 +1480,6 @@ def quickset(config):
     config.set("video", "multisamples", 4)
     config.set("coffee", "game_phrases", 2)
     config.set("game", "partial_stars", 1)
-    config.set("game", "songlistrotation", True)
     config.set("game", "lyric_mode", 2)
     config.set("game", "use_graphical_submenu", 1)
     config.set("audio", "enable_crowd_tracks", 1)
@@ -1566,7 +1505,6 @@ def quickset(config):
     config.set("video", "use_shaders", True)
     config.set("coffee", "game_phrases", 2)
     config.set("game", "partial_stars", 1)
-    config.set("game", "songlistrotation", True)
     config.set("game", "lyric_mode", 2)
     config.set("game", "use_graphical_submenu", 1)
     config.set("audio", "enable_crowd_tracks", 1)
@@ -1634,7 +1572,5 @@ class GameCareerSettingsMenu(Menu.Menu):
       ConfigChoice(engine, engine.config, "audio",  "delay", autoApply = True),   #myfingershurt: so the a/v delay can be adjusted in-game
       ConfigChoice(engine, engine.config, "game", "stage_rotate_delay", autoApply = True),   #myfingershurt - user defined stage rotate delay
       ConfigChoice(engine, engine.config, "game", "stage_animate_delay", autoApply = True),   #myfingershurt - user defined stage rotate delay
-      #ConfigChoice(engine, engine.config, "player0",  "leftymode", autoApply = True),
-      #ConfigChoice(engine, engine.config, "player1",  "leftymode", autoApply = True), #QQstarS
     ]
     Menu.Menu.__init__(self, engine, settings, pos = (.360, .250), viewSize = 5, textColor = gTextColor, selectedColor = gSelectedColor, showTips = False) #Worldrave- Changed Pause-Submenu Position more centered until i add a theme.ini setting.

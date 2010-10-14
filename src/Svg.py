@@ -24,9 +24,8 @@ from __future__ import with_statement
 from OpenGL.GL import *
 
 import numpy as np
-from numpy import array, float32
 import math
-from cmgl import *
+import cmgl
 
 import Log
 from Texture import Texture
@@ -49,7 +48,7 @@ class SvgContext(object):
 
   def setProjection(self, geometry = None):
     geometry = geometry or self.geometry
-    with cmglMatrixMode(GL_PROJECTION):
+    with cmgl.MatrixMode(GL_PROJECTION):
       glLoadIdentity()
       glOrtho(geometry[0], geometry[0] + geometry[2], geometry[1], geometry[1] + geometry[3], -100, 100)
     self.geometry = geometry
@@ -126,8 +125,8 @@ class ImgDrawing(object):
     self.createArrays()
 
   def createArrays(self):
-    self.vtxArray = np.zeros((4,2), dtype=float32)
-    self.texArray = np.zeros((4,2), dtype=float32)
+    self.vtxArray = np.zeros((4,2), dtype=np.float32)
+    self.texArray = np.zeros((4,2), dtype=np.float32)
 
     self.createVtx()
     self.createTex()
@@ -202,13 +201,13 @@ class ImgDrawing(object):
     self.color = color
 
   def draw(self):
-    with cmglPushedSpecificMatrix(GL_TEXTURE):
-      with cmglPushedSpecificMatrix(GL_PROJECTION):
+    with cmgl.PushedSpecificMatrix(GL_TEXTURE):
+      with cmgl.PushedSpecificMatrix(GL_PROJECTION):
 
-        with cmglMatrixMode(GL_PROJECTION):
+        with cmgl.MatrixMode(GL_PROJECTION):
           self.context.setProjection()
 
-        with cmglPushedMatrix():
+        with cmgl.PushedMatrix():
           glLoadIdentity()
 
           glTranslate(self.position[0], self.position[1], 0.0)
@@ -221,5 +220,5 @@ class ImgDrawing(object):
 
           glEnable(GL_TEXTURE_2D)
           self.texture.bind()
-          cmglDrawArrays(GL_QUADS, vertices=self.vtxArray, texcoords=self.texArray)
+          cmgl.drawArrays(GL_QUADS, vertices=self.vtxArray, texcoords=self.texArray)
           glDisable(GL_TEXTURE_2D)

@@ -49,9 +49,9 @@ import pygame
 from OpenGL.GL import *
 from OpenGL.GLU import *
 # Array-based drawing
-from numpy import array, float32
+import numpy as np
 
-from cmgl import *
+import cmgl
 
 from View import View, BackgroundLayer
 import Log
@@ -168,37 +168,37 @@ class VideoPlayer(BackgroundLayer):
       vtxY = 1.0 - abs(self.winHeight-r*self.vidHeight) / (float(self.winHeight))
 
     # Vertices
-    videoVtx = array([[-vtxX,  vtxY],
+    videoVtx = np.array([[-vtxX,  vtxY],
                       [ vtxX, -vtxY],
                       [ vtxX,  vtxY],
                       [-vtxX,  vtxY],
                       [-vtxX, -vtxY],
-                      [ vtxX, -vtxY]], dtype=float32)
-    backVtx =  array([[-1.0,  1.0],
+                      [ vtxX, -vtxY]], dtype=np.float32)
+    backVtx = np.array([[-1.0,  1.0],
                       [ 1.0, -1.0],
                       [ 1.0,  1.0],
                       [-1.0,  1.0],
                       [-1.0, -1.0],
-                      [ 1.0, -1.0]], dtype=float32)
+                      [ 1.0, -1.0]], dtype=np.float32)
     # Texture coordinates
-    videoTex = array([[0.0,                   self.videoTex.size[1]],
+    videoTex = np.array([[0.0,                   self.videoTex.size[1]],
                       [self.videoTex.size[0], 0.0],
                       [self.videoTex.size[0], self.videoTex.size[1]],
                       [0.0,                   self.videoTex.size[1]],
                       [0.0,                   0.0],
-                      [self.videoTex.size[0], 0.0]], dtype=float32)
+                      [self.videoTex.size[0], 0.0]], dtype=np.float32)
 
     # Create a compiled OpenGL call list and do array-based drawing
     # Could have used GL_QUADS but IIRC triangles are recommended
-    self.videoList = cmglList()
+    self.videoList = cmgl.List()
     with self.videoList:
       # Draw borders where video aspect is different than specified width/height
       glColor3f(0., 0., 0.)
-      cmglDrawArrays(GL_TRIANGLE_STRIP, vertices=backVtx)
+      cmgl.drawArrays(GL_TRIANGLE_STRIP, vertices=backVtx)
       # Draw video
       glEnable(GL_TEXTURE_2D)
       glColor3f(1., 1., 1.)
-      cmglDrawArrays(GL_TRIANGLE_STRIP, vertices=videoVtx, texcoords=videoTex)
+      cmgl.drawArrays(GL_TRIANGLE_STRIP, vertices=videoVtx, texcoords=videoTex)
       glDisable(GL_TEXTURE_2D)
 
   # Setup GStreamer's pipeline

@@ -21,7 +21,6 @@
 # MA  02110-1301, USA.                                              #
 #####################################################################
 
-from OpenGL.GL import *
 
 from View import BackgroundLayer
 from Menu import Menu
@@ -139,9 +138,6 @@ class MainMenu(BackgroundLayer):
       self.song.play(0)  #no loop
     else:
       self.menumusic = False
-
-   
- #####======= Racer: New Main Menu ======####
 
     self.opt_text_color     = self.engine.theme.opt_text_colorVar
     self.opt_selected_color = self.engine.theme.opt_selected_colorVar
@@ -278,7 +274,7 @@ class MainMenu(BackgroundLayer):
   def quit(self):
     self.engine.view.popLayer(self.menu)
 
-  def catchErrors(function):
+  def catchErrors(function): #FIXME
     def harness(self, *args, **kwargs):
       try:
         try:
@@ -301,20 +297,14 @@ class MainMenu(BackgroundLayer):
     if not self.nextLayer:
       self.nextLayer = layerFunc
       self.engine.view.popAllLayers()
-  #launchLayer = catchErrors(launchLayer)    #MFH - trying to catch errors
 
   def showTutorial(self):
     # evilynux - Make sure tutorial exists before launching
-    #tutorialpath = self.engine.getPath(os.path.join("songs","tutorial"))
     tutorialpath = self.engine.tutorialFolder
     if not os.path.isdir(self.engine.resource.fileName(tutorialpath)):
       Log.debug("No folder found: %s" % tutorialpath)
       Dialogs.showMessage(self.engine, _("No tutorials found!"))
       return
-
-    # players = Dialogs.activateControllers(self.engine, 1) #akedrou
-    # if players == 0:
-      # return
     
     self.engine.startWorld(1, None, 0, 0, tutorial = True)
 
@@ -327,11 +317,6 @@ class MainMenu(BackgroundLayer):
   
   def newLocalGame(self, players=1, mode1p=0, mode2p=0, maxplayers = None, allowGuitar = True, allowDrum = True, allowMic = False): #mode1p=0(quickplay),1(practice),2(career) / mode2p=0(faceoff),1(profaceoff)
     self.engine.data.acceptSound.play()
-    # players = Dialogs.activateControllers(self.engine, players, maxplayers, allowGuitar, allowDrum, allowMic) #akedrou
-    # if players == 0:
-      # if self.engine.cmdPlay == 2:
-        # self.engine.cmdPlay = 0
-      # return
 
     self.engine.startWorld(players, maxplayers, mode1p, mode2p, allowGuitar, allowDrum, allowMic)
     

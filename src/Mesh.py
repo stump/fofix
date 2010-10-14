@@ -25,7 +25,7 @@ from OpenGL.GL import *
 
 import Collada
 
-from cmgl import *
+import cmgl
 
 class Mesh:
   def __init__(self, fileName):
@@ -65,7 +65,7 @@ class Mesh:
     # Prepare a new list for all the geometry
     if not self.geoms:
       for geom in self.doc.geometriesLibrary.items:
-        self.geoms[geom.name] = cmglList()
+        self.geoms[geom.name] = cmgl.List()
         with self.geoms[geom.name]:
   
           for prim in geom.data.primitives:
@@ -119,7 +119,7 @@ class Mesh:
              glEnd()
       
     # Prepare a new display list for this particular geometry
-    self.fullGeoms[geomName] = cmglList()
+    self.fullGeoms[geomName] = cmgl.List()
     with self.fullGeoms[geomName]:
     
       if self.geoms:
@@ -142,9 +142,6 @@ class Mesh:
               continue
             for geom in node.iGeometries:
               if geom.object:
-                #for mat in geom.bindMaterials:
-                #  self.setupMaterial(mat)
-                
                 glPushMatrix()
                 for t in node.transforms:
                   if t[0] == "translate":
