@@ -197,7 +197,10 @@ class Data(object):
       ["font10","streakFont2","streakphrase.ttf",fontSize[2]]
     ]
     for f in self.fontList:
-      if self.fileExists(os.path.join("themes",themename,"fonts",f[2])):
+      if forceFont:
+        f[0] = lambda: Font(font, f[3], scale = scale*.25, reversed = reversed, systemFont = not asciiOnly, outline = False, aspectRatio = aspectRatio)
+        resource.load(self,f[1],f[0], synch = True)
+      elif self.fileExists(os.path.join("themes",themename,"fonts",f[2])):
         fn = resource.fileName(os.path.join("themes",themename,"fonts",f[2]))
         f[0] = lambda: Font(fn, f[3], scale = scale*.5, reversed = reversed, systemFont = not asciiOnly, outline = False, aspectRatio = aspectRatio)
         resource.load(self,f[1],f[0], synch = True)
@@ -211,17 +214,7 @@ class Data(object):
         fn = resource.fileName(os.path.join("fonts","default.ttf"))
         f[0] = lambda: Font(fn, f[3], scale = scale*.5, reversed = reversed, systemFont = not asciiOnly, outline = False, aspectRatio = aspectRatio)
         resource.load(self,f[1],f[0], synch = True)
-        pauseFont = forceFont
-        scoreFont = forceFont
-        streakFont = forceFont
-        songFont = forceFont
-        loadingFont = forceFont
-        songListFont = forceFont
-        shadowfont = forceFont
-        streakFont2 = forceFont
 
-
-    
     self.fontDict = {"font": self.font, "bigFont": self.bigFont, "pauseFont": self.pauseFont, "scoreFont": self.scoreFont, \
                      "streakFont": self.streakFont, "songFont": self.songFont, "streakFont2": self.streakFont2, \
                      "songListFont": self.songListFont, "shadowFont": self.shadowFont, "loadingFont": self.loadingFont}
