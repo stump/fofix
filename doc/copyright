@@ -45,12 +45,10 @@ except:
             Miriam font family is copyright 2004-2010 by Maxim Iorsh
             (iorsh@users.sourceforge.net). All rights reserved.
 
-Distribution, modification or commercial usage of the songs is not allowed.
-
-All data files, excluding the songs and the font files mentioned above but
-including the tutorial are licensed under the GNU General Public License 
-described below. Note that some source files derived from other sources might 
-have differing licenses.
+All data files, including the tutorials, except the font files mentioned
+above, are licensed under the GNU General Public License described
+below. Note that some source files derived from other sources might have
+differing licenses.
 
 ----------------------------------------------------------------------------
 

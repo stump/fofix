@@ -44,6 +44,8 @@ from OpenGL.GL import glColor3f
 LEFT   = 0
 CENTER = 1
 RIGHT  = 2
+TOP    = 0
+BOTTOM = 2
 
 #by making these global for the class, all layers that rely on 
 #these numbers will no longer have to have them be independent per
@@ -114,14 +116,14 @@ class ImageLayer(Layer):
     Layer.__init__(self, stage, section)
 
     #these are the images that are drawn when the layer is visible
-    self.drawing = [self.engine.loadImgDrawing(self, None, drawing)]
-    self.rect    = [[0,1,0,1]]		#how much of the image do you want rendered (left, right, top, bottom)
+    self.drawing = self.engine.loadImgDrawing(self, None, drawing)
+    self.rect    = [0,1,0,1]		#how much of the image do you want rendered (left, right, top, bottom)
     
   def updateLayer(self, playerNum):
     w, h, = self.engine.view.geometry[2:4]
-    texture = self.drawing[0]
+    texture = self.drawing
 
-    self.rect      = [list(eval(self.get("rect", str, "(0,1,0,1)")))]
+    self.rect      = list(eval(self.get("rect", str, "(0,1,0,1)")))
 
     #all of this has to be repeated instead of using the base method
     #because now things can be calculated in relation to the image's properties
@@ -134,8 +136,9 @@ class ImageLayer(Layer):
     self.condition = bool(eval(self.get("condition", str, "True")))
 
     self.alignment = eval(self.get("alignment", str, "center").upper())
+    self.valignment = eval(self.get("valignment", str, "center").upper())
 
-    rect = self.rect[0]
+    rect = self.rect
     self.scale[0] *=  (rect[1] - rect[0])
     self.scale[1] *=  (rect[3] - rect[2])
     #this allows you to scale images in relation to pixels instead
@@ -166,19 +169,21 @@ class ImageLayer(Layer):
     for effect in self.effects:
       effect.update()
 
-    coord     = self.position
-    scale     = self.scale
-    rot       = self.angle
-    color     = self.engine.theme.hexToColor(self.color)
-    alignment = self.alignment
-    drawing   = self.drawing[0]
-    rect      = self.rect[0]
+    coord      = self.position
+    scale      = self.scale
+    rot        = self.angle
+    color      = self.engine.theme.hexToColor(self.color)
+    alignment  = self.alignment
+    valignment = self.valignment
+    drawing    = self.drawing
+    rect       = self.rect
     
     #frameX  = self.frameX
     #frameY  = self.frameY
 
     if self.condition:
-      self.engine.drawImage(drawing, scale, coord, rot, color, rect, alignment = alignment)
+      self.engine.drawImage(drawing, scale, coord, rot, color, rect, 
+                            alignment = alignment, valignment = valignment)
 
 #defines layers that are just font instead of images
 class FontLayer(Layer): 
@@ -237,12 +242,12 @@ class FontLayer(Layer):
     self.updateLayer(playerNum)
     for effect in self.effects:
       effect.update()
-    
+
     glColor3f(*self.engine.theme.hexToColor(self.color))
 
     if self.condition:
       self.font.render(self.text, (self.position[0], self.position[1]), align = self.alignment)
-
+        
 #creates a layer that is shaped like a pie-slice/circle instead of a rectangle
 class CircleLayer(Layer): 
   def __init__(self, stage, section, drawing):
@@ -419,45 +424,67 @@ class Replace(Effect):
     Effect.__init__(self, layer, section)
 
     if isinstance(layer, ImageLayer):
-      texture   = self.get("texture")
-      drawing   = os.path.join("themes", layer.stage.themename, "rockmeter", texture)
-      layer.drawing.append(layer.engine.loadImgDrawing(self, "drawing", drawing))
-      self.rect = list(eval(self.get("rect", str, "(0,1,0,1)")))
-      layer.rect.append(self.rect)
-      self.index = len(layer.drawing)-1
+      self.drawings  = []
+      self.rects = []
+      if not self.get("texture") == None:
+        texture   = self.get("texture").strip().split("|")
+        for tex in texture:
+          path   = os.path.join("themes", layer.stage.themename, "rockmeter", tex)
+          drawing = layer.engine.loadImgDrawing(self, None, path)
+          self.drawings.append(drawing)
+      self.drawings.append(layer.drawing)
+      if not self.get("rect") == None:
+        rects = self.get("rect").split("|")
+        for rect in rects:
+          self.rects.append(eval(rect))
+      self.rects.append(layer.rect)
       self.type = "image"
     elif isinstance(layer, FontLayer):
       self.font = self.engine.data.fontDict[self.get("font")]
-      self.text = ""
+      self.text = self.get("text").split("|")
       self.type = "font"
-      
 
-  def replaceFont(self):
-    pass
+    self.conditions = self.get("condition", str, "True").split("|")
     
-  def replaceImage(self):
-    if not self.layer.drawing.index(self.drawing) == 0:
-      self.layer.drawing.insert(0, self.layer.drawing.pop(self.index))
-      self.layer.rect.insert(0, self.layer.rect.pop(self.index))
-      
-  def resetImage(self):
-    if self.layer.drawing.index(self.drawing) == 0:
-      self.layer.drawing.insert(self.index, self.layer.drawing.pop(0))
-      self.layer.rect.insert(self.index, self.layer.rect.pop(0))
-      
-  def update(self):
-    self.condition = bool(eval(self.get("condition", str, "True")))
+  #fixes the scale after the rect is changed
+  def fixScale(self):
+    w, h, = self.layer.engine.view.geometry[2:4]
+    
+    rect = self.layer.rect
+    scale     = [eval(self.layer.get("xscale", str, "0.5")), 
+                 eval(self.layer.get("yscale", str, "0.5"))]
+    scale[0] *=  (rect[1] - rect[0])
+    scale[1] *=  (rect[3] - rect[2])
+    #this allows you to scale images in relation to pixels instead
+    #of percentage of the size of the image.
+    if "xscale" in self.layer.inPixels:
+      scale[0] /= self.layer.drawing.pixelSize[0]
+    if "yscale" in self.layer.inPixels:
+      scale[1] /= self.layer.drawing.pixelSize[1]
 
-    if self.condition:
-      if type == "font":
-        self.replaceFont()
-      else:
-        self.replaceImage()
+    scale[1] = -scale[1]
+    scale[0] *= w/640.0
+    scale[1] *= h/480.0
+    
+    self.layer.scale = scale
+    
+  def update(self):
+
+    if self.type == "font":
+      self.layer.text = self.text[-1]
     else:
-      if type == "font":
-        pass
-      else:
-        self.resetImage()
+      self.layer.drawing = self.drawings[-1]
+    for i, cond in enumerate(self.conditions):
+      if bool(eval(cond)):
+        if self.type == "font":
+          self.layer.text = self.text[i]
+        else:
+          if len(self.drawings) > 1:
+            self.layer.drawing = self.drawings[i]
+          if len(self.rects) > 1:
+            self.layer.rect = self.rects[i]
+          self.fixScale()
+        break
         
 class Rockmeter:
   def get(self, value, type = str, default = None):
@@ -520,8 +547,8 @@ class Rockmeter:
             layer.effects.append(Slide(layer, fxsection))
 #          elif t == types[1]:
 #            layer.effects.append(Rotate(layer, fxsection))
-#          elif t == types[2]:
-#            layer.effects.append(Replace(layer, fxsection))
+          elif t == types[2]:
+            layer.effects.append(Replace(layer, fxsection))
 #          else:
 #            layer.effects.append(Fade(layer, fxsection))
       

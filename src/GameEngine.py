@@ -143,7 +143,7 @@ Config.define("audio",  "songvol",    float,    0.8,  text = _("Background Volum
 Config.define("performance", "game_priority",       int,   2,      text = _("Process Priority"), options = sortOptionsByKey({0: _("Idle"), 1: _("Low"), 2: _("Normal"), 3:_("Above Normal"), 4:_("High"), 5:_("Realtime")}), tipText = _("Change this to increase the priority of the FoFiX process. Don't change this unless you know what you're doing. DO NOT set this to Realtime. Ever."))
 Config.define("performance", "restrict_to_first_processor", bool, False, text=_("Restrict to First Core (Win32 Only)"), options={False: _("No"), True: _("Yes")}, tipText=_("Choose whether to restrict the game to running on only the first processor core on the system. Only has an effect under Windows."))  #stump
 Config.define("performance", "use_psyco", bool, False, text=_("Use Psyco"), options={False: _("No"), True: _("Yes")}, tipText = _("Enable or disable the Psyco specializing compiler. Tests have indicated the game runs faster with it off."))  #stump
-Config.define("game",   "notedisappear",      bool,   False,  text = _("Missed Notes"), options = {False: _("Disappear"), True: _("Keep on going")}, tipText = _("When you miss a note, this sets whether they disappear from the fretboard or scroll off the bottom of the screen."))
+Config.define("game",   "notedisappear",      int,   1,  text = _("Missed Notes"), options = {0: _("Disappear"), 1: _("Keep on going"), 2: _("Turn Red")}, tipText = _("When you miss a note, this sets whether they disappear from the fretboard, scroll off the bottom of the screen or turn red"))
 
 #akedrou - Quickset (based on Fablaculp's Performance Autoset)
 Config.define("quickset", "performance", int, 0, text = _("Performance"), options = sortOptionsByKey({0: _("Manual"), 1: _("Pure Speed"), 2: _("Fast"), 3: _("Quality (Recommended)"), 4: _("Max Quality (Slow)")}), tipText = _("Set the performance of your game. You can fine-tune in the advanced menus."))
@@ -599,7 +599,7 @@ class GameEngine(object):
     self.stageFolders = []
     currentTheme = themename
     
-    stagespath = os.path.join(Version.dataPath(), "themes", currentTheme, "stages")
+    stagespath = os.path.join(Version.dataPath(), "themes", currentTheme, "backgrounds")
     themepath  = os.path.join(Version.dataPath(), "themes", currentTheme)
     if os.path.exists(stagespath):
       self.stageFolders = []
@@ -825,7 +825,7 @@ class GameEngine(object):
 
   def drawImage(self, image, scale = (1.0, -1.0), coord = (0, 0), rot = 0, \
                 color = (1,1,1,1), rect = (0,1,0,1), stretched = 0, fit = 0, \
-                alignment = 1):
+                alignment = 1, valignment = 1):
     """
     Draws the image/surface to screen
 
@@ -848,6 +848,8 @@ class GameEngine(object):
                          on the top side (1), bottom side (2), or center point (any other value) of the image
     @param alignment:    Adjusts the texture so the coordinate for x-axis placement can either be
                          on the left side (0), center point (1), or right(2) side of the image 
+    @param valignment:   Adjusts the texture so the coordinate for y-axis placement can either be
+                         on the bottom side (0), center point (1), or top(2) side of the image
     """
     
     width, height = scale
@@ -875,6 +877,7 @@ class GameEngine(object):
     image.setScale(width, height)
     image.setPosition(x, y)
     image.setAlignment(alignment)
+    image.setVAlignment(valignment)
     image.setAngle(rot)
     image.setColor(color)
     image.draw()
