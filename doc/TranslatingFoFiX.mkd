@@ -1,10 +1,6 @@
 How to translate FoFiX to another language
 ==========================================
 
-Translate This Document
------------------------
-[<img src="http://github.com/stump/fofix/raw/i18n_unicode/doc/flags/zh_CN.png" alt="zh_CN" />](http://www.microsofttranslator.com/bv.aspx?from=en&to=zh-CHS&a=http%3A%2F%2Fgithub.com%2Fstump%2Ffofix%2Fblob%2Fi18n_unicode%2Fdoc%2FTranslatingFoFiX.mkd)[<img src="http://github.com/stump/fofix/raw/i18n_unicode/doc/flags/fr.png" alt="fr" />](http://www.microsofttranslator.com/bv.aspx?from=en&to=fr&a=http%3A%2F%2Fgithub.com%2Fstump%2Ffofix%2Fblob%2Fi18n_unicode%2Fdoc%2FTranslatingFoFiX.mkd)[<img src="http://github.com/stump/fofix/raw/i18n_unicode/doc/flags/de.png" alt="de" />](http://www.microsofttranslator.com/bv.aspx?from=en&to=de&a=http%3A%2F%2Fgithub.com%2Fstump%2Ffofix%2Fblob%2Fi18n_unicode%2Fdoc%2FTranslatingFoFiX.mkd)[<img src="http://github.com/stump/fofix/raw/i18n_unicode/doc/flags/es.png" alt="es" />](http://www.microsofttranslator.com/bv.aspx?from=en&to=es&a=http%3A%2F%2Fgithub.com%2Fstump%2Ffofix%2Fblob%2Fi18n_unicode%2Fdoc%2FTranslatingFoFiX.mkd)[<img src="http://github.com/stump/fofix/raw/i18n_unicode/doc/flags/it.png" alt="it" />](http://www.microsofttranslator.com/bv.aspx?from=en&to=it&a=http%3A%2F%2Fgithub.com%2Fstump%2Ffofix%2Fblob%2Fi18n_unicode%2Fdoc%2FTranslatingFoFiX.mkd)[<img src="http://github.com/stump/fofix/raw/i18n_unicode/doc/flags/ja.png" alt="ja" />](http://www.microsofttranslator.com/bv.aspx?from=en&to=ja&a=http%3A%2F%2Fgithub.com%2Fstump%2Ffofix%2Fblob%2Fi18n_unicode%2Fdoc%2FTranslatingFoFiX.mkd)[<img src="http://github.com/stump/fofix/raw/i18n_unicode/doc/flags/ko.png" alt="ko" />](http://www.microsofttranslator.com/bv.aspx?from=en&to=ko&a=http%3A%2F%2Fgithub.com%2Fstump%2Ffofix%2Fblob%2Fi18n_unicode%2Fdoc%2FTranslatingFoFiX.mkd)[<img src="http://github.com/stump/fofix/raw/i18n_unicode/doc/flags/ru.png" alt="ru" />](http://www.microsofttranslator.com/bv.aspx?from=en&to=ru&a=http%3A%2F%2Fgithub.com%2Fstump%2Ffofix%2Fblob%2Fi18n_unicode%2Fdoc%2FTranslatingFoFiX.mkd)
-
 
 Table of Contents
 -----------------
