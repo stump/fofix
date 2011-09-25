@@ -3289,10 +3289,46 @@ class GuitarScene(Scene):
       self.rock[playerNum] -= 15.0
     self.minusRock[playerNum] += self.minGain/10/self.coOpMulti
 
+  def neckIntro(self):
+      pos = self.getSongPosition()
+      #weirdpeople - differant styles for the start animation of the fretboard
+      if self.neckintroAnimationType == 0 or (self.neckintroAnimationType == 4 and self.neckintroThemeType == "fofix"): #Original
+        if self.boardY <= 1:
+          self.setCamera()
+          if self.countdown > 0: #if the countdown is already at 0 ex. after pause
+            self.countdownOK = True
+            self.boardY = 1
+        elif self.boardY > 1:
+          self.boardY -= 0.01 #speed of animation higher the number = the faster the animation
+          self.setCamera()
+      elif self.neckintroAnimationType == 1 or (self.neckintroAnimationType == 4 and self.neckintroThemeType == "guitar hero"): #Guitar Hero
+        if self.boardY <= 1:
+          self.setCamera()
+          if self.countdown > 0:
+            self.countdownOK = True
+            self.boardY = 1
+        elif self.boardY > 1:
+          self.boardY -= 0.2
+          self.setCamera()
+      elif self.neckintroAnimationType == 2 or (self.neckintroAnimationType == 4 and self.neckintroThemeType == "rockband"): #Rock Band
+        if self.boardZ <= 1:
+          self.setCamera()
+          if self.countdown > 0:
+            self.countdownOK = True
+            self.boardZ = 1
+        elif self.boardZ > 1:
+          self.boardZ -= 0.2
+          self.setCamera()
+      elif self.neckintroAnimationType == 3: #Off
+        self.setCamera()
+        if self.countdown > 0:
+          self.countdownOK = True
+
 
   def run(self, ticks): #QQstarS: Fix this funcion
     if self.song and self.song.readyToGo and not self.pause and not self.failed:
       Scene.run(self, ticks)
+      self.neckIntro()
       if not self.resumeCountdown and not self.pause:
         pos = self.getSongPosition()
 
@@ -4862,38 +4898,6 @@ class GuitarScene(Scene):
 
     if self.song and self.song.readyToGo:
       pos = self.getSongPosition()
-      #weirdpeople - differant styles for the start animation of the fretboard
-      if self.neckintroAnimationType == 0 or (self.neckintroAnimationType == 4 and self.neckintroThemeType == "fofix"): #Original
-        if self.boardY <= 1:
-          self.setCamera()
-          if self.countdown > 0: #if the countdown is already at 0 ex. after pause
-            self.countdownOK = True
-            self.boardY = 1
-        elif self.boardY > 1:
-          self.boardY -= 0.01 #speed of animation higher the number = the faster the animation
-          self.setCamera()
-      elif self.neckintroAnimationType == 1 or (self.neckintroAnimationType == 4 and self.neckintroThemeType == "guitar hero"): #Guitar Hero
-        if self.boardY <= 1:
-          self.setCamera()
-          if self.countdown > 0:
-            self.countdownOK = True
-            self.boardY = 1
-        elif self.boardY > 1:
-          self.boardY -= 0.2
-          self.setCamera()
-      elif self.neckintroAnimationType == 2 or (self.neckintroAnimationType == 4 and self.neckintroThemeType == "rockband"): #Rock Band
-        if self.boardZ <= 1:
-          self.setCamera()
-          if self.countdown > 0:
-            self.countdownOK = True
-            self.boardZ = 1
-        elif self.boardZ > 1:
-          self.boardZ -= 0.2
-          self.setCamera()
-      elif self.neckintroAnimationType == 3: #Off
-        self.setCamera()
-        if self.countdown > 0:
-          self.countdownOK = True
 
       Scene.render(self, visibility, topMost) #MFH - I believe this eventually calls the renderGuitar function, which also involves two viewports... may not be easy to move this one...
 
