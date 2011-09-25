@@ -613,12 +613,6 @@ class Instrument(object):
     self.scoreMultiplier = multiplier
     self.neck.scoreMultiplier = multiplier
 
-  def hitNote(self, time, note):
-    self.pickStartPos = max(self.pickStartPos, time)
-    self.playedNotes.append([time, note])
-    note.played       = True
-    return True
-
   def endPick(self, pos):
     if not self.isDrum:
       for time, note in self.playedNotes:

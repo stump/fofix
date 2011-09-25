@@ -738,7 +738,6 @@ class Drum(Instrument):
 
     return numHits
 
-
   def startPick(self, song, pos, controls, hopo = False):
     if not song:
       return False
@@ -747,32 +746,24 @@ class Drum(Instrument):
 
     self.matchingNotes = self.getRequiredNotesMFH(song, pos)    #MFH - ignore skipped notes please!
 
-
-    # no self.matchingNotes?
-    if not self.matchingNotes:
-      return False
-    self.playedNotes = []
     self.pickStartPos = pos
 
-    #adding bass drum hit every bass fret:
-
     for time, note in self.matchingNotes:
-      for i in range(5):
-        if note.number == i and (controls.getState(self.keys[i]) or controls.getState(self.keys[i+5])) and self.drumsHeldDown[i] > 0:
-          if self.guitarSolo:
-            self.currentGuitarSoloHitNotes += 1
-          if i == 0 and self.fretboardHop < 0.07:
-            self.fretboardHop = 0.07  #stump
+      self.pickStartPos = max(self.pickStartPos, time)
+      if (controls.getState(self.keys[note.number]) or controls.getState(self.keys[note.number + 5])) and self.drumsHeldDown[note.number] > 0:
+        if self.guitarSolo:
+          self.currentGuitarSoloHitNotes += 1
+        if note.number == 0 and self.fretboardHop < 0.07:
+          self.fretboardHop = 0.07  #stump
 
-          if shaders.turnon:
-            shaders.var["fret"][self.player][note.number]=shaders.time()
-            shaders.var["fretpos"][self.player][note.number]=pos
-
-          return self.hitNote(time, note)  
-
-
-
-    return False
+        note.played       = True
+        self.playedNotes.append([time, note])
+        return True
+      else:
+        note.skipped      = True
+        note.played       = False
+        self.missedNotes.append((time, note))
+        return False
 
   def run(self, ticks, pos, controls):
     if not self.paused:
