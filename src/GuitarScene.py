@@ -583,8 +583,6 @@ class GuitarScene(Scene):
     # evilynux: was 0.10, now much closer to actual GH3
     self.analogKillswitchStarpowerChunkSize = 0.15 * self.engine.audioSpeedFactor
     self.analogKillswitchActiveStarpowerChunkSize = self.analogKillswitchStarpowerChunkSize / 3.0
-    self.rbOverdriveBarGlowFadeInChunk = .07     #this amount added to visibility every run() cycle when fading in - original .2
-    self.rbOverdriveBarGlowFadeOutChunk = .03   #this amount subtracted from visibility every run() cycle when fading out - original .07
     self.crowdCheerFadeInChunk =  .02           #added to crowdVolume every run() when fading in
     self.crowdCheerFadeOutChunk = .03           #subtracted from crowdVolume every run() on fade out.
     self.maxDisplayTextScale = 0.0024       #orig 0.0024
@@ -854,8 +852,6 @@ class GuitarScene(Scene):
       self.boardZ = 5
     elif self.neckintroAnimationType == 4: #By Theme: will implememnt at later point
       self.boardY = 1
-    self.rbOverdriveBarGlowVisibility = 0
-    self.rbOverdriveBarGlowFadeOut = False
     self.counting = self.engine.config.get("video", "counting")
 
 
@@ -3660,18 +3656,6 @@ class GuitarScene(Scene):
               self.firstClap = False
           else:
             self.firstClap = True
-        
-      #MFH - new refugees from the render() function:
-      if self.theme == 2:
-        if self.rbOverdriveBarGlowFadeOut == False:
-          self.rbOverdriveBarGlowVisibility = self.rbOverdriveBarGlowVisibility + self.rbOverdriveBarGlowFadeInChunk
-        elif self.rbOverdriveBarGlowFadeOut == True:
-          self.rbOverdriveBarGlowVisibility = self.rbOverdriveBarGlowVisibility - self.rbOverdriveBarGlowFadeOutChunk
-
-        if self.rbOverdriveBarGlowVisibility >= 1 and self.rbOverdriveBarGlowFadeOut == False:
-          self.rbOverdriveBarGlowFadeOut = True
-        elif self.rbOverdriveBarGlowVisibility <= 0 and self.rbOverdriveBarGlowFadeOut == True:
-          self.rbOverdriveBarGlowFadeOut = False
       
       for playerNum in range(self.numOfPlayers):
         self.handlePhrases(playerNum, self.scoring[playerNum].streak)   #MFH - streak #1 for player #1...
