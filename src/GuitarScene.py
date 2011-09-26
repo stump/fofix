@@ -3324,6 +3324,80 @@ class GuitarScene(Scene):
         if self.countdown > 0:
           self.countdownOK = True
 
+  def checkBattleObjects(self, guitar, i):
+    if guitar.battleObjects[0] != 0:
+      self.battleItemsHolding[i] = 1
+    else:
+      self.battleItemsHolding[i] = 0
+    if guitar.battleObjects[1] != 0:
+      self.battleItemsHolding[i] = 2
+    if guitar.battleObjects[2] != 0:
+      self.battleItemsHolding[i] = 3
+        
+    if self.battleGH:
+      if guitar.battleBeingUsed[0] == 0 and guitar.battleBeingUsed[1] != 0:
+        guitar.battleBeingUsed[0] = guitar.battleBeingUsed[1]
+        guitar.battleBeingUsed[1] = 0
+      time = self.getSongPosition()
+          
+          
+      if guitar.battleStatus[1]:
+        if time - guitar.battleDrainStart > guitar.battleDrainLength:
+          Log.debug("Drain for Player %d disabled" % i)
+          guitar.battleStatus[1] = False
+          for k, nowUsed in enumerate(guitar.battleBeingUsed):
+            if guitar.battleBeingUsed[k] == 1:
+              guitar.battleBeingUsed[k] = 0
+        else:
+          self.rockmeterDrain(i)
+              
+      for k, nowUsed in enumerate(guitar.battleBeingUsed):
+        if guitar.battleBeingUsed[k] == 5:
+          guitar.battleBeingUsed[k] = 0
+            
+      if guitar.battleStatus[6]:
+        if time - guitar.battleStartTimes[6] > guitar.battleLeftyLength:
+          Log.debug("Lefty Mode for Player %d disabled" % i)
+          guitar.battleStatus[6] = False
+          for k, nowUsed in enumerate(guitar.battleBeingUsed):
+            if guitar.battleBeingUsed[k] == 6:
+              guitar.battleBeingUsed[k] = 0
+          
+      if guitar.battleStatus[8]:
+        if time - guitar.battleStartTimes[8] > guitar.battleAmpLength:
+          Log.debug("Diff Up Mode for Player %d disabled" % i)
+          guitar.battleStatus[8] = False
+          for k, nowUsed in enumerate(guitar.battleBeingUsed):
+            if guitar.battleBeingUsed[k] == 8:
+              guitar.battleBeingUsed[k] = 0
+                
+          
+      if guitar.battleStatus[7]:
+        if time - guitar.battleStartTimes[7] > guitar.battleDoubleLength:
+          Log.debug("Diff Up Mode for Player %d disabled" % i)
+          guitar.battleStatus[7] = False
+          for k, nowUsed in enumerate(guitar.battleBeingUsed):
+            if guitar.battleBeingUsed[k] == 7:
+              guitar.battleBeingUsed[k] = 0
+              
+      if guitar.battleStatus[3]:
+        if guitar.battleBreakNow <= 0:
+          guitar.battleStatus[3] = False
+          guitar.battleBreakString = 0
+          for k, nowUsed in enumerate(guitar.battleBeingUsed):
+            if guitar.battleBeingUsed[k] == 3:
+              guitar.battleBeingUsed[k] = 0
+              
+      if guitar.battleStatus[2]:
+        if time - guitar.battleStartTimes[2] > guitar.battleDiffUpLength:
+          Log.debug("Diff Up Mode for Player %d disabled" % i)
+          guitar.battleStatus[2] = False
+          self.song.difficulty[i] = Song.difficulties[guitar.battleDiffUpValue]
+          guitar.difficulty = guitar.battleDiffUpValue
+          for k, nowUsed in enumerate(guitar.battleBeingUsed):
+            if guitar.battleBeingUsed[k] == 2:
+              guitar.battleBeingUsed[k] = 0
+
 
   def run(self, ticks): #QQstarS: Fix this funcion
     if self.song and self.song.readyToGo and not self.pause and not self.failed:
@@ -3425,78 +3499,7 @@ class GuitarScene(Scene):
         playerNum = i
         guitar = instrument
 
-        if guitar.battleObjects[0] != 0:
-          self.battleItemsHolding[i] = 1
-        else:
-          self.battleItemsHolding[i] = 0
-        if guitar.battleObjects[1] != 0:
-          self.battleItemsHolding[i] = 2
-        if guitar.battleObjects[2] != 0:
-          self.battleItemsHolding[i] = 3
-        
-        if self.battleGH:
-          if guitar.battleBeingUsed[0] == 0 and guitar.battleBeingUsed[1] != 0:
-            guitar.battleBeingUsed[0] = guitar.battleBeingUsed[1]
-            guitar.battleBeingUsed[1] = 0
-          time = self.getSongPosition()
-          
-          
-          if guitar.battleStatus[1]:
-            if time - guitar.battleDrainStart > guitar.battleDrainLength:
-              Log.debug("Drain for Player %d disabled" % i)
-              guitar.battleStatus[1] = False
-              for k, nowUsed in enumerate(guitar.battleBeingUsed):
-                if guitar.battleBeingUsed[k] == 1:
-                  guitar.battleBeingUsed[k] = 0
-            else:
-              self.rockmeterDrain(i)
-              
-          for k, nowUsed in enumerate(guitar.battleBeingUsed):
-            if guitar.battleBeingUsed[k] == 5:
-              guitar.battleBeingUsed[k] = 0
-            
-          if guitar.battleStatus[6]:
-            if time - guitar.battleStartTimes[6] > guitar.battleLeftyLength:
-              Log.debug("Lefty Mode for Player %d disabled" % i)
-              guitar.battleStatus[6] = False
-              for k, nowUsed in enumerate(guitar.battleBeingUsed):
-                if guitar.battleBeingUsed[k] == 6:
-                  guitar.battleBeingUsed[k] = 0
-          
-          if guitar.battleStatus[8]:
-            if time - guitar.battleStartTimes[8] > guitar.battleAmpLength:
-              Log.debug("Diff Up Mode for Player %d disabled" % i)
-              guitar.battleStatus[8] = False
-              for k, nowUsed in enumerate(guitar.battleBeingUsed):
-                if guitar.battleBeingUsed[k] == 8:
-                  guitar.battleBeingUsed[k] = 0
-                
-          
-          if guitar.battleStatus[7]:
-            if time - guitar.battleStartTimes[7] > guitar.battleDoubleLength:
-              Log.debug("Diff Up Mode for Player %d disabled" % i)
-              guitar.battleStatus[7] = False
-              for k, nowUsed in enumerate(guitar.battleBeingUsed):
-                if guitar.battleBeingUsed[k] == 7:
-                  guitar.battleBeingUsed[k] = 0
-              
-          if guitar.battleStatus[3]:
-            if guitar.battleBreakNow <= 0:
-              guitar.battleStatus[3] = False
-              guitar.battleBreakString = 0
-              for k, nowUsed in enumerate(guitar.battleBeingUsed):
-                if guitar.battleBeingUsed[k] == 3:
-                  guitar.battleBeingUsed[k] = 0
-              
-          if guitar.battleStatus[2]:
-            if time - guitar.battleStartTimes[2] > guitar.battleDiffUpLength:
-              Log.debug("Diff Up Mode for Player %d disabled" % i)
-              guitar.battleStatus[2] = False
-              self.song.difficulty[i] = Song.difficulties[guitar.battleDiffUpValue]
-              guitar.difficulty = guitar.battleDiffUpValue
-              for k, nowUsed in enumerate(guitar.battleBeingUsed):
-                if guitar.battleBeingUsed[k] == 2:
-                  guitar.battleBeingUsed[k] = 0
+        self.checkBattleObjects(guitar, i)
       
         if guitar.isDrum and guitar.freestyleSP:    #MFH - this drum fill starpower activation logic should always be checked.
           
